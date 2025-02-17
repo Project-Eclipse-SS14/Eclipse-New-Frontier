@@ -1,32 +1,32 @@
-mail-recipient-mismatch = Recipient name or job does not match.
-mail-recipient-mismatch-name = Recipient name does not match.
-mail-invalid-access = Recipient name and job match, but access isn't as expected.
-mail-locked = The anti-tamper lock hasn't been removed. Tap the recipient's ID.
-mail-desc-far = A parcel of mail.
-mail-desc-close = A parcel of mail addressed to {CAPITALIZE($name)}, {$job}. Last known location: {$station}.
-mail-desc-fragile = It has a [color=red]red fragile label[/color].
-mail-desc-priority = The anti-tamper lock's [color=yellow]yellow priority tape[/color] is active.
-mail-desc-priority-inactive = The anti-tamper lock's [color=#886600]yellow priority tape[/color] is inactive.
-mail-unlocked = Anti-tamper system unlocked.
-mail-unlocked-by-emag = Anti-tamper system *BZZT*.
-mail-unlocked-reward = Anti-tamper system unlocked. {$bounty} spesos have been added to Frontier account.
-mail-penalty-lock = ANTI-TAMPER LOCK BROKEN. STATION BANK ACCOUNT PENALIZED BY {$credits} SPESOS.
-mail-penalty-fragile = INTEGRITY COMPROMISED. STATION BANK ACCOUNT PENALIZED BY {$credits} SPESOS.
-mail-penalty-expired = DELIVERY PAST DUE. STATION BANK ACCOUNT PENALIZED BY {$credits} SPESOS.
-mail-item-name-unaddressed = mail
-mail-item-name-addressed = mail ({$recipient})
+mail-recipient-mismatch = Имя или должность получателя не совпадают.
+mail-recipient-mismatch-name = Имя получателя не совпадает.
+mail-invalid-access = Имя и должность получателя совпадают, но доступ не соответствует ожиданиям.
+mail-locked = Антивандальный замок не снят. Коснитесь ID получателя.
+mail-desc-far = Посылка.
+mail-desc-close = Посылка адресована { CAPITALIZE($name) }, { $job }. Последнее известное местоположение: { $station }.
+mail-desc-fragile = На ней [color=red]красная наклейка «Осторожно, хрупкое»[/color].
+mail-desc-priority = На антивандальном замке активирована [color=yellow]жёлтая лента приоритета[/color].
+mail-desc-priority-inactive = На антивандальном замке [color=#886600]жёлтая лента приоритета[/color] не активна.
+mail-unlocked = Антивандальная система разблокирована.
+mail-unlocked-by-emag = Антивандальная система *БЗЗТ*.
+mail-unlocked-reward = Антивандальная система разблокирована. На ваш счет зачислено { $bounty } кредитов.
+mail-penalty-lock = АНТИВАНДАЛЬНЫЙ ЗАМОК ПОВРЕЖДЕН. С банковского счета станции списано { $credits } кредитов.
+mail-penalty-fragile = ЦЕЛОСТНОСТЬ НАРУШЕНА. С банковского счета станции списано { $credits } кредитов.
+mail-penalty-expired = СРОК ДОСТАВКИ ИСТЕК. С банковского счета станции списано { $credits } кредитов.
+mail-item-name-unaddressed = посылка
+mail-item-name-addressed = посылка ({ $recipient })
 
 # Frontier: reworded description, does not need to be a container.
-command-mailto-description = Queue an item to be delivered to a recipient. Example usage: `mailto 1234 5678 false false`. If the target entity is a container, its contents will be transferred to an actual mail parcel.
+command-mailto-description = Поставить в очередь отправку посылки получателю. Пример использования: `mailto 1234 5678 false false`. Содержимое целевого контейнера будет перенесено в почтовую посылку.
 # Frontier: add is-large description, container<contents
-command-mailto-help = Usage: {$command} <recipient entityUid> <contents entityUid> [is-fragile: true|false] [is-priority: true|false] [is-large: true|false]
-command-mailto-no-mailreceiver = Target recipient entity does not have a {$requiredComponent}.
-command-mailto-no-blankmail = The {$blankMail} prototype doesn't exist. Something is very wrong. Contact a programmer.
-command-mailto-bogus-mail = {$blankMail} did not have {$requiredMailComponent}. Something is very wrong. Contact a programmer.
-command-mailto-invalid-container = Target container entity does not have a {$requiredContainer} container.
-command-mailto-unable-to-receive = Target recipient entity was unable to be setup for receiving mail. ID may be missing.
-command-mailto-no-teleporter-found = Target recipient entity was unable to be matched to any station's mail teleporter. Recipient may be off-station.
-command-mailto-success = Success! Mail parcel has been queued for next teleport in {$timeToTeleport} seconds.
+command-mailto-help = Использование: { $command } <идентификатор получателя> <идентификатор контейнера> [хрупкость: true или false] [приоритет: true или false] [большой размер: true или false, опционально]
+command-mailto-no-mailreceiver = Целевой сущности-получателю не хватает { $requiredComponent }.
+command-mailto-no-blankmail = Прототип { $blankMail } отсутствует. Что-то пошло не так. Обратитесь к программисту.
+command-mailto-bogus-mail = У { $blankMail } отсутствует { $requiredMailComponent }. Что-то пошло не так. Обратитесь к программисту.
+command-mailto-invalid-container = Целевая сущность-контейнер не имеет необходимого { $requiredContainer }.
+command-mailto-unable-to-receive = Целевой сущности-получателю не удалось настроить прием почты. Возможно, отсутствует ID.
+command-mailto-no-teleporter-found = Целевая сущность-получатель не соответствует ни одному почтовому телепортеру станции. Возможно, получатель находится вне станции.
+command-mailto-success = Успех! Посылка добавлена в очередь следующего телепорта через { $timeToTeleport } секунд.
 
 # Frontier: mailto command completions
 command-mailto-completion-recipient = <recipient entityUid>
@@ -36,6 +36,11 @@ command-mailto-completion-priority = [is-priority: true|false]
 command-mailto-completion-large = [is-large: true|false]
 # End Frontier
 
-command-mailnow = Force all mail teleporters to deliver another round of mail as soon as possible. This will not bypass the undelivered mail limit.
-command-mailnow-help = Usage: {$command}
-command-mailnow-success = Success! All mail teleporters will be delivering another round of mail soon.
+command-mailtestbulk = Отправить по одному экземпляру каждого типа посылки на указанный почтовый телепортер. Неявно вызывает mailnow.
+command-mailtestbulk-help = Использование: { $command } <идентификатор телепортера>
+command-mailtestbulk-success = Успех! Все почтовые телепортеры скоро отправят новую партию посылок.
+
+
+command-mailnow = Принудительно активировать отправку всех посылок через телепортеры как можно скорее. Это не обойдет ограничение на недоставленные посылки.
+command-mailnow-help = Использование: { $command }
+command-mailnow-success = Успех! Все почтовые телепортеры скоро отправят новую партию посылок.

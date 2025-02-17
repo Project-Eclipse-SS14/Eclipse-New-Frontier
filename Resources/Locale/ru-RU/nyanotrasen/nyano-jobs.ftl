@@ -1,9 +1,9 @@
-job-name-mail-carrier = Mail Carrier
-# job-name-prisoner defined in main job-names.ftl
-job-name-valet = Valet
-job-name-guard = Prison Guard
+job-name-mail-carrier = Почтальон
+job-name-prisoner = Заключенный
+job-name-valet = Консьерж
+job-name-guard = Тюремный охранник
 
-job-description-mail-carrier = Deliver mail. Avoid dogs.
-job-description-prisoner = Sit in prison. Gamble with your cellmates. Talk to the bailiff. Write your memoirs.
-job-description-valet = Take care of the station and its many guests.
-job-description-guard = Keep track of prisoners and make sure they have their basic needs.
+job-description-mail-carrier = Доставлять почту. Избегать собак.
+job-description-prisoner = Сидеть в тюрьме. Играть в азартные игры с сокамерниками. Писать мемуары. Пытаться сбежать.
+job-description-valet = Заботиться о станции и её многочисленных гостях.
+job-description-guard = Следить за заключенными и обеспечивать их основными потребностями.

@@ -14,7 +14,7 @@ atmos-alerts-window-pressure-label = Давление
 atmos-alerts-window-pressure-value = { $value } кПа
 atmos-alerts-window-total-mol-label = Всего молей
 atmos-alerts-window-total-mol-value = {$value} моль
-atmos-alerts-window-invalid-value = N/A
+atmos-alerts-window-invalid-value = Н/Д
 atmos-alerts-window-oxygenation-label = Оксигенация
 atmos-alerts-window-oxygenation-value = { $value }%
 atmos-alerts-window-other-gases-label = Прочие газы
@@ -23,7 +23,7 @@ atmos-alerts-window-other-gases-value-nil = Нет
 atmos-alerts-window-silence-alerts = Заглушить предупреждения этой сигнализации
 atmos-alerts-window-total-mol-label = Всего молей
 atmos-alerts-window-total-mol-value = {$value} моль
-atmos-alerts-window-invalid-value = N/A
+atmos-alerts-window-invalid-value = Н/Д
 
 atmos-alerts-window-label-alert-types = Уровни тревоги:
 atmos-alerts-window-normal-state = Нормально

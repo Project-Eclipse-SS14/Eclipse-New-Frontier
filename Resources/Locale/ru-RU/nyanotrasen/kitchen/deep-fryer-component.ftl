@@ -1,56 +1,56 @@
 ## DeepFryer Entity
 
-deep-fryer-blacklist-item-failed = {CAPITALIZE(THE($item))} fails to be covered in oil.
-deep-fryer-oil-purity-low = {CAPITALIZE(THE($deepFryer))} sputters to no effect.
-deep-fryer-oil-volume-low = {CAPITALIZE(THE($deepFryer))} burns and spews smoke!
-deep-fryer-oil-no-slag = There's no slag to drain.
+deep-fryer-blacklist-item-failed = { CAPITALIZE(THE($item)) } не удается покрыть маслом.
+deep-fryer-oil-purity-low = { CAPITALIZE(THE($deepFryer)) } бесполезно булькает.
+deep-fryer-oil-volume-low = { CAPITALIZE(THE($deepFryer)) } загорается и задымляет!
+deep-fryer-oil-no-slag = Осадок отсутствует.
 
-deep-fryer-storage-full = All of the baskets are full.
-deep-fryer-storage-no-fit = {CAPITALIZE(THE($item))} won't fit inside one of the baskets.
-deep-fryer-interact-using-not-item = That doesn't seem to be an item.
+deep-fryer-storage-full = Все корзины заполнены.
+deep-fryer-storage-no-fit = { CAPITALIZE(THE($item)) } не влезает в корзину.
+deep-fryer-interact-using-not-item = Похоже, это не предмет.
 
-deep-fryer-need-liquid-container-in-hand = You need to first hold a liquid container like a beaker or bowl in your active hand.
+deep-fryer-need-liquid-container-in-hand = Нужен сосуд для жидкости, типа колбы или миски, в активной руке.
 
-deep-fryer-thrown-missed = Missed!
-deep-fryer-thrown-hit-oil = Plop!
-deep-fryer-thrown-hit-oil-low = Plonk!
+deep-fryer-thrown-missed = Мимо!
+deep-fryer-thrown-hit-oil = Бульк!
+deep-fryer-thrown-hit-oil-low = Плеск!
 
-deep-fryer-entity-escape = {CAPITALIZE(THE($victim))} leaps out of {THE($deepFryer)}!
+deep-fryer-entity-escape = { CAPITALIZE(THE($victim)) } выпрыгивает из { THE($deepFryer) }!
 
 ## DeepFryer UI
 
-deep-fryer-window-title = Deep Fryer
-deep-fryer-label-baskets = Baskets
-deep-fryer-label-oil-level = Oil Level
-deep-fryer-label-oil-purity = Oil Purity
-deep-fryer-button-insert-item = Insert Item
-deep-fryer-button-insert-item-tooltip = Place your held item into one of the deep fryer baskets.
-deep-fryer-button-scoop-vat = Scoop Vat
-deep-fryer-button-scoop-vat-tooltip = Scoop out some liquid from the oil vat. You need to hold a liquid container for this.
-deep-fryer-button-clear-slag = Clear Slag
-deep-fryer-button-clear-slag-tooltip = Clear out some waste from the oil vat. You need to hold a liquid container for this.
-deep-fryer-button-remove-all-items = Remove All Items
-deep-fryer-button-remove-all-items-tooltip = Remove all of the items from the deep fryer baskets at once.
+deep-fryer-window-title = Фритюрница
+deep-fryer-label-baskets = Корзины
+deep-fryer-label-oil-level = Уровень масла
+deep-fryer-label-oil-purity = Чистота масла
+deep-fryer-button-insert-item = Добавить предмет
+deep-fryer-button-insert-item-tooltip = Положите предмет, который вы держите, в одну из корзин фритюрницы.
+deep-fryer-button-scoop-vat = Черпать из ванны
+deep-fryer-button-scoop-vat-tooltip = Зачерпните масло из ванны. Необходим сосуд в активной руке.
+deep-fryer-button-clear-slag = Очистить осадок
+deep-fryer-button-clear-slag-tooltip = Очистите осадок из ванны. Необходим сосуд в активной руке.
+deep-fryer-button-remove-all-items = Удалить всё
+deep-fryer-button-remove-all-items-tooltip = Удалите все предметы из корзин сразу.
 
 ## DeepFriedComponent
 
-deep-fried-crispy-item = crispy {$entity}
-deep-fried-crispy-item-examine = It's covered in a crispy, oily texture.
+deep-fried-crispy-item = хрустящий { $entity }
+deep-fried-crispy-item-examine = Покрыт хрустящей, жирной корочкой.
 
-deep-fried-fried-item = deep-fried {$entity}
-deep-fried-fried-item-examine = It's covered in a thick, crispy layer.
+deep-fried-fried-item = жареный { $entity }
+deep-fried-fried-item-examine = Обволакивает толстый слой хрустящей корочки.
 
-deep-fried-burned-item = burned {$entity}
-deep-fried-burned-item-examine = It's blackened with char.
+deep-fried-burned-item = подгорелый { $entity }
+deep-fried-burned-item-examine = Почернел от нагара.
 
 # Frontier: cauldron definitions
-deep-fried-spooky-item = spooky {$entity}
-deep-fried-spooky-item-examine = It's slick with oil and translucent.
+deep-fried-spooky-item = жуткий {$entity}
+deep-fried-spooky-item-examine = Он смазан маслом и полупрозрачен.
 
-deep-fried-spectral-item = spectral {$entity}
-deep-fried-spectral-item-examine = It's oily, transparent, and unnaturally light.
+deep-fried-spectral-item = спектральный {$entity}
+deep-fried-spectral-item-examine = Он маслянистый, прозрачный и неестественно легкий.
 # Set reuses burned item from above
 # End Frontier
 
-reagent-name-oil-ghee = ghee
-reagent-desc-oil-ghee = Thick and translucent.
+reagent-name-oil-ghee = топлёное масло
+reagent-desc-oil-ghee = Густое и полупрозрачное.

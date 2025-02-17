@@ -1,18 +1,18 @@
-﻿role-timer-department-insufficient = You require [color=yellow]{$time}[/color] more playtime in the [color={$departmentColor}]{$department}[/color] department to play this role.
-role-timer-department-too-high = You require [color=yellow]{$time}[/color] less playtime in the [color={$departmentColor}]{$department}[/color] department to play this role. (Are you trying to play a trainee role?)
-role-timer-overall-insufficient = You require [color=yellow]{$time}[/color] more overall playtime to play this role.
-role-timer-overall-too-high = You require [color=yellow]{$time}[/color] less overall playtime to play this role. (Are you trying to play a trainee role?)
-role-timer-role-insufficient = You require [color=yellow]{$time}[/color] more playtime with [color={$departmentColor}]{$job}[/color] to play this role.
-role-timer-role-too-high = You require[color=yellow] {$time}[/color] less playtime with [color={$departmentColor}]{$job}[/color] to play this role. (Are you trying to play a trainee role?)
-role-timer-age-too-old = Your character must be under the age of [color=yellow]{$age}[/color] to play this role.
-role-timer-age-too-young = Your character must be over the age of [color=yellow]{$age}[/color] to play this role.
-role-timer-whitelisted-species = Your character must be one of the following species to play this role:
-role-timer-blacklisted-species = Your character must not be one of the following species to play this role:
-role-timer-whitelisted-traits = Your character must have one of the following traits:
-role-timer-blacklisted-traits = Your character must not have any of the following traits:
+﻿role-timer-department-insufficient = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут больше в [color={$departmentColor}]{$department}[/color] для игры на этой роли.
+role-timer-department-too-high = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут меньше в [color={$departmentColor}]{$department}[/color] для игры на этой роли. (Это роль для новичков)
+role-timer-overall-insufficient = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут больше общего игрового времени для игры на этой роли.
+role-timer-overall-too-high = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут меньше общего игрового времени для игры на этой роли. (Это роль для новичков)
+role-timer-role-insufficient = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут больше в качестве [color={$departmentColor}]{$job}[/color] для игры на этой роли.
+role-timer-role-too-high = Вам требуется на [color=yellow]{ TOSTRING($time, "0") }[/color] минут меньше в качестве [color={$departmentColor}]{$job}[/color] для игры на этой роли. (Это роль для новичков)
+role-timer-age-to-old = Возраст вашего персонажа должен быть не более [color=yellow]{$age}[/color] для игры на этой роли.
+role-timer-age-to-young = Возраст вашего персонажа должен быть не менее [color=yellow]{$age}[/color] для игры на этой роли.
+role-timer-whitelisted-species = Для игры на этой роли, ваш персонаж должен быть одной из следующих рас:
+role-timer-blacklisted-species = Для игры на этой роли, ваш персонаж не должен быть одной из следующих рас:
+role-timer-whitelisted-traits = Ваш персонаж должен обладать одной из следующих черт:
+role-timer-blacklisted-traits = Ваш персонаж не должен обладать ни одной из следующих черт:
 
-role-timer-locked = Locked (hover for details)
+role-timer-locked = Закрыто (наведите курсор для подробностей)
 
-role-timer-department-unknown = Unknown Department
+role-timer-department-unknown = Неизвестный отдел
 
-role-ban = You have been banned from this role.
+role-ban = Вам запрещено играть на этой роли.

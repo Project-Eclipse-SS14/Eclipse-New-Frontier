@@ -11,7 +11,7 @@ ledger-no-income = Нету
 ledger-total-expenses = Общие расходы
 ledger-no-expenses = Нету
 ledger-balance = Баланс:
-ledger-no-balance = N/A
+ledger-no-balance = Н/Д
 
 ledger-tab-Frontier = Аванпост Фронтир
 ledger-tab-Nfsd = ДСБФ

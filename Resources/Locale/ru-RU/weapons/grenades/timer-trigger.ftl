@@ -1,16 +1,16 @@
 
-verb-trigger-timer-set = {$time} Seconds
-verb-trigger-timer-set-current = {$time} Seconds (current)
-verb-trigger-timer-cycle = Cycle Time Delay
+verb-trigger-timer-set = { $time } секунд
+verb-trigger-timer-set-current = { $time } секунд (сейчас)
+verb-trigger-timer-cycle = Циклическое переключение задержки
 
-examine-trigger-timer = The timer is set to {$time} seconds.
+examine-trigger-timer = Таймер установлен на { $time } секунд.
 
-popup-trigger-timer-set = Timer set to {$time} seconds.
+popup-trigger-timer-set = Таймер установлен на { $time } секунд.
 
-verb-start-detonation = Start detonation
+verb-start-detonation = Запустить детонацию
 
-verb-toggle-start-on-stick = Toggle auto-activation
-popup-start-on-stick-off = The device will no longer activate automatically when planted
-popup-start-on-stick-on = The device will now activate automatically when planted
+verb-toggle-start-on-stick = Переключить автоактивацию
+popup-start-on-stick-off = Устройство НЕ будет автоматически активировано после установки
+popup-start-on-stick-on = Устройство будет автоматически активировано после установки
 
-trigger-activated = You activate {THE($device)}.
+trigger-activated = Вы активировали { $device }.

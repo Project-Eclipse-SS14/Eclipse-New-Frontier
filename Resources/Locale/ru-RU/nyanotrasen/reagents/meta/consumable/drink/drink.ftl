@@ -1,11 +1,11 @@
-reagent-name-atomicpunch = atomic punch
-reagent-desc-atomicpunch = Will NOT make you immune to bullets; Isotopes included!
+reagent-name-atomicpunch = атомный удар
+reagent-desc-atomicpunch = НЕ сделает вас неуязвимым для пуль; изотопы включены!
 
-reagent-name-pinkdrink = pink drink
-reagent-desc-pinkdrink = Entire civilizations have crumbled trying to decide if this drink really tastes like pink...
+reagent-name-pinkdrink = розовый бархат
+reagent-desc-pinkdrink = Целые цивилизации разрушились, пытаясь решить, действительно ли этот напиток на вкус розовый...
 
-reagent-name-bubbletea = bubble tea
-reagent-desc-bubbletea = Big straw not included.
+reagent-name-bubbletea = бабл-ти
+reagent-desc-bubbletea = Большая трубочка в комплект не входит.
 
-reagent-name-lean = lean
-reagent-desc-lean = A disgusting mixture of soda, booze, and cough syrup.
+reagent-name-lean = лин
+reagent-desc-lean = Отвратительная смесь содовой, алкоголя и сиропа от кашля.
