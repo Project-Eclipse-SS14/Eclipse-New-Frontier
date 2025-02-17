@@ -1,5 +1,5 @@
-advertisement-yarrrdrobe-1 = Eye patches 50% off.
-advertisement-yarrrdrobe-2 = Plunder some booty while you dress as a beauty!
-advertisement-yarrrdrobe-3 = Who needs an extra leg anyways?
-advertisement-yarrrdrobe-4 = Come get yer supplies while you last!
-advertisement-yarrrdrobe-5 = Oi, landlubber! Get o'er here and plunder me!
+advertisement-yarrrdrobe-1 = Скидка 50% на пиратские повязки! Налетай!
+advertisement-yarrrdrobe-2 = Грабь корабли с шиком! Наряды для стильных пиратов!
+advertisement-yarrrdrobe-3 = Зачем вам две ноги, когда есть крюк?
+advertisement-yarrrdrobe-4 = Запасайся, пока не отдал концы, морской волк!
+advertisement-yarrrdrobe-5 = Эй, салага! Иди сюда, пограбь старину Йо-хо-хо!

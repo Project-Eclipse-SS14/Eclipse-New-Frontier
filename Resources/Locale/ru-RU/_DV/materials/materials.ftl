@@ -1,1 +1,1 @@
-materials-raw-bluespace = необработанный блюспейс
+materials-raw-bluespace = сырой блюспейс

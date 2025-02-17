@@ -1,27 +1,28 @@
-bwoink-user-title = Admin Message
+bwoink-user-title = Сообщение от администратора
 
-bwoink-system-starmute-message-no-other-users = *System: Nobody is available to receive your message. Try pinging Game Admins on Discord.
+bwoink-system-starmute-message-no-other-users = *Система: Никто не доступен для получения вашего сообщения. Попробуйте обратиться к администраторам игры в Discord.
 
 bwoink-system-messages-being-relayed-to-discord =
-    All messages are relayed to game administrators via Discord.
-    Issues may be handled without a response.
+Ваше сообщение было передано администраторам в Discord.
+Оно может остаться без ответа.
 
 bwoink-system-introductory-message =
-    Please describe the issue that you have encountered in detail. Assume that the game administrator who is resolving the problem does not have first-hand knowledge of what has occurred.
-    Please do not ask for special events or punishments for other players.
-    Any bugs and other related issues should be reported through Discord or Github.
-    Misuse of this message system may result in disciplinary action.
+    Пожалуйста, подробно опишите проблему, с которой вы столкнулись. Предположите, что администратор игры, решающий проблему, не знает о случившемся из первых рук.
+    Пожалуйста, не просите о специальных событиях или наказаниях для других игроков.
+    О любых ошибках и других проблемах следует сообщать через Discord или Github.
+    Неправильное использование этой системы сообщений может привести к дисциплинарным мерам.
 
-bwoink-system-typing-indicator = {$players} {$count ->
-[one] is
-*[other] are
-} typing...
+bwoink-system-typing-indicator =
+    {$players} {$count ->
+        [one] печатает
+        *[other] печатают
+    } ...
 
-admin-bwoink-play-sound = Bwoink?
+admin-bwoink-play-sound = Бвоинк?
 
-bwoink-title-none-selected = None selected
+bwoink-title-none-selected = Ничего не выбрано
 
-bwoink-system-rate-limited = System: you are sending messages too quickly.
-bwoink-system-player-disconnecting = has disconnected.
-bwoink-system-player-reconnecting = has reconnected.
-bwoink-system-player-banned = has been banned for: {$banReason}
+bwoink-system-rate-limited = Система: вы отправляете сообщения слишком быстро.
+bwoink-system-player-disconnecting = отключился.
+bwoink-system-player-reconnecting = переподключился.
+bwoink-system-player-banned = был забанен за: { $banReason }

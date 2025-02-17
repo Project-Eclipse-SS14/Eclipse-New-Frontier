@@ -1,1 +1,1 @@
-no-sing-while-no-speak = Ты не можешь сейчас петь.
+no-sing-while-no-speak = Вы не можете петь прямо сейчас.

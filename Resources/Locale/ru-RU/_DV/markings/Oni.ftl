@@ -1,4 +1,4 @@
-marking-OniHornShaved = Shaved
-marking-OniHornShaved-shaved = Shaved
-marking-OniHornBull = Bull
-marking-OniHornBull-bull = Bull
+marking-OniHornShaved = Обрезанный
+marking-OniHornShaved-shaved = Обрезанный
+marking-OniHornBull = Бычий
+marking-OniHornBull-bull = Бычий

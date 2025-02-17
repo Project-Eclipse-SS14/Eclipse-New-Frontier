@@ -1,5 +1,5 @@
-advertisement-nfsddrobe-1 = Looking To 'Cop' A Fresh Look?
-advertisement-nfsddrobe-2 = From Boots to Caps, We Got Your Back
-advertisement-nfsddrobe-3 = Enforce Fashion With Arresting Attire
-advertisement-nfsddrobe-4 = Serve Justice, Look Fabulous!
-advertisement-nfsddrobe-5 = Now you can wear your brown pants too
+advertisement-nfsddrobe-1 = Хотите выглядеть как крутой коп? Вам сюда!
+advertisement-nfsddrobe-2 = От берцев до кепок - всё для настоящего служителя закона
+advertisement-nfsddrobe-3 = Модный приговор: арестуйте всех своим видом!
+advertisement-nfsddrobe-4 = Вершите правосудие стильно!
+advertisement-nfsddrobe-5 = У нас даже есть коричневые штаны на случай внезапной тревоги!

@@ -14,7 +14,7 @@ salvage-biome-mod-shadow = Теневой лес
 
 salvage-dungeon-mod-cave-factory = Пещерная фабрика
 salvage-dungeon-mod-med-sci = Научно-медицинская база
-salvage-dungeon-mod-factory-dorms = Фабричное общежитие
+salvage-dungeon-mod-factory-dorms = Заводские общежития
 salvage-dungeon-mod-lava-mercenary = База наемников над лавой
 salvage-dungeon-mod-virology-lab = Вирусологическая лаборатория
 salvage-dungeon-mod-salvage-outpost = Шахтерский форпост

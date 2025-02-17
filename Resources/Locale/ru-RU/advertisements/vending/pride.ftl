@@ -1,7 +1,7 @@
-﻿advertisement-pride-1 = Be gay do crime!
-advertisement-pride-2 = Full of colors!
-advertisement-pride-3 = You are valid!
-advertisement-pride-4 = The first pride was a riot!
-thankyou-pride-1 = Slay!
-thankyou-pride-2 = Knock 'em dead!
-thankyou-pride-3 = What a glow up!
+﻿advertisement-pride-1 = Будь геем, совершай преступления!
+advertisement-pride-2 = Полно цветов!
+advertisement-pride-3 = Вы в полном порядке!
+advertisement-pride-4 = Первый прайд был настоящим бунтом!
+thankyou-pride-1 = Убей!
+thankyou-pride-2 = Побейте их!
+thankyou-pride-3 = Как же он светится!
