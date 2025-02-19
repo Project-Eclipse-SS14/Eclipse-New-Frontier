@@ -16,15 +16,15 @@ chat-speech-verb-harpy-1 = щебечет
 chat-speech-verb-harpy-2 = чирикает
 chat-speech-verb-harpy-3 = каркает
 chat-speech-verb-harpy-4 = вибрирует
-chat-speech-verb-name-goblin = Гоблин
 
+chat-speech-verb-name-goblin = Гоблин
 chat-speech-verb-goblin-1 = бормочет
 chat-speech-verb-goblin-2 = ворчит
 chat-speech-verb-goblin-3 = выкрикивает
 chat-speech-verb-goblin-4 = лепечет
 chat-speech-verb-goblin-5 = отсекает
 
-chat-speech-verb-name-rodentia = Родентия
+chat-speech-verb-name-rodentia = Родента
 chat-speech-verb-rodentia-1 = скрипит
 chat-speech-verb-rodentia-2 = пищит
 chat-speech-verb-rodentia-3 = болтает

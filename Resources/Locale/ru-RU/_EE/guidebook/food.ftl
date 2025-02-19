@@ -1,5 +1,6 @@
 guidebook-food-name = [bold][color={$color}]{CAPITALIZE($name)}[/color][/bold]
-guidebook-food-unknown-proto = Неизвестный прототип
+# Error
+guidebook-food-unknown-proto = Unknown prototype 
 # Frontier
 guidebook-food-recipes-header = Рецепты
 guidebook-food-recipes-ent-wrapper = [bold]{$name}[/bold] \[{$amount}\]
@@ -11,9 +12,9 @@ guidebook-food-reagents-header = Пищевая ценность
 guidebook-food-processing-butchering = Разделка мяса
 guidebook-food-processing-slicing = Нарезка
 # Frontier: Microwave<Cook (multiple machine types)
-guidebook-food-processing-cooking = {CAPITALIZE($processingTypes)} на {$time}с
+guidebook-food-processing-cooking = {CAPITALIZE($processingTypes)} {$time} секунд
 # Frontier: deep fryer cook type
-guidebook-food-processing-deep-fry = {CAPITALIZE($processingTypes)} на {$time} циклов
+guidebook-food-processing-deep-fry = {CAPITALIZE($processingTypes)} {$time} циклов
 guidebook-food-processing-reaction = Смешивание
 
 guidebook-food-processing-recipe = {$ingredients}
@@ -23,10 +24,10 @@ guidebook-food-ingredient-liquid = [bold]{$name}[/bold] \[{$amount}u\]
 guidebook-food-output = [bold]{$name}[/bold] \[{$number}\]
 
 # Frontier: processing types
-guidebook-food-processing-type-microwave = разогреть в микроволновке
+guidebook-food-processing-type-microwave = разогревать в микроволновке
 guidebook-food-processing-type-oven = запекать
-guidebook-food-processing-type-assembler = собрать
-guidebook-food-processing-type-medical-assembler = собрать
+guidebook-food-processing-type-assembler = собирать
+guidebook-food-processing-type-medical-assembler = собирать
 guidebook-food-processing-type-medical-generic = готовить
 guidebook-food-processing-type-deepfryer = жарить во фритюре
 # End Frontier: processing types

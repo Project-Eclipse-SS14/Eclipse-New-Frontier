@@ -19,6 +19,3 @@ loadout-group-contractor-survival-box = наборы выживания
 loadout-group-contractor-encryption-key = ключи шифрования
 loadout-group-contractor-implanter = импланты
 loadout-group-contractor-bureaucracy = бюрократия
-loadout-group-contractor-underwearsocks = Общие, носки
-loadout-group-contractor-underweartop = Общие, бра
-loadout-group-contractor-underwearbottom = Общие, трусы

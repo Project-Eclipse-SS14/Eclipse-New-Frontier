@@ -6,4 +6,4 @@ petting-failure-artifact = Вы протягиваете руку, чтобы п
 ## Patting players
 pat-success-generic = Вы гладите {THE($target)} по {POSS-ADJ($target)} мягкой пушистой голове.
 pat-success-generic-others = { CAPITALIZE(THE($user)) } гладит {THE($target)} по {POSS-ADJ($target)} мягкой пушистой голове.
-pat-success-generic-target = { CAPITALIZE(THE($user)) } гладит вас по мягкой пушистой голове.
+pat-success-generic-target = { CAPITALIZE(THE($user)) } гладит вас по вашей мягкой пушистой голове.
