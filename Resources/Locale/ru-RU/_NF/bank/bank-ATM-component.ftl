@@ -38,4 +38,4 @@ bank-atm-menu-cash-error = ERR: ОШИБКА
 ## ATM entity
 bank-ATM-cashSlot = Купюроприёмник
 station-bank-ATM-cashSlot = Купюроприёмник
-bank-ATM-cashSlot-item-wont-fit = Он не влезет сюда!
+bank-ATM-cashSlot-item-wont-fit = Оно не влезет сюда!

@@ -1,7 +1,7 @@
 ## Entity
 microwave-component-range-interact-item-too-big = { CAPITALIZE(THE($item)) } слишком большой, чтобы поместиться в духовке!
-microwave-component-assembler-interact-item-too-big = { CAPITALIZE(THE($item)) } is too big to fit in the Фуд-О-Мат!
-microwave-component-medical-assembler-interact-item-too-big = { CAPITALIZE(THE($item)) } слишком велик, чтобы поместиться в медицинском ассемблере!
+microwave-component-assembler-interact-item-too-big = { CAPITALIZE(THE($item)) } слишком большой, чтобы поместиться в Фуд-О-Мат!
+microwave-component-medical-assembler-interact-item-too-big = { CAPITALIZE(THE($item)) } слишком большой, чтобы поместиться в медицинском ассемблере!
 
 microwave-component-upgrade-cook-time = время приготовления
 

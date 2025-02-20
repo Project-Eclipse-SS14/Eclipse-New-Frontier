@@ -1,1 +1,1 @@
-fibers-cream = кремовый
+fibers-cream = кремовые

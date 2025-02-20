@@ -85,7 +85,7 @@ petting-failure-medical-cyborg = Вы тянетесь погладить { $tar
 petting-failure-service-cyborg = Вы тянетесь погладить { $target }, но { $target } занимается обслуживанием экипажа!
 petting-failure-syndicate-cyborg = Вы тянетесь погладить { $target }, но предательская натура { $target } заставляет вас передумать.
 petting-failure-derelict-cyborg = Вы тянетесь погладить {THE($target)}, но {POSS-ADJ($target)} ржавая и зазубренная внешность заставляет вас передумать.
-petting-failure-station-ai = Вы тянетесь погладить {THE($target)}, но {SUBJECT($target)} {CONJUGATE-BASIC($target, «zap», «zaps»)} отводит вашу руку.
+petting-failure-station-ai = Вы тянетесь погладить {THE($target)}, но {SUBJECT($target)} {CONJUGATE-BASIC($target, "zap", "zaps")} отводит вашу руку.
 
 petting-success-station-ai-others = { CAPITALIZE(THE($user)) } гладит {THE($target)} по {POSS-ADJ($target)} холодному, квадратному экрану.
 
