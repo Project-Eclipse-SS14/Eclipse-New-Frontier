@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Tinnia
   parent: BasePOI
-  name: "Ресторан Тринньки"
+  name: "Ресторан Триннька"
   minimumDistance: 1200
   maximumDistance: 2900
   spawnGroup: RestStop
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Tinnia
-  mapName: "Ресторан Тринньки"
+  mapName: "Ресторан Триннька"
   mapPath: /Maps/_NF/POI/tinnia.yml
   minPlayers: 0
   stations:
