@@ -265,7 +265,7 @@ flavor-complex-irish-slammer = как кола с шипучкой
 flavor-complex-themartinez = как фиалки и лимонная водка
 flavor-complex-cogchamp = как латунь
 flavor-complex-white-gilgamesh = как слегка газированные сливки
-flavor-complex-antifreeze = теплый
+flavor-complex-antifreeze = тепло
 flavor-complex-zombiecocktail = как есть мозги
 flavor-complex-absinthe = как анис
 flavor-complex-blue-curacao = как оранжевые цветы
@@ -275,7 +275,7 @@ flavor-complex-aloe = как утренняя роса
 flavor-complex-amasec = как пот морского пехотинца
 flavor-complex-andalusia = как кислая патока
 flavor-complex-b52 = как в ирландском пабе.
-flavor-complex-bahama-mama = как загорать на Карибах
+flavor-complex-bahama-mama = как загорание на Карибах
 flavor-complex-barefoot = как молочный коктейль с кассисом
 flavor-complex-booger = как сопли
 flavor-complex-brave-bull = как будто тебя переехал грузовик
@@ -283,7 +283,7 @@ flavor-complex-demons-blood = как седьмой круг ада.
 flavor-complex-devils-kiss = как каннибализм
 flavor-complex-driest-martini = как пьяный мимик
 flavor-complex-erika-surprise = как будто бармен ошибся
-flavor-complex-gin-fizz = освежающий и лимонный
+flavor-complex-gin-fizz = освежающе и лимонно
 flavor-complex-gildlager = как золото царя
 flavor-complex-grog = как морская песнь
 flavor-complex-hippies-delight = как будто у вас падает давление
@@ -301,14 +301,11 @@ flavor-complex-snowwhite = как кислый и горький хмель
 flavor-complex-sui-dream = как картина Альп
 flavor-complex-toxins-special = как освоение космоса
 flavor-complex-vodka-martini = как шпионский фильм из России
-flavor-complex-vodka-tonic = освежающе горький
-flavor-complex-coconut-rum = как ореховый ферментированный сахар
+flavor-complex-vodka-tonic = освежающе горько
 flavor-complex-irish-car-bomb = как шипучая пенка колы
 
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 
-flavor-complex-white-gilgamesh = как слегка газированные сливки
-flavor-complex-antifreeze = как тепло
 flavor-complex-pilk = как сладкое молоко
 
 # Medicine/chemical-specific flavors.

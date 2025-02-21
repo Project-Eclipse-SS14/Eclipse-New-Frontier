@@ -62,7 +62,6 @@ guide-entry-references = Таблицы и референсы
 guide-entry-drinks = Напитки
 guide-entry-artifact-reports = Отчёты об артефактах
 guide-entry-traversal-distorter = Поперечный искатель
-guide-entry-ss14 = Станции и смены
 guide-entry-robotics = Робототехника
 guide-entry-cyborgs = Киборги
 # Frontier: Security<NFSD
