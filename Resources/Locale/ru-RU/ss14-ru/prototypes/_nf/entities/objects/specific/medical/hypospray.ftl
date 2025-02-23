@@ -6,6 +6,8 @@ ent-HypoMiniLimitedEdition = гипоспрей NTCS-103
     .desc = Коммерческая версия стандартного гипоспрея NT, разработанная для внешнего рынка. В отличии от стандартного гипоспрея, оснащен системой задержки ввода лекарств. Выглядит как коллекционный образец, тебе повезло!
 ent-BlankMediPen = пустой медипен
     .desc = Пустой медипен с бесконечным потенциалом. Не допускает отклонений от рецептуры нанотразена.
+ent-NFChemicalMedipen = { ent-ChemicalMedipen }
+    .desc = { ent-ChemicalMedipen.desc }
 ent-HemostasisAutoInjector = медипен гемостатик
     .desc = Быстрое введение коагулянтов и жидкостей для кровообращения. Содержит транексамовую кислоту и физраствор.
 ent-StimulantAutoInjector = медипен стимулятор
@@ -16,4 +18,7 @@ ent-LacerAutoInjector = медипен лацеринола
     .desc = Экстренная доза лацеринола и транексамовой кислоты, предназначенная для применения в боевых условиях.
 ent-BruizAutoInjector = медипен бруизина
     .desc = Экстренная доза бруизина и транексамовой кислоты, предназначенная для применения в боевых условиях.
-
+ent-PolyAutoInjector = polypyrylium oligomers auto-injector
+    .desc = A rapid dose of polyp... polypyryl... polypyryliu.... It contains extract of spaceman's trumpet. Intended to address brute damage and asphyxiation.
+ent-EthylredoxrazineAutoInjector = barkeeper's friend auto-injector
+    .desc = A rapid dose of ethanol neutralizers and anti-toxins for customers who have maybe had enough for the night. Contains ethylredoxrazine and dylovene.

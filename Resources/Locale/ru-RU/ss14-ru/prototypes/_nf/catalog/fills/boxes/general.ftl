@@ -14,5 +14,8 @@ ent-BoxEncryptionKeyNfsd = коробка ключей шифрования ДС
     .desc = { ent-BoxEncryptionKeySecurity.desc }
 ent-BoxExteriorLightTube = коробка внешних лампочек
     .desc = Из-за формы коробки в неё помещаются только лампочки и лампочки-трубки.
-ent-BoxColoredLightbulb =  коробка с цветными лампочками
+
+ent-BoxColoredLightbulb = коробка с цветными лампочками
     .desc = Внутренняя часть коробки имеет такую форму, что в неё помещаются только световые трубки и лампочки. В ней полно аккуратных цветных лампочек!
+ent-BoxColoredNavigationLighttube = navigation lighttube box
+    .desc = This box is shaped on the inside so that only light tubes and bulbs fit. It is full of red and green lights. Festive!

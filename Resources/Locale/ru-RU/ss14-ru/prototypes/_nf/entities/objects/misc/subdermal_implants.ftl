@@ -8,3 +8,7 @@ ent-GibAcidifierImplantNF = посмертный растворитель
     .desc = Этот имплант полностью растворяет пользователя со всем его снаряжением после смерти.
 ent-BibleUserImplant = имплант святости
     .desc = Этот имплант связывает пользователя напрямую с Богами.
+ent-RedLightImplant = light implant (red)
+    .desc = This implant emits light from the user's skin on activation.
+ent-DissonantWhispersImplant = dissonant whispers implant
+    .desc = This implant allows user to emmit dissonant whispers.

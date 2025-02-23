@@ -1,3 +1,9 @@
+ent-BaseCrowbar = crowbar
+    .desc = { ent-BaseItem.desc }
+ent-Crowbar = { ent-BaseCrowbar }
+    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.
+ent-CrowbarRed = emergency crowbar
+    .desc = An emergency crowbar designed to pry open doors and firelocks during power outages.
 ent-CrowbarGreen = зелёная монтировка
     .desc = { ent-BaseCrowbar.desc }
 ent-CrowbarYellow = жёлтая монтировка

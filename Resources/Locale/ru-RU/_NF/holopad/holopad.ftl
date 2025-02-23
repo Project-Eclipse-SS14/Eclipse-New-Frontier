@@ -1,4 +1,4 @@
-﻿# Mapping prototypes
+# Mapping prototypes
 # General
 nf-holopad-general-laboratory = Лаборатория аномалий
 nf-holopad-general-bahama = Ресторан «Багама Мама»

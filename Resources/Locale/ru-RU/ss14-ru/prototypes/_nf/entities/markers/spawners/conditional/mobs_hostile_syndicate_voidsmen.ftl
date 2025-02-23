@@ -16,3 +16,6 @@ ent-SpawnMobSyndicateNavalSecondOfficerVoid = спавнер офицера си
 ent-SpawnMobSyndicateNavalCaptainVoid = спавнер капитана синдиката
     .suffix = AI, Вражеский, Пустотник
     .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCleanBotSyndie = syndicate cleanbot spawner
+    .suffix = AI
+    .desc = { ent-MarkerBase.desc }

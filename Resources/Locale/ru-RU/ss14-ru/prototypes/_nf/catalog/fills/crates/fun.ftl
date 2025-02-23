@@ -7,3 +7,4 @@ ent-CrateFunHoverbikeNFPirate = ящик с ховербайком
     .suffix = Пиратский
 ent-CrateFunPartyNF = ящик для вечеринок
     .desc = Лицензированный NanoTrasen ящик для проведения вечеринок. Содержит только одобренные корпоративными диетологами припасы.
+    .suffix = Frontier

@@ -1,6 +1,10 @@
 ent-FoodMeatCat = первосортное кошачье мясо
     .desc = Порочный дар злодеяния. Это мясо может быть вкусным, но цена его слишком велика.
+ent-FoodMeatChickenBattered = breaded chicken
+    .desc = Chicken dredged in a gloopy flour and egg mixture.
+ent-FoodMeatChickenCutletBattered = breaded chicken cutlet
+    .desc = A cut of chicken, dredged in a gloopy flour and egg mixture.
 ent-FoodMeatGlazedHam = ветчина, глазированная медом
-   .desc = Ветчина, приготовленная на медленном огне, глазированная карамелизированным медом и приправленная солью.
+    .desc = Ветчина, приготовленная на медленном огне, глазированная карамелизированным медом и приправленная солью.
 ent-FoodMeatGlazedHamSlice = ломтик ветчины, глазированный медом
-   .desc = Ломтик замечательной ветчины, политый восхитительным медом.
+    .desc = Ломтик замечательной ветчины, политый восхитительным медом.

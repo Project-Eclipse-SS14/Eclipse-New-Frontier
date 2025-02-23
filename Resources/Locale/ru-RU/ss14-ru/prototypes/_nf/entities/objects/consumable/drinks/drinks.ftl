@@ -16,3 +16,5 @@ ent-DrinkTorpedoJuice = { ent-DrinkGlass }
 ent-DrinkBeesKnees = { ent-DrinkGlass }
     .suffix = пчелиные колени
     .desc = { ent-DrinkGlass.desc }
+ent-CondimentCup = condiment cup
+    .desc = A flimsy cup that can be filled with condiments. Warranty void if filled with other things.

@@ -3,3 +3,6 @@ ent-ShipyardRCD = корабельный РСУ
 ent-ShipyardRCDEmpty = { ent-ShipyardRCD }
     .suffix = Пустой
     .desc = { ent-ShipyardRCD.desc }
+ent-ShipyardRCDAmmo = shipyard compressed matter
+    .desc = Ammo cartridge for a shipyard RCD.
+

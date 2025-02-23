@@ -31,3 +31,6 @@ ent-MobPibbleGhost = { ent-MobPibble }
 ent-MobChickenGhost = { ent-MobChicken }
     .suffix = Роль призрака
     .desc = { ent-MobChicken.desc }
+ent-MobFoxGhost = { ent-BaseEmotionalGhost }
+    .suffix = Ghost
+    .desc = { ent-BaseEmotionalGhost.desc }

@@ -1,5 +1,10 @@
+
+
 ent-CratePirateChestCannonBall = Сундук пушечных ядер
     .suffix = Заполненный
+    .desc = { ent-CratePirateGrey.desc }
+ent-CratePirateChestCannonBallEmp = shockshot chest
+    .suffix = Filled
     .desc = { ent-CratePirateGrey.desc }
 ent-CratePirateChestGrapeShot = Сундук картечи
     .suffix = Заполненный

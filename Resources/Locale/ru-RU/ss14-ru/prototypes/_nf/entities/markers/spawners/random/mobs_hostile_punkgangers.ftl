@@ -1,3 +1,12 @@
+ent-SpawnMobPunkT1 = spawn punk
+    .suffix = AI, Hostile, T1
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnMobPunkT2 = spawn punk
+    .suffix = AI, Hostile, T2
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnMobPunkT3 = spawn punk
+    .suffix = AI, Hostile, T3
+    .desc = { ent-MarkerBasePlaceFree.desc }
 ent-SpawnMobPunkMelee = спавнер панка
     .suffix = AI, Враждебный, Melee
     .desc = { ent-MarkerBasePlaceFree.desc }

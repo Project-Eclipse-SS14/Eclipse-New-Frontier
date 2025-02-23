@@ -4,3 +4,5 @@ ent-SpawnMobCatClarpy = Спавнер Клярррпи
     .desc = { ent-MarkerBase.desc }
 ent-SpawnMobCatCappy = Спавнер Каппи
     .desc = { ent-MarkerBase.desc }
+ent-SpawnMobKoboldYipyip = Yip Yip Spawner
+    .desc = { ent-MarkerBase.desc }

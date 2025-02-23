@@ -1,3 +1,5 @@
+ent-BaseToilet = toilet
+    .desc = The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
 ent-ToiletEmpty = туалет
     .desc = HT-451, устройство для удаления мелких отходов, основанное на вращательном моменте. Этот выглядит удивительно чистым.
     .suffix = Пустой

@@ -1,4 +1,16 @@
+ent-DrinkAstrotameJug = astrotame jug
+    .desc = The sweetness of a thousand sugars but none of the calories. Put it in your coffee.
 ent-DrinkBbqSauceJug = кувшин соуса барбекю
     .desc = Наконец, кетчуп для взрослых.
+ent-DrinkColdsauceJug = coldsauce jug
+    .desc = Something to make every meal a little cooler.
+ent-DrinkHorseradishSauceJug = horseradish sauce jug
+    .desc = Now with 50% more horse.
+ent-DrinkHotsauceJug = hotsauce jug
+    .desc = The antithesis of no more tears shampoo.
+ent-DrinkKetchupJug = ketchup jug
+    .desc = Someone filled a tomato with sugar until it burst. Delicious.
+ent-DrinkMustardJug = mustard jug
+    .desc = All of the implications of real mustard with none of the flavor.
 ent-DrinkSoysauceJug = кувшин для соевого соуса
     .desc = Вы можете только мечтать о том, чтобы положить немного этого в миску с рисом.

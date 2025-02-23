@@ -1,3 +1,5 @@
+ent-ClothingHeadEVAHelmetWithLightBase = base EVA helmet with light
+    .desc = { ent-ClothingHeadEVAHelmetBase.desc }
 ent-ClothingHeadEVAHelmetHydro = шлем скафандра EVA ботаника
     .desc = { ent-ClothingHeadEVAHelmetBase.desc }
 ent-ClothingHeadEVAHelmetMailman = шлем скафандра EVA почтальона
@@ -44,3 +46,9 @@ ent-ClothingHeadEVAHelmetPrivateSec = шлем скафандра EVA телох
     .desc = { ent-ClothingHeadEVAHelmetBase.desc }
 ent-ClothingHeadEVAHelmetNfsd = шлем скафандра EVA ДСБФ
     .desc = { ent-ClothingHeadEVAHelmetBase.desc }
+ent-ClothingHeadEVAHelmetLvhi = LVHI EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadEVAHelmetArcadia = arcadia EVA helmet
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadHelmetHardsuitFSB = far star biotech voidsuit helmet
+    .desc = A lightweight suit helmet that doesn't restrict your head movements. It has a light!
