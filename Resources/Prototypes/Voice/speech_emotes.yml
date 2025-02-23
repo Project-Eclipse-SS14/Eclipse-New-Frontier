@@ -444,11 +444,6 @@
    - gasps
    - gasped
    - gasping # Frontier
-   # Corvax-Localization-Start
-  - задыхается
-  - задохнулся
-  - задохнулась
-    # Corvax-Localization-End
 
 - type: emote
   id: DefaultDeathgasp
