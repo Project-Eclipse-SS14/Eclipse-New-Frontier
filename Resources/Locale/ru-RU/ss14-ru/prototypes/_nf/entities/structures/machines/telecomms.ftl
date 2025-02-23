@@ -1,8 +1,8 @@
 ent-NFTelecomServerFilled = { ent-TelecomServer }
-    .suffix = Filled All
+    .suffix = Всё заполнено
     .desc = { ent-TelecomServer.desc }
 ent-TelecomServerFilledNfsd = { ent-TelecomServer }
-    .suffix = Ship, NFSD
+    .suffix = Шаттл, ДСБФ
     .desc = { ent-TelecomServer.desc }
 ent-TelecomServerFilledShuttle = { ent-TelecomServer }
     .suffix = Шаттл

@@ -1,6 +1,6 @@
-ent-CondimentDispenser = condiment dispenser
-    .desc = A condiment dispenser with a single slot for a condiment cup.
-    .suffix = Filled
+ent-CondimentDispenser = раздатчик соусов
+    .desc = Раздатчик соусов с одним слотом для соусницы.
+    .suffix = Заполненный
 ent-CondimentDispenserEmpty = { ent-CondimentDispenser }
-    .suffix = Empty
+    .suffix = Пустой
     .desc = { ent-CondimentDispenser.desc }

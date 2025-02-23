@@ -1,6 +1,6 @@
 ent-MedicalTrackingImplanter = медицинский имплантер отслеживания
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = medical tracking
+    .suffix = медицинский трекер
 ent-FreelanceTrackingImplanter = фриланс имплантер отслеживания
     .suffix = Фриланс
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }

@@ -20,5 +20,5 @@ ent-CrateMaterialPaper = ящик бумаги
     .desc = 90 листов бумаги.
 ent-CrateMaterialUranium = ящик урана
     .desc = 90 единиц урана.
-ent-CrateMaterialRandom = surplus materials
-    .desc = Surplus materials from somewhere.
+ent-CrateMaterialRandom = излишки материалов
+    .desc = Откуда-то взятые излишки материалов.

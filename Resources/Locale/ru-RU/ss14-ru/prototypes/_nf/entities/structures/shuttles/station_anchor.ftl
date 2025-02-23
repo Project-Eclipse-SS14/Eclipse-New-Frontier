@@ -1,5 +1,5 @@
-ent-MiniStationAnchor = mini station anchor
+ent-MiniStationAnchor = мини станционный якорь
     .desc = { ent-StationAnchor.desc }
 ent-MiniStationAnchorOff = { ent-MiniStationAnchor }
-    .suffix = Off
+    .suffix = Выключен
     .desc = { ent-MiniStationAnchor.desc }

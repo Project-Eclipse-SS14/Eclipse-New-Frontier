@@ -1,6 +1,6 @@
 ent-BulletDisablerStaminaOnly = заряд станнера
     .desc = { ent-BulletDisabler.desc }
-ent-BulletKineticLowPower = kinetic bolt
+ent-BulletKineticLowPower = кинетический заряд
     .desc = { ent-BulletKinetic.desc }
-ent-BulletKineticMediumPower = kinetic bolt
+ent-BulletKineticMediumPower = кинетический заряд
     .desc = { ent-BulletKineticLowPower.desc }

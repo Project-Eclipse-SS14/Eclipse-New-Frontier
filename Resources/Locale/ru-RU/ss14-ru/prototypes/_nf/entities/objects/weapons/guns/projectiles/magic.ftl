@@ -4,5 +4,5 @@ ent-BulletMagicBolt = магический снаряд
     .desc = { ent-BaseBulletTrigger.desc }
 ent-BulletBloodCultDarkBolt = кровавый снаряд
     .desc = { ent-BaseBulletTrigger.desc }
-ent-BulletEldritchHand = eldritch hand
+ent-BulletEldritchHand = сверхъестественная рука
     .desc = { ent-BaseBullet.desc }

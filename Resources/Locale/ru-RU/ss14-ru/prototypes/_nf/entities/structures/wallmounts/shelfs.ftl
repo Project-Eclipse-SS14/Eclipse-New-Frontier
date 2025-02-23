@@ -1,6 +1,6 @@
 ent-ShelfWallFreezerWhite = настенный холодильник
     .desc = Удобное место для хранения скоропортящихся продуктов.
-    .suffix = Frontier, White
+    .suffix = Фронтир, Белый
 ent-ShelfWallFreezerDark = { ent-ShelfWallFreezerWhite }
     .desc = { ent-ShelfWallFreezerWhite.desc }
     .suffix = Фронтир, Тёмный

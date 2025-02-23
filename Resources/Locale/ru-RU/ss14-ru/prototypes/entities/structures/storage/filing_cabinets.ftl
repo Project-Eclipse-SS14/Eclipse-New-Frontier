@@ -1,6 +1,6 @@
 ent-BaseFilingCabinet = { ent-BaseStructureDynamic }
-    .desc = A cabinet for all your filing needs.
-    .suffix = Empty
+    .desc = Шкаф для хранения всего, что пожелаете.
+    .suffix = Пустой
 ent-filingCabinet = картотечный шкаф
     .desc = Шкаф для хранения документов.
     .suffix = Пустой
@@ -12,7 +12,7 @@ ent-filingCabinetDrawer = комод
     .suffix = Пустой
 ent-BaseBureaucraticStorageFill = { "" }
     .desc = { "" }
-    .suffix = Filled
+    .suffix = Заполненный
 ent-filingCabinetRandom = { ent-filingCabinet }
     .suffix = Случайный
     .desc = { ent-filingCabinet.desc }

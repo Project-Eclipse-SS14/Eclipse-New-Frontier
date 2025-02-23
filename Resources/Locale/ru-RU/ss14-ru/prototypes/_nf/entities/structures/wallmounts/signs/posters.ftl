@@ -1,7 +1,7 @@
 ent-NFPosterLegitMagnusWatching = Всегда Следим
     .desc = На этом постере изображён божественный судья, который не упустит ни одной мелочи. Слышите таинственный "Боньк"? Возможно, это ваш страх быть пойманным. Или судья действительно следит за вами?
-ent-NFPosterLegitGoblinTinkerer = Tinkering!
-    .desc = This poster depicts a cheerful goblin engineer telling you that explosions are the spice of tinkering.
+ent-NFPosterLegitGoblinTinkerer = Мастерим!
+    .desc = Этот постер изображает радостного гоблина инженера, рассказывающего что самая интересная часть в инженерии - взрывы.
 ent-NFPosterContrabandLvhiStation = Космическая станция Tetotum LVHI
     .desc = Этот постер изображает величественную космическую станцию Tetotum от Langstad-Voigt Heavy Industries. Чудо инженерной мысли, парящее среди звёзд и открывающее новые горизонты!
 ent-NFPosterLegitWinnerWinner = Winner Winner

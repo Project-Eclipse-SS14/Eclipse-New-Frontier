@@ -1,2 +1,2 @@
-ent-BluespaceSalvage = NT Bluespace Monitoring
+ent-BluespaceSalvage = Мониторинг блюспейс пространства NT
     .desc = { ent-BaseStationEventShortDelay.desc }

@@ -1,6 +1,6 @@
-ent-HoloFlareCyan = cyan flare
+ent-HoloFlareCyan = голубой фальшфейер
     .desc = { "" }
-ent-HoloFlareRed = red flare
+ent-HoloFlareRed = красный фальшфейер
     .desc = { ent-HoloFlareCyan.desc }
-ent-HoloFlareYellow = yellow flare
+ent-HoloFlareYellow = жёлтый фальшфейер
     .desc = { ent-HoloFlareCyan.desc }

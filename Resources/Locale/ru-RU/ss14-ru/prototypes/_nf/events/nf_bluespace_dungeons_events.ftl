@@ -1,4 +1,4 @@
-ent-BluespaceDungeonBase = NT Bluespace Monitoring
+ent-BluespaceDungeonBase = Мониторинг блюспейс пространства NT
     .desc = { ent-BaseStationEventShortDelay.desc }
 ent-BluespaceDungeonBasalt = { ent-BluespaceDungeonBase }
     .desc = { ent-BluespaceDungeonBase.desc }

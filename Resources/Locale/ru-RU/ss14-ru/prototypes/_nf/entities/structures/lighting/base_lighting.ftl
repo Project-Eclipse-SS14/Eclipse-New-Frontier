@@ -1,3 +1,3 @@
 ent-PoweredlightBlack = { ent-Poweredlight }
-    .suffix = Black
+    .suffix = Чёрный
     .desc = { ent-Poweredlight.desc }

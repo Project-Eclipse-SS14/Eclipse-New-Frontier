@@ -9,4 +9,4 @@ ent-WeaponRifleSVT = СВТ-40
     .desc = Когда-то это было оружие, использовавшееся на войне, а теперь это гражданское охотничье ружье, подаренное вам S.E.S.W.C., на одной стороне которого выгравировано: "Отступление считается государственной изменой".
 ent-WeaponRifleVulcanRubber = { ent-WeaponRifleVulcan }
     .desc = { ent-WeaponRifleVulcan.desc }
-    .suffix = Non-lethal
+    .suffix = Травматический

@@ -1,12 +1,12 @@
 ent-Mesh10Lingering = { ent-RegenerativeMesh }
     .desc = { ent-RegenerativeMesh.desc }
-    .suffix = 10, Lingering
+    .suffix = 10, Пополняемый
 ent-Suture10Lingering = { ent-MedicatedSuture }
     .desc = { ent-MedicatedSuture.desc }
-    .suffix = 10, Lingering
+    .suffix = 10, Пополняемый
 ent-NFPillCanisterMannitol = { ent-PillCanister }
-    .desc = Take two pills daily.
-    .suffix = Mannitol 10u, 10, Clarpy
+    .desc =  Take two pills daily.
+    .suffix = Маннитол 10u, 10, Кларпи
 ent-NFPillMannitol = pill
-    .suffix = Mannitol 10u
+    .suffix = Маннитол 10u
     .desc = { ent-Pill.desc }

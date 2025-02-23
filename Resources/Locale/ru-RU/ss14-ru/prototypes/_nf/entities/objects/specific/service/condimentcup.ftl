@@ -1,5 +1,5 @@
-ent-CondimentCupDispenser = condiment cup dispenser
-    .desc = It holds little condiment cups. They claim to be recyled.
-ent-CondimentCupDispenser10 = condiment cup dispenser
-    .desc = It holds little condiment cups. They claim to be recyled.
+ent-CondimentCupDispenser = раздатчик соусниц
+    .desc = Содержит небольшое количество соусниц. Написано что они изготовленны с переработанного пластика.
+ent-CondimentCupDispenser10 = раздатчик соусниц
+    .desc = Содержит небольшое количество соусниц. Написано что они изготовленны с переработанного пластика.
     .suffix = 10

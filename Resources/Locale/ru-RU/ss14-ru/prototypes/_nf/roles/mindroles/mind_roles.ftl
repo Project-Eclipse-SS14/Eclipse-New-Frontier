@@ -1,2 +1,2 @@
-ent-MindRoleGhostRoleEmotionalSupportPet = Ghost Role (Emotional Support Pet)
+ent-MindRoleGhostRoleEmotionalSupportPet = Роль призрака (Пушистый терапевт)
     .desc = { ent-BaseMindRole.desc }
