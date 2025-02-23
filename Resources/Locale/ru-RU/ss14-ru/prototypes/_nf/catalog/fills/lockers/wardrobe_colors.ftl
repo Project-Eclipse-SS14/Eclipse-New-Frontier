@@ -1,3 +1,3 @@
 ent-NFWardrobeMixedFilled = { ent-WardrobeMixed }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-WardrobeMixed.desc }

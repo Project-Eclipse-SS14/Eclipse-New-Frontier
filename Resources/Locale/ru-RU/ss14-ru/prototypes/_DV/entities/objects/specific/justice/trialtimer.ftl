@@ -1,2 +1,2 @@
-ent-TrialTimer = trial timer
-    .desc = A fancy timer with a screen, designed to keep trials within their time limit.
+ent-TrialTimer = таймер выступлений
+    .desc = Причудливый таймер с экраном, призванный удерживать выступления в рамках отведенного им времени.

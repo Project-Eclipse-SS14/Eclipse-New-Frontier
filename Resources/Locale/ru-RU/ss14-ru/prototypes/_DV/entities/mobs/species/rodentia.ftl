@@ -1,4 +1,4 @@
-ent-BaseMobRodentia = Urist McRat
+ent-BaseMobRodentia = Урист МакРэт
     .desc = { ent-BaseMobSpeciesOrganic.desc }
-ent-MobRodentiaDummy = Rodentia Dummy
-    .desc = A dummy rodentia meant to be used in character setup.
+ent-MobRodentiaDummy = Кукла Родентия
+    .desc = Манекен родентии, предназначенный для настройки персонажа.

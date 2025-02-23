@@ -1,5 +1,5 @@
 
 
-ent-PinpointerSyndicatePOISpawner = Syndicate POI Pinpointer
+ent-PinpointerSyndicatePOISpawner = пинпоинтер Синдиката
     .suffix = 10
     .desc = { ent-MarkerBase.desc }

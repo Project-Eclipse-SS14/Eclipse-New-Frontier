@@ -1,9 +1,9 @@
-ent-CardBaseSyndicate = card
+ent-CardBaseSyndicate = карта
     .desc = { ent-CardBase.desc }
-ent-CardBoxSyndicate = syndicate deck box
+ent-CardBoxSyndicate = коробка с картами Синдиката
     .desc = { ent-CardBoxBase.desc }
-ent-CardDeckSyndicate = deck of cards
-    .suffix = DO NOT MAP
+ent-CardDeckSyndicate = колода карт
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-CardDeckBase.desc }
 ent-CardSc2OfClubsSyndicate = { ent-CardBaseSyndicate }
     .desc = { ent-CardBaseSyndicate.desc }

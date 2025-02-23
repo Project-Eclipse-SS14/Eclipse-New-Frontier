@@ -1,6 +1,6 @@
 ent-ScrapOre = куски лома
     .desc = Различные части бывшей в употреблении техники. Необходимо отсортировать или обработать для использования.
-    .suffix = Full
+    .suffix = Полный
 ent-ScrapOre1 = { ent-ScrapOre }
     .suffix = Один
     .desc = { ent-ScrapOre.desc }

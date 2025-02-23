@@ -1,8 +1,8 @@
-ent-CardBoxBase = deck box
+ent-CardBoxBase = коробка с картами
     .desc = { ent-BoxCardboard.desc }
-ent-CardStackBase = stack of cards
+ent-CardStackBase = стопка карт
     .desc = { ent-BaseItem.desc }
-ent-CardHandBase = hand of cards
+ent-CardHandBase = рука с картами
     .desc = { ent-CardStackBase.desc }
-ent-CardDeckBase = deck of cards
+ent-CardDeckBase = колода карт
     .desc = { ent-CardStackBase.desc }

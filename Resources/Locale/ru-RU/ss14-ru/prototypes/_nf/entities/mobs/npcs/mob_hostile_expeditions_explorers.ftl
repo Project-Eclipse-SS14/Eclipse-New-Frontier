@@ -16,7 +16,7 @@ ent-MobExplorerHauler = грузчик
     .desc = Он нагружен тяжёлым оборудованием и готов тащить всё, что плохо лежит. Простите, это «восстановление активов»!
 ent-MobExplorerBoss = капитан-исследователь
     .desc = Бесстрашные и опытные лидеры, прошедшие через годы исследований и сражений. Эти капитаны знают, как выжить в самых тёмных уголках галактики и покорить её преступный мир. Недооценивать их — значит рисковать всем.
-ent-SeismicChargeGun = seismic charge gun
-    .desc = Needed to shoot the charge.
-ent-ActionSeismicCharge = [color=yellow]Throw Seismic Charge[/color]
-    .desc = Hurls activated seismic charge, that explodes on contact. [color=yellow]50 second cooldown.[/color]
+ent-SeismicChargeGun = сейсмозарядная пушка
+    .desc = Нужно было выстрелить заряд.
+ent-ActionSeismicCharge = [color=yellow]Бросить сейсмический заряд[/color]
+    .desc = Выбрасывает активированный сейсмический заряд, который взрывается при соприкосновении. [color=yellow]50-секундная перезарядка.[/color]

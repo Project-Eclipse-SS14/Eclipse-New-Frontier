@@ -20,14 +20,14 @@ ent-MobFleshLoverExpeditions = { ent-BaseMobFleshExpeditions }
     .desc = Ловер — это изящный, но смертельно опасный хищник. Его лёгкое тело позволяет ему скользить по воздуху, как плотоядный бабочка, готовая нанести свой смертельный удар.
 ent-MobHorrorExpeditions = ужас аномальной плоти
     .desc = Ужас — это вершина эволюции аномальной плоти, монстр с острыми, как бритва, костяными лезвиями, способный пробивать броню и разрывать плоть с пугающей лёгкостью. Это живое орудие, созданное для разрушения и хаоса.
-ent-BoneSpikeGun = bone spike
-    .desc = Shoots a short salvo of bone spikes.
-ent-ActionBoneSpike = [color=yellow]Bone Spike[/color]
-    .desc = Shoot a short salvo of bone spikes laced with toxins. [color=yellow]5 second cooldown.[/color]
+ent-BoneSpikeGun = костяной шип
+    .desc = Выстреливает коротким залпом костяных шипов.
+ent-ActionBoneSpike = [color=yellow]Костяной шип[/color]
+    .desc = Выстрелите коротким залпом костяных шипов, начиненных токсинами. [color=yellow]5-секундная перезарядка.[/color]
 ent-MobMawExpeditions = пасть аномальной плоти
     .desc = Неподвижные чудовища, готовые выпрыгнуть на жертву. Они вгрызаются в плоть, не отпуская, пока их не уничтожат. Эти пасти выглядят так, будто созданы из кошмаров безумного генетика. Не суйте пальцы, если только не хотите добавить немного острых ощущений в свою жизнь...
-ent-BaseMobFleshExpeditionsNewborn = aberrant flesh newborn
-    .desc = This newborn monster is dripping with amniotic fluid; its movements are sluggish yet deliberate; its limbs, though weak, are lethal nonetheless.
+ent-BaseMobFleshExpeditionsNewborn = новорожденная аберрантная плоть
+    .desc = С этого новорожденного монстра капает околоплодная жидкость, его движения вялые, но целенаправленные, а конечности, хоть и слабые, но все же смертоносные.
 ent-MobFleshJaredExpeditionsNewborn = { ent-BaseMobFleshExpeditionsNewborn }
     .desc = { ent-BaseMobFleshExpeditionsNewborn.desc }
 ent-MobFleshJaredOldExpeditionsNewborn = { ent-BaseMobFleshExpeditionsNewborn }

@@ -1,6 +1,6 @@
-ent-WeaponRevolverFitz = Fitz Special
-    .desc = A compact and concealable self defence snub revolver. Uses .45 ammo.
-ent-WeaponRevolverFaith = Faith
-    .desc = Delivers blessings in bullet form. Uses .45 ammo.
-ent-WeaponRevolverLucky = Lucky 37
-    .desc = Luck always beats skill, ya weasel. Uses .45 ammo.
+ent-WeaponRevolverFitz = Фитц Спешиал
+    .desc = Компактный и скрытый револьвер для самообороны. Использует патроны калибра .45.
+ent-WeaponRevolverFaith = Фэйт
+    .desc = Доставляет благословение в виде пули. Использует патроны калибра .45.
+ent-WeaponRevolverLucky = Лаки 37
+    .desc = Удача всегда побеждает мастерство, проныра. Использует патроны калибра .45.

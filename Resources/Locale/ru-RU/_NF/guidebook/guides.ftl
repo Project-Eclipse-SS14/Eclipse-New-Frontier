@@ -74,7 +74,7 @@ guide-entry-shipyard-stasis = Стазис
 guide-entry-shipyard-tide = Прилив
 guide-entry-shipyard-vagabond = Бродяга
 # Rules entries
-guide-entry-frontier-rule-zero-tolerance = Zero Tolerance
+guide-entry-frontier-rule-zero-tolerance = Нетерпимость
 # Rules entries
 guide-entry-frontier-rule-0 = Режим фронтира
 guide-entry-frontier-rule-1 = 0. Не будь мудаком

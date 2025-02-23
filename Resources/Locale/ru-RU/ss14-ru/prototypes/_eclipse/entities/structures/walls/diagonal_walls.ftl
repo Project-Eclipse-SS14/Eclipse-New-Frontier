@@ -1,8 +1,8 @@
 ent-BaseWallDiagonal = basewall
-    .suffix = diagonal
+    .suffix = Диагональ
     .desc = { "" }
 
-ent-WallWoodDiagonal = wood wall
+ent-WallWoodDiagonal = стена из дерева
     .desc = { ent-BaseWallDiagonal.desc }
-ent-WallUraniumDiagonal = uranium wall
+ent-WallUraniumDiagonal = стена из урана
     .desc = { ent-BaseWallDiagonal.desc }

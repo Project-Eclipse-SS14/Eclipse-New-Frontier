@@ -17,5 +17,5 @@ ent-BoxExteriorLightTube = коробка внешних лампочек
 
 ent-BoxColoredLightbulb = коробка с цветными лампочками
     .desc = Внутренняя часть коробки имеет такую форму, что в неё помещаются только световые трубки и лампочки. В ней полно аккуратных цветных лампочек!
-ent-BoxColoredNavigationLighttube = navigation lighttube box
-    .desc = This box is shaped on the inside so that only light tubes and bulbs fit. It is full of red and green lights. Festive!
+ent-BoxColoredNavigationLighttube = коробка навигационных лампочек
+    .desc = Эта коробка внутри имеет такую форму, что в нее помещаются только трубки и лампочки. В ней полно красных и зеленых лампочек. Празднично!

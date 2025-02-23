@@ -1,2 +1,2 @@
-ent-Gavel = gavel
-    .desc = A hardwood mallet made to keep order in the court.
+ent-Gavel = киянка
+    .desc = Киянка из твердого дерева, изготовленный для поддержания порядка в суде.

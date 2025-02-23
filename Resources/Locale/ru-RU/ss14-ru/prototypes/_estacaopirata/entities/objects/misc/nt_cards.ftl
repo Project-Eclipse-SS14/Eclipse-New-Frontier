@@ -1,9 +1,9 @@
-ent-CardBaseNanotrasen = card
+ent-CardBaseNanotrasen = карта
     .desc = { ent-CardBase.desc }
-ent-CardBoxNanotrasen = nanotrasen deck box
+ent-CardBoxNanotrasen = корбка с картами Nanotrasen
     .desc = { ent-CardBoxBase.desc }
-ent-CardDeckNanotrasen = deck of cards
-    .suffix = DO NOT MAP
+ent-CardDeckNanotrasen = колода карт
+    .suffix = НЕ МАППИТЬ
     .desc = { ent-CardDeckBase.desc }
 ent-CardSc2OfClubsNanotrasen = { ent-CardBaseNanotrasen }
     .desc = { ent-CardBaseNanotrasen.desc }

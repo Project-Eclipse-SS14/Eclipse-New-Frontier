@@ -19,5 +19,5 @@ ent-ClothingBeltPunkRandomizedFilled = { ent-ClothingBeltPunkRandomized }
     .suffix = Заполненный, Инженерный
     .desc = { ent-ClothingBeltPunkRandomized.desc }
 ent-ClothingBeltSheathFilledHilt = { ent-ClothingBeltSheath }
-    .suffix = Filled, Hilt
+    .suffix = Заполненный, Рукоять
     .desc = { ent-ClothingBeltSheath.desc }

@@ -14,5 +14,5 @@ ent-DoorElectronicsMercenary = { ent-DoorElectronics }
     .suffix = Наёмник, Закрыт
     .desc = { ent-DoorElectronics.desc }
 ent-DoorElectronicsPirate = { ent-DoorElectronics }
-    .suffix = Pirate, Locked
+    .suffix = Пират, Закрыт
     .desc = { ent-DoorElectronics.desc }

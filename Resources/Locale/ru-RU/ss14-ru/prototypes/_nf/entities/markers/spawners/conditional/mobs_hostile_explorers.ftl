@@ -1,3 +1,3 @@
-ent-SpawnMobExplorerBoss = explorer boss spawner
-    .suffix = AI, Hostile, Boss
+ent-SpawnMobExplorerBoss = спавнер босса исследователя
+    .suffix = ИИ, Враждебный, Босс
     .desc = { ent-MarkerBase.desc }

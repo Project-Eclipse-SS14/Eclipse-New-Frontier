@@ -1,5 +1,5 @@
-ent-ClothingShoesBootsMagSecurity = security magboots
-    .desc = Security magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
+ent-ClothingShoesBootsMagSecurity = защитные магнитные сапоги
+    .desc = Защитные магнитные сапоги, часто используемые во время внедорожной деятельности для обеспечения надежного крепления пользователя к транспортному средству.
 ent-ClothingShoesBootsMagCombat = боевые магнитные сапоги
     .desc = Магнитные сапоги, используемые во время работы вне корабля, чтобы оставаться надёжно прикреплённым к поверхности.
 ent-ClothingShoesBootsMagNfsd = магнитные сапоги ДСБФ

@@ -1,6 +1,6 @@
 ent-NFClothingShoesBootsMoon = луноходы
     .desc = Специальные антигравитационные ботинки, разработанные с использованием особой смеси лунного геля. Поставляются из Нидерландов. Щелчком каблуков вы можете их выключить!
-ent-ActionToggleMoonBoots = Toggle Moon Boots
-    .desc = Toggles the moon boots on and off.
-ent-ClothingShoesClothwrap = cloth footwraps
-    .desc = A roll of treated canvas used for wrapping feet or paws.
+ent-ActionToggleMoonBoots = Переключить луноходы
+    .desc = Включает и выключает луноходы.
+ent-ClothingShoesClothwrap = тканевые валенки
+    .desc = Рулон обработанного холста, используемый для обертывания ног или лап.

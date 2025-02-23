@@ -1,3 +1,3 @@
 ent-WeaponCaseShortDocumentsFilled = { ent-WeaponCaseShortDocuments }
-    .suffix = Dungeon, Blueprints
+    .suffix = Экспедиция, Чертежи
     .desc = { ent-WeaponCaseShortDocuments.desc }

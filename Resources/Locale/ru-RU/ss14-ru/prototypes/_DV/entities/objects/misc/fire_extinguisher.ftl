@@ -1,2 +1,2 @@
-ent-FireExtinguisherBluespace = bluespace fire extinguisher
-    .desc = An experimental fire extinguisher that uses bluespace technology to gradually refill itself. The faint blue glow is only slightly disconcerting.
+ent-FireExtinguisherBluespace = блюспейс огнетушитель
+    .desc = Экспериментальный огнетушитель, в котором используется технология блюспейс для постепенного пополнения содержимого. Слабое голубое свечение лишь слегка сбивает с толку.

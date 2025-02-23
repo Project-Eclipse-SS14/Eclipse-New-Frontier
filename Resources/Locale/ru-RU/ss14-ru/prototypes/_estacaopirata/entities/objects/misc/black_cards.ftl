@@ -1,6 +1,6 @@
 
 
-ent-CardBase = card
+ent-CardBase = карта
     .desc = { ent-BaseItem.desc }
 ent-CardSc2OfClubsBlack = { ent-CardBase }
     .desc = { ent-CardBase.desc }
