@@ -1,0 +1,4 @@
+fluent==0.10.0
+pydash==7.0.3
+PyYAML==6.0
+typing_extensions==4.5.0
