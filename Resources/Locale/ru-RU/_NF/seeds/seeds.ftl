@@ -15,4 +15,3 @@ seeds-bees-display-name = соты
 # Should be in seed-component
 botany-seed-jar-name = банка { $seedName } { $seedNoun }
 # Missing upstream definitions
-seeds-lemoon-display-name = lemoon trees
