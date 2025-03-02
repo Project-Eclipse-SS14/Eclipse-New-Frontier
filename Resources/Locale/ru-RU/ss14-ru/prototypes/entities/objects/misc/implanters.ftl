@@ -28,6 +28,9 @@ ent-StorageImplanter = { ent-Implanter }
 ent-FreedomImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Свобода
+ent-RadioImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+    .suffix = radio Syndicate
+    .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
 ent-UplinkImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Аплинк
@@ -52,9 +55,15 @@ ent-DeathRattleImplanter = { ent-Implanter }
 ent-DeathAcidifierImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Посмертный растворитель
+ent-FakeMindShieldImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+    .suffix = fake mindshield
+    .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
 ent-MindShieldImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Щит разума
+ent-RadioImplanterCentcomm = { ent-BaseImplantOnlyImplanter }
+    .suffix = radio Centcomm
+    .desc = { ent-BaseImplantOnlyImplanter.desc }
 
 # Corvax anti-meta localization end
 

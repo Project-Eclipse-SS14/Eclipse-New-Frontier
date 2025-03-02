@@ -211,3 +211,7 @@ uplink-pirate-greengrenade-name = Зелёная граната
 uplink-pirate-greengrenade-desc = Граната с отвратным газом, от которой в голове становится мутно.
 uplink-pirate-graygrenade-name = Серая граната
 uplink-pirate-graygrenade-desc = Тяжёлая граната, словно пушечное ядро в руке.
+uplink-pirate-accessconfigurator-captain-name = Black Market Access Configurator
+uplink-pirate-accessconfigurator-captain-desc = An access configurator that is sold on the black market. Lock ya booty behind pirate access today!
+uplink-pirate-radio-implanter-name = Radio Implanter
+uplink-pirate-radio-implanter-desc = Implants a Freelance radio, allowing covert communication without a headset.

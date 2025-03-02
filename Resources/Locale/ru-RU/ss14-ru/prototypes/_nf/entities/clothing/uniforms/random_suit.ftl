@@ -12,3 +12,5 @@ ent-ClothingSkirtUniformRandomBra = разноцветный бра
 ent-ClothingSkirtUniformRandomShorts = разноцветная юбка
     .suffix = Юбка
     .desc = { ent-ClothingUniformRandom.desc }
+ent-ClothingSkirtUniformRandomShirt = colorful patterned top and skirt
+    .desc = { ent-ClothingUniformRandom.desc }
