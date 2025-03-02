@@ -1,5 +1,5 @@
 ent-AirSensorFreezerBase = { ent-AirSensorBase }
-    .suffix = Freezer Atmosphere
+    .suffix = Атмосфера морозильной камеры
     .desc = { ent-AirSensorBase.desc }
 ent-AirSensorFreezer = { ent-AirSensorFreezerBase }
     .desc = { ent-AirSensorFreezerBase.desc }
@@ -8,5 +8,5 @@ ent-GasVentPumpFreezer = { ent-AirSensorFreezerBase }
 ent-GasVentScrubberFreezer = { ent-AirSensorFreezerBase }
     .desc = { ent-AirSensorFreezerBase.desc }
 ent-AirAlarmFreezer = { ent-AirAlarm }
-    .suffix = Freezer Atmosphere, auto mode disabled
+    .suffix = Атмосфера морозильной камеры, автоматический режим отключен
     .desc = { ent-AirAlarm.desc }

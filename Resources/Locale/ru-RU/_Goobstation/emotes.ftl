@@ -1,4 +1,4 @@
-chat-emote-name-spin = Spin
-chat-emote-name-jump = Jump
-chat-emote-msg-spin = spins!
-chat-emote-msg-jump = jumps!
+chat-emote-name-spin = крутится
+chat-emote-name-jump = прыгать
+chat-emote-msg-spin = вертится!
+chat-emote-msg-jump = прыгает!

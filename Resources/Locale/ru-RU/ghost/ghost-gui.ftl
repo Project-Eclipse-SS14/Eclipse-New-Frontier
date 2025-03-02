@@ -1,11 +1,11 @@
 ghost-gui-return-to-body-button = Вернуться в тело
 ghost-gui-ghost-warp-button = Телепорт призрака
 ghost-gui-ghost-roles-button = Роли призраков ({ $count })
-ghost-gui-toggle-ghost-visibility-popup-on = Enabled visibility of ghosts.
-ghost-gui-toggle-ghost-visibility-popup-off = Disabled visibility of ghosts.
-ghost-gui-toggle-lighting-manager-popup-normal = Lighting normal.
-ghost-gui-toggle-lighting-manager-popup-personal-light = Enabled personal light.
-ghost-gui-toggle-lighting-manager-popup-fullbright = Fullbright mode.
+ghost-gui-toggle-ghost-visibility-popup-on = Включена видимость призраков.
+ghost-gui-toggle-ghost-visibility-popup-off = Отключена видимость призраков.
+ghost-gui-toggle-lighting-manager-popup-normal = Нормальное освещение.
+ghost-gui-toggle-lighting-manager-popup-personal-light = Включен персональный свет.
+ghost-gui-toggle-lighting-manager-popup-fullbright = Режим полного освещения.
 ghost-gui-toggle-ghost-visibility-popup = Видимость призраков переключёна.
 ghost-gui-toggle-lighting-manager-popup = Рендеринг света переключён.
 ghost-gui-toggle-fov-popup = Поле зрения переключено.

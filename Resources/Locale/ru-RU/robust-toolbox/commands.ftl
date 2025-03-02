@@ -481,7 +481,7 @@ cmd-vfs_ls-help =
     vfs_list /Assemblies
 cmd-vfs_ls-err-args = Нужен ровно 1 аргумент.
 cmd-vfs_ls-hint-path = <path>
-cmd-reloadtiletextures-desc = Reloads the tile texture atlas to allow hot reloading tile sprites
+cmd-reloadtiletextures-desc = Перезагружает атлас текстур плитки, чтобы обеспечить горячую перезагрузку спрайтов плитки
 cmd-reloadtiletextures-help = Использование: reloadtiletextures
 cmd-audio_length-desc = Показывает длину аудио файла
 cmd-audio_length-help = Использование: audio_length { cmd-audio_length-arg-file-name }
@@ -489,7 +489,7 @@ cmd-audio_length-arg-file-name = <file name>
 
 ## PVS
 
-cmd-pvs-override-info-desc = Prints information about any PVS overrides associated with an entity.
-cmd-pvs-override-info-empty = Entity { $nuid } has no PVS overrides.
-cmd-pvs-override-info-global = Entity { $nuid } has a global override.
-cmd-pvs-override-info-clients = Entity { $nuid } has a session override for { $clients }.
+cmd-pvs-override-info-desc = Выводит информацию о всех переопределениях PVS, связанных с сущностью.
+cmd-pvs-override-info-empty = У сущности { $nuid } нет переопределений PVS.
+cmd-pvs-override-info-global = Сущность { $nuid } имеет глобальное переопределение.
+cmd-pvs-override-info-clients = Сущность { $nuid } имеет переопределение сессии для { $clients }.

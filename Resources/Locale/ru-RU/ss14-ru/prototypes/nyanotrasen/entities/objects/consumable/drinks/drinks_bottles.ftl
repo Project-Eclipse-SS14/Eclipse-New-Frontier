@@ -1,4 +1,4 @@
 
-        Clear, or sometimes foggy 
-        Chilled like ice cream alcohol 
-        Fill a cup, drink up!
+        Ясно, а иногда туманно
+        Охлажденный, как мороженое, алкоголь
+        Наполните чашку, пейте!

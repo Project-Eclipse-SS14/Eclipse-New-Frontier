@@ -1,2 +1,2 @@
-ent-MaintsRoomMarker = Maints interior marker
+ent-MaintsRoomMarker = Поддерживает внутреннюю маркировку
     .desc = { ent-BaseRoomMarker.desc }

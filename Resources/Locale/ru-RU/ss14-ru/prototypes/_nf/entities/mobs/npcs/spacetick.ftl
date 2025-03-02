@@ -1,3 +1,3 @@
 ent-NFMobTick = { ent-NFMobRestrictions }
-    .suffix = Frontier
+    .suffix = Фронтир
     .desc = { ent-NFMobRestrictions.desc }

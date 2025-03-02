@@ -1,7 +1,7 @@
 
-ent-ActionSmiteNoReq = Smite
-    .desc = Instantly gibs a target.
-ent-ActionCluwne = Cluwne's Curse
-    .desc = Turns someone into a Cluwne!
-ent-ActionSlippery = Slippery Slope
-    .desc = Make someone slippery.
+ent-ActionSmiteNoReq = Кара
+    .desc = Мгновенно поражает цель.
+ent-ActionCluwne = Проклятие Клоуна
+    .desc = Превращает человека в Клоуна!
+ent-ActionSlippery = Скользкая дорожка
+    .desc = Сделать кого-то скользким.
