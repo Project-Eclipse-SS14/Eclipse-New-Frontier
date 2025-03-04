@@ -101,7 +101,7 @@ namespace Content.Server.Shuttles.Components
         [DataField]
         public float FiringPowerDrawRampDuration;
 
-        public TimeSpan FiringStateChangeTime = TimeSpan.Zero;
+        public float FiringPowerDrawLoadRampProgress = 0;
         // End-Eclipse
     }
 

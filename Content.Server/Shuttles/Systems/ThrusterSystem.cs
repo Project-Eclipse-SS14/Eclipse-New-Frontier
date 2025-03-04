@@ -280,8 +280,6 @@ public sealed class ThrusterSystem : EntitySystem
 
         component.NextFire = _timing.CurTime + component.FireCooldown;
 
-        component.FiringStateChangeTime = _timing.CurTime;
-
         _ambient.SetAmbience(uid, false);
 
         if (!component.Enabled)
@@ -513,7 +511,7 @@ public sealed class ThrusterSystem : EntitySystem
 
         while (query.MoveNext(out var uid, out var comp))
         {
-            UpdatePowerDraw(uid, curTime, comp);
+            UpdatePowerDraw(uid, frameTime, comp);
 
             if (comp.NextFire > curTime)
                 continue;
@@ -530,16 +528,21 @@ public sealed class ThrusterSystem : EntitySystem
         }
     }
 
-    private void UpdatePowerDraw(EntityUid uid, TimeSpan curTime, ThrusterComponent comp)
+    private void UpdatePowerDraw(EntityUid uid, float frameTime, ThrusterComponent comp)
     {
         if (!TryComp<ApcPowerReceiverComponent>(uid, out var apcPower))
             return;
 
-        var curveProgress = Math.Clamp((curTime - comp.FiringStateChangeTime) / TimeSpan.FromSeconds(comp.FiringPowerDrawRampDuration), 0, 1);
-        if (!comp.Firing)
+        if (comp.Firing)
         {
-            curveProgress = 1 - curveProgress;
+            comp.FiringPowerDrawLoadRampProgress = Math.Min(comp.FiringPowerDrawLoadRampProgress + frameTime, comp.FiringPowerDrawRampDuration);
         }
+        else
+        {
+            comp.FiringPowerDrawLoadRampProgress = Math.Max(comp.FiringPowerDrawLoadRampProgress - frameTime, 0);
+        }
+
+        var curveProgress = comp.FiringPowerDrawLoadRampProgress / comp.FiringPowerDrawRampDuration;
 
         //linear
         //var curLoad = (comp.FiringDesiredPowerDraw - comp.OriginalLoad) * curveProgress;
@@ -588,7 +591,6 @@ public sealed class ThrusterSystem : EntitySystem
                 continue;
 
             comp.Firing = true;
-            comp.FiringStateChangeTime = _timing.CurTime;
             appearanceQuery.TryGetComponent(uid, out var appearance);
             _appearance.SetData(uid, ThrusterVisualState.Thrusting, true, appearance);
         }
@@ -615,7 +617,6 @@ public sealed class ThrusterSystem : EntitySystem
 
             appearanceQuery.TryGetComponent(uid, out var appearance);
             comp.Firing = false;
-            comp.FiringStateChangeTime = _timing.CurTime;
             _appearance.SetData(uid, ThrusterVisualState.Thrusting, false, appearance);
         }
     }
@@ -644,7 +645,6 @@ public sealed class ThrusterSystem : EntitySystem
 
                 appearanceQuery.TryGetComponent(uid, out var appearance);
                 comp.Firing = true;
-                comp.FiringStateChangeTime = _timing.CurTime;
                 _appearance.SetData(uid, ThrusterVisualState.Thrusting, true, appearance);
             }
         }
@@ -657,7 +657,6 @@ public sealed class ThrusterSystem : EntitySystem
 
                 appearanceQuery.TryGetComponent(uid, out var appearance);
                 comp.Firing = false;
-                comp.FiringStateChangeTime = _timing.CurTime;
                 _appearance.SetData(uid, ThrusterVisualState.Thrusting, false, appearance);
             }
         }
