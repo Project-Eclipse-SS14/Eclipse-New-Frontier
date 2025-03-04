@@ -22,5 +22,5 @@ ent-NFBlueprintPowerDrill = чертёж электродрели
     .desc = Чертёж со схемой электродрели. Его можно вставить в автолат или любой техфаб.
 ent-NFBlueprintShipyardRCDAmmo = чертёж припасов корабельного РСУ
     .desc = Чертёж со схемой припасов корабельного РСУ. Его можно вставить в автолат или любой техфаб.
-ent-NFBlueprintPortableGeneratorDKJr = P.R.O.F.P.A.C.M.A.N. blueprint
-    .desc = A blueprint with a schematic of a P.R.O.F.P.A.C.M.A.N.-type portable generator. It can be inserted into an autolathe or a techfab.
+ent-NFBlueprintPortableGeneratorDKJr = чертеж П.Р.О.Ф.П.А.К.М.А.Н.
+    .desc = Чертеж со схемой портативного генератора типа П.Р.О.Ф.П.А.К.М.А.Н.. Его можно вставить в автолат или любой техфаб.

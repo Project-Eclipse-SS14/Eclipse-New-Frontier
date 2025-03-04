@@ -52,7 +52,7 @@ ent-GasDepositPlasmaVerySmall = { ent-GasDepositPlasma }
     .desc = { ent-BaseGasDepositVerySmall.desc }
 ent-GasDepositAmmoniaVery Small = { ent-BaseGasDepositVerySmall }
 
-  .suffix = Ammonia, Very Small
+  .suffix = Аммиак, Очень маленький
   .desc = { ent-BaseGasDepositVerySmall.desc }
 ent-GasDepositAmmoniaVerySmall = { ent-GasDepositAmmonia }
     .suffix = Аммиак, Очень маленький
