@@ -7,12 +7,12 @@
   price: 98000 # 50% tax
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/Corvax/Shuttles/Expedition/Stalker.yml
+  shuttlePath: /Maps/_Corvax/Shuttles/Expedition/Stalker.yml
 
 - type: gameMap
   id: Stalker
   mapName: 'TL Сталкер'
-  mapPath: /Maps/Corvax/Shuttles/Expedition/Stalker.yml
+  mapPath: /Maps/_Corvax/Shuttles/Expedition/Stalker.yml
   minPlayers: 0
   stations:
     Stalker:
