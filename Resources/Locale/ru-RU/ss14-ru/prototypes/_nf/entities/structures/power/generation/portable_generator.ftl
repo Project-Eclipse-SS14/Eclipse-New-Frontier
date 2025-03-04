@@ -14,7 +14,7 @@ ent-PortableGeneratorDK = портативный генератор типа Д-
         Прототип реактора деления Данна-Кикко. Используйте с осторожностью.
         Работает на бананиуме и рассчитан на мощность до 120 кВт.
         Сильно радиоактивен без защиты.
-    .suffix = Bananium, Рад+, 60 кВт
+    .suffix = Бананиум, Рад+, 60 кВт
 ent-PortableGeneratorDKShuttle = { ent-BaseGeneratorShuttle }
     .suffix = Бананиум, Рад+, 60 кВт, Шаттл
     .desc = { ent-BaseGeneratorShuttle.desc }
