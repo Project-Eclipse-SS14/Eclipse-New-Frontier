@@ -1,1 +1,1 @@
-plant-holder-component-cannot-be-sampled-message = Это растение не может быть образцом!
+plant-holder-component-cannot-be-sampled-message = С этого растения нельзя собрать образец!
