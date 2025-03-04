@@ -1,1 +1,1 @@
-shutter-rattle = *погремушка погремушка*
+shutter-rattle = *тряск-тряск*
