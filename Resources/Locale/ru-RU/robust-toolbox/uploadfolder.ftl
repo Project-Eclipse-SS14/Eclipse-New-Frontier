@@ -1,4 +1,4 @@
-uploadfolder-command-description = Рекурсивно загружает папку из вашей папки UserData в серверную ContentDB.
+uploadfolder-command-description = Рекурсивно загружает папку из вашей папки UserData в contentDB сервера.
 uploadfolder-command-help = uploadfolder [folder you want to upload in userdata/UploadFolder]
 uploadfolder-command-wrong-args = Неправильное количество аргументов!
 uploadfolder-command-folder-not-found = Папка { $folder } не найдена!
