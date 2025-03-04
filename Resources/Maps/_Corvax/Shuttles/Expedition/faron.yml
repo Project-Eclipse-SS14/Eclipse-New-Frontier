@@ -5967,7 +5967,7 @@ entities:
     - type: Transform
       pos: -4.5,9.5
       parent: 3
-- proto: WallPlastitaniumShuttle
+- proto: WallPlastitanium
   entities:
   - uid: 7
     components:
