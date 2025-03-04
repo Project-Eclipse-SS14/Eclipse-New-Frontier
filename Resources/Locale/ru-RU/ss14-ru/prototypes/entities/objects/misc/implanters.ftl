@@ -62,7 +62,7 @@ ent-MindShieldImplanter = { ent-Implanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Щит разума
 ent-RadioImplanterCentcomm = { ent-BaseImplantOnlyImplanter }
-    .suffix = радио ЦентКом
+    .suffix = Радио ЦентКом
     .desc = { ent-BaseImplantOnlyImplanter.desc }
 
 # Corvax anti-meta localization end
