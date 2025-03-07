@@ -9,12 +9,12 @@ using Robust.Shared.Prototypes;
 namespace Content.Client._Eclipse.SelfShipyard.UI;
 
 [GenerateTypedNameReferences]
-public sealed partial class VesselRow : PanelContainer
+public sealed partial class OwnedVesselRow : PanelContainer
 {
     [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
     private readonly GuidebookSystem _guidebook = default!;
-    public VesselPrototype? Vessel;
-    public VesselRow()
+    public OwnedVesselPrototype? Vessel;
+    public OwnedVesselRow()
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);

@@ -39,15 +39,12 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
         _menu.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent("ShipyardConsole-targetId"));
     }
 
-    private void Populate(List<string> availablePrototypes, List<string> unavailablePrototypes, bool freeListings, bool validId)
+    private void Populate(List<string> availablePrototypes, List<string> unavailablePrototypes, bool validId)
     {
         if (_menu == null)
             return;
 
-        _menu.PopulateProducts(availablePrototypes, unavailablePrototypes, freeListings, validId);
-        _menu.PopulateCategories(availablePrototypes, unavailablePrototypes);
-        _menu.PopulateClasses(availablePrototypes, unavailablePrototypes);
-        _menu.PopulateEngines(availablePrototypes, unavailablePrototypes);
+        _menu.PopulateProducts(availablePrototypes, unavailablePrototypes, validId);
     }
 
     protected override void UpdateState(BoundUserInterfaceState state)
@@ -58,9 +55,9 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
             return;
 
         Balance = cState.Balance;
-        ShipSellValue = cState.ShipSellValue;
-        var castState = (SelfShipyardConsoleInterfaceState) state;
-        Populate(castState.ShipyardPrototypes.available, castState.ShipyardPrototypes.unavailable, castState.FreeListings, castState.IsTargetIdPresent);
+        ShipSellValue = cState.ShipSaveRate;
+        var castState = (SelfShipyardConsoleInterfaceState)state;
+        Populate(castState.ShipyardPrototypes.available, castState.ShipyardPrototypes.unavailable, castState.IsTargetIdPresent);
         _menu?.UpdateState(castState);
     }
 
@@ -75,7 +72,7 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
 
     private void ApproveOrder(ButtonEventArgs args)
     {
-        if (args.Button.Parent?.Parent is not VesselRow row || row.Vessel == null)
+        if (args.Button.Parent?.Parent is not OwnedVesselRow row || row.Vessel == null)
         {
             return;
         }

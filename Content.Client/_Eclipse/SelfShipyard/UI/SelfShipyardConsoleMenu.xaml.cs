@@ -38,7 +38,7 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
 
     private void OnSearchBarTextChanged(LineEdit.LineEditEventArgs args)
     {
-        PopulateProducts(_lastAvailableProtos, _lastUnavailableProtos, _freeListings, _validId);
+        PopulateProducts(_lastAvailableProtos, _lastUnavailableProtos, _validId);
     }
 
     /// <summary>
@@ -63,9 +63,9 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
     /// <summary>
     /// Given a set of prototype IDs, returns a corresponding set of prototypes, ordered by name.
     /// </summary>
-    private List<VesselPrototype?> GetVesselPrototypesFromIds(IEnumerable<string> protoIds)
+    private List<OwnedVesselPrototype?> GetVesselPrototypesFromIds(IEnumerable<string> protoIds)
     {
-        var vesselList = protoIds.Select(it => _protoManager.TryIndex<VesselPrototype>(it, out var proto) ? proto : null)
+        var vesselList = protoIds.Select(it => _protoManager.TryIndex<OwnedVesselPrototype>(it, out var proto) ? proto : null)
             .Where(it => it != null)
             .ToList();
 
@@ -77,7 +77,7 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
     /// <summary>
     /// Adds all vessels in a given list of prototypes as VesselRows in the UI.
     /// </summary>
-    private void AddVesselsToControls(IEnumerable<VesselPrototype?> vessels, string search, bool canPurchase)
+    private void AddVesselsToControls(IEnumerable<OwnedVesselPrototype?> vessels, string search, bool canPurchase)
     {
         foreach (var prototype in vessels)
         {
@@ -87,7 +87,7 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
 
             string priceText = BankSystemExtensions.ToSpesoString(prototype!.Price);
 
-            var vesselEntry = new VesselRow
+            var vesselEntry = new OwnedVesselRow
             {
                 Vessel = prototype,
                 VesselName = { Text = prototype!.Name },
@@ -103,11 +103,8 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
     public void UpdateState(SelfShipyardConsoleInterfaceState state)
     {
         BalanceLabel.Text = BankSystemExtensions.ToSpesoString(state.Balance);
-        var shipPrice = 0;
-        if (!state.FreeListings)
-            shipPrice = state.ShipSellValue;
 
-        ShipAppraisalLabel.Text = $"{BankSystemExtensions.ToSpesoString(shipPrice)} ({state.SellRate * 100.0f:F1}%)";
+        ShipAppraisalLabel.Text = $"{BankSystemExtensions.ToSpesoString(state.ShipSaveRate)} ({state.PercentSellRate * 100.0f:F1}%) + {BankSystemExtensions.ToSpesoString(state.ConstantSellRate)}";
         SellShipButton.Disabled = state.ShipDeedTitle == null;
         TargetIdButton.Text = state.IsTargetIdPresent
             ? Loc.GetString("id-card-console-window-eject-button")
@@ -121,6 +118,6 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
             DeedTitle.Text = $"None";
         }
         _validId = state.IsTargetIdPresent;
-        PopulateProducts(_lastAvailableProtos, _lastUnavailableProtos,  _validId);
+        PopulateProducts(_lastAvailableProtos, _lastUnavailableProtos, _validId);
     }
 }

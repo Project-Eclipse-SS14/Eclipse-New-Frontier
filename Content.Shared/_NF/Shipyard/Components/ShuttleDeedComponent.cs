@@ -1,3 +1,4 @@
+using Content.Shared._Eclipse.SelfShipyard;
 using Content.Shared._NF.ShuttleRecords;
 using Robust.Shared.GameStates;
 
@@ -6,7 +7,7 @@ namespace Content.Shared._NF.Shipyard.Components;
 /// <summary>
 /// Tied to an ID card when a ship is purchased. 1 ship per captain.
 /// </summary>
-[RegisterComponent, NetworkedComponent, Access(typeof(SharedShipyardSystem), typeof(SharedShuttleRecordsSystem))]
+[RegisterComponent, NetworkedComponent, Access(typeof(SharedShipyardSystem), typeof(SharedShuttleRecordsSystem), typeof(SharedSelfShipyardSystem))]
 public sealed partial class ShuttleDeedComponent : Component
 {
     public const int MaxNameLength = 30;

@@ -49,10 +49,4 @@ public sealed partial class SelfShipyardConsoleComponent : Component
     /// </summary>
     [DataField]
     public List<ProtoId<AccessLevelPrototype>> NewAccessLevels = new();
-
-    /// <summary>
-    /// The accounts to receive payment, and the tax rate to apply for ship sales from this console.
-    /// </summary>
-    [DataField]
-    public Dictionary<SectorBankAccount, float> TaxAccounts = new();
 }

@@ -14,7 +14,7 @@ using Robust.Shared.Configuration;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Numerics;
-using Content.Shared._NF.Shipyard.Events;
+using Content.Shared._Eclipse.SelfShipyard.Events;
 using Content.Shared.Mobs.Components;
 using Robust.Shared.Containers;
 using Robust.Shared.Map.Components;
@@ -53,6 +53,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         OrganicsAboard, // Sapient intelligence is aboard, cannot sell, would delete the organics
         InvalidShip, // Ship is invalid
         MessageOverwritten, // Overwritten message.
+        InsufficientFunds, //Not enough funds
     }
 
     // TODO: swap to strictly being a formatted message.
@@ -77,8 +78,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         SubscribeLocalEvent<SelfShipyardConsoleComponent, ComponentStartup>(OnShipyardStartup);
         SubscribeLocalEvent<SelfShipyardConsoleComponent, BoundUIOpenedEvent>(OnConsoleUIOpened);
-        SubscribeLocalEvent<SelfShipyardConsoleComponent, ShipyardConsoleSellMessage>(OnSellMessage);
-        SubscribeLocalEvent<SelfShipyardConsoleComponent, ShipyardConsolePurchaseMessage>(OnPurchaseMessage);
+        SubscribeLocalEvent<SelfShipyardConsoleComponent, SelfShipyardConsoleSellMessage>(OnSellMessage);
+        SubscribeLocalEvent<SelfShipyardConsoleComponent, SelfShipyardConsolePurchaseMessage>(OnPurchaseMessage);
         SubscribeLocalEvent<SelfShipyardConsoleComponent, EntInsertedIntoContainerMessage>(OnItemSlotChanged);
         SubscribeLocalEvent<SelfShipyardConsoleComponent, EntRemovedFromContainerMessage>(OnItemSlotChanged);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
@@ -214,7 +215,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     /// <param name="stationUid">The ID of the station that the shuttle is docked to</param>
     /// <param name="shuttleUid">The grid ID of the shuttle to be appraised and sold</param>
     /// <param name="consoleUid">The ID of the console being used to sell the ship</param>
-    public ShipyardSaleResult TrySellShuttle(EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, out int bill)
+    public ShipyardSaleResult TrySaveShuttle(EntityUid player, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, out int bill)
     {
         ShipyardSaleResult result = new ShipyardSaleResult();
         bill = 0;
@@ -280,12 +281,21 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             _station.DeleteStation(shuttleStationUid);
         }
 
-        if (TryComp<ShipyardConsoleComponent>(consoleUid, out var comp))
+        if (TryComp<SelfShipyardConsoleComponent>(consoleUid, out var comp))
         {
             CleanGrid(shuttleUid, consoleUid);
         }
 
         bill = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
+
+        bill = (int)(bill * _percentSaveRate) + _constantSaveRate;
+
+        if (!_bank.TryBankWithdraw(player, bill))
+        {
+            result.Error = ShipyardSaleError.InsufficientFunds;
+            return result;
+        }
+
         QueueDel(shuttleUid);
         _sawmill.Info($"Sold shuttle {shuttleUid} for {bill}");
 
