@@ -43,6 +43,7 @@ using Content.Server.StationEvents.Components;
 using Content.Server.Forensics;
 using Content.Shared.Forensics.Components;
 using Content.Shared._NF.Shipyard.Components;
+using Content.Shared.Ghost;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -175,8 +176,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
                 shuttleUid
             };
             shuttleStation = _station.InitializeNewStation(stationProto.Stations[vessel.ID], gridUids);
-            var metaData = MetaData((EntityUid)shuttleStation);
-            name = metaData.EntityName;
+            name = Name(shuttleStation.Value);
         }
 
         if (TryComp<AccessComponent>(targetId, out var newCap))
@@ -526,11 +526,17 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         while (childEnumerator.MoveNext(out var child))
         {
-            if (mobQuery.TryGetComponent(child, out var mobState)
-                && !_mobState.IsDead(child, mobState)
-                && _mind.TryGetMind(child, out var mind, out var mindComp)
-                && !_mind.IsCharacterDeadIc(mindComp))
-                return mindComp.CharacterName;
+            // Ghosts don't stop a ship sale.
+            if (HasComp<GhostComponent>(child))
+                continue;
+
+            // Check if we have a player entity that's either still around or alive and may come back
+            if (_mind.TryGetMind(child, out var mind, out var mindComp)
+                && (mindComp.Session != null
+                || !_mind.IsCharacterDeadPhysically(mindComp)))
+            {
+                return Name(child);
+            }
             else
             {
                 var charName = FoundOrganics(child, mobQuery, xformQuery);
