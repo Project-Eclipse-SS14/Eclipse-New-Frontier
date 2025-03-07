@@ -1,0 +1,43 @@
+- type: entity
+  name: shipyard console
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, BaseComputer]
+  id: ComputerShipyardBase
+  description: Used to purchase and sell shuttles
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+  - type: SelfShipyardConsole
+    targetIdSlot:
+      name: id-card-console-target-id
+      ejectSound: /Audio/Machines/id_swipe.ogg
+      insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+      ejectOnBreak: true
+      swap: true
+      whitelist:
+        components:
+        - IdCard
+    newAccessLevels: [Captain]
+  - type: ActivatableUI
+    singleUser: true
+    key: enum.SelfShipyardConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.SelfShipyardConsoleUiKey.Key:
+        type: ShipyardConsoleBoundUserInterface
+  - type: ItemSlots
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+      SelfShipyardConsole-targetId: !type:ContainerSlot
+  - type: Computer
+    board: Null
