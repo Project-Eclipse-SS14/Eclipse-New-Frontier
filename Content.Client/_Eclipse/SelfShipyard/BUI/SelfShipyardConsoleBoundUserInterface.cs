@@ -36,15 +36,15 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
         _menu.OnClose += Close;
         _menu.OnOrderApproved += ApproveOrder;
         _menu.OnSellShip += SellShip;
-        _menu.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent("ShipyardConsole-targetId"));
+        _menu.TargetIdButton.OnPressed += _ => SendMessage(new ItemSlotButtonPressedEvent("SelfShipyardConsole-targetId"));
     }
 
-    private void Populate(List<string> availablePrototypes, List<string> unavailablePrototypes, bool validId)
+    private void Populate(List<OwnedVesselVisibleRecord> availablePrototypes, bool validId)
     {
         if (_menu == null)
             return;
 
-        _menu.PopulateProducts(availablePrototypes, unavailablePrototypes, validId);
+        _menu.PopulateProducts(availablePrototypes, validId);
     }
 
     protected override void UpdateState(BoundUserInterfaceState state)
@@ -57,7 +57,7 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
         Balance = cState.Balance;
         ShipSellValue = cState.ShipSaveRate;
         var castState = (SelfShipyardConsoleInterfaceState)state;
-        Populate(castState.ShipyardPrototypes.available, castState.ShipyardPrototypes.unavailable, castState.IsTargetIdPresent);
+        Populate(castState.ShipyardPrototypes, castState.IsTargetIdPresent);
         _menu?.UpdateState(castState);
     }
 
@@ -77,7 +77,7 @@ public sealed class SelfShipyardConsoleBoundUserInterface : BoundUserInterface
             return;
         }
 
-        var vesselId = row.Vessel.ID;
+        var vesselId = row.Vessel.Id;
         SendMessage(new SelfShipyardConsolePurchaseMessage(vesselId));
     }
     private void SellShip(ButtonEventArgs args)

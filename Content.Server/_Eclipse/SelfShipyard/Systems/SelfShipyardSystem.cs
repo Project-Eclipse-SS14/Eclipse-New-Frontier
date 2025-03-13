@@ -83,7 +83,6 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         SubscribeLocalEvent<SelfShipyardConsoleComponent, EntInsertedIntoContainerMessage>(OnItemSlotChanged);
         SubscribeLocalEvent<SelfShipyardConsoleComponent, EntRemovedFromContainerMessage>(OnItemSlotChanged);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
-        SubscribeLocalEvent<StationDeedSpawnerComponent, MapInitEvent>(OnInitDeedSpawner);
     }
     public override void Shutdown()
     {

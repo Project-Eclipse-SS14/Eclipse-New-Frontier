@@ -8,10 +8,10 @@ namespace Content.Shared._Eclipse.SelfShipyard.Events;
 [Serializable, NetSerializable]
 public sealed class SelfShipyardConsolePurchaseMessage : BoundUserInterfaceMessage
 {
-    public string Vessel; //vessel prototype ID
+    public int VesselId; //vessel record id
 
-    public SelfShipyardConsolePurchaseMessage(string vessel)
+    public SelfShipyardConsolePurchaseMessage(int vesselId)
     {
-        Vessel = vessel;
+        VesselId = vesselId;
     }
 }

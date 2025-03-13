@@ -344,6 +344,10 @@ namespace Content.Server.Database
 
         #endregion
 
+        Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId);
+
+        Task<List<OwnedVesselRecord>> GetOwnedShuttlesForPlayer(Guid player);
+
         #region DB Notifications
 
         void SubscribeToNotifications(Action<DatabaseNotification> handler);
@@ -1062,6 +1066,16 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.CleanIPIntelCache(range));
+        }
+
+        public Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)
+        {
+            return RunDbCommand(() => _db.GetOwnedShuttle(player, vesselId));
+        }
+
+        public Task<List<OwnedVesselRecord>> GetOwnedShuttlesForPlayer(Guid player)
+        {
+            return RunDbCommand(() => _db.GetOwnedShuttlesForPlayer(player));
         }
 
         public void SubscribeToNotifications(Action<DatabaseNotification> handler)

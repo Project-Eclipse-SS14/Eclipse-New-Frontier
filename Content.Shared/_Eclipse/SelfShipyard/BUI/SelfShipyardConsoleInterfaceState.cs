@@ -12,7 +12,7 @@ public sealed class SelfShipyardConsoleInterfaceState : BoundUserInterfaceState
     public readonly bool IsTargetIdPresent;
     public readonly byte UiKey;
 
-    public readonly (List<string> available, List<string> unavailable) ShipyardPrototypes;
+    public readonly List<OwnedVesselVisibleRecord> ShipyardPrototypes;
     public readonly string ShipyardName;
     public readonly float PercentSellRate;
     public readonly int ConstantSellRate;
@@ -24,7 +24,7 @@ public sealed class SelfShipyardConsoleInterfaceState : BoundUserInterfaceState
         int shipSaveRate,
         bool isTargetIdPresent,
         byte uiKey,
-        (List<string> available, List<string> unavailable) shipyardPrototypes,
+        List<OwnedVesselVisibleRecord> shipyardPrototypes,
         string shipyardName,
         float percentSellRate,
         int constantSellRate)
@@ -41,3 +41,11 @@ public sealed class SelfShipyardConsoleInterfaceState : BoundUserInterfaceState
         ConstantSellRate = constantSellRate;
     }
 }
+
+[NetSerializable, Serializable]
+public record OwnedVesselVisibleRecord(
+    int Id,
+    string Name,
+    string? Description,
+    int Price
+);
