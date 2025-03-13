@@ -27,3 +27,6 @@ ent-SpawnPointGhostSpaceNinja = { ent-BaseAntagSpawner }
     .suffix = космический ниндзя
 ent-SpawnPointGhostDerelictCyborg = { ent-BaseAntagSpawner }
     .desc = { ent-BaseAntagSpawner.desc }
+ent-SpawnPointGhostWizard = ghost role spawn point
+    .suffix = wizard
+    .desc = { ent-BaseAntagSpawner.desc }

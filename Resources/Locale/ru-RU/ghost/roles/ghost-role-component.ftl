@@ -235,6 +235,8 @@ ghost-role-information-gingerbread-name = Gingerbread Man
 ghost-role-information-gingerbread-description =
     A being of pure holiday spirit.
     Spread molassesy goodness and to all good cheer.
+ghost-role-information-wizard-name = Wizard
+ghost-role-information-wizard-desc = YER A WIZARD! Show the station what your magic is made of.
 ghost-role-information-tomatokiller-name = Томат-убийца
 ghost-role-information-tomatokiller-description = Этот маленький помидор будет служить ботанику до конца своей жизни... то есть пару минут.
 # Corvax-start

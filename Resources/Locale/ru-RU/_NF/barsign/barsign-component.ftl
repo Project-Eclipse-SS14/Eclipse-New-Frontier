@@ -5,6 +5,8 @@ barsign-prototype-description-little-treats = Уютная чайная для �
 
 ## Maltroach
 
+barsign-prototype-name-nf-maltroach = Maltroach
+barsign-prototype-description-nf-maltroach = Mothroaches politely greet you into the bar, or are they greeting each other?
 barsign-prototype-name-maltroach = Таракамольня
 barsign-prototype-description-maltroach = Таракамоль радушно приветствуют вас в баре... или друг друга?
 
@@ -21,4 +23,6 @@ barsign-prototype-description-the-rune = Сдвигающие реальност
 ## Whiskey Echoes
 
 barsign-prototype-name-whiskey-echoes = Виски-Эхо
+barsign-prototype-name-wyvern-shipyards = Wyvern Shipyards
+barsign-prototype-description-wyvern-shipyards = Have a seat, relax and don't worry, the future can't come any faster!
 barsign-prototype-description-whiskey-echoes = Э-хей, приятель! Садись и выпей! У нас здесь лозунг один: «Смерть трезвости!»
