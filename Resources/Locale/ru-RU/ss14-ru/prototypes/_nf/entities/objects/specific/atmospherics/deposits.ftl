@@ -52,7 +52,7 @@ ent-GasDepositPlasmaVerySmall = { ent-GasDepositPlasma }
     .desc = { ent-BaseGasDepositVerySmall.desc }
 ent-GasDepositAmmoniaVery Small = { ent-BaseGasDepositVerySmall }
 
-  .suffix = Ammonia, Very Small
+  .suffix = Аммиак, Очень маленький
   .desc = { ent-BaseGasDepositVerySmall.desc }
 ent-GasDepositAmmoniaVerySmall = { ent-GasDepositAmmonia }
     .suffix = Аммиак, Очень маленький
@@ -164,7 +164,7 @@ ent-GasDepositMuddlePlasmaVeryLarge = { ent-GasDepositMuddlePlasma }
     .desc = { ent-BaseGasDepositVeryLarge.desc }
 ent-PinpointerGasDeposit = Пинпоинтер газовых месторождений
     .desc = Указывает на ближайшее газовое месторождение.
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 ent-GasDepositLocatorUnpowered = локатор газовых месторождений
     .desc = Сканер, который проверяет окружающую местность на наличие месторождений газа.
     .suffix = Разряженный

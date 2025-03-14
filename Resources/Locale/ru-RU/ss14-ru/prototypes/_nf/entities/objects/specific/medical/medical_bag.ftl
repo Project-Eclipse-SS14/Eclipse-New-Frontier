@@ -1,2 +1,2 @@
-ent-MedicalBag = medical bag
-    .desc = A medical bag designed to hold topicals and small reagent containers. For the medic on the go.
+ent-MedicalBag = медицинская сумка
+    .desc = Медицинская сумка, предназначенная для хранения топических препаратов и небольших емкостей с реактивами. Для медиков на ходу.

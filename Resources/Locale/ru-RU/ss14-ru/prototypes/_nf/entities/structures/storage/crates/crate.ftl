@@ -1,5 +1,5 @@
 ent-CratePlasticBiodegradable = биоразлагаемый пластиковый ящик
-    .desc = Feels incredibly flimsy.
+    .desc = Невероятно хлипкий на ощупь.
 ent-CrateUranium = ящик урана
     .desc = { ent-CrateBaseSecure.desc }
 ent-CrateNfsdBrigmedic = ящик коронера

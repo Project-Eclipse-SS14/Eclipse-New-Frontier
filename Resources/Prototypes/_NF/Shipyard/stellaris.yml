@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NT Межзвёздный
   description: Среднегабаритный шаттл-ресторан с театром. Рекомендованный состав команды 2-5 человек.
-  price: 48000 # Appraises for 45469, margin of 7% - TODO: fix this value, getting tests to pass - Whatstone
+  price: 65000 # Appraises for 45469, margin of 7% - TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/stellaris.yml

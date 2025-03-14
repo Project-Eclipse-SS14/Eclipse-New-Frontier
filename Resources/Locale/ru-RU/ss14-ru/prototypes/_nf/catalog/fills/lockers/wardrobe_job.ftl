@@ -1,8 +1,8 @@
 ent-NFWardrobePrisonFilled = { ent-NFWardrobePrison }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-NFWardrobePrison.desc }
 ent-NFPrisonerClosetWallOrangeFilled = { ent-NFPrisonerClosetWallOrange }
-    .suffix = Filled
+    .suffix = Заполненный
     .desc = { ent-NFPrisonerClosetWallOrange.desc }
 ent-ClosetWallOrangeFilled = { ent-ClosetWallOrange }
     .suffix = Заполненный

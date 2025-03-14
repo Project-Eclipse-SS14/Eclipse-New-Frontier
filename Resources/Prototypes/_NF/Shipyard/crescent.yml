@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Полумесяц
   description: Крупногабаритный многоцелевой шаттл. Рекомендованный размер команды 6+ человек.
-  price: 350020 # It do be like this.
+  price: 358020 # It do be like this.
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crescent.yml

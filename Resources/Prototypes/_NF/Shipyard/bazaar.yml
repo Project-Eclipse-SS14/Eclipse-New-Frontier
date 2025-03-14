@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SLI Барахолка
   description: Среднегабаритный торговый шаттл. Рекомендованный размер команды 2-4 человека.
-  price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
+  price: 95555 # TODO: fix this number, just getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bazaar.yml

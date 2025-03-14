@@ -16,5 +16,5 @@ ent-FoodPickleSlice = ломтик солёного огурца
     .desc = Как свежая хрустящая и солёная вода, поменьше.
 ent-FoodHoneyComb = соты
     .desc = Хрустящие соты с медом.
-ent-FoodPotatoSlice = sliced potato
-    .desc = Raw potato sticks ready for the deep fryer.
+ent-FoodPotatoSlice = нарезанный картофель
+    .desc = Сырые картофельные палочки готовы к обжарке во фритюре.

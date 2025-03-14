@@ -1,2 +1,2 @@
-ent-ActionSmoke = Smoke
-    .desc = Summons smoke around the user.
+ent-ActionSmoke = Дымовая завеса
+    .desc = Вызывает дым вокруг пользователя.
