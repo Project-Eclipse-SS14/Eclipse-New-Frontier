@@ -1,0 +1,1 @@
+self-shipyard-console-not-accepting-voucher = Консоль не принимает ваучеры.

@@ -22,6 +22,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using LogLevel = Robust.Shared.Log.LogLevel;
 using MSLogLevel = Microsoft.Extensions.Logging.LogLevel;
+using Robust.Shared.Utility;
 
 namespace Content.Server.Database
 {
@@ -343,6 +344,10 @@ namespace Content.Server.Database
         Task<bool> CleanIPIntelCache(TimeSpan range);
 
         #endregion
+
+        Task<int> AddOwnedShuttle(Guid player, string prototypeId, string name, string? description, int price, ResPath shuttlePath);
+
+        Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath);
 
         Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId);
 
@@ -1031,7 +1036,7 @@ namespace Content.Server.Database
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.RemoveJobWhitelist(player, job));
         }
-        
+
         // Frontier: ghost role DB ops
         public Task AddGhostRoleWhitelist(Guid player, ProtoId<GhostRolePrototype> ghostRole)
         {
@@ -1066,6 +1071,28 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.CleanIPIntelCache(range));
+        }
+
+        public Task<int> AddOwnedShuttle(Guid player, string prototypeId, string name, string? description, int price, ResPath shuttlePath)
+        {
+            DbWriteOpsMetric.Inc();
+
+            var record = new OwnedShuttles
+            {
+                ShuttlePrototypeId = prototypeId,
+                ShuttleName = name,
+                ShuttleDescription = description,
+                ShuttleSavePrice = price,
+                ShuttlePath = shuttlePath.ToString()
+            };
+
+            return RunDbCommand(() => _db.AddOwnedShuttle(record));
+        }
+
+        public Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.UpdateOwnedShuttlePath(shuttleId, player, shuttlePath));
         }
 
         public Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)

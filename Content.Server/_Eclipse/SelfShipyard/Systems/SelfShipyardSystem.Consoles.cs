@@ -97,8 +97,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             return;
         }
 
-        TryComp<IdCardComponent>(targetId, out var idCard);
-        if (idCard is null)
+        if (!TryComp<IdCardComponent>(targetId, out var idCard))
         {
             ConsolePopup(player, Loc.GetString("shipyard-console-no-idcard"));
             PlayDenySound(player, shipyardConsoleUid, component);
@@ -276,6 +275,12 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         if (args.Actor is not { Valid: true } player)
             return;
 
+        if (!_playerManager.TryGetSessionByEntity(player, out var session))
+        {
+            //_log.Info($"OnPurchaseMessage: {player} has no attached session");
+            return;
+        }
+
         if (component.TargetIdSlot.ContainerSlot?.ContainedEntity is not { Valid: true } targetId)
         {
             ConsolePopup(player, Loc.GetString("shipyard-console-no-idcard"));
@@ -283,9 +288,14 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             return;
         }
 
-        TryComp<IdCardComponent>(targetId, out var idCard);
-        TryComp<ShipyardVoucherComponent>(targetId, out var voucher);
-        if (idCard is null && voucher is null)
+        if (TryComp<ShipyardVoucherComponent>(targetId, out var _))
+        {
+            ConsolePopup(player, Loc.GetString("self-shipyard-console-not-accepting-voucher"));
+            PlayDenySound(player, uid, component);
+            return;
+        }
+
+        if (!TryComp<IdCardComponent>(targetId, out var idCard))
         {
             ConsolePopup(player, Loc.GetString("shipyard-console-no-idcard"));
             PlayDenySound(player, uid, component);
@@ -326,7 +336,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         var shuttleName = ToPrettyString(shuttleUid); // Grab the name before it gets 1984'd
 
-        var saleResult = TrySaveShuttle(player, stationUid, shuttleUid, uid, out var bill);
+        var (saleResult, bill) = await TrySaveShuttle(player, session, stationUid, shuttleUid, uid);
         if (saleResult.Error != ShipyardSaleError.Success)
         {
             switch (saleResult.Error)
@@ -363,15 +373,6 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         EntityUid? refreshId = targetId;
 
         _adminLogger.Add(LogType.ShipYardUsage, LogImpact.Low, $"{ToPrettyString(player):actor} used {ToPrettyString(targetId)} to sell {shuttleName} for {bill} credits via {ToPrettyString(uid)}");
-
-        // No uses on the voucher left, destroy it.
-        if (voucher != null
-            && voucher!.RedemptionsLeft <= 0
-            && voucher!.DestroyOnEmpty)
-        {
-            QueueDel(targetId);
-            refreshId = null;
-        }
 
         await RefreshState(uid, player, bank.Balance, true, null, 0, refreshId, (SelfShipyardConsoleUiKey)args.UiKey);
     }

@@ -1870,6 +1870,28 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
         # region Owned Shuttles
 
+        public async Task<int> AddOwnedShuttle(OwnedShuttles ownedShuttle)
+        {
+            await using var db = await GetDb();
+            db.DbContext.OwnedShuttles.Add(ownedShuttle);
+            await db.DbContext.SaveChangesAsync();
+            return ownedShuttle.ShuttleId;
+        }
+
+        public async Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath)
+        {
+            await using var db = await GetDb();
+            var shuttle = await db.DbContext.OwnedShuttles.SingleOrDefaultAsync(s => s.ShuttleId == shuttleId && s.PlayerUserId == player);
+
+            if (shuttle == null)
+            {
+                return;
+            }
+            shuttle.ShuttlePath = shuttlePath;
+
+            await db.DbContext.SaveChangesAsync();
+        }
+
         public async Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)
         {
             await using var db = await GetDb();

@@ -21,6 +21,9 @@ using Robust.Shared.Map.Components;
 using Content.Server._NF.Station.Components;
 using Content.Shared._NF.Shipyard.Components;
 using Content.Shared._Eclipse.CCVar;
+using Robust.Shared.Player;
+using Robust.Shared.Utility;
+using System.Threading.Tasks;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -214,10 +217,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     /// <param name="stationUid">The ID of the station that the shuttle is docked to</param>
     /// <param name="shuttleUid">The grid ID of the shuttle to be appraised and sold</param>
     /// <param name="consoleUid">The ID of the console being used to sell the ship</param>
-    public ShipyardSaleResult TrySaveShuttle(EntityUid player, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, out int bill)
+    public async Task<(ShipyardSaleResult result, int bill)> TrySaveShuttle(EntityUid player, ICommonSession playerSession, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid)
     {
         ShipyardSaleResult result = new ShipyardSaleResult();
-        bill = 0;
 
         if (!TryComp<StationDataComponent>(stationUid, out var stationGrid)
             || !HasComp<ShuttleComponent>(shuttleUid)
@@ -225,7 +227,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             || ShipyardMap == null)
         {
             result.Error = ShipyardSaleError.InvalidShip;
-            return result;
+            return (result, 0);
         }
 
         var targetGrid = _station.GetLargestGrid(stationGrid);
@@ -233,7 +235,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         if (targetGrid == null)
         {
             result.Error = ShipyardSaleError.InvalidShip;
-            return result;
+            return (result, 0);
         }
 
         var gridDocks = _docking.GetDocks(targetGrid.Value);
@@ -258,7 +260,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         {
             _sawmill.Warning($"shuttle is not docked to that station");
             result.Error = ShipyardSaleError.Undocked;
-            return result;
+            return (result, 0);
         }
 
         var mobQuery = GetEntityQuery<MobStateComponent>();
@@ -270,7 +272,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             _sawmill.Warning($"organics on board");
             result.Error = ShipyardSaleError.OrganicsAboard;
             result.OrganicName = charName;
-            return result;
+            return (result, 0);
         }
 
         //just yeet and delete for now. Might want to split it into another function later to send back to the shipyard map first to pause for something
@@ -285,15 +287,22 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             CleanGrid(shuttleUid, consoleUid);
         }
 
-        bill = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
+        var bill = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
 
         bill = (int)(bill * _percentSaveRate) + _constantSaveRate;
 
         if (!_bank.TryBankWithdraw(player, bill))
         {
             result.Error = ShipyardSaleError.InsufficientFunds;
-            return result;
+            return (result, bill);
         }
+
+        var id = await _db.AddOwnedShuttle(playerSession.UserId, "", "", null, bill, ResPath.Root);
+
+        string path = $"/OwnedShuttles/{playerSession.UserId}/{id}.yml";
+
+        _mapLoader.Save(shuttleUid, path);
+        await _db.UpdateOwnedShuttlePath(id, playerSession.UserId, path);
 
         QueueDel(shuttleUid);
         _sawmill.Info($"Sold shuttle {shuttleUid} for {bill}");
@@ -302,7 +311,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         _shuttleRecordsSystem.RefreshStateForAll(true);
 
         result.Error = ShipyardSaleError.Success;
-        return result;
+        return (result, bill);
     }
 
     private void CleanGrid(EntityUid grid, EntityUid destination)

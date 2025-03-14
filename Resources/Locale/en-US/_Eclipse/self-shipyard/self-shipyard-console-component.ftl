@@ -1,0 +1,1 @@
+self-shipyard-console-not-accepting-voucher = The console does not accept vouchers.
