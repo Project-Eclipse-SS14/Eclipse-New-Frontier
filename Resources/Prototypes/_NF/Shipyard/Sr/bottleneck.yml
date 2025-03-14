@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NT Горлышко бутылки
   description: Личный транспорт и мобильный офис для представителя Фронтиры.
-  price: 20000 # TODO: fix this value, getting tests to pass - Whatstone
+  price: 18000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Sr
   access: HeadOfPersonnel

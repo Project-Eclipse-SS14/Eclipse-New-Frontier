@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: NM Орлан
   description: Среднегабаритный медико-инженерный шаттл. Рекомендованный размер команды 3-5 человек.
-  price: 67950
+  price: 60000
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/eagle.yml

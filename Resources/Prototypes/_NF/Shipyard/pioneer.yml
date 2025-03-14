@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Пионер
   description: Одноместный грузовой контейнер, переоборудованный под выход в открытый космос.
-  price: 12200 # ~9781$ on mapinit + 15% markup
+  price: 11250 # ~9781$ on mapinit + 15% markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/pioneer.yml

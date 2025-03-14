@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SSS Кемпер
   description: Персональный малогабаритный шаттл на 1 человека.
-  price: 15000
+  price: 14000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/camper.yml

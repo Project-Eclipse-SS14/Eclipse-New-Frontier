@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Интервьюер
   description: Малогабаритный репортёрский шаттл. Рекомендованный размер команды 1 человек.
-  price: 13670 # 12135$ on mapinit + 5% markup
+  price: 13000 # 12135$ on mapinit + 5% markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml

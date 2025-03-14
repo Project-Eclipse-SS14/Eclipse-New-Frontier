@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Спринтер
   description: Среднегабаритный экспедиционный шаттл. Рекомендованный состав команды 3-6 человек.
-  price: 66500 # ~$43700 on mapinit plus ~30% markup
+  price: 56800 # ~$43700 on mapinit plus ~30% markup
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/sprinter.yml

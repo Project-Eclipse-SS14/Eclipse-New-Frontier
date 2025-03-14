@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Якорь
   description: Крупногабаритный экспедиционный шаттл. Рекомендованный размер команды 4-8 человек.
-  price: 175300 # $108432 after appraisal +30ish% (~32000)
+  price: 140000 # $108432 after appraisal +30ish% (~32000)
   category: Large
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/anchor.yml
