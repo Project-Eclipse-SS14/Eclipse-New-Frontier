@@ -9,8 +9,8 @@ implanter-component-implant-already = { $target } уже имеет { $implant }
 
 ## UI
 
-implanter-set-draw-verb = Установить имплант
-implanter-set-draw-window = Установить имплант
+implanter-set-draw-verb = Установить извлекаемый имплант
+implanter-set-draw-window = Установить извлекаемый имплант
 implanter-set-draw-info = Выберите тип импланта, который должен удалить этот имплантер:
 implanter-set-draw-type = Тип импланта:
 implanter-draw-text = Извлечение

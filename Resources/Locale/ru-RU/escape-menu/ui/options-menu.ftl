@@ -267,4 +267,4 @@ ui-options-screen-shake-intensity = Интенсивность дрожания 
 ui-options-speech-bubble-text-opacity = Непрозрачность текста речевых пузырьков
 ui-options-speech-bubble-speaker-opacity = Непрозрачность динамического речевого пузыря
 ui-options-speech-bubble-background-opacity = Непрозрачность фона речевого пузыря
-ui-options-enable-classic-overlay = Верните наложение антага в классический режим
+ui-options-enable-classic-overlay = Вернуть классический overlay антагониста
