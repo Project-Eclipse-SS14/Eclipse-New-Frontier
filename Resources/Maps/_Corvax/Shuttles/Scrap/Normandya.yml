@@ -2588,7 +2588,7 @@ entities:
     - type: Transform
       pos: 7.5,12.5
       parent: 1
-- proto: ShuttleGunKineticNoUse
+- proto: ShuttleGunKinetic
   entities:
   - uid: 298
     components:
