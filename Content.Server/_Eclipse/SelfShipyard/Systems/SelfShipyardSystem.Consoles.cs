@@ -46,6 +46,7 @@ using Content.Shared.Ghost;
 using Content.Server.Database;
 using System.Threading.Tasks;
 using Robust.Shared.Player;
+using Content.Server._Eclipse.SelfShipyard.Components;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -165,6 +166,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             PlayDenySound(player, shipyardConsoleUid, component);
             return;
         }
+
+        await _db.RemoveOwnedShuttle(vessel.Id, session.UserId);
+
         var shuttleUid = shuttleUidOut.Value;
         if (!_entityManager.TryGetComponent<ShuttleComponent>(shuttleUid, out var shuttle))
         {
@@ -309,6 +313,13 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             return;
         }
 
+        if (!TryComp<SaveableShuttleComponent>(shuttleUid, out var saveableShuttle))
+        {
+            ConsolePopup(player, Loc.GetString("self-shipyard-console-save-not-allowed"));
+            PlayDenySound(player, uid, component);
+            return;
+        }
+
         if (!TryComp<BankAccountComponent>(player, out var bank))
         {
             ConsolePopup(player, Loc.GetString("shipyard-console-no-bank"));
@@ -336,7 +347,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         var shuttleName = ToPrettyString(shuttleUid); // Grab the name before it gets 1984'd
 
-        var (saleResult, bill) = await TrySaveShuttle(player, session, stationUid, shuttleUid, uid);
+        var (saleResult, bill) = await TrySaveShuttle(player, session, stationUid, shuttleUid, uid, saveableShuttle);
         if (saleResult.Error != ShipyardSaleError.Success)
         {
             switch (saleResult.Error)

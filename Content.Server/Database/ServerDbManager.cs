@@ -349,6 +349,8 @@ namespace Content.Server.Database
 
         Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath);
 
+        Task RemoveOwnedShuttle(int shuttleId, Guid player);
+
         Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId);
 
         Task<List<OwnedVesselRecord>> GetOwnedShuttlesForPlayer(Guid player);
@@ -1079,6 +1081,7 @@ namespace Content.Server.Database
 
             var record = new OwnedShuttles
             {
+                PlayerUserId = player,
                 ShuttlePrototypeId = prototypeId,
                 ShuttleName = name,
                 ShuttleDescription = description,
@@ -1093,6 +1096,12 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.UpdateOwnedShuttlePath(shuttleId, player, shuttlePath));
+        }
+
+        public Task RemoveOwnedShuttle(int shuttleId, Guid player)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.RemoveOwnedShuttle(shuttleId, player));
         }
 
         public Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)

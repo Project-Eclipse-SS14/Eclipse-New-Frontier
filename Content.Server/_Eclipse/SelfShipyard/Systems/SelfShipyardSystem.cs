@@ -24,6 +24,7 @@ using Content.Shared._Eclipse.CCVar;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
 using System.Threading.Tasks;
+using Content.Server._Eclipse.SelfShipyard.Components;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -217,14 +218,19 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     /// <param name="stationUid">The ID of the station that the shuttle is docked to</param>
     /// <param name="shuttleUid">The grid ID of the shuttle to be appraised and sold</param>
     /// <param name="consoleUid">The ID of the console being used to sell the ship</param>
-    public async Task<(ShipyardSaleResult result, int bill)> TrySaveShuttle(EntityUid player, ICommonSession playerSession, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid)
+    public async Task<(ShipyardSaleResult result, int bill)> TrySaveShuttle(EntityUid player, ICommonSession playerSession, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, SaveableShuttleComponent saveableShuttle)
     {
         ShipyardSaleResult result = new ShipyardSaleResult();
 
         if (!TryComp<StationDataComponent>(stationUid, out var stationGrid)
             || !HasComp<ShuttleComponent>(shuttleUid)
-            || !TryComp(shuttleUid, out TransformComponent? xform)
-            || ShipyardMap == null)
+            || !TryComp(shuttleUid, out TransformComponent? xform))
+        {
+            result.Error = ShipyardSaleError.InvalidShip;
+            return (result, 0);
+        }
+
+        if (saveableShuttle.PrototypeId == null)
         {
             result.Error = ShipyardSaleError.InvalidShip;
             return (result, 0);
@@ -287,9 +293,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             CleanGrid(shuttleUid, consoleUid);
         }
 
-        var bill = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
+        var shuttle_cost = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
 
-        bill = (int)(bill * _percentSaveRate) + _constantSaveRate;
+        var bill = (int)(shuttle_cost * _percentSaveRate) + _constantSaveRate;
 
         if (!_bank.TryBankWithdraw(player, bill))
         {
@@ -297,7 +303,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             return (result, bill);
         }
 
-        var id = await _db.AddOwnedShuttle(playerSession.UserId, "", "", null, bill, ResPath.Root);
+        _docking.UndockDocks(shuttleUid);
+
+        var id = await _db.AddOwnedShuttle(playerSession.UserId, saveableShuttle.PrototypeId, "", null, shuttle_cost, ResPath.Root);
 
         string path = $"/OwnedShuttles/{playerSession.UserId}/{id}.yml";
 

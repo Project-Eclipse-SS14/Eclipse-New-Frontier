@@ -1892,6 +1892,19 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
             await db.DbContext.SaveChangesAsync();
         }
 
+        public async Task RemoveOwnedShuttle(int shuttleId, Guid player)
+        {
+            await using var db = await GetDb();
+            var shuttle = await db.DbContext.OwnedShuttles.SingleOrDefaultAsync(s => s.ShuttleId == shuttleId && s.PlayerUserId == player);
+
+            if (shuttle == null)
+                return;
+
+            db.DbContext.OwnedShuttles.Remove(shuttle);
+
+            await db.DbContext.SaveChangesAsync();
+        }
+
         public async Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)
         {
             await using var db = await GetDb();

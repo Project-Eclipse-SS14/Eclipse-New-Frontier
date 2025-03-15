@@ -1350,9 +1350,9 @@ namespace Content.Server.Database
 
     public class OwnedShuttles
     {
-        [Required, Key, ForeignKey("Player")] public Guid PlayerUserId { get; set; }
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)] public int ShuttleId { get; set; }
+        [Required, ForeignKey("Player")] public Guid PlayerUserId { get; set; }
         public Player Player { get; set; } = default!;
-        [Required, Key] public int ShuttleId { get; set; }
 
         [Required] public string ShuttlePrototypeId { get; set; } = default!;
 
