@@ -65,6 +65,7 @@
   - type: GuideHelp
     guides:
     - Xenoarchaeology
+  - type: RemoveOnSave # Eclipse
 
 - type: entity
   parent: BaseXenoArtifactItem

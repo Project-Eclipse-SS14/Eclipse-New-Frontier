@@ -61,6 +61,7 @@
   - type: GuideHelp
     guides:
     - Science
+  - type: RemoveOnSave # Eclipse
 
 - type: entity
   id: BaseResearchAndDevelopmentPointSource

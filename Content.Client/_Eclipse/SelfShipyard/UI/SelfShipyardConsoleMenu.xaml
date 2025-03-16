@@ -25,17 +25,6 @@
                       PlaceHolder="{Loc 'cargo-console-menu-search-bar-placeholder'}"
                       HorizontalExpand="True" />
         </BoxContainer>
-        <BoxContainer Orientation="Horizontal">
-            <OptionButton Name="Categories"
-                          Prefix="{Loc 'shipyard-console-menu-size-label'}"
-                          HorizontalExpand="True" />
-            <OptionButton Name="Classes"
-                          Prefix="{Loc 'shipyard-console-menu-class-label'}"
-                          HorizontalExpand="True" />
-            <OptionButton Name="Engines"
-                          Prefix="{Loc 'shipyard-console-menu-engine-label'}"
-                          HorizontalExpand="True" />
-        </BoxContainer>
         <ScrollContainer HorizontalExpand="True"
                          VerticalExpand="True"
                          SizeFlagsStretchRatio="6">

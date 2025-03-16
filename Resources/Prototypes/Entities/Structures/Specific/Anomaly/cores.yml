@@ -33,6 +33,7 @@
     timeToDecay: 600
     startPrice: 10000
     endPrice: 200
+  - type: RemoveOnSave
 
 - type: entity
   parent: BaseAnomalyCore

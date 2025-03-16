@@ -161,7 +161,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         }
 
 
-        if (!TryPurchaseShuttle(station, vessel.ShuttlePath.ToString(), out var shuttleUidOut))
+        if (!TryPurchaseShuttle(station, vessel.ShuttlePath, out var shuttleUidOut))
         {
             PlayDenySound(player, shipyardConsoleUid, component);
             return;
