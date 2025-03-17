@@ -343,7 +343,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     {
         if (TryComp<RemoveOnSaveComponent>(entity, out var _))
         {
-            //Del(entity);
+            Del(entity);
             return;
         }
         else if (TryComp<ShipyardSellConditionComponent>(entity, out var comp) && comp.PreserveOnSale == true)
