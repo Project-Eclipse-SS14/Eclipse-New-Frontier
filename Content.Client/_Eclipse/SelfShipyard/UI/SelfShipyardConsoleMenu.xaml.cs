@@ -70,7 +70,7 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
             {
                 Vessel = prototype,
                 VesselName = { Text = prototype!.Name },
-                Purchase = { Text = Loc.GetString("shipyard-console-purchase-available"), Disabled = !canPurchase },
+                Purchase = { Text = Loc.GetString("self-shipyard-console-purchase-available"), Disabled = !canPurchase },
                 Price = { Text = priceText },
             };
             vesselEntry.Purchase.OnPressed += (args) => { OnOrderApproved?.Invoke(args); };

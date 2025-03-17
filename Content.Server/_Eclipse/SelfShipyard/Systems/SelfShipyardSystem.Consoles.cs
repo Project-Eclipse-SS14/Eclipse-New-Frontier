@@ -347,7 +347,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         var shuttleName = ToPrettyString(shuttleUid); // Grab the name before it gets 1984'd
 
-        var (saleResult, bill) = await TrySaveShuttle(player, session, stationUid, shuttleUid, uid, saveableShuttle);
+        var name = GetFullName(deed);
+
+        var (saleResult, bill) = await TrySaveShuttle(player, session, stationUid, shuttleUid, uid, saveableShuttle, name);
         if (saleResult.Error != ShipyardSaleError.Success)
         {
             switch (saleResult.Error)
@@ -376,7 +378,6 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         PlayConfirmSound(player, uid, component);
 
-        var name = GetFullName(deed);
         SendSellMessage(uid, deed.ShuttleOwner!, name, component.ShipyardChannel, player, secret: false);
         if (component.SecretShipyardChannel is { } secretChannel)
             SendSellMessage(uid, deed.ShuttleOwner!, name, secretChannel, player, secret: true);

@@ -25,6 +25,7 @@ using Robust.Shared.Utility;
 using System.Threading.Tasks;
 using Content.Server._Eclipse.SelfShipyard.Components;
 using Robust.Shared.EntitySerialization.Systems;
+using Robust.Shared.ContentPack;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -40,6 +41,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+
+    [Dependency] private readonly IResourceManager _resMan = default!;
 
     public MapId? ShipyardMap { get; private set; }
     private float _shuttleIndex;
@@ -193,7 +196,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     /// <param name="stationUid">The ID of the station that the shuttle is docked to</param>
     /// <param name="shuttleUid">The grid ID of the shuttle to be appraised and sold</param>
     /// <param name="consoleUid">The ID of the console being used to sell the ship</param>
-    public async Task<(ShipyardSaleResult result, int bill)> TrySaveShuttle(EntityUid player, ICommonSession playerSession, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, SaveableShuttleComponent saveableShuttle)
+    public async Task<(ShipyardSaleResult result, int bill)> TrySaveShuttle(EntityUid player, ICommonSession playerSession, EntityUid stationUid, EntityUid shuttleUid, EntityUid consoleUid, SaveableShuttleComponent saveableShuttle, string shuttleName)
     {
         ShipyardSaleResult result = new ShipyardSaleResult();
 
@@ -280,11 +283,15 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         _docking.UndockDocks(shuttleUid);
 
-        var id = await _db.AddOwnedShuttle(playerSession.UserId, saveableShuttle.PrototypeId, "", null, shuttle_cost, ResPath.Root);
+        var id = await _db.AddOwnedShuttle(playerSession.UserId, saveableShuttle.PrototypeId, shuttleName, null, shuttle_cost, ResPath.Root);
 
         string path = $"/OwnedShuttles/{playerSession.UserId}/{id}.yml";
 
-        if (!_mapLoader.TrySaveGrid(shuttleUid, new ResPath(path)))
+        var resPath = new ResPath(path);
+
+        _resMan.UserData.CreateDir(resPath.Directory);
+
+        if (!_mapLoader.TrySaveGrid(shuttleUid, resPath))
         {
             result.Error = ShipyardSaleError.InvalidShip;
             return (result, bill);
@@ -311,7 +318,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         {
             if (TryComp<RemoveOnSaveComponent>(child, out var _))
             {
-                QueueDel(child);
+                Del(child);
                 continue;
             }
             FindEntitiesToPreserve(child, ref entitiesToPreserve);

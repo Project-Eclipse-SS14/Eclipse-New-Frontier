@@ -15,16 +15,10 @@
         <Button Name="Purchase"
             Access="Public"
             ToolTip=""
-            Text="{Loc 'shipyard-console-purchase-available'}"
+            Text="{Loc 'self-shipyard-console-purchase-available'}"
             StyleClasses="LabelSubText"
             MinWidth="130"
             HorizontalAlignment="Right" /> <!-- 130 px: approximate width of "Purchase"-->
-        <Button Name="Guidebook"
-            Access="Public"
-            Text="{Loc 'shipyard-console-guidebook'}" 
-            StyleClasses="LabelSubText"
-            Margin="0 0 12 0"
-            HorizontalAlignment="Right" /> <!-- Left margin only -->
         <PanelContainer>
             <PanelContainer.PanelOverride>
                 <gfx:StyleBoxFlat BackgroundColor="#252825" />
