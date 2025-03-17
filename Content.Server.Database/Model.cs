@@ -378,12 +378,6 @@ namespace Content.Server.Database
                 .WithMany(player => player.OwnedShuttles)
                 .HasForeignKey(s => s.PlayerUserId)
                 .HasPrincipalKey(player => player.UserId);
-
-            modelBuilder.Entity<OwnedShuttles>()
-                .HasIndex(s => s.PlayerUserId);
-
-            modelBuilder.Entity<OwnedShuttles>()
-                .HasKey(s => new { s.ShuttleId, s.PlayerUserId });
         }
 
         public virtual IQueryable<AdminLog> SearchLogs(IQueryable<AdminLog> query, string searchText)
@@ -609,7 +603,6 @@ namespace Content.Server.Database
         public List<ServerRoleBan> AdminServerRoleBansCreated { get; set; } = null!;
         public List<ServerRoleBan> AdminServerRoleBansLastEdited { get; set; } = null!;
         public List<RoleWhitelist> JobWhitelists { get; set; } = null!;
-
         public List<OwnedShuttles> OwnedShuttles { get; set; } = null!;
     }
 

@@ -82,7 +82,7 @@ public sealed partial class SelfShipyardConsoleMenu : FancyWindow
     {
         BalanceLabel.Text = BankSystemExtensions.ToSpesoString(state.Balance);
 
-        ShipAppraisalLabel.Text = $"{BankSystemExtensions.ToSpesoString(state.ShipSaveRate)} ({state.PercentSellRate * 100.0f:F1}%) + {BankSystemExtensions.ToSpesoString(state.ConstantSellRate)}";
+        ShipAppraisalLabel.Text = $"{BankSystemExtensions.ToSpesoString(state.ShipSaveRate)} ({state.PercentSellRate * 100.0f:F1}% + {BankSystemExtensions.ToSpesoString(state.ConstantSellRate)})";
         SellShipButton.Disabled = state.ShipDeedTitle == null;
         TargetIdButton.Text = state.IsTargetIdPresent
             ? Loc.GetString("id-card-console-window-eject-button")

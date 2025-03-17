@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Content.Server.Database.Migrations.Sqlite
 {
     /// <inheritdoc />
-    public partial class OwnedShuttles : Migration
+    public partial class OwnedShuttle : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -26,15 +26,19 @@ namespace Content.Server.Database.Migrations.Sqlite
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_id", x => x.shuttle_id);
+                    table.PrimaryKey("PK_owned_shuttles", x => x.shuttle_id);
                     table.ForeignKey(
                         name: "FK_owned_shuttles_player_player_user_id",
                         column: x => x.player_user_id,
                         principalTable: "player",
                         principalColumn: "user_id",
                         onDelete: ReferentialAction.Cascade);
-                }
-            );
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_owned_shuttles_player_user_id",
+                table: "owned_shuttles",
+                column: "player_user_id");
         }
 
         /// <inheritdoc />
