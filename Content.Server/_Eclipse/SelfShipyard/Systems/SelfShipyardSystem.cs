@@ -138,8 +138,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     /// <param name="stationUid">The ID of the station to dock the shuttle to</param>
     /// <param name="shuttlePath">The path to the shuttle file to load. Must be a grid file!</param>
     /// <param name="shuttleEntityUid">The EntityUid of the shuttle that was purchased</param>
-    public bool TryPurchaseShuttle(EntityUid stationUid, ResPath shuttlePath, [NotNullWhen(true)] out EntityUid? shuttleEntityUid)
+    public bool TryPurchaseShuttle(EntityUid stationUid, ResPath shuttlePath, [NotNullWhen(true)] out EntityUid? shuttleEntityUid, out string? dockName)
     {
+        dockName = null;
         if (!TryComp<StationDataComponent>(stationUid, out var stationData)
             || !TryAddShuttle(shuttlePath, out var shuttleGrid)
             || !TryComp<ShuttleComponent>(shuttleGrid, out var shuttleComponent))
@@ -161,7 +162,18 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         _sawmill.Info($"Shuttle {shuttlePath} was purchased at {ToPrettyString(stationUid)} for {price:f2}");
         //can do TryFTLDock later instead if we need to keep the shipyard map paused
-        _shuttle.TryFTLDock(shuttleGrid.Value, shuttleComponent, targetGrid.Value);
+        if (_shuttle.TryFTLDock(shuttleGrid.Value, shuttleComponent, targetGrid.Value, out var config))
+        {
+            foreach (var (_, _, dockA, dockB) in config.Docks)
+            {
+                if (dockB.Name is not null)
+                {
+                    dockName = Loc.GetString(dockB.Name);
+                    break;
+                }
+            }
+        }
+
         shuttleEntityUid = shuttleGrid;
         return true;
     }
@@ -316,11 +328,6 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         while (enumerator.MoveNext(out var child))
         {
-            if (TryComp<RemoveOnSaveComponent>(child, out var _))
-            {
-                Del(child);
-                continue;
-            }
             FindEntitiesToPreserve(child, ref entitiesToPreserve);
         }
         foreach (var ent in entitiesToPreserve)
@@ -334,7 +341,12 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     // checks if something has the ShipyardPreserveOnSaleComponent and if it does, adds it to the list
     private void FindEntitiesToPreserve(EntityUid entity, ref List<EntityUid> output)
     {
-        if (TryComp<ShipyardSellConditionComponent>(entity, out var comp) && comp.PreserveOnSale == true)
+        if (TryComp<RemoveOnSaveComponent>(entity, out var _))
+        {
+            //Del(entity);
+            return;
+        }
+        else if (TryComp<ShipyardSellConditionComponent>(entity, out var comp) && comp.PreserveOnSale == true)
         {
             output.Add(entity);
             return;
@@ -358,24 +370,24 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     }
     private void CleanupShipyard()
     {
-        if (ShipyardMap == null || !_mapManager.MapExists(ShipyardMap.Value))
+        if (ShipyardMap == null || !_map.MapExists(ShipyardMap.Value))
         {
             ShipyardMap = null;
             return;
         }
 
-        _mapManager.DeleteMap(ShipyardMap.Value);
+        _map.DeleteMap(ShipyardMap.Value);
     }
 
-    private void SetupShipyardIfNeeded()
+    public void SetupShipyardIfNeeded()
     {
-        if (ShipyardMap != null && _mapManager.MapExists(ShipyardMap.Value))
+        if (ShipyardMap != null && _map.MapExists(ShipyardMap.Value))
             return;
 
         _map.CreateMap(out var shipyardMap);
         ShipyardMap = shipyardMap;
 
-        _mapManager.SetMapPaused(ShipyardMap.Value, false);
+        _map.SetPaused(ShipyardMap.Value, false);
     }
 
     // <summary>

@@ -161,7 +161,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         }
 
 
-        if (!TryPurchaseShuttle(station, vessel.ShuttlePath, out var shuttleUidOut))
+        if (!TryPurchaseShuttle(station, vessel.ShuttlePath, out var shuttleUidOut, out var dockName))
         {
             PlayDenySound(player, shipyardConsoleUid, component);
             return;
@@ -252,9 +252,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         saveCost = (int)(saveCost * _percentSaveRate) + _constantSaveRate;
 
-        SendPurchaseMessage(shipyardConsoleUid, player, name, component.ShipyardChannel, secret: false);
+        SendPurchaseMessage(shipyardConsoleUid, player, name, component.ShipyardChannel, dockName, secret: false);
         if (component.SecretShipyardChannel is { } secretChannel)
-            SendPurchaseMessage(shipyardConsoleUid, player, name, secretChannel, secret: true);
+            SendPurchaseMessage(shipyardConsoleUid, player, name, secretChannel, dockName, secret: true);
 
         PlayConfirmSound(player, shipyardConsoleUid, component);
         _adminLogger.Add(LogType.ShipYardUsage, LogImpact.Low, $"{ToPrettyString(player):actor} used {ToPrettyString(targetId)} to purchase shuttle {ToPrettyString(shuttleUid)} for {vessel.Price} credits via {ToPrettyString(shipyardConsoleUid)}");
@@ -434,7 +434,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         _popup.PopupEntity(text, uid);
     }
 
-    private void SendPurchaseMessage(EntityUid uid, EntityUid player, string name, string shipyardChannel, bool secret)
+    private void SendPurchaseMessage(EntityUid uid, EntityUid player, string name, string shipyardChannel, string? dockName, bool secret)
     {
         var channel = _prototypeManager.Index<RadioChannelPrototype>(shipyardChannel);
 
@@ -445,8 +445,16 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         }
         else
         {
-            _radio.SendRadioMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player), ("vessel", name)), channel, uid);
-            _chat.TrySendInGameICMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player!), ("vessel", name)), InGameICChatType.Speak, true);
+            if (dockName is null)
+            {
+                _radio.SendRadioMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player), ("vessel", name)), channel, uid);
+                _chat.TrySendInGameICMessage(uid, Loc.GetString("shipyard-console-docking", ("owner", player!), ("vessel", name)), InGameICChatType.Speak, true);
+            }
+            else
+            {
+                _radio.SendRadioMessage(uid, Loc.GetString("shipyard-console-docking-port", ("owner", player), ("vessel", name), ("dock", dockName)), channel, uid);
+                _chat.TrySendInGameICMessage(uid, Loc.GetString("shipyard-console-docking-port", ("owner", player!), ("vessel", name), ("dock", dockName)), InGameICChatType.Speak, true);
+            }
         }
     }
 
