@@ -25,6 +25,10 @@ time = 60
 [atmos]
 space_wind = true
 
+[viewport]
+minimum_width = 15
+maximum_width = 26
+
 [ic]
 flavor_text = true
 punctuation = true
