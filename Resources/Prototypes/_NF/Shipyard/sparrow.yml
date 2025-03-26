@@ -12,7 +12,7 @@
   id: Sparrow
   parent: BaseVessel
   name: NR Воробей
-  description: Небольшое исследовательское и инженерное судно.
+  description: Малогабаритный инженерно-исследовательский шаттл. Рекомендованный состав команды 1-4 человека.
   price: 41000 # TODO: review ship values - Whatstone
   category: Small
   group: Shipyard

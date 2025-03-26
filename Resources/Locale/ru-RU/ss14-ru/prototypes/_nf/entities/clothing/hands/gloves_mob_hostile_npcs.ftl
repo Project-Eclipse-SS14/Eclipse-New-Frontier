@@ -1,10 +1,9 @@
-.desc = Обычные черные перчатки, которые не спасут вас от жарки.
-    .suffix = ПП
+
 ent-ClothingHandsGlovesColorBlackAK = боевые перчатки
     .suffix = АКМС
     .desc = { ent-ClothingHandsGlovesColorBlackSMG.desc }
 ent-ClothingHandsGlovesColorBlackChinaLake = боевые перчатки
-    .suffix = Чайна-Лэйк
+    .suffix = china lake
     .desc = { ent-ClothingHandsGlovesColorBlackSMG.desc }
 ent-ClothingHandsGlovesColorBlackPistol = боевые перчатки
     .suffix = Пистолет

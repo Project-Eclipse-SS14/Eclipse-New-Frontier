@@ -1,11 +1,2 @@
-.desc = { ent-BaseItem.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
-    .desc = { ent-PartVulpkanin.desc }
+
+

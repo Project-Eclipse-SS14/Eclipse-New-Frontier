@@ -7,7 +7,7 @@
   id: Falcon
   parent: BaseVesselAntag
   name: Сокол
-  description: Перестроенное шахтерское судно, превращенное в пиратский корабль с ангаром для хранения транспортных средств, вмещает 3-4 члена экипажа.
+  description: Пиратский среднегабаритный шаттл. Рекомендованный размер команды 3-4 человека.
   price: 70000 #Selling price is 22520
   category: Medium
   group: BlackMarket

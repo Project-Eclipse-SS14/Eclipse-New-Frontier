@@ -2,7 +2,7 @@
   id: Rogue
   parent: BaseVessel
   name: NSF Плут
-  description: Малогабаритное судно с маскировкой для выхода в темноту в глубоком космосе.
+  description: Малогабаритный штурмовой шаттл ДСБФ с системами активной маскировки.
   price: 12200 #the appraisal is 9100$
   category: Micro
   group: Custom

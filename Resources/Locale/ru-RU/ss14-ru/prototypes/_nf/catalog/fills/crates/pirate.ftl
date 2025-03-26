@@ -1,7 +1,5 @@
-.suffix = Заполненный
-    .desc = { ent-CratePirate.desc }
-    .suffix = Заполненный
-    .desc = { ent-CratePirate.desc }
+
+
 ent-CratePirateChestCannonBall = сундук пушечных ядер
     .suffix = Заполненный
     .desc = { ent-CratePirateGrey.desc }

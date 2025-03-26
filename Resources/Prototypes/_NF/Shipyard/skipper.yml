@@ -12,7 +12,7 @@
   id: Skipper
   parent: BaseVessel
   name: NC Шкипер
-  description: Небольшой корабль с кухней и гидропонным садом.
+  description: Малогабаритный ботанический шаттл-ресторан. Рекомендованный состав команды 1-2 человека.
   price: 35000
   category: Small
   group: Shipyard

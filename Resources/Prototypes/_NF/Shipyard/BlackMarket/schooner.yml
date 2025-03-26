@@ -2,7 +2,7 @@
   id: Schooner
   parent: BaseVesselAntag
   name: Шхуна
-  description: Небольшой деревянный корабль с 2 центральными грузовыми отсеками.
+  description: Среднегабаритный пиратский шаттл. Рекомендованный состав команды 2-4 человека.
   price: 60000
   category: Medium
   group: BlackMarket

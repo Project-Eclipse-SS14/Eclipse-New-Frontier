@@ -11,8 +11,8 @@
 - type: vessel
   id: Brigand
   parent: BaseVessel
-  name: LVHI Разбойник
-  description: Гражданская переделка старого военного легкого фрегата времен ранней экспансии человечества к звездам, еще до появления блюспейс технологий. Произведен компанией Лангстад-Войгт Хэви Индастриз.
+  name: NT Разбойник
+  description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 3-6 человек.
   price: 55500 # ~42645$ on mapinit + ~12800$ from 30% markup
   category: Medium
   group: Expedition
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Brigand
-  mapName: 'LVHI Разбойник'
+  mapName: 'NT Разбойник'
   mapPath: /Maps/_NF/Shuttles/Expedition/brigand.yml
   minPlayers: 0
   stations:

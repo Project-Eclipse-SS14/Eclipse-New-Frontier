@@ -119,13 +119,12 @@ ent-ClothingUniformJumpsuitMilitaryTurtleneckMercenaryCaptain = комбинез
     .suffix = Военный
     .desc = { ent-ClothingUniformJumpsuitMercenary.desc }
 ent-ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenary = синий комбинезон наёмника
-    .suffix = Военный, Синий
+    .suffix = Военный, Blue
     .desc = { ent-ClothingUniformJumpsuitMercenary.desc }
 ent-ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryMedic = синий комбинезон наёмника-врача
-    .suffix = Военный, Синий
+    .suffix = Военный, Blue
     .desc = { ent-ClothingUniformJumpsuitMercenary.desc }
 ent-ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryCaptain = синий комбинезон наёмника-капитана
-    .suffix = Военный, Синий
+    .suffix = Военный, Blue
     .desc = { ent-ClothingUniformJumpsuitMercenary.desc }
-    .desc = Тактический комбинезон производства Аракадиа Индастриз.
-    .suffix = Военный, Тактический
+
