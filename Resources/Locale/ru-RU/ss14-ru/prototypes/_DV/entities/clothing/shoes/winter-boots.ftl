@@ -1,3 +1,0 @@
-.desc = { ent-ClothingShoesBaseWinterBoots.desc }
-    .desc = { ent-ClothingShoesBaseWinterBoots.desc }
-
