@@ -1,5 +1,3 @@
-
-
 ent-CratePirateChestCannonBall = сундук пушечных ядер
     .suffix = Заполненный
     .desc = { ent-CratePirateGrey.desc }

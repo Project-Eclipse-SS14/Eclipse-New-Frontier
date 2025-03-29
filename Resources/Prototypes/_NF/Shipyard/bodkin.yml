@@ -11,8 +11,8 @@
 - type: vessel
   id: Bodkin
   parent: BaseVessel
-  name: SBB Bodkin
-  description: The smaller sibling to the Broadhead, the SBB Bodkin is designed for rockhopping and salvage recovery.
+  name: SBB Стилет
+  description: Младший брат Авангарда. SBB Игуана предназначен для шахтерства и утилизации обломков.  
   price: 42000 #Grid appraises at 38000. Slapped on a ~10% markup.
   category: Medium
   group: Shipyard
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Bodkin
-  mapName: 'SBB Bodkin'
+  mapName: 'SBB Стилет'
   mapPath: /Maps/_NF/Shuttles/bodkin.yml
   minPlayers: 0
   stations:
@@ -33,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
       - type: StationNameSetup
-        mapNameTemplate: 'Bodkin {1}'
+        mapNameTemplate: 'Стилет {1}'
         nameGenerator: !type:NanotrasenNameGenerator
           prefixCreator: '14'
       - type: StationJobs

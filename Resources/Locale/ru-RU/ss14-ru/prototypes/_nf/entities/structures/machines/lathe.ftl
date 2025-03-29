@@ -1,6 +1,5 @@
 ent-BlueprintReceiverBase = { "" }
     .desc = { "" }
-
 ent-PrizeCounter = раздатчик призов
     .desc = Забери свой приз и выиграй несколько игрушек и милых плюшевых мишек!
 ent-TilePrinterNF = Плиточник 5000

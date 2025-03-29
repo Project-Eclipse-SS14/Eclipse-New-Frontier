@@ -1,4 +1,3 @@
-
 ent-SpawnRandomHumanoidCorpseMedicalBountyService = { "" }
     .suffix = Сервис
     .desc = { "" }
