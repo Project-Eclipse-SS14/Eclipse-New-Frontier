@@ -12,7 +12,7 @@
   id: Comet
   parent: BaseVessel
   name: NT Комета
-  description: Шахтерское и строительное судно, предназначенное для быстрого строительства или ремонта.  
+  description: Среднегабаритный инженерный шаттл. Рекомендованный размер команды 3-6 человек.
   price: 55000
   category: Medium
   group: Shipyard

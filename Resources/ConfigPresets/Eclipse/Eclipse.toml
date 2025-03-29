@@ -25,6 +25,10 @@ time = 60
 [atmos]
 space_wind = true
 
+[viewport]
+minimum_width = 15
+maximum_width = 26
+
 [ic]
 flavor_text = true
 punctuation = true
@@ -44,19 +48,19 @@ rules_file = "FrontierRuleset"
 
 [infolinks]
 bug_report = "https://github.com/Apxumekm0p/Eclipse-New-Frontier/issues/new/choose"
-discord = "https://discord.gg/5J9Q8WuJFd"
-#forum = ""
-github = "https://github.com/Apxumekm0p/Eclipse-New-Frontier"
-patreon = "https://www.patreon.com/c/Apxumekm0p"
-boosty = "https://boosty.to/project_eclipse"
-#website = ""
-#wiki = ""
-#appeal = ""
+discord    = "https://discord.gg/5J9Q8WuJFd"
+#forum      = ""
+github     = "https://github.com/Apxumekm0p/Eclipse-New-Frontier"
+#patreon    = ""
+#website    = ""
+#wiki       = ""
+#appeal     = ""
 
 [nf14]
 publictransit.wait_time = 60.0
 respawn.time = 300.0
 uncryo.maxtime = 86400.0
+salvage.expedition_rewards_enabled = true
 
 [eclipse]
 restart_when_server_empty = false

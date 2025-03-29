@@ -12,7 +12,7 @@
   id: Piecrust
   parent: BaseVessel
   name: NC Пирожок
-  description: Ранчо для животных и пекарня для выпечки пирогов.
+  description: Малогабаритный шаттл ресторан с зоопарком. Рекомендованный состав команды 1-2 человека.
   price: 35000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Shipyard

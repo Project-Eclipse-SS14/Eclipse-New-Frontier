@@ -1,11 +1,2 @@
-.desc = { ent-BaseItem.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
-    .desc = { ent-PartRodentia.desc }
+
+

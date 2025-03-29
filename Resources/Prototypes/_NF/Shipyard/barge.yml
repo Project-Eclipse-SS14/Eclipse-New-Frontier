@@ -12,7 +12,7 @@
   id: Barge
   parent: BaseVessel
   name: NC Баржа
-  description: Среднее судно, переоборудованное в грузовой утилизаторский шаттл.
+  description: Среднегабаритный добывающий шаттл. Рекомендованный размер команды 3-6 человек.
   price: 49000 # Appraises for 42901, margin of ~10% - TODO: fix these values, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard

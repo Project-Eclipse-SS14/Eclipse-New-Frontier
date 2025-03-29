@@ -12,7 +12,7 @@
   id: Placebo
   parent: BaseVessel
   name: NC Плацебо
-  description: Небольшое судно психолога. Названо в честь знаменитого эффекта плацебо.
+  description: Малогабаритный шаттл психолога. Рекомендуемый состав команды 1 человек.
   price: 20000
   category: Small
   group: Shipyard

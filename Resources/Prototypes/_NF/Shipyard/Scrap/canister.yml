@@ -6,7 +6,7 @@
   id: Canister
   parent: BaseVessel
   name: UAC Канистра
-  description: Что бы вы ни взяли с собой, оно не поместится. Места для двоих. Гравитация в комплекте.
+  description: Малогабаритный транспортный шаттл. Рекомендуется для 1 игрока.
   price: 8000
   category: Micro
   group: Scrap
