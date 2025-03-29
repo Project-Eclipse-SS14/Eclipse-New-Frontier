@@ -60,6 +60,7 @@ github     = "https://github.com/Apxumekm0p/Eclipse-New-Frontier"
 publictransit.wait_time = 60.0
 respawn.time = 300.0
 uncryo.maxtime = 86400.0
+salvage.expedition_rewards_enabled = true
 
 [eclipse]
 restart_when_server_empty = false
