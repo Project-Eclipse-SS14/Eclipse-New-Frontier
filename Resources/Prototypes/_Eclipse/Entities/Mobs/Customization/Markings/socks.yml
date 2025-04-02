@@ -1,0 +1,569 @@
+- type: marking
+  id: UndergarmentSocksFishnet
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/fishnet.rsi
+    state: fishnet_full
+
+- type: marking
+  id: UndergarmentSocksKneeWhite
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: white_knee
+
+- type: marking
+  id: UndergarmentSocksKneeAce
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: ace_knee
+
+- type: marking
+  id: UndergarmentSocksKneeAsblastusa
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: assblastusa_knee
+
+- type: marking
+  id: UndergarmentSocksKneeBee
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: bee_knee
+
+- type: marking
+  id: UndergarmentSocksKneeBlack
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: black_knee
+
+- type: marking
+  id: UndergarmentSocksKneeCommie
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: commie_knee
+
+- type: marking
+  id: UndergarmentSocksKneeFishnet
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: fishnet_knee
+
+- type: marking
+  id: UndergarmentSocksKneeRainbow
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: rainbow_knee
+
+- type: marking
+  id: UndergarmentSocksKneeStriped
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: striped_knee
+
+- type: marking
+  id: UndergarmentSocksKneeThin
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: thin_knee
+
+- type: marking
+  id: UndergarmentSocksKneeTrans
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: trans_knee
+
+- type: marking
+  id: UndergarmentSocksKneeUk
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/knee.rsi
+    state: uk_knee
+
+- type: marking
+  id: UndergarmentSocksNormBlack
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/norm.rsi
+    state: black_norm
+
+- type: marking
+  id: UndergarmentSocksNormWhite
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/norm.rsi
+    state: white_norm
+
+- type: marking
+  id: UndergarmentSocksPantyhose
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/pantyhose.rsi
+    state: pantyhose
+
+- type: marking
+  id: UndergarmentSocksShortBlack
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/short.rsi
+    state: black_short
+
+- type: marking
+  id: UndergarmentSocksShortWhite
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/short.rsi
+    state: white_short
+
+- type: marking
+  id: UndergarmentSocksStockingsBlue
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_blue
+
+- type: marking
+  id: UndergarmentSocksStockingsCyan
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_cyan
+
+- type: marking
+  id: UndergarmentSocksStockingsDpink
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_dpink
+
+- type: marking
+  id: UndergarmentSocksStockingsGreen
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_green
+
+- type: marking
+  id: UndergarmentSocksStockingsLpink
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_lpink
+
+- type: marking
+  id: UndergarmentSocksStockingsOrange
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_orange
+
+- type: marking
+  id: UndergarmentSocksStockingsPurple
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings.rsi
+    state: stockings_purple
+
+- type: marking
+  id: UndergarmentSocksThighWhite
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: white_thigh
+
+- type: marking
+  id: UndergarmentSocksThighAce
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: ace_thigh
+
+- type: marking
+  id: UndergarmentSocksThighAsblastusa
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: assblastusa_thigh
+
+- type: marking
+  id: UndergarmentSocksThighBee
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: bee_thigh
+
+- type: marking
+  id: UndergarmentSocksThighBlack
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: black_thigh
+
+- type: marking
+  id: UndergarmentSocksThighCommie
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: commie_thigh
+
+- type: marking
+  id: UndergarmentSocksThighFishnet
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: fishnet_thigh
+
+- type: marking
+  id: UndergarmentSocksThighRainbow
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: rainbow_thigh
+
+- type: marking
+  id: UndergarmentSocksThighStriped
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: striped_thigh
+
+- type: marking
+  id: UndergarmentSocksThighThin
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: thin_thigh
+
+- type: marking
+  id: UndergarmentSocksThighTrans
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: trans_thigh
+
+- type: marking
+  id: UndergarmentSocksThighUk
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/thigh.rsi
+    state: uk_thigh
+
+- type: marking
+  id: UndergarmentSocksThighChristmas
+  bodyPart: UndergarmentSocks
+  markingCategory: UndergarmentSocks
+  speciesRestriction: [Human, Dwarf, Arachnid, SlimePerson, Oni, Goblin, Felinid]
+  forcedColoring: true
+  coloring:
+    default:
+      type:
+        !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _Sunrise/Clothing/Socks/stockings_chrismas.rsi
+    state: christmas_stockings

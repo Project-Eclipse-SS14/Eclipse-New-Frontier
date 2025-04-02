@@ -26,9 +26,9 @@ public enum SlotFlags
     // LEGS = 1 << 13, // Frontier: unused
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
-    PANTS = 1 << 16, // Sunrise-edit
-    BRA = 1 << 17, // Sunrise-edit
-    SOCKS = 1 << 18, // Sunrise-edit
+    //PANTS = 1 << 16, // Sunrise-edit
+    //BRA = 1 << 17, // Sunrise-edit
+    //SOCKS = 1 << 18, // Sunrise-edit
 
     WALLET = 1 << 13, // Frontier: using an unused slot, redefine to a new bit if/when it's used (goodbye ushort)
     All = ~NONE,

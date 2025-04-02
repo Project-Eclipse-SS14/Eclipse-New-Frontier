@@ -17,6 +17,7 @@
     Snout: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    UndergarmentSocks: MobHumanoidAnyMarking
     Chest: MobHarpyTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -58,6 +59,11 @@
       points: 1
       required: false
     # End Frontier
+    # Eclipse
+    UndergarmentSocks:
+      points: 1
+      required: false
+    # End Eclipse
     Chest:
       points: 1
       required: true

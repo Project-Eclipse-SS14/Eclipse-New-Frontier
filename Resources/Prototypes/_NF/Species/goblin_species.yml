@@ -22,6 +22,7 @@
     Snout: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    UndergarmentSocks: MobHumanoidAnyMarking
     Chest: MobGoblinTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
@@ -59,6 +60,11 @@
     UndergarmentBottom:
       points: 1
       required: false
+    # Eclipse
+    UndergarmentSocks:
+      points: 1
+      required: false
+    # End Eclipse
     Chest:
       points: 1
       required: false

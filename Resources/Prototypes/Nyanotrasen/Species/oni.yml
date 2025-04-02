@@ -46,3 +46,8 @@
       points: 1
       required: false
     # End Frontier
+    # Eclipse
+    UndergarmentSocks:
+      points: 1
+      required: false
+    # End Eclipse

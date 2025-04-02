@@ -1,20 +1,20 @@
-- type: entity
-  abstract: true
-  parent: Clothing
-  id: ClothingBraBase
-  components:
-    - type: Clothing
-      slots: [bra]
-    - type: Sprite
-      state: icon
+# - type: entity
+#   abstract: true
+#   parent: Clothing
+#   id: ClothingBraBase
+#   components:
+#     - type: Clothing
+#       slots: [bra]
+#     - type: Sprite
+#       state: icon
 
-- type: entity
-  abstract: true
-  parent: ClothingBraBase
-  id: ClothingBraBaseButcherable
-  components:
-    - type: Butcherable
-      butcheringType: Knife
-      spawned:
-        - id: MaterialCloth1
-          amount: 1
+# - type: entity
+#   abstract: true
+#   parent: ClothingBraBase
+#   id: ClothingBraBaseButcherable
+#   components:
+#     - type: Butcherable
+#       butcheringType: Knife
+#       spawned:
+#         - id: MaterialCloth1
+#           amount: 1

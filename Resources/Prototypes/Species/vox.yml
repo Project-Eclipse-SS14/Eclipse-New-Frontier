@@ -23,6 +23,7 @@
     FacialHair: MobHumanoidAnyMarking
     UndergarmentTop: MobHumanoidAnyMarking
     UndergarmentBottom: MobHumanoidAnyMarking
+    UndergarmentSocks: MobHumanoidAnyMarking
     Chest: MobVoxTorso
     Eyes: MobVoxEyes
     LArm: MobVoxLArm
@@ -66,6 +67,11 @@
     UndergarmentBottom:
       points: 1
       required: false
+    # Eclipse
+    UndergarmentSocks:
+      points: 1
+      required: false
+    # End Eclipse
     Chest:
       points: 1
       required: false
