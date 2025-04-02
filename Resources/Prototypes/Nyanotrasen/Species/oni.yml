@@ -7,10 +7,10 @@
   markingLimits: MobOniMarkingLimits
   sprites: MobHumanSprites
   skinColoration: Hues
-  maleFirstNames: names_oni_male
-  femaleFirstNames: names_oni_female
-  maleLastNames: names_oni_location # Corvax-LastnameGender
-  femaleLastNames: names_oni_location # Corvax-LastnameGender
+  maleFirstNames: NamesOniMale
+  femaleFirstNames: NamesOniFemale
+  maleLastNames: NamesOniLocation # Corvax-LastnameGender
+  femaleLastNames: NamesOniLocation # Corvax-LastnameGender
   naming: LastNoFirst
 
 - type: markingPoints
@@ -38,3 +38,11 @@
     Arms:
       points: 8 # Frontier 2<8
       required: false
+    # Frontier: apparently these don't exist on Delta
+    UndergarmentTop:
+      points: 1
+      required: false
+    UndergarmentBottom:
+      points: 1
+      required: false
+    # End Frontier
