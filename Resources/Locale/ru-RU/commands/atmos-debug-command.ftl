@@ -1,10 +1,10 @@
 cmd-atvrange-desc = Устанавливает диапазон отладки атмосферы (два числа с плавающей точкой: начало [красный] и конец [синий])
-cmd-atvrange-help = Использование: { $command } <начало> <конец>
+cmd-atvrange-help = Использование: { $command } <start> <end>
 cmd-atvrange-error-start = Некорректное начальное значение (float)
 cmd-atvrange-error-end = Некорректное конечное значение (float)
 cmd-atvrange-error-zero = Масштаб не может быть равен нулю, так как это приведет к делению на ноль в AtmosDebugOverlay.
 cmd-atvmode-desc = Устанавливает режим отладки атмосферы. Это автоматически сбросит масштаб.
-cmd-atvmode-help = Использование: { $command } <TotalMoles/GasMoles/Temperature> [<ID газа (для GasMoles)>]
+cmd-atvmode-help = Использование: { $command } <TotalMoles/GasMoles/Temperature> [<gas ID (for GasMoles)>]
 cmd-atvmode-error-invalid = Некорректный режим
 cmd-atvmode-error-target-gas = Для этого режима необходимо указать целевой газ.
 cmd-atvmode-error-out-of-range = Идентификатор газа не может быть обработан или находится вне допустимого диапазона.

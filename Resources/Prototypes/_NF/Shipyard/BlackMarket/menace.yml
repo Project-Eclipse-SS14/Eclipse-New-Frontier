@@ -12,7 +12,7 @@
   id: Menace
   parent: BaseVesselAntag
   name: Предъява
-  description: Почта больше не является выбором: вы либо получаете ее, либо умираете.
+  description: Почта больше не является выбором - вы либо получаете ее, либо умираете.
   price: 21000
   category: Small
   group: BlackMarket

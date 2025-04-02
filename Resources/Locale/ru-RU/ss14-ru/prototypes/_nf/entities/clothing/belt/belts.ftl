@@ -8,5 +8,3 @@ ent-ClothingBeltNfsd = пояс ДСБФ
     .desc = Пояс для тактических операций.
 ent-ClothingBeltNfsdWebbing = РПС ДСБФ
     .desc = Тактический боевой разгрузочный жилет.
-ent-ClothingBeltSheath = ножны для сабли
-    .desc = Изысканные ножны, предназначенные для хранения капитанского клинка.

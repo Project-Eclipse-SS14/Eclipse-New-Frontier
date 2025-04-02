@@ -12,7 +12,7 @@
   id: Bodkin
   parent: BaseVessel
   name: SBB Стилет
-  description: Младший брат Авангарда. SBB Игуана предназначен для шахтерства и утилизации обломков.  
+  description: Младший брат Авангарда. SBB Игуана предназначен для шахтерства и утилизации обломков.
   price: 42000 #Grid appraises at 38000. Slapped on a ~10% markup.
   category: Medium
   group: Shipyard

@@ -9,5 +9,3 @@ salvage-faction-mercenaries = Наёмники
 salvage-faction-explorers = Исследователи
 salvage-faction-silicons = ИИ Мятежники
 salvage-faction-punks = Панки
-salvage-faction-carps = Карпы
-salvage-faction-xenos = Ксеносы
