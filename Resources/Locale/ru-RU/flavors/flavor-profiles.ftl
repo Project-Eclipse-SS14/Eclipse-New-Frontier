@@ -67,6 +67,7 @@ flavor-complex-mustard = как горчица
 
 ## Food chemicals. In case you get something that has this inside.
 
+
 ## Food chemicals. In case you get something that has this inside.
 
 flavor-complex-nutriment = как питательные вещества
@@ -133,6 +134,7 @@ flavor-complex-cherry = как вишни
 
 # use it when there multiple types of veggies
 
+
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
 
 flavor-complex-pink = как розовый
@@ -187,6 +189,7 @@ flavor-complex-paper = как кашеобразная масса
 flavor-complex-compressed-meat = как спрессованное мясо
 
 # Drink-specific flavors.
+
 
 ## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
 
@@ -272,6 +275,18 @@ flavor-complex-irish-slammer = как кола с шипучкой
 flavor-complex-themartinez = как фиалки и лимонная водка
 flavor-complex-cogchamp = как латунь
 flavor-complex-white-gilgamesh = как слегка газированные сливки
+flavor-complex-caipirinha = как Бразилия
+flavor-complex-daiquiri = как ром с лаймом и сахаром
+flavor-complex-deathintheafternoon = как анис с шампанским
+flavor-complex-empress75 = как тирийский пурпур
+flavor-complex-espressomartini = как водка с кофе
+flavor-complex-mayojito = как расстройство желудка
+flavor-complex-mimeosa = как тишина и апельсины
+flavor-complex-mimosa = как ранний поздний завтрак
+flavor-complex-moscowmule = как водка с имбирным элем
+flavor-complex-thesunalsorises = как абсентный дайкири
+# Frontier: egg<lemon
+flavor-complex-whiskeysour = как подслащенный виски с лимоном
 flavor-complex-antifreeze = тепло
 flavor-complex-zombiecocktail = как есть мозги
 flavor-complex-absinthe = как анис
@@ -281,7 +296,7 @@ flavor-complex-allies-cocktail = как лекарственная настой�
 flavor-complex-aloe = как утренняя роса
 flavor-complex-amasec = как пот морского пехотинца
 flavor-complex-andalusia = как кислая патока
-flavor-complex-b52 = как в ирландском пабе.
+flavor-complex-b52 = как в ирландском пабе
 flavor-complex-bahama-mama = как загорание на Карибах
 flavor-complex-barefoot = как молочный коктейль с кассисом
 flavor-complex-booger = как сопли
@@ -316,6 +331,7 @@ flavor-complex-irish-car-bomb = как шипучая пенка колы
 flavor-complex-pilk = как сладкое молоко
 
 # Medicine/chemical-specific flavors.
+
 
 ## Generic flavors.
 
