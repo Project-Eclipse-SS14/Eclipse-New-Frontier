@@ -1,4 +1,5 @@
 ## UI
+
 adventure-title = Исследование Фронтира
 adventure-list-start = [color=gold]Галактический банк NT[/color]
 adventure-list-profit = Прибыль составила: [color=#d19e5e]{ $amount }[/color].
@@ -30,6 +31,7 @@ shuttle-ftl-recharge = Блюспейс двигатель на перезаря
 shuttle-ftl-too-many = Слишком много активных экспедиций!
 changelog-tab-title-Upstream = Журнал изменений
 multiauth-already-connected = Уже подключены к серверу Фронтира.
+public-transit-shuttle-screen-text = { " " }ТАКСИ  { $number }{ $suffix }
 public-transit-shuttle-name = Общественный транспорт NT
 public-transit-departure = Транспорт направляется в { $destination }. Ориентировочное время в пути: { $flytime } секунд.
 public-transit-arrival = Благодарим за выбор общественного транспорта NT. Следующий шаттл до { $destination } отправляется через { $waittime } секунд.
