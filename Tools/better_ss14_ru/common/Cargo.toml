@@ -1,0 +1,10 @@
+[package]
+name = "common"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.27"
+unicode-bom = "2.0.3"
+walkdir = "2.5.0"
+yaml-rust2 = "0.10.1"
