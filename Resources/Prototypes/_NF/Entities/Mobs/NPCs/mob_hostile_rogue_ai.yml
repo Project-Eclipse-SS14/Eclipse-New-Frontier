@@ -1086,7 +1086,7 @@
   - MobRogueSiliconScrapBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapAsteroid
-  name: malfunctionnig scrap unit
+  name: malfunctioning scrap unit
   categories: [ HideSpawnMenu ]
   components:
   - type: MovementSpeedModifier
@@ -1154,7 +1154,7 @@
   - MobRogueSiliconScrapBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThreadsAsteroid
-  name: malfunctionnig scrap unit
+  name: malfunctioning scrap unit
   categories: [ HideSpawnMenu ]
   components:
   - type: MovementSpeedModifier
@@ -1209,7 +1209,7 @@
   - MobRogueSiliconScrapBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconScrapThrustersAsteroid
-  name: malfunctionnig scrap unit
+  name: malfunctioning scrap unit
   categories: [ HideSpawnMenu ]
   components:
   - type: MovementSpeedModifier
