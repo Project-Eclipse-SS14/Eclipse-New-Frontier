@@ -13,7 +13,7 @@ namespace Content.Server.StationEvents.Events;
 
 public sealed class SolarFlareRule : StationEventSystem<SolarFlareRuleComponent>
 {
-    // [Dependency] private readonly PoweredLightSystem _poweredLight = default!;
+    // [Dependency] private readonly PoweredLightSystem _poweredLight = default!; // Eclipse
     [Dependency] private readonly SharedDoorSystem _door = default!;
 
     private float _effectTimer = 0;
@@ -43,12 +43,14 @@ public sealed class SolarFlareRule : StationEventSystem<SolarFlareRuleComponent>
         if (_effectTimer < 0)
         {
             _effectTimer += 1;
+            // Start-Eclipse - Commented out
             // var lightQuery = EntityQueryEnumerator<PoweredLightComponent>();
             // while (lightQuery.MoveNext(out var lightEnt, out var light))
             // {
             //     if (RobustRandom.Prob(component.LightBreakChancePerSecond))
             //         _poweredLight.TryDestroyBulb(lightEnt, light);
             // }
+            // End-Eclipse
             var airlockQuery = EntityQueryEnumerator<AirlockComponent, DoorComponent>();
             while (airlockQuery.MoveNext(out var airlockEnt, out var airlock, out var door))
             {
