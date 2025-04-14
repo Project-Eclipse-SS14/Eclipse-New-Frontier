@@ -33,9 +33,6 @@ maximum_width = 26
 flavor_text = true
 punctuation = true
 
-[salvage]
-expedition_failed_cooldown = 1200.0
-
 [worldgen]
 enabled = true
 
@@ -60,7 +57,6 @@ patreon = "https://www.patreon.com/c/Apxumekm0p"
 [nf14]
 respawn.time = 300.0
 uncryo.maxtime = 86400.0
-salvage.expedition_rewards_enabled = true
 
 [eclipse]
 restart_when_server_empty = false
