@@ -50,6 +50,8 @@ names-dog-dataset-49 = Гоша
 names-dog-dataset-50 = Пусик
 names-dog-dataset-51 = Чемпион
 names-dog-dataset-52 = Фунтик
+
+
 names-dog-pug-dataset-1 = Белла
 names-dog-pug-dataset-2 = Лола
 names-dog-pug-dataset-3 = Луна
@@ -86,6 +88,8 @@ names-dog-pug-dataset-33 = Печенька
 names-dog-pug-dataset-34 = Рекс
 names-dog-pug-dataset-35 = Тоша
 names-dog-pug-dataset-36 = Пятачок
+
+
 names-dog-pitbull-dataset-1 = Зевс
 names-dog-pitbull-dataset-2 = Магнум
 names-dog-pitbull-dataset-3 = Дизель

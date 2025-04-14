@@ -2,9 +2,13 @@ names-cat-clarpy-dataset-1 = Клярпи
 names-cat-clarpy-dataset-2 = Клярррпи
 names-cat-clarpy-dataset-3 = Кляррррпи
 names-cat-clarpy-dataset-4 = Кляррррррпи
+
+
 names-cat-mistake-dataset-1 = ????
 names-cat-mistake-dataset-2 = ?????
 names-cat-mistake-dataset-3 = ??????
+
+
 # Towns
 names-cat-cult-dataset-1 = Салье
 names-cat-cult-dataset-2 = Валарис
@@ -38,6 +42,8 @@ names-cat-cult-dataset-28 = Бурроня-р
 names-cat-cult-dataset-29 = Вордфелл
 names-cat-cult-dataset-30 = Гильядот
 names-cat-cult-dataset-31 = Заенгер фон Моссау
+
+
 names-cat-space-dataset-1 = Космо
 names-cat-space-dataset-2 = Звездный
 names-cat-space-dataset-3 = Притяжение
@@ -81,6 +87,8 @@ names-cat-space-dataset-40 = Целестиал
 names-cat-space-dataset-41 = Астро
 names-cat-space-dataset-42 = Фелисента
 names-cat-space-dataset-43 = Феликс
+
+
 names-cat-caracal-dataset-1 = Искорка
 names-cat-caracal-dataset-2 = Сумрак
 names-cat-caracal-dataset-3 = Луна
@@ -124,6 +132,8 @@ names-cat-caracal-dataset-40 = Кузя
 names-cat-caracal-dataset-41 = Мурчалка
 names-cat-caracal-dataset-42 = Веснушка
 names-cat-caracal-dataset-43 = Мандаринка
+
+
 names-cat-bingus-dataset-1 = Клео
 names-cat-bingus-dataset-2 = Сфинкс
 names-cat-bingus-dataset-3 = Ньюди
@@ -183,6 +193,8 @@ names-cat-bingus-dataset-56 = Орун
 names-cat-bingus-dataset-57 = Бонзай
 names-cat-bingus-dataset-58 = Гоблин
 names-cat-bingus-dataset-59 = Золотце
+
+
 names-cat-calico-dataset-1 = Искорка
 names-cat-calico-dataset-2 = Сумрак
 names-cat-calico-dataset-3 = Луна
@@ -243,6 +255,8 @@ names-cat-calico-dataset-57 = Пупсик
 names-cat-calico-dataset-58 = Кали
 names-cat-calico-dataset-59 = Соня
 names-cat-calico-dataset-60 = Марли
+
+
 names-cat-dataset-1 = Искорка
 names-cat-dataset-2 = Сумрак
 names-cat-dataset-3 = Луна
