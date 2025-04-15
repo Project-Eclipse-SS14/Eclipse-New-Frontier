@@ -46,7 +46,7 @@ salvage-air-mod-17 = 34 Водяной пар, 34 Аммиак, 34 Оксид а
 salvage-air-mod-18 = 34 Водяной пар, 34 Оксид азота, 17 Аммиак, 17 Углекислый газ
 salvage-air-mod-unknown = Неизвестная атмосфера
 salvage-expedition-difficulty-NFModerate = Умеренная
-salvage-expedition-difficulty-NFHazardous = Опасная
+salvage-expedition-difficulty-NFHazardous = Высокая
 salvage-expedition-difficulty-NFExtreme = Экстремальная
 salvage-expedition-megafauna-remaining = {$count ->
         [one] {$count} цель осталась.
