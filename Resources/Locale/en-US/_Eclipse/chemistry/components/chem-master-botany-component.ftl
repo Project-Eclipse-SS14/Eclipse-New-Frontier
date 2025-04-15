@@ -1,0 +1,1 @@
+chem-master-botany-window-grinder-tab = Grinder

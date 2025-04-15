@@ -1,0 +1,11 @@
+- type: technology
+  id: BotanicalChemicalDispensary
+  name: research-technology-botanical-chemical-dispensary
+  icon:
+    sprite: _Eclipse/Structures/Machines/mixer_botany.rsi
+    state: mixer_loaded
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ChemMasterBotanyMachineCircuitboard

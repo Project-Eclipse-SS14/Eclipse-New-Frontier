@@ -742,6 +742,8 @@
     - MedicalScannerMachineCircuitboard
     - StasisBedMachineCircuitboard
     - VaccinatorMachineCircuitboard
+    # Eclipse
+    - ChemMasterBotanyMachineCircuitboard
     chance: 0.95
     offset: 0.0
     rarePrototypes:
