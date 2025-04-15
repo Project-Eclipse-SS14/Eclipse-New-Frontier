@@ -1,10 +1,8 @@
-Имена котов в сеттинге Space Station 14 переведены на русский язык с сохранением стилистики и контекста. Для некоторых имён, особенно тех, что связаны с культурными или космическими темами, использованы эквиваленты, передающие схожий смысл. Имена из набора "mistake" оставлены без перевода, так как они состоят из знаков вопроса.
-
 Clarpy Dataset
-names-cat-clarpy-dataset-1 = Кларпи
-names-cat-clarpy-dataset-2 = Кларрпи
-names-cat-clarpy-dataset-3 = Кларррпи
-names-cat-clarpy-dataset-4 = Кларрррпи
+names-cat-clarpy-dataset-1 = Клярпи
+names-cat-clarpy-dataset-2 = Кляррпи
+names-cat-clarpy-dataset-3 = Клярррпи
+names-cat-clarpy-dataset-4 = Кляррррпи
 Mistake Dataset
 names-cat-mistake-dataset-1 = ????
 names-cat-mistake-dataset-2 = ?????
