@@ -1,1 +1,1 @@
-marking-MothAntennasNone = Нету
+marking-MothAntennasNone = Отсутствует
