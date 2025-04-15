@@ -5,6 +5,7 @@ salvage-expedition-structure-remaining =
         [few] цели.
        *[other] целей.
     }
+salvage-expedition-type = Миссии
 salvage-expedition-megafauna-remaining = Осталось { $count } мегафауны.
 salvage-expedition-window-title = Утилизаторские экспедиции
 salvage-expedition-window-difficulty = Сложность:
@@ -12,13 +13,13 @@ salvage-expedition-window-details = Подробности:
 salvage-expedition-window-hostiles = Враги:
 salvage-expedition-window-duration = Продолжительность:
 salvage-expedition-window-biome = Биом:
+offering-window-claimed = Принято
+offering-window-claim = Принять
 salvage-expedition-window-modifiers = Модификаторы:
 salvage-expedition-window-rewards = Награды:
-salvage-expedition-window-claimed = Принято
-salvage-expedition-window-claim = Принять
+# Frontier: salvagers<team size
+salvage-expedition-difficulty-players = Рекомендуемая численность команды:
 salvage-expedition-window-next = Следующие предложения
-# Frontier: Expedition descriptions
-salvage-expedition-desc-mining = Собирайте ресурсы в этой зоне.
 #  You will be taxed {$tax}% of the resources collected.
 salvage-expedition-desc-structure =
     { $count ->
@@ -29,11 +30,6 @@ salvage-expedition-desc-elimination = Убейте большое и опасн�
 
 # End Frontier
 
-salvage-expedition-type-Mining = Добыча
-salvage-expedition-type-Destruction = Уничтожение
-salvage-expedition-type-Elimination = Устранение
-salvage-expedition-difficulty-Minimal = Минимальная
-salvage-expedition-difficulty-Minor = Низкая
 salvage-expedition-difficulty-Moderate = Умеренная
 salvage-expedition-difficulty-Hazardous = Высокая
 salvage-expedition-difficulty-Extreme = Экстремальная
