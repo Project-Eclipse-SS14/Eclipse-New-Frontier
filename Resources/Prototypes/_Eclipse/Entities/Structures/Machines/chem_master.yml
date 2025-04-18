@@ -2,7 +2,7 @@
   id: ChemMasterBotany
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   name: ChemMaster 5000
-  description: An industrial grade chemical manipulator with pill and bottle production included. Now with blender bilt-in!
+  description: An industrial grade chemical manipulator with pill and bottle production included. Now with blender built-in!
   components:
   - type: ChemMasterBotany
     pillDosageLimit: 20
