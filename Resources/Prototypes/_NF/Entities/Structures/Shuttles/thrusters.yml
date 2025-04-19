@@ -189,8 +189,10 @@
   - type: Thruster
     baseThrust: 250
     thrust: 250
+    firingDesiredPowerDraw: 200
+    firingPowerDrawRampDuration: 3
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 50
   - type: Sprite
     sprite: _NF/Structures/Shuttles/gyroscope.rsi
     layers:
