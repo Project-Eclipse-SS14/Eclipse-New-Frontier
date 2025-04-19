@@ -1,6 +1,7 @@
 device-pda-slot-component-slot-name-cartridge = Картридж
 default-program-name = Программа
 notekeeper-program-name = Заметки
+nano-task-program-name = НаноЗадача
 news-read-program-name = Новости станции
 crew-manifest-program-name = Манифест экипажа
 crew-manifest-cartridge-loading = Загрузка...
@@ -23,6 +24,44 @@ astro-nav-program-name = АстроНав
 med-tek-program-name = МедТек
 # Wanted list cartridge
 wanted-list-program-name = Список разыскиваемых
+nano-task-ui-heading-high-priority-tasks =
+    { $amount ->
+        [zero] Нет высокоприоритетных задач
+        [one] 1 Высокоприоритетная задача
+       *[other] { $amount } Высокоприоритетные задачи
+    }
+nano-task-ui-heading-medium-priority-tasks =
+    { $amount ->
+        [zero] Нет среднеприоритетных задач
+        [one] 1 Среднеприоритетная задача
+       *[other] { $amount } Среднеприоритетные задачи
+    }
+nano-task-ui-heading-low-priority-tasks =
+    { $amount ->
+        [zero] Нет низкоприоритетных задач
+        [one] 1 Низкоприоритетная задача
+       *[other] { $amount } Низкоприоритетные задачи
+    }
+nano-task-ui-done = Готово
+nano-task-ui-revert-done = Отменить
+nano-task-ui-priority-low = Низкий
+nano-task-ui-priority-medium = Средний
+nano-task-ui-priority-high = Высокий
+nano-task-ui-cancel = Отмена
+nano-task-ui-print = Печать
+nano-task-ui-delete = Удалить
+nano-task-ui-save = Сохранить
+nano-task-ui-new-task = Новая задача
+nano-task-ui-description-label = Описание:
+nano-task-ui-description-placeholder = Получить что-то важное
+nano-task-ui-requester-label = Заказчик:
+nano-task-ui-requester-placeholder = Джон Нанотрейзен
+nano-task-ui-item-title = Редактировать задачу
+nano-task-printed-description = Описание: { $description }
+nano-task-printed-requester = Заказчик: { $requester }
+nano-task-printed-high-priority = Приоритет: Высокий
+nano-task-printed-medium-priority = Приоритет: Средний
+nano-task-printed-low-priority = Приоритет: Низкий
 wanted-list-label-no-records = Всё спокойно, ковбой.
 wanted-list-search-placeholder = Поиск по имени и статусу
 wanted-list-age-label = [color=darkgray]Возраст:[/color] [color=white]{ $age }[/color]

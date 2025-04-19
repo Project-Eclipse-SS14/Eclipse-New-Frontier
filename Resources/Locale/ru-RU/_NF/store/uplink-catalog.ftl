@@ -210,3 +210,5 @@ uplink-pirate-pmag-name = Освободитель машин
 uplink-pirate-pmag-desc = Удаляет привязку к станции машинного DRM. Лучший друг пирата.
 uplink-pirate-repair-kit-name = Набор для ремонта пиратской консоли
 uplink-pirate-repair-kit-desc = Коллекция инструментов, используемых для ремонта пиратской консоли. Для тех случаев, когда вам не везет.
+uplink-syndicate-segway-name = Синдикатовский сегвей
+uplink-syndicate-segway-desc = Стильно передвигайтесь, не пачкая свои кроваво-красные сапоги.
