@@ -11,8 +11,8 @@
 - type: vessel
   id: Duchess
   parent: BaseVessel
-  name: NT Duchess
-  description: A mobile office and personal transport for the Station Representative, based on the SBB Bodkin.
+  name: NT Герцогиня
+  description: Мобильный офис и личный транспорт для представителя станции, созданный на базе SBB Стилет.
   price: 24500 #Appraises at ~22000. Markup of ~9%.
   category: Small
   group: Sr
@@ -26,7 +26,7 @@
 
 - type: gameMap
   id: Duchess
-  mapName: 'NT Duchess'
+  mapName: 'NT Герцогиня'
   mapPath: /Maps/_NF/Shuttles/Sr/duchess.yml
   minPlayers: 0
   stations:
@@ -34,7 +34,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Duchess {1}'
+          mapNameTemplate: 'Герцогиня {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
