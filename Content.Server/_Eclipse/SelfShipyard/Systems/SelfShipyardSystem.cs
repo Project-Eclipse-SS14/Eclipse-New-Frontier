@@ -306,6 +306,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         if (!_mapLoader.TrySaveGrid(shuttleUid, resPath))
         {
             await _db.RemoveOwnedShuttle(id, playerSession.UserId);
+            _bank.TryBankDeposit(player, bill);
             result.Error = ShipyardSaleError.InvalidShip;
             return (result, bill);
         }
