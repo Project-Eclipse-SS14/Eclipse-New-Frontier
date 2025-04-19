@@ -1,5 +1,6 @@
 using Content.Client.Administration.Managers;
 using Content.Client.Audio;
+using Content.Shared._Corvax.CCVar;
 using Content.Shared._NF.CCVar; // Frontier
 using Content.Shared.CCVar;
 using Robust.Client.Audio;
@@ -28,6 +29,13 @@ public sealed partial class AudioTab : Control
             SliderVolumeMaster,
             scale: ContentAudioSystem.MasterVolumeMultiplier);
         masterVolume.ImmediateValueChanged += OnMasterVolumeSliderChanged;
+
+        // Corvax-TTS-Start
+        Control.AddOptionPercentSlider(
+            CorvaxCCVars.TTSVolume,
+            SliderVolumeTts,
+            scale: ContentAudioSystem.TtsMultiplier);
+        // Corvax-TTS-End
 
         Control.AddOptionPercentSlider(
             CVars.MidiVolume,

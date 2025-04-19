@@ -9,6 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Shared._Corvax.CCVar;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
@@ -213,6 +214,18 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // Corvax-TTS-Start
+            #region Voice
+
+            if (configurationManager.GetCVar(CorvaxCCVars.TTSEnabled))
+            {
+                TTSContainer.Visible = true;
+                InitializeVoice();
+            }
+
+            #endregion
+            // Corvax-TTS-End
 
             RefreshSpecies();
 
@@ -766,6 +779,7 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // Corvax-TTS
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
@@ -1198,6 +1212,7 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateGenderControls();
+            UpdateTTSVoicesControls(); // Corvax-TTS
             Markings.SetSex(newSex);
             ReloadPreview();
         }

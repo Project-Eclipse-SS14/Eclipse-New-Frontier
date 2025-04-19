@@ -1,3 +1,4 @@
+using Content.Server._Corvax.TTS;
 using Content.Server._NF.Auth;
 using Content.Server.Acz;
 using Content.Server.Administration;
@@ -111,6 +112,7 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<GhostKickManager>().Initialize();
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
+                IoCManager.Resolve<TTSManager>().Initialize(); // Corvax-TTS
                 IoCManager.Resolve<MiniAuthManager>();
 
                 _voteManager.Initialize();
