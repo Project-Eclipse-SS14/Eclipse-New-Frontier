@@ -1,0 +1,2 @@
+/N/TTS team for providing API for their TTS (Text-To-Speech)
+Corvax for providing base implementation of TTS (Text-To-Speech)
