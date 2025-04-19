@@ -8,6 +8,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using static Content.Server._Corvax.TTS.TTSManager;
 
 namespace Content.Server._Corvax.TTS;
 
@@ -141,11 +142,23 @@ public sealed partial class TTSSystem : EntitySystem
         if (char.IsLetter(textSanitized[^1]))
             textSanitized += ".";
 
-        var ssmlTraits = SoundTraits.RateFast;
-        if (isWhisper)
-            ssmlTraits = SoundTraits.PitchVerylow;
-        var textSsml = ToSsmlText(textSanitized, ssmlTraits);
+        TTSEffect? effects = null;
 
-        return await _ttsManager.ConvertTextToSpeech(speaker, textSsml);
+        //if (isWhisper)
+        //    effects = TTSEffect.PitchShift;
+
+        return await _ttsManager.ConvertTextToSpeech(speaker, textSanitized, effects);
+    }
+
+    public sealed class TransformSpeakerVoiceEvent : EntityEventArgs
+    {
+        public EntityUid Sender;
+        public string VoiceId;
+
+        public TransformSpeakerVoiceEvent(EntityUid sender, string voiceId)
+        {
+            Sender = sender;
+            VoiceId = voiceId;
+        }
     }
 }
