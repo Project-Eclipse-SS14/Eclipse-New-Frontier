@@ -43,6 +43,15 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
 
+    // Corvax-TTS-Start
+    public static readonly Dictionary<Sex, string> DefaultSexVoice = new()
+    {
+        {Sex.Male, "dude"},
+        {Sex.Female, "astrid"},
+        {Sex.Unsexed, "myron"},
+    };
+    // Corvax-TTS-End
+
     public override void Initialize()
     {
         base.Initialize();
