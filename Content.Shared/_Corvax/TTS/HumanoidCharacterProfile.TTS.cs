@@ -5,7 +5,7 @@ namespace Content.Shared.Preferences;
 
 public sealed partial class HumanoidCharacterProfile
 {
-    public const string DefaultVoice = "Garithos";
+    public const string DefaultVoice = "dude";
 
     [DataField]
     public string Voice { get; set; } = DefaultVoice;
