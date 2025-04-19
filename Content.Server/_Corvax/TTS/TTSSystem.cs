@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
 using Content.Server.Chat.Systems;
-using Content.Shared.Corvax.CCCVars;
-using Content.Shared.Corvax.TTS;
+using Content.Shared._Corvax.CCVar;
+using Content.Shared._Corvax.TTS;
 using Content.Shared.GameTicking;
 using Content.Shared.Players.RateLimiting;
 using Robust.Shared.Configuration;
@@ -9,7 +9,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
-namespace Content.Server.Corvax.TTS;
+namespace Content.Server._Corvax.TTS;
 
 // ReSharper disable once InconsistentNaming
 public sealed partial class TTSSystem : EntitySystem
@@ -42,7 +42,7 @@ public sealed partial class TTSSystem : EntitySystem
 
     public override void Initialize()
     {
-        _cfg.OnValueChanged(CCCVars.TTSEnabled, v => _isEnabled = v, true);
+        _cfg.OnValueChanged(CorvaxCCVars.TTSEnabled, v => _isEnabled = v, true);
 
         SubscribeLocalEvent<TransformSpeechEvent>(OnTransformSpeech);
         SubscribeLocalEvent<TTSComponent, EntitySpokeEvent>(OnEntitySpoke);

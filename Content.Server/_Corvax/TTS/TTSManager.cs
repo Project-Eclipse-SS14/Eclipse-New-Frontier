@@ -6,11 +6,11 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using Content.Shared.Corvax.CCCVars;
+using Content.Shared._Corvax.CCVar;
 using Prometheus;
 using Robust.Shared.Configuration;
 
-namespace Content.Server.Corvax.TTS;
+namespace Content.Server._Corvax.TTS;
 
 // ReSharper disable once InconsistentNaming
 public sealed class TTSManager
@@ -46,13 +46,13 @@ public sealed class TTSManager
     public void Initialize()
     {
         _sawmill = Logger.GetSawmill("tts");
-        _cfg.OnValueChanged(CCCVars.TTSMaxCache, val =>
+        _cfg.OnValueChanged(CorvaxCCVars.TTSMaxCache, val =>
         {
             _maxCachedCount = val;
             ResetCache();
         }, true);
-        _cfg.OnValueChanged(CCCVars.TTSApiUrl, v => _apiUrl = v, true);
-        _cfg.OnValueChanged(CCCVars.TTSApiToken, v => _apiToken = v, true);
+        _cfg.OnValueChanged(CorvaxCCVars.TTSApiUrl, v => _apiUrl = v, true);
+        _cfg.OnValueChanged(CorvaxCCVars.TTSApiToken, v => _apiToken = v, true);
     }
 
     /// <summary>
@@ -84,7 +84,7 @@ public sealed class TTSManager
         var reqTime = DateTime.UtcNow;
         try
         {
-            var timeout = _cfg.GetCVar(CCCVars.TTSApiTimeout);
+            var timeout = _cfg.GetCVar(CorvaxCCVars.TTSApiTimeout);
             var cts = new CancellationTokenSource(TimeSpan.FromSeconds(timeout));
             var response = await _httpClient.PostAsJsonAsync(_apiUrl, body, cts.Token);
             if (!response.IsSuccessStatusCode)

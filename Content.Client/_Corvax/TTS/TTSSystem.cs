@@ -1,6 +1,5 @@
 using Content.Shared.Chat;
-using Content.Shared.Corvax.CCCVars;
-using Content.Shared.Corvax.TTS;
+using Content.Shared._Corvax.TTS;
 using Robust.Client.Audio;
 using Robust.Client.ResourceManagement;
 using Robust.Shared.Audio;
@@ -8,8 +7,9 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Utility;
+using Content.Shared._Corvax.CCVar;
 
-namespace Content.Client.Corvax.TTS;
+namespace Content.Client._Corvax.TTS;
 
 /// <summary>
 /// Plays TTS audio in world
@@ -49,14 +49,14 @@ public sealed class TTSSystem : EntitySystem
         }
 
         _sawmill = Logger.GetSawmill("tts");
-        _cfg.OnValueChanged(CCCVars.TTSVolume, OnTtsVolumeChanged, true);
+        _cfg.OnValueChanged(CorvaxCCVars.TTSVolume, OnTtsVolumeChanged, true);
         SubscribeNetworkEvent<PlayTTSEvent>(OnPlayTTS);
     }
 
     public override void Shutdown()
     {
         base.Shutdown();
-        _cfg.UnsubValueChanged(CCCVars.TTSVolume, OnTtsVolumeChanged);
+        _cfg.UnsubValueChanged(CorvaxCCVars.TTSVolume, OnTtsVolumeChanged);
     }
 
     public void RequestPreviewTTS(string voiceId)

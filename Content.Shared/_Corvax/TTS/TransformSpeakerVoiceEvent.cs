@@ -1,6 +1,6 @@
 using Content.Shared.Inventory;
 
-namespace Content.Shared.Corvax.TTS;
+namespace Content.Shared._Corvax.TTS;
 
 public sealed class TransformSpeakerVoiceEvent : EntityEventArgs, IInventoryRelayEvent
 {
