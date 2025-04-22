@@ -7,6 +7,7 @@ namespace Content.Shared._NF.BindToStation;
 /// </summary>
 [NetworkedComponent, RegisterComponent]
 [AutoGenerateComponentState]
+[UnsavedComponent]
 public sealed partial class BindToStationComponent : Component
 {
     // The entity UID of the station that this machine/item is bound to.
