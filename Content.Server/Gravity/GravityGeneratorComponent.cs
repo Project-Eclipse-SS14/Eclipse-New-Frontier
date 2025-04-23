@@ -37,9 +37,7 @@ namespace Content.Server.Gravity
             {
                 return;
             }
-            var xform = entityManager.TransformQuery.GetComponent(Owner);
-            if (xform == null)
-            {
+            if (!entityManager.TransformQuery.TryGetComponent(Owner, out var xform)) {
                 return;
             }
             gravitySystem.RefreshGravity(xform.ParentUid);
