@@ -327,10 +327,15 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         var xform = Transform(grid);
         var enumerator = xform.ChildEnumerator;
         var entitiesToPreserve = new List<EntityUid>();
+        var entitiesToDelete = new List<EntityUid>();
 
         while (enumerator.MoveNext(out var child))
         {
-            FindEntitiesToPreserve(child, ref entitiesToPreserve);
+            FindEntitiesToPreserve(child, ref entitiesToPreserve, ref entitiesToDelete);
+        }
+        foreach (var ent in entitiesToDelete)
+        {
+            Del(ent);
         }
         foreach (var ent in entitiesToPreserve)
         {
@@ -341,16 +346,16 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     }
 
     // checks if something has the ShipyardPreserveOnSaleComponent and if it does, adds it to the list
-    private void FindEntitiesToPreserve(EntityUid entity, ref List<EntityUid> output)
+    private void FindEntitiesToPreserve(EntityUid entity, ref List<EntityUid> toPreserve, ref List<EntityUid> toDelete)
     {
         if (TryComp<RemoveOnSaveComponent>(entity, out var _))
         {
-            Del(entity);
+            toDelete.Add(entity);
             return;
         }
         else if (TryComp<ShipyardSellConditionComponent>(entity, out var comp) && comp.PreserveOnSale == true)
         {
-            output.Add(entity);
+            toPreserve.Add(entity);
             return;
         }
         else if (TryComp<ContainerManagerComponent>(entity, out var containers))
@@ -359,7 +364,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             {
                 foreach (var ent in container.ContainedEntities)
                 {
-                    FindEntitiesToPreserve(ent, ref output);
+                    FindEntitiesToPreserve(ent, ref toPreserve, ref toDelete);
                 }
             }
         }
