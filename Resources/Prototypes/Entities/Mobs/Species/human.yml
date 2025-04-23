@@ -30,7 +30,6 @@
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: Speech # Frontier
     allowedEmotes: ['Belch'] # Frontier
-  - type: TTS
 
 - type: entity
   parent: BaseSpeciesDummy
