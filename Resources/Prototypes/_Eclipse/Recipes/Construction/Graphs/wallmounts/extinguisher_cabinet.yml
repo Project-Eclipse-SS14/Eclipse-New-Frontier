@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: ExtinguisherCabinet
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: extinguisher_cabinet
+      steps:
+      - material: Steel
+        amount: 2
+        doAfter: 2.0
+  
+  - node: extinguisher_cabinet
+    entity: ExtinguisherCabinet
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      steps:
+      - tool: Welding
+        doAfter: 2

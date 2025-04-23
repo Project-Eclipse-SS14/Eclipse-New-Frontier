@@ -1,0 +1,125 @@
+- type: construction
+  name: defibrillator cabinet
+  id: DefibrillatorCabinet
+  graph: DefibrillatorCabinet
+  startNode: start
+  targetNode: defibrillator_cabinet
+  category: construction-category-structures
+  description: A small wall mounted cabinet designed to hold a defibrillator.
+  icon:
+    sprite: Structures/Wallmounts/defib_cabinet.rsi
+    state: closed
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: boxing bell
+  id: BoxingBell
+  graph: BoxingBell
+  startNode: start
+  targetNode: boxing_bell
+  category: construction-category-structures
+  description: Ding ding!
+  icon:
+    sprite: Structures/Wallmounts/bell.rsi
+    state: bell
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: extinguisher cabinet
+  id: ExtinguisherCabinet
+  graph: ExtinguisherCabinet
+  startNode: start
+  targetNode: extinguisher_cabinet
+  category: construction-category-structures
+  description: A small wall mounted cabinet designed to hold a fire extinguisher.
+  icon:
+    sprite: Structures/Wallmounts/extinguisher_cabinet.rsi
+    state: frame
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: fire axe cabinet
+  id: FireAxeCabinet
+  graph: FireAxeCabinet
+  startNode: start
+  targetNode: fire_axe_cabinet
+  category: construction-category-structures
+  description: There is a small label that reads "For Emergency use only" along with details for safe use of the axe. As if.
+  icon:
+    sprite: Structures/Wallmounts/fireaxe_cabinet.rsi
+    state: cabinet
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: shotgun cabinet
+  id: ShotGunCabinet
+  graph: ShotGunCabinet
+  startNode: start
+  targetNode: shot_gun_cabinet
+  category: construction-category-structures
+  description: There is a small label that reads "For Emergency use only" along with details for safe use of the shotgun. As if.
+  icon:
+    sprite: Structures/Wallmounts/shotgun_cabinet.rsi
+    state: cabinet
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: space cleaner dispenser
+  id: CleanerDispenser
+  graph: CleanerDispenser
+  startNode: start
+  targetNode: cleaner_dispenser
+  category: construction-category-structures
+  description: Wallmount reagent dispenser.
+  icon:
+    sprite: Structures/Storage/tanks.rsi
+    state: cleanerdispenser
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}
+
+- type: construction
+  name: fuel dispenser
+  id: FuelDispenser
+  graph: FuelDispenser
+  startNode: start
+  targetNode: fuel_dispenser
+  category: construction-category-structures
+  description: Wallmount reagent dispenser.
+  icon:
+    sprite: Structures/Storage/tanks.rsi
+    state: fueldispenser
+  placementMode: SnapgridCenter
+  objectType: Structure
+  canRotate: true
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition {}

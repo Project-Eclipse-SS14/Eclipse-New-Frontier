@@ -45,3 +45,6 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalBreak
+  - type: Construction # Eclipse
+    graph: BoxingBell
+    node: boxing_bell

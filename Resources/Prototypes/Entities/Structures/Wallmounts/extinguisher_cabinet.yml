@@ -54,6 +54,9 @@
                 collection: MetalGlassBreak
                 params:
                   volume: -4
+    - type: Construction # Eclipse
+      graph: ExtinguisherCabinet
+      node: extinguisher_cabinet
 
 - type: entity
   parent: ExtinguisherCabinet
