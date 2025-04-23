@@ -13,6 +13,7 @@ namespace Content.Shared.Timing;
 public sealed partial class UseDelayComponent : Component
 {
     [DataField]
+    [NonSerialized]
     public Dictionary<string, UseDelayInfo> Delays = [];
 
     /// <summary>
