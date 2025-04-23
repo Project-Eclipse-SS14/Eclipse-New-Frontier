@@ -37,10 +37,14 @@ namespace Content.Server.Gravity
             {
                 return;
             }
-            if (!entityManager.TransformQuery.TryGetComponent(Owner, out var xform)) {
+            if (!entityManager.TransformQuery.TryGetComponent(Owner, out var xform))
+            {
                 return;
             }
-            gravitySystem.RefreshGravity(xform.ParentUid);
+            if (entityManager.TryGetComponent(xform.ParentUid, out GravityComponent? gravity))
+            {
+                gravitySystem.RefreshGravity(xform.ParentUid, gravity);
+            }
         }
     }
 }
