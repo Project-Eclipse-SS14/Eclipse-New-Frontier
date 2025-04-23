@@ -7,6 +7,7 @@ namespace Content.Server.Storage.Components;
 public sealed partial class MaterialStorageMagnetPickupComponent : Component
 {
     [ViewVariables(VVAccess.ReadWrite), DataField("nextScan")]
+    [NonSerialized]
     public TimeSpan NextScan = TimeSpan.Zero;
 
     [ViewVariables(VVAccess.ReadWrite), DataField("range")]
