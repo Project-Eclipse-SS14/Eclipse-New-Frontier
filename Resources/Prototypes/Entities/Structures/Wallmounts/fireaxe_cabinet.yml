@@ -54,6 +54,9 @@
   - type: Lock
   - type: AccessReader
 #    access: [["Atmospherics"], ["Command"]]
+  - type: Construction # Eclipse
+    graph: FireAxeCabinet
+    node: fire_axe_cabinet
 
 - type: entity
   parent: FireAxeCabinet

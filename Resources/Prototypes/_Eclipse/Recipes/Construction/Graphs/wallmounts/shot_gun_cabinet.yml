@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: ShotGunCabinet
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: shot_gun_cabinet
+      steps:
+      - material: Steel
+        amount: 2
+        doAfter: 2.0
+  
+  - node: shot_gun_cabinet
+    entity: ShotGunCabinet
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      steps:
+      - tool: Welding
+        doAfter: 2

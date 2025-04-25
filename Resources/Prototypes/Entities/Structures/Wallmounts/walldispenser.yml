@@ -65,6 +65,22 @@
   - type: ExaminableSolution
     solution: tank
 
+# Start-Eclipse
+- type: entity
+  parent: CleanerDispenser
+  id: CleanerDispenserEmpty
+  name: space cleaner dispenser
+  suffix: Empty
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents: []
+  - type: Construction
+    graph: CleanerDispenser
+    node: cleaner_dispenser
+# End-Eclipse
+
 - type: entity
   parent: CleanerDispenser
   id: FuelDispenser
@@ -86,3 +102,19 @@
     weldingDamage:
       types:
         Heat: 20
+
+# Start-Eclipse
+- type: entity
+  parent: FuelDispenser
+  id: FuelDispenserEmpty
+  name: fuel dispenser
+  suffix: Empty
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents: []
+  - type: Construction
+    graph: FuelDispenser
+    node: fuel_dispenser
+# End-Eclipse
