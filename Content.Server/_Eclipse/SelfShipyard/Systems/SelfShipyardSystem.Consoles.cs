@@ -185,6 +185,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             };
             shuttleStation = _station.InitializeNewStation(stationProto.Stations[vessel.PrototypeId], gridUids);
             name = Name(shuttleStation.Value);
+
+            var vesselInfo = EnsureComp<ExtraShuttleInformationComponent>(shuttleStation.Value);
+            vesselInfo.Vessel = vessel.ID;
         }
 
         if (TryComp<AccessComponent>(targetId, out var newCap))
