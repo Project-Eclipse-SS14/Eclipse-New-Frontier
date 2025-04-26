@@ -37,7 +37,11 @@ dependencies = [
 name = "common"
 version = "0.1.0"
 dependencies = [
+ "fluent-syntax",
+ "hex",
  "log",
+ "pathdiff",
+ "sha2",
  "unicode-bom",
  "walkdir",
  "yaml-rust2",

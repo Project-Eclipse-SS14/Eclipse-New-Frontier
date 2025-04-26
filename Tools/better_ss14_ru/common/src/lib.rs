@@ -1,3 +1,6 @@
+pub mod prototypes_ftl;
+pub mod change_guard;
+
 use std::{
     io::{Read, Seek, SeekFrom},
     path::{Path, PathBuf},
