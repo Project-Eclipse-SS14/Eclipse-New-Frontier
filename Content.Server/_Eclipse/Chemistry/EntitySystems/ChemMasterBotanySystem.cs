@@ -57,6 +57,7 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
         [Dependency] private readonly JitteringSystem _jitter = default!;
         [Dependency] private readonly StackSystem _stackSystem = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+        [Dependency] private readonly SharedSolutionContainerSystem _solutionContainersSystem = default!;
 
         [ValidatePrototypeId<EntityPrototype>]
         private const string PillPrototypeId = "Pill";
@@ -493,7 +494,7 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
                 return;
 
             var sound = component.JuiceSound;
-            var program = GrinderProgram.Juice;
+            var program = GrinderProgram.Grind;
 
             var active = AddComp<ActiveChemMasterGrinderComponent>(uid);
             active.EndTime = _timing.CurTime + component.WorkTime * component.WorkTimeMultiplier;
@@ -504,6 +505,17 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
                 new ReagentGrinderWorkStartedMessage(program));
         }
 
+        private Solution? GetGrindSolution(EntityUid uid)
+        {
+            if (TryComp<ExtractableComponent>(uid, out var extractable)
+                && extractable.GrindableSolution is not null
+                && _solutionContainersSystem.TryGetSolution(uid, extractable.GrindableSolution, out _, out var solution))
+            {
+                return solution;
+            }
+            else
+                return null;
+        }
         public override void Update(float frameTime)
         {
             base.Update(frameTime);
@@ -523,7 +535,7 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
 
                 foreach (var item in inputContainer.ContainedEntities.ToList())
                 {
-                    var solution = CompOrNull<ExtractableComponent>(item)?.JuiceSolution;
+                    var solution = GetGrindSolution(item);
 
                     if (solution is null)
                         continue;
