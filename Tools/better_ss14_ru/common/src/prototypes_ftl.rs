@@ -456,15 +456,30 @@ impl StringOrOtherId {
                             name.to_owned(),
                         ));
                     };
-                    let fluent_syntax::ast::InlineExpression::MessageReference { id, .. } = v
-                    else {
-                        return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
-                            name.to_owned(),
-                        ));
-                    };
-                    other_id = Some(id.name.strip_prefix("ent-").ok_or_else(|| {
-                        ParseFtlPrototypesFileError::AttributeInvalidVariable(name.to_owned())
-                    })?);
+                    match v {
+                        fluent_syntax::ast::InlineExpression::MessageReference { id, .. } => {
+                            other_id = Some(id.name.strip_prefix("ent-").ok_or_else(|| {
+                                ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                    name.to_owned(),
+                                )
+                            })?);
+                        }
+                        // Compatibility with ss14_ru
+                        fluent_syntax::ast::InlineExpression::StringLiteral { value } => {
+                            if *value == "" {
+                                return Ok(StringOrOtherId::Empty);
+                            } else {
+                                return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                    name.to_owned(),
+                                ));
+                            }
+                        }
+                        _ => {
+                            return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                name.to_owned(),
+                            ));
+                        }
+                    }
                 }
             }
         }
