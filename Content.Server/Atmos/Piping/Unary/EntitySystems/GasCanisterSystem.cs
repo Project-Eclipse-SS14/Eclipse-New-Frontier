@@ -32,6 +32,7 @@ public sealed class GasCanisterSystem : EntitySystem
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly NodeContainerSystem _nodeContainer = default!;
     [Dependency] private readonly ItemSlotsSystem _slots = default!;
+    [Dependency] private readonly LockSystem _lockSystem = default!;
 
     public override void Initialize()
     {
@@ -40,7 +41,7 @@ public sealed class GasCanisterSystem : EntitySystem
         SubscribeLocalEvent<GasCanisterComponent, ComponentStartup>(OnCanisterStartup);
         SubscribeLocalEvent<GasCanisterComponent, AtmosDeviceUpdateEvent>(OnCanisterUpdated);
         SubscribeLocalEvent<GasCanisterComponent, ActivateInWorldEvent>(OnCanisterActivate, after: new[] { typeof(LockSystem) });
-        SubscribeLocalEvent<GasCanisterComponent, InteractHandEvent>(OnCanisterInteractHand);
+        //SubscribeLocalEvent<GasCanisterComponent, InteractHandEvent>(OnCanisterInteractHand); # Eclipse: Handled by ActivateInWorldEvent already
         SubscribeLocalEvent<GasCanisterComponent, ItemSlotInsertAttemptEvent>(OnCanisterInsertAttempt);
         SubscribeLocalEvent<GasCanisterComponent, EntInsertedIntoContainerMessage>(OnCanisterContainerInserted);
         SubscribeLocalEvent<GasCanisterComponent, EntRemovedFromContainerMessage>(OnCanisterContainerRemoved);
@@ -328,8 +329,8 @@ public sealed class GasCanisterSystem : EntitySystem
     {
         if (TryComp<LockComponent>(uid, out var lockComp) && lockComp.Locked)
         {
-            _popup.PopupEntity(Loc.GetString("gas-canister-popup-denied"), uid, user);
-            _audio.PlayPvs(comp.AccessDeniedSound, uid);
+            if (!_lockSystem.TryUnlock(uid, user, lockComp, runsOnClient: false))
+                _audio.PlayPvs(comp.AccessDeniedSound, uid);
 
             return true;
         }
