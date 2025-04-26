@@ -1,0 +1,12 @@
+[package]
+name = "ss14_ru_transfer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+common = { path = "../common" }
+fluent = "0.16.1"
+walkdir = "2.5.0"
+log = "0.4.27"
+simple_logger = "5.0.0"
+fluent-syntax = "0.11.1"

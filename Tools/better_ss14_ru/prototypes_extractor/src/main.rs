@@ -1,14 +1,17 @@
 use std::{collections::HashMap, path::PathBuf};
 
-use common::{SS14Project, prototypes_ftl::FtlStorage};
+use common::{
+    SS14Project,
+    prototypes_ftl::{FtlStorage, StringOrOtherId},
+};
 use sha2::{Digest, Sha256};
 use simple_logger::SimpleLogger;
 use yaml_rust2::Yaml;
 
 struct TranslatableAttributes {
-    pub name: Option<String>,
-    pub description: Option<String>,
-    pub suffix: Option<String>,
+    pub name: Option<StringOrOtherId>,
+    pub description: Option<StringOrOtherId>,
+    pub suffix: Option<StringOrOtherId>,
 }
 
 impl TranslatableAttributes {
@@ -16,12 +19,21 @@ impl TranslatableAttributes {
         self.name.is_none() || self.description.is_none()
     }
 
-    pub fn try_resolve_from_parent(&mut self, parent_attrs: &Self) {
-        self.name = self.name.take().or_else(|| parent_attrs.name.clone());
-        self.description = self
-            .description
-            .take()
-            .or_else(|| parent_attrs.name.clone());
+    pub fn try_resolve_from_parent(&mut self, parent_id: &str, parent_attrs: &Self) {
+        self.name = self.name.take().or_else(|| {
+            if parent_attrs.name.is_some() {
+                Some(StringOrOtherId::Id(parent_id.to_owned()))
+            } else {
+                None
+            }
+        });
+        self.description = self.description.take().or_else(|| {
+            if parent_attrs.description.is_some() {
+                Some(StringOrOtherId::Id(parent_id.to_owned()))
+            } else {
+                None
+            }
+        });
     }
 }
 
@@ -97,13 +109,14 @@ fn main() {
 
             let name = obj
                 .get(&Yaml::String("name".to_owned()))
-                .map(|v| v.as_str().unwrap().to_owned());
+                .map(|v| StringOrOtherId::String(v.as_str().unwrap().to_owned()));
 
             let description = obj
                 .get(&Yaml::String("description".to_owned()))
                 .filter(|v| !v.is_null())
                 .map(|v| v.as_str().unwrap().to_owned())
-                .filter(|v| !v.is_empty());
+                .filter(|v| !v.is_empty())
+                .map(|v| StringOrOtherId::String(v));
 
             let suffix = obj
                 .get(&Yaml::String("suffix".to_owned()))
@@ -113,7 +126,8 @@ fn main() {
                     Yaml::Integer(v) => v.to_string(),
                     _ => panic!("Encountered unsupported suffix type: {v:?}. Object id: {id}"),
                 })
-                .filter(|v| !v.is_empty());
+                .filter(|v| !v.is_empty())
+                .map(|v| StringOrOtherId::String(v));
 
             let parents = obj
                 .get(&Yaml::String("parent".to_owned()))
@@ -155,7 +169,7 @@ fn main() {
         let Some(parent_attrs) = id_map.get(parent_id) else {
             panic!("A parent id was set to an object that was not found! This is a yaml mistake");
         };
-        attributes.try_resolve_from_parent(parent_attrs);
+        attributes.try_resolve_from_parent(parent_id, parent_attrs);
     };
 
     for (id, path, mut attributes) in prototypes {
@@ -175,23 +189,35 @@ fn main() {
         attributes.name = attributes
             .name
             .take()
-            .or_else(|| Some("NO VALUE".to_owned()));
+            .or_else(|| Some(StringOrOtherId::Empty));
         attributes.description = attributes
             .description
             .take()
-            .or_else(|| Some("NO VALUE".to_owned()));
+            .or_else(|| Some(StringOrOtherId::Empty));
 
         let hash: [u8; 32] = {
             let mut hasher = Sha256::new();
 
             if let Some(v) = &attributes.name {
-                hasher.update(v);
+                match v {
+                    StringOrOtherId::Empty => (),
+                    StringOrOtherId::String(v) => hasher.update(v),
+                    StringOrOtherId::Id(v) => hasher.update(v),
+                };
             }
             if let Some(v) = &attributes.description {
-                hasher.update(v);
+                match v {
+                    StringOrOtherId::Empty => (),
+                    StringOrOtherId::String(v) => hasher.update(v),
+                    StringOrOtherId::Id(v) => hasher.update(v),
+                };
             }
             if let Some(v) = &attributes.suffix {
-                hasher.update(v);
+                match v {
+                    StringOrOtherId::Empty => (),
+                    StringOrOtherId::String(v) => hasher.update(v),
+                    StringOrOtherId::Id(v) => hasher.update(v),
+                };
             }
 
             hasher.finalize().into()

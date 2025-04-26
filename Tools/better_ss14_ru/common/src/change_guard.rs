@@ -21,9 +21,9 @@ impl<'a, T: PartialEq> Drop for ChangeGuard<'a, T> {
     fn drop(&mut self) {
         // SAFETY: This is safe as this value is never actually None during any access,
         // it's only used to be able to take its value when dropping
-        *self.changed_val_ref = *self.changed_val_ref ||
-            unsafe { self.value_copy.as_ref().unwrap_unchecked() }.ne(&self.value_ref);
-        
+        *self.changed_val_ref = *self.changed_val_ref
+            || unsafe { self.value_copy.as_ref().unwrap_unchecked() }.ne(&self.value_ref);
+
         // SAFETY: See above
         *self.value_ref = unsafe { self.value_copy.take().unwrap_unchecked() };
     }

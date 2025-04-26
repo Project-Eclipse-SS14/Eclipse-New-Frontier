@@ -1,5 +1,5 @@
-pub mod prototypes_ftl;
 pub mod change_guard;
+pub mod prototypes_ftl;
 
 use std::{
     io::{Read, Seek, SeekFrom},

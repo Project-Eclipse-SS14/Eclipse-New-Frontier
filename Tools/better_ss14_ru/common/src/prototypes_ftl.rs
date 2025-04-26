@@ -11,7 +11,7 @@ use crate::change_guard::ChangeGuard;
 
 pub struct FtlStorage {
     root_path: PathBuf,
-    files: HashMap<PathBuf, FtlPrototypesFile>,
+    pub files: HashMap<PathBuf, FtlPrototypesFile>,
 }
 
 impl FtlStorage {
@@ -91,7 +91,7 @@ impl FtlStorage {
 }
 
 pub struct FtlPrototypesFile {
-    prototypes: Vec<FtlPrototype>,
+    pub prototypes: Vec<FtlPrototype>,
 }
 
 impl FtlPrototypesFile {
@@ -128,9 +128,7 @@ impl FtlPrototypesFile {
     }
 
     pub fn is_changed(&self) -> bool {
-        self.prototypes
-            .iter()
-            .any(|v| v.changed)
+        self.prototypes.iter().any(|v| v.changed)
     }
 
     fn save(&self, path: &Path) {
@@ -146,9 +144,19 @@ impl FtlPrototypesFile {
                             name: "desc".to_owned(),
                         },
                         value: fluent_syntax::ast::Pattern {
-                            elements: vec![fluent_syntax::ast::PatternElement::TextElement {
-                                value: v.replace("\n", "\n        "),
-                            }],
+                            elements: match v {
+                                StringOrOtherId::Empty => {
+                                    vec![fluent_syntax::ast::PatternElement::Placeable { expression: fluent_syntax::ast::Expression::Inline(fluent_syntax::ast::InlineExpression::StringLiteral { value: "".to_owned() }) }]
+                                }
+                                StringOrOtherId::String(v) => {
+                                    vec![fluent_syntax::ast::PatternElement::TextElement {
+                                        value: v.replace("\n", "\n        "),
+                                    }]
+                                }
+                                StringOrOtherId::Id(v) => {
+                                    vec![fluent_syntax::ast::PatternElement::Placeable { expression: fluent_syntax::ast::Expression::Inline(fluent_syntax::ast::InlineExpression::MessageReference { id: fluent_syntax::ast::Identifier { name: format!("ent-{v}") }, attribute: Some(fluent_syntax::ast::Identifier { name: "desc".to_owned() }) }) }]
+                                },
+                            },
                         },
                     });
                 }
@@ -159,9 +167,19 @@ impl FtlPrototypesFile {
                             name: "suffix".to_owned(),
                         },
                         value: fluent_syntax::ast::Pattern {
-                            elements: vec![fluent_syntax::ast::PatternElement::TextElement {
-                                value: v.clone(),
-                            }],
+                            elements: match v {
+                                StringOrOtherId::Empty => {
+                                    vec![fluent_syntax::ast::PatternElement::Placeable { expression: fluent_syntax::ast::Expression::Inline(fluent_syntax::ast::InlineExpression::StringLiteral { value: "".to_owned() }) }]
+                                }
+                                StringOrOtherId::String(v) => {
+                                    vec![fluent_syntax::ast::PatternElement::TextElement {
+                                        value: v.clone(),
+                                    }]
+                                }
+                                StringOrOtherId::Id(v) => {
+                                    vec![fluent_syntax::ast::PatternElement::Placeable { expression: fluent_syntax::ast::Expression::Inline(fluent_syntax::ast::InlineExpression::MessageReference { id: fluent_syntax::ast::Identifier { name: format!("ent-{v}") }, attribute: Some(fluent_syntax::ast::Identifier { name: "suffix".to_owned() }) }) }]
+                                },
+                            },
                         },
                     });
                 }
@@ -175,9 +193,32 @@ impl FtlPrototypesFile {
                         name: format!("ent-{}", prototype.id),
                     },
                     value: prototype.name.clone().map(|v| fluent_syntax::ast::Pattern {
-                        elements: vec![fluent_syntax::ast::PatternElement::TextElement {
-                            value: v,
-                        }],
+                        elements: match v {
+                            StringOrOtherId::Empty => {
+                                vec![fluent_syntax::ast::PatternElement::Placeable {
+                                    expression: fluent_syntax::ast::Expression::Inline(
+                                        fluent_syntax::ast::InlineExpression::StringLiteral {
+                                            value: "".to_owned(),
+                                        },
+                                    ),
+                                }]
+                            }
+                            StringOrOtherId::String(v) => {
+                                vec![fluent_syntax::ast::PatternElement::TextElement { value: v }]
+                            }
+                            StringOrOtherId::Id(v) => {
+                                vec![fluent_syntax::ast::PatternElement::Placeable {
+                                    expression: fluent_syntax::ast::Expression::Inline(
+                                        fluent_syntax::ast::InlineExpression::MessageReference {
+                                            id: fluent_syntax::ast::Identifier {
+                                                name: format!("ent-{v}"),
+                                            },
+                                            attribute: None,
+                                        },
+                                    ),
+                                }]
+                            }
+                        },
                     }),
                     attributes: fl_attributes,
                     comment: Some(fluent_syntax::ast::Comment {
@@ -238,11 +279,11 @@ pub struct PrototypeIdExists;
 pub struct FtlPrototype {
     pub hash: [u8; 32],
 
-    id: String,
+    pub id: String,
 
-    name: Option<String>,
-    description: Option<String>,
-    suffix: Option<String>,
+    name: Option<StringOrOtherId>,
+    description: Option<StringOrOtherId>,
+    suffix: Option<StringOrOtherId>,
 
     changed: bool,
 }
@@ -271,29 +312,11 @@ impl FtlPrototype {
             out
         };
 
-        fn parse_pattern(
-            name: &str,
-            pat: &fluent_syntax::ast::Pattern<String>,
-        ) -> Result<String, ParseFtlPrototypesFileError> {
-            if pat.elements.is_empty() {
-                return Err(ParseFtlPrototypesFileError::AttributeIsEmpty(
-                    name.to_owned(),
-                ));
-            }
-            let mut vec = Vec::new();
-            for v in &pat.elements {
-                let fluent_syntax::ast::PatternElement::TextElement { value } = v else {
-                    return Err(ParseFtlPrototypesFileError::AttributeContainsVariables(
-                        name.to_owned(),
-                    ));
-                };
-                vec.push(value.clone());
-            }
-
-            Ok(vec.join("\n"))
-        }
-
-        let name = match message.value.as_ref().map(|v| parse_pattern("name", &v)) {
+        let name = match message
+            .value
+            .as_ref()
+            .map(|v| StringOrOtherId::parse_pattern("name", &v))
+        {
             Some(Ok(v)) => Some(v),
             Some(Err(e)) => return Err(e),
             None => None,
@@ -316,7 +339,7 @@ impl FtlPrototype {
                     id.clone(),
                 ));
             }
-            *target = Some(parse_pattern(&id, &attribute.value)?);
+            *target = Some(StringOrOtherId::parse_pattern(&id, &attribute.value)?);
         }
 
         Ok(Self {
@@ -339,24 +362,24 @@ impl FtlPrototype {
         })
     }
 
-    pub fn name(&self) -> Option<&String> {
+    pub fn name(&self) -> Option<&StringOrOtherId> {
         self.name.as_ref()
     }
-    pub fn name_mut(&mut self) -> ChangeGuard<Option<String>> {
+    pub fn name_mut(&mut self) -> ChangeGuard<Option<StringOrOtherId>> {
         ChangeGuard::new(&mut self.name, &mut self.changed)
     }
 
-    pub fn description(&self) -> Option<&String> {
+    pub fn description(&self) -> Option<&StringOrOtherId> {
         self.description.as_ref()
     }
-    pub fn description_mut(&mut self) -> ChangeGuard<Option<String>> {
+    pub fn description_mut(&mut self) -> ChangeGuard<Option<StringOrOtherId>> {
         ChangeGuard::new(&mut self.description, &mut self.changed)
     }
 
-    pub fn suffix(&self) -> Option<&String> {
+    pub fn suffix(&self) -> Option<&StringOrOtherId> {
         self.suffix.as_ref()
     }
-    pub fn suffix_mut(&mut self) -> ChangeGuard<Option<String>> {
+    pub fn suffix_mut(&mut self) -> ChangeGuard<Option<StringOrOtherId>> {
         ChangeGuard::new(&mut self.suffix, &mut self.changed)
     }
 }
@@ -384,4 +407,142 @@ pub enum ParseFtlPrototypesFileError {
     AttributeContainsVariables(String),
     UnknownAttribute(String),
     AttributeDefinedTwice(String),
+    AttributeVariablesMixedWithText(String),
+    AttributeInvalidVariable(String),
+}
+
+#[derive(Clone, PartialEq, Debug)]
+pub enum StringOrOtherId {
+    Empty,
+    String(String),
+    Id(String),
+}
+
+impl StringOrOtherId {
+    pub fn parse_pattern(
+        name: &str,
+        pat: &fluent_syntax::ast::Pattern<String>,
+    ) -> Result<Self, ParseFtlPrototypesFileError> {
+        if pat.elements.is_empty() {
+            return Err(ParseFtlPrototypesFileError::AttributeIsEmpty(
+                name.to_owned(),
+            ));
+        }
+
+        let mut other_id = None;
+        let mut vec = Vec::new();
+        for v in &pat.elements {
+            match v {
+                fluent_syntax::ast::PatternElement::TextElement { value } => {
+                    if other_id.is_some() {
+                        return Err(
+                            ParseFtlPrototypesFileError::AttributeVariablesMixedWithText(
+                                name.to_owned(),
+                            ),
+                        );
+                    }
+                    vec.push(value.clone());
+                }
+                fluent_syntax::ast::PatternElement::Placeable { expression } => {
+                    if !vec.is_empty() {
+                        return Err(
+                            ParseFtlPrototypesFileError::AttributeVariablesMixedWithText(
+                                name.to_owned(),
+                            ),
+                        );
+                    }
+                    let fluent_syntax::ast::Expression::Inline(v) = expression else {
+                        return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                            name.to_owned(),
+                        ));
+                    };
+                    let fluent_syntax::ast::InlineExpression::MessageReference { id, .. } = v
+                    else {
+                        return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                            name.to_owned(),
+                        ));
+                    };
+                    other_id = Some(id.name.strip_prefix("ent-").ok_or_else(|| {
+                        ParseFtlPrototypesFileError::AttributeInvalidVariable(name.to_owned())
+                    })?);
+                }
+            }
+        }
+
+        match other_id {
+            Some(v) => Ok(StringOrOtherId::Id(v.to_owned())),
+            None => Ok(StringOrOtherId::String(vec.join("\n"))),
+        }
+    }
+
+    pub fn parse_pattern_str(
+        name: &str,
+        pat: &fluent_syntax::ast::Pattern<&str>,
+    ) -> Result<Self, ParseFtlPrototypesFileError> {
+        if pat.elements.is_empty() {
+            return Err(ParseFtlPrototypesFileError::AttributeIsEmpty(
+                name.to_owned(),
+            ));
+        }
+
+        let mut other_id = None;
+        let mut vec = Vec::new();
+        for v in &pat.elements {
+            match v {
+                fluent_syntax::ast::PatternElement::TextElement { value } => {
+                    if other_id.is_some() {
+                        return Err(
+                            ParseFtlPrototypesFileError::AttributeVariablesMixedWithText(
+                                name.to_owned(),
+                            ),
+                        );
+                    }
+                    vec.push(*value);
+                }
+                fluent_syntax::ast::PatternElement::Placeable { expression } => {
+                    if !vec.is_empty() {
+                        return Err(
+                            ParseFtlPrototypesFileError::AttributeVariablesMixedWithText(
+                                name.to_owned(),
+                            ),
+                        );
+                    }
+                    let fluent_syntax::ast::Expression::Inline(v) = expression else {
+                        return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                            name.to_owned(),
+                        ));
+                    };
+                    match v {
+                        fluent_syntax::ast::InlineExpression::MessageReference { id, .. } => {
+                            other_id = Some(id.name.strip_prefix("ent-").ok_or_else(|| {
+                                ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                    name.to_owned(),
+                                )
+                            })?);
+                        }
+                        // Compatibility with ss14_ru
+                        fluent_syntax::ast::InlineExpression::StringLiteral { value } => {
+                            if *value == "" {
+                                return Ok(StringOrOtherId::Empty);
+                            } else {
+                                return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                    name.to_owned(),
+                                ));
+                            }
+                        }
+                        _ => {
+                            return Err(ParseFtlPrototypesFileError::AttributeInvalidVariable(
+                                name.to_owned(),
+                            ));
+                        }
+                    }
+                }
+            }
+        }
+
+        match other_id {
+            Some(v) => Ok(StringOrOtherId::Id(v.to_owned())),
+            None => Ok(StringOrOtherId::String(vec.join("\n"))),
+        }
+    }
 }
