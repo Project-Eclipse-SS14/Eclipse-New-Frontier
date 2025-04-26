@@ -32,7 +32,7 @@
           bounds: "-0.4,-0.4,0.4,0.29"
         density: 150 # Heavy
         mask:
-        - SmallMobMask
+        - CrateMask #this is so they can go under plastic flaps
         layer:
         - MachineLayer
 
@@ -76,7 +76,7 @@
           bounds: "-0.4,-0.4,0.4,0.29"
         density: 400 # Very heavy
         mask:
-        - SmallMobMask
+        - CrateMask #this is so they can go under plastic flaps
         layer:
         - MachineLayer
 

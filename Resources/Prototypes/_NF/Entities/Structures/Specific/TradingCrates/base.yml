@@ -32,8 +32,8 @@
       map: ["enum.TradeCrateVisualLayers.Priority"]
       visible: false
   - type: Damageable
-    damageContainer: Inorganic
-    damageModifierSet: StrongMetallic
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
   - type: Destructible
     thresholds:
     - trigger:
@@ -42,6 +42,9 @@
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
   - type: Reflect
     reflects:
     - Energy
@@ -80,8 +83,8 @@
           Invoice: { state: invoice }
   - type: PaperLabel
     labelSlot:
-      insertVerbText: Attach Label
-      ejectVerbText: Remove Label
+      insertVerbText: comp-paper-label-insert
+      ejectVerbText: comp-paper-label-eject
       whitelist:
         components:
         - Paper
@@ -111,7 +114,7 @@
           bounds: "-0.4,-0.4,0.4,0.29"
         density: 400 # Very heavy
         mask:
-        - SmallMobMask
+        - CrateMask #this is so they can go under plastic flaps
         layer:
         - MachineLayer
   - type: Contraband
