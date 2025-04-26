@@ -35,6 +35,7 @@ guide-entry-shipyard-akupara = Акупара
 guide-entry-shipyard-ambition = Амбициозный
 guide-entry-shipyard-apothecary = Апотекарий
 guide-entry-shipyard-barge = Баржа
+guide-entry-shipyard-baroness = Баронесса
 guide-entry-shipyard-bazaar = Барахолка
 guide-entry-shipyard-bocadillo = Фудтрак
 guide-entry-shipyard-bodkin = Игуана
@@ -77,6 +78,7 @@ guide-entry-shipyard-spirit = Дух
 guide-entry-shipyard-stasis = Стазис
 guide-entry-shipyard-tide = Волна
 guide-entry-shipyard-vagabond = Бродяга
+guide-entry-shipyard-vitalis = Виталис
 # Rules entries
 guide-entry-frontier-rule-zero-tolerance = Нетерпимость
 # Rules entries

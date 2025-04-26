@@ -1,0 +1,4 @@
+<BoxContainer Orientation="Vertical" xmlns="https://spacestation14.io">
+    <Label Name="Label" Align="Center" />
+    <ItemList Name="BoxContents" Access="Public" VerticalExpand="True" HorizontalExpand="True" SelectMode="Button" SizeFlagsStretchRatio="2" MinSize="100 128"/>
+</BoxContainer>

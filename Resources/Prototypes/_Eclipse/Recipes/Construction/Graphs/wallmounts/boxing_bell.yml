@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: BoxingBell
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: boxing_bell
+      steps:
+      - material: Steel
+        amount: 4
+        doAfter: 2.0
+  
+  - node: boxing_bell
+    entity: BoxingBell
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 4
+      steps:
+      - tool: Welding
+        doAfter: 2

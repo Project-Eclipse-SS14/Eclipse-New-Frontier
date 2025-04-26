@@ -1,0 +1,23 @@
+- type: constructionGraph
+  id: FuelDispenser
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: fuel_dispenser
+      steps:
+      - material: Steel
+        amount: 2
+        doAfter: 2.0
+  
+  - node: fuel_dispenser
+    entity: FuelDispenserEmpty
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      steps:
+      - tool: Welding
+        doAfter: 2

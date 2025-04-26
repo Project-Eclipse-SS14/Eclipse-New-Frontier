@@ -1,5 +1,17 @@
 salvage-expedition-window-finish = Завершить экспедицию
 salvage-expedition-announcement-early-finish = Экспедиция была окончена. Шаттл покинет планету через { $departTime } секунд.
+salvage-expedition-announcement-destruction =
+    { $count ->
+        [1] Уничтожить {$structure} до окончания экспедиции.
+       *[others] Уничтожить {$count} {MAKEPLURAL($structure)} до окончания экспедиции.
+    }
+salvage-expedition-announcement-elimination =
+    { $count ->
+        [1] Устранить {$target} до окончания экспедиции.
+       *[others] Устранить {$count} {MAKEPLURAL($target)} до окончания экспедиции.
+    }
+salvage-expedition-announcement-destruction-entity-fallback = строений
+salvage-expedition-announcement-elimination-entity-fallback = целей
 salvage-expedition-shuttle-not-found = Не обнаружен шаттл.
 salvage-expedition-not-everyone-aboard = Не вся команда на шаттле! { CAPITALIZE($target) } всё еще отсутствует!
 # Salvage mods
@@ -33,3 +45,12 @@ salvage-air-mod-16 = 34 Углекислый газ, 34 Аммиак, 34 Окс�
 salvage-air-mod-17 = 34 Водяной пар, 34 Аммиак, 34 Оксид азота
 salvage-air-mod-18 = 34 Водяной пар, 34 Оксид азота, 17 Аммиак, 17 Углекислый газ
 salvage-air-mod-unknown = Неизвестная атмосфера
+salvage-expedition-difficulty-NFModerate = Умеренная
+salvage-expedition-difficulty-NFHazardous = Высокая
+salvage-expedition-difficulty-NFExtreme = Экстремальная
+salvage-expedition-megafauna-remaining = {$count ->
+        [one] {$count} цель осталась.
+       *[other] {$count} оставшиеся цели.
+    }
+salvage-expedition-type-Destruction = Уничтожение
+salvage-expedition-type-Elimination = Устранение
