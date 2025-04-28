@@ -1,3 +1,0 @@
-# HASH: 2d5f015fe5f54645344c41594fb06283ec95fd3f1374a9d0145881b984a10ed8
-ent-ChurchBell = church bell
-    .desc = You feel your soul grow ever closer to the realms beyond for every chime this bell tolls...

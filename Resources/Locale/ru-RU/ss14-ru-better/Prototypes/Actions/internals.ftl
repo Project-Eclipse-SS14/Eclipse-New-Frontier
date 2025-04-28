@@ -1,3 +1,0 @@
-# HASH: d2374d941fa6f043c5d2dd869ba62bde3f9bce1d10ac18eb254cca9d95eb80dc
-ent-ActionToggleInternals = Toggle Internals
-    .desc = Breathe from the equipped gas tank. Also requires equipped breath mask.
