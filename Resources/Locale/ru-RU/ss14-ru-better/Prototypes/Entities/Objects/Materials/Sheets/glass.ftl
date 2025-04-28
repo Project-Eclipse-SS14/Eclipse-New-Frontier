@@ -1,0 +1,66 @@
+# HASH: c77ed7ca2296e8169625f81e94fd96dd62caceec928e25225f2e9c9f7d29bc29
+ent-SheetGlassBase = glass
+    .desc = A sheet of glass, used often on the station in various applications.
+# HASH: 778244a71cbbf783b6bb7ec0e54bbbfc0daf5e956748944785570f012f51bf24
+ent-SheetGlass = { ent-SheetGlassBase }
+    .desc = { ent-SheetGlassBase.desc }
+    .suffix = Full
+# HASH: 4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5
+ent-SheetGlass10 = { "" }
+    .desc = { "" }
+    .suffix = 10
+# HASH: 8888a029aaf60b70574640efd1655343d1c46c692918c113c16f44f606477253
+ent-SheetGlass1 = { "" }
+    .desc = { "" }
+    .suffix = Single
+# HASH: 71866e9c5f9be598f76eabb3aeeea89802a9359ab1543f904e328a26d5bcf5b2
+ent-SheetGlassLingering0 = { "" }
+    .desc = { "" }
+    .suffix = Lingering, 0
+# HASH: 341e8539025d216d0481ec6a8da8572340adabf97f4a79aa0c41efbe15b3b4b2
+ent-SheetRGlass = reinforced glass
+    .desc = A reinforced sheet of glass.
+    .suffix = Full
+# HASH: a86bab656d7435c0e77a85bdc69e565e606432ec9977397a5c55d8778ca8dca0
+ent-SheetRGlass1 = reinforced glass
+    .desc = { ent-SheetRGlass.desc }
+    .suffix = Single
+# HASH: aadab8a2169d43b1245a8db525df9b49670dc7732902a9cbe4b5c88427adfe4a
+ent-SheetPGlass = plasma glass
+    .desc = A sheet of translucent plasma.
+    .suffix = Full
+# HASH: 1fc6b51b2079b27184821b0debf9c4a683e4afe213149333ee5b70ecce94edef
+ent-SheetPGlass1 = plasma glass
+    .desc = { ent-SheetPGlass.desc }
+    .suffix = Single
+# HASH: 8dcf5267f21be9317344084b432b070ab956884a34e2df8dc2ed078f99bdca4c
+ent-SheetRPGlass = reinforced plasma glass
+    .desc = A reinforced sheet of translucent plasma.
+    .suffix = Full
+# HASH: 6ce50daea6f122609274608b58b6e4f742e73380b1faab086d482bc7bd945870
+ent-SheetRPGlass1 = reinforced plasma glass
+    .desc = { ent-SheetRPGlass.desc }
+    .suffix = Single
+# HASH: e22c6140ec20c61ce53af31663c00fe10988d6cabfc6c35417566e32a4ffbe07
+ent-SheetUGlass = uranium glass
+    .desc = A sheet of uranium glass.
+    .suffix = Full
+# HASH: 5be6b6307f7a2387c10bab241c0c6bed10ebdbe1c1039532fc62ed4d056def4f
+ent-SheetUGlass1 = uranium glass
+    .desc = { ent-SheetUGlass.desc }
+    .suffix = Single
+# HASH: 1872e4266065980f030aa18a94c1039962e2e32dfa45a951f46147ae0778ab00
+ent-SheetRUGlass = reinforced uranium glass
+    .desc = A reinforced sheet of uranium.
+# HASH: 800b5181c454eaa7f4a96ed09b1e2fc6a56872ea7a31336f361722c281741a12
+ent-SheetRUGlass1 = reinforced uranium glass
+    .desc = { ent-SheetRUGlass.desc }
+    .suffix = Single
+# HASH: 6b40ccc68e87994718e3786caf210462c2b3143e8117f807918f0d9a8a47f426
+ent-SheetClockworkGlass = clockwork glass
+    .desc = A sheet of brass-hardened glass, primarily used by clockwork enthusiasts and remnants of Ratvarian cults.
+    .suffix = Full
+# HASH: 82a3b220ffd79b371c5755d751a9b0e2e76e8f2ccc87ca10bfbf8ef10423963d
+ent-SheetClockworkGlass1 = clockwork glass
+    .desc = { ent-SheetClockworkGlass.desc }
+    .suffix = Single

@@ -1,0 +1,40 @@
+# HASH: 5cb25981733e432b29c7850bda7aef4f25e3014c83bcbb7234b859fbb24f2d33
+ent-HappyHonkMcCargo = mccargo meal
+    .desc = { ent-HappyHonk.desc }
+# HASH: e6d4c285e670386446d9de8a4b838a76903c03c898ad2f191d7790eaa340b0dd
+ent-HappyHonkMcCargoFood = { ent-HappyHonkMcCargo }
+    .desc = { "" }
+# HASH: e323aba9c85c5dc4a41f470f1671b98d4367d71b1adc7ce821b22131d0fc093a
+ent-FoodBoxSushi = sushi tray
+    .desc = Plastic sushi container with lid.
+# HASH: b18107b1e1b460c6ba914325e835fbfe5f7bcce0e95f83d5c5ff7da8abfe31e9
+ent-FoodBoxSushiBad = { ent-FoodBoxSushi }
+    .desc = { ent-FoodBoxSushi.desc }
+    .suffix = Bad
+# HASH: 2fe2d6cfc6102729409cf189f71f2e56e92d22091e42f3444a4e93056a5ec744
+ent-BoxMREEmpty = { ent-BoxMRE }
+    .desc = { ent-BoxMRE.desc }
+# HASH: c2f945227b76d9c51a5535dc49b7ca4cc104c73f771350951bf276a7bcd28d78
+ent-HappyHonkEmpty = { ent-HappyHonk }
+    .desc = { ent-HappyHonk.desc }
+# HASH: 68b4b8f120a1039217cfb5d6eefba3597e255540b7fd58b2807a6ddae7af746a
+ent-HappyHonkMimeEmpty = { "" }
+    .desc = { ent-HappyHonkMime.desc }
+# HASH: de3eb4b5a741dd2f9c1cf72b43ea0bd9a685ba941d4ae95ab9e720bf8d9252e5
+ent-HappyHonkNukieEmpty = { ent-HappyHonkNukie }
+    .desc = { ent-HappyHonkNukie.desc }
+# HASH: a39072f1d8818f022e88ebb0d389412d55e37d8ad437aec9d19cb3f2b932a9c1
+ent-HappyHonkCluwneEmpty = { ent-HappyHonkCluwne }
+    .desc = { ent-HappyHonkCluwne.desc }
+# HASH: e6d4c285e670386446d9de8a4b838a76903c03c898ad2f191d7790eaa340b0dd
+ent-HappyHonkMcCargoEmpty = { ent-HappyHonkMcCargo }
+    .desc = { "" }
+# HASH: e7b6453d1a191457423ef2088f26c948c58481ce106237a3e58ae1026901be2d
+ent-FoodBoxNuggetEmpty = { ent-FoodBoxNugget }
+    .desc = { ent-FoodBoxNugget.desc }
+# HASH: d11f20450d9c900ff7f4471f610baed75917b7ba68fb87a0da265552fcec36b6
+ent-FoodContainerEggEmpty = { ent-FoodContainerEgg }
+    .desc = { ent-FoodContainerEgg.desc }
+# HASH: 68009dfb6e1bc3b96178a2ef29e6fdfd6293bedb2be1212d01f0abc380bce4c2
+ent-FoodBoxDonutEmpty = { ent-FoodBoxDonut }
+    .desc = { ent-FoodBoxDonut.desc }
