@@ -57,6 +57,7 @@
     thrust: 250
     firingDesiredPowerDraw: 200
     firingPowerDrawRampDuration: 3
+    thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
     powerLoad: 50
   - type: Sprite
@@ -192,6 +193,7 @@
     thrust: 250
     firingDesiredPowerDraw: 200
     firingPowerDrawRampDuration: 3
+    thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
     powerLoad: 50
   - type: Sprite

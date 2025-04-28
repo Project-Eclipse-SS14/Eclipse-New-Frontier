@@ -21,7 +21,7 @@
   class:
   - Atmospherics
   engine:
-  - AME
+  - Bananium
 
 - type: gameMap
   id: Gasbender
