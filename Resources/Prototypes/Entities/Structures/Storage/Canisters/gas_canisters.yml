@@ -101,7 +101,7 @@
             - GasTank
     - type: StaticPrice
       price: 125 # Frontier: 200<125
-#    - type: AccessReader # Eclipse
+    - type: AccessReader
 #      access: [["Atmospherics"], ["Engineering"], ["Research"], ["Captain"]] # Frontier
     - type: Construction # Frontier
       graph: NFStorageCanister # Frontier

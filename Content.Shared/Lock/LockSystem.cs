@@ -173,18 +173,25 @@ public sealed class LockSystem : EntitySystem
     /// <param name="uid">The entity with the lock</param>
     /// <param name="user">The person unlocking it. Can be null</param>
     /// <param name="lockComp"></param>
-    public void Unlock(EntityUid uid, EntityUid? user, LockComponent? lockComp = null)
+    public void Unlock(EntityUid uid, EntityUid? user, LockComponent? lockComp = null, bool runsOnClient = true)
     {
         if (!Resolve(uid, ref lockComp))
             return;
 
         if (user is { Valid: true })
         {
-            _sharedPopupSystem.PopupClient(Loc.GetString("lock-comp-do-unlock-success",
-                ("entityName", Identity.Name(uid, EntityManager))), uid, user.Value);
+            var message = Loc.GetString("lock-comp-do-unlock-success",
+                ("entityName", Identity.Name(uid, EntityManager)));
+            if (runsOnClient)
+                _sharedPopupSystem.PopupClient(message, uid, user.Value);
+            else
+                _sharedPopupSystem.PopupEntity(message, uid, user.Value);
         }
 
-        _audio.PlayPredicted(lockComp.UnlockSound, uid, user);
+        if (runsOnClient)
+            _audio.PlayPredicted(lockComp.UnlockSound, uid, user);
+        else
+            _audio.PlayPvs(lockComp.UnlockSound, uid);
 
         lockComp.Locked = false;
         _appearanceSystem.SetData(uid, LockVisuals.Locked, false);
@@ -206,7 +213,7 @@ public sealed class LockSystem : EntitySystem
     /// <param name="lockComp"></param>
     /// <param name="skipDoAfter">If true, skip the required do-after if one is configured.</param>
     /// <returns>If locking was successful</returns>
-    public bool TryUnlock(EntityUid uid, EntityUid user, LockComponent? lockComp = null, bool skipDoAfter = false)
+    public bool TryUnlock(EntityUid uid, EntityUid user, LockComponent? lockComp = null, bool skipDoAfter = false, bool runsOnClient = true)
     {
         if (!Resolve(uid, ref lockComp))
             return false;
@@ -229,7 +236,7 @@ public sealed class LockSystem : EntitySystem
                 });
         }
 
-        Unlock(uid, user, lockComp);
+        Unlock(uid, user, lockComp, runsOnClient);
         return true;
     }
 
