@@ -32,12 +32,14 @@ public sealed partial class CriminalRecordsConsoleComponent : Component
     /// Currently applied filter.
     /// </summary>
     [DataField]
+    [NonSerialized]
     public StationRecordsFilter? Filter;
 
     /// <summary>
     /// Current seleced security status for the filter by criminal status dropdown.
     /// </summary>
     [DataField]
+    [NonSerialized]
     public SecurityStatus FilterStatus;
 
     /// <summary>
