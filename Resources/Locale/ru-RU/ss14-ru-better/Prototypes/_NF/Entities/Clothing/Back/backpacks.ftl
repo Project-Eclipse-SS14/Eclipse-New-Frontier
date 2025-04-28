@@ -1,18 +1,18 @@
 # HASH: 99978cc242cc7e5ff21f39b12825dfb701d4a5db335bf92931ae2d0235fcfcac
-ent-ClothingBackpackArcadia = arcadia backpack
-    .desc = A backpack produced by Arcadia Industries
+ent-ClothingBackpackArcadia = аркадианский рюкзак
+    .desc = Рюкзак производства Аркадиа Индастриз
 # HASH: 6a9e48c176ec4c10059381382d3b1788ee2ad82ee19d768bd9371883192df645
-ent-ClothingBackpackPilot = pilot backpack
-    .desc = A backpack for a True Ace.
+ent-ClothingBackpackPilot = рюкзак пилота
+    .desc = Рюкзак настоящего аса.
 # HASH: ede6300be169a0378ca1b182ae9ac895c5d9af9bcc80f0912e3270cdb3c4242f
-ent-ClothingBackpackERTMailCarrier = ERT mail carrier backpack
-    .desc = A spacious backpack with lots of pockets, worn by Mail Carrier's of an Emergency Response Team.
+ent-ClothingBackpackERTMailCarrier = рюкзак почтальона ОБР
+    .desc = Просторный рюкзак с множеством карманов, который носят почтальоны из Отряда Быстрого Реагирования.
 # HASH: 0bdfc1c3e81cbb4c5cb54dbb7c2c2d786eb72deee6b8e95c3381677efbb77a0b
-ent-ClothingBackpackClippy = Clippy's backpack
-    .desc = Made from a real Clippy.
+ent-ClothingBackpackClippy = рюкзак Скрепки
+    .desc = Сделан из настоящего кота по имени Скрепка.
 # HASH: 6db51214df97d358173d95e3728a450123b1a6b90cc4e552bbc03eeba22e05c6
-ent-ClothingBackpackNfsdBrown = NFSD backpack
+ent-ClothingBackpackNfsdBrown = рюкзак ДСБФ
     .desc = { ent-ClothingBackpackSecurity.desc }
 # HASH: 3370c72a36d67c64c50bf342471335f1cf997ab870f27733ddf6b94cdfd05e72
 ent-ClothingBackpackNfsdCream = { ent-ClothingBackpackNfsdBrown }
-    .desc = { "" }
+    .desc = { ent-ClothingBackpackNfsdBrown.desc }

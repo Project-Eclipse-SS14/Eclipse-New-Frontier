@@ -3,7 +3,7 @@ ent-ClothingShoesBootsMagSecurityFilled = { ent-ClothingShoesBootsMagSecurity }
     .desc = { ent-ClothingShoesBootsMagSecurity.desc }
 # HASH: bd503560b898a4d0d35a0fc87e9af149738a2c33c6d131a72b5e303509144b28
 ent-ClothingShoesBootsMagNfsdFilled = { ent-ClothingShoesBootsMagNfsd }
-    .desc = { "" }
+    .desc = { ent-ClothingShoesBootsMagNfsd.desc }
 # HASH: 87b8fb949f5fa731873ddee8d34508dc982d93351dc4503d8ce568a2a90de703
 ent-ClothingShoesBootsMagPirateFilled = { ent-ClothingShoesBootsMagPirate }
     .desc = { ent-ClothingShoesBootsMagPirate.desc }
@@ -17,5 +17,5 @@ ent-ClothingShoesBootsNfsdBrownFilled = { ent-ClothingShoesBootsNfsdBrown }
 ent-ClothingShoesBootsNfsdCreamFilled = { ent-ClothingShoesBootsNfsdCream }
     .desc = { ent-ClothingShoesBootsNfsdCream.desc }
 # HASH: 052c6e2208f3e622cf488345adfa759e1b21ea7e94fed4bea210c82b0a7ec50e
-ent-ChaplainHolywaterFlaskFilled = holy water flask
-    .desc = Blessed be this holy water by the deity of your choosing.
+ent-ChaplainHolywaterFlaskFilled = бутыль святой воды
+    .desc = Испей эту святую воду во благословение выбранного тобой божества.

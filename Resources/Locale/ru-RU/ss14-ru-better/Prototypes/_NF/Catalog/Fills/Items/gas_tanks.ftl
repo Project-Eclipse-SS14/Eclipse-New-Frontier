@@ -1,7 +1,7 @@
 # HASH: 09e1cd147d298306a03a22e7006b6e3ae802db87cc8db088b7ceba01d6c5432e
 ent-DoubleEmergencyAirTankFilled = { ent-DoubleEmergencyAirTank }
     .desc = { ent-DoubleEmergencyAirTank.desc }
-    .suffix = Filled
+    .suffix = Заполненный
 # HASH: 5f8fafbd5da6ea0a379e65510575904334f2465fc15df2ef6a2d9d2335298650
 ent-NFTankO2N2EqualFilled = { ent-NFTankO2N2Equal }
     .desc = { ent-NFTankO2N2Equal.desc }
