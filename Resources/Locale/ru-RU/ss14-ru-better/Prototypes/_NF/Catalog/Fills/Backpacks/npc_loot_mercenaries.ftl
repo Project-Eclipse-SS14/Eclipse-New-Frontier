@@ -1,11 +1,11 @@
 # HASH: 50a1673bf00e59e8a4748c84bb7a7e0b0d3d79dae4181b3d36604e0c4be2050f
-ent-MercenaryDuffelGiftBox = набор наёмника
-    .desc = Лутбоксы? Тут?
-    .suffix = Лут НПС
+ent-MercenaryDuffelGiftBox = mercanary gear bundle
+    .desc = Loot boxes? Here?
+    .suffix = NPC Loot
 # HASH: 989ebab8c4016e7c8bb3ef587753d869f3925761346302b358faaec931f22163
-ent-MercenaryWebbingBox = набор боеприпасов наёмника
-    .desc = Лутбоксы? Тут?
-    .suffix = Лут НПС
+ent-MercenaryWebbingBox = mercanary ammo bundle
+    .desc = Loot boxes? Here?
+    .suffix = NPC Loot
 # HASH: 4033cf3d88ba01cdd72c535e604bb14c329655c8038e6f9453083e780451a360
 ent-ClothingBackpackDuffelMecranaryTier1Pistol = { ent-MercenaryDuffelGiftBox }
     .desc = { ent-MercenaryDuffelGiftBox.desc }
