@@ -1,0 +1,6 @@
+# HASH: 769d6e77020a7ccf57a76707f8a9ae025054f4f13c3c0c92310bbf66114d370f
+ent-AirAlarmElectronics = air alarm electronics
+    .desc = An electronics board used in air alarms.
+# HASH: 6076658edbee782bddc95a057e6b8b419609a461c4d55b7e46de4252c4794d14
+ent-FireAlarmElectronics = fire alarm electronics
+    .desc = An electronics board used in fire alarms.
