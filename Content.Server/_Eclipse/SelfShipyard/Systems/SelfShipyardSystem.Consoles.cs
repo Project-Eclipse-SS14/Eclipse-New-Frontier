@@ -163,18 +163,24 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         if (!TryPurchaseShuttle(station, vessel.ShuttlePath, out var shuttleUidOut, out var dockName))
         {
+            _bank.TryBankDeposit(player, vessel.Price);
+            ConsolePopup(player, Loc.GetString("shipyard-console-invalid-vessel", ("vessel", args.VesselId)));
+            PlayDenySound(player, shipyardConsoleUid, component);
+            return;
+        }
+
+        var shuttleUid = shuttleUidOut.Value;
+        if (!_entityManager.TryGetComponent<ShuttleComponent>(shuttleUid, out var shuttle))
+        {
+            _bank.TryBankDeposit(player, vessel.Price);
+            QueueDel(shuttleUid);
+            ConsolePopup(player, Loc.GetString("shipyard-console-invalid-vessel", ("vessel", args.VesselId)));
             PlayDenySound(player, shipyardConsoleUid, component);
             return;
         }
 
         await _db.RemoveOwnedShuttle(vessel.Id, session.UserId);
 
-        var shuttleUid = shuttleUidOut.Value;
-        if (!_entityManager.TryGetComponent<ShuttleComponent>(shuttleUid, out var shuttle))
-        {
-            PlayDenySound(player, shipyardConsoleUid, component);
-            return;
-        }
         EntityUid? shuttleStation = null;
         // setting up any stations if we have a matching game map prototype to allow late joins directly onto the vessel
         if (_prototypeManager.TryIndex<GameMapPrototype>(vessel.PrototypeId, out var stationProto))
