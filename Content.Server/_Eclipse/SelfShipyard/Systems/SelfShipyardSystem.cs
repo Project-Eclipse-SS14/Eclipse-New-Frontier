@@ -26,6 +26,7 @@ using System.Threading.Tasks;
 using Content.Server._Eclipse.SelfShipyard.Components;
 using Robust.Shared.EntitySerialization.Systems;
 using Robust.Shared.ContentPack;
+using Content.Server.SelfShipyard.Events;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -51,6 +52,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     private bool _enabled;
     private float _percentSaveRate;
     private int _constantSaveRate;
+    private EntityQuery<MetaDataComponent> _metaQuery;
+    private static readonly AfterShuttleDeserializedEvent InitEventInstance = new();
 
     // The type of error from the attempted sale of a ship.
     public enum ShipyardSaleError
@@ -82,6 +85,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         _configManager.OnValueChanged(EclipseCCVars.SelfShipyardConstantSaveRate, SetShipyardConstantSaveRate, true);
         _configManager.OnValueChanged(EclipseCCVars.SelfShipyardPercentSaveRate, SetShipyardPercentSaveRate, true);
         _sawmill = Logger.GetSawmill("shipyard");
+
+        _metaQuery = GetEntityQuery<MetaDataComponent>();
 
         SubscribeLocalEvent<SelfShipyardConsoleComponent, ComponentStartup>(OnShipyardStartup);
         SubscribeLocalEvent<SelfShipyardConsoleComponent, BoundUIOpenedEvent>(OnConsoleUIOpened);
@@ -198,7 +203,10 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
         _shuttleIndex += grid.Value.Comp.LocalAABB.Width + ShuttleSpawnBuffer;
 
+        RecursiveInitEntities(grid.Value.Owner);
+
         shuttleGrid = grid.Value.Owner;
+
         return true;
     }
 
@@ -446,5 +454,29 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     {
         string?[] parts = { comp.ShuttleName, comp.ShuttleNameSuffix };
         return string.Join(' ', parts.Where(it => it != null));
+    }
+
+    internal void RecursiveInitEntities(EntityUid entity)
+    {
+        var toInitialize = new List<EntityUid> { entity };
+        for (var i = 0; i < toInitialize.Count; i++)
+        {
+            var uid = toInitialize[i];
+            // toInitialize might contain deleted entities.
+            if (!_metaQuery.TryComp(uid, out var meta))
+                continue;
+
+            if (meta.EntityLifeStage == EntityLifeStage.MapInitialized)
+                continue;
+
+            var enumerator = Transform(uid).ChildEnumerator;
+            while (enumerator.MoveNext(out var child))
+            {
+                toInitialize.Add(child);
+            }
+
+            EntityManager.RunMapInit(uid, meta);
+            EntityManager.EventBus.RaiseLocalEvent(uid, InitEventInstance);
+        }
     }
 }

@@ -1,5 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Numerics;
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.ActionBlocker;
 using Content.Shared.Actions;
 using Content.Shared.Administration.Logs;
@@ -100,9 +101,20 @@ public abstract partial class SharedGunSystem : EntitySystem
         SubscribeLocalEvent<GunComponent, CycleModeEvent>(OnCycleMode);
         SubscribeLocalEvent<GunComponent, HandSelectedEvent>(OnGunSelected);
         SubscribeLocalEvent<GunComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<GunComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
     }
 
     private void OnMapInit(Entity<GunComponent> gun, ref MapInitEvent args)
+    {
+        Init(gun);
+    }
+
+    private void OnDeserialized(Entity<GunComponent> gun, ref AfterShuttleDeserializedEvent args)
+    {
+        Init(gun);
+    }
+
+    private void Init(Entity<GunComponent> gun)
     {
 #if DEBUG
         if (gun.Comp.NextFire > Timing.CurTime)
