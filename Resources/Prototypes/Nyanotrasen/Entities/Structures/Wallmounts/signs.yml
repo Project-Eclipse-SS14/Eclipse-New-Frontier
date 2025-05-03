@@ -8,6 +8,7 @@
     sprite: Nyanotrasen/Structures/Wallmounts/last_idiot.rsi
     state: icon
     offset: "0.5,0"
+    snapCardinals: false # Eclipse
 
 - type: entity
   parent: BaseSign
@@ -19,6 +20,7 @@
     sprite: Nyanotrasen/Structures/Wallmounts/conspiracy_board.rsi
     state: icon
     offset: "0.5,0"
+    snapCardinals: false # Eclipse
 
 - type: entity
   parent: BaseSign
