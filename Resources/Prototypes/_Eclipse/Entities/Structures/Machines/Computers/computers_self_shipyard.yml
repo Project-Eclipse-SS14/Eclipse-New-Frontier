@@ -12,7 +12,7 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      state: shipyard
+      state: self_shipyard
     - map: ["computerLayerKeys"]
       state: telesci_key
   - type: SelfShipyardConsole
