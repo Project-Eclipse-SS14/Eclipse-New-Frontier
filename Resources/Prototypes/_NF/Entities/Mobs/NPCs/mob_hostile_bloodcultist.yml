@@ -18,7 +18,6 @@
     pack: bloodcultisthumanoidchatter
     minimumWait: 30
     maximumWait: 120
-    nextAdvertisementTime: 10
   - type: AutoWakeUp
   - type: TriggerOnBeingGibbed
   - type: GibOnTrigger
