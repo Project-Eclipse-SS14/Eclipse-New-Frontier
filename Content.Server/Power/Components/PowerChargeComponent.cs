@@ -41,7 +41,7 @@ public sealed partial class PowerChargeComponent : SharedPowerChargeComponent
     /// <summary>
     /// Whether or not the power is switched on and the entity has charged up.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public bool Active { get; set; }
 
     [DataField]

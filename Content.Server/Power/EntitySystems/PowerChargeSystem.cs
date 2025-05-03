@@ -2,6 +2,7 @@
 using Content.Server.Audio;
 using Content.Server.Emp;
 using Content.Server.Power.Components;
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.Database;
 using Content.Shared.Power;
 using Content.Shared.UserInterface;
@@ -21,6 +22,7 @@ public sealed class PowerChargeSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<PowerChargeComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<PowerChargeComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
         SubscribeLocalEvent<PowerChargeComponent, ComponentShutdown>(OnComponentShutdown);
         SubscribeLocalEvent<PowerChargeComponent, ActivatableUIOpenAttemptEvent>(OnUIOpenAttempt);
         SubscribeLocalEvent<PowerChargeComponent, AfterActivatableUIOpenEvent>(OnAfterUiOpened);
@@ -73,6 +75,16 @@ public sealed class PowerChargeSystem : EntitySystem
     }
 
     private void OnMapInit(Entity<PowerChargeComponent> ent, ref MapInitEvent args)
+    {
+        Init(ent);
+    }
+
+    private void OnDeserialized(Entity<PowerChargeComponent> ent, ref AfterShuttleDeserializedEvent args)
+    {
+        Init(ent);
+    }
+
+    private void Init(Entity<PowerChargeComponent> ent)
     {
         ApcPowerReceiverComponent? powerReceiver = null;
         if (!Resolve(ent, ref powerReceiver, false))
