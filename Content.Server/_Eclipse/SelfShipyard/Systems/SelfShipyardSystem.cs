@@ -466,16 +466,12 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             if (!_metaQuery.TryComp(uid, out var meta))
                 continue;
 
-            if (meta.EntityLifeStage == EntityLifeStage.MapInitialized)
-                continue;
-
             var enumerator = Transform(uid).ChildEnumerator;
             while (enumerator.MoveNext(out var child))
             {
                 toInitialize.Add(child);
             }
 
-            EntityManager.RunMapInit(uid, meta);
             EntityManager.EventBus.RaiseLocalEvent(uid, InitEventInstance);
         }
     }
