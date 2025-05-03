@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Апотекарий
   description: Небольшое судно медицинской и химической поддержки. Размещено компанией Фар Стар Биотеч для оказания помощи и медицинских услуг на Фронтире.
-  price: 37500 # Appraises at ~35k, 7% margin; TODO: fix this value, gettings to pass - Whatstone
+  price: 36000 # 15% markup for Tier 2 Med + .5 botany
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/apothecary.yml

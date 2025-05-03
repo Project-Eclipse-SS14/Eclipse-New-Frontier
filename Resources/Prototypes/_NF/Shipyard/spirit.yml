@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Дух
   description: Крошечный медицинский поисково-спасательный шаттл, столь же маневренный, сколь и тесный. Эксплуатационные расходы гарантированно* будут на 5% ниже, чем у конкурирующих моделей!
-  price: 18500
+  price: 15000
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/spirit.yml
