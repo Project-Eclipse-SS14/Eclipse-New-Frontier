@@ -16,7 +16,7 @@ public sealed partial class HealthAnalyzerComponent : Component
     /// <summary>
     /// When should the next update be sent for the patient
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextUpdate = TimeSpan.Zero;
 

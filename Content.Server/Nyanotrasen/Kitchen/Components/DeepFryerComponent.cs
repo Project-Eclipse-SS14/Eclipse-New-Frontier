@@ -38,7 +38,7 @@ namespace Content.Server.Nyanotrasen.Kitchen.Components
         /// <summary>
         /// When will the deep fryer layer on the next stage of crispiness?
         /// </summary>
-        [DataField("nextFryTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
+        [ViewVariables(VVAccess.ReadWrite)]
         public TimeSpan NextFryTime { get; set; }
 
         /// <summary>

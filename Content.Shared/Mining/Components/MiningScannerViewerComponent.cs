@@ -16,7 +16,7 @@ public sealed partial class MiningScannerViewerComponent : Component
     [DataField, AutoNetworkedField]
     public TimeSpan PingDelay = TimeSpan.FromSeconds(5);
 
-    [DataField, AutoNetworkedField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField, AutoPausedField]
     public TimeSpan NextPingTime = TimeSpan.MaxValue;
 
     [DataField]

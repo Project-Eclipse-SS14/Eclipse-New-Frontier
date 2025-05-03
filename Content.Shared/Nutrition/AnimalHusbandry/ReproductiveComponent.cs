@@ -15,7 +15,7 @@ public sealed partial class ReproductiveComponent : Component
     /// <summary>
     /// The next time when breeding will be attempted.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextBreedAttempt;
 

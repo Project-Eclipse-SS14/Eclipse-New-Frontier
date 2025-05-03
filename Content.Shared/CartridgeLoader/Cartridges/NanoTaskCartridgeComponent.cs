@@ -23,7 +23,7 @@ public sealed partial class NanoTaskCartridgeComponent : Component
     /// <summary>
     /// When the user can print again
     /// </summary>
-    [DataField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextPrintAllowedAfter = TimeSpan.Zero;
 
     /// <summary>

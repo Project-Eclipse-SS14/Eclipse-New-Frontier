@@ -13,7 +13,6 @@ namespace Content.Shared.Timing;
 public sealed partial class UseDelayComponent : Component
 {
     [DataField]
-    [NonSerialized]
     public Dictionary<string, UseDelayInfo> Delays = [];
 
     /// <summary>
@@ -40,9 +39,9 @@ public sealed partial class UseDelayInfo
 {
     [DataField]
     public TimeSpan Length { get; set; }
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan StartTime { get; set; }
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan EndTime { get; set; }
 
     public UseDelayInfo(TimeSpan length, TimeSpan startTime = default, TimeSpan endTime = default)

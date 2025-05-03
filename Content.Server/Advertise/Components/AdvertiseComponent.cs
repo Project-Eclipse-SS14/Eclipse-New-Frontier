@@ -41,7 +41,7 @@ public sealed partial class AdvertiseComponent : Component
     /// <summary>
     /// The next time an advertisement will be said.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextAdvertisementTime { get; set; } = TimeSpan.Zero;
 
 }

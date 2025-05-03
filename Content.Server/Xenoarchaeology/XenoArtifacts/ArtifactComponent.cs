@@ -50,7 +50,7 @@ public sealed partial class ArtifactComponent : Component
     /// <summary>
     /// The last time the artifact was activated.
     /// </summary>
-    [DataField("lastActivationTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan LastActivationTime;
 
     /// <summary>

@@ -12,7 +12,7 @@ public sealed partial class SpamEmitSoundComponent : BaseEmitSoundComponent
     /// <summary>
     /// The time at which the next sound will play.
     /// </summary>
-    [DataField, AutoPausedField, AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField, AutoNetworkedField]
     public TimeSpan NextSound;
 
     /// <summary>

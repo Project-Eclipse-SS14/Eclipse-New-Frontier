@@ -21,7 +21,7 @@ public sealed partial class AutoRechargeComponent : Component
     /// <summary>
     /// The time when the next charge will be added
     /// </summary>
-    [DataField("nextChargeTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextChargeTime;
 }

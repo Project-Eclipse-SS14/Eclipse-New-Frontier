@@ -47,7 +47,7 @@ public sealed partial class RoboticsConsoleComponent : Component
     /// <summary>
     /// When a borg can next be destroyed.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoNetworkedField, AutoPausedField]
     public TimeSpan NextDestroy = TimeSpan.Zero;
 }

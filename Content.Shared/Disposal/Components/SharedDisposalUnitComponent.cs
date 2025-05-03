@@ -52,7 +52,7 @@ public abstract partial class SharedDisposalUnitComponent : Component
     /// <summary>
     /// Next time the disposal unit will be pressurized.
     /// </summary>
-    [DataField(customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextPressurized = TimeSpan.Zero;
 
     /// <summary>
