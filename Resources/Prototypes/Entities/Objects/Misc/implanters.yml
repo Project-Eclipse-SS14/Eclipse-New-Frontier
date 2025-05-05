@@ -48,6 +48,7 @@
       - FakeMindShieldImplant
       - RadioImplant
       - RadioImplantFreelance # Frontier
+      - EmergencyReturnImplant # Eclipse
       deimplantFailureDamage:
         types:
           Cellular: 50

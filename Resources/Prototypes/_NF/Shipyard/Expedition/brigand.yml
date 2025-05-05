@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Разбойник
   description: Гражданская переделка старого военного легкого фрегата времен ранней экспансии человечества к звездам, еще до появления блюспейс технологий. Произведен компанией Лангстад-Войгт Хэви Индастриз.
-  price: 55500 # ~42645$ on mapinit + ~12800$ from 30% markup
+  price: 56200 # ~48800$ on mapinit + ~7320$ from 15% markup
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/brigand.yml

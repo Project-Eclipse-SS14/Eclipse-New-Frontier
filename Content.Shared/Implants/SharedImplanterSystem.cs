@@ -66,6 +66,11 @@ public abstract class SharedImplanterSystem : EntitySystem
             return;
 
         args.PushMarkup(Loc.GetString("implanter-contained-implant-text", ("desc", component.ImplantData.Item2)));
+
+        // Eclipse-Start
+        if (component.ImplanterSlot.ContainerSlot != null && component.ImplanterSlot.ContainerSlot.ContainedEntity != null)
+            RaiseLocalEvent(component.ImplanterSlot.ContainerSlot.ContainedEntity.Value, args);
+        // Eclipse-End
     }
     public bool CheckSameImplant(EntityUid target, EntityUid implant)
     {
@@ -141,6 +146,11 @@ public abstract class SharedImplanterSystem : EntitySystem
         implantContainer.OccludesLight = false;
         _container.Insert(implant.Value, implantContainer);
 
+        //Eclipse-Start
+        var implantedEvent = new ImplantImplantedByEvent(implanter);
+        RaiseLocalEvent(implant.Value, implantedEvent);
+        //Eclipse-End
+
         if (component.CurrentMode == ImplanterToggleMode.Inject && !component.ImplantOnly)
             DrawMode(implanter, component);
         else
@@ -172,7 +182,14 @@ public abstract class SharedImplanterSystem : EntitySystem
 
         var ev = new AddImplantAttemptEvent(user, target, implant.Value, implanter);
         RaiseLocalEvent(target, ev);
-        return !ev.Cancelled;
+        // Eclipse-Start
+        if (ev.Cancelled)
+            return false;
+
+        var ev2 = new ImplanterAttemptEvent(user, target, implant.Value, implanter);
+        RaiseLocalEvent(implanter, ev2);
+        // Eclipse-End
+        return !ev2.Cancelled;
     }
 
     protected bool CheckTarget(EntityUid target, EntityWhitelist? whitelist, EntityWhitelist? blacklist)
@@ -371,6 +388,40 @@ public sealed class AddImplantAttemptEvent : CancellableEntityEventArgs
         Implanter = implanter;
     }
 }
+
+// Eclipse-Start
+/// <summary>
+/// Runs on implanters to check if their implant conditions are met
+/// </summary>
+public sealed class ImplanterAttemptEvent : CancellableEntityEventArgs
+{
+    public readonly EntityUid User;
+    public readonly EntityUid Target;
+    public readonly EntityUid Implant;
+    public readonly EntityUid Implanter;
+
+    public ImplanterAttemptEvent(EntityUid user, EntityUid target, EntityUid implant, EntityUid implanter)
+    {
+        User = user;
+        Target = target;
+        Implant = implant;
+        Implanter = implanter;
+    }
+}
+
+/// <summary>
+/// Runs on implant that is being implanted to transfer additional data if required
+/// </summary>
+public sealed class ImplantImplantedByEvent
+{
+    public readonly EntityUid Implanter;
+
+    public ImplantImplantedByEvent(EntityUid implanter)
+    {
+        Implanter = implanter;
+    }
+}
+// Eclipse-End
 
 /// <summary>
 /// Change the chosen implanter in the UI.

@@ -1,0 +1,40 @@
+- type: entity
+  id: EmergencyReturnBeacon
+  parent: BaseFoldable
+  name: emergency return implant beacon
+  description: Beacon to receive victims of return implants.
+  components:
+    - type: Physics
+      bodyType: Dynamic
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape:
+            !type:PhysShapeAabb
+            bounds: "-0.25,-0.4,0.25,0.1"
+          density: 20
+          mask:
+            - Impassable
+    - type: Item
+      size: Normal
+    - type: Foldable
+      folded: true
+    - type: Clickable
+    - type: InteractionOutline
+    - type: ReturnImplantBeacon 
+    - type: Appearance
+    - type: GenericVisualizer
+      visuals:
+        enum.FoldedVisuals.State:
+          foldedLayer:
+            True: { state: folded_extraction }
+            False: { state: extraction_point }
+    - type: Sprite
+      sprite: Objects/Tools/fulton.rsi
+      drawdepth: SmallObjects
+      noRot: true
+      layers:
+        - state: extraction_point
+          map: [ "foldedLayer" ]
+    - type: StaticPrice
+      price: 100
