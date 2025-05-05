@@ -71,3 +71,6 @@ storage_limit = 3
 
 [discord]
 rich_main_icon_id = "https://shorturl.at/nHmHm"
+
+[chat]
+max_message_length = 3000
