@@ -5,11 +5,11 @@ ent-NFClothingBackpackDuffelJanitor = janitor duffel
 ent-NFClothingBackpackDuffelChaplain = chaplain duffel
     .desc = Don't forget to extinguish the censer before putting it inside.
 # HASH: 447a314a2a62d6f3cf813ae893ec36223390152dbb8fc8025092d98e96147761
-ent-ClothingBackpackDuffelMercenary = вещмешок наёмника
-    .desc = Надежный вщмешок, который побывал во многих опасных местах.
+ent-ClothingBackpackDuffelMercenary = mercenary duffel
+    .desc = A duffel that has been in many dangerous places, a reliable combat duffel.
 # HASH: b65fb4e7d5267c3dd9d4a505f32bf5c580d0e30e6ccac94ef641b1ff686283ff
-ent-ClothingBackpackDuffelPilot = вещмешок пилота
-    .desc = Вещмешок настоящего аса.
+ent-ClothingBackpackDuffelPilot = pilot duffel
+    .desc = A duffelbag produced for a True Ace.
 # HASH: 48bdf7369f0634df5a7d7f4637b1f73980da22bcf22d52217a1ddaa7ac90d187
 ent-ClothingBackpackDuffelPrivateSecurity = private security duffel
     .desc = A robust duffelbag produced for a rugged operator on a salary.
