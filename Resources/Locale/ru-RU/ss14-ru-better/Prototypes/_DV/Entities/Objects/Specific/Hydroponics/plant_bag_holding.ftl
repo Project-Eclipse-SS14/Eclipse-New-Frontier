@@ -1,3 +1,0 @@
-# HASH: 16a446c16d23e321dffceffeb78171122b1d1f09f0c1e974ff98db50ca381315
-ent-PlantBagOfHolding = plant bag of holding
-    .desc = A robust bag of holding for fruitful botanists with more plants than pockets.

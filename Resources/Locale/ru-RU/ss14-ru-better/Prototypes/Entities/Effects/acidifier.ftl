@@ -1,3 +1,0 @@
-# HASH: f7090800b03955e509b03157897391df51adf491541078c5c28e752916444759
-ent-Acidifier = acid
-    .desc = Melts you into a puddle of yuck!
