@@ -1,7 +1,0 @@
-# HASH: 33d1e7698994fb9842494d2e514284ca6b6ee8fb7822f3f3388d1739c09b4803
-ent-CondimentCupDispenser = condiment cup dispenser
-    .desc = It holds little condiment cups. They claim to be recyled.
-# HASH: 9ad6d40352210d2eab9b4b9f17d184b580aa8da319cb4cb7b83e3e2ea001f921
-ent-CondimentCupDispenser10 = condiment cup dispenser
-    .desc = It holds little condiment cups. They claim to be recyled.
-    .suffix = 10
