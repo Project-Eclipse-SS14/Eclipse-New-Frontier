@@ -15,7 +15,7 @@ namespace Content.Shared.Weapons.Ranged.Systems;
 public abstract partial class SharedGunSystem
 {
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
-    [Dependency] private readonly SharedInteractionSystem _interaction = default!;
+    [Dependency] protected readonly SharedInteractionSystem _interaction = default!;  // Eclipse private -> protected
 
 
     protected virtual void InitializeBallistic()
@@ -23,6 +23,7 @@ public abstract partial class SharedGunSystem
         SubscribeLocalEvent<BallisticAmmoProviderComponent, ComponentInit>(OnBallisticInit);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, MapInitEvent>(OnBallisticMapInit);
         SubscribeLocalEvent<BallisticAmmoProviderComponent, TakeAmmoEvent>(OnBallisticTakeAmmo);
+        SubscribeLocalEvent<BallisticAmmoProviderComponent, GetAmmoProtoEvent>(OnBallisticGetAmmoProto); // Eclipse
         SubscribeLocalEvent<BallisticAmmoProviderComponent, GetAmmoCountEvent>(OnBallisticAmmoCount);
 
         SubscribeLocalEvent<BallisticAmmoProviderComponent, ExaminedEvent>(OnBallisticExamine);
@@ -303,6 +304,27 @@ public abstract partial class SharedGunSystem
 
         UpdateBallisticAppearance(uid, component);
     }
+
+    // Eclipse-Start
+    private void OnBallisticGetAmmoProto(EntityUid uid, BallisticAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        if (component.Entities.Count > 0)
+        {
+            var entity = component.Entities[^1];
+
+            var proto = MetaData(entity).EntityPrototype;
+
+            if (proto == null)
+                return;
+
+            args.AmmoProto = proto.ID;
+        }
+        else if (component.UnspawnedCount > 0)
+        {
+            args.AmmoProto = component.Proto;
+        }
+    }
+    // Eclipse-End
 
     private void OnBallisticAmmoCount(EntityUid uid, BallisticAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

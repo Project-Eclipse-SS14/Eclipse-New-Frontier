@@ -18,6 +18,7 @@ public abstract partial class SharedGunSystem
     {
         SubscribeLocalEvent<ChamberMagazineAmmoProviderComponent, ComponentStartup>(OnChamberStartup);
         SubscribeLocalEvent<ChamberMagazineAmmoProviderComponent, TakeAmmoEvent>(OnChamberMagazineTakeAmmo);
+        SubscribeLocalEvent<ChamberMagazineAmmoProviderComponent, GetAmmoProtoEvent>(OnChamberGetAmmoProto); // Eclipse
         SubscribeLocalEvent<ChamberMagazineAmmoProviderComponent, GetAmmoCountEvent>(OnChamberAmmoCount);
 
         /*
@@ -42,7 +43,7 @@ public abstract partial class SharedGunSystem
         // Appearance data doesn't get serialized and want to make sure this is correct on spawn (regardless of MapInit) so.
         if (component.BoltClosed != null)
         {
-           Appearance.SetData(uid, AmmoVisuals.BoltClosed, component.BoltClosed.Value);
+            Appearance.SetData(uid, AmmoVisuals.BoltClosed, component.BoltClosed.Value);
         }
     }
 
@@ -336,6 +337,23 @@ public abstract partial class SharedGunSystem
                container is ContainerSlot slot &&
                Containers.Insert(ammo, slot);
     }
+
+    // Eclipse-Start
+    private void OnChamberGetAmmoProto(EntityUid uid, ChamberMagazineAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        if (component.BoltClosed == false)
+            return;
+
+        var chamberEnt = GetChamberEntity(uid);
+        if (chamberEnt != null)
+        {
+            var proto = MetaData(chamberEnt.Value).EntityPrototype;
+            if (proto == null)
+                return;
+            args.AmmoProto = proto;
+        }
+    }
+    // Eclipse-End
 
     private void OnChamberAmmoCount(EntityUid uid, ChamberMagazineAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {
