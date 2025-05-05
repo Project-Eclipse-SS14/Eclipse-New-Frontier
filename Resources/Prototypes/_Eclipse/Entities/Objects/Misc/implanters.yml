@@ -1,0 +1,9 @@
+# TODO: make implant untransferable to other implanters due to ReturnImplantConnect component
+- type: entity
+  id: EmergencyReturnImplanter
+  suffix: emergency return
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: EmergencyReturnImplant
+    - type: ReturnImplantConnect

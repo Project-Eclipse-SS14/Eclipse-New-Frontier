@@ -17,6 +17,7 @@ using Content.Server.GameTicking; // Frontier
 using Content.Server._NF.Salvage.Expeditions.Structure; // Frontier
 using Content.Server._NF.Salvage.Expeditions;
 using Content.Shared.Salvage; // Frontier
+using Content.Shared._Eclipse.Implants; // Eclipse
 
 namespace Content.Server.Salvage;
 
@@ -202,6 +203,21 @@ public sealed partial class SalvageSystem
                 Dirty(uid, comp);
                 Announce(uid, Loc.GetString("salvage-expedition-announcement-countdown-seconds", ("duration", TimeSpan.FromSeconds(45).Seconds)));
             }
+            // Eclipse-Start
+            else if (comp.Stage < ExpeditionStage.EmergencyReturnCountdown && remaining < TimeSpan.FromMinutes(1))
+            {
+                var mobQuery = EntityQueryEnumerator<HumanoidAppearanceComponent>();
+                var ev = new ExpeditionNearEndEvent();
+                while (mobQuery.MoveNext(out var mobUid, out var _))
+                {
+                    RaiseLocalEvent(mobUid, ref ev);
+                }
+
+                comp.Stage = ExpeditionStage.EmergencyReturnCountdown;
+                Dirty(uid, comp);
+                Announce(uid, Loc.GetString("salvage-expedition-announcement-countdown-minutes", ("duration", TimeSpan.FromMinutes(1).Minutes)));
+            }
+            // Eclipse-End
             else if (comp.Stage < ExpeditionStage.MusicCountdown && remaining < audioLength) // Frontier
             {
                 // Frontier: handled client-side.
@@ -222,11 +238,11 @@ public sealed partial class SalvageSystem
             // Auto-FTL out any shuttles
             else if (remaining < TimeSpan.FromSeconds(_shuttle.DefaultStartupTime) + TimeSpan.FromSeconds(0.5))
             {
-                var ftlTime = (float) remaining.TotalSeconds;
+                var ftlTime = (float)remaining.TotalSeconds;
 
                 if (remaining < TimeSpan.FromSeconds(_shuttle.DefaultStartupTime))
                 {
-                    ftlTime = MathF.Max(0, (float) remaining.TotalSeconds - 0.5f);
+                    ftlTime = MathF.Max(0, (float)remaining.TotalSeconds - 0.5f);
                 }
 
                 ftlTime = MathF.Min(ftlTime, _shuttle.DefaultStartupTime);

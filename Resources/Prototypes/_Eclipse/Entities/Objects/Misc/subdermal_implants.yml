@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: EmergencyReturnImplant
+  name: emergency return implant
+  description: This implant will transport the user to their registered shuttle in case of an emergency like death or a shuttle leaving from an expedition
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      whitelist:
+        components:
+        - HumanoidAppearance
+    - type: TriggerOnMobstateChange
+      mobState:
+      - Critical
+      - Dead
+    - type: TriggerOnExpeditionNearEnd
+    - type: TransportToBeaconOnTrigger
