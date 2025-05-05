@@ -12,6 +12,7 @@ public partial class SharedGunSystem
     private void InitializeClothing()
     {
         SubscribeLocalEvent<ClothingSlotAmmoProviderComponent, TakeAmmoEvent>(OnClothingTakeAmmo);
+        SubscribeLocalEvent<ClothingSlotAmmoProviderComponent, GetAmmoProtoEvent>(OnClothingGetAmmoProto); // Eclipse
         SubscribeLocalEvent<ClothingSlotAmmoProviderComponent, GetAmmoCountEvent>(OnClothingAmmoCount);
     }
 
@@ -21,6 +22,15 @@ public partial class SharedGunSystem
             return;
         RaiseLocalEvent(entity.Value, args);
     }
+
+    // Eclipse-Start
+    private void OnClothingGetAmmoProto(EntityUid uid, ClothingSlotAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        if (!TryGetClothingSlotEntity(uid, component, out var entity))
+            return;
+        RaiseLocalEvent(entity.Value, ref args);
+    }
+    // Eclipse-End
 
     private void OnClothingAmmoCount(EntityUid uid, ClothingSlotAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

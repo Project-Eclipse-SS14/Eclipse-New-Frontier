@@ -16,6 +16,7 @@ public abstract partial class SharedGunSystem
         SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, ComponentGetState>(OnBatteryGetState);
         SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, ComponentHandleState>(OnBatteryHandleState);
         SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, TakeAmmoEvent>(OnBatteryTakeAmmo);
+        SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, GetAmmoProtoEvent>(OnBatteryGetAmmoProto); // Eclipse
         SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, GetAmmoCountEvent>(OnBatteryAmmoCount);
         SubscribeLocalEvent<HitscanBatteryAmmoProviderComponent, ExaminedEvent>(OnBatteryExamine);
 
@@ -23,6 +24,7 @@ public abstract partial class SharedGunSystem
         SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, ComponentGetState>(OnBatteryGetState);
         SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, ComponentHandleState>(OnBatteryHandleState);
         SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, TakeAmmoEvent>(OnBatteryTakeAmmo);
+        SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, GetAmmoProtoEvent>(OnBatteryGetAmmoProto); // Eclipse
         SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, GetAmmoCountEvent>(OnBatteryAmmoCount);
         SubscribeLocalEvent<ProjectileBatteryAmmoProviderComponent, ExaminedEvent>(OnBatteryExamine);
     }
@@ -71,6 +73,26 @@ public abstract partial class SharedGunSystem
         UpdateBatteryAppearance(uid, component);
         Dirty(uid, component);
     }
+
+    // Eclipse-Start
+    private void OnBatteryGetAmmoProto(EntityUid uid, BatteryAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        if (component.Shots == 0)
+            return;
+
+        switch (component)
+        {
+            case ProjectileBatteryAmmoProviderComponent proj:
+                args.AmmoProto = proj.Prototype;
+                return;
+            case HitscanBatteryAmmoProviderComponent hitscan:
+                args.AmmoProto = hitscan.Prototype;
+                return;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+    // Eclipse-End
 
     private void OnBatteryAmmoCount(EntityUid uid, BatteryAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

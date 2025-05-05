@@ -14,6 +14,7 @@ public abstract partial class SharedGunSystem
     {
         SubscribeLocalEvent<MagazineAmmoProviderComponent, MapInitEvent>(OnMagazineMapInit);
         SubscribeLocalEvent<MagazineAmmoProviderComponent, TakeAmmoEvent>(OnMagazineTakeAmmo);
+        SubscribeLocalEvent<MagazineAmmoProviderComponent, GetAmmoProtoEvent>(OnMagazineGetAmmoProto); // Eclipse
         SubscribeLocalEvent<MagazineAmmoProviderComponent, GetAmmoCountEvent>(OnMagazineAmmoCount);
         SubscribeLocalEvent<MagazineAmmoProviderComponent, GetVerbsEvent<AlternativeVerb>>(OnMagazineVerb);
         SubscribeLocalEvent<MagazineAmmoProviderComponent, EntInsertedIntoContainerMessage>(OnMagazineSlotChange);
@@ -114,6 +115,18 @@ public abstract partial class SharedGunSystem
 
         return slot.ContainedEntity;
     }
+
+    // Eclipse-Start
+    private void OnMagazineGetAmmoProto(EntityUid uid, MagazineAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        var magEntity = GetMagazineEntity(uid);
+
+        if (magEntity == null)
+            return;
+
+        RaiseLocalEvent(magEntity.Value, ref args);
+    }
+    // Eclipse-End
 
     private void OnMagazineAmmoCount(EntityUid uid, MagazineAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {
