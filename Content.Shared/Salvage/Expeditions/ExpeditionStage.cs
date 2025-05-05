@@ -6,5 +6,6 @@ public enum ExpeditionStage : byte
     Running,
     Countdown,
     MusicCountdown,
+    EmergencyReturnCountdown,
     FinalCountdown,
 }
