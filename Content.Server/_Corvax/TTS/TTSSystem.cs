@@ -8,6 +8,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Robust.Shared.Timing;
 using static Content.Server._Corvax.TTS.TTSManager;
 
 namespace Content.Server._Corvax.TTS;
@@ -20,6 +21,7 @@ public sealed partial class TTSSystem : EntitySystem
     [Dependency] private readonly TTSManager _ttsManager = default!;
     [Dependency] private readonly SharedTransformSystem _xforms = default!;
     [Dependency] private readonly IRobustRandom _rng = default!;
+    [Dependency] private readonly IGameTiming _gameTiming = default!;
 
     private readonly List<string> _sampleText =
         new()
@@ -40,18 +42,75 @@ public sealed partial class TTSSystem : EntitySystem
 
     private const int MaxMessageChars = 100 * 2; // same as SingleBubbleCharLimit * 2
     private bool _isEnabled = false;
+    private TimeSpan _ttsTimeout;
+    private Queue<GenerateTTSData> _requestQueue = new();
+    private ISawmill _sawmill = default!;
 
     public override void Initialize()
     {
+        _sawmill = Logger.GetSawmill("tts");
+
         _cfg.OnValueChanged(CorvaxCCVars.TTSEnabled, v => _isEnabled = v, true);
+        _cfg.OnValueChanged(CorvaxCCVars.TTSTimeoutSeconds, v => _ttsTimeout = TimeSpan.FromSeconds(v), true);
 
         SubscribeLocalEvent<TransformSpeechEvent>(OnTransformSpeech);
         SubscribeLocalEvent<TTSComponent, EntitySpokeEvent>(OnEntitySpoke);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestartCleanup);
+        SubscribeLocalEvent<GenerateTTSEvent>(OnGenerateTTS);
 
         SubscribeNetworkEvent<RequestPreviewTTSEvent>(OnRequestPreviewTTS);
 
         RegisterRateLimits();
+    }
+
+    public override void Update(float frameTime)
+    {
+        base.Update(frameTime);
+
+        if (_requestQueue.Count > 0 && CheckQueueRateLimit() == RateLimitStatus.Allowed)
+        {
+            var data = DequeueTTSData();
+            if (data == null)
+            {
+                ReturnQueueRateLimitTicket();
+                return;
+            }
+
+
+            var ev = new GenerateTTSEvent(data);
+            RaiseLocalEvent(ev);
+        }
+    }
+
+    private GenerateTTSData? DequeueTTSData()
+    {
+        while (_requestQueue.TryDequeue(out var data))
+        {
+            var diff = _gameTiming.RealTime - data.TimeRequestCreated;
+            if (diff > _ttsTimeout)
+            {
+                _sawmill.Error($"Timeout of request generation new audio for '{data.TextSanitized}' speech by '{data.Speaker}' speaker");
+                continue;
+            }
+
+            return data;
+        }
+
+        return null;
+    }
+
+    private async void OnGenerateTTS(GenerateTTSEvent ev)
+    {
+        var result = await _ttsManager.ConvertTextToSpeech(ev.Data.Speaker, ev.Data.TextSanitized, ev.Data.Effects);
+
+        if (result == null)
+        {
+            _sawmill.Error($"Failed to generate new audio for '{ev.Data.TextSanitized}' spoken by '{ev.Data.Speaker}' speaker");
+            _requestQueue.Enqueue(ev.Data);
+            return;
+        }
+
+        ev.Data.Tcs.SetResult(result);
     }
 
     private void OnRoundRestartCleanup(RoundRestartCleanupEvent ev)
@@ -147,7 +206,12 @@ public sealed partial class TTSSystem : EntitySystem
         //if (isWhisper)
         //    effects = TTSEffect.PitchShift;
 
-        return await _ttsManager.ConvertTextToSpeech(speaker, textSanitized, effects);
+        var data = new GenerateTTSData(_gameTiming.RealTime, textSanitized, speaker, effects);
+        _requestQueue.Enqueue(data);
+
+        var result = await data.Task;
+
+        return result;
     }
 
     public sealed class TransformSpeakerVoiceEvent : EntityEventArgs
@@ -159,6 +223,35 @@ public sealed partial class TTSSystem : EntitySystem
         {
             Sender = sender;
             VoiceId = voiceId;
+        }
+    }
+
+    private sealed class GenerateTTSData
+    {
+        public Task<byte[]?> Task => Tcs.Task;
+        public readonly TaskCompletionSource<byte[]?> Tcs = new TaskCompletionSource<byte[]?>();
+
+        public string TextSanitized;
+        public string Speaker;
+        public TTSEffect? Effects;
+        public TimeSpan TimeRequestCreated;
+
+        public GenerateTTSData(TimeSpan timeRequestCreated, string textSanitized, string speaker, TTSEffect? effects)
+        {
+            TimeRequestCreated = timeRequestCreated;
+            TextSanitized = textSanitized;
+            Speaker = speaker;
+            Effects = effects;
+        }
+    }
+
+    private sealed class GenerateTTSEvent
+    {
+        public readonly GenerateTTSData Data;
+
+        public GenerateTTSEvent(GenerateTTSData data)
+        {
+            Data = data;
         }
     }
 }
