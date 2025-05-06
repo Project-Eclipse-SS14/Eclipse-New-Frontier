@@ -1,0 +1,23 @@
+- type: storeCategory
+  id: PersonalUplinkPointless
+  name: store-category-pointless
+  priority: 0
+
+- type: storeCategory
+  id: PersonalUplinkWearables
+  name: store-category-wearables
+  priority: 1
+
+- type: entity
+  id: StorePresetPersonalUplink
+  abstract: true
+  components:
+  - type: Store
+    name: store-preset-name-nfsd-uplink
+    categories:
+    - PersonalUplinkPointless
+    - PersonalUplinkWearables
+    currencyWhitelist:
+    - PersonalUplinkCoin
+    balance:
+      PersonalUplinkCoin: 40
