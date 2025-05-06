@@ -1,4 +1,5 @@
 using Content.Server._Corvax.TTS;
+using Content.Server._Eclipse.RateLimiting;
 using Content.Server._NF.Auth;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
@@ -80,6 +81,7 @@ namespace Content.Server.IoC
             IoCManager.Register<MultiServerKickManager>();
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
+            IoCManager.Register<RateLimitManager>(); //Eclipse
             IoCManager.Register<TTSManager>(); //Corvax-TTS
         }
     }
