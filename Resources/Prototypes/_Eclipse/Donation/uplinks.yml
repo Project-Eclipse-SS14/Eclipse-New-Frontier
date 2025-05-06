@@ -1,0 +1,19 @@
+- type: entity
+  parent: [ BaseItem, StorePresetPersonalUplink ]
+  id: DonationUplinkRadio
+  name: personal uplink
+  description: Retro looking old radio...
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/communication.rsi
+    layers:
+    - state: old-radio
+  - type: Item
+    sprite: Objects/Devices/communication.rsi
+    heldPrefix: old-radio
+  - type: UserInterface
+    interfaces:
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+  - type: ActivatableUI
+    key: enum.StoreUiKey.Key

@@ -1,0 +1,44 @@
+- type: stack
+  id: PersonalUplinkCoin
+  name: personal uplink coin
+  icon: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
+  spawn: PersonalUplinkCoin1
+
+- type: entity
+  name: personal uplink coin
+  parent: BaseItem
+  id: PersonalUplinkCoin
+  suffix: 20 TC
+  description: It can be exchanged in a Personal uplink device for a variety of law enforcement tools.
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
+    state: frontieruplinkcoin
+  - type: Item
+    sprite: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
+    size: Tiny
+  - type: Stack
+    count: 20
+    stackType: PersonalUplinkCoin
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      PersonalUplinkCoin: 1
+
+- type: entity
+  parent: PersonalUplinkCoin
+  id: PersonalUplinkCoin1
+  suffix: 1 TC
+  components:
+  - type: Stack
+    count: 1
+
+- type: currency
+  id: PersonalUplinkCoin
+  displayName: store-currency-display-security-telecrystal
+  cash: 
+    1: PersonalUplinkCoin1
+  canWithdraw: false
