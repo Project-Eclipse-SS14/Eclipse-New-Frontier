@@ -26,6 +26,7 @@ using Content.Shared.Interaction; // Frontier
 using Content.Shared.Examine; // Frontier
 using Content.Server.Power.Components;
 using Content.Shared.Power; // Frontier
+using Content.Shared.Physics; // Eclipse
 
 namespace Content.Server.Weapons.Ranged.Systems;
 
@@ -39,6 +40,8 @@ public sealed partial class GunSystem : SharedGunSystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly StaminaSystem _stamina = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!; // Eclipse
+    [Dependency] private readonly IComponentFactory _componentFactory = default!; // Eclipse
 
     private const float DamagePitchVariation = 0.05f;
 
@@ -466,4 +469,78 @@ public sealed partial class GunSystem : SharedGunSystem
     }
 
     #endregion
+
+    // Eclipse-Start
+
+    /// <summary>
+    /// Does a raycast using gun's ammo to check if target is able to be hit from user's position
+    /// </summary>
+    public bool IsTargetReachable(EntityUid userUid, EntityUid gunUid, EntityUid targetUid, float distance)
+    {
+        bool Fallback()
+        {
+            //fallback to old check so our entity can still shoot if something went wrong
+            var collisionGroup = CollisionGroup.Impassable | CollisionGroup.InteractImpassable;
+            return _interaction.InRangeUnobstructed(userUid, targetUid, distance + 0.1f, collisionGroup);
+        }
+
+        var ev = new GetAmmoProtoEvent(null);
+        RaiseLocalEvent(gunUid, ref ev);
+
+        if (ev.AmmoProto == null)
+        {
+            return Fallback();
+        }
+
+        _prototypeManager.TryIndex(ev.AmmoProto, out var prototype);
+        _prototypeManager.TryIndex<HitscanPrototype>(ev.AmmoProto, out var hitscan);
+
+        if (prototype == null && hitscan == null)
+        {
+            return Fallback();
+        }
+
+        var fixturesCompName = _componentFactory.GetComponentName(typeof(FixturesComponent));
+        var cartridgeAmmoCompName = _componentFactory.GetComponentName(typeof(CartridgeAmmoComponent));
+        var ammoCompName = _componentFactory.GetComponentName(typeof(AmmoComponent));
+
+        var collisionGroup = CollisionGroup.None;
+
+        if (prototype != null && prototype.TryGetComponent(cartridgeAmmoCompName, out CartridgeAmmoComponent? cartridge))
+        {
+            var ammoProtoId = cartridge.Prototype;
+            if (!_prototypeManager.TryIndex(ammoProtoId, out var ammoProto))
+                return Fallback();
+
+            if (!ammoProto.TryGetComponent(fixturesCompName, out FixturesComponent? fixtures))
+                return Fallback();
+
+            foreach (var (_, fixture) in fixtures.Fixtures)
+            {
+                collisionGroup |= (CollisionGroup)fixture.CollisionMask;
+            }
+        }
+        else if (prototype != null && prototype.TryGetComponent(ammoCompName, out AmmoComponent? ammo))
+        {
+            if (!_prototypeManager.TryIndex(prototype, out var ammoProto))
+                return Fallback();
+
+            if (!ammoProto.TryGetComponent(fixturesCompName, out FixturesComponent? fixtures))
+                return Fallback();
+
+            foreach (var (_, fixture) in fixtures.Fixtures)
+            {
+                collisionGroup |= (CollisionGroup)fixture.CollisionMask;
+            }
+        }
+        else if (hitscan != null)
+        {
+            collisionGroup |= (CollisionGroup)hitscan.CollisionMask;
+        }
+        else
+            return Fallback();
+
+        return _interaction.InRangeUnobstructed(userUid, targetUid, distance + 0.1f, collisionGroup);
+    }
+    // Eclipse-End
 }

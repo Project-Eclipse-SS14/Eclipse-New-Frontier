@@ -1,4 +1,5 @@
 use std::{
+    cell::RefCell,
     collections::HashMap,
     io::Read,
     path::{Path, PathBuf},
@@ -88,10 +89,18 @@ impl FtlStorage {
             prototypes: Vec::new(),
         })
     }
+
+    pub fn find_prototype(&self, id: &str) -> Option<&RefCell<FtlPrototype>> {
+        self.files
+            .iter()
+            .map(|(_, v)| &v.prototypes)
+            .flatten()
+            .find(|v| v.borrow().id == id)
+    }
 }
 
 pub struct FtlPrototypesFile {
-    pub prototypes: Vec<FtlPrototype>,
+    pub prototypes: Vec<RefCell<FtlPrototype>>,
 }
 
 impl FtlPrototypesFile {
@@ -111,7 +120,7 @@ impl FtlPrototypesFile {
         for entry in body.body {
             match entry {
                 fluent_syntax::ast::Entry::Message(message) => {
-                    prototypes.push(FtlPrototype::parse(message)?)
+                    prototypes.push(RefCell::new(FtlPrototype::parse(message)?))
                 }
                 _ => {
                     log::error!(
@@ -128,13 +137,14 @@ impl FtlPrototypesFile {
     }
 
     pub fn is_changed(&self) -> bool {
-        self.prototypes.iter().any(|v| v.changed)
+        self.prototypes.iter().any(|v| v.borrow().changed)
     }
 
     fn save(&self, path: &Path) {
         let mut resource = fluent_syntax::ast::Resource { body: Vec::new() };
 
         for prototype in &self.prototypes {
+            let prototype = prototype.borrow();
             let fl_attributes = {
                 let mut vec = vec![];
 
@@ -234,42 +244,35 @@ impl FtlPrototypesFile {
         std::fs::write(path, serialized_resource).unwrap();
     }
 
-    pub fn get_prototype_ref(&self, id: &str) -> Option<&FtlPrototype> {
+    pub fn get_prototype(&self, id: &str) -> Option<&RefCell<FtlPrototype>> {
         for prototype in &self.prototypes {
-            if prototype.id == id {
+            if prototype.borrow().id == id {
                 return Some(prototype);
             }
         }
         None
     }
 
-    pub fn get_prototype_mut(&mut self, id: &str) -> Option<&mut FtlPrototype> {
+    pub fn create_prototype(
+        &mut self,
+        id: String,
+    ) -> Result<&RefCell<FtlPrototype>, PrototypeIdExists> {
         for prototype in &mut self.prototypes {
-            //dbg!(&prototype.id);
-            if prototype.id == id {
-                return Some(prototype);
-            }
-        }
-        None
-    }
-
-    pub fn create_prototype(&mut self, id: String) -> Result<&mut FtlPrototype, PrototypeIdExists> {
-        for prototype in &mut self.prototypes {
-            if prototype.id == id {
+            if prototype.borrow().id == id {
                 return Err(PrototypeIdExists);
             }
         }
 
-        self.prototypes.push(FtlPrototype {
+        self.prototypes.push(RefCell::new(FtlPrototype {
             hash: [0; 32],
             id,
             name: None,
             description: None,
             suffix: None,
             changed: true,
-        });
+        }));
         //SAFETY: it was literally just added above
-        Ok(unsafe { self.prototypes.last_mut().unwrap_unchecked() })
+        Ok(unsafe { self.prototypes.last().unwrap_unchecked() })
     }
 }
 

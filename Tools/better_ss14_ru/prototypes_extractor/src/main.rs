@@ -35,6 +35,17 @@ impl TranslatableAttributes {
             }
         });
     }
+
+    pub fn resolve_using_parent_id(&mut self, parent_id: &str) {
+        self.name = self
+            .name
+            .take()
+            .or_else(|| Some(StringOrOtherId::Id(parent_id.to_owned())));
+        self.description = self
+            .description
+            .take()
+            .or_else(|| Some(StringOrOtherId::Id(parent_id.to_owned())));
+    }
 }
 
 const SAVE_LOCALE_PATH: &str = "../../Resources/Locale/ru-RU/ss14-ru-better/";
@@ -162,16 +173,6 @@ fn main() {
         }
     }
 
-    let resolve_using_parents = |parent_id: &str, attributes: &mut TranslatableAttributes| {
-        if !attributes.needs_resolving() {
-            return;
-        }
-        let Some(parent_attrs) = id_map.get(parent_id) else {
-            panic!("A parent id was set to an object that was not found! This is a yaml mistake");
-        };
-        attributes.try_resolve_from_parent(parent_id, parent_attrs);
-    };
-
     for (id, path, mut attributes) in prototypes {
         let locale_path = save_locale_path
             .join(pathdiff::diff_paths(path, project.get_resources_path()).unwrap())
@@ -179,8 +180,12 @@ fn main() {
 
         if attributes.needs_resolving() {
             if let Some(v) = parents_map.get(&id) {
-                for parent in v {
-                    resolve_using_parents(parent, &mut attributes);
+                if v.len() == 1 {
+                    attributes.resolve_using_parent_id(&v[0]);
+                } else {
+                    for parent in v {
+                        resolve_using_parents(&id_map, &parents_map, parent, &mut attributes);
+                    }
                 }
             }
         }
@@ -225,8 +230,9 @@ fn main() {
 
         let file = ftl_project.get_or_create_mut(locale_path);
 
-        match file.get_prototype_mut(&id) {
+        match file.get_prototype(&id) {
             Some(prototype) => {
+                let mut prototype = prototype.borrow_mut();
                 if prototype.hash != hash {
                     log::info!("Prototype {id} has a hash mismatch.");
                     *prototype.name_mut() = attributes.name.clone();
@@ -237,6 +243,7 @@ fn main() {
             }
             None => {
                 let prototype = file.create_prototype(id.clone()).unwrap();
+                let mut prototype = prototype.borrow_mut();
                 *prototype.name_mut() = attributes.name.clone();
                 *prototype.description_mut() = attributes.description.clone();
                 *prototype.suffix_mut() = attributes.suffix.clone();
@@ -247,4 +254,27 @@ fn main() {
     }
 
     ftl_project.save();
+}
+
+fn resolve_using_parents(
+    id_map: &HashMap<String, TranslatableAttributes>,
+    parents_map: &HashMap<String, Vec<String>>,
+    parent_id: &str,
+    attributes: &mut TranslatableAttributes,
+) {
+    if !attributes.needs_resolving() {
+        return;
+    }
+    let Some(parent_attrs) = id_map.get(parent_id) else {
+        panic!("A parent id was set to an object that was not found! This is a yaml mistake");
+    };
+    attributes.try_resolve_from_parent(parent_id, parent_attrs);
+    if !attributes.needs_resolving() {
+        return;
+    }
+    if let Some(v) = parents_map.get(parent_id) {
+        for parent in v {
+            resolve_using_parents(id_map, parents_map, parent, attributes);
+        }
+    }
 }

@@ -10,6 +10,7 @@ public abstract partial class SharedGunSystem
     {
         SubscribeLocalEvent<BasicEntityAmmoProviderComponent, MapInitEvent>(OnBasicEntityMapInit);
         SubscribeLocalEvent<BasicEntityAmmoProviderComponent, TakeAmmoEvent>(OnBasicEntityTakeAmmo);
+        SubscribeLocalEvent<BasicEntityAmmoProviderComponent, GetAmmoProtoEvent>(OnBasicEntityGetAmmoProto); // Eclipse
         SubscribeLocalEvent<BasicEntityAmmoProviderComponent, GetAmmoCountEvent>(OnBasicEntityAmmoCount);
     }
 
@@ -44,6 +45,13 @@ public abstract partial class SharedGunSystem
         UpdateBasicEntityAppearance(uid, component);
         Dirty(uid, component);
     }
+
+    // Eclipse-Start
+    private void OnBasicEntityGetAmmoProto(EntityUid uid, BasicEntityAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        args.AmmoProto = component.Proto;
+    }
+    // Eclipse-End
 
     private void OnBasicEntityAmmoCount(EntityUid uid, BasicEntityAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

@@ -10,6 +10,7 @@ public partial class SharedGunSystem
     protected virtual void InitializeSolution()
     {
         SubscribeLocalEvent<SolutionAmmoProviderComponent, TakeAmmoEvent>(OnSolutionTakeAmmo);
+        SubscribeLocalEvent<SolutionAmmoProviderComponent, GetAmmoProtoEvent>(OnSolutionGetAmmoProto); // Eclipse
         SubscribeLocalEvent<SolutionAmmoProviderComponent, GetAmmoCountEvent>(OnSolutionAmmoCount);
     }
 
@@ -30,6 +31,13 @@ public partial class SharedGunSystem
         UpdateSolutionShots(uid, component);
         UpdateSolutionAppearance(uid, component);
     }
+
+    // Eclipse-Start
+    private void OnSolutionGetAmmoProto(EntityUid uid, SolutionAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        args.AmmoProto = component.Prototype;
+    }
+    // Eclipse-End
 
     private void OnSolutionAmmoCount(EntityUid uid, SolutionAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

@@ -11,6 +11,7 @@ public partial class SharedGunSystem
     private void InitializeContainer()
     {
         SubscribeLocalEvent<ContainerAmmoProviderComponent, TakeAmmoEvent>(OnContainerTakeAmmo);
+        SubscribeLocalEvent<ContainerAmmoProviderComponent, GetAmmoProtoEvent>(OnContainerGetAmmoProto); // Eclipse
         SubscribeLocalEvent<ContainerAmmoProviderComponent, GetAmmoCountEvent>(OnContainerAmmoCount);
     }
 
@@ -33,6 +34,23 @@ public partial class SharedGunSystem
             args.Ammo.Add((ent, EnsureShootable(ent)));
         }
     }
+
+    // Eclipse-Start
+    private void OnContainerGetAmmoProto(EntityUid uid, ContainerAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        component.ProviderUid ??= uid;
+        if (!Containers.TryGetContainer(component.ProviderUid.Value, component.Container, out var container))
+            return;
+
+        var ent = container.ContainedEntities[0];
+
+        var proto = MetaData(ent).EntityPrototype;
+        if (proto == null)
+            return;
+
+        args.AmmoProto = proto.ID;
+    }
+    // Eclipse-End
 
     private void OnContainerAmmoCount(EntityUid uid, ContainerAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {

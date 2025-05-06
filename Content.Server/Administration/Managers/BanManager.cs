@@ -62,6 +62,8 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
         _userDbData.AddOnLoadPlayer(CachePlayerData);
         _userDbData.AddOnPlayerDisconnect(ClearPlayerData);
+
+        InitializeDiscord(); // Eclipse
     }
 
     private async Task CachePlayerData(ICommonSession player, CancellationToken cancel)
@@ -191,6 +193,8 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
         _sawmill.Info(logMessage);
         _chat.SendAdminAlert(logMessage);
+
+        await SendDiscordNotification(adminName, targetName, expires, reason); // Eclipse
 
         KickMatchingConnectedPlayers(banDef, "newly placed ban");
     }

@@ -37,4 +37,6 @@ public sealed class EclipseCCVars
     /// </summary>
     public static readonly CVarDef<float> SelfShipyardPercentSaveRate =
         CVarDef.Create("shuttle.self_shipyard_percent_save_rate", 1.05f, CVar.SERVERONLY);
+    public static readonly CVarDef<string> DiscordBanNotificationWebhook =
+        CVarDef.Create("discord.ban_notification_webhook", string.Empty, CVar.SERVERONLY);
 }

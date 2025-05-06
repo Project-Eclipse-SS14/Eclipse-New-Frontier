@@ -31,6 +31,7 @@ public partial class SharedGunSystem
         SubscribeLocalEvent<RevolverAmmoProviderComponent, InteractUsingEvent>(OnRevolverInteractUsing);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, AfterInteractEvent>(OnRevolverAfterInteract); // Frontier: better revolver reloading
         SubscribeLocalEvent<RevolverAmmoProviderComponent, AmmoFillDoAfterEvent>(OnRevolverAmmoFillDoAfter); // Frontier: better revolver reloading
+        SubscribeLocalEvent<RevolverAmmoProviderComponent, GetAmmoProtoEvent>(OnRevolverGetAmmoProto); // Eclipse
         SubscribeLocalEvent<RevolverAmmoProviderComponent, GetAmmoCountEvent>(OnRevolverGetAmmoCount);
         SubscribeLocalEvent<RevolverAmmoProviderComponent, UseInHandEvent>(OnRevolverUse);
     }
@@ -49,6 +50,53 @@ public partial class SharedGunSystem
         UpdateAmmoCount(uid, prediction: false);
         Dirty(uid, component);
     }
+
+    // Eclipse-Start
+    private void OnRevolverGetAmmoProto(EntityUid uid, RevolverAmmoProviderComponent component, ref GetAmmoProtoEvent args)
+    {
+        var index = component.CurrentIndex % component.Capacity;
+        var chamber = component.Chambers[index];
+
+        EntityUid? ent = null;
+        if (component.AmmoSlots[index] != null)
+        {
+            ent = component.AmmoSlots[index]!;
+        }
+        // Try to spawn a round if it's available.
+        else if (chamber != null)
+        {
+            if (chamber == true)
+            {
+                // Pretend it's always been there.
+                ent = Spawn(component.FillPrototype, Transform(uid).Coordinates);
+
+                if (!_netManager.IsClient)
+                {
+                    component.AmmoSlots[index] = ent;
+                    Containers.Insert(ent.Value, component.AmmoContainer);
+                }
+            }
+        }
+
+        // Chamber empty or spent
+        if (ent == null)
+            return;
+
+        if (TryComp<CartridgeAmmoComponent>(ent, out var cartridge))
+        {
+            if (cartridge.Spent)
+                return;
+            args.AmmoProto = cartridge.Prototype;
+        }
+        else
+        {
+            var proto = MetaData(ent.Value).EntityPrototype;
+            if (proto == null)
+                return;
+            args.AmmoProto = proto;
+        }
+    }
+    // Eclipse-End
 
     private void OnRevolverGetAmmoCount(EntityUid uid, RevolverAmmoProviderComponent component, ref GetAmmoCountEvent args)
     {
@@ -436,7 +484,7 @@ public partial class SharedGunSystem
                     var uid = Spawn(component.FillPrototype, mapCoordinates);
 
                     if (TryComp<CartridgeAmmoComponent>(uid, out var cartridge))
-                        SetCartridgeSpent(uid, cartridge, !(bool) chamber);
+                        SetCartridgeSpent(uid, cartridge, !(bool)chamber);
 
                     EjectCartridge(uid);
                 }
