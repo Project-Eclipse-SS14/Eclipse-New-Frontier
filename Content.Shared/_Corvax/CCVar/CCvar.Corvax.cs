@@ -57,4 +57,23 @@ public sealed class CorvaxCCVars
     /// </summary>
     public static readonly CVarDef<int> TTSRateLimitCount =
         CVarDef.Create("tts.rate_limit_count", 3, CVar.SERVERONLY);
+
+    /// <summary>
+    /// Tts rate limit values are accounted in periods of this size (seconds).
+    /// After the period has passed, the count resets.
+    /// </summary>
+    public static readonly CVarDef<float> TTSApiRateLimitPeriod =
+        CVarDef.Create("tts.api_rate_limit_period", 1f, CVar.SERVERONLY);
+
+    /// <summary>
+    /// How many tts preview messages are allowed in a single rate limit period.
+    /// </summary>
+    public static readonly CVarDef<int> TTSApiRateLimitCount =
+        CVarDef.Create("tts.api_rate_limit_count", 1, CVar.SERVERONLY);
+
+    /// <summary>
+    /// How many tts request will stay valid until it's dropped
+    /// </summary>
+    public static readonly CVarDef<int> TTSTimeoutSeconds =
+        CVarDef.Create("tts.tts_timeout_seconds", 10, CVar.SERVERONLY);
 }

@@ -1,3 +1,4 @@
+using Content.Server._Eclipse.RateLimiting;
 using Content.Server.Chat.Managers;
 using Content.Server.Players.RateLimiting;
 using Content.Shared._Corvax.CCVar;
@@ -8,7 +9,8 @@ namespace Content.Server._Corvax.TTS;
 
 public sealed partial class TTSSystem
 {
-    [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
+    [Dependency] private readonly RateLimitManager _rateLimitManager = default!;
+    [Dependency] private readonly PlayerRateLimitManager _playerRateLimitManager = default!;
     [Dependency] private readonly IChatManager _chat = default!;
 
     private const string RateLimitKey = "TTS";
@@ -16,6 +18,11 @@ public sealed partial class TTSSystem
     private void RegisterRateLimits()
     {
         _rateLimitManager.Register(RateLimitKey,
+            new SimpleRateLimitRegistration(
+                CorvaxCCVars.TTSApiRateLimitPeriod,
+                CorvaxCCVars.TTSApiRateLimitCount
+            ));
+        _playerRateLimitManager.Register(RateLimitKey,
             new RateLimitRegistration(
                 CorvaxCCVars.TTSRateLimitPeriod,
                 CorvaxCCVars.TTSRateLimitCount,
@@ -30,6 +37,16 @@ public sealed partial class TTSSystem
 
     private RateLimitStatus HandleRateLimit(ICommonSession player)
     {
-        return _rateLimitManager.CountAction(player, RateLimitKey);
+        return _playerRateLimitManager.CountAction(player, RateLimitKey);
+    }
+
+    private RateLimitStatus CheckQueueRateLimit()
+    {
+        return _rateLimitManager.CountAction(RateLimitKey);
+    }
+
+    private void ReturnQueueRateLimitTicket()
+    {
+        _rateLimitManager.DecreaseAction(RateLimitKey);
     }
 }
