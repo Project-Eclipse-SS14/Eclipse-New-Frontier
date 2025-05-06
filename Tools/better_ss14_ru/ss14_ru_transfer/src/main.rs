@@ -46,11 +46,11 @@ fn main() {
             .unwrap();
     }
 
-    let mut ftl_project = FtlStorage::load(save_locale_path.clone()).unwrap();
+    let ftl_project = FtlStorage::load(save_locale_path.clone()).unwrap();
 
-    for (_, file) in &mut ftl_project.files {
-        for prototype in &mut file.prototypes {
-            if let Some(message) = bundle.get_message(&format!("ent-{}", prototype.id)) {
+    for (_, file) in &ftl_project.files {
+        for prototype in &file.prototypes {
+            if let Some(message) = bundle.get_message(&format!("ent-{}", prototype.borrow().id)) {
                 let name =
                     StringOrOtherId::parse_pattern_str("name", message.value().unwrap()).unwrap();
 
@@ -62,12 +62,86 @@ fn main() {
                     .get_attribute("suffix")
                     .map(|s| StringOrOtherId::parse_pattern_str("suffix", s.value()).unwrap());
 
-                *prototype.name_mut() = Some(name);
-                *prototype.description_mut() = Some(description);
-                *prototype.suffix_mut() = suffix;
+                if let StringOrOtherId::Id(id) = &name {
+                    // if result is Err -> leave unchanged, ss14_ru has a parent that does not exist
+                    if let Ok(is_empty) =
+                        check_if_proto_has_empty_string(&ftl_project, id, MatchingProperty::Name)
+                    {
+                        if !is_empty {
+                            *prototype.borrow_mut().name_mut() = Some(name);
+                        }
+                    }
+                } else {
+                    *prototype.borrow_mut().name_mut() = Some(name);
+                }
+
+                if let StringOrOtherId::Id(id) = &description {
+                    // if result is Err -> leave unchanged, ss14_ru has a parent that does not exist
+                    if let Ok(is_empty) = check_if_proto_has_empty_string(
+                        &ftl_project,
+                        id,
+                        MatchingProperty::Description,
+                    ) {
+                        if !is_empty {
+                            *prototype.borrow_mut().description_mut() = Some(description);
+                        }
+                    }
+                } else {
+                    *prototype.borrow_mut().description_mut() = Some(description);
+                }
+
+                if let Some(suffix) = suffix {
+                    if let StringOrOtherId::Id(id) = &suffix {
+                        // if result is Err -> leave unchanged, ss14_ru has a parent that does not exist
+                        if let Ok(is_empty) = check_if_proto_has_empty_string(
+                            &ftl_project,
+                            id,
+                            MatchingProperty::Suffix,
+                        ) {
+                            if !is_empty {
+                                *prototype.borrow_mut().suffix_mut() = Some(suffix);
+                            }
+                        }
+                    } else {
+                        *prototype.borrow_mut().suffix_mut() = Some(suffix);
+                    }
+                }
             }
         }
     }
 
     ftl_project.save();
+}
+
+enum MatchingProperty {
+    Name,
+    Description,
+    Suffix,
+}
+
+struct ProtoNotFound;
+
+fn check_if_proto_has_empty_string(
+    ftl_project: &FtlStorage,
+    id: &str,
+    property: MatchingProperty,
+) -> Result<bool, ProtoNotFound> {
+    let Some(prototype) = ftl_project.find_prototype(id) else {
+        return Err(ProtoNotFound);
+    };
+
+    let prototype = prototype.borrow();
+
+    let s = match property {
+        MatchingProperty::Name => &prototype.name(),
+        MatchingProperty::Description => &prototype.description(),
+        MatchingProperty::Suffix => &prototype.suffix(),
+    };
+
+    match s {
+        None => Ok(true),
+        Some(StringOrOtherId::Empty) => Ok(true),
+        Some(StringOrOtherId::String(s)) => Ok(s.is_empty()),
+        Some(StringOrOtherId::Id(id)) => check_if_proto_has_empty_string(ftl_project, id, property),
+    }
 }
