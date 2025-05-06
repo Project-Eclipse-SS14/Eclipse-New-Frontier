@@ -16,4 +16,6 @@ public sealed class EclipseCCVars
 
     public static readonly CVarDef<bool> EmergencyShuttleAutoCallEnabled =
         CVarDef.Create("eclipse.shuttle_auto_call_enabled", true, CVar.SERVERONLY);
+    public static readonly CVarDef<string> DiscordBanNotificationWebhook =
+        CVarDef.Create("discord.ban_notification_webhook", string.Empty, CVar.SERVERONLY);
 }
