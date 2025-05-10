@@ -1,6 +1,6 @@
 # HASH: 019df204a2982940faba576904a89685b0d9079613f1ebf2ccae1f7113eb2c19
-ent-SpaceCash = spesos
-    .desc = You gotta have money.
+ent-SpaceCash = кредиты
+    .desc = Нужно иметь деньги.
 # HASH: 5fa1d77187a0ca0b8204334e449ebf52bd9a4b381cc3de0a3b63f305146d3266
 ent-SpaceCash10 = { ent-SpaceCash }
     .desc = { ent-SpaceCash.desc }

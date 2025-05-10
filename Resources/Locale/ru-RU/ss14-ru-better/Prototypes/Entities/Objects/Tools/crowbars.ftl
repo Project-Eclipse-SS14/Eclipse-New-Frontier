@@ -1,12 +1,12 @@
 # HASH: 7639655fd8446ff6eb4ed1637f093ce5640234b971eda1df7bb5d036ef96458e
-ent-BaseCrowbar = crowbar
+ent-BaseCrowbar = монтировка
     .desc = { ent-BaseItem.desc }
 # HASH: 0eafe40f56a3b26f9c2afaf5340c79fc71603f79f51f2c76cefdbb8742940416
 ent-Crowbar = { ent-BaseCrowbar }
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders.
+    .desc = Многофункциональный инструмент для открывания дверей и борьбы с межпространственными захватчиками.
 # HASH: 27d478c8d061f9265c9487d2a0f9fdcc91c5d39a1ccbf46b2ffcea5bc7aa7c6b
-ent-CrowbarRed = emergency crowbar
-    .desc = An emergency crowbar designed to pry open doors and firelocks during power outages.
+ent-CrowbarRed = аварийная монтировка
+    .desc = Аварийный лом, предназначенный для открывания дверей и замков во время отключения электричества.
 # HASH: c0761a008e56e571644e9c70a3167806c4c94c3d3fe064ec8037dfc363bc62af
 ent-CrowbarGreen = { ent-BaseCrowbar }
     .desc = A multipurpose tool to pry open doors and fight interdimensional invaders, printed from an autolathe.

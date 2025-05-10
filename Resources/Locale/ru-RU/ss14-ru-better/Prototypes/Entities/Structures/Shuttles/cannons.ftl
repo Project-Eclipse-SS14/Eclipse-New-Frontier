@@ -1,21 +1,21 @@
 # HASH: 6298d18cdcbd8a0cd5a491850c42d71ccccd974802974ffa829239b607359cd7
-ent-ShuttleGunBase = shittle gun
-    .desc = { ent-BaseStructure.desc }
+ent-ShuttleGunBase = пушка щиттла
+    .desc = { "" }
 # HASH: a6d428505cbba120a2b17f621368a31930db43d5c8c04f6ba82afe5d59d79d50
-ent-ShuttleGunSvalinnMachineGun = LSE-400c "Svalinn machine gun"
-    .desc = Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire.
+ent-ShuttleGunSvalinnMachineGun = LSE-400c "Пулемёт Свалинн"
+    .desc = Базовая стационарная лазерная установка. Эффективна против живой силы и электроприборов. Для стрельбы использует обычые батареи и обладает чрезвычайно высокой скорострельностью.
 # HASH: 4667afa1d6495ea97ccc662dee7dda6fba6266a1c8d04ec45df5fd2e04b16cbb
-ent-ShuttleGunPerforator = LSE-1200c "Perforator"
-    .desc = Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
+ent-ShuttleGunPerforator = LSE-1200c "Перфоратор"
+    .desc = Продвинутая стационарная лазерная установка. Уничтожает электроприборы и чрезвычайно опасна для здоровья! Для стрельбы использует энергоячейки.
 # HASH: c5973b6c0887eb8042c3ee8c59f49d6c72546f5aad3ca626970a58103134c2d7
-ent-ShuttleGunFriendship = EXP-320g "Friendship"
-    .desc = A small stationary grenade launcher that holds 2 grenades.
+ent-ShuttleGunFriendship = EXP-320g "Дружба"
+    .desc = Небольшой стационарный гранатомёт, вмещающий 2 гранаты.
 # HASH: 56927c10649af21c33423c059303dc5a8788e57dfd912359ec8c895ac3871ade
-ent-ShuttleGunDuster = EXP-2100g "Duster"
-    .desc = A powerful stationary grenade launcher. A cartridge is required for use.
+ent-ShuttleGunDuster = EXP-2100g "Дастер"
+    .desc = Мощный стационарный гранатомёт. Для стрельбы необходим картридж.
 # HASH: 661eef628384240b55514a477d797bafc61c66110ef0a38297e2df706c16b28b
-ent-ShuttleGunPirateCannon = pirate ship cannon
-    .desc = Kaboom!
+ent-ShuttleGunPirateCannon = пушка пиратского корабля
+    .desc = Кабум!
 # HASH: 7aa9f7c4f5a41849f641c0668267c5fdeb3d84f3060e3cff1780688225dcd6ba
-ent-ShuttleGunKinetic = PTK-1500e "Matter Dematerializer"
-    .desc = Mining turret, effective for blasting hardened targets, but overpowered for softer rock. Gradually accumulates charges on its own.
+ent-ShuttleGunKinetic = PTK-800 "Дематериализатор материи"
+    .desc = Стационарная добывающая турель утилизаторов. Самостоятельно накапливает заряды, чрезвычайно эффективна при раскопке астероидов.

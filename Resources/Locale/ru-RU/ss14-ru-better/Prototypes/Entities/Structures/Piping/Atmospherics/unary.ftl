@@ -2,40 +2,40 @@
 ent-GasUnaryBase = { ent-GasPipeBase }
     .desc = { ent-GasPipeBase.desc }
 # HASH: fca3a5447b587ea57a82eefb3bb0bfcf8909c12548505276d0eac52a37a650db
-ent-GasVentPump = air vent
-    .desc = Has a valve and a pump attached to it.
+ent-GasVentPump = вентиляция
+    .desc = Имеет клапан и прикреплённый к нему насос.
 # HASH: 641f399cda00cd34e55c1203663073da8d74ed625feaf214e3a71f8dc4c57b00
-ent-GasPassiveVent = passive vent
-    .desc = It's an open vent.
+ent-GasPassiveVent = пассивная вентиляция
+    .desc = Это открытая вентиляция.
 # HASH: 071be90f6884b5d9db32ee100817f2666e2cc83bfa61489329bfe3661697627a
-ent-GasVentScrubber = air scrubber
-    .desc = Has a valve and pump attached to it.
+ent-GasVentScrubber = скруббер
+    .desc = Он же вытяжка. Имеет клапан и прикреплённый к нему насос.
 # HASH: 8340b1c3c1afeff336339fab614722bbe8fcd2677a938144507dcd4ad49b5d3b
-ent-GasOutletInjector = air injector
-    .desc = Has a valve and pump attached to it.
+ent-GasOutletInjector = инжектор
+    .desc = Он же форсунка. Имеет клапан и прикреплённый к нему насос.
 # HASH: efff0a4e6daf7c3cd306d4506860e219cd5a5e362336be20c568708b33b05925
-ent-BaseGasThermoMachine = thermomachine
+ent-BaseGasThermoMachine = термомашина
     .desc = { "" }
 # HASH: 94641d8ff498c68e30d45f3b30fcd810d371e7226f65dbfe40371d973ed3504b
-ent-GasThermoMachineFreezer = freezer
-    .desc = Cools gas in connected pipes.
+ent-GasThermoMachineFreezer = охладитель
+    .desc = Охлаждает газ в присоединённых трубах.
 # HASH: f3a54c6b3ceabac98f6db0c7e794fcc12c9e13623624b69de88e44512b682aa4
 ent-GasThermoMachineFreezerEnabled = { ent-GasThermoMachineFreezer }
     .desc = { ent-GasThermoMachineFreezer.desc }
-    .suffix = Enabled
+    .suffix = Включено
 # HASH: 6170c00794935a7ac9caa9a3451e4220bc6a569382754b1c36412fd84a8d7c69
-ent-GasThermoMachineHeater = heater
+ent-GasThermoMachineHeater = нагреватель
     .desc = Heats gas in connected pipes.
 # HASH: b333733db79ee9d6d1a8191cd8d01ade5746afba86c11767b9263090034326e6
 ent-GasThermoMachineHeaterEnabled = { ent-GasThermoMachineHeater }
     .desc = { ent-GasThermoMachineHeater.desc }
-    .suffix = Enabled
+    .suffix = Включено
 # HASH: e232b719f309cadaf45cfcad9e887b3f584dc1a46d5554d5d957f89d819f606c
-ent-GasThermoMachineHellfireFreezer = hellfire freezer
-    .desc = An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
+ent-GasThermoMachineHellfireFreezer = адский охладитель
+    .desc = Продвинутое устройство, охлаждающее газ в присоединённых трубах. Побочный эффект - охлаждение окружающего пространства. Холодно как в аду!
 # HASH: fc240b19473848fef946d60b58fbdb5c60e346d62ac9bb920c58a0d702521dd1
-ent-GasThermoMachineHellfireHeater = hellfire heater
-    .desc = An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
+ent-GasThermoMachineHellfireHeater = адский нагреватель
+    .desc = Продвинутое устройство, нагревающее газ в присоединённых трубах. Побочный эффект - нагревание окружающего пространства. Жарко как в аду!
 # HASH: 083a7668d0d331254ed89163277cad9f5ed218311dda2c40043760506f23991c
-ent-BaseGasCondenser = condenser
-    .desc = Condenses gases into liquids. Now we just need some plumbing.
+ent-BaseGasCondenser = конденсатор газа
+    .desc = Конденсирует газы в жидкости. Осталось только провести водопровод.
