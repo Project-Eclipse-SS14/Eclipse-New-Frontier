@@ -1,16 +1,16 @@
 # HASH: 5cb25981733e432b29c7850bda7aef4f25e3014c83bcbb7234b859fbb24f2d33
-ent-HappyHonkMcCargo = mccargo meal
+ent-HappyHonkMcCargo = закуски каргонии
     .desc = { ent-HappyHonk.desc }
 # HASH: f4ae98035bd039a0f23f72024f761dcef1d38f29927b77e642bb8aab889312ca
 ent-HappyHonkMcCargoFood = { ent-HappyHonkMcCargo }
     .desc = { ent-HappyHonkMcCargo.desc }
 # HASH: e323aba9c85c5dc4a41f470f1671b98d4367d71b1adc7ce821b22131d0fc093a
-ent-FoodBoxSushi = sushi tray
-    .desc = Plastic sushi container with lid.
+ent-FoodBoxSushi = контейнер для роллов
+    .desc = Пластиковый контейнер с крышкой для роллов.
 # HASH: b18107b1e1b460c6ba914325e835fbfe5f7bcce0e95f83d5c5ff7da8abfe31e9
 ent-FoodBoxSushiBad = { ent-FoodBoxSushi }
     .desc = { ent-FoodBoxSushi.desc }
-    .suffix = Bad
+    .suffix = С заправки
 # HASH: 2fe2d6cfc6102729409cf189f71f2e56e92d22091e42f3444a4e93056a5ec744
 ent-BoxMREEmpty = { ent-BoxMRE }
     .desc = { ent-BoxMRE.desc }

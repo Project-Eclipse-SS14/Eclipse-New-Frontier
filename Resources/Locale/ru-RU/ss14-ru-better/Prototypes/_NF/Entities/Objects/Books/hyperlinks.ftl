@@ -5,5 +5,5 @@ ent-BaseHyperlinkBook = { ent-BaseItem }
 ent-NFHyperlinkBookSpaceLaw = space law
     .desc = A big book of laws for space courts.
 # HASH: 5e5513523d7fab3cce03cbf1e20f3ffca876834d57970566fd934c8a5eafa7f0
-ent-HyperlinkBookNfsdSop = NFSD SOP manual
-    .desc = A book defining NFSD standard operating procedures.
+ent-HyperlinkBookNfsdSop = СРП ДСБФ
+    .desc = Книга содержащая стандартные рабочие процедуры ДСБФ.
