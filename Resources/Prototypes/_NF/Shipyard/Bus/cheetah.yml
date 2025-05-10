@@ -21,7 +21,7 @@
   minPlayers: 0
   stations:
     Cheetah:
-      stationProto: StandardFrontierVessel
+      stationProto: BusVessel
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Bus {1}' # Will be overwritten
