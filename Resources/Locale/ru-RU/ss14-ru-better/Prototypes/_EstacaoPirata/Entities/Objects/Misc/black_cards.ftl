@@ -5,7 +5,7 @@ ent-CardBoxBlack = black deck box
 ent-CardDeckBlack = deck of cards
     .desc = { ent-CardDeckBase.desc }
 # HASH: e806372f5cc375a8ba51957bd3d51251834219ed4daaa552a4bc538d41daafc9
-ent-CardBase = card
+ent-CardBase = карта
     .desc = { ent-BaseItem.desc }
 # HASH: 6ad6e4b5a9aa77d60926152cdd797faf37589cbf2e46309c2c9c4e80168a22f2
 ent-CardSc2OfClubsBlack = { ent-CardBase }

@@ -62,7 +62,7 @@ ent-NFAsteroidScrapBotWallSpawner = asteroid scrap bot rock spawner
     .desc = { ent-MarkerBase.desc }
     .suffix = 45
 # HASH: 2061256ff1c23d7e422619e9c3fcb5038e0cfbd1a166fd376a10ff1a2b479987
-ent-NFSalvageMaterialCrateSpawner = Salvage Material Crate Spawner
+ent-NFSalvageMaterialCrateSpawner = спавнер утилизационного ящика материалов
     .desc = { ent-SalvageMaterialCrateSpawner.desc }
 # HASH: b57111be92802a96a622de55fe6d2e24d8ba3aaec842bca7ed7c690be863cb3a
 ent-NFSalvageTankSpawnerHighCapacity = salvage tank spawner

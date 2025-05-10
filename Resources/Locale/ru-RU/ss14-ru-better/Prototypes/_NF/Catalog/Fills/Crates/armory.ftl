@@ -1,132 +1,132 @@
 # HASH: 6c9ffe6a665508af3ca6145c1a20c422ffef1ce020caaa2cf98de865348d0801
-ent-CrateArmoryRifleGestio = gestio rifle crate
-    .desc = Contains two old prototype, burst-fire rifles with six low capacity mags. Requires Armory access to open.
+ent-CrateArmoryRifleGestio = ящик винтовок "Жест"
+    .desc = Содержит две старые скорострельные прототипные винтовки класса "Жест" и шесть магазинов для них. Чтобы открыть необходим доступ уровня Оружейной.
 # HASH: 89dfcd580e7ede985495cf2f397cdf5b89f27ff283b13606254d4cdd7ce98f80
-ent-CrateArmorySMGExpedition = SMG crate
-    .desc = Contains two high-powered, SMGs with four mags. Requires Armory access to open. Unregistered.
+ent-CrateArmorySMGExpedition = ящик пистолетов-пулемётов
+    .desc = Содержит два мощных пистолета-пулемёта и четыре магазина. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 48c2b872e89bf40d32417a60b9e5d72dbddcdfd0dce771e5261d2ebc2d3c0e84
-ent-CrateArmoryShotgunExpedition = shotgun crate
-    .desc = For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open. Unregistered.
+ent-CrateArmoryShotgunExpedition = ящик дробовиков
+    .desc = Когда необходимо нашпиговать врага свинцом. Содержит два дробовика Силовик, и немного обычных ружейных патронов. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 199e5cfbf1c652f2d6203babf21f734eaae091c3d98a9a5ebbfd0019883cc3e2
-ent-CrateArmoryLaserExpedition = lasers crate
-    .desc = Contains three standard-issue laser carbines. Requires Armory access to open. Unregistered.
+ent-CrateArmoryLaserExpedition = ящик лазеров
+    .desc = Содержит три стандартные лазерные винтовки. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 8418c908cbfea5a9bcc6ded88f9aeff34a271e0007bbd51511cfd44c058d4f8b
-ent-CrateArmoryEnergyGunExpedition = energy guns crate
-    .desc = Contains three energy guns. Requires Armory access to open. Unregistered.
+ent-CrateArmoryEnergyGunExpedition = ящик энергетического оружия
+    .desc = Содержит три энергетических винтовки. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 03e354287cf7051d01f796caa880ff794bbd3aa4e3d215c0ca583b59c34da8d0
-ent-CrateArmoryPistolsExpedition = pistols crate
-    .desc = Contains two standard NT pistols with four mags. Requires Armory access to open. Unregistered.
+ent-CrateArmoryPistolsExpedition = ящик пистолетов
+    .desc = Содержит два стандартных пистолета Nanotrasen, и 4 магазина к ним. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 9da36b87213c7e974a17c13105bcdc903205034835da7999f595f1576ef7baa9
-ent-CrateArmoryRifleGestioExpedition = gestio rifle crate
-    .desc = Contains two old prototype, burst-fire rifles with six low capacity mags. Requires Armory access to open. Unregistered.
+ent-CrateArmoryRifleGestioExpedition = ящик винтовок
+    .desc = Содержит две старые скорострельные прототипные винтовки класса "Жест" и шесть магазинов для них. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 7b98b1e22b952a3fc8ff5c82295a1339c7bfb6b3e0eb1c000ea69a7cd3b2e29b
-ent-CrateArmoryRifleNovaliteC1Expedition = novalite rifle crate
-    .desc = Contains two civilian grade rifles with six low capacity clips. Requires Armory access to open. Unregistered.
+ent-CrateArmoryRifleNovaliteC1Expedition = ящик винтовок "Новалит"
+    .desc = Содержит две винтовки гражданского назначения класса "Новалит" с шестью обоймами малой емкости. Чтобы открыть необходим доступ уровня Оружейной. Контрабанда.
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethal20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxBigLethal20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubber20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxBigRubber20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPractice20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxIncendiary20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxUranium20 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethal30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxBigLethal30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubber30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPractice30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxIncendiary30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxUranium30 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethal35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubber35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPractice35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxIncendiary35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxUranium35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxEmp35 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethal25 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxBigLethal25 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubber25 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxBigRubber25 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPractice25 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethalShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubberShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPracticeShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxIncendiaryShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxUraniumShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxSlugShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxFlareShotgun = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxLethal45 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxRubber45 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxPractice45 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxIncendiary45 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }
 # HASH: 911ffa08959b340c819347ae970f7a1e30d92e47892a39d80ad874093dd4eae4
 ent-CrateAmmoBoxUranium45 = { ent-CrateAmmoSecureMercenary }
-    .desc = { ent-CrateGeneric.desc }
+    .desc = { ent-CrateAmmoSecureMercenary.desc }

@@ -1,11 +1,11 @@
 # HASH: 7bdfe7796c60b898ec7b366c01ab95b4ad6be7a207247783127884935a24e47a
-ent-SyndieDuffelGiftBox = syndicate naval operative bundle
-    .desc = Loot boxes? Here?
-    .suffix = NPC Loot
+ent-SyndieDuffelGiftBox = набор оперативника синдиката
+    .desc = Лутбоксы? Тут?
+    .suffix = Лут НПС
 # HASH: 7bdfe7796c60b898ec7b366c01ab95b4ad6be7a207247783127884935a24e47a
-ent-SyndieMessengerGiftBox = syndicate naval operative bundle
-    .desc = Loot boxes? Here?
-    .suffix = NPC Loot
+ent-SyndieMessengerGiftBox = набор оперативника синдиката
+    .desc = Лутбоксы? Тут?
+    .suffix = Лут НПС
 # HASH: c7956686ad93ba99627900af7bea733b2f268caa780eb5cd34093b25389bf047
 ent-ClothingBackpackSyndicateCaptainLootA = { ent-SyndieMessengerGiftBox }
     .desc = { ent-SyndieMessengerGiftBox.desc }

@@ -1,7 +1,7 @@
 # HASH: 107a318e78846ec766015b2b8a7382644b30a82e9a75c3ecae9213c8df55a3f9
 ent-SalvageSpawnerScrapBrass75 = { ent-SalvageSpawnerScrapCommon }
     .desc = { ent-SalvageSpawnerScrapCommon.desc }
-    .suffix = Brass, 75%
+    .suffix = Латунь, 75%
 # HASH: 677e47c9fc4d715553b1b70adef7d4524eeacb61225bd1df35476a152a2a5c5e
 ent-SalvageSpawnerScrapBrass100 = { ent-SalvageSpawnerScrapBrass75 }
     .desc = { ent-SalvageSpawnerScrapBrass75.desc }

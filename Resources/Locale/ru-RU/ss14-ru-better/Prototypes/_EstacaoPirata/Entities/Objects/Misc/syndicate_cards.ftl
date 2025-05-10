@@ -1,11 +1,11 @@
 # HASH: 864345daea2343dc4ef2f834edc12a520c881d2ed54c613b42ea0a13bc80f1e7
-ent-CardBaseSyndicate = card
+ent-CardBaseSyndicate = карта
     .desc = { ent-CardBase.desc }
 # HASH: a7b17bc034bc587f83bbb4aa408ba0f3eb3297fb2e3a103da1715d7884394810
-ent-CardBoxSyndicate = syndicate deck box
+ent-CardBoxSyndicate = коробка с картами Синдиката
     .desc = { ent-CardBoxBase.desc }
 # HASH: b1b48d9e5131df77b79a9cf7aa4b117a5ccaf9ce8241752e6e08e0f47d057f50
-ent-CardDeckSyndicate = deck of cards
+ent-CardDeckSyndicate = колода карт
     .desc = { ent-CardDeckBase.desc }
 # HASH: 5ec19de585e234e56cc3d07b53eb8c14224340e9cf8ab1ba371678e09a528a1d
 ent-CardSc2OfClubsSyndicate = { ent-CardBaseSyndicate }

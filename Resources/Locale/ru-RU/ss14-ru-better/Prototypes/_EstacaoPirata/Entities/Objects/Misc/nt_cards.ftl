@@ -1,11 +1,11 @@
 # HASH: 864345daea2343dc4ef2f834edc12a520c881d2ed54c613b42ea0a13bc80f1e7
-ent-CardBaseNanotrasen = card
+ent-CardBaseNanotrasen = карта
     .desc = { ent-CardBase.desc }
 # HASH: 2c0685edb48ad6bfb695c49c3bb321f88d05f59507565dafd62b20f43838fdd3
-ent-CardBoxNanotrasen = nanotrasen deck box
+ent-CardBoxNanotrasen = корбка с картами Nanotrasen
     .desc = { ent-CardBoxBase.desc }
 # HASH: b1b48d9e5131df77b79a9cf7aa4b117a5ccaf9ce8241752e6e08e0f47d057f50
-ent-CardDeckNanotrasen = deck of cards
+ent-CardDeckNanotrasen = колода карт
     .desc = { ent-CardDeckBase.desc }
 # HASH: b2ac70d1e16773f85b369a95af1b423ef6066b7b61bd844a4663e0dbe8708002
 ent-CardSc2OfClubsNanotrasen = { ent-CardBaseNanotrasen }

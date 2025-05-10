@@ -2,5 +2,5 @@
 ent-ClothingOuterHardsuitBaseNF = { ent-ClothingOuterHardsuitBase }
     .desc = { ent-ClothingOuterHardsuitBase.desc }
 # HASH: 2fb82a53f0f403eafc37605197c5665094c6d3d449827f4758c451d85ea36e71
-ent-ClothingOuterHardsuitBaseNFNfsd = { ent-ClothingOuterHardsuitBase }
+ent-ClothingOuterHardsuitBaseNFNfsd = { ent-ClothingOuterHardsuitBaseNF }
     .desc = { "" }

@@ -70,15 +70,15 @@ ent-MobHumanoidHostileAIComplex = { "" }
 # HASH: 32c4d4d1c0081a810b188782afea8fb8bf851a68534a502f14e159d9655432fb
 ent-MobHumanoidHostileBase = { "" }
     .desc = { "" }
-    .suffix = AI, Hostile
+    .suffix = ИИ, Враждебный
 # HASH: 32c4d4d1c0081a810b188782afea8fb8bf851a68534a502f14e159d9655432fb
 ent-MobNonHumanHostileBase = { "" }
     .desc = { "" }
-    .suffix = AI, Hostile
+    .suffix = ИИ, Враждебный
 # HASH: 5e224d585ea739281353d4cec9e905aacb79776ee05fdb9d16e11d7690e225af
 ent-NFMobSimpleHostileBase = { "" }
     .desc = { "" }
-    .suffix = Frontier, Hostile
+    .suffix = Фронтир, Враждебный
 # HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 ent-NFMobRoadkillable = { "" }
     .desc = { "" }
