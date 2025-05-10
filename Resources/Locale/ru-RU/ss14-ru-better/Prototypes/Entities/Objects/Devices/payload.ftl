@@ -2,11 +2,11 @@
 ent-BasePayload = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 # HASH: 2f968e1e3abd607b932c2f47069c116be5d85e9d4b289930d86360071ccb7cf7
-ent-ExplosivePayload = explosive payload
+ent-ExplosivePayload = разрывной заряд
     .desc = { "" }
 # HASH: 4fec1ada4760547dcaa86393c9ba57d162da1f62d965a8eb9922d1ec6de334e4
-ent-ChemicalPayload = chemical payload
-    .desc = A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+ent-ChemicalPayload = химический заряд
+    .desc = Химический заряд. Имеется место для двух мензурок. В сочетании с запалом и корпусом может использоваться для запуска химических реакций.
 # HASH: 3e03f5d9efc6810b70c84cb2f78cd343c92a8ac7bbc4524027200f6f8724c36f
-ent-FlashPayload = flash payload
-    .desc = A single-use flash payload.
+ent-FlashPayload = светошумовой заряд
+    .desc = Одноразовый светошумовой заряд.

@@ -11,8 +11,8 @@ ent-SpaceCash100000 = { ent-SpaceCash }
     .desc = { ent-SpaceCash.desc }
     .suffix = 100000
 # HASH: 4f0eb1acb003c998e59b7275c989e8be55e754751214bcf62f1727e570ef82e1
-ent-SpaceCashCounterfeit = spessos
-    .desc = You gotta heve mony.
+ent-SpaceCashCounterfeit = кредиты
+    .desc = Всем нужны деньги.
 # HASH: 95375bef4adbda7ea85b46286f4a9b81aff3a1a2416fc5d9cbe16d97c7158725
 ent-SpaceCashCounterfeit200000 = { ent-SpaceCashCounterfeit }
     .desc = { ent-SpaceCashCounterfeit.desc }

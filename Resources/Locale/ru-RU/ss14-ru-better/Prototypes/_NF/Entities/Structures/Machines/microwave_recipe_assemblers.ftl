@@ -1,15 +1,15 @@
 # HASH: fcccb6a9972fa649031920ae1ab8cbf61dc6de9fa58da76ea1c38d0ced43b0f8
-ent-KitchenElectricRange = electric range
-    .desc = A functional range with a range of functions.
+ent-KitchenElectricRange = электроплита
+    .desc = Представляет функциональный ассортимент с широким спектром функций.
 # HASH: 0a74a91b8f69c499cf558f6153f9d250710f63e92db6e7ad6888b3b057ee76e0
-ent-SyndicateKitchenElectricRange = donk co. electric range
+ent-SyndicateKitchenElectricRange = электроплита "donk co."
     .desc = { ent-KitchenElectricRange.desc }
 # HASH: d6a9c74cd219f84f3a1980397d98fd5213535615d0a7b3e681fa7e66701dfb05
-ent-KitchenAssembler = food-o-mat
-    .desc = Assembles and prepares NT-approved meals. You don't know what it's doing in there.
+ent-KitchenAssembler = Фуд-О-Мат
+    .desc = Собирает и готовит блюда, одобренные NT. Вы даже не представляете, что он там делает.
 # HASH: 3948b8c27c629acaa6d77255676d285f5efea629a969629520233933b36ff644
-ent-MedicalAssembler = medical assembler
-    .desc = Great for medicine, apparently. You don't know how it works.
+ent-MedicalAssembler = Мед-О-Мат
+    .desc = Очевидно, это полезно для медицины. Очевидно, вы не знаете, как это работает.
 # HASH: db8fd1012dafb1d513bab324cf875378568cf03af5247e317ead06cf208b9635
 ent-KitchenMicrowavePOI = { ent-KitchenMicrowave }
     .desc = { ent-KitchenMicrowave.desc }
@@ -37,4 +37,4 @@ ent-KitchenDeepFryerPOI = { ent-KitchenDeepFryer }
 # HASH: 8c8c671aa3dccc33ca1bef24fd018c9d51908493f1144b1ebe0501f77cad94eb
 ent-KitchenDeepFryerCauldronPOI = { ent-KitchenDeepFryerCauldron }
     .desc = { ent-KitchenDeepFryerCauldron.desc }
-    .suffix = Holiday Special, POI
+    .suffix = Праздничный, POI

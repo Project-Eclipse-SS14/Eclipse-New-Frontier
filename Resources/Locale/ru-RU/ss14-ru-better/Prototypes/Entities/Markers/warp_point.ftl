@@ -7,4 +7,4 @@ ent-WarpPointBeacon = warp point (beacon)
 # HASH: 54df99a1da75373f4a6b0e012da6e641d9c1f92bb18d5dc0cf200e4388879cea
 ent-WarpPointBombing = warp point
     .desc = { ent-WarpPoint.desc }
-    .suffix = ninja bombing target
+    .suffix = Цель взрыва бомбы ниндзя

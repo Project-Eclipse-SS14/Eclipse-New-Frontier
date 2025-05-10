@@ -2,11 +2,11 @@
 ent-MobSkeletonPerson = { ent-BaseMobSkeletonPerson }
     .desc = { ent-BaseMobSkeletonPerson.desc }
 # HASH: 5b8e60552fb120ab5380fdc4c3a0f5ea75618e1a546c7a6460a35c1ebd9ebed8
-ent-MobSkeletonPirate = skeleton pirate
+ent-MobSkeletonPirate = скелет-пират
     .desc = { ent-MobSkeletonPerson.desc }
 # HASH: 872e9733bbbcf25eb2fa4611a50f765b04e246ca9a9074a4d683dbae688f01bb
-ent-MobSkeletonBiker = skeleton biker
+ent-MobSkeletonBiker = скелет-байкер
     .desc = { ent-MobSkeletonPerson.desc }
 # HASH: 2153ec8578ccae33fee46d293eaa5b242150ba41a6f2db8c2e45f78de079bbf5
-ent-MobSkeletonCloset = closet skeleton
+ent-MobSkeletonCloset = скелет из шкафа
     .desc = { ent-MobSkeletonPerson.desc }

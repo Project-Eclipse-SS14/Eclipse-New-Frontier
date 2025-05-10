@@ -2,12 +2,12 @@
 ent-PunkHoloGraffitiOverlay = { "" }
     .desc = { "" }
 # HASH: e3d2b9f56299b54097814cddf30eba6bb7876d501c36b6f141e72e35608990bc
-ent-SpawnerHoloGraffitiRandom = holograffiti
+ent-SpawnerHoloGraffitiRandom = голограффити
     .desc = { ent-MarkerBase.desc }
-    .suffix = Random
+    .suffix = Случайное
 # HASH: b141b316efd89b4d18039507a90e97e699f9ce0601f5f0adb039a16aaad1b7fe
-ent-HoloGraffiti = holograffiti
-    .desc = A graffiti composed of hard light. Can be easily removed by force.
+ent-HoloGraffiti = голограффити
+    .desc = Граффити из твердого света. Легко удаляется силой.
 # HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
 ent-HoloGraffitiSimple01 = { ent-HoloGraffiti }
     .desc = { ent-HoloGraffiti.desc }

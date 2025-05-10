@@ -1,24 +1,24 @@
 # HASH: 15c0dce75ae8c88d62d6ae9006f9fcc95d37ffc864c4a934a1bd948fce8985f9
-ent-CrateFoodPizza = { ent-CratePlasticBiodegradable }
-    .desc = { ent-CratePlasticBiodegradable.desc }
+ent-CrateFoodPizza = экстренная доставка пиццы
+    .desc = Внесите свой вклад в борьбу с голодом на станции, доставляя пиццу в отделы с недостаточным финансированием! В комплект входят 4 пиццы.
 # HASH: 15c0dce75ae8c88d62d6ae9006f9fcc95d37ffc864c4a934a1bd948fce8985f9
-ent-CrateFoodPizzaLarge = { ent-CratePlasticBiodegradable }
-    .desc = { ent-CratePlasticBiodegradable.desc }
+ent-CrateFoodPizzaLarge = катастрофическая доставка пиццы
+    .desc = Даже когда всё вокруг рушится, найдите утешение в том, что много пиццы решит все проблемы. В комплект входят 16 пицц.
 # HASH: 40f333985db0d8ab49fc43609cbdec194cf641d9372e1e3d439dfa200fd7395d
-ent-CrateFoodMRE = MRE crate
-    .desc = A military style meal fit to feed a whole department.
+ent-CrateFoodMRE = ящик ИРП
+    .desc = Армейские обеды, которыми можно накормить целый отдел.
 # HASH: 470402470c8936613ccccd2b6e912b7a9598db8f52afe2aff9eda9618de050ca
-ent-CrateFoodCooking = kitchen supplies crate
-    .desc = Extra kitchen supplies, in case the botanists are absent.
+ent-CrateFoodCooking = ящик кухонных припасов
+    .desc = Дополнительные кухонные припасы на случай отсутствия ботаников.
 # HASH: 4554340d980c519e7204bc6b7cd437c8b20a87a4155fb74eff78eb0c10aab50e
-ent-CrateFoodDinnerware = kitchen dinnerware crate
-    .desc = Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+ent-CrateFoodDinnerware = ящик кухонных принадлежностей
+    .desc = Дополнительные кухонные припасы на случай, если клоуна оставили на кухне без надзора.
 # HASH: c5c88266c8d22acb9b7138513603e17e053711240d08feaecf87be97a22c7aac
-ent-CrateFoodBarSupply = bartending supplies crate
-    .desc = Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+ent-CrateFoodBarSupply = ящик барных принадлежностей
+    .desc = Дополнительные барные припасы на случай, если клоуна оставили за барной стойкой без надзора.
 # HASH: 15c0dce75ae8c88d62d6ae9006f9fcc95d37ffc864c4a934a1bd948fce8985f9
-ent-CrateFoodSoftdrinks = { ent-CratePlasticBiodegradable }
-    .desc = { ent-CratePlasticBiodegradable.desc }
+ent-CrateFoodSoftdrinks = ящик газировки
+    .desc = Разнообразная газировка для небольшой вечеринки, без необходимости опустошать соответствующие торгоматы. В комплект входят 14 банок газировки.
 # HASH: 15c0dce75ae8c88d62d6ae9006f9fcc95d37ffc864c4a934a1bd948fce8985f9
-ent-CrateFoodSoftdrinksLarge = { ent-CratePlasticBiodegradable }
-    .desc = { ent-CratePlasticBiodegradable.desc }
+ent-CrateFoodSoftdrinksLarge = оптовый ящик газировки
+    .desc = Большое количество банок газировки, извлечённых прямо из торгоматов Центкома, ведь вы просто не можете покинуть свой отдел. Включает 28 банок газировки.

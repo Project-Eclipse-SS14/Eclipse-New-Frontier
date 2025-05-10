@@ -1,14 +1,14 @@
 # HASH: 9a7c34492917e6b77c0e52286a0163ba0a689dcbf32e5fb2d591861e72a57563
-ent-FloorTileItemGrassDark = dark grass floor
+ent-FloorTileItemGrassDark = плитка тёмной травы
     .desc = { ent-FloorTileItemBase.desc }
 # HASH: 80ba64475ee6c51de9d3298df437193eae6427b000314a9430570d87486e7c76
-ent-FloorTileItemGrassLight = light grass floor
+ent-FloorTileItemGrassLight = плитка светлой травы
     .desc = { ent-FloorTileItemBase.desc }
 # HASH: efeac29d62ca534caa27753c20cd72294836e83345e914f49c77da27c5b23c09
-ent-FloorTileItemDirt = dirt floor
+ent-FloorTileItemDirt = грязь
     .desc = { ent-FloorTileItemBase.desc }
 # HASH: 53a4adcddd227b0a2484933cf40a391799d81d5be60afe081cb64434d4985acb
-ent-FloorTileItemBedrock = bedrock
+ent-FloorTileItemBedrock = камни
     .desc = { ent-FloorTileItemBase.desc }
 # HASH: 2525941328a0ed797436a62250c996c20c5dae24e2ae088c9d49aa5bc9675528
 ent-FloorTileItemGoldMono = gold mono tile

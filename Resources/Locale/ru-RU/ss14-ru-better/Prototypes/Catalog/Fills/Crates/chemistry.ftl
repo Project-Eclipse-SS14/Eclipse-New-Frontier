@@ -1,12 +1,12 @@
 # HASH: 8968ba513cfc1199b68ac94ea3f0ba0376a473c8f19197424414a456bde34a23
-ent-CrateChemistryP = chemicals crate (P)
-    .desc = Contains chemicals from the P-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryP = ящик химикатов (P-элементы)
+    .desc = Содержит химические вещества из P-блока элементов. Чтобы открыть необходим уровень доступа Химия.
 # HASH: 621dd014d6b74d2b40b5e4001272eb5a05c351bbbe5017d84c04e3884bd2e41d
-ent-CrateChemistryS = chemicals crate (S)
-    .desc = Contains chemicals from the S-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryS = ящик химикатов (S-элементы)
+    .desc = Содержит химические вещества из S-блока элементов. Чтобы открыть необходим уровень доступа Химия.
 # HASH: bfcf076d2e3677662bef2f3505efd608c690ba89f261c8cfc0af7d22cea662a2
-ent-CrateChemistryD = chemicals crate (D)
-    .desc = Contains chemicals from the D-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryD = ящик химикатов (D-элементы)
+    .desc = Содержит химические вещества из D-блока элементов. Чтобы открыть необходим уровень доступа Химия.
 # HASH: fc0d8a675394e4b0921c081079ce8990257037b86732d9f972faa68abddef63a
-ent-CratePlantBGone = bulk Plant-B-Gone crate
-    .desc = From Monstano. "Unwanted Weeds, Meet Your Celestial Roundup!"
+ent-CratePlantBGone = ящик гербицида Plant-B-Gone
+    .desc = Из Монстано. "Назойливые сорняки, встречайте свой смерть!"

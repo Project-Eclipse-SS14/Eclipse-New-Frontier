@@ -4,4 +4,4 @@ ent-BaseMailLarge = mail-large-item-name-unaddressed
 # HASH: 24c9d405a8a6e1f7c59ecae283997c199af4caa23f52bd53188e3c50553bc49c
 ent-MailLargeAdminFun = { ent-BaseMailLarge }
     .desc = { ent-BaseMailLarge.desc }
-    .suffix = adminfun
+    .suffix = адмеме

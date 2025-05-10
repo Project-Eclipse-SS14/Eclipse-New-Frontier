@@ -5,25 +5,25 @@ ent-NFBaseWreckDebris = { ent-NFBaseDebris }
 ent-NFBaseWreckDebrisBrass = { ent-NFBaseDebris }
     .desc = { ent-NFBaseDebris.desc }
 # HASH: f22b807eb5609c0714e9d850dd51a89aef14f72348776ef308dfadcd069cf381
-ent-NFBaseWreckSmall = wreck debris small
+ent-NFBaseWreckSmall = Малый Обломок
     .desc = { "" }
 # HASH: 89b11cbe3b888e97e89d4df9bf623d51dfb44c8f0854c14c8d346cc5e5fdd7d2
-ent-NFBaseWreckMedium = wreck debris medium
+ent-NFBaseWreckMedium = Средний Обломок
     .desc = { "" }
 # HASH: 6c0cf5799f74cc02d7a468e0bf09195f46170f21b501f4756233465d5a262212
-ent-NFBaseWreckLarge = wreck debris large
+ent-NFBaseWreckLarge = Крупный Обломок
     .desc = { "" }
 # HASH: 8d5f17a9771c014f466bdfa5a43b1a4ca2efef4a7abe2e716d4afc7d5cacad0c
-ent-NFBaseWreckExtraLarge = wreck debris large extra large
+ent-NFBaseWreckExtraLarge = Большой Обломок
     .desc = { "" }
 # HASH: 974123f2a82f77b61f4795a81fa91b1e218f61cf4fd0c0012cf56578c473d0ab
-ent-NFBaseWreckHuge = wreck debris huge
+ent-NFBaseWreckHuge = Огромный Обломок
     .desc = { "" }
 # HASH: 26618b8a14f76710c2e72901375f139517ff6effa0e4aadc3feda431876868a9
-ent-NFBaseWreckExtraHuge = wreck debris extra huge
+ent-NFBaseWreckExtraHuge = Гигантский Обломок
     .desc = { "" }
 # HASH: cf46f5395d264c52cc09c62e7483e5488e15ec915a913fa58d3cd733b96435ff
-ent-NFBaseWreckEnormous = wreck debris enormous
+ent-NFBaseWreckEnormous = Громадный Обломок
     .desc = { "" }
 # HASH: f3662f6e3a0cf9cd689fe92745a09830a63e586405724535fecbbf545b7a2cd8
 ent-NFWreckDebrisSmall = { ent-NFBaseWreckSmall }

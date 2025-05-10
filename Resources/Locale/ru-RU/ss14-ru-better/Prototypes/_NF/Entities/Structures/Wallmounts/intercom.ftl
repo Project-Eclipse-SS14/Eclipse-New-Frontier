@@ -13,4 +13,4 @@ ent-ShuttleIntercomSyndicate = { ent-BaseShuttleIntercom }
 # HASH: 00ddde72909fdad367cc1500c632377b631eb11ac9174510479d72f48cddd51a
 ent-IntercomNfsd = { ent-IntercomSecurity }
     .desc = { ent-IntercomSecurity.desc }
-    .suffix = NFSD
+    .suffix = ДСБФ

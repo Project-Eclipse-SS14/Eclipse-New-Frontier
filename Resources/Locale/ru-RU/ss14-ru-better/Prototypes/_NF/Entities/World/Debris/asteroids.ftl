@@ -44,40 +44,40 @@ ent-NFBaseAsteroidRockGas = { "" }
 ent-NFBaseAsteroidScrapDebris = { ent-NFBaseDebris }
     .desc = { ent-NFBaseDebris.desc }
 # HASH: 918bfe0600dfb92af8b9a3ca144f42182f01fb7a3d52f5b96227ef236bdfb051
-ent-NFBaseAsteroidSmall = asteroid debris small
+ent-NFBaseAsteroidSmall = Малый Астероид
     .desc = { "" }
 # HASH: 7d9604829681470eef3911b65ca5e314be20facb566f8c4a13d3114f4721e699
-ent-NFBaseAsteroidMedium = asteroid debris medium
+ent-NFBaseAsteroidMedium = Средний Астероид
     .desc = { "" }
 # HASH: 8f9054af03852f7a86f81a41f0396ca72be3d7996d3bea9e07a611fe831a9ba2
-ent-NFBaseAsteroidLarge = asteroid debris large
+ent-NFBaseAsteroidLarge = Крупный Астероид
     .desc = { "" }
 # HASH: 986c49fba36a0f0a0cd0defec48eb945a280b325877d5f20db34d37b80bc2091
-ent-NFBaseAsteroidExtraLarge = asteroid debris extra large
+ent-NFBaseAsteroidExtraLarge = Большой Астероид
     .desc = { "" }
 # HASH: 6b3240b409c0f0397bce209f6d78d9d3903eb9785d369094cc890c91f5d03478
-ent-NFBaseAsteroidHuge = asteroid debris huge
+ent-NFBaseAsteroidHuge = Огромный Астероид
     .desc = { "" }
 # HASH: b25aca5ce8ab20aec198bbc4ce8e46312907409924b0c18e9e4604b13fb84132
-ent-NFBaseAsteroidExtraHuge = asteroid debris extra huge
+ent-NFBaseAsteroidExtraHuge = Огромный Астероид
     .desc = { "" }
 # HASH: c1b42aadcc9e9a73da85be7b882742b623371ad60ce13a988304dbd9c4e95720
-ent-NFBaseAsteroidEnormous = asteroid debris enormous
+ent-NFBaseAsteroidEnormous = Громадный Астероид
     .desc = { "" }
 # HASH: e2ea591d1c8758e3c89c89ecb85c78a17658cc64da0c2b9d37a04046d4dc20c6
-ent-NFBaseAsteroidExtraEnormous = asteroid debris extra enormous
+ent-NFBaseAsteroidExtraEnormous = Громадный Астероид
     .desc = { "" }
 # HASH: 42b9fa10a1333af9d3ec67a1835fcd8708f0baa827da57b78e4bcb5fdfe49d0c
-ent-NFBaseAsteroidMassive = asteroid debris massive
+ent-NFBaseAsteroidMassive = Массивный Астероид
     .desc = { "" }
 # HASH: bde31f2a41a41d98eb6cc0cf81e52d6c44b8b437b80774a4e4895c83a1a6892e
-ent-NFBaseAsteroidExtraMassive = asteroid debris extra massive
+ent-NFBaseAsteroidExtraMassive = Массивный Астероид
     .desc = { "" }
 # HASH: 5508e68a6b3785c2d9ee3d3ccebb42d420f155e102bdfc8089f253bfbbe9df27
-ent-NFBaseAsteroidGigantic = asteroid debris gigantic
+ent-NFBaseAsteroidGigantic = Гигантский Астероид
     .desc = { "" }
 # HASH: b0655f2c503bbacd8cbde5d971590eeb16cf8f6343de966bc56057a20cd86d3d
-ent-NFBaseAsteroidExtraGigantic = asteroid debris extra gigantic
+ent-NFBaseAsteroidExtraGigantic = Гигантский Астероид
     .desc = { "" }
 # HASH: d179352520dbca87777127b9921cc0e0a0b3cb60317927a7f90f79b78770ad1e
 ent-NFAsteroidDebrisSmall = { ent-NFBaseAsteroidSmall }

@@ -1,7 +1,7 @@
 # HASH: 46d63af6b449231526527fcb7d7e4e000d39e45c23903358576d4c45bef45206
 ent-WindoorMurkyDungeon = { "" }
-    .desc = A windoor with murky glass, it's hard to see what's on the other side.
-    .suffix = Dungeon only, DO NOT MAP
+    .desc = Мутное раздвижное окно, трудно разглядеть, что находится по ту сторону.
+    .suffix = НЕ МАППИТЬ, ТОЛЬКО ЭКСПЫ
 # HASH: 5ac15a17e3278027f6779bade2fd05145dda1f2d5fa89bfa09770971d0d333b9
 ent-WindoorDungeon = { ent-Windoor }
     .desc = { ent-WindoorMurkyDungeon.desc }

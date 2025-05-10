@@ -1,6 +1,6 @@
 # HASH: 0e042c01e12df66a881bc4f90e85288c6cef27bc90d9dbdcc134fe8df4d0a306
-ent-BaseBorgChassis = cyborg
-    .desc = A man-machine hybrid that assists in station activity. They love being asked to state their laws over and over.
+ent-BaseBorgChassis = киборг
+    .desc = Гибрид машины и человека, помогающий в работе станции. Они обожают, когда их снова и снова просят назвать свои законы.
 # HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 ent-BaseBorgTransponder = { "" }
     .desc = { "" }
