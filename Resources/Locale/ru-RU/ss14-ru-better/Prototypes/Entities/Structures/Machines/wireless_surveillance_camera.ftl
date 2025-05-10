@@ -1,6 +1,6 @@
 # HASH: 5017fafdeef002ca3fdeb4433058e7f5af64fad6648f4e2372f6fb21ff44db9a
-ent-SurveillanceWirelessCameraBase = wireless camera
-    .desc = A camera. It's watching you. Kinda.
+ent-SurveillanceWirelessCameraBase = беспроводная камера
+    .desc = Камера. Она наблюдает за тобой. Вроде как.
 # HASH: c3256af090e0986f0351c4cf75b3d951e3f90c9b6fed2315b2799254b629e739
 ent-SurveillanceWirelessCameraAnchoredBase = { ent-SurveillanceWirelessCameraBase }
     .desc = { ent-SurveillanceWirelessCameraBase.desc }

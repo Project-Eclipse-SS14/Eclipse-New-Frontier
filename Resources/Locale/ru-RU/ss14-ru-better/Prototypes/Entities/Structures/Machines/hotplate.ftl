@@ -2,5 +2,5 @@
 ent-BaseHeaterMachine = { "" }
     .desc = { "" }
 # HASH: 4f17b526d625e00ad7582c21203edd9838a31864a822deb4cec0bb73e97dfc8c
-ent-ChemistryHotplate = hotplate
-    .desc = The descendent of the microwaves, our newest invention in beaker heating technology: the hotplate!
+ent-ChemistryHotplate = электроплитка
+    .desc = Потомок микроволновой печи, наше новейшее изобретение в технологии нагрева мензурок: электроплитка!

@@ -1,7 +1,7 @@
 # HASH: ab82789b68c2c618a3e96b89e54c89cc571c040b48a9f99d9e1e05336c9d0f55
-ent-PaperBin = paper bin
-    .desc = What secrets lie at the bottom of its endless stack?
-    .suffix = Empty
+ent-PaperBin = корзина для бумаг
+    .desc = Какие тайны лежат под её бесконечной стопкой?
+    .suffix = Пустой
 # HASH: 37f7e4575f9771a039a858f3f76451745dee89803e73304313fcf158a5b00853
 ent-PaperBin5 = { ent-PaperBin }
     .desc = { ent-PaperBin.desc }

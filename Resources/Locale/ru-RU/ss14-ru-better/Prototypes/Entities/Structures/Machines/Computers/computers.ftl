@@ -1,110 +1,110 @@
 # HASH: 772840050f711d194720971eed623ac842b4ed1c60f64271f8679d4c34738bdc
-ent-ComputerAlert = atmospheric alerts computer
-    .desc = Used to access the station's atmospheric automated alert system.
+ent-ComputerAlert = консоль оповещений
+    .desc = Используется для доступа к автоматизированной системе оповещения станции.
 # HASH: 5b957a07c4f43c8473a2fe35e7696977180ee4336afe56960fb18e53731dae33
-ent-ComputerAtmosMonitoring = atmospheric network monitor
-    .desc = Used to monitor the station's atmospheric networks.
+ent-ComputerAtmosMonitoring = консоль мониторинга атмосферной сети
+    .desc = Используется для мониторинга атмосферных сетей станции.
 # HASH: d439378e1402bfe8ef6a7fab178033aa47346d1e70a61b9e2d6c044202777396
-ent-ComputerEmergencyShuttle = emergency shuttle console
-    .desc = Handles authorization to early launch the shuttle.
+ent-ComputerEmergencyShuttle = консоль аварийного шаттла
+    .desc = Выдаёт разрешение на досрочный запуск шаттла.
 # HASH: 0c47c13da724a283c336da3affb7553cbe70cd0c50b0c92f2132cc35e0d87c86
-ent-BaseComputerShuttle = shuttle console
-    .desc = Used to pilot a shuttle.
+ent-BaseComputerShuttle = консоль управления шаттлом
+    .desc = Используется для пилотирования корабля.
 # HASH: 0c47c13da724a283c336da3affb7553cbe70cd0c50b0c92f2132cc35e0d87c86
-ent-ComputerShuttle = shuttle console
-    .desc = Used to pilot a shuttle.
+ent-ComputerShuttle = консоль управления шаттлом
+    .desc = Используется для пилотирования корабля.
 # HASH: affee41220a9ce99f51b677da26c065769e730c387a59a89aec15e609d8287df
-ent-ComputerShuttleSyndie = syndicate shuttle console
-    .desc = Used to pilot a syndicate shuttle.
+ent-ComputerShuttleSyndie = консоль управления шаттлом синдиката
+    .desc = Используется для пилотирования корабля синдиката.
 # HASH: 4830bc6ca034d098dfb6a650b8d8c88ae36c6d31a679c4811c25c3f1427618a2
-ent-ComputerShuttleCargo = cargo shuttle console
-    .desc = Used to pilot the cargo shuttle.
+ent-ComputerShuttleCargo = консоль управления грузовым шаттлом
+    .desc = Используется для пилотирования грузового шаттла.
 # HASH: 8bee7b962385be38d342b431f72244dced3ea8d7908be93749e9e1f96b3c4f54
-ent-ComputerIFF = IFF computer
-    .desc = Allows you to control the IFF characteristics of this vessel.
+ent-ComputerIFF = консоль системы опознавания
+    .desc = Позволяет контролировать параметры системы опознавания судна или станции.
 # HASH: e4e104accab7c21d4e806cd399e4b54a90ef5899dcd1fb02dfd23f8b37b63ce7
-ent-ComputerIFFSyndicate = IFF computer
-    .desc = Allows you to control the IFF and stealth characteristics of this vessel.
-    .suffix = Syndicate
+ent-ComputerIFFSyndicate = консоль системы опознавания
+    .desc = Позволяет контролировать параметры системы опознавания судна или станции.
+    .suffix = Синдикат
 # HASH: 54cd3b9ef3053140a9d0e70d6028ad94962bde6dbb8b3eeb7abd84583d3c0add
-ent-ComputerPowerMonitoring = power monitoring computer
-    .desc = It monitors power levels across the station.
+ent-ComputerPowerMonitoring = консоль контроля питания
+    .desc = Он отслеживает показатели энергии по всей станции.
 # HASH: 420f2adc8c4c7e9651670a24f425c8ac2d50dde2e1068130cbefa99e8b68d12a
-ent-ComputerMedicalRecords = medical records computer
-    .desc = This can be used to check medical records.
+ent-ComputerMedicalRecords = консоль медицинских карт
+    .desc = Её можно использовать для проверки медицинской истории.
 # HASH: fcb28c9f2e2572fab11571148b0de54e4be8fdc7fed299937178093a1d8c0802
-ent-ComputerCriminalRecords = criminal records computer
-    .desc = This can be used to check criminal records. Only security can modify them.
+ent-ComputerCriminalRecords = консоль криминальных записей
+    .desc = Её можно использовать для проверки судимостей. Редактировать их может только служба безопасности.
 # HASH: 110927f7db5eac30ac297558c6832b446e564698009e603bf9982f0b1e17c5eb
-ent-ComputerStationRecords = station records computer
-    .desc = This can be used to check station records.
+ent-ComputerStationRecords = консоль станционного учёта
+    .desc = По нему можно проверять станционные записи.
 # HASH: 54a2230151279fe6896b3c5664a82dd76600b11a4311b8ce43cd20ee32a44064
-ent-ComputerCrewMonitoring = crew monitoring console
-    .desc = Used to monitor active health sensors built into most of the crew's uniforms.
+ent-ComputerCrewMonitoring = консоль мониторинга экипажа
+    .desc = Используется для отслеживания активных датчиков здоровья, встроенных в униформу большинства членов экипажа.
 # HASH: 088294875df40ab39a264960dd57d6c42c71dd98023d73eae566a922b93fd510
-ent-ComputerResearchAndDevelopment = R&D computer
-    .desc = A computer used to interface with R&D tools.
+ent-ComputerResearchAndDevelopment = исследовательская консоль
+    .desc = Консоль, используемая для взаимодействия с оборудованием для НИО.
 # HASH: 50ba79f274a70b308096df4cf8f7f91d60ea3aef001f2693971b94bcc7140523
-ent-ComputerAnalysisConsole = analysis console
-    .desc = A computer used to interface with the artifact analyzer.
+ent-ComputerAnalysisConsole = аналитическая консоль
+    .desc = Консоль, используемая для взаимодействия с анализатором артефактов.
 # HASH: 2dea1227f5013883b82380f56934389a8aec8bcd0b00f339579bc007f4d2a790
-ent-ComputerId = ID card computer
-    .desc = Terminal for programming Nanotrasen employee ID cards to access parts of the station.
+ent-ComputerId = консоль ID карт
+    .desc = Консоль для программирования ID карт сотрудников Nanotrasen, для доступа к разным частям станции.
 # HASH: 3702b6fa1773750e600b6660a65f4414864ea597601955b56c61372b126229f2
-ent-computerBodyScanner = body scanner computer
-    .desc = A body scanner.
+ent-computerBodyScanner = сканер тела
+    .desc = Это сканер тела.
 # HASH: a8db391c91c7879e731b228913979a23a84bb565a7a564e6399d7161a9192eff
-ent-ComputerComms = communications computer
-    .desc = A computer used to make station wide announcements via keyboard, set the appropriate alert level, and call the emergency shuttle.
+ent-ComputerComms = консоль связи
+    .desc = Консоль, используемая для подачи объявлений на всю станцию посредством клавиатуры, изменения уровня угрозы и вызова эвакуационного шаттла.
 # HASH: 16620da92cbc3ffc531886e9050454e78d332cd5d3e6fbc0bb9e2203e8446c9c
-ent-SyndicateComputerComms = syndicate communications computer
-    .desc = A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
+ent-SyndicateComputerComms = консоль связи Синдиката
+    .desc = Консоль, позволяющая удалённо вмешиваться в систему связи станции. Использование этой консоли для подачи объявления предупредит станцию о вашем присутствии.
 # HASH: 2a798d6f76205c5384495f7c74cee91daba0b253e22d101e6a76c6f17d4c4ce7
-ent-WizardComputerComms = wizard communications computer
-    .desc = A computer capable of magically projecting your speech to the station. Using this to make an announcement will alert the station to your presence.
+ent-WizardComputerComms = консоль связи волшебника
+    .desc = Консоль, способная магическим образом проецировать вашу речь на станцию. Использование консоли оповестит станцию ​​о вашем присутствии.
 # HASH: 772db051046277a0582de0f5dffe42ba92e844555e48023ce6d7d2677b42721a
-ent-CentcommComputerComms = central command communications computer
-    .desc = A computer used to make world wide announcements via keyboard. The superior cousin of the regular communications computer.
+ent-CentcommComputerComms = консоль связи центрального командования
+    .desc = Консоль, используемая для передачи всемирных объявлений с помощью клавиатуры. Более совершенный родственник обычной консоли связи.
 # HASH: 662794868e053ded8dc0b35e2c616e7df8c75debb9156c3fd5b2e7d2542b500a
-ent-ComputerSolarControl = solar control computer
-    .desc = A controller for solar panel arrays.
+ent-ComputerSolarControl = консоль контроля солнечных батарей
+    .desc = Контроллер массивов солнечных батарей.
 # HASH: 29a00a8d6de059a0f0f5de29fb8d3438af36ae4a0255f9c178db615e7d1a33c6
-ent-ComputerRadar = mass scanner computer
-    .desc = A computer for detecting nearby bodies, displaying them by position and mass.
+ent-ComputerRadar = консоль сканера массы
+    .desc = Консоль для отслеживания близлежащих космических тел, отображающий их позицию и массу.
 # HASH: 0dd552aca9730b136cce419d3ba419bc065c2d0d38f5f68f8631e86b73522ac8
-ent-ComputerCargoShuttle = cargo shuttle computer
-    .desc = Used to order the shuttle.
+ent-ComputerCargoShuttle = консоль вызова грузового шаттла
+    .desc = Используется для вызова и отправки грузового шаттла.
 # HASH: 76eafdee14156a6a2fcc855236e372a2bc627120c4a293c8b06a21af6ac8a548
-ent-ComputerCargoOrders = cargo request computer
-    .desc = Used to order supplies and approve requests.
+ent-ComputerCargoOrders = консоль заказа грузов
+    .desc = Используется для оформления запросов и одобрения заказов.
 # HASH: 0342422a77f053b75a2c2e8f4d792d89a61952d1f61f14cf410d56d79ccf26d5
-ent-ComputerCargoBounty = cargo bounty computer
-    .desc = Used to manage currently active bounties.
+ent-ComputerCargoBounty = консоль запросов
+    .desc = Используется для управления текущими активными запросами.
 # HASH: 2514f9b6b28bf98edc45176dc3f286b5f3a2c1aa4bab712d7dccd1f64763df83
-ent-ComputerCloningConsole = cloning console computer
-    .desc = The centerpiece of the cloning system, medicine's greatest accomplishment. It has lots of ports and wires.
+ent-ComputerCloningConsole = консоль клонирования
+    .desc = Центральный элемент системы клонирования, величайшее достижение медицины. У неё много портов и проводов.
 # HASH: c3b769a1194f3ae62fb7ff21eec48bcfd6e4cf86a1b27a3af1c7adc38359c44e
-ent-ComputerSalvageExpedition = expedition console
-    .desc = Used to go on expeditions, if you're tough enough.
+ent-ComputerSalvageExpedition = консоль утилизаторских экспедиций
+    .desc = Используется для принятия заданий по утилизации, если вы достаточно сильны.
 # HASH: b366fddd5e4971093862b850a05b522ed3cfda8ac9ebecec1d8e32e92fe23b04
-ent-ComputerSurveillanceCameraMonitor = camera monitor
-    .desc = A surveillance camera monitor. You're watching them. Maybe.
+ent-ComputerSurveillanceCameraMonitor = монитор камер
+    .desc = Монитор камер наблюдения. Вы наблюдаете за ними. Возможно.
 # HASH: ac5599eb8dfbcfd17e7c26432842930e5e53f77af1e5c7194e461fc15916060b
-ent-ComputerSurveillanceWirelessCameraMonitor = wireless camera monitor
-    .desc = A wireless surveillance camera monitor. You're watching them. Maybe.
+ent-ComputerSurveillanceWirelessCameraMonitor = монитор беспроводных камер
+    .desc = Монитор беспроводных камер наблюдения. Вы наблюдаете за ними. Возможно.
 # HASH: 3f409b1912a816406e13701ca2ff58c1c4e9930a2e6243709706a666d5f859c9
-ent-ComputerPalletConsole = cargo sale computer
-    .desc = Used to sell goods loaded onto cargo pallets.
+ent-ComputerPalletConsole = консоль продажи товаров
+    .desc = Используется для продажи товаров, размещённых на грузовых поддонах.
 # HASH: 5a9971fc4612f9c0eebe5a8d92b70eaacacb23f25c1cfb87f8c67be5f7588c90
-ent-ComputerMassMedia = news manager console
-    .desc = Write your message to the world!
+ent-ComputerMassMedia = консоль управления новостями
+    .desc = Отправьте своё послание миру!
 # HASH: b740005de2121c7cb0037cbb722781551c62d255a19ca1d4973fd3151347dc8f
-ent-ComputerSensorMonitoring = sensor monitoring computer
-    .desc = A flexible console for monitoring all kinds of sensors.
-    .suffix = TESTING, DO NOT MAP
+ent-ComputerSensorMonitoring = консоль мониторинга датчиков
+    .desc = Гибкая консоль для мониторинга всех видов датчиков.
+    .suffix = ТЕСТ, НЕ МАППИТЬ
 # HASH: 97e5c7427ea3d0334c77d63ab65aaceb48183a5f48ddb2d1e0fa73e093430f03
-ent-ComputerRoboticsControl = robotics control console
-    .desc = Used to remotely monitor, disable and destroy the station's cyborgs.
+ent-ComputerRoboticsControl = консоль управления робототехникой
+    .desc = Используется для дистанционного контроля, отключения и уничтожения киборгов станции.
 # HASH: 64d24156257bdc1972d99778f6a8de02094031ce3a62ed6123b50a9f421e42d1
-ent-StationAiUploadComputer = AI upload console
-    .desc = Used to update the laws of the station AI.
+ent-StationAiUploadComputer = консоль загрузки ИИ
+    .desc = Используется для обновления законов станционного ИИ.

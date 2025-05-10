@@ -1,11 +1,11 @@
 # HASH: 67283e142ec6ae3a8e10cbfbb7d3f4f0f1c0abb183d1d68e859303aa17d9a642
-ent-InflatableWallStack = inflatable barricade
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = Full
+ent-InflatableWallStack = надувная баррикада
+    .desc = Сложенная мембрана, которая быстро расширяется в большую кубическую форму при активации.
+    .suffix = Полный
 # HASH: 118a8eccedd4c771390227c2876d3cd3b99f5d3d78dc7396f26983013eaf1993
-ent-InflatableDoorStack = inflatable door
-    .desc = A folded membrane which rapidly expands into a large cubical shape on activation.
-    .suffix = Full
+ent-InflatableDoorStack = надувная дверь
+    .desc = Сложенная мембрана, которая быстро расширяется в большую кубическую форму при активации.
+    .suffix = Полный
 # HASH: b237c1b9ed2f2175ca6defa574d1ec2c7bdf8f28284c4c77ad2016ad6a28a942
 ent-InflatableWallStack5 = { ent-InflatableWallStack }
     .desc = { ent-InflatableWallStack.desc }

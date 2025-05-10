@@ -1,7 +1,7 @@
 # HASH: 91d12daf2d9ccacb1bf433cae8c8532ea4d25ebea1a6e80adbcf649b2799348b
 ent-AirSensorFreezerBase = { ent-AirSensorBase }
     .desc = { ent-AirSensorBase.desc }
-    .suffix = Freezer Atmosphere
+    .suffix = Атмосфера морозильной камеры
 # HASH: 309b560e58408a552d9bf92a5457242061243eba5e5554cabf3005028f8237f4
 ent-AirSensorFreezer = { ent-AirSensor }
     .desc = { ent-AirSensor.desc }
@@ -14,4 +14,4 @@ ent-GasVentScrubberFreezer = { ent-GasVentScrubber }
 # HASH: 405314bf265a90b4011a8fd6ef567524da280a9df5c1710d5dcb730401aeb3af
 ent-AirAlarmFreezer = { ent-AirAlarm }
     .desc = { ent-AirAlarm.desc }
-    .suffix = Freezer Atmosphere, auto mode disabled
+    .suffix = Атмосфера морозильной камеры, автоматический режим отключен

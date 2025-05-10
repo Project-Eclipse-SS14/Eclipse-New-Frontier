@@ -1,17 +1,17 @@
 # HASH: baad8b5bb80b2e8f7b28b9322b82f7bccf12f26319430c2491b2062554494e2c
-ent-GlowstickBase = green glowstick
-    .desc = Useful for raves and emergencies.
+ent-GlowstickBase = зелёный химсвет
+    .desc = Полезен для неразберихи и экстренных случаев.
 # HASH: 8cb3d79070d5d046bf96f1f10c6606161d0c92cd8a0c2a1819bb3da795823c8b
-ent-GlowstickRed = red glowstick
+ent-GlowstickRed = красный химсвет
     .desc = { ent-GlowstickBase.desc }
 # HASH: 8a7f522f0d8ec518f6d2a50f61e3f603814053ee1e4d11479df20c96db9ab5b1
-ent-GlowstickPurple = purple glowstick
+ent-GlowstickPurple = фиолетовый химсвет
     .desc = { ent-GlowstickBase.desc }
 # HASH: 0a038efdad0da0ee5cee0973308076cc5d3bb2e995b8819c5fbe772456230848
-ent-GlowstickYellow = yellow glowstick
+ent-GlowstickYellow = жёлтый химсвет
     .desc = { ent-GlowstickBase.desc }
 # HASH: 279acbea867efb66c9ca52831935406c48d7117831119ae37de58a15abc6ba93
-ent-GlowstickBlue = blue glowstick
+ent-GlowstickBlue = синий химсвет
     .desc = { ent-GlowstickBase.desc }
 # HASH: a253402d900d2f8076f1952bf8148fab2c296fa46e2e40c2bd9e82fa564e4ad9
 ent-LightBehaviourTest1 = light pulse test

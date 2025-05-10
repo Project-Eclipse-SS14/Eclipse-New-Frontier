@@ -2,15 +2,15 @@
 ent-BasePlushieMoff = { ent-BasePlushie }
     .desc = { ent-BasePlushie.desc }
 # HASH: b1db0d4451b8e2a6e0e58af2677322f52f06a37249c6b25273c11dfd9727c871
-ent-PlushieMoff = moth plushie
-    .desc = A cute little moff you can hold in the palm of your hand!
+ent-PlushieMoff = плюшевый ниан
+    .desc = Милый и пушистый плюшевый ниан. Развлекайтесь, бз!
 # HASH: b1a8a1fdb87fcf6346af3df8e1757cfcc8ef5fd64d51f28995378698cb01d031
-ent-PlushieMoffRandom = moth plushie
-    .desc = A cute little mothperson that you can hold in the palm of your hand.
-    .suffix = Random
+ent-PlushieMoffRandom = плюшевый ниан
+    .desc = Милый и пушистый плюшевый ниан. Развлекайтесь, бз!
+    .suffix = Случайный
 # HASH: e5836ef47c703ee2036da5f6d966c6cf336433702df34ffce04dab169392b594
-ent-PlushieMoffsician = moth musician plushie
-    .desc = A plushie depicting an adorable mothperson with a tiny synthesizer and tiny glasses.
+ent-PlushieMoffsician = плюшевый ниан музыкант
+    .desc = Плюшевая игрушка, изображающие очаровательного ниант с крошечным синтезатором и в крошечных очках.
 # HASH: c77dfe0ddf70a5fc8a08b990f9f02bfc2a95d4fc7bcf3f74686482ba399f6d92
-ent-PlushieMoffbar = moth bartender plushie
-    .desc = A plushie depicting an adorable mothperson with a tiny tophat and tiny kevlar vest.
+ent-PlushieMoffbar = плюшевый ниан бармен
+    .desc = Плюшевая игрушка, изображающие очаровательного ниан в крошечной шапочке и крошечном кевларовом жилете.

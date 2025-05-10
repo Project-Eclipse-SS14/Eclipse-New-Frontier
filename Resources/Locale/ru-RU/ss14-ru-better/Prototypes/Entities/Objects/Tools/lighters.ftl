@@ -1,12 +1,12 @@
 # HASH: 2ba0ef65dbf0c5b64985710ec2cf9941b87c799476f1833b9321b57bfeee4ed0
-ent-Lighter = basic lighter
-    .desc = A simple plastic cigarette lighter.
+ent-Lighter = простая зажигалка
+    .desc = Простая пластмассовая зажигалка.
 # HASH: 783927303b188e541c897e4d21d892bd69d4c70d23bdfa08e995865c6feb1aa5
-ent-CheapLighter = cheap lighter
-    .desc = A dangerously inexpensive plastic lighter, don't burn your thumb!
+ent-CheapLighter = дешёвая зажигалка
+    .desc = Опасно дешёвая пластиковая зажигалка, не обожгите большой палец!
 # HASH: a1f5e32bb45715ae4c7c414f608c4e9555a3b34a24744a434077d81256acacd5
-ent-FlippoLighter = flippo lighter
-    .desc = A rugged metal lighter, lasts quite a while.
+ent-FlippoLighter = зажигалка флиппо
+    .desc = Надёжная металлическая зажигалка, рассчитанная на длительный срок службы.
 # HASH: 8f1f3f10eef6b6b10df2edc09de78362bf88865aa0f176be09755523f975ad64
-ent-FlippoEngravedLighter = flippo engraved lighter
-    .desc = A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever.
+ent-FlippoEngravedLighter = гравированная зажигалка флиппо
+    .desc = Надёжная металлическая зажигалка, рассчитанная на длительный срок службы. Гравировка не даёт никакого тактического преимущества.

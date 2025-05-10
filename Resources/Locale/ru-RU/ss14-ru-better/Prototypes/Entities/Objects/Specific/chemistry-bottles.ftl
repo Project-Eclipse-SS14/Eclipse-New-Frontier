@@ -1,6 +1,6 @@
 # HASH: 27a23f66fc6ca5f3c2a353bf110f677bcb2133718c5a474a1c8820032f473be6
-ent-BaseChemistryEmptyBottle = bottle
-    .desc = A small bottle.
+ent-BaseChemistryEmptyBottle = бутылочка
+    .desc = Маленькая бутылочка.
 # HASH: af59261d5fc1fe024a6fea1317afbf9207635d4bb0535a6749e5d7aed97a50f0
 ent-ChemistryEmptyBottle01 = { ent-BaseChemistryEmptyBottle }
     .desc = { ent-BaseChemistryEmptyBottle.desc }

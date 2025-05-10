@@ -1,9 +1,9 @@
 # HASH: d1a6f996fe0ef39570583c1f3ed85fb141108c5135b2996ad03b3f4422c846c3
 ent-BaseWeaponLightMachineGun = BaseWeaponLightMachineGun
-    .desc = A rooty tooty point and shooty.
+    .desc = Дерзай — налетай, целься и стреляй.
 # HASH: ca67b514b6a336b65321355e759e7220a92495649d64063029efd515f001401b
 ent-WeaponLightMachineGunL6 = L6 SAW
-    .desc = A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses .30 rifle ammo. An illegal firearm often used by Syndicate agents.
+    .desc = Нелегальное оружие используемое агентами синдиката. Весьма традиционный лёгкий пулемёт с удобной лакированной деревянной пистолетной рукоятью. Использует патроны калибра .30 винтовочный.
 # HASH: 168ff7ff76c7c1f6588e0a6ec091023de2fcc527f570c792638f32028f1cc13e
 ent-WeaponLightMachineGunL6C = L6C ROW
-    .desc = A L6 SAW for use by cyborgs. Creates .30 rifle ammo on the fly from an internal ammo fabricator, which slowly self-charges. An illegal firearm often used by Syndicate agents.
+    .desc = Нелегальное оружие используемое агентами синдиката. L6 SAW для киборгов. На ходу создаёт патроны калибра .30 винтовочный из встроенного самозарядного фабрикатора боеприпасов.
