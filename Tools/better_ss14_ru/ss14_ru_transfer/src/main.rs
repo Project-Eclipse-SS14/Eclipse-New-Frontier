@@ -67,7 +67,8 @@ fn main() {
                     if let Ok(is_empty) =
                         check_if_proto_has_empty_string(&ftl_project, id, MatchingProperty::Name)
                     {
-                        if !is_empty {
+                        if !is_empty && prototype.borrow().name() != Some(&name) {
+                            log::info!("Prototype '{}' changed parent from '{:?}' to '{}'", prototype.borrow().id, prototype.borrow().name(), id);
                             *prototype.borrow_mut().name_mut() = Some(name);
                         }
                     }
