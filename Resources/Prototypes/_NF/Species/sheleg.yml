@@ -11,7 +11,8 @@
   forcedMarkingColor: "#FFFFFF"
   maleFirstNames: NamesShelegFirstMale
   femaleFirstNames: NamesShelegFirstFemale
-  lastNames: NamesShelegLast
+  maleLastNames: NamesShelegLast # Corvax-LastnameGender
+  femaleLastNames: NamesShelegLast # Corvax-LastnameGender
 
 - type: speciesBaseSprites
   id: MobShelegSprites
