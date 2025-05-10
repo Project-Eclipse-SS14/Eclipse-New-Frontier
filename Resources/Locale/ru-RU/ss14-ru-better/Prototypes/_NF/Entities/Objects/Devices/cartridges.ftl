@@ -1,0 +1,15 @@
+# HASH: be7c9df582dfc939b7896f9156a74b9fc3b5cef4f24844a32f099d31bbddd61c
+ent-NFBasePDACartridge = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+# HASH: 9d5c4b8fe56d6d6da09b0fd0055283a097d40513f5e54b69418e17b6adca8d0f
+ent-BountyContractsCartridge = bounty contracts cartridge
+    .desc = A program for tracking and placing bounty contracts.
+# HASH: dcb2a7464f1ed29c6ecfcf6759a1f6e7c7fabae1e6e2759eba25882072785751
+ent-AppraisalCartridge = AppraiseAll cartridge
+    .desc = A program for appraising the monetary value of items.
+# HASH: 7fa866328214f30d856f168728e90224e6dc64210b882ef15c11909d1077767d
+ent-LedgerCartridge = SpesoFlow Lite cartridge
+    .desc = A program for keeping track of sector bank accounts.
+# HASH: 0add98b8a1d0e5056952fcc98ebcdfa758e02105dd2c53b1907b9835cdc50cd8
+ent-ContrabandForensicsModule = contraband forensics module
+    .desc = A program for scanning and reporting contraband dead drops and pods for bounties.

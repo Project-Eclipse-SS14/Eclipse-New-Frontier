@@ -1,0 +1,3 @@
+# HASH: 16b5a09f4b1d54c541c3bf3bd3961367e2ba2b08e37d02116cd6914d5e2d8496
+ent-Stunprod = stun prod
+    .desc = A stun prod for questionably legal incapacitation.
