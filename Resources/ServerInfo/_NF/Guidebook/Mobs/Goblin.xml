@@ -18,7 +18,15 @@
   - Может рыться в мусоропроводах и доставать мусор из них.
   - Могут нырять в туалеты и почтовые отделения из-за своего небольшого размера.
   - Уникальные песнопения.
-  - По своей сути говорите на гоблинском кантате.
+  - С рождения говорят на гоблинском кантате.
+  - Могут собирать различные устройства из мусора.
+
+  <Box>
+    <GuideEntityEmbed Entity="NFGoblinMadeMultitool" Caption=""/>
+    <GuideEntityEmbed Entity="NFGoblinMadeCrowbar" Caption=""/>
+    <GuideEntityEmbed Entity="NFGoblinMadeMiningDrill" Caption=""/>
+    <GuideEntityEmbed Entity="NFGoblinMadeRemoteSignaller" Caption=""/>
+  </Box>/master
 
   ## Недостатки
 
@@ -26,4 +34,3 @@
   - Всегда срабатывает мышеловка, даже в обуви.
   - Они не любят, когда на них распыляют воду или чистящие средства.
 </Document>
-3+
