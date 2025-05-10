@@ -13,5 +13,5 @@ ent-CrateFunPartyNF = ящик для вечеринок
     .desc = Лицензированный NanoTrasen ящик для проведения вечеринок. Содержит только одобренные корпоративными диетологами припасы.
     .suffix = Фронтир
 # HASH: 9df8d49e9d1e90f251fd9b603b77ab273021b6a133da6968ec29c89a5e88db82
-ent-NFCrateFunSyndicateSegway = Syndicate segway crate
-    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.
+ent-NFCrateFunSyndicateSegway = ящик сегвея Синдиката
+    .desc = Ящик с двухколесным велосипедом, который поможет вам скрыться от сотрудников службы безопасности. Или нет.

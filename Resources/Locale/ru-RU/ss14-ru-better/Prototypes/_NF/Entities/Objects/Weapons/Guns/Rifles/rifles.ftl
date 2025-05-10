@@ -3,16 +3,16 @@ ent-WeaponRifleLecterRubber = Лектер
     .desc = { ent-WeaponRifleLecter.desc }
     .suffix = Травматический
 # HASH: d3108d1eda5510b1fafbb4d50ca38579ff9056384c9886492c726429cb78bd1d
-ent-WeaponRifleVulcanRubber = Vulcan
+ent-WeaponRifleVulcanRubber = Вулкан
     .desc = { ent-WeaponRifleVulcan.desc }
-    .suffix = Non-lethal
+    .suffix = Травматический
 # HASH: a27451ff68d34797edbc1d456b09b8226d00fcedb462254bffbeb221f5bbe500
 ent-WeaponRifleGestio = Гестио
     .desc = Старая винтовка для стрельбы очередями, созданная компанией Сильвер Индастриз, которая так и не вышла из испытаний. Принимает магазины малой емкости от винтовки калибра .30.
 # HASH: 095fff4ae3557609d719310870deceaf0442615926871d156c11444dd8f543bb
 ent-WeaponRifleGestioRubber = { ent-WeaponRifleGestio }
     .desc = { ent-WeaponRifleGestio.desc }
-    .suffix = Травмавтический
+    .suffix = Травматический
 # HASH: f7464719ca7577212b060a3b2290cec7768ee1f1d0d621073601aacb06dd5978
 ent-WeaponRifleNovaliteC1 = Новалайт С1
     .desc = Модификация Лектер от SW LLC, гражданская полуавтоматическая винтовка с внутренним магазином. Представители Nanotrasen не могут подчеркнуть, насколько эта винтовка соответствует требованиям. Использует винтовочные патроны калибра .20.

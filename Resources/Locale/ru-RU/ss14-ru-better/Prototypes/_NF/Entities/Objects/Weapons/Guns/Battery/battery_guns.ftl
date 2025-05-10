@@ -5,9 +5,9 @@ ent-WeaponEmpEmitter = электромагнитный излучатель
 ent-WeaponLaserTurboNF = Турболазер МК3
     .desc = Турболазер, снятый с неисправного "Защитника". Судя по всему, это довольно старая модель, и похоже, что он не работает должным образом. Предположительно, он должен быть запрещён законом.
 # HASH: 7b9558de77234099756d0b31dcd2d268f78e1953ec4d6b764a7449d17b78fb2e
-ent-WeaponNFLaserPistol = laser pistol
-    .desc = An older model of civilian-grade laser pistol.
-    .suffix = Frontier
+ent-WeaponNFLaserPistol = лазерный пистолет
+    .desc = Старая модель лазерного пистолета гражданского класса.
+    .suffix = Фронтир
 # HASH: 34b20dc5a9571439a11f1c5c058fdf11e15c66974784d05fc710580588b018a4
 ent-NFWeaponHoloflareGun = голографический пистолет
     .desc = Модификация гражданского лазерного пистолета, который может проецировать голографические вспышки на поверхности.

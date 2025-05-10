@@ -3,7 +3,7 @@ ent-BaseBigBox = картонная коробка
     .desc = А? Просто коробка...
 # HASH: 6f1bd78a6c2eda7e6fa08b8a8767b9c08a31be32c444c23bb5b1cb25fefd15df
 ent-StealthBox = { ent-BaseBigBox }
-    .desc = Kept ya waiting, huh?
+    .desc = Заставил тебя ждать, да?
     .suffix = Стелс
 # HASH: 98f73781cecfa03c9e9a4cc5b45079fbc80b4648e124e3f2d7b5a9d6869d0781
 ent-BigBox = { ent-BaseBigBox }

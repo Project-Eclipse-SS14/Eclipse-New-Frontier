@@ -1,6 +1,6 @@
 # HASH: a63b3cfb112e15e71b1940920da83de0ee7e2ac998eec3c59c49fa255ec267c8
-ent-BaseStockPart = stock part
-    .desc = What?
+ent-BaseStockPart = стоковая деталь
+    .desc = Что?
 # HASH: fc9ca4f00352d2d39306d9d705e91e7fd5c1a516cb09e6ddc2e763a313cafbce
 ent-CapacitorStockPart = конденсатор
     .desc = Базовый конденсатор, используемый при создании различных устройств.

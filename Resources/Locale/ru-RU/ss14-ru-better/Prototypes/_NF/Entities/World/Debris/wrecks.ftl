@@ -32,7 +32,7 @@ ent-NFWreckDebrisSmall = { ent-NFBaseWreckSmall }
 ent-NFWreckDebrisMedium = { ent-NFBaseWreckMedium }
     .desc = { "" }
 # HASH: 0b2734d463feac9b75b2f9d17ef7af0e726b4dec164986c8158381a765c550b5
-ent-NFWreckDebrisLarge = scrap debris large
+ent-NFWreckDebrisLarge = Крупный Обломок
     .desc = { "" }
 # HASH: 53ee596cb2a4e9b8584fcb404100fb8826776d5c4d02e17ecc73c1f19bf0437a
 ent-NFWreckDebrisExtraLarge = { ent-NFBaseWreckExtraLarge }

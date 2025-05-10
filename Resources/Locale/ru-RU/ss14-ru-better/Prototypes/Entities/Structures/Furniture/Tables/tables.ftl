@@ -77,9 +77,9 @@ ent-TableFancyWhite = { ent-TableFancyBase }
     .desc = { ent-TableFancyBase.desc }
     .suffix = Белый
 # HASH: ff75faee4fc440a88484246c5e51f8aae2c049bc6893b6d48411306cad8f1843
-ent-TableDebug = table
+ent-TableDebug = стол
     .desc = PUT ON THEM CODERSOCKS!!
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: 60a3dea1a1b191c109e164f307d9b9bed8c17c2437847bffb55b36007d62eb74
 ent-TableCounterWood = деревянная стойка
     .desc = Беречь от огня. По слухам, она легко горит.

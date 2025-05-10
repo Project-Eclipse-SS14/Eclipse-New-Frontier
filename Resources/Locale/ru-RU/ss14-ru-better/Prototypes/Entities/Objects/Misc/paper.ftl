@@ -20,8 +20,8 @@ ent-PaperCaptainsThoughts = размышления капитана
 ent-PaperCargoInvoice = грузовая накладная
     .desc = Одна единица бюрократии.
 # HASH: 2f1d1b885202c5f511aa13bb9e77b98e359c6fd260e84aeea934d02dfe44c4a8
-ent-PaperNanoTaskItem = NanoTask item
-    .desc = A printed NanoTask item. Can be inserted into your PDA to add it to your tasks.
+ent-PaperNanoTaskItem = лист НаноЗадача
+    .desc = Печатный элемент НаноЗадача. Можно вставить в КПК, чтобы добавить его в задачи.
 # HASH: 8d0df37f4d83f5b65a423fc0ba559a3dbf7cb693412ce9fca345583b55bdf288
 ent-PaperCargoBountyManifest = этикетка запроса
     .desc = Бумажная этикетка, обозначающая, что ящик содержит нужный товар. Продав ящик с такой этикеткой, вы получите награду.

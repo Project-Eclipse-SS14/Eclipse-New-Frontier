@@ -155,7 +155,7 @@ ent-BulletRocketEmp = ракета
 ent-ProjectileEmp = эми снаряд
     .desc = { ent-BaseBulletTrigger.desc }
 # HASH: 2c3ae3869b181a72cdfb09fc7c5fb6fe1ec1c5918275b59974881fe65cfe3c9a
-ent-BulletCannonBallEmp = shockshot
+ent-BulletCannonBallEmp = эми пушечное ядро
     .desc = { ent-BaseBulletTrigger.desc }
 # HASH: c841c428ed096fb7289f46a133a351374c355323f5680238edc1e21e3c5ced19
 ent-BulletEnergyGunLaser = энергетический снаряд

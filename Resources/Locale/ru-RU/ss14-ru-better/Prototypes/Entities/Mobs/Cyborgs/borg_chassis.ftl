@@ -2,7 +2,7 @@
 ent-BorgChassisSelectable = { ent-BaseBorgChassisNT }
     .desc = { ent-BaseBorgChassisNT.desc }
 # HASH: 755ee5b4f6ec9ff04e57fd11c6e33ad4a00acca8b774ea1554185c2b6bf900c7
-ent-BorgChassisGeneric = generic cyborg
+ent-BorgChassisGeneric = обычный киборг
     .desc = { ent-BorgChassisSelectable.desc }
     .suffix = Выбранный тип
 # HASH: eab86b4675cf868936d2d16b3405fae84ce0d3920aecf5ba46b7fccac4c92f59

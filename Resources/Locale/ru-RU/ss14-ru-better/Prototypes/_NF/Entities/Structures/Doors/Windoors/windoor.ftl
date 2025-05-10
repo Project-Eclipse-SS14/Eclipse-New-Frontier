@@ -17,4 +17,4 @@ ent-WindoorSecureHeadOfSecurityLocked = { ent-WindoorSecure }
 # HASH: a42c9f1b03b2545a41b2311204363305e18c4c6d1274fe19a68ed6dac4ecaa49
 ent-WindoorSecureBrigmedicLocked = { ent-WindoorSecure }
     .desc = { ent-WindoorSecure.desc }
-    .suffix = Brigmedic, Locked
+    .suffix = Бригмедик, Закрыт

@@ -191,11 +191,11 @@ ent-LockerWallColorL4BombFilled = Настенный шкафчик для са�
     .desc = { ent-LockerWallEVAColorNfsd.desc }
     .suffix = Заполненный, Фронтир
 # HASH: ba5cf7750492ef915a5bd49743b0a605eb797d76a2c318ece36c033f98c0c1c5
-ent-LockerWallColorMedicalDoctorFilled = medical doctor's wall locker
+ent-LockerWallColorMedicalDoctorFilled = Настенный шкафчик медицинского доктора
     .desc = { ent-LockerWallColorMedical.desc }
     .suffix = Заполненный, Фронтир
 # HASH: 39217d2d48e2c794db442dfb0e03fcc91886f37aa761697a06925a89e4c82b27
-ent-LockerWallColorMedicalFilled = medicine wall locker
+ent-LockerWallColorMedicalFilled = Настенный медицинский шкафчик
     .desc = { ent-LockerWallColorMedical.desc }
     .suffix = Заполненный, Фронтир
 # HASH: 92fe2f57b2aecfeb85ade29a9fd0cf093783d7081188b0cc5dcff64f9d212b64
@@ -210,6 +210,6 @@ ent-LockerWallColorHydroponicsFilled = { ent-LockerWallColorHydroponics }
     .desc = { ent-LockerWallColorHydroponics.desc }
     .suffix = Заполненный, Фронтир
 # HASH: e89334c22a493e2d72600ee9ecd09a2807400124b58d750cdd916a0c29579df5
-ent-LockerWallColorHydroponicsEmpty = botanist wall locker
+ent-LockerWallColorHydroponicsEmpty = Настенный шкафчик ботаника
     .desc = { ent-LockerWallColorHydroponics.desc }
     .suffix = Пустой, Фронтир

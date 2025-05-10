@@ -117,8 +117,8 @@ ent-HydroponicsSoilEmptyFlatpack = ящик с почвой
 ent-ComputerWithdrawBankATMFlatpack = упакованный банкомат
     .desc = Упаковка, при помощи которой можно создать банкомат.
 # HASH: acfc6c911cdc3a44c9de4814b4a68db93b15fb7e4d949148746d47ec0ef7b5b1
-ent-ShuttleGunMailLauncherFlatpack = FWD-6500m "Priority" flatpack
-    .desc = A flatpack used for constructing a FWD-6500m "Priority" stationary mail launcher.
+ent-ShuttleGunMailLauncherFlatpack = упакованный FWD-6500M "Приоритет"
+    .desc = Упаковка, при помощи которой можно создать стационарное почтовое пусковое устройство FWD-6500M «Приоритет».
 # HASH: 7d12f7350de60a777fe2e25faa1f1a1b44368c2dbd7e33bce95cb72b2e42d925
 ent-MedicalTechFabFlatpack = упакованный медицинский техфаб
     .desc = Упаковка, при помощи которой можно создать медицинский техфаб.

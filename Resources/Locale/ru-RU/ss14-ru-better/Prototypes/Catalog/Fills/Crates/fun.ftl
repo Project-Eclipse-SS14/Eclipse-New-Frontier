@@ -44,8 +44,8 @@ ent-CrateFunParty = набор для вечеринок
 ent-CrateFunWaterGuns = ящик водяных пистолетов
     .desc = Специальное летнее предложение с набором ярких водяных пистолетов. Не содержит воды.
 # HASH: 5f240c9efd88e75f50a2f2c7948ce1f421293a07f48152ff41068b99f35aef35
-ent-CrateFunFoamGuns = Foam Force crate
-    .desc = Contains four Foam Force rifles, some grenades, and extra ammo. It's [REDACTED] or nothing!
+ent-CrateFunFoamGuns = ящик пенных винтовок
+    .desc = Содержит четыре пенные винтовки, несколько гранат и дополнительные патроны. Или [REDACTED], или ничего!
 # HASH: 6ec15e5c32f2526a6dae25f31b004d4825d12db6f48922ee43345892f1d21921
 ent-CrateFunBoxing = ящик боксёрского снаряжения
     .desc = Хотите организовать подпольный бойцовский клуб или провести турнир среди сотрудников станции? Этот ящик для вас!

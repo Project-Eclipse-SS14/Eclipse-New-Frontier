@@ -137,5 +137,5 @@ ent-ShivaStealObjective = { ent-BaseThiefStealAnimalObjective }
 ent-TropicoStealObjective = { ent-BaseThiefStealAnimalObjective }
     .desc = { ent-BaseThiefStealAnimalObjective.desc }
 # HASH: 44361a498e0ba97ba71b778966e436aef1b40af3b08810b41098b20b125d3b1a
-ent-EscapeThiefShuttleObjective = Escape to centcomm alive and unrestrained.
-    .desc = You don't want your illegal activities to be discovered by anyone, do you?
+ent-EscapeThiefShuttleObjective = Сбежать в ЦентКомм живым и невредимым.
+    .desc = Вы же не хотите, чтобы о вашей незаконной деятельности узнал кто-нибудь?

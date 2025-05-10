@@ -53,8 +53,8 @@ ent-CrossbowBoltShrapnel = болт-шрапнель
 ent-CrossbowBoltShrapnelSpread = { "" }
     .desc = { "" }
 # HASH: 7608391535cca2e10a883b73020d7ab238f8e4ac2d120a4f8aa66f6636bfed92
-ent-PelletShrapnelCrossbow = crossbow shrapnel pellet
+ent-PelletShrapnelCrossbow = арбалетная шрапнельная пуля
     .desc = { ent-BaseBullet.desc }
 # HASH: 5a6e4ed808500668a4e16381cccdd6349f2895d462ac7db6e8da1c74b3f37ac3
 ent-CrossbowBoltBloodDrinker = болт с засечками
-    .desc = A razor-sharp bolt with a serrated tip. Unquestionably unethical.
+    .desc = Острый как бритва болт с зазубренным наконечником. Безусловно, неэтичный.

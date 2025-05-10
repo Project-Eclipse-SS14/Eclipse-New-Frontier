@@ -1,7 +1,7 @@
 # HASH: 0ffd43f5886b9b10e2f78407fb0dcf3c9d5be727078e89c00b5418b9c0de154d
 ent-ClickTestBase = { "" }
     .desc = { "" }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: 26f569b417c92470744e57cd7f2ca1b9d4f1cac6bd5d51ea442429041dbbfca7
 ent-ClickTestRotatingCornerVisible = ClickTestRotatingCornerVisible
     .desc = { ent-ClickTestBase.desc }

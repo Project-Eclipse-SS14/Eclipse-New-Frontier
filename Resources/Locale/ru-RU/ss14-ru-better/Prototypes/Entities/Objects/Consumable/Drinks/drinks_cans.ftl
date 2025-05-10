@@ -33,7 +33,7 @@ ent-DrinkSpaceMountainWindCan = банка космического маунти
 ent-DrinkSpaceUpCan = банка спейс-ап
     .desc = На вкус как пробоина в корпусе у вас во рту.
 # HASH: e33f432f0fae3fc05d8f597b70b48fe1caf0663525d78858e0e7824206e1feab
-ent-DrinkSolDryCan = sol dry
+ent-DrinkSolDryCan = банка сухой газировки
     .desc = Сладкая имбирная газировка из космоса!
 # HASH: b4cb743376464e6e4faa68ca19cd0fa6004cf3fab510b1e653e583b8ea97c010
 ent-DrinkStarkistCan = банка старкист

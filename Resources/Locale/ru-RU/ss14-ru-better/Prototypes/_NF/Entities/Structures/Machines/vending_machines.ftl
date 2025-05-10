@@ -73,11 +73,11 @@ ent-VendingMachineFuelVend = ТоплиМат
 ent-BaseCiviMedVend = { "" }
     .desc = { "" }
 # HASH: 76376d626115c62b534181fe9bebc3f66063e3a49e9e15d9163208849dde3929
-ent-VendingMachineCiviMedPlus = CiviMed Plus
-    .desc = CiviMed Plus, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
+ent-VendingMachineCiviMedPlus = МедВенд Плюс
+    .desc = МедВенд Плюс: аптечка на колесах, которая лечит быстрее, чем вы успеете расколоть камень! Шахтёры, берегите себя!
 # HASH: 3e0771630d064e854c7e6e595dd174dbe5be34eceb38f6f2312bc872fd26c65e
-ent-VendingMachineCiviMed = CiviMed
-    .desc = CiviMed, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
+ent-VendingMachineCiviMed = МедВенд
+    .desc = МедВенд: аптечка на колесах, которая лечит быстрее, чем вы успеете расколоть камень! Шахтёры, берегите себя!
 # HASH: 17d31bd36bc10700260d167b0fdad726dfd40c6796542060228df42fa26c16b5
 ent-VendingMachineValetDrobe = ЛакейВенд
     .desc = Помогайте другим выглядеть стильно! Одевайтесь сногсшибательно и получайте первоклассные чаевые!
@@ -127,4 +127,4 @@ ent-VendingMachineBoozePOI = { ent-VendingMachineBooze }
 # HASH: 78a907a8f41f88c23468819c35dcdd019f1e579ff46c648158827a0d27ea112d
 ent-VendingMachineTankDispenserEVAPOI = { ent-VendingMachineTankDispenserEVA }
     .desc = { ent-VendingMachineTankDispenserEVA.desc }
-    .suffix = POI, EVA [O2, N2]
+    .suffix = POI, ЕВА [O2, N2]

@@ -48,17 +48,17 @@ ent-PublicAffairsLiaisonPDA = КПК офицера по связям с общ�
 ent-SrPDA = КПК представителя фронтира
     .desc = Покрытый царапинами, этот КПК говорит о том, что его владелец — ветеран в дипломатических сражениях. Вы управляете переговорами с искусством опытного мастера.
 # HASH: b24098beb08b5a14c1d245a9e4a96f43c9b71bf46388413c5cb7a8ba158ef8a6
-ent-NFPiratePDA = pirate PDA
+ent-NFPiratePDA = КПК пирата
     .desc = { ent-PiratePDA.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: 8aba0b38f9acb23d396b661f488b310ab6b5125da43451fa5bc3bbd71220d584
-ent-NFPirateCaptainPDA = pirate captain PDA
+ent-NFPirateCaptainPDA = КПК пиратского капитана
     .desc = { ent-PiratePDA.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: b16caedd3e36223aed712fc87ba20f66e9851dbec7861b99062d50b7274abdb9
-ent-NFPirateFirstMatePDA = pirate first mate PDA
+ent-NFPirateFirstMatePDA = КПК пиратского боцмана
     .desc = { ent-PiratePDA.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: c5a5abe4bcd203e3a5fe597d8c4f48462503f2a347a7b3b24b4f9d7b674ffe5a
 ent-ContractorPDA = КПК авантюриста
     .desc = { ent-PassengerPDA.desc }

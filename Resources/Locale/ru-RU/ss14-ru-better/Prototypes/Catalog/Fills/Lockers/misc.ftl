@@ -17,7 +17,7 @@ ent-ClosetEmergencyN2FilledRandom = { ent-ClosetEmergencyN2 }
 # HASH: 879d83eeae6e398d504b8ee7e7feea0d36c5c93f6d9201934789aa6c8339cffb
 ent-ClosetWallEmergencyN2FilledRandom = { ent-ClosetWallEmergencyN2 }
     .desc = { ent-ClosetWallEmergencyN2.desc }
-    .suffix = Filled, Random
+    .suffix = Заполненный, Случайный
 # HASH: 03cd711920a0d61df0f6dadabbed6c55c0439344a7e5fcdce2a5e8e78d25eaf9
 ent-ClosetFireFilled = { ent-ClosetFire }
     .desc = { ent-ClosetFire.desc }

@@ -17,7 +17,7 @@ ent-MobCoalCrab = { ent-MobOreCrab }
 ent-MobUraniumCrab = { ent-MobOreCrab }
     .desc = Рудный краб, состоящий из урана.
 # HASH: 30d0d1d96766ac2f8849eec8684d8d73a93aa075980d6ee71b2dbc69195e2c4c
-ent-MobSilverCrab = ore crab
+ent-MobSilverCrab = серебряный рудокраб
     .desc = Рудный краб, состоящий из серебра.
 # HASH: b78f0ace95f595e17279b20c40fe2f39eab84820b9d7e56e1d52fa7b0cf5982d
 ent-MobGoldCrab = золотой рудокраб

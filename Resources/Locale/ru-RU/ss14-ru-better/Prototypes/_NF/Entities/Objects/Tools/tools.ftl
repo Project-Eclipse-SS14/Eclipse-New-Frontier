@@ -12,8 +12,8 @@ ent-ShipyardRCDAmmo = картридж корабельного РСУ
 ent-MaintenanceJack = домкрат для технического обслуживания
     .desc = Домкрат для технического обслуживания, предназначенный для снятия напольного покрытия.
 # HASH: b984fee634b375d883b66b9a991af1b8c12037af62a643d0af31cf59d7d96f1d
-ent-PirateRepairKit = pirate repair kit
-    .desc = A collection of equipment needed to repair a pirate console.
+ent-PirateRepairKit = пиратский набор для починки консоли
+    .desc = Коллекция оборудования, необходимого для ремонта пиратской консоли.
 # HASH: 7b2c2de453627e75ecb4903a3eceb741bab2bc0fe83ccceafadc2bad946f3b49
-ent-NFShovel = the people's shovel
-    .desc = An old relic from the Glorious Leader. Capable of 18 functions, including digging, chopping, cutting, picking, prying, wire cutting, shoveling.
+ent-NFShovel = народная лопата
+    .desc = Старинная реликвия времен Славного Вождя. Способна выполнять 18 функций, включая копание, рубку, резку, ковыряние, выкалывание, перерезание проволоки, разгребание.

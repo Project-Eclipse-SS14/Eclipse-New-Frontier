@@ -18,13 +18,13 @@ ent-ClothingOuterStorageFoldableBaseOpened = { ent-ClothingOuterStorageFoldableB
 ent-ClothingOuterStorageToggleableBase = { ent-ClothingOuterStorageBase }
     .desc = { ent-ClothingOuterStorageBase.desc }
 # HASH: 65d0a8fde59d8cdcf82f7f6b7dd1b2ea07a5aa623d4f29109fd7fa97e3fdeae0
-ent-ClothingOuterHardsuitBase = base hardsuit
+ent-ClothingOuterHardsuitBase = базовый скафандр
     .desc = { "" }
 # HASH: ef2b3d0523480348396c52eee3eb55f7577b30004a2ea90198bc114aee845c17
-ent-ClothingOuterEVASuitBase = base EVA Suit
+ent-ClothingOuterEVASuitBase = базовый ЕВА скафандр
     .desc = { "" }
 # HASH: 716be1efb93888fdc465ebe442ac11f59b15d4a29239c21f7e3dcb4ca76cb510
-ent-ClothingOuterBaseToggleable = hoodie with hood
+ent-ClothingOuterBaseToggleable = толстовка с капюшоном
     .desc = { ent-ClothingOuterBase.desc }
 # HASH: 8fd8d60ea9dc97d053b9d5a352d1e0bc05584cd07b2fc753843f3e72cd16a16b
 ent-ClothingOuterBaseMedium = { ent-ClothingOuterBase }

@@ -8,13 +8,13 @@ ent-ShardCrystalCyan = голубой осколок кристалла
 ent-ShardCrystalBlue = синий осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
 # HASH: 7bbf25a268060632c6b07f55a5bde122addcca893752f8b62fe28dad8ddce3fc
-ent-ShardCrystalYellow = yellow crystal shard
+ent-ShardCrystalYellow = жёлтый осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
 # HASH: 8691630bc73b718e2d3af9ba17735ec14d14c5c62ef83a0985d24c0cda2b4142
 ent-ShardCrystalOrange = оранжевый осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
 # HASH: ae92bd4924de41f66f0593e81cb97753ecff52cd8eba905b55d544e89ad8b9f3
-ent-ShardCrystalBlack = black crystal shard
+ent-ShardCrystalBlack = чёрный осколок кристалла
     .desc = { ent-ShardCrystalBase.desc }
 # HASH: 04d932583c5318243fe1f256a898f2f8642e5d2e4d5e4e7dac2f3b4b5af8095b
 ent-ShardCrystalPink = розовый осколок кристалла

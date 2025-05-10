@@ -20,7 +20,7 @@ ent-IronMetalFoam = железная пена
 ent-AluminiumMetalFoam = алюминиевая пена
     .desc = { ent-MetalFoam.desc }
 # HASH: bbe5699836131cd8339d2806f3e70140977cf3f459481e06d63266b437f665ad
-ent-BaseFoamedMetal = base foamed metal
+ent-BaseFoamedMetal = вспененный металл
     .desc = { "" }
 # HASH: 4a8dd0a63a4556076942204aa37a92a93809f7711ff3c667afee8a02c44fddb9
 ent-FoamedIronMetal = вспененное железо

@@ -1,6 +1,6 @@
 # HASH: 334def6f249476bfb9519f04bc9f502ef8e57c3b04c76770dc6aa030d83ca5c4
-ent-NFHolopadShip = bluespace holopad
-    .desc = A floor-mounted device for projecting holographic images to enable ship to ship communication.
+ent-NFHolopadShip = голопад дальней связи
+    .desc = Напольное устройство для проецирования голографических изображений для обеспечения связи между кораблями.
     .suffix = Шаттл
 # HASH: 70a0a3d087a0af23825312fb0faa34831be2c3c2bb838ef92141f2f26b299da6
 ent-NFHolopadShipAntag = { ent-NFHolopadShip }

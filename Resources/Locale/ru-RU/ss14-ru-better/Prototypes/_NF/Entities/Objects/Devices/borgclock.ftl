@@ -1,3 +1,3 @@
 # HASH: 2f5c7eb57d1d8bc7ab52ff0eecb8e3d61032d26c8685018ed8221cc74a120a63
-ent-BorgClock = digital clock
-    .desc = A rugged digital clock with 7-segment display. It's ticking for some reason.
+ent-BorgClock = цифровые часы
+    .desc = Прочные цифровые часы с 7-сегментным дисплеем. По какой-то причине они тикают.

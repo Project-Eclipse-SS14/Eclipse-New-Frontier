@@ -20,7 +20,7 @@ ent-IntercomCommon = { ent-Intercom }
     .suffix = Общий
 # HASH: 7f4c49169b5446dfecc62f290c08521b1dd1277b6feaef59e444ddca60d41417
 ent-IntercomCommand = { ent-BaseIntercomSecure }
-    .desc = An intercom. It's been reinforced with metal.
+    .desc = Переговорное устройство. Оно было усилено металлом.
     .suffix = Командный
 # HASH: a3ca61bf5334dcbe85765d5e7d54823a40ce3a8da6e516c463317971b7700185
 ent-IntercomEngineering = { ent-Intercom }

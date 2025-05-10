@@ -29,14 +29,14 @@ ent-FoodHoneyComb = соты
 ent-FoodPotatoSlice = нарезанный картофель
     .desc = Сырые картофельные палочки готовы к обжарке во фритюрнице.
 # HASH: 3a0c332fd5f5227a9e5e367c4a4e92a0734cb7aeeb9a979c244811a792e9ee3a
-ent-FoodEveryspice = everyspice pods
-    .desc = The long, pale pods of the everyspice plant. A flavorful addition to food when ground.
+ent-FoodEveryspice = стручки специи
+    .desc = Длинные, бледные стручки растения специи. В измельченном виде является ароматным дополнением к пище.
 # HASH: 56d50c4f27e1e566640d46544a07e8cdacc4e46e61231f9d40015a56ad7234ac
-ent-FoodEveryspiceRoasted = roasted everyspice pods
-    .desc = Aromatic, charred pods of the everyspice plant. A piquant addition to food when ground.
+ent-FoodEveryspiceRoasted = жареные стручки специи
+    .desc = Ароматные, обугленные стручки растения специи. Пикантная добавка к блюдам в молотом виде.
 # HASH: e233e8a86285f7b60b18db3a8f6827e760636f82633de6b693a55a273b508b73
-ent-FoodOnionRingsBattered = battered onion rings
-    .desc = Onion rings dredged in a gloopy flour and egg mixture.
+ent-FoodOnionRingsBattered = обжаренные луковые кольца
+    .desc = Луковые кольца, обмакнутые в мучную и яичную смесь.
 # HASH: 8fe9d64f70b583d2be489b6118b46790429b13353234bd1f4dbce53793896635
-ent-FoodMonkanana = monkanana
-    .desc = Looks like a monkeyfied banana.
+ent-FoodMonkanana = монканана
+    .desc = Выглядит как обезьяний банан.

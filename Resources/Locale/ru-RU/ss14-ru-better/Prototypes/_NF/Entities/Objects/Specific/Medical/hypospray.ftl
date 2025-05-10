@@ -38,8 +38,8 @@ ent-EthylredoxrazineAutoInjector = медипен «друг бармена»
 ent-BorgHypoNoRefill = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 # HASH: 44d8d561cc8e211f82c3e307472dbca2fee1afd469084c1f9d3a83873af647bb
-ent-BorgHypoTricordrazine = tricordrazine hypo
-    .desc = A sterile injector for rapid administration of drugs to patients. This one synthesizes tricordrazine.
+ent-BorgHypoTricordrazine = трикордразин гипо
+    .desc = Стерильный инъектор для быстрого введения лекарств пациентам. В нем синтезируется трикордразин.
 # HASH: e7216cb7726948c9e27e7b67912b345e6636e68c0dd91d509ce86744461d1b92
-ent-BorgHypoInaprovaline = inaprovaline hypo
-    .desc = A sterile injector for rapid administration of drugs to patients. This one synthesizes inaprovaline.
+ent-BorgHypoInaprovaline = инапровалин гипо
+    .desc = Стерильный инъектор для быстрого введения лекарств пациентам. В нем синтезируется инапровалин.

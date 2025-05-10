@@ -2,7 +2,7 @@
 ent-NFVehicleATV = { ent-VehicleATV }
     .desc = { ent-VehicleATV.desc }
 # HASH: e683eb2ba1879f857158b92a226c063f65bd7a0341b1b1c95ad6a5436743114b
-ent-NFVehicleSkeletonMotorcycle = skeleton motorcycle
+ent-NFVehicleSkeletonMotorcycle = мотоцикл-скелет
     .desc = Bad to the Bone.
 # HASH: 3757901dc6e945293769739e72448109e83f43a0e2e73e81528b24b222163a67
 ent-VehicleUnicycle = уницикл
@@ -15,12 +15,12 @@ ent-VehicleUnicycleFolded = { ent-VehicleUnicycle }
 ent-VehicleJanicartDestroyed = уничтоженная уборочная машина
     .desc = { ent-MachineFrameDestroyed.desc }
 # HASH: 485121843ec88bcdf5e0827596183dd89f305211dafaabb82a81c70fe5d6b881
-ent-NFVehicleHoverbike = hoverbike
-    .desc = A turbine with bike handles. Very safe.
+ent-NFVehicleHoverbike = ховербайк
+    .desc = Турбина с велосипедными ручками. Очень безопасно.
 # HASH: 7159604540b3a3fb6fde3966f0eb40110f07513590639c9d69b68e159129e8e1
 ent-NFVehicleHoverbikeKeys = { ent-NFVehicleHoverbike }
     .desc = { ent-NFVehicleHoverbike.desc }
-    .suffix = With key
+    .suffix = С ключом
 # HASH: 4c21e91000c6fc415320ea5302f1c495550ec290e1da0b8bda78da7863c94aa8
 ent-NFVehicleJanicart = уборочная машина
     .desc = Верный конь горничной.
@@ -36,12 +36,12 @@ ent-VehicleHoverbikeMailcarrierKey = { ent-VehicleHoverbikeMailcarrier }
     .desc = { ent-VehicleHoverbikeMailcarrier.desc }
     .suffix = Ключ
 # HASH: aa23fc49f062be25b29e70c966e35768a6595c86c201f97de7580c13cc2983d9
-ent-NFVehicleHoverbikeNfsd = NFSD hoverbike
-    .desc = An NFSD issued turbine with bike handles. Very safe.
+ent-NFVehicleHoverbikeNfsd = ховербайк ДСБФ
+    .desc = Турбина, выданная ДСБФ, с велосипедными ручками. Очень безопасно.
 # HASH: cbd7923659f1f32fdf1f4c00d52833c11a7ed71ea885ac89e6c539c27bb31ea3
 ent-NFVehicleHoverbikeNfsdKey = { ent-NFVehicleHoverbikeNfsd }
     .desc = { ent-NFVehicleHoverbikeNfsd.desc }
-    .suffix = With key
+    .suffix = С ключом
 # HASH: 79caab70ba786412974a232ac3bd00147a34e7e382a26e540973a6706e705262
 ent-VehicleHoverbikePirate = пиратский ховербайк
     .desc = Йарр, три тысячи карпов мне в бухту, это же миниатюрный корабль!

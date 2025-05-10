@@ -1,31 +1,31 @@
 # HASH: 4dbac8bd25503c5ad67beac1f13a1e127ea0e94e307403f8317d500290cd5191
 ent-SuitStorageEVA = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = EVA
+    .suffix = ЕВА
 # HASH: 99849d71659c165e093d19e470e59b6e7c336cd27d7ffc12691708eb8bfa1534
 ent-SuitStorageEVAAlternate = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = EVA, Большой шлем
+    .suffix = ЕВА, Большой шлем
 # HASH: a11473b806887e94cc8de3cdcdb3fc53c42ee4b44ba1e9972f22b3dc16f5724f
 ent-SuitStorageEVAEmergency = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = Аварийный EVA
+    .suffix = Аварийный ЕВА
 # HASH: f81ba03a1093eb110b2e3eb82e5e2349e5ff538ec98011febfbaa26d7f298b39
 ent-SuitStorageEVAPrisoner = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = Тюремный EVA
+    .suffix = Тюремный ЕВА
 # HASH: 2ff642da8e7708cdf62e4244c467f953ab2f37d5d5d1a43f1d6c1d18000a7141
 ent-SuitStorageEVASyndicate = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = Синдикат EVA
+    .suffix = Синдикат ЕВА
 # HASH: 1c8a01f4dc499b06f3019cdafa4f30dc7c34e6c49ae045503de39f8ffe07913c
 ent-SuitStorageEVAPirate = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = Древний EVA
+    .suffix = Древний ЕВА
 # HASH: 50e8811122cdbdc12c10073f9732eed2eb217cf5fd0532a41f671ca86e72f0ad
 ent-SuitStorageNTSRA = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = Ancient EVA
+    .suffix = Древний ЕВА
 # HASH: 4a826adf0cf9d63a7acbfbe665b3544a915f55e1ab5ff2e341d2fc05246da724
 ent-SuitStorageBasic = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }

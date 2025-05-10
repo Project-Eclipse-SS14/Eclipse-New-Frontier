@@ -1,5 +1,5 @@
 # HASH: c0d334719519e9d0717ff38a399012fbd2d33f28584587986eef958646aa7eb6
-ent-BaseWeaponShotgun = BaseWeaponShotgun
+ent-BaseWeaponShotgun = Базовый Дробовик
     .desc = Дерзай — налетай, целься и стреляй.
 # HASH: 08991490a4d824d7daec42d8b5bb71604eb60a08671ba21e985d1394f40774f4
 ent-WeaponShotgunBulldog = Бульдог

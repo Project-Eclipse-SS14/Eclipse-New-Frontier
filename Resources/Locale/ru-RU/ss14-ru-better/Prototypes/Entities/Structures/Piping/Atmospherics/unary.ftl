@@ -25,7 +25,7 @@ ent-GasThermoMachineFreezerEnabled = { ent-GasThermoMachineFreezer }
     .suffix = Включено
 # HASH: 6170c00794935a7ac9caa9a3451e4220bc6a569382754b1c36412fd84a8d7c69
 ent-GasThermoMachineHeater = нагреватель
-    .desc = Heats gas in connected pipes.
+    .desc = Нагревает газ в подсоединенных трубах.
 # HASH: b333733db79ee9d6d1a8191cd8d01ade5746afba86c11767b9263090034326e6
 ent-GasThermoMachineHeaterEnabled = { ent-GasThermoMachineHeater }
     .desc = { ent-GasThermoMachineHeater.desc }

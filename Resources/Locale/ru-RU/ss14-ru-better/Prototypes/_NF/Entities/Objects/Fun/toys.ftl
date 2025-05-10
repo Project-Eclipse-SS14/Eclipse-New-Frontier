@@ -12,7 +12,7 @@ ent-NFPlushieConstruction = плюшевая стройка
     .desc = В процессе строительства. Жалко что оно до такого дошло.
 # HASH: 8938c231ecf442bb0627016b6ffd130bb20e3e76bdf4dded1f10899c2b8ab1fa
 ent-NFPlushieCmo = плюшевый ГВ
-    .desc = Just a weh away.
+    .desc = Всего в нескольких шагах.
 # HASH: 6964fcb133627d7b60cbe88b0d45a7038d94a4cd747cc33bea16f72936b9dc79
 ent-NFPlushieSharkMinnow = плюшевая карпоакула
     .desc = Она убила тебя! Она убила твоих друзей! Теперь этот рассадник ПТСР Довольно Страшная Мягкая Игрушка!

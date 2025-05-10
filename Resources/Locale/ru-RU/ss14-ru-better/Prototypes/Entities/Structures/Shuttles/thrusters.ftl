@@ -11,7 +11,7 @@ ent-ThrusterUnanchored = { ent-Thruster }
 # HASH: 1f5f784306cad016733eda34cb46f6c82961bc965ef0582b328d97e3e9b060ce
 ent-DebugThruster = { ent-BaseThruster }
     .desc = { ent-BaseThruster.desc }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: 9cf9eda509d961c724e0c3ca96bd4335a5702fff67648e237e6201c3a4f331bb
 ent-Gyroscope = гироскоп
     .desc = Увеличивает потенциальное угловое вращение шаттла.
@@ -22,4 +22,4 @@ ent-GyroscopeUnanchored = { ent-Gyroscope }
 # HASH: 1f5f784306cad016733eda34cb46f6c82961bc965ef0582b328d97e3e9b060ce
 ent-DebugGyroscope = { ent-BaseThruster }
     .desc = { ent-BaseThruster.desc }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ

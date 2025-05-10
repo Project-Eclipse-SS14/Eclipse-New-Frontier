@@ -57,7 +57,7 @@ ent-ClothingHeadHatHoodWinterBartender = капюшон зимней куртк�
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
 # HASH: a489d4a00fe1f04b081e7be08c16517a65fab847e4162c86992e9a7ccb057413
 ent-ClothingHeadHatHoodWinterCaptain = капюшон зимней куртки капитана
-    .desc = An expensive hood, to keep the captain's head warm.
+    .desc = Дорогой капюшон, чтобы держать голову капитана в тепле.
 # HASH: 023d9eea5478d194b0dafb4efa02ebf97caa00c28a6845c616ef0f535a17e3ec
 ent-ClothingHeadHatHoodWinterCargo = капюшон зимней куртки грузчика
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
@@ -65,8 +65,8 @@ ent-ClothingHeadHatHoodWinterCargo = капюшон зимней куртки г
 ent-ClothingHeadHatHoodWinterCE = капюшон зимней куртки старшего инженера
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }
 # HASH: 77516bd663e3066fa33a36515c0d9731e7c98629cc24ee00ed56f33df7b2474a
-ent-ClothingHeadHatHoodWinterCentcom = капюшон зимней куртки Центком
-    .desc = A hood for keeping the central comander's head warm.
+ent-ClothingHeadHatHoodWinterCentcom = капюшон зимней куртки ЦентКомм
+    .desc = Капюшон для сохранения головы ЦК в тепле.
 # HASH: a38c7aa6842067c1b46e1bed8a2b42ada630ea0063870b8f26b4d1904fb32733
 ent-ClothingHeadHatHoodWinterChem = капюшон зимней куртки химика
     .desc = { ent-ClothingHeadHatHoodWinterBase.desc }

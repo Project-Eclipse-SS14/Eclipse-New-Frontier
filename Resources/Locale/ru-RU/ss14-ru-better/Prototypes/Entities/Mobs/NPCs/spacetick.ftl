@@ -4,4 +4,4 @@ ent-MobTick = космический клещ
 # HASH: bd4f62c82e747a21f09f8b5e82d2b19ed0a19f20e2e52b198e4a04fc00a33dea
 ent-MobTickSalvage = { ent-MobTick }
     .desc = { ent-MobTick.desc }
-    .suffix = Salvage Ruleset
+    .suffix = Правила утилизации

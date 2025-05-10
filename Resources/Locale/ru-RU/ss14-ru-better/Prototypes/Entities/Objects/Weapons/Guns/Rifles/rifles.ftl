@@ -1,5 +1,5 @@
 # HASH: 821547eca30d22d04b1b3165f24ebac13fbfbaedf5e711a605be18da9a941615
-ent-BaseWeaponRifle = BaseWeaponRifle
+ent-BaseWeaponRifle = Базовая Винтовка
     .desc = Дерзай — налетай, целься и стреляй.
 # HASH: ee350e0398068e6d25af8a8fcfd2bd567df3ed61e976c43918fdbf2b8e31762b
 ent-WeaponRifleAk = АКМС

@@ -69,7 +69,7 @@ ent-FoodSnackMREBrownie = брауни
     .desc = Точно смешанное пирожное-брауни, приготовленное так, чтобы переносить удары и суровые условия. На вкус как дерьмо.
 # HASH: be5ad31df11f43a7dbc653b94c42e592ebeec6671c317322bf4676c3c91c2828
 ent-FoodSnackMREBrownieOpen = брауни
-    .desc = A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
+    .desc = Точно замешанное пирожное, созданное, чтобы выдержать тупые травмы и суровые условия. На вкус как дерьмо.
     .suffix = ИРП
 # HASH: b98336111b89bd16cf76ec02a8c05e9454269c640be6ef0ff96b6bab2e9506f3
 ent-FoodPacketTrash = { ent-BaseItem }

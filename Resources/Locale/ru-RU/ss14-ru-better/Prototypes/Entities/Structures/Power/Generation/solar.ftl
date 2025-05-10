@@ -12,7 +12,7 @@ ent-SolarPanel = солнечная панель
     .desc = Солнечная панель, вырабатывающая электроэнергию.
 # HASH: 0733b3a36f4c791f3a5efdef31412ae5d69d7f57009297bfe58ffd664ac5bd29
 ent-SolarPanelBroken = солнечная панель
-    .desc = A broken solar panel.
+    .desc = Сломанная солнечная панель.
     .suffix = Сломанная
 # HASH: b77b7a10e2775ac316a2ef56867e7f450477b4f700d85b0f85c438c9ab23c278
 ent-SolarPanelPlasmaBroken = плазменная солнечная панель

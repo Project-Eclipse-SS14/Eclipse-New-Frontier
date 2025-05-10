@@ -174,11 +174,11 @@ ent-RandomHumanoidSyndieVisitor = синдикат жертва катастро
 # HASH: 819dd4cb58ec13c25476dc033dc7bbbfe11dd3d24befd7e8da930b44c11e2e97
 ent-RandomHumanoidPirateScooner = пират член экипажа роль призрака
     .desc = { "" }
-    .suffix = scooner
+    .suffix = Шхуна
 # HASH: 40dba7e721c79d3ca64de9c2a4975f0d0a393a987c00428f28447ec3ac07abd2
 ent-RandomHumanoidPirateCaptainScooner = пират капитан роль призрака
     .desc = { "" }
-    .suffix = scooner
+    .suffix = Шхуна
 # HASH: 1029c26d6149fea92bc9709dabd1742cda070d47c35392de361ab53fcba94bf6
 ent-RandomHumanoidVisitorBlackmarketeer = посетитель торговец чёрного рынка роль призрака
     .desc = { "" }

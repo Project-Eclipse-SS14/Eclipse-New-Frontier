@@ -5,8 +5,8 @@ ent-PosterContrabandSaucerNumberOne = Блюдо #1!
 ent-PosterContrabandBreadLies = Хлебная ложь
     .desc = Вам солгали. "Большого хлеба" не существует. Он ненастоящий. Пожалуйста, перестаньте его искать.
 # HASH: 1cd20ee50c726350664da65e4f745e837945075463124fc1769e40932f4046d6
-ent-PosterContrabandAyaya = Ayaya
-    .desc = Ayayayaya.
+ent-PosterContrabandAyaya = Айяйя
+    .desc = Айяйяйяйя.
 # HASH: 9aa9e151289757663c8c8e026f7ebc398ccd578ad706e06264b3251362aa5a61
 ent-PosterLegitDejaVu = Зона ДежаВю
     .desc = Вы здесь впервые. Если эта станция покажется вам знакомой, немедленно предупредите сотрудника NanoTrasen.
@@ -41,23 +41,23 @@ ent-PosterLegitMedicate = Примите лекарства
 ent-PosterLegitNoTouching = Не трогать
     .desc = Не трогать!
 # HASH: 782c608ffbcfc0d10038cdb98c8fc2f76f8c0fe5d9c62c0d0c820f0ba8b9c3a7
-ent-PosterLegitChknDnnr = Winner Winner Chicken Dinner
-    .desc = An advertisement for crispy fried chicken.
+ent-PosterLegitChknDnnr = Винер Винер Чикен Динер
+    .desc = Реклама хрустящего жареного цыпленка.
 # HASH: 22adbfb1d203ecaee34724c52498e6a44487dd70e3a1eccb42bc160b80bd2821
-ent-PosterLegitCornzza = Corncob Crust!
-    .desc = NEW Cornzza! Corn pizza, with a corncob crust that'll make you say 'why does this exist?'.
+ent-PosterLegitCornzza = Корочка из початка!
+    .desc = Новая Cornzza! Кукурузная пицца с корочкой из кукурузных початков, которая заставит вас сказать «почему это существует?».
 # HASH: 12f068e1ba1496a4b99ca1d2cb207b4b7586fcd1fc85a22e6a191b2d1541d8bd
-ent-PosterContrabandSafetyMothSyndie = Syndie Moth - Nuclear Operation
-    .desc = Syndie Moth™ tells the viewer to keep the nuclear authentication disk unsecured. "Peace was never an option!"
+ent-PosterContrabandSafetyMothSyndie = Синди Моль - Ядерная операция
+    .desc = Синди Моль™ просит зрителя держать диск с ядерной аутентификацией в незащищенном состоянии. «Мир никогда не был вариантом!»
 # HASH: 674097f52a68c9e8fd7cec3c10a59f0379c4c5feb691435b7ce2a2ccb6db205e
-ent-PosterLegitSafetyMothPoisoning = Safety Moth - Poisoning
-    .desc = Safety Moth™ tells the viewer not to poison the station donuts.
+ent-PosterLegitSafetyMothPoisoning = Безопасная Моль - Отравление
+    .desc = Безопасная Моль™ советует зрителям не отравлять станционные пончики.
 # HASH: 28814571245c04e6df0d6091e814dbab3e472bea6c2770e7441bbfba62e8a3bd
-ent-PosterLegitSafetyMothBoH = Safety Moth - Bag of Holding
-    .desc = Safety Moth™ informs the viewer of the dangers of Bags of Holding. "Remember! Bags of Holding may be pretty, but they're also pretty dangerous! Never put one inside another!"
+ent-PosterLegitSafetyMothBoH = Безопасная Моль - Пакеты Холдинга
+    .desc = Безопасная Моль™ информирует зрителей об опасности холщовых сумок. «Помните! Пакеты Холдинга могут быть красивыми, но они также довольно опасны! Никогда не кладите один в другой!»
 # HASH: 85c7f23bdf48da16232b95740ba9d5eaa7bae71b4bff7486e85738781b5bbd9a
-ent-PosterLegitSafetyMothFires = Safety Moth - Fires
-    .desc = Safety Moth™ promotes safe handling of plasma and to keep firefighting equipment within hand reach.
+ent-PosterLegitSafetyMothFires = Безопасная Моль - Огни
+    .desc = Безопасная Моль™ способствует безопасному обращению с плазмой и хранению противопожарного оборудования в пределах досягаемости.
 # HASH: f953a907045578e6d605ba646ff02815787d39d5f490fc4c2c5cfbec87b97d50
-ent-PosterLegitSafetyMothPills = Safety Moth - Pill Bottles
-    .desc = Safety Moth™ informs the viewer that leaving pills unsupervised on tables could lead to unforeseen consequences. "Hungry critters love to eat everything! Keep your pills safe in crates and pill bottles!"
+ent-PosterLegitSafetyMothPills = Безопасная Моль - Бутылки для таблеток
+    .desc = Безопасная Моль™ информирует зрителя о том, что оставление таблеток на столах без присмотра может привести к непредвиденным последствиям. «Голодные твари любят есть все! Храните таблетки в ящиках и бутылочках!»

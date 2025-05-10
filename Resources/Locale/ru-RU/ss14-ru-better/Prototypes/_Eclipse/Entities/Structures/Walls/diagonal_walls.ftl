@@ -1,5 +1,5 @@
 # HASH: 33246a1c0eff4e19f01e719a7472e362032b8e75ad9a8706f6be5117b218c2d7
-ent-BaseWallDiagonal = basewall
+ent-BaseWallDiagonal = базовая стена
     .desc = { "" }
     .suffix = Диагональ
 # HASH: cbb5b7dfca1831523f035cdd4883b29ac40e9ca7e413c9063b9878e698992632
@@ -12,7 +12,7 @@ ent-WallPlastitaniumDiagonal = пластитановая стена
     .suffix = Диагональ
 # HASH: a057456b9aba784e1721e95ec4eb83572e669e8bc014e8c5b4128877a9e7af6d
 ent-WallPlastitaniumDiagonalIndestructible = пластитановая стена
-    .desc = Skub knows this wall is too hard to destroy.
+    .desc = Скуб знает, что эту стену слишком трудно разрушить.
     .suffix = Диагональ, Неразрушимое
 # HASH: 75baffb8f96d0e4e3d71857d34c4567afc41dc3c7692214116de82d1d15a517f
 ent-WallSolidDiagonal = обычная стена

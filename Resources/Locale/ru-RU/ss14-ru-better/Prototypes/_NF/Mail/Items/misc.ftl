@@ -1,6 +1,6 @@
 # HASH: de427273da1a2092e4c0d79bc03bb7bc35a144d6f504ad0d3275e1b39cc1ca4b
-ent-BaseDelayedItem = delayed item
-    .desc = If you're seeing this, something went wrong!
+ent-BaseDelayedItem = отложенный предмет
+    .desc = Если вы видите это, значит, что-то пошло не так!
 # HASH: c60a3583c7d8bee8ac683635f656cde4ba2623ef9494e045e623473e537068c2
 ent-BaseDamageableDelayedItem = { ent-BaseDelayedItem }
     .desc = { ent-BaseDelayedItem.desc }
@@ -22,7 +22,7 @@ ent-DelayedPetCarrierNPCEmotionalSupportSafe = ручная зверушка
 ent-NFRandomCritter = { "" }
     .desc = { "" }
 # HASH: afc043fff95f4830fbcb11890c53e046105c647852639190ec97ec0b1c639bc2
-ent-DelayedNFRandomCritter = delayed random critter
+ent-DelayedNFRandomCritter = отложенная случайная живность
     .desc = { ent-BaseDelayedItem.desc }
 # HASH: ddaf32d2f00fce9cb478a6eb87bc13f9e51b67026fc0962b9742d717b2ef5d28
 ent-SyringeCognizine = шприц с когнизином
@@ -35,7 +35,7 @@ ent-SyringeOpporozidone = шприц с опорозидоном
 # HASH: c09b3f9939c64c8e8783bc4048c4229c3cb908ae6ae2eac46c847724661ea7e3
 ent-ChemistryBottleNecrosol = { ent-BaseChemistryBottleFilled }
     .desc = { ent-BaseChemistryBottleFilled.desc }
-    .suffix = necrosol
+    .suffix = некрозол
 # HASH: 5d1527d30a2ffcb6826f47870b14005fc7b3fdddfd76b4cbae2ab86a07545572
 ent-DrinkPremiumVodkaBottleFull = бутылка водки "Момент Ясности"
     .desc = Когда мир вокруг рушится, всё, что вам нужно, это "Момент Ясности".

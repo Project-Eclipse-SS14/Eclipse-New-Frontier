@@ -17,8 +17,8 @@ ent-CucumberSeeds = пакет семян (огурец)
 ent-BeeSeeds = банка с пчелами
     .desc = Стартовый набор для начинающего пасечника.
 # HASH: d9c8ca109701d28b72a313f7f87c6d40eb0deff994e4f4f5b26fb5c274add9e3
-ent-EveryspiceSeeds = packet of everyspice seeds
-    .desc = Wars were fought over less.
+ent-EveryspiceSeeds = пакетик семян специи
+    .desc = Войны велись и за меньшее.
 # HASH: 2aea427a49a9c20aa35ad95755bcc0d7e31d1bc2d37af1d4a646eca3eae40f7a
-ent-MonkananaSeeds = packet of monkanana seeds
-    .desc = Why is it so hairy?
+ent-MonkananaSeeds = пакет семян монкананы
+    .desc = Почему он такой волосатый?

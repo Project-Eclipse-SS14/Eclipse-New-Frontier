@@ -43,7 +43,7 @@ ent-GunSafeShotgunKammerer = оружейный сейф Каммереров
 # HASH: d8227cc5203cc890114c8cd9a566273527bc5b69d74be7ae588a7e41312cf48e
 ent-GunSafeSubMachineGunWt550 = оружейный сейф WT550
     .desc = { ent-GunSafeBaseSecure.desc }
-    .suffix = Wt550
+    .suffix = WT550
 # HASH: e0131caef591d5a85e33f5fcded8bf09372ef0b716a6c12168f0b73efeb41028
 ent-GunSafeLaserCarbine = оружейный сейф лазерных карабинов
     .desc = { ent-GunSafeBaseSecure.desc }

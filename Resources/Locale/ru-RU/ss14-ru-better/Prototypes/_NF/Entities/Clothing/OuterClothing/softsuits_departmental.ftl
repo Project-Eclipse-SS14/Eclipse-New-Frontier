@@ -14,8 +14,8 @@ ent-ClothingOuterEVASuitContractor = скафандр EVA авантюриста
 ent-ClothingOuterEVASuitSr = скафандр EVA представителя
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: 4f21e8add23d763cda1c435e514c5565d798282e6b7de1520be269c9546cf925
-ent-ClothingOuterEVASuitStc = station traffic controller EVA suit
-    .desc = An EVA suit with a built-in helmet commonly issued to station traffic controllers.
+ent-ClothingOuterEVASuitStc = скафандр EVA диспетчера аванопста
+    .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: f97b32969d0c0182341e28478f5b2059db4296da86fbc26018aa56c21d650479
 ent-ClothingOuterEVASuitCaptain = скафандр EVA капитана
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
@@ -41,8 +41,8 @@ ent-ClothingOuterEVASuitScientist = скафандр EVA учёного
 ent-ClothingOuterEVASuitJanitor = скафандр EVA уборщика
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: 35ea3f8c1daf972345953a6753f5f57aa3ea3eb58028809ed123f7b9395e5b19
-ent-ClothingOuterEVASuitValet = valet EVA suit
-    .desc = An EVA suit with a built-in helmet commonly issued to valets.
+ent-ClothingOuterEVASuitValet = скафандр EVA камердинера
+    .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: e6f921533cb5deb3e41996ec68adcf7a6e34f26114003b2a06c2e93361e0e8f1
 ent-ClothingOuterEVASuitServiceWorker = скафандр EVA сервисный
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
@@ -82,14 +82,14 @@ ent-ClothingOuterEVASuitPrivateSec = скафандр EVA телохраните
 ent-ClothingOuterEVASuitNfsd = скафандр EVA ДСБФ
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: 83d7119b3776e2f16c5aef2b6320f61a01fd20c24c5cf5dade409e0484b33335
-ent-ClothingOuterEVASuitPirate = pirate EVA suit
-    .desc = An EVA suit with a built-in helmet commonly used by pirates.
+ent-ClothingOuterEVASuitPirate = скафандр EVA пирата
+    .desc = AАварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: dd306cc66f042995969a61f5f696cc22d10fbdf373fd5d8be00a24c78079854c
-ent-ClothingOuterEVASuitPrisoner = prisoner EVA suit
-    .desc = An EVA suit with a built-in helmet commonly issued to prisoners.
+ent-ClothingOuterEVASuitPrisoner = скафандр EVA заключенного
+    .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: 86174ea06f7e758f3a26431cbae9909ffe1c72639f836c3c280c4999a4ac3f48
 ent-ClothingOuterEVASuitLvhi = скафандр EVA LVHI
-    .desc = Костюм для выхода в открытый космос со встроенным шлемом, обычно выдаваемый персоналу компании Лангстад-Войгт Хэви Индастриз (LVHI).
+    .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
 # HASH: 62eb051e20d80d53aa2c739c262e90177b6144ebdf3bbd052cb5ed16fe252679
 ent-ClothingOuterEVASuitArcadia = скафандр EVA Аркадиа
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
