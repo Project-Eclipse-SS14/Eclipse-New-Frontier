@@ -58,7 +58,8 @@
     damage:
       types:
         Radiation: 10
-  - type: RemoveOnSave # Eclipse
+  - type: ShipyardSellCondition # Eclipse
+    deleteOnSale: true
 
 - type: entity
   id: AnomalyPyroclastic

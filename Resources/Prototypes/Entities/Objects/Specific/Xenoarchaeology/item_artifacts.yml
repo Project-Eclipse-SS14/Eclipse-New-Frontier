@@ -65,7 +65,8 @@
   - type: GuideHelp
     guides:
     - Xenoarchaeology
-  - type: RemoveOnSave # Eclipse
+  - type: ShipyardSellCondition # Eclipse
+    deleteOnSale: true
 
 - type: entity
   parent: BaseXenoArtifactItem

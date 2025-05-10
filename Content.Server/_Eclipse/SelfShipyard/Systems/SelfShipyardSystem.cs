@@ -27,6 +27,8 @@ using Content.Server._Eclipse.SelfShipyard.Components;
 using Robust.Shared.EntitySerialization.Systems;
 using Robust.Shared.ContentPack;
 using Content.Server.SelfShipyard.Events;
+using Content.Shared.Research.Components;
+using Content.Shared.Research.Systems;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -42,6 +44,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedResearchSystem _researchSystem = default!;
 
     [Dependency] private readonly IResourceManager _resMan = default!;
 
@@ -356,17 +359,33 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     // checks if something has the ShipyardPreserveOnSaleComponent and if it does, adds it to the list
     private void FindEntitiesToPreserve(EntityUid entity, ref List<EntityUid> toPreserve, ref List<EntityUid> toDelete)
     {
-        if (TryComp<RemoveOnSaveComponent>(entity, out var _))
+        if (TryComp<ShipyardSellConditionComponent>(entity, out var comp))
         {
-            toDelete.Add(entity);
-            return;
+            if (comp.PreserveOnSale)
+            {
+                toPreserve.Add(entity);
+                return;
+            }
+            else if (comp.DeleteOnSale)
+            {
+                toDelete.Add(entity);
+                return;
+            }
         }
-        else if (TryComp<ShipyardSellConditionComponent>(entity, out var comp) && comp.PreserveOnSale == true)
+
+        //Reset all researched technologies
+        if (TryComp<ResearchServerComponent>(entity, out var researchServer))
         {
-            toPreserve.Add(entity);
-            return;
+            researchServer.Points = 0;
         }
-        else if (TryComp<ContainerManagerComponent>(entity, out var containers))
+        if (TryComp<TechnologyDatabaseComponent>(entity, out var technologyDatabase))
+        {
+            _researchSystem.ClearTechs(entity, technologyDatabase);
+            technologyDatabase.UnlockedRecipes.Clear();
+            technologyDatabase.CurrentTechnologyCards.Clear();
+        }
+
+        if (TryComp<ContainerManagerComponent>(entity, out var containers))
         {
             foreach (var container in containers.Containers.Values)
             {
