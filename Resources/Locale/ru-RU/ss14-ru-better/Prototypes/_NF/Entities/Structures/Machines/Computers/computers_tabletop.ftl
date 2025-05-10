@@ -5,15 +5,15 @@ ent-ComputerTabletopAlert = { ent-ComputerAlert }
 ent-ComputerTabletopShuttle = { ent-ComputerShuttle }
     .desc = { ent-ComputerShuttle.desc }
 # HASH: 6d3a5311453c51a40d9af149ce04103ef44dd1943f60361c962f96b5570a3b8c
-ent-ComputerTabletopShuttleAntag = { ent-ComputerShuttle }
-    .desc = { ent-ComputerShuttle.desc }
+ent-ComputerTabletopShuttleAntag = { ent-ComputerShuttleAntag }
+    .desc = { ent-ComputerShuttleAntag.desc }
 # HASH: 7408ef831ac17e348373ca9de66f1c46af2fed654f0d4ee5485513205314b72a
 ent-ComputerTabletopIFF = { ent-ComputerIFF }
     .desc = { ent-ComputerIFF.desc }
 # HASH: 642748a6e6d14c822fb0556ef884c5e6ec017648276ddba241c371c6c0a0de06
 ent-ComputerTabletopIFFSyndicate = { ent-ComputerIFFSyndicate }
     .desc = { ent-ComputerIFFSyndicate.desc }
-    .suffix = Syndicate, Tabletop
+    .suffix = Синдикат, Настольный
 # HASH: 7f173ee2f09e75265a85f9832a8f6461343f4ae2d5986e8e9431a73a9fc32675
 ent-ComputerTabletopPowerMonitoring = { ent-ComputerPowerMonitoring }
     .desc = { ent-ComputerPowerMonitoring.desc }
@@ -79,79 +79,79 @@ ent-ComputerTabletopMassMedia = { ent-ComputerMassMedia }
     .desc = { ent-ComputerMassMedia.desc }
 # HASH: 870731ab7820c23b93c46f4e76a111f7941cb3568a5980c3c387c929ceb6c116
 ent-ComputerTabletopMarketConsoleNFLow = { ent-ComputerMarketConsoleNFLow }
-    .desc = { ent-ComputerMarketConsoleNFBase.desc }
-    .suffix = Low, Tabletop
+    .desc = { ent-ComputerMarketConsoleNFLow.desc }
+    .suffix = Низкий 2x, Настольный
 # HASH: 64a48e66eaa13a4ba9e890c8fb06ec664ca1c1a7001dae85e8e4cb843e0a1f6b
 ent-ComputerTabletopMarketConsoleNFNormal = { ent-ComputerMarketConsoleNFNormal }
-    .desc = { ent-ComputerMarketConsoleNFBase.desc }
-    .suffix = Normal, Tabletop
+    .desc = { ent-ComputerMarketConsoleNFNormal.desc }
+    .suffix = Обычный, Настольный
 # HASH: aecdf7079a0c0b68f02f2f425934268941396cbc2829ec651a395022e10dabde
 ent-ComputerTabletopMarketConsoleNFHigh = { ent-ComputerMarketConsoleNFHigh }
-    .desc = { ent-ComputerMarketConsoleNFBase.desc }
-    .suffix = High, Tabletop
+    .desc = { ent-ComputerMarketConsoleNFHigh.desc }
+    .suffix = Высокий 5x, Настольный
 # HASH: 87898015e85b0ea637c093377fd2dd1901d134718a5a155e391b2ede5f3c7186
-ent-ComputerTabletopPalletConsoleNFHighMarket = { ent-ComputerPalletConsoleNFMarket }
-    .desc = { ent-ComputerPalletConsoleNFMarket.desc }
-    .suffix = High, Tabletop
+ent-ComputerTabletopPalletConsoleNFHighMarket = { ent-ComputerPalletConsoleNFHighMarket }
+    .desc = { ent-ComputerPalletConsoleNFHighMarket.desc }
+    .suffix = Высокий, Настольный
 # HASH: 75d3ae33c0ba33e82ac4cf2d63112e36fcb777a4da07f6382a355cceee19a08c
-ent-ComputerTabletopPalletConsoleNFNormalMarket = { ent-ComputerPalletConsoleNFMarket }
-    .desc = { ent-ComputerPalletConsoleNFMarket.desc }
-    .suffix = Normal, Tabletop
+ent-ComputerTabletopPalletConsoleNFNormalMarket = { ent-ComputerPalletConsoleNFNormalMarket }
+    .desc = { ent-ComputerPalletConsoleNFNormalMarket.desc }
+    .suffix = Нормальный, Настольный
 # HASH: 9ac5fe485740fe3733e721575690b4888a345f9ab39d5e8fb9c29df638c28975
-ent-ComputerTabletopPalletConsoleNFLowMarket = { ent-ComputerPalletConsoleNFMarket }
-    .desc = { ent-ComputerPalletConsoleNFMarket.desc }
-    .suffix = Low, Tabletop
+ent-ComputerTabletopPalletConsoleNFLowMarket = { ent-ComputerPalletConsoleNFLowMarket }
+    .desc = { ent-ComputerPalletConsoleNFLowMarket.desc }
+    .suffix = Низкий, Настольный
 # HASH: 78faf7d358e30d407a6388799ed5f8f2ca2280b43ae40c448ac387b41c3568a6
-ent-ComputerTabletopPalletConsoleNFVeryLowMarket = { ent-ComputerPalletConsoleNFMarket }
-    .desc = { ent-ComputerPalletConsoleNFMarket.desc }
-    .suffix = VeryLow, Tabletop
+ent-ComputerTabletopPalletConsoleNFVeryLowMarket = { ent-ComputerPalletConsoleNFVeryLowMarket }
+    .desc = { ent-ComputerPalletConsoleNFVeryLowMarket.desc }
+    .suffix = Очень низкий, Настольный
 # HASH: 43c4c1b045ba04ea499f103431df96676cc21536ce30630d2013eae0cf81b61a
 ent-BaseComputerTabletopStationAdminBankATM = station administration console
     .desc = { ent-BaseStationAdminBankATM.desc }
 # HASH: 7149439e4e6176d05ef75d55a5f72b0e334667a1b9ae30d0589444c8da53ac64
 ent-ComputerTabletopStationAdminBankATMFrontier = { ent-BaseComputerTabletopStationAdminBankATM }
     .desc = Used to transfer funds from Frontier Outpost's bank account
-    .suffix = Frontier, Tabletop
+    .suffix = Фронтир, Настольный
 # HASH: 627e862ab38a08bb10b5bdda412398bbf6700b0b902cebc593b0f6e48cda3fd7
 ent-ComputerTabletopStationAdminBankATMNfsd = { ent-BaseComputerTabletopStationAdminBankATM }
     .desc = Used to transfer funds from NFSD's bank account
-    .suffix = NFSD, Tabletop
+    .suffix = ДСБФ, Настольный
 # HASH: d3fee8e520bcf0800a785198c6d6987c8b2ff8ab1d36a1d4eaea03c46c4a8aa0
 ent-ComputerTabletopStationAdminBankATMMedical = { ent-BaseComputerTabletopStationAdminBankATM }
     .desc = Used to transfer funds from Medical Dispatch's bank account
-    .suffix = Medical, Tabletop
+    .suffix = Медицинский, Настольный
 # HASH: a022f61dbc1ff47b223d3d0d0da3ce54ae67634c2c7d85585e02816c8f6bbd92
 ent-ComputerTabletopContrabandPalletConsole = { ent-ComputerContrabandPalletConsole }
     .desc = { ent-ComputerContrabandPalletConsole.desc }
 # HASH: 5ec5fb29e75ec4462a23f1fd3a5844f3975dd82056673063d9ea142a9420658d
 ent-ComputerTabletopIFFPOI = { ent-ComputerIFFPOI }
     .desc = { ent-ComputerIFFPOI.desc }
-    .suffix = POI, Tabletop
+    .suffix = POI, Настольный
 # HASH: 787950dd72390114ab548a4fe011bf6a179a1ab365d748d6c8f83474744922f1
 ent-ComputerTabletopPirateBounty = { ent-ComputerPirateBounty }
     .desc = { ent-ComputerPirateBounty.desc }
-    .suffix = Tabletop
+    .suffix = Настольный
 # HASH: c15c61a505fe8a2e46902e62f2f1341c29684d19461ee83f1dc98eae3e9598cb
 ent-ComputerTabletopContrabandPalletConsolePirate = { ent-ComputerContrabandPalletConsolePirate }
     .desc = { ent-ComputerContrabandPalletConsolePirate.desc }
-    .suffix = Tabletop
+    .suffix = Настольный
 # HASH: 34a5fdf1ad9e4fb1b4c1c6b9e0fd280c9be9db01caa2c52ecc94a9ee58f4a98f
 ent-ComputerTabletopPirateBountyRedemption = { ent-ComputerPirateBountyRedemption }
     .desc = { ent-ComputerPirateBountyRedemption.desc }
-    .suffix = Tabletop
+    .suffix = Настольный
 # HASH: 388227006650ed0d922e3f0da930d921aef8b893833e9e4a77ec604e39149bbb
 ent-ComputerTabletopShuttleFrontierOutpostLocal = { ent-ComputerShuttleFrontierOutpostLocal }
     .desc = { ent-ComputerShuttleFrontierOutpostLocal.desc }
-    .suffix = Local, Tabletop
+    .suffix = Local, Настольный
 # HASH: d8bf135169af5965c9774a745f6fd7a68364d2be07e230d7332541a8d93517ff
 ent-ComputerTabletopShuttleFrontierOutpostRemote = { ent-ComputerShuttleFrontierOutpostRemote }
     .desc = { ent-ComputerShuttleFrontierOutpostRemote.desc }
-    .suffix = Remote, Tabletop
+    .suffix = Remote, Настольный
 # HASH: 4653c3ff02284a9b1b4391492d2cd7c9eacb76e64f1e13e8e7588c2c002bb7e0
 ent-ComputerTabletopShuttleTradeOutpostLocal = { ent-ComputerShuttleTradeOutpostLocal }
     .desc = { ent-ComputerShuttleTradeOutpostLocal.desc }
-    .suffix = Local, Tabletop
+    .suffix = Local, Настольный
 # HASH: 41d0e040f4d5bf5b7a1a4bef1af5c46fd921831eb32a49186e0bea59cd92a77a
 ent-ComputerTabletopShuttleTradeOutpostRemote = { ent-ComputerShuttleTradeOutpostRemote }
     .desc = { ent-ComputerShuttleTradeOutpostRemote.desc }
-    .suffix = Remote, Tabletop
+    .suffix = Remote, Настольный

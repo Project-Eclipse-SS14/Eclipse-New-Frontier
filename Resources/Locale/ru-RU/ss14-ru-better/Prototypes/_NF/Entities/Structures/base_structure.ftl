@@ -17,8 +17,8 @@ ent-BaseStructureDestructible = { "" }
 ent-BaseStructureIndestructible = { "" }
     .desc = { "" }
 # HASH: 8e512e8fd0c3ad20d4f5d4bf16a245c3d6d031b3b4a67e51420669f1a33a851a
-ent-BaseStructureWallmount = { ent-BaseStructureDisableAnchoring }
-    .desc = { ent-BaseStructureDisableAnchoring.desc }
+ent-BaseStructureWallmount = { "" }
+    .desc = { "" }
 # HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 ent-BaseStructureLockImmuneToEmag = { "" }
     .desc = { "" }

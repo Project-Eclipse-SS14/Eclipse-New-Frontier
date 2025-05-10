@@ -1,11 +1,11 @@
 # HASH: ae1e4184547b121c950685958c9cb6c97e3fb522aa414bc975a6d9bf0fc5b0aa
-ent-BorgModuleAdvancedMining = advanced mining cyborg module
+ent-BorgModuleAdvancedMining = продвинутый шахтёрский модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 # HASH: 3cc42aa8ed7ffce034dd6a4a00ad97b5744827a73ec5961def8d742dec5d514b
-ent-BorgModuleAdvancedParamedic = chemical recovery cyborg module
+ent-BorgModuleAdvancedParamedic = продвинутый медицинский модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 # HASH: 7a8b323d7c2cbd6bad9d36ea54e4a76d752f9d3f218188b78fb84305563e7776
-ent-BorgModuleJetpack = Frontier cyborg module
+ent-BorgModuleJetpack = джетпак модуль киборга
     .desc = { ent-BaseBorgModule.desc }
 # HASH: 2352d8ee49fede30987b8fe55344625f9ae7bd5a76859f7217721fab717973a2
 ent-BorgModuleRCDShipyard = shipyard RCD cyborg module

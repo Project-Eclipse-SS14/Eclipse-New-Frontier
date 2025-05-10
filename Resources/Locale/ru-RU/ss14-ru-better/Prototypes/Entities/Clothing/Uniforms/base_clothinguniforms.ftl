@@ -1,5 +1,5 @@
 # HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
-ent-UnsensoredClothingUniformBase = { ent-BaseItem }
+ent-UnsensoredClothingUniformBase = { ent-Clothing }
     .desc = { "" }
 # HASH: 5334886ee80d28bba6490566a6da8dd236e013127c9381534c0f23aef71760f5
 ent-UnsensoredClothingUniformSkirtBase = { ent-UnsensoredClothingUniformBase }

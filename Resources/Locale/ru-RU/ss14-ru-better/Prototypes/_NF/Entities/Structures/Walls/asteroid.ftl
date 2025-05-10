@@ -9,22 +9,22 @@ ent-NFIronRockOre = { ent-IronRock }
     .desc = { ent-IronRock.desc }
 # HASH: 44031f9072c042b2bda13b98a1acc814b031d0f04a98b8ab3651cd92dd6f78c4
 ent-NFWallRockOre = { ent-WallRock }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRock.desc }
 # HASH: 4fd96f3863c60e6b3bf4a6fd37e99bbb3d3b76cad92634eeff274e6f63e6455a
 ent-NFWallRockBasaltOre = { ent-WallRockBasalt }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRockBasalt.desc }
 # HASH: 9cbf60a5dc011b0e7b8b9a9786748d9331aa399a8ef31f4e30702d2885ee915e
 ent-NFWallRockSnowOre = { ent-WallRockSnow }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRockSnow.desc }
 # HASH: 1b4966272b4b913c5bd1835e496d37b47fd108406f066cab8804b4d797284b39
 ent-NFWallRockSandOre = { ent-WallRockSand }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRockSand.desc }
 # HASH: 5bb92559ceaf875c3cf21435fc51f1e6fe4bdf3f7994942fb1a510d4b6c8fa41
 ent-NFWallRockChromiteOre = { ent-WallRockChromite }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRockChromite.desc }
 # HASH: b1a47d44f49e8ff554b67ba9bc2d63d963781c45c00ef1d8f5beb2527f7002fd
 ent-NFWallRockAndesiteOre = { ent-WallRockAndesite }
-    .desc = { ent-BaseWall.desc }
+    .desc = { ent-WallRockAndesite.desc }
 # HASH: aacc694af9b9debd5728afda8256dcfd3fcd5de7462e646a3e9d350c634e7edf
 ent-NFAsteroidRockBluespace = { ent-NFAsteroidRockOre }
     .desc = An ore vein with bluespace.

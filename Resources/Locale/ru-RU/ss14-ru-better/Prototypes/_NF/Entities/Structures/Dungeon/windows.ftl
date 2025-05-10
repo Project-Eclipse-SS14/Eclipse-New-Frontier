@@ -1,11 +1,11 @@
 # HASH: 65a36527635cac6d171ca45bc41319a09e1c4872a1d7ee5f20f97dbcd32ead97
 ent-WindowMurkyDungeon = { "" }
-    .desc = A murky glass window, it's hard to see what's on the other side.
-    .suffix = Dungeon only, DO NOT MAP
+    .desc = Мутное окно, трудно разглядеть, что находится по ту сторону.
+    .suffix = НЕ МАППИТЬ, ТОЛЬКО ЭКСПЫ
 # HASH: 65a36527635cac6d171ca45bc41319a09e1c4872a1d7ee5f20f97dbcd32ead97
 ent-WindowDirectionalMurkyDungeon = { "" }
-    .desc = A murky glass window, it's hard to see what's on the other side.
-    .suffix = Dungeon only, DO NOT MAP
+    .desc = Мутное окно, трудно разглядеть, что находится по ту сторону.
+    .suffix = НЕ МАППИТЬ, ТОЛЬКО ЭКСПЫ
 # HASH: 443ef55b35c0e21b7a82c1f96f03117f3054cd9de61bcb54910e1b7232fa4308
 ent-WindowDungeon = { ent-Window }
     .desc = { ent-WindowMurkyDungeon.desc }

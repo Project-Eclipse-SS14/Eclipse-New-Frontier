@@ -1,15 +1,15 @@
 # HASH: e9e34f886deb87d0e5a99655a96e428b7ca8d51f378f45b6dd18992629fe579f
-ent-ChickenCube = chicken cube
+ent-ChickenCube = куриный кубик
     .desc = { ent-MonkeyCube.desc }
 # HASH: 546eaa09992c57ca9a8f6031d36a6cdfb7d889909bd54ad4f9d786c2662396c2
-ent-DuckCube = duck cube
+ent-DuckCube = утиный кубик
     .desc = { ent-MonkeyCube.desc }
 # HASH: 113448a8d65a2a9425dfec85a7f2e62587372d1c6cbf4a95e2e009844b69fcd1
-ent-PigCube = pig cube
+ent-PigCube = свиной кубик
     .desc = { ent-MonkeyCube.desc }
 # HASH: b84f593717991e504788d54596b51665c60615818aeca49ebe5d5b5f1f4dd90f
-ent-DehydratedSharkMinnow = dehydrated sharkminnow
-    .desc = Looks like a plush toy sharkminnow, but just add water and it becomes a real-life sharkminnow!
+ent-DehydratedSharkMinnow = обезвоження карпоакула
+    .desc = Выглядит как плюшевая игрушка карпоакулы, но просто добавьте воды, и она превратится в настоящую карпоакулу!
 # HASH: 365de912c32254fe07058e1e92c84796dcc857b42abc94967d200c87ca826efa
 ent-ButterflyCube = butterfly cube
     .desc = { ent-MonkeyCube.desc }

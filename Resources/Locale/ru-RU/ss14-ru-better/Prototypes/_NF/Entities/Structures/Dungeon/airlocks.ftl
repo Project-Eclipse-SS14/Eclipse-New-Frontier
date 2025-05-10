@@ -1,49 +1,49 @@
 # HASH: 194091489f35cd20978948616def02b25ea44ef1abbded2c4897da926161f259
 ent-AirlockGlassMurkyDungeon = { "" }
     .desc = An airlock with murky glass windows, it's hard to see what's on the other side.
-    .suffix = Dungeon only, DO NOT MAP
+    .suffix = НЕ МАППИТЬ, ТОЛЬКО ЭКСПЫ
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockGlassDungeon = { ent-AirlockGlass }
+ent-AirlockGlassDungeon = { ent-AirlockGlassMurkyDungeon }
     .desc = { ent-AirlockGlassMurkyDungeon.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockMaintGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockMaintGlassLockedDungeon = { ent-AirlockMaintGlassLocked }
+    .desc = { ent-AirlockMaintGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockEngineeringGlassDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockEngineeringGlassDungeon = { ent-AirlockEngineeringGlass }
+    .desc = { ent-AirlockEngineeringGlass.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockEngineeringGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockEngineeringGlassLockedDungeon = { ent-AirlockEngineeringGlassLocked }
+    .desc = { ent-AirlockEngineeringGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockSecurityGlassDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockSecurityGlassDungeon = { ent-AirlockSecurityGlass }
+    .desc = { ent-AirlockSecurityGlass.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockSecurityGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockSecurityGlassLockedDungeon = { ent-AirlockSecurityGlassLocked }
+    .desc = { ent-AirlockSecurityGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockBrigGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockBrigGlassLockedDungeon = { ent-AirlockBrigGlassLocked }
+    .desc = { ent-AirlockBrigGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockMiningGlassDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockMiningGlassDungeon = { ent-AirlockMiningGlass }
+    .desc = { ent-AirlockMiningGlass.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockMiningGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockMiningGlassLockedDungeon = { ent-AirlockMiningGlassLocked }
+    .desc = { ent-AirlockMiningGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockVirologyGlassDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockVirologyGlassDungeon = { ent-AirlockVirologyGlass }
+    .desc = { ent-AirlockVirologyGlass.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockVirologyGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockVirologyGlassLockedDungeon = { ent-AirlockVirologyGlassLocked }
+    .desc = { ent-AirlockVirologyGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockMercenaryGlassDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockMercenaryGlassDungeon = { ent-AirlockMercenaryGlass }
+    .desc = { ent-AirlockMercenaryGlass.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockMercenaryGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockMercenaryGlassLockedDungeon = { ent-AirlockMercenaryGlassLocked }
+    .desc = { ent-AirlockMercenaryGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockScienceGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockScienceGlassLockedDungeon = { ent-AirlockScienceGlassLocked }
+    .desc = { ent-AirlockScienceGlassLocked.desc }
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
-ent-AirlockHydroGlassLockedDungeon = { ent-AirlockGlass }
-    .desc = { ent-AirlockGlassMurkyDungeon.desc }
+ent-AirlockHydroGlassLockedDungeon = { ent-AirlockHydroGlassLocked }
+    .desc = { ent-AirlockHydroGlassLocked.desc }

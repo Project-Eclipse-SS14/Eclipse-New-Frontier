@@ -1,5 +1,5 @@
 # HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
-ent-ClothingOuterBase = { ent-BaseItem }
+ent-ClothingOuterBase = { ent-Clothing }
     .desc = { "" }
 # HASH: 8fd8d60ea9dc97d053b9d5a352d1e0bc05584cd07b2fc753843f3e72cd16a16b
 ent-ClothingOuterBaseLarge = { ent-ClothingOuterBase }
@@ -8,12 +8,12 @@ ent-ClothingOuterBaseLarge = { ent-ClothingOuterBase }
 ent-ClothingOuterStorageBase = { ent-ClothingOuterBase }
     .desc = { ent-ClothingOuterBase.desc }
 # HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
-ent-ClothingOuterStorageFoldableBase = { ent-BaseItem }
+ent-ClothingOuterStorageFoldableBase = { ent-ClothingOuterStorageBase }
     .desc = { "" }
 # HASH: d6afac40d95aeaf03bdea86f29fdb295dfe7753d8c565ca50bc0c3fdd952e8a7
 ent-ClothingOuterStorageFoldableBaseOpened = { ent-ClothingOuterStorageFoldableBase }
     .desc = { ent-ClothingOuterStorageFoldableBase.desc }
-    .suffix = opened
+    .suffix = Открытый
 # HASH: 05d701a1c38c5555b684d60e385e32b818ba36ddb948df2e6e480899ecc0bc2a
 ent-ClothingOuterStorageToggleableBase = { ent-ClothingOuterStorageBase }
     .desc = { ent-ClothingOuterStorageBase.desc }

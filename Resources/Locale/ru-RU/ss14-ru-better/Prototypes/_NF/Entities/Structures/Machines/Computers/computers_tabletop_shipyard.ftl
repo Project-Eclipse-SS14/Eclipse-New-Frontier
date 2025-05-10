@@ -1,8 +1,8 @@
 # HASH: e529d94f357c9d74feccc896527b36758478af8680981a58710013787ef0e7b9
-ent-ComputerTabletopShipyard = { ent-ComputerShipyardBase }
-    .desc = { ent-ComputerShipyardBase.desc }
+ent-ComputerTabletopShipyard = { ent-ComputerShipyard }
+    .desc = { ent-ComputerShipyard.desc }
 # HASH: e50de5e91a39629f414495e70809e3fb58973e370c10c3aa7fa0e7f85bb07ec8
-ent-BaseMothershipComputerTabletop = { ent-ComputerShipyardBase }
+ent-BaseMothershipComputerTabletop = { ent-BaseMothershipComputer }
     .desc = { ent-BaseMothershipComputer.desc }
 # HASH: 30e23df710952d2b22be3d959d683fbaea9e50791e284a2cc9a2863bbdf263aa
 ent-ComputerTabletopShipyardSecurity = { ent-ComputerShipyardSecurity }
