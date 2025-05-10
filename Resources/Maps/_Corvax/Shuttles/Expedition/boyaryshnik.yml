@@ -6120,28 +6120,6 @@ entities:
       parent: 1
     - type: BecomesStation
       id: Mayflower
-- proto: WebNest
-  entities:
-  - uid: 343
-    components:
-    - type: Transform
-      pos: 4.5,-16.5
-      parent: 1
-  - uid: 350
-    components:
-    - type: Transform
-      pos: 4.5,-17.5
-      parent: 1
-  - uid: 361
-    components:
-    - type: Transform
-      pos: 3.5,-16.5
-      parent: 1
-  - uid: 362
-    components:
-    - type: Transform
-      pos: 3.5,-17.5
-      parent: 1
 - proto: WindoorSecure
   entities:
   - uid: 863

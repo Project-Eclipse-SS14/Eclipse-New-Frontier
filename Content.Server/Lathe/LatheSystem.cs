@@ -539,6 +539,20 @@ namespace Content.Server.Lathe
                 $"{ToPrettyString(args.Actor):player} deleted a lathe job for ({batch.ItemsPrinted}/{batch.ItemsRequested}) {GetRecipeName(batch.Recipe)} at {ToPrettyString(uid):lathe}");
 
             component.Queue.RemoveAt(args.Index);
+
+            // Eclipse-Start : Return materials on recipe cancel
+            var quantity = batch.ItemsRequested - batch.ItemsPrinted;
+            foreach (var (mat, amount) in batch.Recipe.Materials)
+            {
+                var adjustedAmount = batch.Recipe.ApplyMaterialDiscount
+                    ? (int)(amount * component.FinalMaterialUseMultiplier) // Frontier: MaterialUseMultiplier<FinalMaterialUseMultiplier
+                    : amount;
+                adjustedAmount *= quantity; // Frontier
+
+                _materialStorage.TryChangeMaterialAmount(uid, mat, adjustedAmount);
+            }
+            // Eclipse-End
+
             UpdateUserInterfaceState(uid, component);
         }
 

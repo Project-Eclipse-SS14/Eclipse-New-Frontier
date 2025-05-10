@@ -39,7 +39,7 @@ public sealed partial class EmitterComponent : Component
     /// The current amount of power being used.
     /// </summary>
     [DataField("powerUseActive")]
-    public int PowerUseActive = 1500; // Frontier 600<1500
+    public int PowerUseActive = 7500; // Frontier 600<1500 # Eclipse 1500 -> 7500
 
     /// <summary>
     /// The amount of shots that are fired in a single "burst"

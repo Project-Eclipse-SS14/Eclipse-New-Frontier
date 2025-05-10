@@ -142,6 +142,18 @@
     guides:
     - VoltageNetworks
     - Power
+  # Start-Eclipse : Add device links to APCs
+  - type: DeviceLinkSink
+    ports:
+      - On
+      - Off
+      - Toggle
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  # End-Eclipse
 
 # APC under construction
 - type: entity

@@ -1,7 +1,9 @@
 using Content.Server.Power.NodeGroups;
 using Content.Shared.APC;
+using Content.Shared.DeviceLinking;
 using Robust.Shared.Audio;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Server.Power.Components;
 
@@ -33,6 +35,17 @@ public sealed partial class ApcComponent : BaseApcNetComponent
 
     public const float HighPowerThreshold = 0.9f;
     public static TimeSpan VisualsChangeDelay = TimeSpan.FromSeconds(1);
+
+    // Eclipse-Start
+    [DataField("onPort", customTypeSerializer: typeof(PrototypeIdSerializer<SinkPortPrototype>))]
+    public string OnPort = "On";
+
+    [DataField("offPort", customTypeSerializer: typeof(PrototypeIdSerializer<SinkPortPrototype>))]
+    public string OffPort = "Off";
+
+    [DataField("togglePort", customTypeSerializer: typeof(PrototypeIdSerializer<SinkPortPrototype>))]
+    public string TogglePort = "Toggle";
+    // Eclipse-End
 
     // TODO ECS power a little better!
     // End the suffering

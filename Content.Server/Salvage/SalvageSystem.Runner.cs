@@ -206,10 +206,13 @@ public sealed partial class SalvageSystem
             // Eclipse-Start
             else if (comp.Stage < ExpeditionStage.EmergencyReturnCountdown && remaining < TimeSpan.FromMinutes(1))
             {
-                var mobQuery = EntityQueryEnumerator<HumanoidAppearanceComponent>();
+                var mobQuery = EntityQueryEnumerator<HumanoidAppearanceComponent, TransformComponent>();
                 var ev = new ExpeditionNearEndEvent();
-                while (mobQuery.MoveNext(out var mobUid, out var _))
+                while (mobQuery.MoveNext(out var mobUid, out var _, out var xform))
                 {
+                    if (xform.MapUid != uid)
+                        continue;
+
                     RaiseLocalEvent(mobUid, ref ev);
                 }
 

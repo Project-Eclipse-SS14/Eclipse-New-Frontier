@@ -25,6 +25,11 @@
       solutions:
         stomach:
           maxVol: 30.0
+        food:
+          maxVol: 5
+          reagents:
+          - ReagentId: UncookedAnimalProteins # Should probably be something else tbh
+            Quantity: 5
 
 - type: entity
   id: OrganSlimesLungs
