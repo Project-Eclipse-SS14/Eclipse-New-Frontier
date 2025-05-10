@@ -68,7 +68,7 @@ fn main() {
                         check_if_proto_has_empty_string(&ftl_project, id, MatchingProperty::Name)
                     {
                         if !is_empty && prototype.borrow().name() != Some(&name) {
-                            log::info!("Prototype '{}' changed parent from '{:?}' to '{}'", prototype.borrow().id, prototype.borrow().name(), id);
+                            log::info!("Prototype '{}' changed name from '{:?}' to '{}'", prototype.borrow().id, prototype.borrow().name(), id);
                             *prototype.borrow_mut().name_mut() = Some(name);
                         }
                     }
@@ -83,7 +83,8 @@ fn main() {
                         id,
                         MatchingProperty::Description,
                     ) {
-                        if !is_empty {
+                        if !is_empty && prototype.borrow().description() != Some(&description) {
+                            log::info!("Prototype '{}' changed desc from '{:?}' to '{}'", prototype.borrow().id, prototype.borrow().description(), id);
                             *prototype.borrow_mut().description_mut() = Some(description);
                         }
                     }
@@ -99,7 +100,8 @@ fn main() {
                             id,
                             MatchingProperty::Suffix,
                         ) {
-                            if !is_empty {
+                            if !is_empty && prototype.borrow().suffix() != Some(&suffix) {
+                                log::info!("Prototype '{}' changed suffix from '{:?}' to '{}'", prototype.borrow().id, prototype.borrow().suffix(), id);
                                 *prototype.borrow_mut().suffix_mut() = Some(suffix);
                             }
                         }
