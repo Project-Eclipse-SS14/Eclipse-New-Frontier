@@ -4162,3 +4162,41 @@ Entries:
       message: Pinpointers should no longer display rotated question marks.
   id: 6018
   time: '2025-05-10T15:45:50.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Remove
+      message: Retired LVHI Lantern
+  id: 6019
+  time: '2025-05-10T16:09:18.0000000+00:00'
+- author: dustylens
+  changes:
+    - type: Add
+      message: >-
+        mobile comm console flatpack added and part of the doc's default
+        loadout.
+  id: 6020
+  time: '2025-05-10T16:27:41.0000000+00:00'
+- author: BlueNexus
+  changes:
+    - type: Add
+      message: Added the web nests again, constructable by arachnids using 6 silk
+  id: 6021
+  time: '2025-05-10T16:31:30.0000000+00:00'
+- author: dvir001
+  changes:
+    - type: Tweak
+      message: The pirate cove got a small map update.
+  id: 6022
+  time: '2025-05-10T17:35:26.0000000+00:00'
+- author: AF-Buyrcsp2
+  changes:
+    - type: Add
+      message: Added the SSS Izakaya
+  id: 6023
+  time: '2025-05-11T19:44:33.0000000+00:00'
+- author: dustylens
+  changes:
+    - type: Fix
+      message: Remove redundant aft thruster on Falcon shuttle.
+  id: 6024
+  time: '2025-05-12T07:54:53.0000000+00:00'
