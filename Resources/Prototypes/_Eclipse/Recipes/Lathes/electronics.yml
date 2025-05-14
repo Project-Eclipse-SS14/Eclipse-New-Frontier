@@ -5,8 +5,8 @@
 
 - type: latheRecipe
   parent: CellRechargerCircuitboard
-  id: WallWeaponCapacitorRechargerCircuitboard
-  result: WallWeaponCapacitorRechargerCircuitboard
+  id: WallWeaponCapacitorRechargerCircuitBoard
+  result: WallWeaponCapacitorRechargerCircuitBoard
 
 - type: latheRecipe
   parent: BaseCircuitboardRecipe
