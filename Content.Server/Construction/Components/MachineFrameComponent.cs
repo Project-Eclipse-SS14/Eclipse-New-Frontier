@@ -46,5 +46,8 @@ namespace Content.Server.Construction.Components
 
         [ViewVariables]
         public Container PartContainer = default!;
+
+        [DataField] // Eclipse : Wallmount machine frames
+        public bool IsWallmount = false; // Eclipse : Wallmount machine frames
     }
 }

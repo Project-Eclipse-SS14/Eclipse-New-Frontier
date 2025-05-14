@@ -40,6 +40,7 @@
     - CellRechargerCircuitboard
     - BorgChargerCircuitboard
     - WeaponCapacitorRechargerCircuitboard
+    - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
     - AirTank
   # Engineering techfab
   ## Tools

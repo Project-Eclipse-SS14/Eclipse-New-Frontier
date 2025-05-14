@@ -20,6 +20,8 @@
     noRot: false
   - type: Jukebox
     audioOffset: 0, -1 # Oriented facing south - extend audio south out of the wall.
+  - type: Machine # Eclipse : Constructable wallmount machines
+    board: WallmountJukeboxCircuitBoard # Eclipse : Constructable wallmount machines
 
 - type: entity
   id: JukeboxWallmountShip

@@ -74,6 +74,7 @@
     - DawInstrumentMachineCircuitboard
     - MassMediaCircuitboard
     - JukeboxCircuitBoard
+    - WallmountJukeboxCircuitBoard # Eclipse
 
 - type: technology
   id: RoboticCleanliness

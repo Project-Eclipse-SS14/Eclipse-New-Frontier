@@ -43,6 +43,7 @@
   - WallmountSubstationElectronics
   - CellRechargerCircuitboard
   - WeaponCapacitorRechargerCircuitboard
+  - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
   - FreezerElectronics
 
 - type: latheRecipePack

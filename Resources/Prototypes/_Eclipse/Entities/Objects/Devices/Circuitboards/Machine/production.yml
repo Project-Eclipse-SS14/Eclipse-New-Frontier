@@ -18,3 +18,43 @@
         GlassBeaker:
           amount: 2
           defaultPrototype: Beaker
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: WallmountJukeboxCircuitBoard
+  name: wallmount jukebox machine board
+  description: A machine printed circuit board for a wallmount jukebox.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: JukeboxWallmount
+    isWallmount: true
+    stackRequirements:
+      WoodPlank: 5
+      Steel: 2
+      Glass: 5
+      Cable: 2
+
+- type: entity
+  id: WallWeaponCapacitorRechargerCircuitBoard
+  parent: BaseMachineCircuitboard
+  name: wallmount recharger machine board
+  description: A machine printed circuit board for a wallmount recharger.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/module.rsi
+      state: charger_APC
+    - type: MachineBoard
+      prototype: WallWeaponCapacitorRecharger
+      isWallmount: true
+      requirements: # Frontier
+        Capacitor: 2 # Frontier stackRequirements<requirements
+      stackRequirements:
+        CableMV: 5
+    - type: PhysicalComposition
+      materialComposition:
+        Steel: 30
+        Plastic: 30
+    - type: StaticPrice
+      price: 15

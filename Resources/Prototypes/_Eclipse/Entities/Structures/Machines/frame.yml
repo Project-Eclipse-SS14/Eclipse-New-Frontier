@@ -1,0 +1,130 @@
+- type: entity
+  parent: BaseStructureWallmount
+  id: UnfinishedWallmountMachineFrame
+  name: wallmount machine frame
+  description: A wallmount machine under construction. Needs more parts.
+  suffix: Unfinished
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Transform
+      anchored: true
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Construction
+      containers:
+        - machine_board
+        - machine_parts
+      graph: WallmountMachine
+      node: missingWires
+    - type: ContainerContainer
+      containers:
+        machine_board: !type:Container
+        machine_parts: !type:Container
+    - type: Damageable
+      damageContainer: StructuralInorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: start
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - type: Sprite
+      sprite: Structures/Machines/parts.rsi
+      state: vbox_0
+      snapCardinals: false
+
+- type: entity
+  parent: BaseStructureWallmount
+  id: WallmountMachineFrame
+  name: wallmount machine frame
+  suffix: Ready
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Transform
+      anchored: true
+    - type: Clickable
+    - type: InteractionOutline
+    - type: Construction
+      graph: WallmountMachine
+      node: machineFrame
+      defaultTarget: machine
+      containers:
+        - machine_board
+        - machine_parts
+    - type: Damageable
+      damageContainer: StructuralInorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalBreak
+        - !type:ChangeConstructionNodeBehavior
+          node: missingWires
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - type: MachineFrame
+      isWallmount: true
+    - type: ContainerContainer
+      containers:
+        machine_board: !type:Container
+        machine_parts: !type:Container
+    - type: Sprite
+      sprite: Structures/Machines/parts.rsi
+      state: vbox_1
+      snapCardinals: false
+    - type: Appearance
+    - type: ItemMapper
+      mapLayers:
+        vbox_2:
+          minCount: 1
+          whitelist:
+            components:
+            - MachineBoard
+
+- type: entity
+  parent: BaseStructureWallmount
+  id: WallmountMachineFrameDestroyed
+  name: destroyed wallmount machine frame
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: Transform
+      anchored: true
+    - type: Construction
+      graph: WallmountMachine
+      node: destroyedMachineFrame
+    - type: Damageable
+      damageContainer: StructuralInorganic
+      damageModifierSet: Metallic
+    - type: Destructible
+      thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 100
+        behaviors:
+        - !type:SpawnEntitiesBehavior
+          spawn:
+            SheetSteel1:
+              min: 1
+              max: 3
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+    - type: Sprite
+      sprite: Structures/Machines/parts.rsi
+      state: vbox_3 # Not really a destroyed texture but fine for now
+      snapCardinals: false

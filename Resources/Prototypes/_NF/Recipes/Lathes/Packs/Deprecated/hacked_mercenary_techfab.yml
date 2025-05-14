@@ -38,6 +38,7 @@
   - CellRechargerCircuitboard
   - BorgChargerCircuitboard
   - WeaponCapacitorRechargerCircuitboard
+  - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
   - AirTank
 # Mercenary techfab
 ## Clothing / Armor

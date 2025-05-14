@@ -1544,6 +1544,8 @@
       orGroup: Board
     - id: JukeboxCircuitBoard
       orGroup: Board
+    - id: WallmountJukeboxCircuitBoard # Eclipse
+      onGroup: Board # Eclipse
     - id: TelecomServerCircuitboard
       orGroup: Board
       prob: 0.25
