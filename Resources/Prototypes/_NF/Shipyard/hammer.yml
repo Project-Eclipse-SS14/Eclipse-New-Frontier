@@ -11,7 +11,7 @@
 - type: vessel
   id: Hammer
   parent: BaseVessel
-  name: SBB Наковальня
+  name: BB Наковальня
   description: Мобильная инженерная платформа для ремонта, модернизации и переоборудования в глубоком космосе.
   price: 44000 # Appraises at 38257, ~15% markup
   category: Medium
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Hammer
-  mapName: 'SBB Наковальня'
+  mapName: 'BB Наковальня'
   mapPath: /Maps/_NF/Shuttles/hammer.yml
   minPlayers: 0
   stations:
