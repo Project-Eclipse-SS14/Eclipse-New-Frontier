@@ -13,9 +13,9 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Timing;
 using Content.Shared.Tools.Components;
-using Content.Server.DeviceLinking.Events;
-using Content.Server.DeviceNetwork.Systems;
-using Content.Server.DeviceNetwork;
+using Content.Shared.DeviceLinking.Events;
+using Content.Shared.DeviceNetwork.Events;
+using Content.Shared.DeviceNetwork;
 
 namespace Content.Server.Power.EntitySystems;
 
