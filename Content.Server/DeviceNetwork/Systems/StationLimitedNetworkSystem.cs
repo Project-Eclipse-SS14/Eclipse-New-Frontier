@@ -1,6 +1,7 @@
 using Content.Server.DeviceNetwork.Components;
 using Content.Server.SelfShipyard.Events;
 using Content.Server.Station.Systems;
+using Content.Shared.DeviceNetwork.Events;
 using JetBrains.Annotations;
 using Robust.Shared.Map;
 

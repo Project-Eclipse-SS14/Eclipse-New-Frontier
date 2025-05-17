@@ -40,6 +40,7 @@
     - CellRechargerCircuitboard
     - BorgChargerCircuitboard
     - WeaponCapacitorRechargerCircuitboard
+    - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
     - AirTank
   # Engineering techfab
   ## Tools
@@ -106,7 +107,7 @@
   ## Misc
     - ClothingHeadHatCone
     - SprayBottle
-    - Flash
+    - NFFlash
 
 - type: latheRecipePack
   id: NFEngineeringTechfabDeprecated

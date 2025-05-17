@@ -12,8 +12,8 @@
   id: Duchess
   parent: BaseVessel
   name: NT Герцогиня
-  description: Мобильный офис и личный транспорт для представителя станции, созданный на базе SBB Стилет.
-  price: 26500 #Appraises at ~24500. Markup of ~9%.
+  description: Мобильный офис и личный транспорт для представителя станции, созданный на базе BB Стилет.
+  price: 25000 #Appraises at ~22920. Markup of ~9%.
   category: Small
   group: Sr
   access: HeadOfPersonnel

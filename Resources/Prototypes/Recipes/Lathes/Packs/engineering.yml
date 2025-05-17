@@ -16,6 +16,7 @@
   # - HandheldGPSBasic # Frontier: little value
   - TRayScanner
   - UtilityBelt
+  - ClothingOuterVestTank
   - HandheldStationMap
   - ClothingHeadHatWelding
   - ClothingHeadHatCone
@@ -43,6 +44,7 @@
   - WallmountSubstationElectronics
   - CellRechargerCircuitboard
   - WeaponCapacitorRechargerCircuitboard
+  - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
   - FreezerElectronics
 
 - type: latheRecipePack

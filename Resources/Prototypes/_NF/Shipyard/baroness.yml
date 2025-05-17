@@ -11,7 +11,7 @@
 - type: vessel
   id: Baroness
   parent: BaseVessel
-  name: SBB Баронесса
+  name: BB Баронесса
   description: Небольшой роскошный круизер для одного или двух человек, с гостиной, отдельной спальней и чертовски красивым видом из кокпита.
   price: 28500 # ~26,000 on purchase, ~10% markup
   category: Medium
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Baroness
-  mapName: 'SBB Баронесса'
+  mapName: 'BB Баронесса'
   mapPath: /Maps/_NF/Shuttles/baroness.yml
   minPlayers: 0
   stations:

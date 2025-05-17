@@ -41,6 +41,12 @@ public sealed partial class MachineBoardComponent : Component
     /// </summary>
     [DataField(required: true)]
     public EntProtoId Prototype;
+
+    /// <summary>
+    /// Does this machine require a wallmount frame?
+    /// </summary>
+    [DataField] // Eclipse : Wallmount machine frames
+    public bool IsWallmount = false; // Eclipse : Wallmount machine frames
 }
 
 [DataDefinition, Serializable]

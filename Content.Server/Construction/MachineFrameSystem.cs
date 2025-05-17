@@ -152,6 +152,11 @@ public sealed class MachineFrameSystem : EntitySystem
         if (!TryComp<MachineBoardComponent>(used, out var machineBoard))
             return false;
 
+        // Eclipse-Start : Wallmount machine frames
+        if (machineBoard.IsWallmount != component.IsWallmount)
+            return false;
+        // Eclipse-End
+
         if (!_container.TryRemoveFromContainer(used))
             return false;
 

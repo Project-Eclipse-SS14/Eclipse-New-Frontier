@@ -2,3 +2,13 @@
   parent: BaseGoldCircuitboardRecipe
   id: ChemMasterBotanyMachineCircuitboard
   result: ChemMasterBotanyMachineCircuitboard
+
+- type: latheRecipe
+  parent: CellRechargerCircuitboard
+  id: WallWeaponCapacitorRechargerCircuitBoard
+  result: WallWeaponCapacitorRechargerCircuitBoard
+
+- type: latheRecipe
+  parent: BaseCircuitboardRecipe
+  id: WallmountJukeboxCircuitBoard
+  result: WallmountJukeboxCircuitBoard

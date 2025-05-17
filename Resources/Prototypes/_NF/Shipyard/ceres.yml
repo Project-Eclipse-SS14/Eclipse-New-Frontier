@@ -11,7 +11,7 @@
 - type: vessel
   id: Ceres
   parent: BaseVessel
-  name: SBB Церера
+  name: BB Церера
   description: Среднеразмерное судно-ресторан высокого класса с большим количеством посадочных мест, интегрированной ботаникой и обеденным залом для VIP-гостей.
   price: 78500 # ~10% markup, big luxury restaurant
   category: Medium
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Ceres
-  mapName: 'SBB Церера'
+  mapName: 'BB Церера'
   mapPath: /Maps/_NF/Shuttles/ceres.yml
   minPlayers: 0
   stations:
