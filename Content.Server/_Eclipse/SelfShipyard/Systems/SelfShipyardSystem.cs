@@ -8,7 +8,6 @@ using Content.Shared._Eclipse.SelfShipyard;
 using Content.Shared.GameTicking;
 using Robust.Server.GameObjects;
 using Robust.Shared.Map;
-using Content.Shared._NF.CCVar;
 using Robust.Shared.Configuration;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
@@ -16,8 +15,6 @@ using System.Numerics;
 using Content.Shared._Eclipse.SelfShipyard.Events;
 using Content.Shared.Mobs.Components;
 using Robust.Shared.Containers;
-using Robust.Shared.Map.Components;
-using Content.Server._NF.Station.Components;
 using Content.Shared._NF.Shipyard.Components;
 using Content.Shared._Eclipse.CCVar;
 using Robust.Shared.Player;
@@ -35,7 +32,6 @@ namespace Content.Server._Eclipse.SelfShipyard.Systems;
 public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 {
     [Dependency] private readonly IConfigurationManager _configManager = default!;
-    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly DockingSystem _docking = default!;
     [Dependency] private readonly PricingSystem _pricing = default!;
     [Dependency] private readonly ShuttleSystem _shuttle = default!;

@@ -47,28 +47,27 @@ using Content.Server.Database;
 using System.Threading.Tasks;
 using Robust.Shared.Player;
 using Content.Server._Eclipse.SelfShipyard.Components;
+using Robust.Server.Player;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
 public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 {
+    [Dependency] private readonly IAdminLogManager _adminLogger = default!;
+    [Dependency] private readonly IPlayerManager _player = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+    [Dependency] private readonly IServerPreferencesManager _prefManager = default!;
     [Dependency] private readonly AccessSystem _accessSystem = default!;
     [Dependency] private readonly AccessReaderSystem _access = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
-    [Dependency] private readonly IServerPreferencesManager _prefManager = default!;
-    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly RadioSystem _radio = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly BankSystem _bank = default!;
     [Dependency] private readonly IdCardSystem _idSystem = default!;
-    [Dependency] private readonly MobStateSystem _mobState = default!;
     [Dependency] private readonly StationRecordsSystem _records = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
-    [Dependency] private readonly IAdminLogManager _adminLogger = default!;
     [Dependency] private readonly MindSystem _mind = default!;
-    [Dependency] private readonly UserInterfaceSystem _userInterface = default!;
-    [Dependency] private readonly EntityManager _entityManager = default!;
     [Dependency] private readonly ShuttleRecordsSystem _shuttleRecordsSystem = default!;
     [Dependency] private readonly IServerDbManager _db = default!;
     [Dependency] private readonly ISharedPlayerManager _playerManager = default!;
@@ -146,13 +145,6 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             return;
         }
 
-        if (bank.Balance <= vessel.Price)
-        {
-            ConsolePopup(player, Loc.GetString("cargo-console-insufficient-funds", ("cost", vessel.Price)));
-            PlayDenySound(player, shipyardConsoleUid, component);
-            return;
-        }
-
         if (!_bank.TryBankWithdraw(player, vessel.Price))
         {
             ConsolePopup(player, Loc.GetString("cargo-console-insufficient-funds", ("cost", vessel.Price)));
@@ -170,7 +162,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         }
 
         var shuttleUid = shuttleUidOut.Value;
-        if (!_entityManager.TryGetComponent<ShuttleComponent>(shuttleUid, out var shuttle))
+        if (!TryComp<ShuttleComponent>(shuttleUid, out var shuttle))
         {
             _bank.TryBankDeposit(player, vessel.Price);
             QueueDel(shuttleUid);
@@ -206,10 +198,10 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         var deedID = EnsureComp<ShuttleDeedComponent>(targetId);
 
         var shuttleOwner = Name(player).Trim();
-        AssignShuttleDeedProperties(deedID, shuttleUid, name, shuttleOwner);
+        AssignShuttleDeedProperties((targetId, deedID), shuttleUid, name, shuttleOwner);
 
         var deedShuttle = EnsureComp<ShuttleDeedComponent>(shuttleUid);
-        AssignShuttleDeedProperties(deedShuttle, shuttleUid, name, shuttleOwner);
+        AssignShuttleDeedProperties((shuttleUid, deedShuttle), shuttleUid, name, shuttleOwner);
 
         if (!string.IsNullOrEmpty(component.NewJobTitle))
             _idSystem.TryChangeJobTitle(targetId, component.NewJobTitle, idCard, player);
@@ -240,7 +232,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
 
             if (!recSuccess &&
                 _mind.TryGetMind(player, out var mindUid, out var mindComp)
-                && _prefManager.GetPreferences(_mind.GetSession(mindComp)!.UserId).SelectedCharacter is HumanoidCharacterProfile profile)
+                && mindComp.UserId != null
+                && _prefManager.GetPreferences(mindComp.UserId.Value).SelectedCharacter is HumanoidCharacterProfile profile)
             {
                 TryComp<FingerprintComponent>(player, out var fingerprintComponent);
                 TryComp<DnaComponent>(player, out var dnaComponent);
@@ -565,8 +558,8 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
                 continue;
 
             // Check if we have a player entity that's either still around or alive and may come back
-            if (_mind.TryGetMind(child, out var mind, out var mindComp)
-                && (mindComp.Session != null
+            if (_mind.TryGetMind(child, out _, out var mindComp)
+                && (mindComp.UserId != null && _player.ValidSessionId(mindComp.UserId.Value)
                 || !_mind.IsCharacterDeadPhysically(mindComp)))
             {
                 return Name(child);
@@ -627,12 +620,13 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     }
 
     #region Deed Assignment
-    void AssignShuttleDeedProperties(ShuttleDeedComponent deed, EntityUid? shuttleUid, string? shuttleName, string? shuttleOwner)
+    void AssignShuttleDeedProperties(Entity<ShuttleDeedComponent> deed, EntityUid? shuttleUid, string? shuttleName, string? shuttleOwner, bool purchasedWithVoucher)
     {
-        deed.ShuttleUid = shuttleUid;
-        TryParseShuttleName(deed, shuttleName!);
-        deed.ShuttleOwner = shuttleOwner;
-        deed.PurchasedWithVoucher = false;
+        deed.Comp.ShuttleUid = shuttleUid;
+        TryParseShuttleName(deed.Comp, shuttleName!);
+        deed.Comp.ShuttleOwner = shuttleOwner;
+        deed.Comp.PurchasedWithVoucher = purchasedWithVoucher;
+        Dirty(deed);
     }
     #endregion
 }
