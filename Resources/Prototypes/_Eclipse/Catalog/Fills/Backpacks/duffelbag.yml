@@ -5,7 +5,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: MagazineGrenadeEMP
+      - id: NFMagazineGrenadeEMP
         amount: 4
 
 - type: entity
@@ -15,7 +15,7 @@
   components:
   - type: StorageFill
     contents:
-      - id: MagazineGrenadeFlash
+      - id: NFMagazineGrenadeFlash
         amount: 4
 
 - type: entity
@@ -25,5 +25,5 @@
   components:
   - type: StorageFill
     contents:
-      - id: MagazineGrenadeBlast
+      - id: NFMagazineGrenadeBlast
         amount: 4
