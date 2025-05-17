@@ -620,12 +620,12 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     }
 
     #region Deed Assignment
-    void AssignShuttleDeedProperties(Entity<ShuttleDeedComponent> deed, EntityUid? shuttleUid, string? shuttleName, string? shuttleOwner, bool purchasedWithVoucher)
+    void AssignShuttleDeedProperties(Entity<ShuttleDeedComponent> deed, EntityUid? shuttleUid, string? shuttleName, string? shuttleOwner)
     {
         deed.Comp.ShuttleUid = shuttleUid;
         TryParseShuttleName(deed.Comp, shuttleName!);
         deed.Comp.ShuttleOwner = shuttleOwner;
-        deed.Comp.PurchasedWithVoucher = purchasedWithVoucher;
+        deed.Comp.PurchasedWithVoucher = false;
         Dirty(deed);
     }
     #endregion
