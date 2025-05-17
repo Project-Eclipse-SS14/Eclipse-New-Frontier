@@ -63,7 +63,7 @@
       state: state0
     - type: Construction
       graph: Girder
-      node: diagonalShuttleWall
+      node: diagonalshuttleWall
     - type: Icon
       sprite: Structures/Walls/shuttle_diagonal.rsi
       state: state0
