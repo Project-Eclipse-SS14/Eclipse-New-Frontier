@@ -105,8 +105,9 @@
     tags:
     - Soap
   - type: Slippery
-    paralyzeTime: 0.7
-    launchForwardsMultiplier: 0.5
+    slipData:
+      paralyzeTime: 0.7
+      launchForwardsMultiplier: 0.5
   - type: StepTrigger
     intersectRatio: 0.2
   - type: CollisionWake
@@ -581,9 +582,9 @@
   - type: EmitSoundOnCollide
     sound:
       collection: ToySqueak
-  - type: EyeCursorOffset # clear the offset
-    maxOffset: 0
-    pvsIncrease: 0
+  # - type: EyeCursorOffset # clear the offset
+    # maxOffset: 0
+    # pvsIncrease: 0
 
 - type: entity
   id: BulletFoamRPG

@@ -192,6 +192,16 @@
   - КОСМОС
   - СОЛНЕЧНЫЙ СВЕТ
   - ВОДУ
+  # Frontier
+  - КОНТРАКТЫ
+  - МЁРТВЫЕ ТЕЛА # medical bounties
+  - СУЩЕСТВА
+  - УЛЬТРАФИОЛЕТ
+  - КОВЁР
+  - ТИШИНУ
+  - ЖИР
+  - ТРАФИК
+  # End Frontier
 
 # Severity is how bad the allergy is.
 - type: dataset
