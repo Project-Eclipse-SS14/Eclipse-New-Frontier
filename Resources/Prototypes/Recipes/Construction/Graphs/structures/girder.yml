@@ -518,7 +518,7 @@
             - tool: Cutting
               doAfter: 4
 
-    - node: diagonalShuttleWall #Eclipse
+    - node: diagonalshuttleWall
       entity: WallShuttleDiagonal
       edges:
         - to: reinforcedGirder
