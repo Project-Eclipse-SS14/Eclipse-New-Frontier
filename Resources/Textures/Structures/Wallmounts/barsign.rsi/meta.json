@@ -74,6 +74,15 @@
         ]
       ]
     },
+        {
+      "name": "darkhaven",
+      "delays": [
+        [
+          0.4,
+          0.8
+        ]
+      ]
+    },
     {
       "name": "zocalo",
       "delays": [

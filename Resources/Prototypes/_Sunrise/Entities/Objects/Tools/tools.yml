@@ -1,0 +1,48 @@
+- type: entity
+  id: PirateRCD
+  parent: BaseItem # Frontier: remove BaseEngineeringContraband
+  name: Pirate RCD
+  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  components:
+  - type: RCD
+    availablePrototypes:
+    - WallSolid
+    - SolidSecretDoor
+    - ShuttleSecretDoor
+    - WoodSecretDoor
+    - SolidReinforcedSecretDoor
+    - FloorSteel
+    - Plating
+    - Catwalk
+    - Grille
+    - Window
+    - WindowDirectional
+    - WindowReinforcedDirectional
+    - Deconstruct
+  - type: LimitedCharges
+    maxCharges: 30
+    charges: 30
+  - type: Sprite
+    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: _NF/Objects/Tools/rcd.rsi # Frontier
+    quickEquip: false
+    slots:
+    - Belt
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 600
+      Plastic: 100
+  - type: StaticPrice
+    price: 55 # Frontier 110<55
+    vendPrice: 9000 # Frontier
+  - type: UserInterface
+    interfaces:
+      enum.RcdUiKey.Key:
+        type: RCDMenuBoundUserInterface
+  - type: ActivatableUI
+    inHandsOnly: true
+    key: enum.RcdUiKey.Key

@@ -826,8 +826,70 @@
   - type: IconSmooth
     key: walls
     base: state
-#  - type: Reflect # Frontier
-#    reflectProb: 1 # Frontier
+
+- type: entity
+  parent: BaseWall
+  id: NFSDWallShuttle
+  name: shuttle wall
+  suffix: Reinforced, Exterior
+  components:
+  - type: Tag
+    tags:
+    - Wall
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1600
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: girder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: StaticPrice
+    price: 150 # Frontier: 250<150 - makes some shuttles way more expensive otherwise
+  - type: RadiationBlocker
+    resistance: 5
+  - type: Sprite
+    sprite: _Sunrise/Structures/Walls/NFSD_Shuttle.rsi
+  - type: Icon
+    sprite: _Sunrise/Structures/Walls/NFSD_Shuttle.rsi
+    state: full
+  - type: Construction
+    graph: Girder
+    node: shuttleWall
+  - type: IconSmooth
+    key: walls
+    base: state
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ShuttleWallVisuals.DeconstructionStage:
+        ShuttleWallVisualLayers.Deconstruction:
+          -1: { visible: false }
+          0: { state: shuttle_construct-0, visible: true}
+          1: { state: shuttle_construct-1, visible: true}
+          2: { state: shuttle_construct-2, visible: true}
+          3: { state: shuttle_construct-3, visible: true}
+          4: { state: shuttle_construct-4, visible: true}
+          5: { state: shuttle_construct-5, visible: true}
+
+#DH
 
 - type: entity
   parent: BaseWall

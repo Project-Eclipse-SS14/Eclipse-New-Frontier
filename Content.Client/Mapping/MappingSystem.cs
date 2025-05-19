@@ -18,7 +18,7 @@ public sealed partial class MappingSystem : EntitySystem
     /// <summary>
     ///     The icon to use for space tiles.
     /// </summary>
-    private readonly SpriteSpecifier _spaceIcon = new Texture(new ("Tiles/cropped_parallax.png"));
+    private readonly SpriteSpecifier _spaceIcon = new Texture(new ("/Textures/Tiles/cropped_parallax.png"));
 
     /// <summary>
     ///     The icon to use for entity-eraser.

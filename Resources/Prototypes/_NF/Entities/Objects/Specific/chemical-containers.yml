@@ -205,6 +205,8 @@
   description: A rod made of desaturated plasma, suitable for fuel.
   suffix: 20
   components:
+  - type: Item
+    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
   - type: Material
   - type: PhysicalComposition
     materialComposition:
@@ -240,6 +242,8 @@
   description: A rod made of semi-processed uranium, suitable for fuel.
   suffix: 20
   components:
+  - type: Item
+    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsi
   - type: Material
   - type: PhysicalComposition
     materialComposition:
@@ -275,6 +279,8 @@
   description: A rod made from pressed bananium peels, suitable for fuel.
   suffix: 20
   components:
+  - type: Item
+    sprite: _NF/Objects/Specific/Fuel/fuelgrade_material.rsiёё
   - type: Material
   - type: PhysicalComposition
     materialComposition:

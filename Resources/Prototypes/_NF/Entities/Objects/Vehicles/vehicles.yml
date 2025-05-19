@@ -112,9 +112,7 @@
               volume: -3
     - type: Storage
       grid:
-      - 0,0,1,3
-      - 3,0,6,3
-      - 8,0,9,3
+      - 0,0,7,6
       maxItemSize: Huge
       blacklist:
         components:
@@ -493,7 +491,7 @@
           tags:
           - VehicleKey
           - HoverbikeKeys
-        priority: 1
+        priority: 3
         insertSound:
           path: /Audio/Effects/Vehicle/vehiclestartup.ogg
           params:
@@ -501,9 +499,24 @@
       mailgun:
         name: rpds
         whitelist:
-          components:
-            - Gun # Any gun :(, including RPDS
+          prototypes:
+            - WeaponMailLake # Any gun :(, including RPDS
+            - NFPouchMailCarrier
         priority: 2
+  - type: Storage  #DH
+    grid:
+    - 0,0,4,4
+    maxItemSize: Normal
+    whitelist:
+      components:
+      - Paper
+      - Delivery
+      tags:
+      - Document
+      - Paper
+    blacklist:
+      components:
+      - HumanoidAppearance
   - type: ItemMapper
     mapLayers:
       mailgun:
@@ -521,6 +534,76 @@
       collection: NFVehicleHorn # resetting from the motorbike
       params:
         variation: 0.125
+
+#DH Space carrier
+- type: entity
+  parent: NFVehicleSkeletonMotorcycle
+  id: VehicleHoverbikeSpacecarrier
+  name: Space carrier hoverbike
+  description: You better run, better run, faster than my mail.
+  components:
+  - type: MovementIgnoreGravity
+  - type: MovementAlwaysTouching
+  - type: CanMoveInAir
+  - type: AmbientSound
+    sound: /Audio/Effects/shuttle_thruster.ogg
+    range: 8
+    volume: 5
+    enabled: false
+  - type: Sprite
+    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+    layers:
+    - state: hull
+      color: "#faf615"
+    - state: engine
+      map: ["enum.VehicleVisualLayers.AutoAnimate"]
+    - state: nfsdstar
+    - state: lights
+      shader: unshaded
+    noRot: true
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - HoverbikeKeys
+        priority: 3
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -5
+  - type: Storage  #DH
+    grid:
+    - 0,0,5,4
+    maxItemSize: Normal
+    blacklist:
+      components:
+      - HumanoidAppearance
+  - type: ItemMapper
+    mapLayers:
+      mailgun:
+        whitelist:
+          components:
+            - Gun
+    sprite: _NF/Objects/Vehicles/hoverbike.rsi
+  - type: Appearance
+  - type: PointLight
+    enabled: false
+    radius: 7
+    energy: 3
+  - type: Vehicle
+    hornSound:
+      collection: NFVehicleHorn # resetting from the motorbike
+      params:
+        variation: 0.125
+  - type: MovementSpeedModifier
+    acceleration: 8
+    friction: 3 # wheels dont stop instantly
+    baseSprintSpeed: 10
+    baseWalkSpeed: 3 # default walking speed
 
 - type: entity
   parent: VehicleHoverbikeMailcarrier

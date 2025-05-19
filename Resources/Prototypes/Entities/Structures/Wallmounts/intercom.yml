@@ -49,16 +49,20 @@
     - state: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
       shader: unshaded
+      offset: "0.0,-0.3"
     - state: broadcasting
       map: ["enum.RadioDeviceVisualLayers.Broadcasting"]
       shader: unshaded
+      offset: "0.0,-0.3"
       visible: false
     - state: speaker
       map: ["enum.RadioDeviceVisualLayers.Speaker"]
       shader: unshaded
+      offset: "0.0,-0.3"
       visible: false
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      offset: "0.0,-0.3"
       visible: false
   - type: Transform
     noRot: false

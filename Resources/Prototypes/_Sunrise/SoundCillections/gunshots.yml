@@ -1,0 +1,5 @@
+- type: soundCollection
+  id: ak47
+  files:
+  - /Audio/_Sunrise/Weapons/Guns/Gunshots/ak47-1.ogg
+  - /Audio/_Sunrise/Weapons/Guns/Gunshots/ak47-2.ogg

@@ -134,6 +134,15 @@
     state: lv426
   description: barsign-prototype-description-lv426
 
+- type: entity
+  parent: BaseBarSign
+  id: BarSignDarkHaven
+  name: DarkHaven
+  description: Really dark to day.
+  components:
+  - type: BarSign
+    current: darkhaven
+
 - type: barSign
   id: WiggleRoom
   name: barsign-prototype-name-wiggle-room

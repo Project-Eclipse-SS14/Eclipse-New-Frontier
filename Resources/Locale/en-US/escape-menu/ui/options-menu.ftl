@@ -75,6 +75,7 @@ ui-options-scale-175 = 175%
 ui-options-scale-200 = 200%
 ui-options-hud-theme = HUD theme:
 ui-options-hud-theme-default = Default
+ui-options-hud-theme-Operative = Operative
 ui-options-hud-theme-plasmafire = Plasmafire
 ui-options-hud-theme-slimecore = Slimecore
 ui-options-hud-theme-clockwork = Clockwork

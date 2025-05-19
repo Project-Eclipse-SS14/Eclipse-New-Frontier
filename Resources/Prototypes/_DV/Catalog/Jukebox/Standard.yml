@@ -7,6 +7,32 @@
   path:
     path: /Audio/_DV/Jukebox/a_different_reality_lagoona_remix.xm-MONO.ogg
 
+#DH
+- type: jukebox
+  id: asphaltMacan
+  name: Macan - ASPHALT 8 (rmx)
+  path:
+    path: /Audio/_Sunrise/Jukebox/bigpenic.ogg
+
+- type: jukebox
+  id: skovanie
+  name: skovanie - Nautilus Pompilius (rmx)
+  path:
+    path: /Audio/_Sunrise/Jukebox/skovanie.ogg
+
+- type: jukebox
+  id: EspressoMacchiato
+  name: Tommy Cash - Espresso macchiato (rmx)
+  path:
+    path: /Audio/_Sunrise/Jukebox/MiPidori.ogg
+
+- type: jukebox
+  id: MURDEREVERY1UKNOW
+  name: feat. takihasdied - MURDER EVERY 1 U KNOW!
+  path:
+    path: /Audio/_Sunrise/Jukebox/femtanylMURDER_EVERY_1_U_KNOW.ogg
+#DH
+
 - type: jukebox
   id: AggAss
   name: melcom - Aggravated Assault

@@ -202,9 +202,11 @@
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
+      offset: "0,-0.3" # Смещение вниз
     - map: ["enum.PowerChargerVisualLayers.Light"]
       state: "light-off"
       shader: "unshaded"
+      offset: "0,-0.3"
   - type: WallMount
   - type: Charger
     chargeRate: 25
