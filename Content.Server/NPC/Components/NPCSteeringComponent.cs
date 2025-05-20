@@ -117,7 +117,7 @@ public sealed partial class NPCSteeringComponent : Component
     /// <summary>
     /// If the NPC is using a do_after to clear an obstacle.
     /// </summary>
-    [DataField("doAfterId")]
+    [ViewVariables(VVAccess.ReadWrite)]
     public DoAfterId? DoAfterId = null;
 }
 

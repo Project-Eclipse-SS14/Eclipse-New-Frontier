@@ -25,7 +25,7 @@ public sealed partial class PlantAnalyzerComponent : Component
     [DataField, ViewVariables]
     public PlantAnalyzerSetting Settings = new();
 
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
+    [ViewVariables(VVAccess.ReadOnly)]
     public DoAfterId? DoAfter;
 
     [DataField]
