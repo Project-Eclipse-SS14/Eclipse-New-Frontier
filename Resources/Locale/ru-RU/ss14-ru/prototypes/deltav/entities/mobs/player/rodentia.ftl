@@ -1,1 +1,0 @@
-ent-MobRodentia = Урист МакРаткин
