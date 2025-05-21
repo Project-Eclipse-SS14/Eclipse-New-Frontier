@@ -1,9 +1,0 @@
-ent-SpawnMobWeaponTurretLaserSyndicateNF = syndicate laser turret spawner
-    .suffix = Hostile, Frontier
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnMobWeaponTurretSyndicate = syndicate ballistic turret spawner
-    .suffix = Hostile, Frontier
-    .desc = { ent-MarkerBase.desc }
-ent-SpawnMobWeaponTurretLaserNanoTrasenDeployed = SLAT spawner
-    .suffix = NT, Frontier
-    .desc = { ent-MarkerBase.desc }
