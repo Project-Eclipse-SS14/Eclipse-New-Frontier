@@ -8,7 +8,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 4
+        Piercing: 6 # Eclipse 4 -> 6
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -20,7 +20,7 @@
     damage:
       types:
         Blunt: 2
-        Heat: 2
+        Heat: 6 # Eclipse 2 -> 6
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -42,8 +42,8 @@
   - type: Projectile
     damage:
       types:
-        Radiation: 3
-        Piercing: 3
+        Radiation: 4 # Eclipse 3 -> 4
+        Piercing: 4 # Eclipse 3 -> 4
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -74,7 +74,7 @@
   - type: Projectile
     damage:
       types:
-        Slash: 4
+        Slash: 7 # Eclipse 4 -> 7
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -85,7 +85,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 5
+        Piercing: 8 # Eclipse 5 -> 8
         Structural: 5
 
 #region PelletsSpread
@@ -182,7 +182,7 @@
   categories: [ HideSpawnMenu ]
   id: NFShotgunSlugFlare
   parent: NFPelletShotgunFlare
-  name: slug (.50)
+  name: slug (.50 flare) # Eclipse
   components:
   - type: Sprite
     noRot: false
