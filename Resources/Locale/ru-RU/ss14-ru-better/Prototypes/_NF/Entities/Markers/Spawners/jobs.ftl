@@ -2,32 +2,32 @@
 ent-SpawnPointContractor = авантюрист
     .desc = { ent-SpawnPointPassenger.desc }
 # HASH: f9041db42665ae08b73d44d2a2133ffbbdd45c3056e1c0f908351b081fffff49
-ent-SpawnPointContractorInterview = contractor applicant
+ent-SpawnPointContractorInterview = авантюрист-кандидат
     .desc = { ent-SpawnPointContractor.desc }
 # HASH: 1a626a3fa369f961e64958965bc765f4780a428d8677e45c8d6d2b5c2d9484e6
 ent-SpawnPointMercenary = наёмник
     .desc = { ent-SpawnPointJobBase.desc }
 # HASH: 7b27b12b56124ecb9ece111c8544d46cb935d311d77755137e08767f5db25ab9
-ent-SpawnPointMercenaryInterview = mercenary applicant
+ent-SpawnPointMercenaryInterview = наёмник-кандидат
     .desc = { ent-SpawnPointMercenary.desc }
 # HASH: 698e55d5e914ac623b4c2806c3f67b3a42a15ce13c765bf9a9d146b131e9ff34
 ent-SpawnPointPilot = пилот
     .desc = { ent-SpawnPointJobBase.desc }
 # HASH: af8ad583be4540a02021816aab980e0a46309b259219bd2083c9875123d4cf2e
-ent-SpawnPointPilotInterview = pilot applicant
+ent-SpawnPointPilotInterview = пилот-кандидат
     .desc = { ent-SpawnPointPilot.desc }
 # HASH: 7e5a6bf404451e38f7f69396f0e0fba6dcd251d7cf94661eb8c70b11cc293979
-ent-SpawnPointNFPirate = pirate
+ent-SpawnPointNFPirate = пират
     .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: 86885604a7b2e102455d5290d2f38f35ecd091847547ca8bb2bbefb78bf774df
-ent-SpawnPointNFPirateFirstMate = pirate first mate
+ent-SpawnPointNFPirateFirstMate = пиратский боцман
     .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: 7aac437abac3d32655fee6847b30586f6572e6df694fc3abab4097c663adcea9
-ent-SpawnPointNFPirateCaptain = pirate captain
+ent-SpawnPointNFPirateCaptain = пиратский капитан
     .desc = { ent-SpawnPointJobBase.desc }
-    .suffix = Frontier
+    .suffix = Фронтир
 # HASH: b0d936408d3fe56850124b63afea5739443f0c45d530823551bc2f5f62aafe05
 ent-SpawnPointStc = диспетчер аванпоста
     .desc = { ent-SpawnPointJobBase.desc }
@@ -63,7 +63,7 @@ ent-NFSpawnPointDetective = детектив
     .desc = { ent-SpawnPointDetective.desc }
     .suffix = Фронтир
 # HASH: eab65e65c2a1115d3253e1282e08486f4adbef1690e40dc94ed55c1dae019aad
-ent-SpawnPointPublicAffairsLiaison = public affairs liaison
+ent-SpawnPointPublicAffairsLiaison = офицер по связам с общественностью
     .desc = { ent-SpawnPointLawyer.desc }
 # HASH: ff8ec423a39ab8f51cf1152ebf78cfe7511c886ee0a86af1aa503ab41f0405ab
 ent-NFSpawnPointJanitor = { ent-SpawnPointJanitor }

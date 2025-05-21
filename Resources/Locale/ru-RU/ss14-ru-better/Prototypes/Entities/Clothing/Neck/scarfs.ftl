@@ -38,11 +38,11 @@ ent-ClothingNeckScarfStripedZebra = шарф-зебра
 ent-ClothingNeckScarfStripedAce = полосатый асексуальный шарф
     .desc = Стильный полосатый асексуальный шарф. Идеальный зимний аксессуар для тех, у кого развито чувство моды, и тех, кто просто не выносит холодного ветра на своей шее.
 # HASH: 3961066e78026203e4feab99c10d9e10256854062d13af239922ae0c631b90ee
-ent-ClothingNeckScarfStripedAro = полосатый ароматический шарф
+ent-ClothingNeckScarfStripedAro = полосатый аромантический шарф
     .desc = Стильный полосатый ароматический шарф. Идеальный зимний аксессуар для тех, у кого развито чувство моды, и для тех, кто просто не выносит холодного ветра на своей шее.
 # HASH: 6fd36298a0b320bdbf4a06e2a03d694e780cd454603be69d547a4ecaee3f4f87
-ent-ClothingNeckScarfStripedAroace = striped aroace scarf
-    .desc = A stylish striped aroace scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
+ent-ClothingNeckScarfStripedAroace = полосатый аромантически асексуальный шарф
+    .desc = Стильный полосатый аромантически асексуальный шарф. Идеальный зимний аксессуар для тех, у кого развито чувство моды, и тех, кто просто не выносит холодного ветра на своей шее.
 # HASH: 26e3502b17cc927b5c54a80b4642d396384785fe9608acecc2188d316af22ab3
 ent-ClothingNeckScarfStripedBiSexual = полосатый бисексуальный шарф
     .desc = Стильный полосатый бисексуальный шарф. Идеальный зимний аксессуар для тех, у кого развито чувство моды, и для тех, кто просто не выносит холодного ветра на своей шее.

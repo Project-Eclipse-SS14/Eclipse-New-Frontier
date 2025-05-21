@@ -37,4 +37,4 @@ ent-NFMobRainbowWyvernCaustic = { ent-NFMobRainbowWyvernIce }
 # HASH: 261112c924a8076e635bb49d1273dd8185659ee9c4437d65012be69e67302490
 ent-NFMobDragonDungeon = { ent-BaseMobDragon }
     .desc = { ent-BaseMobDragon.desc }
-    .suffix = Dungeon, Frontier
+    .suffix = Экспедиция, Фронтир

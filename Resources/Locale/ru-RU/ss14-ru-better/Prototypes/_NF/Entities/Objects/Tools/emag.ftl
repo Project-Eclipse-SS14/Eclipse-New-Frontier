@@ -1,7 +1,7 @@
 # HASH: f2f7c5b4bd5f355a0bdc41d9b314a7e3083f955f201f68fb7d35f52d0fde785e
-ent-EmagPass = disposable cryptographic sequencer
-    .desc = A disposable card made by the Syndicate to hack devices. Works three times.
-    .suffix = Limited, 3 Uses
+ent-EmagPass = одноразовый криптографический секвенсор
+    .desc = Одноразовая карта, созданная Синдикатом для взлома устройств. Срабатывает три раза.
+    .suffix = Лимитирован, 3 Использования
 # HASH: fd9d6909a7831c6628aaa46714da28f53fc0b17139ff705f84376170194ea413
 ent-DemagUnlimited = криптографический ресеквенсор
     .desc = Универсальное анти-хакерское устройство. Так же известное как DEMAG.

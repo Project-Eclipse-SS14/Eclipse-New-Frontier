@@ -42,8 +42,8 @@ ent-ClothingHeadHatCatEarsValid = { ent-ClothingHeadHatCatEars }
     .desc = { ent-ClothingHeadHatCatEars.desc }
     .suffix = Valid, НЕ МАППИТЬ!
 # HASH: 35bfcf5eba40bddc9b2e5c7e532d05edb3dfde18b8e923767b618d1771b43e10
-ent-ActionBecomeValid = Become Valid
-    .desc = *замечает ваш знак смерти* owo whats this
+ent-ActionBecomeValid = Стать действительным
+    .desc = *замечает ваш знак смерти* owo что это
 # HASH: 0ec164970e904c9bf5af160321e735f922074a960db19341ff2c4e9f70a56d75
 ent-ClothingHeadHatDogEars = собачьи ушки
     .desc = Только для хороших мальчиков.
@@ -60,5 +60,5 @@ ent-WaterDropletHat = капелька воды
 ent-ClothingHeadHatHairflower = цветок для волос
     .desc = Красивый цветок для волос, который можно вставить между локонами.
 # HASH: bdaf86ac3ed1e0e624bd036b1ceb47ffc341de9ff374af98c5750171aae35d01
-ent-ClothingHeadPerformerWig = performer's wig
-    .desc = On a closer inspection, it appears that it is made from optic fiber.
+ent-ClothingHeadPerformerWig = парик исполнителя
+    .desc = При ближайшем рассмотрении оказывается, что он сделан из оптического волокна.

@@ -5,5 +5,5 @@ ent-BaseDragonObjective = { ent-BaseObjective }
 ent-CarpRiftsObjective = { ent-BaseDragonObjective }
     .desc = { ent-BaseDragonObjective.desc }
 # HASH: 59535f56ea3a42ec791d0fcf00fab49c9f3a62f833973dae4d2de380a3dc962e
-ent-DragonSurviveObjective = Survive
-    .desc = You have to stay alive to maintain control.
+ent-DragonSurviveObjective = Выживальщик
+    .desc = Вы должны остаться в живых, чтобы сохранить контроль.

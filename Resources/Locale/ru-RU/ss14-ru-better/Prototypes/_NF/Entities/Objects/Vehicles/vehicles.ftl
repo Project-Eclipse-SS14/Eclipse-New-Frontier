@@ -3,7 +3,7 @@ ent-NFVehicleATV = { ent-VehicleATV }
     .desc = { ent-VehicleATV.desc }
 # HASH: e683eb2ba1879f857158b92a226c063f65bd7a0341b1b1c95ad6a5436743114b
 ent-NFVehicleSkeletonMotorcycle = мотоцикл-скелет
-    .desc = Bad to the Bone.
+    .desc = Плохой до мозга костей.
 # HASH: 3757901dc6e945293769739e72448109e83f43a0e2e73e81528b24b222163a67
 ent-VehicleUnicycle = уницикл
     .desc = У него всего одно колесо!

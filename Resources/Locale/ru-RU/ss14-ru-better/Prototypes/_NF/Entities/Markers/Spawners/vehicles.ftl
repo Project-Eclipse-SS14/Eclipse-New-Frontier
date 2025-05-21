@@ -11,5 +11,5 @@ ent-SpawnVehicleATV = спавнер квадроцикла
 ent-SpawnVehicleMotobike = спавнер мотоцикла
     .desc = { ent-MarkerBase.desc }
 # HASH: 29b9c4da4af896f8e34684b797700852749add4489894c0bc9b21dd7b1fddfa9
-ent-NFSpawnVehicleHoverbike = hoverbike spawner
+ent-NFSpawnVehicleHoverbike = спавнер ховербайка
     .desc = { ent-MarkerBase.desc }

@@ -225,5 +225,5 @@ ent-ChameleonPDA = КПК пассажира
     .desc = Почему он не серый?
     .suffix = Хамелеон
 # HASH: 586cf6a3fe7e5ccd5bcef9d69c73c632694efa65d68c2f2ffa65cd3905fe09ba
-ent-WizardPDA = wizard PDA
-    .desc = You hear faint whispers coming from it.
+ent-WizardPDA = КПК волшебника
+    .desc = Вы слышите слабый шепот, доносящийся из него.

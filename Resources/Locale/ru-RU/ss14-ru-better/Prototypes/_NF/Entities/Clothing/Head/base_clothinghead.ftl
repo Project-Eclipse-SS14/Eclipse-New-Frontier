@@ -5,5 +5,5 @@ ent-NFClothingHeadHardsuitWithLightBase = { ent-ClothingHeadHardsuitBase }
 ent-NFClothingHeadHardsuitWithLightBaseNfsd = { ent-NFClothingHeadHardsuitWithLightBase }
     .desc = { ent-NFClothingHeadHardsuitWithLightBase.desc }
 # HASH: c33a5a58ed0211f8c0ec0d52f86f3f1c3aff6631b08149e180a5413663772604
-ent-NFClothingHeadClearEVAHelmetBase = base space helmet
+ent-NFClothingHeadClearEVAHelmetBase = базовый космический шлем
     .desc = { ent-ClothingHeadBase.desc }

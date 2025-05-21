@@ -84,7 +84,7 @@ ent-SignDirectionalEscapePod = знак "спасательная капсула
     .desc = Указатель в сторону дока спасательной капсулы.
 # HASH: 26911f69adb881e3b663524d8ea9b393a89cc9dc0af79d96cec8c97a9f9c04d7
 ent-SignAi = знак "ИИ"
-    .desc = A sign, indicating an AI is present.
+    .desc = Знак, указывающий на присутствие ИИ.
 # HASH: bb06a81c28b47f93b46989dcdd723545e3337956abbe0778d6e0cc2dd06fd127
 ent-SignAiUpload = знак "загрузка ИИ"
     .desc = Знак, указывающий на присутствие ИИ.

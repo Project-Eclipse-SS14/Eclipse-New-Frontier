@@ -83,7 +83,7 @@ ent-BoxEncryptionKeySyndie = коробка ключей шифрования с
 # HASH: 8c1e599ee0c4e0d82754411ee10016f9384542f0e80a8c942ede57fba39b0a2e
 ent-BoxLeadLined = освинцованная коробка
     .desc = Эта коробка препятствует распространению радиации.
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: 4514d4da31c5b5d3d118ea6de66dd8b6ff297fcedbc276043666c42ec2eeefa8
 ent-BoxCandle = коробка свечей
     .desc = Эта коробка изготовлена специально для хранения свечей.

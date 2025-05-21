@@ -11,6 +11,6 @@ ent-NFPillCanisterMannitol = { ent-PillCanister }
     .desc = Принимайте по две таблетки в день.
     .suffix = Маннитол 10ед., 10, Кларпи
 # HASH: db801911653ecc57f6e2073cfc332066604c978f2c2cd79fcab75bb65991c7df
-ent-NFPillMannitol = pill
+ent-NFPillMannitol = таблетка
     .desc = { ent-Pill.desc }
     .suffix = Маннитол 10ед.

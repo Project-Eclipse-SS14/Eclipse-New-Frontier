@@ -121,11 +121,11 @@ ent-MailNFSodaPwrGame = { ent-BaseMail }
 # HASH: ddc1437c3b6849d443e9b26e455b806aa50e068d18f24fdb68eb23d9a6ce1681
 ent-MailNFSodaRedBool = { ent-BaseMail }
     .desc = { ent-BaseMail.desc }
-    .suffix = Red Bool
+    .suffix = Ред Булл
 # HASH: 2d3a4855e18440224253f9f1f955b9e1f67dc31a009349388fdfa209ae141305
 ent-MailNFSodaSpaceCola = { ent-BaseMail }
     .desc = { ent-BaseMail.desc }
-    .suffix = Space Cola
+    .suffix = Спэйс Кола
 # HASH: d967edf96d1e0a757c3abf6bd8d3fc8a1dcf95c14d0fb2a660b4d7b2ad48a288
 ent-MailNFSodaSpaceMountainWind = { ent-BaseMail }
     .desc = { ent-BaseMail.desc }
@@ -133,7 +133,7 @@ ent-MailNFSodaSpaceMountainWind = { ent-BaseMail }
 # HASH: da0425e13b8d09b0c9d3e8fc8676e066d166142ff3a9e9a5d1f7b982a324d4ce
 ent-MailNFSodaSpaceUp = { ent-BaseMail }
     .desc = { ent-BaseMail.desc }
-    .suffix = Space Up
+    .suffix = Спэйс Ап
 # HASH: 0de8f5e83b4d1f24cc986cf56ca858e75a20accc1536613d57888b3c1329f341
 ent-MailNFJoints = { ent-BaseMail }
     .desc = { ent-BaseMail.desc }
@@ -305,7 +305,7 @@ ent-MailNFSkeletonMotorcycle = { ent-BaseMailLarge }
 # HASH: a615fd5fef92e09f670d8ad556e52391e37db67b8bd55afad4b4295ba607966e
 ent-MailNFHoverchair = { ent-BaseMailLarge }
     .desc = { ent-BaseMailLarge.desc }
-    .suffix = Hoverchair
+    .suffix = гравикресло
 # HASH: ce1ac8ff40118164f80265116757a6e4cee7870ae456675af9a09235a8cf7d17
 ent-MailNFKendoKit = { ent-BaseMailLarge }
     .desc = { ent-BaseMailLarge.desc }

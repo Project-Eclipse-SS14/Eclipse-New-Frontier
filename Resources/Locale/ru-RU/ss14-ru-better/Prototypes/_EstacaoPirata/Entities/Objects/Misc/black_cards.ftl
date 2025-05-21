@@ -1,8 +1,8 @@
 # HASH: a82af9753e2f0e93d4b5460b691e9f450162725aeedecc3e9fb9f7bfb4b20e17
-ent-CardBoxBlack = black deck box
+ent-CardBoxBlack = чёрная коробка карт
     .desc = { ent-CardBoxBase.desc }
 # HASH: b1b48d9e5131df77b79a9cf7aa4b117a5ccaf9ce8241752e6e08e0f47d057f50
-ent-CardDeckBlack = deck of cards
+ent-CardDeckBlack = колода карт
     .desc = { ent-CardDeckBase.desc }
 # HASH: e806372f5cc375a8ba51957bd3d51251834219ed4daaa552a4bc538d41daafc9
 ent-CardBase = карта

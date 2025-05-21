@@ -32,49 +32,49 @@ ent-ClothingOuterCoatTrench = тренчкот
 ent-ClothingOuterCoatLab = лабораторный халат
     .desc = Халат, защищающий от небольших разливов химикатов.
 # HASH: da7a3461c590ffae63b96ef1c102ed53428cac0ca30a143ba92cf2788c97e716
-ent-ClothingOuterCoatLabOpened = lab coat
+ent-ClothingOuterCoatLabOpened = лабораторный халат
     .desc = { ent-ClothingOuterCoatLab.desc }
 # HASH: c439d9f8b2d5ddf9a805e7a9f9e4a0c02ee0758c59c752873b33e0a11ab92744
 ent-ClothingOuterCoatLabChem = лабораторный халат химика
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет оранжевые полосы на плечах.
 # HASH: 8d03549d26fad1fe2d3437aa259cd346fde5ee673c2b1cde4cda139edc6d104b
-ent-ClothingOuterCoatLabChemOpened = chemist lab coat
+ent-ClothingOuterCoatLabChemOpened = лабораторный халат химика
     .desc = { ent-ClothingOuterCoatLabChem.desc }
 # HASH: ff34e1c9c21faf493c3de2a9da2438ee6e8e60c017cf9a684229fa85dbffda94
 ent-ClothingOuterCoatLabViro = лабораторный халат вирусолога
     .desc = Халат, защищающий от бактерий и вирусов. Имеет зелёные полосы на плечах.
 # HASH: ad0a72de544ecc7d390970c3e95b4eaf7f8d0f5390a0636b90bdf51ddc6fc9d3
-ent-ClothingOuterCoatLabViroOpened = virologist lab coat
+ent-ClothingOuterCoatLabViroOpened = лабораторный халат вирусолога
     .desc = { ent-ClothingOuterCoatLabViro.desc }
 # HASH: c692789bccb90d6b74aa1c29e094796f0f2a759e23fa4b16880c03fbe47e8e0d
 ent-ClothingOuterCoatLabGene = лабораторный халат генетика
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет синие полосы на плечах.
 # HASH: 4eed56aa96781379edb4c66dcdf88ae3a30d850a1baa1f2f955e2b260f4f6c9e
-ent-ClothingOuterCoatLabGeneOpened = geneticist lab coat
+ent-ClothingOuterCoatLabGeneOpened = лабораторный халат генетика
     .desc = { ent-ClothingOuterCoatLabGene.desc }
 # HASH: e0ff769da0483dc47e9ddcf857913d28fa0a15315c4bb5dd17420b6927d98b07
 ent-ClothingOuterCoatLabCmo = лабораторный халат главного врача
     .desc = Изготовленный по специальному заказу синий лабораторный халат главного врача, обеспечивает дополнительную защиту от разливов химикатов и мелких порезов.
 # HASH: f5bacb93bad928e822f28a14848f3623f25fb5e9caaca217811703e8134675ef
-ent-ClothingOuterCoatLabCmoOpened = chief medical officer's lab coat
+ent-ClothingOuterCoatLabCmoOpened = лабораторный халат главного врача
     .desc = { ent-ClothingOuterCoatLabCmo.desc }
 # HASH: f2986b714f0ca05be5ce55ef80c7defd88d1395e438f2bc779fc2f0b1ce77f29
 ent-ClothingOuterCoatRnd = лабораторный халат учёного
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет фиолетовые полосы на плечах.
 # HASH: f58da1a5becc985899600a0c8cdbcabf586f632fd8148ee81f50f5b0584dde8e
-ent-ClothingOuterCoatRndOpened = scientist lab coat
+ent-ClothingOuterCoatRndOpened = лабораторный халат учёного
     .desc = { ent-ClothingOuterCoatRnd.desc }
 # HASH: eb637e72f1dd4b9f5a152c00f2999b0d5122121672154e7557adf2f1587bb603
 ent-ClothingOuterCoatRobo = лабораторный халат робототехника
     .desc = Больше похоже на эксцентричное пальто, чем на лабораторный халат. Помогает выдать пятна крови за эстетическую составляющую. Имеет красные полосы на плечах.
 # HASH: 062c6bd46df749b6ba606af62b44d99980a184a394d1f310d41b13a37c0903f4
-ent-ClothingOuterCoatRoboOpened = roboticist lab coat
+ent-ClothingOuterCoatRoboOpened = лабораторный халат робототехника
     .desc = { ent-ClothingOuterCoatRobo.desc }
 # HASH: a94ede750bafd692d7c43baf7eb826baac8e7b265b4bd2e3ba07f3ea9086c702
 ent-ClothingOuterCoatRD = лабораторный халат научрука
     .desc = Соткан по новейшим технологиям, этот халат обеспечивает защиту от радиации так же как и экспериментальный скафандр.
 # HASH: 62c5fd4339228421041fc6741ac1051907f989c5fdfe8ccbee21ccb5c0590fcc
-ent-ClothingOuterCoatRDOpened = research director lab coat
+ent-ClothingOuterCoatRDOpened = лабораторный халат научрука
     .desc = { ent-ClothingOuterCoatRD.desc }
 # HASH: ce4b7fd8576a32e74333aea6eff98cbfce20c671c5d6b5d7239dc51fc4754c76
 ent-ClothingOuterCoatPirate = одежда пирата
@@ -107,20 +107,20 @@ ent-ClothingOuterCoatAMG = медицинский бронехалат
 ent-ClothingOuterCoatLabSeniorResearcher = лабораторный халат ведущего учёного
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет фиолетовый воротник и отделку на запястьях.
 # HASH: 14932e334f1dbc76e10c3c28deb4f66d944efd1ba1f102097f2c9883c4ddddf1
-ent-ClothingOuterCoatLabSeniorResearcherOpened = senior researcher lab coat
+ent-ClothingOuterCoatLabSeniorResearcherOpened = лабораторный халат ведущего учёного
     .desc = { ent-ClothingOuterCoatLabSeniorResearcher.desc }
 # HASH: fe62374e15bb8f36326ddc9ddb5ec0a842303ca3a7108c5f3d1dccb5314615b6
 ent-ClothingOuterCoatLabSeniorPhysician = лабораторный халат ведущего врача
     .desc = Халат, защищающий от небольших разливов химикатов. Имеет светло-голубые рукава и оранжевую отделку на талии.
 # HASH: 268c582a889aef16635d7105f7cefc4799c46e8ef1bf26149758ba334d897f98
-ent-ClothingOuterCoatLabSeniorPhysicianOpened = senior physician lab coat
+ent-ClothingOuterCoatLabSeniorPhysicianOpened = лабораторный халат ведущего врача
     .desc = { ent-ClothingOuterCoatLabSeniorPhysician.desc }
 # HASH: 461414c32f8b3c2919136876699bac1523b0d933d22c593f7bf46275cbe95e94
 ent-ClothingOuterCoatSpaceAsshole = куртка космического мудака
-    .desc = And there he was...
+    .desc = А вот и он...
 # HASH: 0addcf203df3803ed7e52ac242695291980e5ff5085defa6582b734d9a802a1d
 ent-ClothingOuterCoatExpensive = дорогая шуба
     .desc = Очень пушистая розовая шуба, сделанная из очень дорогого меха (очевидно).
 # HASH: 5240add79b6ed41bb4a1135cad8d6d431840f53f94df866186724b8fe0c34fbb
-ent-ClothingOuterCoatExpensiveOpened = expensive coat
+ent-ClothingOuterCoatExpensiveOpened = дорогая шуба
     .desc = { ent-ClothingOuterCoatExpensive.desc }

@@ -5,8 +5,8 @@ ent-PoultryCubeBox = коробка куриных кубиков
 ent-RuminantCubeBox = коробка кубиков жвачных животных
     .desc = Коробка с кубиками для жвачных животных: коровы, свиньи и козы! Просто добавьте воды!
 # HASH: 36360701ae9b4de14b40c726045de4dd6150b108780e2bf809fd282077c91e56
-ent-FarmCubeBox = farm cube box
-    .desc = A pack of livestock cubes: chicken, cows, pigs, goats, ducks! Just add water!
+ent-FarmCubeBox = фермерская коробка для кубиков
+    .desc = Набор кубиков для домашнего скота: цыплята, коровы, свиньи, козы, утки! Просто добавьте воды!
 # HASH: 954576d6779df605f7e2610bf1ccd8529d05bb449083ce8909a49699327dbc5c
 ent-ChickenCubeWrapped = куриный кубик
     .desc = Распакуй, чтобы получить горячую цыпочку.

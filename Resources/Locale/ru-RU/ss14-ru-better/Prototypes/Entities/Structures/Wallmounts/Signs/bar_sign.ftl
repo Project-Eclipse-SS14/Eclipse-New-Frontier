@@ -40,7 +40,7 @@ ent-BarSignTheDrunkCarp = Бухой карп
     .desc = Не пейте плавая.
 # HASH: 119fd3e34db6754e7fbc34007a62235e36edffa651ac391e87ef1ebbe6187056
 ent-BarSignEngineChange = Замена двигателя
-    .desc = Still waiting.
+    .desc = Все еще жду.
 # HASH: 05afb7b504e193ac4f3ebc08c6872ea78421174fada764db844ca5f028e51992
 ent-BarSignTheHarmbaton = Хармбатон
     .desc = Отличные обеды как для сотрудников службы безопасности, так и для ассистентов.

@@ -1,7 +1,7 @@
 # HASH: 9a97ae46d4f6ab6cb6ee5d98f4abe4aa39e173961b1b370952f4e9d247b54b07
 ent-SpawnRandomHumanoidCorpseMedicalBounty = спавнера трупа для обмена
     .desc = { "" }
-    .suffix = No Loadout
+    .suffix = Без снаряжения
 # HASH: d677190e0a9990e7d5fa9e4c1bbde44271fb8959c4acb6d43e02ed991128b4bf
 ent-SpawnRandomHumanoidCorpseMedicalBountyService = { "" }
     .desc = { "" }

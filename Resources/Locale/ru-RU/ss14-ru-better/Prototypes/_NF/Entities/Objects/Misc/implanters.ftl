@@ -9,11 +9,11 @@ ent-FreelanceTrackingImplanter = { ent-BaseImplantOnlyImplanterSyndi }
 # HASH: 73c8d289ae9f01c63dc2b6972f1c68f4b93a9e26de2c655b02f0641e185b2bd0
 ent-DeathAcidifierImplanterNF = { ent-BaseImplantOnlyImplanterSyndi }
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = death acidifier
+    .suffix = Посмертный растворитель
 # HASH: 6ffb971c69aa9188b2bff59bc1ea580773cd4fd4dca658b19c9bb74f5a04fda7
 ent-GibAcidifierImplanterNF = { ent-BaseImplantOnlyImplanterSyndi }
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = gib acidifier
+    .suffix = Посмертный растворитель
 # HASH: 9cb0a926eb8abdf62f8a1f99f5af37d1293b345c23a28e0afa56dcd0636d1530
 ent-BibleUserImplanter = { ent-BaseImplantOnlyImplanter }
     .desc = { ent-BaseImplantOnlyImplanter.desc }

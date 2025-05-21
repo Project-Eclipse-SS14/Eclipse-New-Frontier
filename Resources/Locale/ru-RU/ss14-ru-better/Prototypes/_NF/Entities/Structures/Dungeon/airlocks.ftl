@@ -1,6 +1,6 @@
 # HASH: 194091489f35cd20978948616def02b25ea44ef1abbded2c4897da926161f259
 ent-AirlockGlassMurkyDungeon = { "" }
-    .desc = An airlock with murky glass windows, it's hard to see what's on the other side.
+    .desc = Шлюз с мутными стеклянными окнами - трудно разглядеть, что находится по ту сторону.
     .suffix = НЕ МАППИТЬ, ТОЛЬКО ЭКСПЫ
 # HASH: 62cad10e48b9c0e0596b5c16f8327807750964fff3f62fc37f77ea253a6ff49f
 ent-AirlockGlassDungeon = { ent-AirlockGlassMurkyDungeon }

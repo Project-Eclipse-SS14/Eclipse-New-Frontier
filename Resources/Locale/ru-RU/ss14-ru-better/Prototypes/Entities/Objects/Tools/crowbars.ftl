@@ -9,10 +9,10 @@ ent-CrowbarRed = аварийная монтировка
     .desc = Аварийный лом, предназначенный для открывания дверей и замков во время отключения электричества.
 # HASH: c0761a008e56e571644e9c70a3167806c4c94c3d3fe064ec8037dfc363bc62af
 ent-CrowbarGreen = { ent-BaseCrowbar }
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders, printed from an autolathe.
+    .desc = Многофункциональный инструмент для открывания дверей и борьбы с межпространственными захватчиками, напечатанный на токарном станке.
 # HASH: 9d2c568a942c20d9a3e154fed2e967148cfbc816e7394d0610e0faedd19e83eb
 ent-CrowbarOrange = { ent-BaseCrowbar }
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders, found in toolboxes.
+    .desc = Многофункциональный инструмент для открывания дверей и борьбы с межпространственными захватчиками, который можно найти в ящиках для инструментов.
 # HASH: 83b7bace02e81d41c58b2ed16be4188f0726c36bb03b91811c4cf93985b5e424
 ent-CrowbarYellow = { ent-BaseCrowbar }
-    .desc = A multipurpose tool to pry open doors and fight interdimensional invaders, dispensed from Engineering.
+    .desc = Многофункциональный инструмент для открывания дверей и борьбы с межпространственными захватчиками, выдаваемый инженерами.

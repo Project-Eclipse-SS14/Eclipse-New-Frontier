@@ -50,20 +50,20 @@ ent-NFJanitorIDCard = { ent-JanitorIDCard }
 ent-ContractorIDCard = ID карта авантюриста
     .desc = { ent-PassengerIDCard.desc }
 # HASH: 36d4c855e7df6de49fc32c549de042ed34ebb1dd0d33173db76c109eb9a4d41a
-ent-NFPirateIDCard = pirate ID card
-    .desc = Garr, be this wood?
-    .suffix = Frontier
+ent-NFPirateIDCard = ID карта пирата
+    .desc = Гарр, это дерево?
+    .suffix = Фронтир
 # HASH: 569861fafe125ec756fb2ad8399d20d70aae9b4e2f7ac11bad6af30a1ba19ba6
-ent-NFPirateCaptainIDCard = pirate captain ID card
-    .desc = Ahoy, see how it glistens!
+ent-NFPirateCaptainIDCard = ID карта пиратского капитана
+    .desc = Смотрите, как он блестит!
 # HASH: b88a9258849772b1f319286a60422f68169c660ad9a8ad6d0f60595dcd18e1b3
-ent-NFPirateFirstMateIDCard = pirate first mate ID card
+ent-NFPirateFirstMateIDCard = ID карта пиратского боцмана
     .desc = { ent-NFPirateIDCard.desc }
 # HASH: 3847e0ce5a54eca521394ca346e0fc93363cc6cd78d069c41c1d990e321fbb73
-ent-YipYipIDCard = yip yip ID card
+ent-YipYipIDCard = ID карта Ип Ип
     .desc = { ent-PunPunIDCard.desc }
 # HASH: 0a2e78c832e5ae034fa87aee22b076afc9fe0fda0e6c38fd0137bc226d0888bb
-ent-DocIDCard = director of care ID card
+ent-DocIDCard = ID карта менеджера медицинских операций
     .desc = { ent-IDCardStandard.desc }
 # HASH: f983da4f395a10089eec7430af64bc88c63ccfb421616dc397d2d9cdfe9c84e7
 ent-ClippyIDCard = ID карта Скрепки

@@ -19,9 +19,9 @@ ent-ToolboxMechanicalFilled = технический ящик для инстр�
     .desc = { ent-ToolboxMechanical.desc }
     .suffix = Заполненный
 # HASH: 68cc2ca40986b833f3335c95f927ee4495a56c897ef7d4fdfc140c2352b6b7b5
-ent-ToolboxMechanicalFilledAllTools = mechanical toolbox
+ent-ToolboxMechanicalFilledAllTools = технический ящик для инструментов (все)
     .desc = { ent-ToolboxMechanical.desc }
-    .suffix = Filled, all tools
+    .suffix = Заполненный, все инструменты
 # HASH: ba4b76b66b852f23310722bdebe2b19d19c680e3219c55ad5d1488ffe71610ac
 ent-ToolboxSyndicateFilled = { ent-ToolboxSyndicate }
     .desc = { ent-ToolboxSyndicate.desc }

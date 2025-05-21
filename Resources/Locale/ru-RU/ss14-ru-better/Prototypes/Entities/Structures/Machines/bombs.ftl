@@ -12,6 +12,6 @@ ent-SyndicateBombFake = { ent-SyndicateBomb }
     .desc = { ent-SyndicateBomb.desc }
     .suffix = Обманка
 # HASH: 6a634b3cdca7f45588b0a1f67cabd9a7ec9dd0e0566cd8cc62670f9bbb23c39a
-ent-DebugHardBomb = debug bomb
+ent-DebugHardBomb = дебаг бомба
     .desc = Господи, она сейчас взорвётся.
-    .suffix = DEBUG
+    .suffix = ДЕБАГ

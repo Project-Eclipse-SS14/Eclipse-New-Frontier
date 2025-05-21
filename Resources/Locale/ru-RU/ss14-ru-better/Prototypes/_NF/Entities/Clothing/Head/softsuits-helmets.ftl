@@ -14,7 +14,7 @@ ent-ClothingHeadEVAHelmetContractor = шлем скафандра EVA авант
 ent-ClothingHeadEVAHelmetSr = шлем скафандра EVA представителя
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: 00d875b584a72087f9f38b0ed714996e8cd1413134a3d924f09891435205fe7d
-ent-ClothingHeadEVAHelmetStc = station traffic controller EVA helmet
+ent-ClothingHeadEVAHelmetStc = шлем скафандра EVA диспетчера
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: 82d69e93c09ab963b89a8c1a629632dd64a2f3af49161ed6cc716c0743b0eded
 ent-ClothingHeadEVAHelmetCaptain = шлем скафандра EVA капитана
@@ -41,7 +41,7 @@ ent-ClothingHeadEVAHelmetScientist = шлем скафандра EVA учёно�
 ent-ClothingHeadEVAHelmetJanitor = шлем скафандра EVA уборщика
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: dc05f54e7c3e2e2cd3b2f4939f808dc18950471118fbe11c6e5074f488aa2956
-ent-ClothingHeadEVAHelmetValet = valet EVA helmet
+ent-ClothingHeadEVAHelmetValet = шлем скафандра EVA камердинера
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: 0315ead5f76719a5995231c6dad5acce86b29f4d99ff9096ca862ee03f0093c2
 ent-ClothingHeadEVAHelmetServiceWorker = шлем скафандра EVA сервиса
@@ -77,10 +77,10 @@ ent-ClothingHeadEVAHelmetPrivateSec = шлем скафандра EVA телох
 ent-ClothingHeadEVAHelmetNfsd = шлем скафандра EVA ДСБФ
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: 3a8abc7bbe24b00898644a2a147a5f772051c95abb118466b80e6bc9e540d4c0
-ent-ClothingHeadEVAHelmetPirate = pirate EVA helmet
+ent-ClothingHeadEVAHelmetPirate = шлем скафандра EVA пирата
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: f4d5379e585c8e43ca131d946ba2afebdff5237577829a0b85c384b1c97a1c11
-ent-ClothingHeadEVAHelmetPrisoner = prisoner EVA helmet
+ent-ClothingHeadEVAHelmetPrisoner = шлем скафандра EVA заключенного
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 # HASH: 888e98c875da1810a2bef870c6b604b402e18d6107c016de5de9e3ce1ba58bc8
 ent-ClothingHeadEVAHelmetLvhi = шлем LHVI EVA

@@ -191,11 +191,11 @@ ent-SyndieVisitorSpawner = синдикат жертва катастрофы с
 # HASH: 281df1bd649bf98773a1cfb499426efa9c3197bdb6e89a5dbd564e387ceb51a9
 ent-PirateScoonerSpawner = пират член экипажа спавнер
     .desc = { ent-MarkerBase.desc }
-    .suffix = scooner
+    .suffix = Шхуна
 # HASH: 348e429254fbea3174c1596143d724fa768385ccecb7f9c305ecc443320cff79
 ent-PirateCaptainScoonerSpawner = пират капитан спавнер
     .desc = { ent-MarkerBase.desc }
-    .suffix = scooner
+    .suffix = Шхуна
 # HASH: ac9d3cf7d162397651b94c60e47cfc5c4223f642317e886fe004d22d843fce83
 ent-VisitorBlackmarketeerSpawner = посетитель торговец чёрного рынка спавнер
     .desc = { ent-MarkerBase.desc }

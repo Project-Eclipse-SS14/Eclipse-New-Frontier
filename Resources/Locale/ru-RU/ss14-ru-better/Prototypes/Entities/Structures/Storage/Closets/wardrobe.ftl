@@ -3,31 +3,31 @@ ent-WardrobeBase = { ent-ClosetSteelBase }
     .desc = Стандартное хранилище Nanotrasen для одежды и снаряжения.
 # HASH: 75475dafa48d22014488a1946a1ab723f4ff41d45548747bb1e2a8561aa6de62
 ent-WardrobeBlue = синий гардероб
-    .desc = A wardrobe packed with stylish blue clothing.
+    .desc = В гардеробе много стильной одежды синего цвета.
 # HASH: fa940a512752e1fa36f6e81f0b77ca315006af7842fecbe0ded4c3327ec04af0
 ent-WardrobePink = розовый гардероб
-    .desc = A wardrobe packed with fabulous pink clothing.
+    .desc = В гардеробе полно потрясающей розовой одежды.
 # HASH: ec1d5578e4604436c3faf33ec7022bdae33a84cbd4c1bdc5a5def117d75a5ecd
 ent-WardrobeBlack = чёрный гардероб
-    .desc = A wardrobe packed with stylish black clothing.
+    .desc = В гардеробе много стильной черной одежды.
 # HASH: 468caa80ac88027fa0970629dfbca2cc5525bf287f8262ede8b484f05f1d0eee
 ent-WardrobeGreen = зелёный гардероб
-    .desc = A wardrobe packed with stylish green clothing.
+    .desc = В гардеробе много стильной зеленой одежды.
 # HASH: aedd538c757202d35be591a76fb17165db5f56297433555a682c5c5bc96afb2a
 ent-WardrobePrison = тюремный гардероб
     .desc = { ent-WardrobeBase.desc }
 # HASH: b9ae385ecfb7a6eeb3a72f6db7b0f8ca781cb12e503334d1aedba84d51daba44
 ent-WardrobeYellow = жёлтый гардероб
-    .desc = A wardrobe packed with stylish yellow clothing.
+    .desc = В гардеробе много стильной одежды желтого цвета.
 # HASH: 0431389821372edae9bb49034212d12e020e91632d915928bcabf9b4ca08e2e4
 ent-WardrobeWhite = белый гардероб
-    .desc = A wardrobe packed with stylish white clothing.
+    .desc = В гардеробе много стильной белой одежды.
 # HASH: 19bd665e69c67fa529defe07ca9a0b617a76d0fe5d9585f27262bbd64cdbf55a
 ent-WardrobeGrey = серый гардероб
-    .desc = A wardrobe packed with a tide of grey clothing.
+    .desc = В гардеробе - прилив серой одежды.
 # HASH: a60143be9770dddd955487432c2b507d265efadb68cba5af84d31300e593378b
 ent-WardrobeMixed = смешанный гардероб
-    .desc = A wardrobe packed with a mix of colorful clothing.
+    .desc = В гардеробе много разноцветной одежды.
 # HASH: 0dfca1beefeb09eed841f1e1598f62fcd4985d05a6e2e7252ac3fa7b3b84d52d
 ent-WardrobeSecurity = гардероб службы безопасности
     .desc = { ent-WardrobeBase.desc }

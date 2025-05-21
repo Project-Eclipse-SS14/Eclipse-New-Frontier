@@ -5,10 +5,10 @@ ent-NFPosterLegitMagnusWatching = Всегда Следим
 ent-NFPosterLegitGoblinTinkerer = Мастерим!
     .desc = Этот постер изображает радостного гоблина инженера, рассказывающего что самая интересная часть в инженерии - взрывы.
 # HASH: e65abc31d00a2594c8308e7b3f1d1b664ebc86ec93851b8c276daac3bbf6ece4
-ent-NFPosterLegitBahamaMama = Bahama Mama's
+ent-NFPosterLegitBahamaMama = На Багамах
     .desc = Поднимите ноги и насладитесь имитацией тропического пляжа в Bahama Mama's.
 # HASH: 02f9638a72e5e2e86852557bd6f91589781f5a3a286d2530a1b8f89bbd694283
-ent-NFPosterLegitWinnerWinner = Winner Winner
+ent-NFPosterLegitWinnerWinner = Виннер Виннер
     .desc = Аппетитное жаркое дразнит вас. Так близко, но так далеко.
 # HASH: 2c875d596e95195735a640b4c9ae25b960fa15314d354f5fc8a1024dced8ef63
 ent-NFPosterLegitWantedClarpy = Разыскивается: Кларпи
@@ -23,8 +23,8 @@ ent-NFPosterLegitHaveYouSeenThisEgg = Вы видели это яйцо?
 ent-NFPosterLegitGunTurnIn = Turn In Your Guns!
     .desc = The NFSD reminds you to give in your unregistered guns found planetside. The FUCs these are worth help keep the department running. Do your duty!
 # HASH: 4462c820c477b3a62eb0e3608901d28ca43eba0d4db79398799f13cfabb314ac
-ent-NFPosterContrabandLvhiStation = Космическая станция Tetotum LVHI
-    .desc = Этот постер изображает величественную космическую станцию Tetotum от Лангстад-Войгт Хэви Индастриз. Чудо инженерной мысли, парящее среди звёзд и открывающее новые горизонты!
+ent-NFPosterContrabandLvhiStation = Космическая станция Тетотум LVHI
+    .desc = Этот постер изображает величественную космическую станцию Тетотум от Лангстад-Войгт Хэви Индастриз. Чудо инженерной мысли, парящее среди звёзд и открывающее новые горизонты!
 # HASH: 0a48cc8afe6b6c07577994f39e9033c4c65c26543527251b1c2bb9bb5f79aa2a
 ent-NFPosterContrabandLvhiShuttle = Космический флот LVHI
     .desc = На этом постере шаттл стремительно покидает атмосферу планеты. Надпись гордо заявляет о надёжности шаттлов Лангстад-Войгт Хэви Индастриз для покорения новых миров. Взмывай ввысь и исследуй вселенную с LVHI!
@@ -59,13 +59,13 @@ ent-NFPosterContrabandLvhiLogo = Логотип LVHI
 ent-NFPosterContrabandEatShrooms = Eat Shrooms!
     .desc = Eat Shrooms!
 # HASH: 3fbf06759992e2030ec36d68d122ea59419962360137ace326be2bf8eb24b22a
-ent-NFPosterContrabandKillerFashion = Da Burkin' Fashion
+ent-NFPosterContrabandKillerFashion = Да Буркин Фэшн
     .desc = Печатная копия того, что, по всей видимости, является нарисованным от руки плакатом с изображением гоблина в рваной тунике и с копьем.
 # HASH: 76f8c1426a210520300048ed06923b7aa341502cd4ffbb93d4d143d952482595
-ent-NFPosterContrabandGoblinFront = Goblinkin, Unite!
+ent-NFPosterContrabandGoblinFront = Гоблинкин, Юнит!
     .desc = Плакат, призывающий гоблинов объединиться и бороться за свои права.
 # HASH: a3da901d678c83e2fd095e9293844356936ee0ada2e16d1ecc2cdf3b16946740
-ent-NFPosterContrabandGoblinate = Da Great Space Goblinate!
+ent-NFPosterContrabandGoblinate = Великий Космический Гоблинат!
     .desc = Плакат, призывающий восстановить Великий Гоблинат во всей его былой славе.
 # HASH: 0927d3db70fc9bb8493c2d57111a3746c083fecedf3ab4ba31ae6b37eb4fa62d
 ent-NFPosterContrabandFsbRubicon = Станция «Рубикон» компании Фар Стар Биотеч

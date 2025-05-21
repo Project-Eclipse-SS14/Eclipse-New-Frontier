@@ -38,7 +38,7 @@ ent-LightTubeBroken = люминесцентная лампа-трубка
     .suffix = Сломанный
 # HASH: 06ea44631f7a06d2f2a31ce7cd0e1f324689974955f1408aeb753ae5a0940173
 ent-LedLightTube = светодиодная лампа-трубка
-    .desc = A high power high energy bulb.
+    .desc = Мощная энергосберегающая лампа.
 # HASH: b857dc36a4584c851f6332552367ab7c28c904426f7463848577b054b9318339
 ent-ExteriorLightTube = экстерьерная лампа-трубка
     .desc = Мощная энергосберегающая лампа для космических глубин. Может содержать ртуть.
@@ -55,7 +55,7 @@ ent-LightTubeCrystalCyan = голубая кристальная лампа-тр
 ent-LightTubeCrystalBlue = синяя кристальная лампа-трубка
     .desc = { ent-BaseLightTubeCrystal.desc }
 # HASH: 322c60ca974e44d3af96548db18aa3ae48e3f4fea5521dda9c36cab2e65548c5
-ent-LightTubeCrystalYellow = yellow crystal light tube
+ent-LightTubeCrystalYellow = жёлтая кристальная лампа-трубка
     .desc = { ent-BaseLightTubeCrystal.desc }
 # HASH: a31e2643a666a391c958d09da319103bd0eeacbec5c15fe04fd5617e0d16ff5f
 ent-LightTubeCrystalPink = розовая кристальная лампа-трубка
@@ -65,7 +65,7 @@ ent-LightTubeCrystalOrange = оранжевая кристальная ламп�
     .desc = { ent-BaseLightTubeCrystal.desc }
 # HASH: 31a7c314af8465018dd825bde680e9e333882aaebf757da067a9e5a64d6538f1
 ent-LightTubeCrystalBlack = чёрная кристальная лампа-трубка
-    .desc = A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
+    .desc = Мощная энергоемкая лампочка, внутри которой находится небольшой цветной кристалл.
 # HASH: ec55bee0c70919d780ce7688cdc2784f4a40be806eff7d1b7275b3cb7596ef72
 ent-LightTubeCrystalRed = красная кристальная лампа-трубка
     .desc = { ent-BaseLightTubeCrystal.desc }
@@ -82,7 +82,7 @@ ent-LightBulbCrystalCyan = голубая кристальная лампочк�
 ent-LightBulbCrystalBlue = синяя cкристальная лампочка
     .desc = { ent-BaseLightbulbCrystal.desc }
 # HASH: fd70add96ad278bd2d77fdc0a39df2c1aae2e4b90e58bb23d90c9563063a823f
-ent-LightBulbCrystalYellow = yellow crystal light bulb
+ent-LightBulbCrystalYellow = жёлтая кристальная лампочка
     .desc = { ent-BaseLightbulbCrystal.desc }
 # HASH: 9212309080281ecaa97123b15abe58c37325a4079db77a3cbd3358b2986cb33c
 ent-LightBulbCrystalPink = розовая кристальная лампочка
@@ -91,8 +91,8 @@ ent-LightBulbCrystalPink = розовая кристальная лампочк�
 ent-LightBulbCrystalOrange = оранжевая кристальная лампочка
     .desc = { ent-BaseLightbulbCrystal.desc }
 # HASH: afed77b22d460ed70a3ea2ace0ee9387ec36f3e41e3c098ca9526783c85f6a19
-ent-LightBulbCrystalBlack = black crystal light bulb
-    .desc = A high power high energy bulb which has a small colored crystal inside. It isn't very bright.
+ent-LightBulbCrystalBlack = чёрная кристальная лампочка
+    .desc = Мощная энергоемкая лампочка, внутри которой находится небольшой цветной кристалл.
 # HASH: c4d5c0d7791d70ffa1300f27d269fc3f12bffdd6b252d999523562e6a35f45b5
 ent-LightBulbCrystalRed = красная кристальная лампочка
     .desc = { ent-BaseLightbulbCrystal.desc }

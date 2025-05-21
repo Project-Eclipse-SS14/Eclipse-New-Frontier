@@ -14,7 +14,7 @@ ent-VariantCubeBox = коробка ассорти-кубиков
 # HASH: ec56dffadbaf42fd6dd4512da1bc83925362cb1d55b315e40466cb2dc8264da6
 ent-KoboldCubeWrapped = кубик кобольда
     .desc = Разверните его, чтобы получить кубик кобольда.
-    .suffix = Wrapped
+    .suffix = Завёрнутый
 # HASH: e340a8aa9bb7b0cdf8425416130180b66842142b4f9edaa6350c7b15037eecc7
 ent-SyndicateSpongeBox = коробка кубиков обезьян
     .desc = Кубики обезьян фирмы Drymate. Просто добавь воды!

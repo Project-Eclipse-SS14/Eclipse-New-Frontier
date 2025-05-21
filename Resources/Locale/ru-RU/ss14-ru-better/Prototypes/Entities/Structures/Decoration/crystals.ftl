@@ -17,7 +17,7 @@ ent-CrystalOrange = { ent-CrystalGreen }
 # HASH: 4762e42c69f2d79e1b1c767c0a49a53d5decf7d89af6d122ba3d9d510aaa0b56
 ent-CrystalBlack = { ent-CrystalGreen }
     .desc = { ent-CrystalGreen.desc }
-    .suffix = black
+    .suffix = Чёрный
 # HASH: 5e1ae9b6085c48c1ba2f367139d81ed4ccbb6aceda08941f84ff566a8badf388
 ent-CrystalBlue = { ent-CrystalGreen }
     .desc = { ent-CrystalGreen.desc }
@@ -25,7 +25,7 @@ ent-CrystalBlue = { ent-CrystalGreen }
 # HASH: 93901e9a76d2516e578cf588060313add5bfd19828433bcec05a71a61799d201
 ent-CrystalYellow = { ent-CrystalGreen }
     .desc = { ent-CrystalGreen.desc }
-    .suffix = yellow
+    .suffix = Жёлтый
 # HASH: c70de7dc7f31171eea5f719b2b310edb2f5fe6cff6f2be7b7bf319f5941f041b
 ent-CrystalCyan = { ent-CrystalGreen }
     .desc = { ent-CrystalGreen.desc }

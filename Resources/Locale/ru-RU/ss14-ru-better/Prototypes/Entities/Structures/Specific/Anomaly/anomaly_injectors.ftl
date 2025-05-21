@@ -1,5 +1,5 @@
 # HASH: 8473337d42eb6645ffb45a4abf16d8a0488910fb5082fd09151b1dc901e82625
-ent-BaseAnomalyInjector = anomaly injector
+ent-BaseAnomalyInjector = инжектор аномалии
     .desc = { ent-MarkerBase.desc }
 # HASH: afa2917ef373c591cbdf054177ee894d9322dc37cb88a0c595d5ecbfcc575c7c
 ent-AnomalyTrapPyroclastic = { ent-BaseAnomalyInjector }

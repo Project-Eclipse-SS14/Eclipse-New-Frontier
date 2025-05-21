@@ -57,7 +57,7 @@ ent-ClothingBeltMilitaryWebbingMed = армейская РПС медика
     .desc = Ременно-плечевая система тактических ремней, которую носят оперативники-медики Мародёров Горлекса.
 # HASH: 72b136da8f036b36356b8526cf79d6c6b26b1d42b27b8d0f1f5490ed56878023
 ent-ClothingBeltSuspendersRed = красные подтяжки
-    .desc = For holding your pants up.
+    .desc = Для поддержания штанов.
 # HASH: 753241d9a57a3118cbd2f47f1ad4f19abe765dab98e7710edf6d07ebea627ebd
 ent-ClothingBeltSuspendersBlack = чёрные подтяжки
     .desc = { ent-ClothingBeltSuspendersRed.desc }

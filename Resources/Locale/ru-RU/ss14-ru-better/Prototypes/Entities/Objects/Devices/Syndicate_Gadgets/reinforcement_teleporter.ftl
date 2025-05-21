@@ -6,7 +6,7 @@ ent-ReinforcementRadioSyndicate = радио подкрепления Cинди�
     .desc = Призовите себе помощника!
 # HASH: 0dc8f9559d0bf3fe0a56a46ddf7afe4661c02f6ddca6fbf329c38fc2ef1a18c5
 ent-ReinforcementRadioSyndicateNukeops = { ent-ReinforcementRadioSyndicate }
-    .desc = Call in a nuclear operative of questionable quality, instantly! Basic nukeop equipment provided.
+    .desc = Вызовите ядерного оперативника сомнительного качества, мгновенно! Базовое оборудование для ядерной операции предоставляется.
     .suffix = Радио подкрепления ЯО, Ядерный Оперативник
 # HASH: 1c087c34ff7a42370e695a8bd941f74c9d2020eb8989a8159df7adfaa3a05e52
 ent-ReinforcementRadioSyndicateAncestor = телепорт подкрепления генетического предка Синдиката
@@ -19,6 +19,6 @@ ent-ReinforcementRadioSyndicateAncestorNukeops = { ent-ReinforcementRadioSyndica
 ent-ReinforcementRadioSyndicateSyndiCat = телепорт подкрепления Синдикота
     .desc = Призывает на помощь верного дрессированного кота с микробомбой.
 # HASH: 3e49691bda725475ebcd7ab9823ab4da2c307c66ca1ff1c3740af5fbb3cc1e6a
-ent-ReinforcementRadioSyndicateCyborgAssault = syndicate assault cyborg reinforcement radio
+ent-ReinforcementRadioSyndicateCyborgAssault = радио подкрепления штурмового киборга Синдиката
     .desc = Призовите хорошо вооружённого штурмового киборга, немедленно!
     .suffix = радио подкрепления штурмового киборга Синдиката

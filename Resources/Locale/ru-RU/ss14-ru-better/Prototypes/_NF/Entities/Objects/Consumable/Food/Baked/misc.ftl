@@ -8,5 +8,5 @@ ent-FoodBakedMuffinPear = грушевый маффин
 ent-FoodBakedAppleStrudelBite = кусочек яблочного штруделя
     .desc = Просто посыпьте сверху немного глазури и наслаждайтесь!
 # HASH: 77ad30dde7a273052a8c15bd60aca573cf20df2f94c2e766d6ea7894d9104064
-ent-FoodBakedCinnamonRoll = cinnamon roll
-    .desc = I wonder how much more icing you could put on this.
+ent-FoodBakedCinnamonRoll = булочка с корицей
+    .desc = Интересно, сколько еще глазури можно нанести на него?

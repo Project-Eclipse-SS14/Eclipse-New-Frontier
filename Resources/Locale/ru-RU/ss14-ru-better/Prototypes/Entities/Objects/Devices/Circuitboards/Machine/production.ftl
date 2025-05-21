@@ -1,12 +1,12 @@
 # HASH: 060c6de842b6c34ef056269dbc6d1cc1f607857e49fceaf6b9c07600e03047f5
 ent-AutolatheMachineCircuitboard = автолат (машинная плата)
-    .desc = A machine printed circuit board for an autolathe.
+    .desc = Печатная плата автолата.
 # HASH: d41f5522308daeac61d10d64879270f55a4bb7cf7801ebb606119178f8c31d4b
 ent-AutolatheHyperConvectionMachineCircuitboard = гиперконвекционный автолат (машинная плата)
     .desc = Печатная плата гиперконвекционного автолата.
 # HASH: c8eef0adc3f454d823496389d25042cdb4f607019775194ac24dd243ab68a7eb
 ent-ProtolatheMachineCircuitboard = протолат (машинная плата)
-    .desc = A machine printed circuit board for a protolathe.
+    .desc = Печатная плата протолата.
 # HASH: e4e025b27fa08381cbaf1b44a0101c7ba3a981b395a8c475d769730c49e01fbd
 ent-ProtolatheHyperConvectionMachineCircuitboard = гиперконвекционный протолат (машинная плата)
     .desc = Печатная плата гиперконвекционного протолата.
@@ -87,10 +87,10 @@ ent-SpaceHeaterMachineCircuitBoard = термостат (машинная пла
     .desc = Печатная плата для термостата.
 # HASH: 53953726c62b80c3180c93ec3248bff83b57e42759b9d0d621f528a38882a949
 ent-CloningPodMachineCircuitboard = капсула клонирования (машинная плата)
-    .desc = A machine printed circuit board for a cloning pod.
+    .desc = Печатная плата для капсулы клонирования.
 # HASH: d15758a3e42ba483b640b929a4ae67fea82dbc459dbfc73f9f09ce3a5af0f089
 ent-MedicalScannerMachineCircuitboard = медицинский сканер (машинная плата)
-    .desc = A machine printed circuit board for a medical scanner.
+    .desc = Печатная плата для медицинского сканера.
 # HASH: 1dbd5107dc7ee6c3a53380b3c0d946c8c49193afbedb7dbe2717524feddc4b44
 ent-CrewMonitoringServerMachineCircuitboard = сервер мониторинга экипажа (машинная плата)
     .desc = Печатная плата для сервера мониторинга экипажа.
@@ -99,22 +99,22 @@ ent-CryoPodMachineCircuitboard = криокапсула (машинная пла
     .desc = Печатная плата для криокапсулы.
 # HASH: ceac51384dc2f3dabe674199dad063d78725b2749acf5d4853c66b9920551218
 ent-ChemMasterMachineCircuitboard = химмастер 4000 (машинная плата)
-    .desc = A machine printed circuit board for a ChemMaster 4000.
+    .desc = Печатная плата ХимМастера 4000.
 # HASH: 57b9d22225e1627944c937c44182a5e1e64416c0bab04fa240aa342753e25c46
 ent-ChemDispenserMachineCircuitboard = раздатчик химикатов (машинная плата)
-    .desc = A machine printed circuit board for a chem dispenser.
+    .desc = Печатная плата раздатчика химикатов.
 # HASH: cdf447d5539e1197c67853ad194dd353a539e6bae6dcdba404b6eeefe53c605e
 ent-BiomassReclaimerMachineCircuitboard = переработчик биомассы (машинная плата)
     .desc = Печатная плата переработчика биомассы.
 # HASH: 254fc582ed09265cadad3819414b72af580bc8395bc3af7e05376b983519139f
 ent-HydroponicsTrayMachineCircuitboard = гидропонный лоток (машинная плата)
-    .desc = A machine printed circuit board for a hydroponics tray.
+    .desc = Печатная плата гидропонного лотка.
 # HASH: 4c83307783a0134cc6b77a9ee06fcc664b77bf6521d4267263189f98adfbb2d2
 ent-SeedExtractorMachineCircuitboard = экстрактор семян (машинная плата)
     .desc = Печатная плата экстрактора семян.
 # HASH: 484a651e799d2231bd5e4adc9ee904122a88ef75b602e512e399d290733c984d
 ent-SMESMachineCircuitboard = СМЭС (машинная плата)
-    .desc = A machine printed circuit board for a SMES.
+    .desc = Печатная плата СМЭСа.
 # HASH: d72038fccb9374993ff6ce6b822c4df41db3d7f9c21f4f4a0a412745624c5b23
 ent-SMESAdvancedMachineCircuitboard = продвинутый СМЭС (машинная плата)
     .desc = Печатная плата продвинутого СМЭСа.
@@ -135,7 +135,7 @@ ent-TurboItemRechargerCircuitboard = турбозарядник (машинна�
     .desc = Печатная плата турбозарядника.
 # HASH: 0c04dc15e89d2c8028179df16539c186cb4fbd9c8324e8dd4d52f1c6294cc9b9
 ent-SubstationMachineCircuitboard = подстанция (машинная плата)
-    .desc = A machine printed circuit board for a substation.
+    .desc = Печатная плата подстанции.
 # HASH: b3fa2a2ffec6f484862887134569c3f419a8d83fc7b534a95ffec681347e6978
 ent-DawInstrumentMachineCircuitboard = цифровая звуковая рабочая станция (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
@@ -218,8 +218,8 @@ ent-BoozeDispenserMachineCircuitboard = раздатчик алкоголя (м�
 ent-CargoTelepadMachineCircuitboard = грузовой телепад (машинная плата)
     .desc = Печатная плата грузового телепада.
 # HASH: a7860e4c5d329e2a4c563e1eeef112288e42f9b6b2b32f52af7ab66d5e898c26
-ent-MailTeleporterMachineCircuitboard = mail teleporter machine board
-    .desc = A machine printed circuit board for a mail teleporter.
+ent-MailTeleporterMachineCircuitboard = почтовый телепортер (машинная плата)
+    .desc = Печатная плата почтового телепортера.
 # HASH: ec26fe4ab99e48d81f1449d2f7439d6393bb14a142ab2f69f7e0a51da5aa583a
 ent-SodaDispenserMachineCircuitboard = раздатчик безалкоголя (машинная плата)
     .desc = Печатная плата раздатчика безалкоголя.

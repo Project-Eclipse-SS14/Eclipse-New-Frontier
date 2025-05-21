@@ -21,16 +21,16 @@ ent-LockerWallColorBananium = шкаф бананиумного топлива
 ent-LockerWallColorMaterials = шкаф базовых материалов
     .desc = { ent-LockerWallColorBase.desc }
 # HASH: 05148c1da43aeab00ba5f71b00de0fc2c3ecef04d6549ee65c9ca7766803c72c
-ent-LockerWallColorL1Fire = Настенный шкафчик для пожарного костюма L1
+ent-LockerWallColorL1Fire = настенный шкаф для пожарного костюма L1
     .desc = { ent-LockerWallColorBase.desc }
 # HASH: 6bd55a7f948c9affd253943bb28743a24bb5de96593d72c4657661ab559ce3ed
-ent-LockerWallColorL2Radiation = Настенный шкафчик для радиационного костюма L2
+ent-LockerWallColorL2Radiation = настенный шкаф для радиационного костюма L2
     .desc = { ent-LockerWallColorBase.desc }
 # HASH: 9913dbca3b3d8490a194432c3c3f8d17ce7796536d2b195efd637eccda2f0c5b
-ent-LockerWallColorL3Biohazard = Настенный шкафчик для костюма биологической защиты L3
+ent-LockerWallColorL3Biohazard = настенный шкаф для костюма биологической защиты L3
     .desc = { ent-LockerWallColorBase.desc }
 # HASH: 543d20f4474159e25acb1db55ef489ae1c95c2d6306067b088c6d6dbb510d7b3
-ent-LockerWallColorL4Bomb = Настенный шкафчик для сапёрного костюма L4
+ent-LockerWallColorL4Bomb = настенный шкаф для сапёрного костюма L4
     .desc = { ent-LockerWallColorBase.desc }
 # HASH: 49c8abb1fbff109153a16c853be66e8de30cd70e8e6e6258ee72b9dd7982d0b8
 ent-LockerWallChemistry = настенный шкаф химика
@@ -39,8 +39,8 @@ ent-LockerWallChemistry = настенный шкаф химика
 ent-ClosetWallN2 = аварийный азотный настенный шкаф
     .desc = Это хранилище для аварийных принадлежностей и баллонов с азотом.
 # HASH: 950f0bb93f5fc968568523fa395d612daff710e32a03981e1c52a5e936e37942
-ent-ClosetWallO2N2 = emergency internals wall closet
-    .desc = It's a storage unit for emergency breathing equipment for all species.
+ent-ClosetWallO2N2 = настенный шкаф для аварийного оборудования
+    .desc = Это хранилище для аварийного дыхательного оборудования всех видов.
 # HASH: 4b4ff16d3fdc1c7aec25956f64f253b685ecdc8eb643e50ee44eb96770009076
-ent-NFPrisonerClosetWallOrange = стенной шкаф для заключенных
+ent-NFPrisonerClosetWallOrange = настенный шкаф для заключенных
     .desc = Это хранилище для одежды заключенных, отвечающей требованиям Космического Закона.

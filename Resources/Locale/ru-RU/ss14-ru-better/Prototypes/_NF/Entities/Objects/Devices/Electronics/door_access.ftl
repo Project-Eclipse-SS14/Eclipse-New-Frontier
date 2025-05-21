@@ -25,4 +25,4 @@ ent-DoorElectronicsPirate = { ent-DoorElectronics }
 # HASH: ab045c7938988759886331995e68943f71b30221335acdfb7541f318abd212d5
 ent-DoorElectronicsBrigmedic = { ent-DoorElectronics }
     .desc = { ent-DoorElectronics.desc }
-    .suffix = Brigmedic, Locked
+    .suffix = Бригмедик, Закрыт

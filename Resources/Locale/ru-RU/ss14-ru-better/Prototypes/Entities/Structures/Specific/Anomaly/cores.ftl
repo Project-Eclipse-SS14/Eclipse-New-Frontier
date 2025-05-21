@@ -15,7 +15,7 @@ ent-AnomalyCoreIce = { ent-BaseAnomalyCore }
     .suffix = Лёд
 # HASH: efb62bb19eaa6b3cac26a87d4cd9d2865a7af129d29bfb75b721d57bd0f02dd7
 ent-AnomalyCoreFlesh = { ent-BaseAnomalyCore }
-    .desc = The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
+    .desc = Ядро разрушенной аномалии плоти. Пульсирует тошнотворно, но может стать сытным блюдом, если его приготовить.
     .suffix = Плоть
 # HASH: 907ef86d0affcfaf4685b186f29c8c80863e5c8c837ff412a4cefc0004d5be33
 ent-AnomalyCoreRock = { ent-BaseAnomalyCore }
@@ -66,7 +66,7 @@ ent-AnomalyCoreIceInert = { ent-BaseAnomalyInertCore }
     .suffix = Лёд, Инертный
 # HASH: 75eee7574a07071e5ce43d3195c09d5df52d64263583ffae526a53b8440f0486
 ent-AnomalyCoreFleshInert = { ent-BaseAnomalyInertCore }
-    .desc = The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
+    .desc = Инертное ядро разрушенной аномалии плоти. Пульсирует тошнотворно, но может быть хорошей пищей в правильных руках?
     .suffix = Плоть, Инертный
 # HASH: 55f93a3ecdc870ec3b5135fd3eccea21853e492256ec309fb37c62a32999783a
 ent-AnomalyCoreRockInert = { ent-BaseAnomalyInertCore }

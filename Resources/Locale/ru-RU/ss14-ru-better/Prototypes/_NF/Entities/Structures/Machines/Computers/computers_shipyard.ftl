@@ -17,8 +17,8 @@ ent-ComputerShipyardSyndicate = консоль верфи синдиката
 ent-ComputerShipyardBlackMarket = консоль верфи чёрного рынка
     .desc = Тайные сделки ждут вас! Здесь можно найти редкие и уникальные шаттлы, которые невозможно приобрести легальным путем. Будьте готовы к неожиданным сюрпризам и помните: "НАЛОГ С ПРОДАЖ 30%" — лишь малая плата за свободу выбора.
 # HASH: 2be3793d55d78b24ad2ce1743112d3fb670043b847d656e0f3b65db6c7fe7f86
-ent-ComputerShipyardBlackMarketBroken = broken black market shipyard console
-    .desc = This console has seen better days. Can be repaired with a repair kit.
+ent-ComputerShipyardBlackMarketBroken = сломанная консоль верфи чёрного рынка
+    .desc = Эта консоль пережила лучшие времена. Ее можно отремонтировать с помощью ремкомплекта.
 # HASH: 7a0b8871069112a033ad367ba5381cf66cb9a5edebb725cb908f46e6a40dfded
 ent-ComputerShipyardExpedition = консоль экспедиционной верфи
     .desc = Для искателей приключений и исследователей неизведанных миров — эта консоль предлагает шаттлы, специально оборудованные для планетарных экспедиций. Подготовьтесь к открытиям, исследуйте новые горизонты и оставьте свой след в истории Фронтира!
