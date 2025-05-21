@@ -126,7 +126,7 @@
 
 - type: entity
   id: SyndicateKitchenElectricRange
-  parent: KitchenElectricRange
+  parent: [KitchenElectricRange, BaseC3SyndicateContraband] # Eclipse : add BaseC3SyndicateContraband
   name: donk co. electric range
   components:
   - type: Microwave
