@@ -13,20 +13,21 @@
   parent: BaseVessel
   name: LVHI Квадрон
   description: Небольшой буксир. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 31500 # ~27196$ on mapinit + 15% markup
+  price: 28500 # ~26700$ on mapinit + 1400 from ~5% markup
   category: Small
-  group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/harbormaster.yml
+  group: Sr
+  access: StationTrafficController
+  shuttlePath: /Maps/_NF/Shuttles/Sr/harbormaster.yml
   guidebookPage: ShipyardHarbormaster
   class:
   - Civilian
   engine:
-  - Plasma
+  - Bananium
 
 - type: gameMap
   id: Harbormaster
-  mapName: 'LVHI Квадрон'
-  mapPath: /Maps/_NF/Shuttles/harbormaster.yml
+  mapName: 'Квадрон'
+  mapPath: /Maps/_NF/Shuttles/Sr/harbormaster.yml
   minPlayers: 0
   stations:
     Harbormaster:
