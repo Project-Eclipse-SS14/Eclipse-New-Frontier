@@ -25,7 +25,6 @@
     - NFBoxMREEmpty
     - NFHappyHonkEmpty
     - NFHappyHonkMimeEmpty
-    - NFHappyHonkMcCargoEmpty
     - NFFoodBoxPizza
     - NFFoodBoxDonutEmpty
     - NFFoodBoxNuggetEmpty
@@ -53,6 +52,7 @@
     - CellRechargerCircuitboard
     - BorgChargerCircuitboard
     - WeaponCapacitorRechargerCircuitboard
+    - WallWeaponCapacitorRechargerCircuitBoard # Eclipse
     - AirTank
   # Service techfab
   ## Tools
@@ -127,6 +127,15 @@
     - WetFloorSign
     - DeskBell
     - BrbSign
+
+- type: latheRecipePack
+  id: NFMcServiceTechfabStatic
+  recipes:
+    - MysteryFigureBox
+    - SpaceBladeMc
+    - NFHappyHonkMcCargoEmpty
+    - ClothingHeadHatMcCrown
+    - CigPackMcCargo
 
 - type: latheRecipePack
   id: NFServiceTechfabDeprecated

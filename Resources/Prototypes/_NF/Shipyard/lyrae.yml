@@ -11,9 +11,9 @@
 - type: vessel
   id: Lyrae
   parent: BaseVessel
-  name: SBB Лира
+  name: BB Лира
   description: Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии.
-  price: 60000 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
+  price: 57500 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/lyrae.yml
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Lyrae
-  mapName: 'SBB Лира'
+  mapName: 'BB Лира'
   mapPath: /Maps/_NF/Shuttles/lyrae.yml
   minPlayers: 0
   stations:

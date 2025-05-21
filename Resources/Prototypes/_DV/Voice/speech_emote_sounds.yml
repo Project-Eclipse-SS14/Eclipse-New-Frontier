@@ -89,11 +89,11 @@
     variation: 0.125
   sounds:
     Scream:
-      collection: MaleScreams
+      collection: VulpkaninMaleScreams # Eclipse
     Laugh:
-      collection: MaleLaugh
+      collection: VulpkaninLaugh # Eclipse
     Sneeze:
-      collection: MaleSneezes
+      collection: VulpkaninSneezes # Eclipse
     Cough:
       collection: MaleCoughs
     Yawn:
@@ -105,7 +105,7 @@
     Sigh:
       collection: MaleSigh
     Crying:
-      collection: MaleCry
+      collection: VulpkaninCry # Eclipse
     Whistle:
       collection: Whistles
     Weh:
@@ -113,7 +113,7 @@
     Hew:
       collection: Hew
     Growl:
-      collection: VulpkaninGrowls
+      collection: VulpkaninMaleGrowl # Eclipse
     Snarl:
       collection: VulpkaninSnarls
     Bark:
@@ -121,9 +121,9 @@
     Whine:
       collection: VulpkaninWhines
     Howl:
-      collection: VulpkaninHowls
+      collection: VulpkaninMaleHowl # Eclipse
     Awoo:
-      collection: VulpkaninHowls
+      collection: VulpkaninMaleHowl # Eclipse
     Gasp:
       collection: MaleGasp
     DefaultDeathgasp:
@@ -139,11 +139,11 @@
     variation: 0.125
   sounds:
     Scream:
-      collection: FemaleScreams
+      collection: VulpkaninFemaleScreams # Eclipse
     Laugh:
-      collection: FemaleLaugh
+      collection: VulpkaninLaugh # Eclipse
     Sneeze:
-      collection: FemaleSneezes
+      collection: VulpkaninSneezes # Eclipse
     Cough:
       collection: FemaleCoughs
     Yawn:
@@ -155,7 +155,7 @@
     Sigh:
       collection: FemaleSigh
     Crying:
-      collection: FemaleCry
+      collection: VulpkaninCry # Eclipse
     Whistle:
       collection: Whistles
     Weh:
@@ -163,7 +163,7 @@
     Hew:
       collection: Hew
     Growl:
-      collection: VulpkaninGrowls
+      collection: VulpkaninFemaleGrowl # Eclipse
     Snarl:
       collection: VulpkaninSnarls
     Bark:
@@ -171,9 +171,9 @@
     Whine:
       collection: VulpkaninWhines
     Howl:
-      collection: VulpkaninHowls
+      collection: VulpkaninFemaleHowl # Eclipse
     Awoo:
-      collection: VulpkaninHowls
+      collection: VulpkaninFemaleHowl # Eclipse
     Gasp:
       collection: FemaleGasp
     DefaultDeathgasp:

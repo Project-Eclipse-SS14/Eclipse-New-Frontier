@@ -1,7 +1,6 @@
 using Content.Server._Eclipse.Chemistry.Components;
 using Content.Server.Botany.Components;
 using Content.Server.Jittering;
-using Content.Server.Labels;
 using Content.Server.Popups;
 using Content.Server.Power.EntitySystems;
 using Content.Server.Stack;
@@ -19,6 +18,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Jittering;
 using Content.Shared.Kitchen;
 using Content.Shared.Kitchen.Components;
+using Content.Shared.Labels.EntitySystems;
 using Content.Shared.Random;
 using Content.Shared.Stacks;
 using Content.Shared.Storage;
@@ -42,7 +42,6 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
     [UsedImplicitly]
     public sealed class ChemMasterBotanySystem : EntitySystem
     {
-        [Dependency] private readonly IGameTiming _timing = default!;
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly AudioSystem _audioSystem = default!;
         [Dependency] private readonly SharedAppearanceSystem _appearanceSystem = default!; // Frontier
@@ -57,7 +56,7 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
         [Dependency] private readonly JitteringSystem _jitter = default!;
         [Dependency] private readonly StackSystem _stackSystem = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-        [Dependency] private readonly SharedSolutionContainerSystem _solutionContainersSystem = default!;
+        [Dependency] private readonly IGameTiming _timing = default!;
 
         [ValidatePrototypeId<EntityPrototype>]
         private const string PillPrototypeId = "Pill";
@@ -509,7 +508,7 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
         {
             if (TryComp<ExtractableComponent>(uid, out var extractable)
                 && extractable.GrindableSolution is not null
-                && _solutionContainersSystem.TryGetSolution(uid, extractable.GrindableSolution, out _, out var solution))
+                && _solutionContainerSystem.TryGetSolution(uid, extractable.GrindableSolution, out _, out var solution))
             {
                 return solution;
             }

@@ -8550,23 +8550,6 @@ entities:
     - type: Transform
       pos: 13.5,29.5
       parent: 2
-- proto: WebNest
-  entities:
-  - uid: 1135
-    components:
-    - type: Transform
-      pos: 16.5,25.5
-      parent: 2
-  - uid: 1136
-    components:
-    - type: Transform
-      pos: 16.5,29.5
-      parent: 2
-  - uid: 1137
-    components:
-    - type: Transform
-      pos: 11.5,28.5
-      parent: 2
 - proto: WelderMini
   entities:
   - uid: 504

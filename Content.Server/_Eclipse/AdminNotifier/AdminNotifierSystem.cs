@@ -8,6 +8,7 @@ using Robust.Shared.Configuration;
 using Content.Server.GameTicking;
 using Robust.Server;
 using Content.Shared.Mind;
+using Robust.Server.Player;
 
 namespace Content.Server._Eclipse.AdminNotifier;
 
@@ -18,6 +19,7 @@ public sealed class AdminNotifierSystem : EntitySystem
     [Dependency] private readonly GameTicker _gameTicker = default!;
     [Dependency] private readonly IBaseServer _baseServer = default!;
     [Dependency] private readonly SharedMindSystem _mindSystem = default!;
+    [Dependency] private readonly IPlayerManager _player = default!;
 
     private string _webhookUrl = default!;
 
@@ -62,9 +64,9 @@ public sealed class AdminNotifierSystem : EntitySystem
             var targetMeta = MetaData(targetUid);
 
             var username = string.Empty;
-            if (_mindSystem.TryGetMind(uid, out _, out var mind) && mind.Session != null)
+            if (_mindSystem.TryGetMind(uid, out _, out var mind) && _player.TryGetSessionById(mind.UserId, out var session))
             {
-                username = mind.Session.Name;
+                username = session.Name;
             }
 
             var message = Loc.GetString(

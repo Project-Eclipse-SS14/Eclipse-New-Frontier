@@ -13,6 +13,9 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Timing;
 using Content.Shared.Tools.Components;
+using Content.Shared.DeviceLinking.Events;
+using Content.Shared.DeviceNetwork.Events;
+using Content.Shared.DeviceNetwork;
 
 namespace Content.Server.Power.EntitySystems;
 
@@ -42,6 +45,9 @@ public sealed class ApcSystem : EntitySystem
         SubscribeLocalEvent<ApcComponent, EmpPulseEvent>(OnEmpPulse);
         SubscribeLocalEvent<ApcComponent, EmpDisabledRemoved>(OnEmpDisabledRemoved); // Frontier: Upstream - #28984
         SubscribeLocalEvent<ApcComponent, ToolUseAttemptEvent>(OnToolUseAttempt); // Frontier
+
+        SubscribeLocalEvent<ApcComponent, SignalReceivedEvent>(OnSignalReceived); // Eclipse
+        SubscribeLocalEvent<ApcComponent, DeviceNetworkPacketEvent>(OnPacketReceived); // Eclipse
     }
 
     public override void Update(float deltaTime)
@@ -100,6 +106,18 @@ public sealed class ApcSystem : EntitySystem
             _popup.PopupCursor(Loc.GetString("apc-component-insufficient-access"),
                 args.Actor, PopupType.Medium);
         }
+    }
+
+    public void ApcSetBreaker(EntityUid uid, bool enabled, ApcComponent? apc = null, PowerNetworkBatteryComponent? battery = null)
+    {
+        if (!Resolve(uid, ref apc, ref battery))
+            return;
+
+        apc.MainBreakerEnabled = enabled;
+        battery.CanDischarge = apc.MainBreakerEnabled;
+
+        UpdateUIState(uid, apc);
+        _audio.PlayPvs(apc.OnReceiveMessageSound, uid, AudioParams.Default.WithVolume(-2f));
     }
 
     public void ApcToggleBreaker(EntityUid uid, ApcComponent? apc = null, PowerNetworkBatteryComponent? battery = null)
@@ -185,7 +203,7 @@ public sealed class ApcSystem : EntitySystem
         var charge = ContentHelpers.RoundToNearestLevels(battery.CurrentStorage / battery.Capacity, 1.0, 100 / ChargeAccuracy) / 100f * ChargeAccuracy;
 
         var state = new ApcBoundInterfaceState(apc.MainBreakerEnabled,
-            (int) MathF.Ceiling(battery.CurrentSupply), apc.LastExternalState,
+            (int)MathF.Ceiling(battery.CurrentSupply), apc.LastExternalState,
             charge);
 
         _ui.SetUiState((uid, ui), ApcUiKey.Key, state);
@@ -251,6 +269,24 @@ public sealed class ApcSystem : EntitySystem
                 return;
             }
         }
+    }
+
+    private void OnSignalReceived(EntityUid uid, ApcComponent component, ref SignalReceivedEvent args)
+    {
+        if (args.Port == component.OffPort)
+            ApcSetBreaker(uid, false, component);
+        else if (args.Port == component.OnPort)
+            ApcSetBreaker(uid, true, component);
+        else if (args.Port == component.TogglePort)
+            ApcToggleBreaker(uid, component);
+    }
+
+    private void OnPacketReceived(EntityUid uid, ApcComponent component, DeviceNetworkPacketEvent args)
+    {
+        if (!args.Data.TryGetValue(DeviceNetworkConstants.Command, out string? command) || command != DeviceNetworkConstants.CmdSetState) return;
+        if (!args.Data.TryGetValue(DeviceNetworkConstants.StateEnabled, out bool enabled)) return;
+
+        ApcSetBreaker(uid, enabled, component);
     }
 }
 

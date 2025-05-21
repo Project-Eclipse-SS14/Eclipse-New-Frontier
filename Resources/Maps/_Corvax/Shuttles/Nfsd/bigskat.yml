@@ -59356,13 +59356,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.707128,-22.425941
       parent: 1
-- proto: WebNest
-  entities:
-  - uid: 9195
-    components:
-    - type: Transform
-      pos: 22.5,3.5
-      parent: 1
 - proto: Welder
   entities:
   - uid: 2945

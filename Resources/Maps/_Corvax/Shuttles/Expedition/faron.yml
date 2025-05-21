@@ -6630,28 +6630,6 @@ entities:
       parent: 344
     - type: Physics
       canCollide: False
-- proto: WebNest
-  entities:
-  - uid: 882
-    components:
-    - type: Transform
-      pos: 2.5,12.5
-      parent: 3
-  - uid: 883
-    components:
-    - type: Transform
-      pos: 1.5,13.5
-      parent: 3
-  - uid: 884
-    components:
-    - type: Transform
-      pos: -0.5,12.5
-      parent: 3
-  - uid: 886
-    components:
-    - type: Transform
-      pos: -1.5,6.5
-      parent: 3
 - proto: WindoorSecure
   entities:
   - uid: 191

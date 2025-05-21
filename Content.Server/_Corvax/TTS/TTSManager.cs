@@ -146,7 +146,7 @@ public sealed class TTSManager
                 _cacheKeysSeq.Remove(firstKey);
             }
 
-            _sawmill.Debug($"Generated new audio for '{text}' speech by '{speaker}' speaker ({soundData.Length} bytes)");
+            _sawmill.Debug($"Generated new audio for '{text}' spoken by '{speaker}' speaker ({soundData.Length} bytes)");
             RequestTimings.WithLabels("Success").Observe((DateTime.UtcNow - reqTime).TotalSeconds);
 
             return soundData;
@@ -154,13 +154,13 @@ public sealed class TTSManager
         catch (TaskCanceledException)
         {
             RequestTimings.WithLabels("Timeout").Observe((DateTime.UtcNow - reqTime).TotalSeconds);
-            _sawmill.Error($"Timeout of request generation new audio for '{text}' speech by '{speaker}' speaker");
+            _sawmill.Error($"Request timeout while generating new audio for '{text}' spoken by '{speaker}' speaker");
             return null;
         }
         catch (Exception e)
         {
             RequestTimings.WithLabels("Error").Observe((DateTime.UtcNow - reqTime).TotalSeconds);
-            _sawmill.Error($"Failed of request generation new sound for '{text}' speech by '{speaker}' speaker\n{e}");
+            _sawmill.Error($"Failed to generate new audio for '{text}' spoken by '{speaker}' speaker\n{e}");
             return null;
         }
     }

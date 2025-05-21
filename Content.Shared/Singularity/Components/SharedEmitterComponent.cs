@@ -30,7 +30,7 @@ public sealed partial class EmitterComponent : Component
     /// The entity that is spawned when the emitter fires.
     /// </summary>
     [DataField("boltType", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
-    public string BoltType = "EmitterBolt";
+    public string BoltType = "NFEmitterBolt"; // Frontier: use NF prefix
 
     [DataField("selectableTypes", customTypeSerializer: typeof(PrototypeIdListSerializer<EntityPrototype>))]
     public List<string> SelectableTypes = new();
@@ -39,7 +39,7 @@ public sealed partial class EmitterComponent : Component
     /// The current amount of power being used.
     /// </summary>
     [DataField("powerUseActive")]
-    public int PowerUseActive = 1500; // Frontier 600<1500
+    public int PowerUseActive = 7500; // Frontier 600<1500 # Eclipse 1500 -> 7500
 
     /// <summary>
     /// The amount of shots that are fired in a single "burst"

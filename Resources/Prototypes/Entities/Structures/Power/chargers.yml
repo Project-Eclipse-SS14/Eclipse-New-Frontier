@@ -217,6 +217,8 @@
           - HitscanBatteryAmmoProvider
           - ProjectileBatteryAmmoProvider
           - Stunbaton
+  - type: Machine # Eclipse : Constructable wallmount machines
+    board: WallWeaponCapacitorRechargerCircuitBoard # Eclipse : Constructable wallmount machines
 
 - type: entity
   parent: BaseRecharger

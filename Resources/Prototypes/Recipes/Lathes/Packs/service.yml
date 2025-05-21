@@ -4,6 +4,7 @@
   id: ServiceStatic
   recipes:
   - Bucket
+  - Ashtray
   - DrinkMug
   - DrinkMugMetal
   - DrinkGlass
@@ -60,4 +61,5 @@
   - MassMediaCircuitboard
   - ReagentGrinderIndustrialMachineCircuitboard
   - JukeboxCircuitBoard
+  - WallmountJukeboxCircuitBoard # Eclipse
   - DawInstrumentMachineCircuitboard

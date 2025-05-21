@@ -1,0 +1,389 @@
+- type: listing
+  id: PersonalUplinkChameleon
+  name: uplink-chameleon-name
+  description: uplink-chameleon-desc
+  productEntity: ClothingBackpackChameleonFill
+  icon: { sprite: /Textures/Clothing/Uniforms/Jumpsuit/rainbow.rsi, state: icon }
+  cost:
+    PersonalUplinkCoin: 25
+  categories:
+    - PersonalUplinkWearables
+
+- type: listing
+  id: PersonalUplinkPlushieGhost
+  name: ghost soft toy
+  description: The start of your personal GHOST GANG!
+  productEntity: PlushieGhost
+  icon: { sprite: /Textures/Mobs/Ghosts/ghost_human.rsi, state: icon }
+  cost:
+    PersonalUplinkCoin: 3
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieGhostRevenant
+  name: revenant soft toy
+  description: So soft it almost makes you want to take a nap...
+  productEntity: PlushieGhostRevenant
+  icon: { sprite: /Textures/Mobs/Ghosts/revenant.rsi, state: icon }
+  cost:
+    PersonalUplinkCoin: 3
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieBee
+  name: bee plushie
+  description: A cute toy that resembles an even cuter programmer. You'd have to be a monster to grind this up.
+  productEntity: PlushieBee
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_h }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieHampter
+  name: hampter plushie
+  description: A cute stuffed toy that resembles a hamster. Its face looks squished.
+  productEntity: PlushieHampter
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_hampter }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieRGBee
+  name: RGBee plushie
+  description: A cute toy that resembles a bee plushie while you're on LSD.
+  productEntity: PlushieRGBee
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_hampter }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieNuke
+  name: nukie plushie
+  description: A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious.
+  productEntity: PlushieNuke
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_nuke }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieRouny
+  name: rouny plushie
+  description: Rouny.
+  productEntity: PlushieRouny
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_rouny }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieLamp
+  name: lamp plushie
+  description: A light emitting friend!
+  productEntity: PlushieLamp
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_lamp }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieArachind
+  name: arachnid plushie
+  description: An adorable stuffed toy that resembles an arachnid. It feels silky..
+  productEntity: PlushieArachind
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_arachnid }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieLizard
+  name: lizard plushie
+  description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  productEntity: PlushieLizard
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_lizard }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieRainbowLizard
+  name: rainbow lizard plushie
+  description: An adorable stuffed toy that resembles a lizardperson of every color. You just might trip while staring at it...
+  productEntity: PlushieRainbowLizard
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: rainbowlizardplush }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSpaceLizard
+  name: space lizard plushie
+  description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleges as you do this plush, with open arms!"
+  productEntity: PlushieSpaceLizard
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_spacelizard }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieLizardInversed
+  name: drazil plushie
+  description: An adorable stuffed toy that resembles a lizardperson from an inversed dimension. Hew!
+  productEntity: PlushieLizardInversed
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_lizard_inversed }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieDiona
+  name: diona plushie
+  description: An adorable stuffed toy that resembles a diona. Love water and cuddles. Do not wet!
+  productEntity: PlushieDiona
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_diona }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSharkBlue
+  name: blue shark soft toy
+  description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
+  productEntity: PlushieSharkBlue
+  icon: { sprite: /Textures/Objects/Fun/sharkplush.rsi, state: blue }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSharkPink
+  name: pink shark soft toy
+  description: Hehe shonk :)
+  productEntity: PlushieSharkPink
+  icon: { sprite: /Textures/Objects/Fun/sharkplush.rsi, state: pink }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSharkGrey
+  name: grey shark soft toy
+  description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
+  productEntity: PlushieSharkGrey
+  icon: { sprite: /Textures/Objects/Fun/sharkplush.rsi, state: grey }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieRatvar
+  name: ratvar plushie
+  description: A small stuffed doll of the elder god Ratvar.
+  productEntity: PlushieRatvar
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_ratvar }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieNar
+  name: nar'sie plushie
+  description: A small stuffed doll of the elder goddess Nar'Sie.
+  productEntity: PlushieNar
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: narplush }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieCarp
+  name: carp plushie
+  description: An adorable stuffed toy that resembles the monstrous space carp.
+  productEntity: PlushieCarp
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: carpplush }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieMagicarp
+  name: magicarp plushie
+  description: An adorable stuffed toy resembling the exceedingly rare magicarp.
+  productEntity: PlushieMagicarp
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: magicplush }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieRainbowCarp
+  name: rainbow carp plushie
+  description: An adorable stuffed toy resembling the legendary rainbow carp.
+  productEntity: PlushieRainbowCarp
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: rainbowcarpplush }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieHolocarp
+  name: holocarp plushie
+  description: A holographic stuffed toy resembling science's nemesis - the holocarp.
+  productEntity: PlushieHolocarp
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: holoplush }
+  cost:
+    PersonalUplinkCoin: 2
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSlime
+  name: slime plushie
+  description: An adorable stuffed toy that resembles a slime. It's basically a hacky sack.
+  productEntity: PlushieSlime
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_slime }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieSnake
+  name: snake plushie
+  description: An adorable stuffed toy that resembles a snake.
+  productEntity: PlushieSnake
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_snake }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkToyMouse
+  name: mouse toy
+  description: A colorful toy mouse!
+  productEntity: ToyMouse
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: toy_mouse }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkToyRubberDuck
+  name: rubber ducky
+  description: Not carried here by ocean currents.
+  productEntity: ToyRubberDuck
+  icon: { sprite: /Textures/Objects/Fun/ducky.rsi, state: icon }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieVox
+  name: vox plushie
+  description: SKREEEEEEEEEEEE!
+  productEntity: PlushieVox
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_vox }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieAtmosian
+  name: atmosian plushie
+  description: An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
+  productEntity: PlushieAtmosian
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_atmosian }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieXeno
+  name: xeno plushie
+  description: An adorable stuffed toy that resembles a scary xenomorf. You're lucky it's just a toy.
+  productEntity: PlushieXeno
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_xeno }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushiePenguin
+  name: penguin plushie
+  description: I use arch btw!
+  productEntity: PlushiePenguin
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_penguin }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieHuman
+  name: human plushie
+  description: This is a felt plush of a human. All craftsmanship is of the lowest quality. The human is naked. The human is crying. The human is screaming.
+  productEntity: PlushieHuman
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_human }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkPlushieMoth
+  name: moth plushie
+  description: Cute and fluffy moth plushie. Enjoy, bz!
+  productEntity: PlushieMoth
+  icon: { sprite: /Textures/Objects/Fun/toys.rsi, state: plushie_moth }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+- type: listing
+  id: PersonalUplinkWhoopieCushion
+  name: whoopie cushion
+  description: A practical joke device involving flatulence humour.
+  productEntity: WhoopieCushion
+  icon: { sprite: /Textures/Objects/Fun/whoopie.rsi, state: icon }
+  cost:
+    PersonalUplinkCoin: 1
+  categories:
+    - PersonalUplinkPointless
+
+
+
+
+
