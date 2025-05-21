@@ -9,7 +9,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 8
+        Heat: 10 # Eclipse 8 -> 10
 
 # Assault Rifles / Carbines
 - type: entity

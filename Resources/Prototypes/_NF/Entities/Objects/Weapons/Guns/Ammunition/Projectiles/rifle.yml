@@ -45,7 +45,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 12
+        Piercing: 14 # Eclipse 12 -> 14
 
 - type: entity
   id: NFBulletRifle20Overpressure
@@ -56,7 +56,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 13
+        Piercing: 8 # Eclipse 13 -> 8
+        Blunt: 7 # Eclipse
 
 - type: entity
   id: NFBulletRifle20Incendiary
@@ -68,7 +69,7 @@
     damage:
       types:
         Piercing: 6
-        Heat: 6
+        Heat: 8 # Eclipse 6 -> 8
 
 - type: entity
   id: NFBulletRifle20Uranium
@@ -116,7 +117,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 13
+        Piercing: 15 # Eclipse 13 -> 15
 
 - type: entity
   id: NFBulletRifle25Overpressure
@@ -127,7 +128,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 14
+        Piercing: 9 # Eclipse 14 -> 9
+        Blunt: 7 # Eclipse
 
 - type: entity
   id: NFBulletRifle25Incendiary
@@ -139,7 +141,7 @@
     damage:
       types:
         Piercing: 6.5
-        Heat: 6.5
+        Heat: 8.5 # Eclipse 6.5 -> 8.5
 
 - type: entity
   id: NFBulletRifle25Uranium
@@ -187,7 +189,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 14
+        Piercing: 17 # Eclipse 14 -> 17
 
 - type: entity
   id: NFBulletRifle30Overpressure
@@ -198,7 +200,8 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 16
+        Piercing: 10 # Eclipse 16 -> 10
+        Blunt: 8 # Eclipse
 
 - type: entity
   id: NFBulletRifle30Incendiary
@@ -210,7 +213,7 @@
     damage:
       types:
         Piercing: 7
-        Heat: 7
+        Heat: 10.5 # Eclipse 7 -> 10.5
 
 - type: entity
   id: NFBulletRifle30Uranium
@@ -258,7 +261,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 30
+        Piercing: 50 # Eclipse 30 -> 50
         Structural: 200
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:
