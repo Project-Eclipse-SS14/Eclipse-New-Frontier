@@ -1,0 +1,17 @@
+- files:
+  - female_fox_growl.ogg
+  - female_fox_scream1.ogg
+  - female_fox_scream2.ogg
+  - female_wolf_howl.ogg
+  - fox_cry1.ogg
+  - fox_cry2.ogg
+  - fox_laugh1.ogg
+  - fox_laugh2.ogg
+  - fox_sneeze.ogg
+  - male_fox_scream1.ogg
+  - male_fox_scream2.ogg
+  - male_wolf_growl.ogg
+  - male_wolf_howl.ogg
+  license: "CC-BY-3.0"
+  copyright: "https://github.com/dead-space-server/space-station-14-fobos"
+  source: "https://github.com/dead-space-server/space-station-14-fobos/commit/682d66bc94d2965cb6417ac42093c1158f04e6ab"
