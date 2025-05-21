@@ -28,7 +28,9 @@ fn main() {
                         || v.chars().all(|v| v.is_ascii_digit()));
             }
             if let Some(StringOrOtherId::String(v)) = prototype.suffix() {
-                is_translated = is_translated && v.contains(|c: char| !c.is_ascii());
+                is_translated = is_translated
+                    && (v.contains(|c: char| !c.is_ascii())
+                        || v.chars().all(|v| v.is_ascii_digit()));
             }
             if !is_translated {
                 log::info!("Prototype id {{ ent-{} }} is not translated!", prototype.id);

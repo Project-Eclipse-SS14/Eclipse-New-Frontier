@@ -1,5 +1,3 @@
-ent-CardBoxBlack = чёрная упаковка с колодой
-    .desc = Картонная коробка для хранения вещей.
 card-examined = Это { $target }.
 cards-verb-shuffle = Перемешать
 card-verb-shuffle-success = Карты перемешаны

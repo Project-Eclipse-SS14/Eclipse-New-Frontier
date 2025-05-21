@@ -56,7 +56,7 @@ patreon = "https://www.patreon.com/c/Apxumekm0p"
 
 [nf14]
 respawn.time = 300.0
-uncryo.maxtime = 86400.0
+uncryo.maxtime = 604800.0 # 10 days
 
 [eclipse]
 restart_when_server_empty = false

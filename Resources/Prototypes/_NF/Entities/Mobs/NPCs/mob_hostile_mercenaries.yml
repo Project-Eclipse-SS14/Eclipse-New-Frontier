@@ -62,6 +62,7 @@
   - type: MovementSpeedModifier
     baseWalkSpeed : 4.5
     baseSprintSpeed : 4.5
+  - type: GhostTakeoverAvailable
   - type: GhostRole # Eclipse
     allowMovement: true
     name: eclipse-ghost-role-information-mercenary

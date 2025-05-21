@@ -184,6 +184,7 @@
       40: 0.5
   - type: Stamina
     critThreshold: 600
+  - type: GhostTakeoverAvailable
   - type: GhostRole # Eclipse
     allowMovement: true
     name: eclipse-ghost-role-information-rogue-ai

@@ -1,2 +1,0 @@
-ent-ContrabandClothing = { "" }
-    .desc = { "" }
