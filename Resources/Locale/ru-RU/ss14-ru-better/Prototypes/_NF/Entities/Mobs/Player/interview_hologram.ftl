@@ -11,8 +11,8 @@ ent-InterviewHologramPilot = { ent-InterviewHologram }
 ent-InterviewHologramMercenary = { ent-InterviewHologram }
     .desc = { ent-InterviewHologram.desc }
 # HASH: ac72421e0a61c1bc2a51e2cbe7317f085dfa171308d2f84daf585b4df5053937
-ent-ActionInterviewToggleApproval = Toggle Approval
-    .desc = Toggles whether or not you approve to work with this crew.
+ent-ActionInterviewToggleApproval = Переключить одобрение
+    .desc = Переключает даёте ли вы одобрение кандидату работать в вашей команде.
 # HASH: 5f2bcb696ccca0810cfa661d291d80cd7f6e13ca8a0650bdd72b36dd6b464833
-ent-ActionInterviewCancel = Cancel Application
-    .desc = Cancel your application and return to the lobby.
+ent-ActionInterviewCancel = Отменить кандидатуру
+    .desc = Отменить вашу кандидатуру и вернуться в лобби.

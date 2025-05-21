@@ -21,5 +21,5 @@ ent-VehicleWheelchairFolded = { ent-VehicleWheelchair }
     .desc = { ent-VehicleWheelchair.desc }
     .suffix = Сложенный
 # HASH: ef3b63a304359614ddea620ce4c97d7e2b27810a1611710b01c68b33d16ab6f5
-ent-VehicleHoverchair = hoverchair
-    .desc = A luxury hoverchair, kick back and relax.
+ent-VehicleHoverchair = гравикресло
+    .desc = Роскошное гравикресло, откиньтесь и отдыхайте.

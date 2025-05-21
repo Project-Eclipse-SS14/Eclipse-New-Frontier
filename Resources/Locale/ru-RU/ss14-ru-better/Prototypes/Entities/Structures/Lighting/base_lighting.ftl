@@ -78,11 +78,11 @@ ent-AlwaysPoweredlightBlue = { ent-AlwaysPoweredWallLight }
 # HASH: 4815dc0f63cb852f46ba45ef753a43b0005541b19fea1717f8811c1a3003fec0
 ent-PoweredlightYellow = { ent-Poweredlight }
     .desc = { ent-Poweredlight.desc }
-    .suffix = Yellow
+    .suffix = Жёлтый
 # HASH: 7b602d1a6d897159d71301e135269258edcee7528f889c8308a43b7622ea45e9
 ent-AlwaysPoweredlightYellow = { ent-AlwaysPoweredWallLight }
     .desc = { ent-AlwaysPoweredWallLight.desc }
-    .suffix = Always Powered, Yellow
+    .suffix = Всегда запитанный, Жёлтый
 # HASH: 1b3320f2363ae7036f70b0f7534fa600a04537aa4d54ed0424ba3dd53baa787b
 ent-PoweredlightPink = { ent-Poweredlight }
     .desc = { ent-Poweredlight.desc }
@@ -106,7 +106,7 @@ ent-PoweredlightBlack = { ent-Poweredlight }
 # HASH: 3c8bad523ce894399b7c93cf919816f027c0b24ddd20f30efbf5679e0b277af8
 ent-AlwaysPoweredlightBlack = { ent-AlwaysPoweredWallLight }
     .desc = { ent-AlwaysPoweredWallLight.desc }
-    .suffix = Always Powered, Black
+    .suffix = Всегда запитанный, Чёрный
 # HASH: 7f8359fd7b9b2927ceeb36e9dda6d5ad354d39283de5f5542517e9929db43722
 ent-PoweredlightRed = { ent-Poweredlight }
     .desc = { ent-Poweredlight.desc }

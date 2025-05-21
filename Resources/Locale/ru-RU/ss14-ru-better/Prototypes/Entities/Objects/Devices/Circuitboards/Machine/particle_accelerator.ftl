@@ -1,12 +1,12 @@
 # HASH: 22a1c2d1ba0e94d8da9e55945b0f15e1993a58cf1e2d1b165aa26cba1db764e7
 ent-MachineParticleAcceleratorEndCapCircuitboard = плата торцевой заглушки УЧ
-    .desc = A machine board for a particle accelerator end cap.
+    .desc = Машиння плата для торцевой заглушки УЧ.
 # HASH: ec3e08b50345a17034359ae032a687807e36e4da4ab6788a07aeb540c9fefd79
 ent-MachineParticleAcceleratorFuelChamberCircuitboard = плата топливной камеры УЧ
-    .desc = A machine board for a particle accelerator fuel chamber.
+    .desc = Машинная плата для топливной камеры УЧ.
 # HASH: 1d4a43a410d96682a7e063cf20e77df44a6cd318c332a582a98bb196cca99168
 ent-MachineParticleAcceleratorPowerBoxCircuitboard = плата блока питания УЧ
-    .desc = A machine board for a particle accelerator power box.
+    .desc = Машинная плата для блока питания УЧ.
 # HASH: 68e593b564d9ca72d0a8709a19c0fe0ef9ae58529d5d87f22290f93f5be6dcf3
 ent-MachineParticleAcceleratorEmitterStarboardCircuitboard = плата левого излучателя УЧ
     .desc = Машинная плата для левого излучателя ускорителя частиц.

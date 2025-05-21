@@ -3,7 +3,7 @@ ent-ShelfWallFreezerWhite = настенный холодильник
     .desc = Удобное место для хранения скоропортящихся продуктов.
     .suffix = Фронтир, Белый
 # HASH: 8d9aaf887a1a6924ed6cdb5254304fb737a190a3aad1788d08c3f7fbf8eeed51
-ent-ShelfWallFreezerDark = wall freezer
+ent-ShelfWallFreezerDark = настенный холодильник
     .desc = { ent-ShelfWallFreezerWhite.desc }
     .suffix = Фронтир, Тёмный
 # HASH: 0e6c118b9c5435d40acc81a610691285f5781fa0571bc9ec3345c879c6ae1479

@@ -3,5 +3,5 @@ ent-ClothingHeadHatChameleon = берет
     .desc = Берет, любимый головной убор творцов.
     .suffix = Хамелеон
 # HASH: c34f928858b7152b14033ada0e3cd36511b37be7893eef28931fd9dad5c5d139
-ent-ClothingHeadHatDetGadget = go go hat
-    .desc = A novel hat with a built in toolkit. Automatically stores and retrieves items at the say of a phrase!
+ent-ClothingHeadHatDetGadget = go go шляпа
+    .desc = Новароченная шляпка со встроенным тулбоксом. Автоматически извлекает предметы одной фразой!

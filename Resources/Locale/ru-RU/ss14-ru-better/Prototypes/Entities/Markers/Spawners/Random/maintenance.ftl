@@ -15,6 +15,6 @@ ent-MaintenancePlantSpawner = спавнер добыча тех туннели
     .desc = { ent-MarkerBase.desc }
     .suffix = Растения
 # HASH: 50c328177d76ed0135ac68c4cbda693f94cbb499a971e85175ca92937655fc6f
-ent-MaintenanceInsulsSpawner = Maint Loot Spawner
+ent-MaintenanceInsulsSpawner = спавнер добыча тех туннели
     .desc = { ent-MarkerBase.desc }
-    .suffix = Insuls, safe
+    .suffix = Изоли, безопасно

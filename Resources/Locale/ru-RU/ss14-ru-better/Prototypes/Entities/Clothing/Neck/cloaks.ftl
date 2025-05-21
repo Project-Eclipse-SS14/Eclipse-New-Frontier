@@ -59,8 +59,8 @@ ent-ClothingNeckCloakAce = плащ пилота
 ent-ClothingNeckCloakAro = плащ вервольфа
     .desc = Этот плащ позволяет окружающим понять, что вы - одинокий волк.
 # HASH: ac83f83142d680555cfcda643417ae6aaf481f468bb6facf92dab55427a21dc1
-ent-ClothingNeckCloakAroace = aeropilot's cloak
-    .desc = Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
+ent-ClothingNeckCloakAroace = плащ аэропилота
+    .desc = Плащ, которым награждаются лучшие пилоты Nanotrasen на планетах с пригодной для жизни атмосферой.
 # HASH: 1723e9944bd09d95e460b777a550e07425b374e93566081f540dc5c0c07d721e
 ent-ClothingNeckCloakBi = ядовитый плащ
     .desc = Пурпурный цвет - явный признак того, что вы ядовиты.

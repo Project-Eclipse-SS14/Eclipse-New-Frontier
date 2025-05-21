@@ -6,10 +6,10 @@ ent-SalvageTechFabCircuitboardNF = утилизационный техфаб (м
     .desc = Печатная плата утилизационного техфаба.
 # HASH: fd327c7f50f660dcd98e52c2ba995e2a6a84796d157253f3197d0e8e73873a1b
 ent-MercenaryTechFabCircuitboardNF = техфаб наёмника (машинная плата)
-    .desc = A machine printed circuit board for a mercenary techfab.
+    .desc = Печатная плата техфаба наёмника.
 # HASH: 987c98eb961808bb9e91ad9c82e39c92eacc968d778dfb9153720f8fbdffa057
 ent-MercenaryTechFabCircuitboardHackedNF = взломанный техфаб наёмника (машинная плата)
-    .desc = A spray painted circuit board for a mercenary techfab with some doodads attached to it. Don't worry 'bout it, choomba.
+    .desc = Разукрашенная печатная плата техфаба наёмника с какими-то гаджетами прикреплёнными к ней. Всё в порядке, чумба.
 # HASH: 6b21c0134e2baf41fed0fdccf72499b97942b7002761e48989e3ba839f7ec383
 ent-NFScrapProcessorCircuitboard = переработчик лома (машинная плата)
     .desc = Печатная плата переработчика лома.
@@ -47,8 +47,8 @@ ent-SmallGyroscopeNfsdMachineCircuitboard = малый гироскоп ДСБФ
 ent-SmallGyroscopeMachineCircuitboard = малый гироскоп (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
 # HASH: 895d2d780c1a9fc01cdab47de2fa7cfdd543d7f7ed2c82b30d8a5fdac470f4fc
-ent-MobileEmpGeneratorMachineCircuitboard = mobile EMP generator machine board
-    .desc = A machine printed circuit board for a mobile EMP generator.
+ent-MobileEmpGeneratorMachineCircuitboard = портативный генератор ЭМИ (машинная плата)
+    .desc = Машинная печатная плата для портативного генератор ЭМИ.
 # HASH: b3253e044d28d16548ab72aa11836bc2a8ca05dffb8b5c81e5a5980f1efb6880
 ent-PortableGeneratorDKMachineCircuitboard = машинная плата портативного генератора типа Д-К
     .desc = Машинная печатная плата для портативного генератора типа Д-К.
@@ -72,7 +72,7 @@ ent-MedicalAssemblerMachineCircuitboard = Мед-О-Мат (машинная п�
     .desc = Печатная плата машинного типа для Мед-О-Мат`а.
 # HASH: c0f21022320444a0a3a99cc9e88519e91974b5008ebdad9da74c121aae85b7b4
 ent-MaterialReclaimerMachineCircuitboard = переработчик материалов (машинная плата)
-    .desc = A machine printed circuit board for a material reclaimer.
+    .desc =Печатная плата машинного типа для переработчика материалов.
 # HASH: a3eb338b2b3948a60160af715168d59cb3eedae0e48b1a0f33a24870bb36494a
 ent-CondimentDispenserCircuitboard = раздатчик соусов (машинная плата)
     .desc = Печатная плата машинного типа для раздатчика соусов.

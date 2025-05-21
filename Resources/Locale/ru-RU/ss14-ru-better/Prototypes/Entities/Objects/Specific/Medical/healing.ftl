@@ -48,7 +48,7 @@ ent-Bloodpack = пакет крови
 # HASH: f490924338eb25a604f569a1a99c038bf67d03a2e7f70397b31c61a48f630078
 ent-Bloodpack1 = { ent-Bloodpack }
     .desc = { ent-Bloodpack.desc }
-    .suffix = Single
+    .suffix = Один
 # HASH: e8ebb11b7328c0d513e1a59c01b088662d799351dcbe8e8f5efd4d5378a528cf
 ent-Bloodpack10Lingering = { ent-Bloodpack }
     .desc = { ent-Bloodpack.desc }

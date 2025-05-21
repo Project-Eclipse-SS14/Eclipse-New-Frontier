@@ -34,13 +34,13 @@ ent-BaseStationAdminBankATM = консоль станционного админ
     .desc = Используется для снятия или пополнения средств со счетов станции.
 # HASH: 00484094d7bf241bef06ad920555980ade51a6a070bbd25f80cea5ea9edc2338
 ent-StationAdminBankATMFrontier = { ent-BaseStationAdminBankATM }
-    .desc = Used to transfer funds to and from Frontier Outpost's bank account.
+    .desc = Используется для снятия или пополнения средств со счетов Аванпоста Фронтира.
     .suffix = Фронтир
 # HASH: 196a38ca41a236237b6a0bc6ea8062f60d16479b326391a0215c5818c03c86a2
 ent-StationAdminBankATMNfsd = { ent-BaseStationAdminBankATM }
-    .desc = Used to transfer funds to and from NFSD's bank account.
+    .desc = Используется для снятия или пополнения средств со счетов ДСБФ.
     .suffix = ДСБФ
 # HASH: d79cc14a9a22be11ef44f212ebffe47f60fbe718366abf56b30a6862cb5eade4
 ent-StationAdminBankATMMedical = { ent-BaseStationAdminBankATM }
-    .desc = Used to transfer funds to and from the medical bank account.
+    .desc = Используется для снятия или пополнения средств со счетов Медицинской Диспетчерской.
     .suffix = Медицинский

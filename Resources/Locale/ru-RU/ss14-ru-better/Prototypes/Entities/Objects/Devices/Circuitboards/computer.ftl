@@ -48,7 +48,7 @@ ent-ComputerTelevisionCircuitboard = телевизор (консольная п
     .desc = Консольная плата для телевизора.
 # HASH: e1b02543121cc722400714b31835eb759dc721a04f31307db97528766357165e
 ent-ResearchComputerCircuitboard = исследовательская консоль (консольная плата)
-    .desc = A computer printed circuit board for a R&D console.
+    .desc = Консольная плата для исследовательской консоли НИО.
 # HASH: 53fd5e0245970ea3ee3a3f7c6905dfabf6bd7915493fb0a37f8f6f9bbb4875d7
 ent-AnalysisComputerCircuitboard = аналитическая консоль (консольная плата)
     .desc = Консольная плата для аналитической консоли.
@@ -57,16 +57,16 @@ ent-TechDiskComputerCircuitboard = терминал технологически
     .desc = Консольная плата для терминала технологических дисков.
 # HASH: 0531d527eb07d35082f9cf4ed1f78dd05e48bf1d0500b19fdf55c68fb02e0506
 ent-CrewMonitoringComputerCircuitboard = консоль мониторинга экипажа (консольная плата)
-    .desc = A computer printed circuit board for a crew monitoring console.
+    .desc = Консольная плата для консоли мониторинга экипажа.
 # HASH: 58263d178cb13ab048f68766760275878d6cfa7ba8916a912105391699157ec6
 ent-IDComputerCircuitboard = консоль ID карт (консольная плата)
-    .desc = A computer printed circuit board for an ID card console.
+    .desc = Консольная плата для консоли консоли ID карт.
 # HASH: e732623d463de61d7113405c377067992b54ef3dc788d100cbff4b6e2a124fea
 ent-BodyScannerComputerCircuitboard = сканер тела (консольная плата)
-    .desc = A computer printed circuit board for a body scanner console.
+    .desc = Консольная плата для консоли сканера тела.
 # HASH: b764e27afa379269793f489b4d21641333d100b2c89412d8f6ce00dc8a4408b2
 ent-CommsComputerCircuitboard = консоль связи (консольная плата)
-    .desc = A computer printed circuit board for a communications console.
+    .desc = Консольная плата для консоли связи.
 # HASH: 962f8d6e783542d12e0a1d43695849ae5702d9728ee581855d3b03dd6eabfa70
 ent-SyndicateCommsComputerCircuitboard = консоль связи Синдиката (консольная плата)
     .desc = Консольная плата для консоли связи Синдиката.
@@ -84,16 +84,16 @@ ent-AdvancedRadarConsoleCircuitboard = консоль продвинутого �
     .desc = { ent-BaseComputerCircuitboard.desc }
 # HASH: 455620c62825e691a7b4e0499735a6987b08f6830aef1de199bdd842b489ece7
 ent-SolarControlComputerCircuitboard = консоль контроля солнечных батарей (консольная плата)
-    .desc = A computer printed circuit board for a solar control console.
+    .desc = Консольная плата для консоли контроля солнечных батарей.
 # HASH: edd78fc429df24f6138d918ef4a4d9342b4aee3fdac018908a3fce56b9a5578f
 ent-SpaceVillainArcadeComputerCircuitboard = аркада Space Villain (консольная плата)
-    .desc = A computer printed circuit board for a space villain arcade cabinet.
+    .desc = Консольная плата для аркады Space Villain.
 # HASH: 855e9167950972a3e347600f83a9be88cab90661ea1a14c5f1da8fa3d568ce0e
 ent-BlockGameArcadeComputerCircuitboard = аркада Block Game (консольная плата)
-    .desc = A computer printed circuit board for a block game arcade cabinet.
+    .desc = Консольная плата для аркады Block Game.
 # HASH: 53116458322be5c3942569cbb7a814ca3609d29f9e03bd0ac34eaa0bfad535c0
 ent-ParticleAcceleratorComputerCircuitboard = консоль управления УЧ (консольная плата)
-    .desc = A computer printed circuit board for a particle accelerator control box.
+    .desc = Консольная плата для консоли управления УЧ.
 # HASH: fc2b036c78bf92d26566e9bf61a7904618e4ed4ceffd687fc911d3ff1212ef32
 ent-ShuttleConsoleCircuitboard = консоль управления шаттлом (консольная плата)
     .desc = Консольная плата для консоли управления шаттлом.

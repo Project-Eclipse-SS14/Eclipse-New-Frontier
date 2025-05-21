@@ -8,55 +8,55 @@ ent-ClothingUniformJumpsuitMilitaryColorBlack = чёрный комбинезо�
     .suffix = Военный
 # HASH: 6bbba039b8d3bd04f693f418270ea75aac5bc284d155f5f4d1c1bb3f4685c3c5
 ent-ClothingUniformJumpsuitMilitaryColorBlue = синий комбинезон
-    .desc = A generic blue jumpsuit with no rank markings.
+    .desc = Обычный синий комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 15512f8ec25008838d74c9f1847e6bd5a79bea1df8b1e7c52c68883e320dbf43
 ent-ClothingUniformJumpsuitMilitaryColorDarkBlue = тёмно-синий комбинезон
-    .desc = A generic dark blue jumpsuit with no rank markings.
+    .desc = Обычный тёмно-синий комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 3845532bdd93cd4df102a293d43e1999a06ba780bfb49cee11faa5373cefc9da
 ent-ClothingUniformJumpsuitMilitaryColorTeal = бирюзовый комбинезон
-    .desc = A generic teal jumpsuit with no rank markings.
+    .desc = Обычный бирюзовый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 082d1f30de32da361a2aca9c3077549be85158c39961656fc608a2c55c77043a
 ent-ClothingUniformJumpsuitMilitaryColorGreen = зелёный комбинезон
-    .desc = A generic green jumpsuit with no rank markings.
+    .desc = Обычный зелёный комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 4070c239c769f5ae29c9b018bed10b1da66dd534a5a65ea9623d428d4f49769b
 ent-ClothingUniformJumpsuitMilitaryColorDarkGreen = тёмно-зелёный комбинезон
-    .desc = A generic dark green jumpsuit with no rank markings.
+    .desc = Обычный тёмно-зелёный комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 331a8eb47a712413d170c805b86efe8a14e044bfa2d9a19e79d77d9ecb955e86
 ent-ClothingUniformJumpsuitMilitaryColorOrange = оранжевый комбинезон
-    .desc = A generic orange jumpsuit with no rank markings.
+    .desc = Обычный оранжевый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 41e8a56fd8dd30314f1979bb87d2ae2ffdaa89528a66d6c1e2d54a908a50a3bb
 ent-ClothingUniformJumpsuitMilitaryColorPink = розовый комбинезон
-    .desc = A generic pink jumpsuit with no rank markings.
+    .desc = Обычный розовый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 1d7fa60bdd976f7d6fc31f17520cc87029b9d92cf151dfe85757ef68c3afeb08
 ent-ClothingUniformJumpsuitMilitaryColorRed = красный комбинезон
-    .desc = A generic red jumpsuit with no rank markings.
+    .desc = Обычный красный комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: a0fffe545e7ceaacb2dc7738ce2e6a364e50c7b8cca95ace0a5f96d9f3917e9d
 ent-ClothingUniformJumpsuitMilitaryColorYellow = жёлтый комбинезон
-    .desc = A generic yellow jumpsuit with no rank markings.
+    .desc = Обычный жёлтый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: af2686c1e32c1502d5ec2432f020bf1b62236f4cf4fca46c615e31afb7ab3692
 ent-ClothingUniformJumpsuitMilitaryColorPurple = фиолетовый комбинезон
-    .desc = A generic purple jumpsuit with no rank markings.
+    .desc = Обычный фиолетовый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: dc24094ecdd4984a2a8bb7e3834b9cf9d24bf67299482185eededddef07d9df0
 ent-ClothingUniformJumpsuitMilitaryColorLightBrown = светло-коричневый комбинезон
-    .desc = A generic light brown jumpsuit with no rank markings.
+    .desc = Обычный светло-коричневый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: a2e485f6bf2814fb552c31eddd9950852e73ad8ce63495fa87143b023d0ecb8d
 ent-ClothingUniformJumpsuitMilitaryColorBrown = коричневый комбинезон
-    .desc = A generic brown jumpsuit with no rank markings.
+    .desc = Обычный коричневый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 8b3c300fd1b86227a56611cc063a040acd93264053e77697962704d7affa07bc
 ent-ClothingUniformJumpsuitMilitaryColorMaroon = бордовый комбинезон
-    .desc = A generic maroon jumpsuit with no rank markings.
+    .desc = Обычный бордовый комбинезон без знаков ранга.
     .suffix = Военный
 # HASH: 163f8f8dfd019b842786eea66f9e32f7e0bb7c1f22d587abf2b33ace1e72e013
 ent-ClothingUniformJumpsuitMilitaryContractor = комбинезон авантюриста
@@ -64,7 +64,7 @@ ent-ClothingUniformJumpsuitMilitaryContractor = комбинезон авант�
     .suffix = Военный
 # HASH: 98160b126170e63a8f4e096ebc33038d400a6d77547967470c9e6efe9b8189a6
 ent-ClothingUniformJumpsuitMilitaryContractorTac = комбинезон авантюриста
-    .desc = A sturdy jumpsuit, commonly issued to NT contractors.
+    .desc = Прочный комбинезон, обычно выдаваемый подрядчикам NT.
     .suffix = Военный
 # HASH: 36b13731331d5d234f17cf7473bcdb61eb6b1fd2af94dad1c7c5cf75a728dd63
 ent-ClothingUniformJumpsuitMilitaryCaptain = { ent-ClothingUniformJumpsuitCaptain }
@@ -173,4 +173,4 @@ ent-ClothingUniformJumpsuitMilitaryTurtleneckBlueMercenaryCaptain = синий �
 # HASH: 09b14b04129b762061270e28953433e485e77b62cc1a9036f65f9965bbefbeed
 ent-ClothingUniformJumpsuitMilitaryArcadiaTac = тактический комбинезон от Аркадиа
     .desc = Тактический комбинезон производства Аркадиа Индастриз.
-    .suffix = Military, Tac
+    .suffix = Военный, Тактический

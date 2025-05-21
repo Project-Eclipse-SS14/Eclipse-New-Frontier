@@ -1,6 +1,6 @@
 # HASH: 3e5fdd59f82955d1cc3362eae74074872089ae1be1225b0a95cfd5fa2ea39cb0
 ent-BenchBaseMiddle = скамейка
-    .desc = Multiple seats spanning a single object. Truly a marvel of science.
+    .desc = Несколько мест на одном объекте. Поистине чудо науки.
     .suffix = Середина
 # HASH: fd9251c35c71b0880baa60c3aeb158149dd05d8d458ae98c8a96d6fa81225160
 ent-BenchParkMiddle = парковая скамейка

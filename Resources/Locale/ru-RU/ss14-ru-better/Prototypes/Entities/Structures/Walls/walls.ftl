@@ -17,9 +17,9 @@ ent-WallMeat = мясная стена
 ent-WallCult = стена культа
     .desc = { ent-BaseWall.desc }
 # HASH: 022cc75794bdfe420a6ce3861a55bd136be83bb8040a4b2279e1a332479c4e8f
-ent-WallDebug = debug wall
+ent-WallDebug = дебаг стена
     .desc = { ent-BaseWall.desc }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: d68eee05a202c60818dac36fc21191c1658af6f7197cdd794ca3162f55db0474
 ent-WallDiamond = алмазная стена
     .desc = { ent-BaseWall.desc }
@@ -37,11 +37,11 @@ ent-WallPlastic = пластиковая стена
     .desc = { ent-BaseWall.desc }
 # HASH: 9741808de3cc894d844d10cd50e16a6b76f1fd94c1ae17005c01358c29086178
 ent-WallPlastitaniumIndestructible = пластитановая стена
-    .desc = Skub knows this wall is too hard to destroy.
+    .desc = Скуб знает, что эту стену слишком трудно разрушить.
     .suffix = Неразрушимый
 # HASH: 565f3ed1835b6dbee158891731dd2be393c421c1a576751c8a1e6cb3f9353ce3
 ent-WallPlastitanium = пластитановая стена
-    .desc = Keeps the air in and the greytide out.
+    .desc = Удерживает воздух внутри, а ассистентов снаружи.
 # HASH: 3eb6cf7e4c138bdf849ff0358fa8fce09974a52d33a5359c9ba1971757ce2930
 ent-WallReinforced = укреплённая стена
     .desc = { ent-BaseWall.desc }
@@ -78,7 +78,7 @@ ent-WallUranium = урановая стена
     .desc = { ent-BaseWall.desc }
 # HASH: c95ebaa1170813d27f709cd2e11322795ab373808671e8ddb16570534ef27347
 ent-WallWood = деревянная стена
-    .desc = The traditional greytide defense.
+    .desc = Традиционная защита от грейтайда.
 # HASH: 2950737e82df00909ced09b7b77d0001bde1909e653c41592fa09825fb286ef6
 ent-WallWeb = паутинная стена
     .desc = Удерживает паучат внутри, а ассистентов снаружи.
@@ -111,7 +111,7 @@ ent-WallBasaltCobblebrick = базальтовая стена
     .desc = { ent-WallCobblebrick.desc }
 # HASH: abea1060d71501642ffa32ff0b0d3d4dafc695dfd478ffc04dafd479695f82a7
 ent-WallSnowCobblebrick = снежковая стена
-    .desc = A cold, not-so-impenetrable wall.
+    .desc = Холодная, не-такая-непроходимая стена.
 # HASH: 0d67d1c0c2548e05d4b0adaa0eb489b543154249fd0cd4b65d2d14e8a65c9ee1
 ent-WallAsteroidCobblebrick = астероидная булыжниковая стена
     .desc = { ent-WallCobblebrick.desc }

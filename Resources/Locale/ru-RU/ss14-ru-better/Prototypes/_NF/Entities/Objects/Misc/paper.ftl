@@ -3,10 +3,10 @@ ent-PaperPirateBountyManifest = напоминание о пиратской н�
     .desc = Маленький свиток, напоминающий вам о добыче, которую вы согласились украсть. Откуда на нём пятна?
 # HASH: 512ea10135fb396a7f0b4b251b4663836c39bc1cc13b441d69ed7747edf8df88
 ent-BoxFolderClipboardPal = планшет ПЮД
-    .desc = The tool of choice for the master of bureaucracy.
+    .desc = Оружие тех, кто действует на передовой бюрократии.
 # HASH: 3014292e52a70901e822551fc8febe5580b6b31aaca83cb9d63feddf85f2ef51
-ent-BoxFolderPalGreen = PAL folder
-    .desc = A folder to contain important NFSD forms.
+ent-BoxFolderPalGreen = папка ПЮД
+    .desc = Папка, содержащая важные формы ДСБФ.
     .suffix = Зелённая
 # HASH: 5189d7ee07e6db7288099e81e42f1d72ff85c4e2002515dd9cf02da2defca021
 ent-BoxFolderPalBrown = папка ПЮД

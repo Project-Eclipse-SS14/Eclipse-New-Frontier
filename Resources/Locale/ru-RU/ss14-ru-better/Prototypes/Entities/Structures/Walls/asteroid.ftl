@@ -7,7 +7,7 @@ ent-AsteroidRockCoal = { ent-NFAsteroidRockOre }
     .suffix = Уголь
 # HASH: 3b5691171cccd512be812b4bc2dd4c51c21a749a7b19f18f5144a5e34ab1bc62
 ent-AsteroidRockCoalCrab = { ent-AsteroidRock }
-    .desc = An ore vein rich with coal.
+    .desc = Рудная жила, богатая углём.
     .suffix = Угольный Краб
 # HASH: 228430a601c50358ed8fe46ce07fd610c81108f65bd72befd66ec23cb3c99471
 ent-AsteroidRockGold = { ent-NFAsteroidRockOre }
@@ -15,7 +15,7 @@ ent-AsteroidRockGold = { ent-NFAsteroidRockOre }
     .suffix = Золото
 # HASH: 97062e9eabf57d8571071a5e118bd6e41b97c23a96df330e105283ab05491738
 ent-AsteroidRockGoldCrab = { ent-AsteroidRock }
-    .desc = An ore vein rich with gold.
+    .desc = Рудная жила, богатая золота.
     .suffix = Золотой Краб
 # HASH: e9c51fa4d56639408f249f94a9d100c2017f1afea978f91d64824c7f0de0d54b
 ent-AsteroidRockDiamond = { ent-NFAsteroidRockOre }

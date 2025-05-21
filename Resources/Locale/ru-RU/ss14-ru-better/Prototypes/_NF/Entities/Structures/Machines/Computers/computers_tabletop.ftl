@@ -106,19 +106,19 @@ ent-ComputerTabletopPalletConsoleNFVeryLowMarket = { ent-ComputerPalletConsoleNF
     .desc = { ent-ComputerPalletConsoleNFVeryLowMarket.desc }
     .suffix = Очень низкий, Настольный
 # HASH: 43c4c1b045ba04ea499f103431df96676cc21536ce30630d2013eae0cf81b61a
-ent-BaseComputerTabletopStationAdminBankATM = station administration console
+ent-BaseComputerTabletopStationAdminBankATM = консоль станционного администрирования
     .desc = { ent-BaseStationAdminBankATM.desc }
 # HASH: 7149439e4e6176d05ef75d55a5f72b0e334667a1b9ae30d0589444c8da53ac64
 ent-ComputerTabletopStationAdminBankATMFrontier = { ent-BaseComputerTabletopStationAdminBankATM }
-    .desc = Used to transfer funds from Frontier Outpost's bank account
+    .desc = Используется для снятия или пополнения средств со счетов Аванпоста Фронтира.
     .suffix = Фронтир, Настольный
 # HASH: 627e862ab38a08bb10b5bdda412398bbf6700b0b902cebc593b0f6e48cda3fd7
 ent-ComputerTabletopStationAdminBankATMNfsd = { ent-BaseComputerTabletopStationAdminBankATM }
-    .desc = Used to transfer funds from NFSD's bank account
+    .desc = Используется для снятия или пополнения средств со счетов ДСБФ.
     .suffix = ДСБФ, Настольный
 # HASH: d3fee8e520bcf0800a785198c6d6987c8b2ff8ab1d36a1d4eaea03c46c4a8aa0
 ent-ComputerTabletopStationAdminBankATMMedical = { ent-BaseComputerTabletopStationAdminBankATM }
-    .desc = Used to transfer funds from Medical Dispatch's bank account
+    .desc = Используется для снятия или пополнения средств со счетов Медицинской Диспетчерской.
     .suffix = Медицинский, Настольный
 # HASH: a022f61dbc1ff47b223d3d0d0da3ce54ae67634c2c7d85585e02816c8f6bbd92
 ent-ComputerTabletopContrabandPalletConsole = { ent-ComputerContrabandPalletConsole }

@@ -2,5 +2,5 @@
 ent-BaseFoldable = складной
     .desc = { "" }
 # HASH: ff02cbfbb3bf9968804bc9f5bcfbc103fc3509da80ac1382c10e66ddd272aede
-ent-BaseDeployFoldable = deploy foldable
+ent-BaseDeployFoldable = развернуть складной предмет
     .desc = { ent-BaseFoldable.desc }

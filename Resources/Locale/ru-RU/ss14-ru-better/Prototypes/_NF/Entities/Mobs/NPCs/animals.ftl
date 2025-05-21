@@ -10,7 +10,7 @@ ent-MobRosyMothroach = розовая таракамоль
 # HASH: 492ff612462947271e0917edb652b0c77615850ecf83451cf73a4fb2f056178a
 ent-MobAngryBeeTimed = пчела
     .desc = { ent-MobAngryBee.desc }
-    .suffix = Angry, Timed
+    .suffix = Злые, Таймер
 # HASH: 69598e7f93e7fbd38cfaf60f84d74cd2084f47dfc0d9c673eb17cfc1e6698ab4
 ent-MobMonkeyNoInventory = { ent-MobMonkey }
     .desc = { ent-MobMonkey.desc }

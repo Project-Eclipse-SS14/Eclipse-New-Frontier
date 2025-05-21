@@ -65,8 +65,8 @@ ent-ClothingBackpackMessengerPilot = мессенджер пилота
 ent-ClothingBackpackMessengerMercenary = мессенджер наёмника
     .desc = Прочная сумка для военных преступлений.
 # HASH: 76699472295699be6d9e98979b4c8a7a6c667d87278eb2693b9d4ab9e779287e
-ent-ClothingBackpackMessengerPrivateSecurity = private security messenger bag
-    .desc = A robust messenger bag for committing war crimes on a payroll.
+ent-ClothingBackpackMessengerPrivateSecurity = мессенджер личной охраны
+    .desc = Прочная сумка для военных преступлений.
 # HASH: 415f91c4f812101efca4a2cc46e4e36b6ea804b77e2c26a2cba52d80f90df16a
 ent-ClothingBackpackMessengerHolding = бездонный мессенджер
     .desc = Сумка, открывающаяся в локальный карман блюспейса.
@@ -116,5 +116,5 @@ ent-ClothingBackpackMessengerColorBrown = коричневый мессендж�
 ent-ClothingBackpackMessengerColorWhite = белый мессенджер
     .desc = Модная сумка-мессенджер в стильной цветовой гамме.
 # HASH: 850a04086620da0e609799392c30b166f6d27c848eccb1ac7113ac5cb3a4e238
-ent-ClothingBackpackMessengerColorRandom = punk messenger bag
+ent-ClothingBackpackMessengerColorRandom = панковый мессенджер
     .desc = { ent-ClothingBackpackMessengerContractor.desc }

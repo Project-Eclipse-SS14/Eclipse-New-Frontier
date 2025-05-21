@@ -8,4 +8,4 @@ ent-BoxMailCapsulePrimed = ящик почтовых капсул
 # HASH: c4b51f0624ccf11a170c4f3f5113404038208c720e0a97c142cecc8cebaaa698
 ent-NFMailBagCapsulePrimed = { ent-NFMailBag }
     .desc = { ent-NFMailBag.desc }
-    .suffix = Capsules
+    .suffix = Капсулы

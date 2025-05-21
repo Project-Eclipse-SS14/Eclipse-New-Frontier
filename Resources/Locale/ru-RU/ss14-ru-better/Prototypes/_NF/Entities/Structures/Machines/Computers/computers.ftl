@@ -55,19 +55,19 @@ ent-ComputerPirateBounty = консоль пиратских заданий
     .desc = Используй для получения особых заданий за вознаграждение.
 # HASH: 47434fadc4ef29846ea417018160fd8957125cadb2f11145abc240508f506dbc
 ent-ComputerPirateBountyBroken = broken pirate bounty computer
-    .desc = This console has seen better days. Can be repaired with a repair kit.
+    .desc = Эта консоль видала лучших времён. Может быть отремонтированна с помощью ремонтного комплекта.
 # HASH: babbee1af012200abaa58adbf80c6d9b32754819a59741d4418401d0674363e3
 ent-ComputerContrabandPalletConsolePirate = компьютер обмена награбленным
     .desc = Сбывай здесь свои незаконно добытые товары!
 # HASH: 2f9118bfa14496512c659dde97248af4fa8ecf798e74dc98586899a0442d2dd9
 ent-ComputerContrabandPalletConsolePirateBroken = broken plunder exchange computer
-    .desc = This console has seen better days. Can be repaired with a repair kit.
+    .desc = Эта консоль видала лучших времён. Может быть отремонтированна с помощью ремонтного комплекта.
 # HASH: ad456bf9b78d28e4809ef5507a7d21b3618e1c7cf02566124f522b941c9100ed
 ent-ComputerPirateBountyRedemption = консоль пиратских вознаграждений
     .desc = Вернулся из плавания? Обменивай здесь свои награды, дружище.
 # HASH: c188ec99ff3e3f7ca89fa6a7ddb85e0d891b1e99f7fc7bdd9e020d2c4a39e712
-ent-ComputerPirateBountyRedemptionBroken = broken pirate bounty redemption computer
-    .desc = This console has seen better days. Can be repaired with a repair kit.
+ent-ComputerPirateBountyRedemptionBroken = сломанная консоль пиратских вознаграждений
+    .desc = Эта консоль видала лучших времён. Может быть отремонтированна с помощью ремонтного комплекта.
 # HASH: e3c00bcae6b1d453d167ee1f85ec7ac9b8ac07ed1fa5a0aa25c5244d4355f18b
 ent-ComputerSalvageExpeditionDebug = { ent-ComputerSalvageExpedition }
     .desc = { ent-ComputerSalvageExpedition.desc }

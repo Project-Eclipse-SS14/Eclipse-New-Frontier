@@ -33,7 +33,7 @@ ent-JetpackCaptainFilled = джетпак капитана
     .suffix = Полный
 # HASH: 4f1ee1f4649cfb4b725b657706011774276f482fe9f8bdad9acf905a1fc80821
 ent-JetpackMini = мини джетпак
-    .desc = It's a jetpack. It can hold 1.5 L of gas.
+    .desc = Это реактивный ранец - джетпак. Имеет бак в 1.5 литра газа.
     .suffix = Пустой
 # HASH: 01459e4ace5b10e1cac5794f48d284854145fca1fe7c888ac5555b8056a10f3e
 ent-JetpackMiniFilled = мини джетпак

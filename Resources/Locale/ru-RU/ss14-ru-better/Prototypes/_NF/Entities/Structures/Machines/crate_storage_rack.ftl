@@ -1,6 +1,6 @@
 # HASH: 65fe6f34bf1248c8f994bb199338f04438ac0bb8df59536bc5750847e15c6eaa
-ent-BaseCrateStorageRack = crate storage rack frame
-    .desc = Like a half-built shelf, but bigger!
+ent-BaseCrateStorageRack = стеллаж для хранения ящиков
+    .desc = Как полка, только больше!
 # HASH: 96fe63c76d7bc80c3620c0340d9bb35414052269f1cf47fd38b91c9bf5774a2d
 ent-CrateStorageRack = стеллаж для хранения ящиков
     .desc = Как полка, только больше!

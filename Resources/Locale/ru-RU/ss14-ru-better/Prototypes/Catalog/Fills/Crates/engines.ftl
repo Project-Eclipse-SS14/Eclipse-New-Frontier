@@ -25,7 +25,7 @@ ent-CrateEngineeringParticleAccelerator = ящик с ускорителем ч�
 # HASH: 2293e70338d4a4030197c73ac691e0c544db06f44066b95d0d8422fd0eb19b75
 ent-CrateEngineeringGenerator = ящик с генератором
     .desc = { ent-CrateEngineering.desc }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: f48238609e7823ae4a3cd9e0d95d0f450d9da10a044cf3541a8bc200714192da
 ent-CrateEngineeringSolar = ящик сборных солнечных панелей
     .desc = Детали для создания солнечных панелей и трекеров.

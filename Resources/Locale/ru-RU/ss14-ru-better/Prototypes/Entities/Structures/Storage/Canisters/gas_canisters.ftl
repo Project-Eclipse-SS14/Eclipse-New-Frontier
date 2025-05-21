@@ -68,7 +68,7 @@ ent-PlasmaCanisterBroken = { ent-GasCanisterBrokenBase }
 ent-TritiumCanisterBroken = { ent-GasCanisterBrokenBase }
     .desc = { ent-GasCanisterBrokenBase.desc }
 # HASH: 504652db1b0fec69633f0fb7aafdd7b818e8b0c2711f2ca20ba87ab0379ef771
-ent-WaterVaporCanisterBroken = broken water vapor canister
+ent-WaterVaporCanisterBroken = сломанная канистра водяного пара
     .desc = { ent-GasCanisterBrokenBase.desc }
 # HASH: ac8f3b52cc42b30c77a7c59bb783bcea472f70ac4fcc3564d0dea59f1f71febd
 ent-AmmoniaCanisterBroken = { ent-GasCanisterBrokenBase }

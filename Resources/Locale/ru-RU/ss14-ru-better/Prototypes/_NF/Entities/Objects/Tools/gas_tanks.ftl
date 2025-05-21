@@ -2,8 +2,8 @@
 ent-DoubleEmergencyAirTank = двойной аварийный воздушнный баллон
     .desc = Высококлассный двухбаллонный резервуар аварийного жизнеобеспечения. Вмещает приличное для своих небольших размеров количество воздуха.
 # HASH: 3a8cb11a6b38e8c59e90162f33cb2e1a26b27f4541db085691998b5019d76ebc
-ent-NFTankO2N2Equal = O2/N2 tank
-    .desc = Contains O2 and N2 mixed in equal proportions. It can hold 5 L of gas.
+ent-NFTankO2N2Equal = баллон O2/N2
+    .desc = Содержит кислород и азот смешанный в равных пропорциях. Может хранить 5 литров газа.
 # HASH: af7058b38d78dd1280a70af080c922295579d83cdcefd2f8cac32a0b1d039d44
-ent-DoubleEmergencyTankO2N2Equal = double emergency O2/N2 tank
-    .desc = A high-grade dual-tank emergency life support container: one tank contains N2, the other, O2. It holds a decent amount of gas for its small size. It can hold 2.5 L of gas.
+ent-DoubleEmergencyTankO2N2Equal = двойной аварийный баллон O2/N2
+    .desc = Высококлассный двухбаллонный резервуар аварийного жизнеобеспечения: один баллон содержит азот, другой - кислород. Вмещает приличное для своих небольших размеров количество воздуха. Может хранить 2.5 литра газа.

@@ -71,5 +71,5 @@ ent-NFSignEms1 = знак службы неотложной медицинско
 ent-NFSignEms2 = { ent-NFSignEms1 }
     .desc = { ent-NFSignEms1.desc }
 # HASH: 52083e1ca646f3b0c68668e5c5a7d8dcd3b1276e3a53caefdd19feee58eb3384
-ent-SignNfsdInterrogation = interrogation sign
+ent-SignNfsdInterrogation = знак "допросная"
     .desc = { ent-SignInterrogation.desc }

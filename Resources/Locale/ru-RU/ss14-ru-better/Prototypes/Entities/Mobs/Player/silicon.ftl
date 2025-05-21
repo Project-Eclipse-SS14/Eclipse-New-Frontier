@@ -91,7 +91,7 @@ ent-PlayerBorgSyndicateSaboteurGhostRole = { ent-PlayerBorgSyndicateSaboteurBatt
     .desc = { ent-PlayerBorgSyndicateSaboteurBattery.desc }
     .suffix = Роль призрака
 # HASH: 1ac78fcfed78dadbbafb2a111852746df8d2294e7654ed2d2bea3aea6d4ff3a9
-ent-PlayerBorgSyndicateInvasionGhostRoleSpawner = syndicate invasion borg spawner
+ent-PlayerBorgSyndicateInvasionGhostRoleSpawner = спавнер синдикат борга для вторжения
     .desc = { ent-MarkerBase.desc }
 # HASH: 467d07b20877b4a3f0b5ed3f745c09509ea01c9435fe1a2323e60e73a277bbde
 ent-PlayerBorgDerelict = { ent-BorgChassisDerelict }

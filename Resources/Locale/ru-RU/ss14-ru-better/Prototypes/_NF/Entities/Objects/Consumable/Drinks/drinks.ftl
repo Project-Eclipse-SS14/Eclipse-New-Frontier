@@ -28,4 +28,4 @@ ent-CondimentCup = соусница
 # HASH: 8b6c9ba3973e5cbbf129bb9638dee44257e75e88258cdd39b2d38b1a0824d62b
 ent-ChemistryBottleMysteryLiquid = { ent-BaseChemistryBottleFilled }
     .desc = { ent-BaseChemistryBottleFilled.desc }
-    .suffix = Mystery liquid
+    .suffix = Таинственная жидкость

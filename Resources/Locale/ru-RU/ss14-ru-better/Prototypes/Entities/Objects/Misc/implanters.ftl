@@ -12,7 +12,7 @@ ent-ImplanterAdmeme = { ent-Implanter }
 ent-BaseImplantOnlyImplanter = { ent-Implanter }
     .desc = Одноразовый шприц, специально предназначенный для введения подкожных имплантов.
 # HASH: 16322b2c117f4233fd6887d5d16f01dbea478591d1ee6cde263b3a33850b876e
-ent-BaseImplantOnlyImplanterSyndi = syndicate implanter
+ent-BaseImplantOnlyImplanterSyndi = имплантер синдиката
     .desc = Компактный одноразовый шприц, специально предназначенный для введения подкожных имплантов.
 # HASH: 2ce09a80c9583cb68c7ab46d5b4c685beb6fbc62094f85bcf684690cc1476e47
 ent-SadTromboneImplanter = { ent-BaseImplantOnlyImplanter }

@@ -53,7 +53,7 @@ ent-AirlockExternalCommandLocked = { ent-AirlockExternal }
 # HASH: ea99aafcfcdb55c04b964467266b572dcb28bd13f5ed4fc14d2f884a4068167f
 ent-AirlockExternalGlassCommandLocked = { ent-AirlockExternalGlass }
     .desc = { ent-AirlockExternalGlass.desc }
-    .suffix = External, Glass, Command, Locked
+    .suffix = Внешний, Стеклянный, Командование, Закрыт
 # HASH: bdb964fe3346b6e180e30a1e8929680883f616b360b29ef786d9acc10eb90503
 ent-AirlockExternalAtmosphericsLocked = { ent-AirlockExternal }
     .desc = { ent-AirlockExternal.desc }
@@ -489,7 +489,7 @@ ent-AirlockMaintResearchDirectorLocked = { ent-AirlockMaintCommandLocked }
 # HASH: 7744f6c44a3cff64e4b762db83cc3a826eedbfa567b6f10e588cbee33f0caba2
 ent-AirlockMaintQuartermasterLocked = { ent-AirlockMaintCommandLocked }
     .desc = { ent-AirlockMaintCommandLocked.desc }
-    .suffix = Quartermaster, Locked
+    .suffix = Квартирмейстер, Закрыт
 # HASH: e8d30591c1392f990c0e3aeb0f2b8a78a7e0b160fd8d9e4fb6a1511f3bba3de7
 ent-AirlockMaintArmoryLocked = { ent-AirlockMaint }
     .desc = { ent-AirlockMaint.desc }

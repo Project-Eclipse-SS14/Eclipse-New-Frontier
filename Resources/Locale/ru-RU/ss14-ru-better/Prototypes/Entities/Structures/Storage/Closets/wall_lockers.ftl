@@ -5,8 +5,8 @@ ent-ClosetWall = технический настенный шкаф
 ent-ClosetWallEmergency = аварийный настенный шкаф
     .desc = Это хранилище аварийных дыхательных масок и баллонов с кислородом.
 # HASH: ce9bb537e0d3bea0708ec09a4e834bfb6f31a9629839476b43d6420972b16d48
-ent-ClosetWallEmergencyN2 = emergency nitrogen wall closet
-    .desc = It's full of life-saving equipment. Assuming, that is, that you breathe nitrogen.
+ent-ClosetWallEmergencyN2 = аварийный азотный настенный шкаф
+    .desc = Это хранилище аварийных дыхательных масок и баллонов с азотом.
 # HASH: 410f2e327bedb7b9072660734d469d5a8729692fff9d33acd3bd5d2ee3bd1fed
 ent-ClosetWallFire = противопожарный настенный шкаф
     .desc = Это хранилище для противопожарного снаряжения.

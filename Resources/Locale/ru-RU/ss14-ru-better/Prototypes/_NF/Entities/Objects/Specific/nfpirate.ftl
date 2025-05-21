@@ -21,7 +21,7 @@ ent-BasePirateUplink = Пиратский аплинк
 # HASH: b4b9ea06e23a2b6e890449899a1b879fdcf5f652ecfeeec6e617c7e01bb5f447
 ent-BasePirateUplinkRadioDebug = { ent-BasePirateUplink }
     .desc = { ent-BasePirateUplink.desc }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
 # HASH: 3319b496936127fcd077d70cfa047e455c62f391f58bc4b2762859b8ffef4808
 ent-BasePirateUplinkRadioPirateCaptain = { ent-BasePirateUplink }
     .desc = { ent-BasePirateUplink.desc }

@@ -551,47 +551,47 @@ ent-XenoBasherGlass = { ent-DrinkGlass }
 # HASH: 6b3be74bd4a833dd1eed02059ccea6d1cb271d4ccddfe8b4de042dfbedb7b62a
 ent-DrinkCaipirinha = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = caipirinha
+    .suffix = Кайпиринья
 # HASH: 19f4819310f52c2bca9451f2b3fa64f4559fbb7c082c50b815bc3425617df1ac
 ent-DrinkDaiquiri = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = daiquiri
+    .suffix = Дайкири
 # HASH: 0a73611462ec6c0a6196090d64827d6b1e9b1fbae37c86af5481215403357ebd
 ent-DrinkDeathInTheAfternoon = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = death in the afternoon
+    .suffix = Смерть во второй половине дня
 # HASH: 64f422734af4af8cef05dc1306b729237674f78db41c50898af76ad984ce6c51
 ent-DrinkEmpress75 = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = empress 75
+    .suffix = Императрица 75
 # HASH: 91d65bd2829b9e7decf16be5d95af7bba041eeb5e1ecf07250c436b2377cad44
 ent-DrinkEspressoMartini = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = espresso martini
+    .suffix = Мартини с эспрессо
 # HASH: 30d751ae54d1581353c730096cef8248d86d5f7a5552c9c15d79b21b71b517b1
 ent-DrinkMayojito = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = mayojito
+    .suffix = Майохито
 # HASH: fafbda57621f4e790dd4c84647168b8e48c8fc1f8a74e185f7208f4e6a61a2fc
 ent-DrinkMimeosa = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = mimeosa
+    .suffix = Мимеоза
 # HASH: 92cfa1e23548cc9571c4a7d9d21a20cb556b69937b3ca6424eaaf87d2ad18fc5
 ent-DrinkMimosa = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = mimosa
+    .suffix = Мимоза
 # HASH: b6652e17292bba90147549a4ac087e8fae84f7ea80deb7ec6c7deddb5cd1b5f2
 ent-DrinkMoscowMule = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = moscow mule
+    .suffix = московский мул
 # HASH: ed415d673f2fd71e484fd15e9b95c37dd856b2a57013011b8646c5caf85b30aa
 ent-DrinkTheSunAlsoRises = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = the sun also rises
+    .suffix = Солнце тоже восходит
 # HASH: e8b604b953a47bc067865ed2e6c54dc7ade3d77a48aa4994a90d54d29bb17a08
 ent-DrinkWhiskeySour = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
-    .suffix = whiskey sour
+    .suffix = Кислый виски
 # HASH: d14712d183c8b7dd8803b48052edbfb508056530c99d2931d9585681d95bc807
 ent-DrinkShakeBlue = голубой молочный коктейль
     .desc = { ent-DrinkGlassBase.desc }
@@ -613,5 +613,5 @@ ent-DrinkBloodGlass = { ent-DrinkGlass }
     .suffix = Кровь
 # HASH: c4fa9915c867c7d2eead08d5de5e14b2b4f9d60bdcbb2c628599b2874724a7e0
 ent-DrinkBacchusBlessing = { ent-DrinkGlass }
-    .desc = You didn't think it was possible for a liquid to be so utterly revolting. Are you sure about this...?
-    .suffix = bacchus blessing
+    .desc = Вы даже не могли подумать что напитак может быть настолько отвратительным. Вы точно уверены...?
+    .suffix = Благословение Бахуса

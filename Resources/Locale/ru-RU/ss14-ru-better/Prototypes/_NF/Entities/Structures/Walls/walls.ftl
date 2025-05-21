@@ -160,7 +160,7 @@ ent-NFWallCobblebrickBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallCobblebrickCoal = supercompacted coal
+ent-NFWallCobblebrickCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: 43634d804b5c04f997a637eb68e3ec17e110d39806977c8a52b5dd0e664cd575
@@ -280,7 +280,7 @@ ent-NFWallSandstoneBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallSandstoneCoal = supercompacted coal
+ent-NFWallSandstoneCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: 17a96fc098809ff3cdf67604c42ad1ed42b43c7fe10d7586906a3ace38e23835
@@ -400,7 +400,7 @@ ent-NFWallNecropolisBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallNecropolisCoal = supercompacted coal
+ent-NFWallNecropolisCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: 4458f747d0470d0a19cae7f590d6b26448f648fbc454c8afc49567996481a4ea
@@ -520,7 +520,7 @@ ent-NFWallBasaltCobblebrickBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallBasaltCobblebrickCoal = supercompacted coal
+ent-NFWallBasaltCobblebrickCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: e016dad9b887a31725f790e51c650251346b9a533b2c52d8645019b6ce0a14fa
@@ -640,7 +640,7 @@ ent-NFWallChromiteCobblebrickBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallChromiteCobblebrickCoal = supercompacted coal
+ent-NFWallChromiteCobblebrickCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: 09d75b783be97027c0a19d03e7a896de4f46479d111f000420f930489e463a05
@@ -760,7 +760,7 @@ ent-NFWallAndesiteCobblebrickBluespace = { ent-NFAsteroidWall }
     .desc = Плотная рудная жила, богатая блюспейс налётом. Чрезвычайно твёрдая.
     .suffix = Блюспейс
 # HASH: 8f6e877d3cd10aac92a80224006f578b4c74c9d1cc549163467bea49fa8748ab
-ent-NFWallAndesiteCobblebrickCoal = supercompacted coal
+ent-NFWallAndesiteCobblebrickCoal = сверхуплотненный уголь
     .desc = Плотная рудная жила, богатая углём. Чрезвычайно твёрдая.
     .suffix = Уголь
 # HASH: 730fcfb04269a1b1fb7b2718c7fa5bc8652bfafe5766476ee46f773d04b960e1

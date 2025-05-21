@@ -18,4 +18,4 @@ ent-CrateSecurityBiosuit = ящик биозащитных костюмов СБ
     .desc = Содержит 2 костюма биологической защиты, чтобы никакая зараза не отвлекала вас от исполнения своего долга. Чтобы открыть, необходим уровень доступа Служба безопасности.
 # HASH: 4e1ada1da59cc29fa51542c8ddf71930eb1b0b6a4d7756f143438bed44c9f7e2
 ent-CrateSecurityTrackingMindshieldImplants = ящик имплантеров
-    .desc = Contains 4 MindShield implants and 4 tracking implant. Requires Security access to open.
+    .desc = Содержит 4 имплантата защиты разума и 4 отслеживающих имплантата. Для открытия требуется доступ СБ.

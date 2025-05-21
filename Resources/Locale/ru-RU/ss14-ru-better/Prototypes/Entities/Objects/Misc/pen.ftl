@@ -23,5 +23,5 @@ ent-PenCap = перьевая ручка капитана
 ent-PenHop = перьевая ручка главы персонала
     .desc = Элегантная перьевая ручка для главы персонала станции.
 # HASH: 06bf8067f34f48560eee44747e43ce035432295ea948639a7210e2388d870fba
-ent-PenWiz = wizard's magical pen
-    .desc = A luxurious fountain pen. Seems to have a magical crystal eraser.
+ent-PenWiz = магическая ручка волшебника
+    .desc = Элегантная перьевая ручка. Кажется, в него встроен волшебный кристаллический ластик.

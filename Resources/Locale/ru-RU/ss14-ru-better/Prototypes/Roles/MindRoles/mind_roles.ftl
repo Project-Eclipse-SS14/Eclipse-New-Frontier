@@ -17,7 +17,7 @@ ent-MindRoleGhostRoleFamiliar = Роль призрака (Фамильяр)
 ent-MindRoleGhostRoleFreeAgent = Роль призрака (Свободный агент)
     .desc = { ent-BaseMindRole.desc }
 # HASH: 737fb27c10bcccbd4c70209db1cedc604e1115ea10ab81046a1bedf65efd3aec
-ent-MindRoleGhostRoleFreeAgentHarmless = Ghost Role (Free Agent)
+ent-MindRoleGhostRoleFreeAgentHarmless = Роль призрака (Свободный агент)
     .desc = { ent-MindRoleGhostRoleNeutral.desc }
 # HASH: 1aeaafbc35005abdf7c5a9415cf0c44d3ecee4ef078e58c3800e981a6d82d13c
 ent-MindRoleGhostRoleSilicon = Роль призрака (Синтетик)
@@ -32,7 +32,7 @@ ent-MindRoleGhostRoleSoloAntagonist = Роль призрака (Соло-ант
 ent-MindRoleGhostRoleTeamAntagonist = Роль призрака (Командный антагонист)
     .desc = { ent-BaseMindRole.desc }
 # HASH: 930c5a2310aeef57c36c99fdb608c7837ca4a4de9d0fb106161819d3004d725e
-ent-MindRoleGhostRoleTeamAntagonistFlock = Ghost Role (Team Antagonist)
+ent-MindRoleGhostRoleTeamAntagonistFlock = Роль призрака (Командный антагонист)
     .desc = { ent-MindRoleGhostRoleTeamAntagonist.desc }
 # HASH: 988192e21eab92b7e94affda2f06df8a2448e8e04ca413fa3304ac3a7653a6cf
 ent-MindRoleJob = Роль работа
@@ -50,7 +50,7 @@ ent-MindRoleDragon = Роль дракон
 ent-MindRoleNinja = Роль космический ниндзя
     .desc = { ent-BaseMindRoleAntag.desc }
 # HASH: 9af34407f2438ec4395609075f92bad67658639883f80b1234523fc211cd8538
-ent-MindRoleParadoxClone = Paradox Clone Role
+ent-MindRoleParadoxClone = Роль парадоксальный клон
     .desc = { ent-BaseMindRoleAntag.desc }
 # HASH: 429ae31188b42532a5ceca1f1c28c45974d97d9c741b2b8b25158143f2b88ce5
 ent-MindRoleNukeops = Роль ядерный оперативник
