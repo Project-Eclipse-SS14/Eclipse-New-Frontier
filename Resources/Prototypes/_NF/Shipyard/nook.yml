@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: WSE Уголок
   description: Корабль, спроектированный как мобильный дом, с пространством для модификаций. Быстрый и удобный.
-  price: 22500 #base sell price is around 17000
+  price: 23000 #base sell price is around 17000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/nook.yml
