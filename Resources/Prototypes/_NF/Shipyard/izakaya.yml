@@ -7,8 +7,8 @@
 - type: vessel
   id: Izakaya
   parent: BaseVessel
-  name: SSS Izakaya
-  description: A medium-size, japanese-style restaurant/pub ship with a large dining area, and equally large kitchen.
+  name: SSS Идзакая
+  description: Среднего размера ресторан/паб в японском стиле с большой обеденной зоной и такой же большой кухней.
   price: 82000 # ~68000 appraisal price, ~20% markup
   category: Medium
   group: Shipyard
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Izakaya
-  mapName: 'SSS Izakaya'
+  mapName: 'SSS Идзакая'
   mapPath: /Maps/_NF/Shuttles/izakaya.yml
   minPlayers: 0
   stations:
@@ -29,7 +29,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Izakaya {1}'
+          mapNameTemplate: 'Идзакая {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

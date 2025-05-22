@@ -7,8 +7,8 @@
 - type: vessel
   id: Crossroads
   parent: BaseVessel
-  name: PHI Crossroads
-  description: "A spacious and inviting service ship. The crossroads is designed to help with dock crowding, connect communities, and serve as anchors for gatherings."
+  name: PHI Перекресток
+  description: Просторное и привлекательное служебное судно. Перекресток призван помочь справиться с теснотой в доках, соединить сообщества и служить якорем для собраний.
   price: 75000 #appraises at ~69k with the appraisegrid command, marking up at ~10% for T1 Service/RP ship
   category: Medium
   group: Shipyard
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Crossroads
-  mapName: 'PHI Crossroads'
+  mapName: 'PHI Перекресток'
   mapPath: /Maps/_NF/Shuttles/crossroads.yml
   minPlayers: 0
   stations:
@@ -29,7 +29,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Crossroads {1}'
+          mapNameTemplate: 'Перекресток {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

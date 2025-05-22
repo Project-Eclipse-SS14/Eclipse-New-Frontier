@@ -12,8 +12,8 @@
   id: Spirit
   parent: BaseVessel
   name: FSB Дух
-  description: Крошечный медицинский поисково-спасательный шаттл, столь же маневренный, сколь и тесный. Эксплуатационные расходы гарантированно* будут на 5% ниже, чем у конкурирующих моделей!
-  price: 16000
+  description: FSB Дух - поисково-спасательный шаттл для опытных медиков и парамедиков.
+  price: 15000
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/spirit.yml

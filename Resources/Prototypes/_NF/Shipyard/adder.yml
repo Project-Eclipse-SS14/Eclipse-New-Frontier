@@ -11,8 +11,8 @@
 - type: vessel
   id: Adder
   parent: BaseVessel
-  name: LVHI Adder
-  description: A small maneuverable shuttle designed for mining. Manufactured by Langstad-Voigt Heavy Industries.
+  name: LVHI Гадюка
+  description: Небольшой маневренный шаттл, предназначенный для шахтерства. Производится компанией Лангстад-Войгт Хэви Индастриз.
   price: 18000 # ~16800$ on mapinit + ~7% (1200$) markup
   category: Small
   group: Shipyard
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Adder
-  mapName: 'Adder'
+  mapName: 'LVHI Гадюка'
   mapPath: /Maps/_NF/Shuttles/adder.yml
   minPlayers: 0
   stations:
@@ -33,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Adder {1}'
+          mapNameTemplate: 'Гадюка {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

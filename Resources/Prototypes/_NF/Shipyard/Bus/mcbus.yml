@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: McBus
-  mapName: 'McBus'
+  mapName: 'Курьер'
   mapPath: /Maps/_NF/Shuttles/Bus/mcbus.yml
   minPlayers: 0
   stations:
@@ -23,7 +23,7 @@
       stationProto: StandardFrontierBusVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Bus {1}' # Will be overwritten
+          mapNameTemplate: 'Такси {1}' # Will be overwritten
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

@@ -11,8 +11,8 @@
 - type: vessel
   id: Bodkin
   parent: BaseVessel
-  name: BB Игуана
-  description: Младший брат Авангарда. BB Игуана предназначен для шахтерства и утилизации обломков.
+  name: BB Стилет
+  description: Младший брат Авангарда. BB Стилет предназначен для шахтерства и утилизации обломков.
   price: 42000 #Grid appraises at 38000. Slapped on a ~10% markup.
   category: Medium
   group: Shipyard
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Bodkin
-  mapName: 'BB Игуана'
+  mapName: 'BB Стилет'
   mapPath: /Maps/_NF/Shuttles/bodkin.yml
   minPlayers: 0
   stations:
