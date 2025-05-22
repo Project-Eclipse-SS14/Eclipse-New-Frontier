@@ -10,7 +10,7 @@ namespace Content.Shared.Storage.Components; // Frontier: Server<Shared
 [NetworkedComponent, AutoGenerateComponentState] // Frontier
 public sealed partial class MagnetPickupComponent : Component
 {
-    [ViewVariables(VVAccess.ReadWrite), DataField("nextScan")]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextScan = TimeSpan.Zero;
 

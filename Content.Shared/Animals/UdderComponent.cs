@@ -52,6 +52,6 @@ public sealed partial class UdderComponent : Component
     /// <summary>
     ///     When to next try to produce.
     /// </summary>
-    [DataField, AutoPausedField, Access(typeof(UdderSystem))]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField, Access(typeof(UdderSystem))]
     public TimeSpan NextGrowth = TimeSpan.Zero;
 }

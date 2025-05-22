@@ -23,7 +23,7 @@ public sealed partial class PirateBountyConsoleComponent : Component
     /// <summary>
     /// The time at which the console will be able to print a label again.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextPrintTime = TimeSpan.Zero;
 
     /// <summary>

@@ -8,6 +8,7 @@ using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
+using Content.Server.SelfShipyard.Events;
 
 namespace Content.Server._NF.Solar.EntitySystems;
 
@@ -52,7 +53,9 @@ internal sealed class NFPowerSolarSystem : EntitySystem
 
     public override void Initialize()
     {
+        SubscribeLocalEvent<NFSolarPanelComponent, AfterShuttleDeserializedEvent>(OnPanelDeserialized);
         SubscribeLocalEvent<NFSolarPanelComponent, MapInitEvent>(OnPanelMapInit);
+        SubscribeLocalEvent<SolarPoweredGridComponent, AfterShuttleDeserializedEvent>(OnSolarPoweredGridDeserialized);
         SubscribeLocalEvent<SolarPoweredGridComponent, MapInitEvent>(OnSolarPoweredGridMapInit);
         SubscribeLocalEvent<RoundRestartCleanupEvent>(Reset);
         RandomizeSun();
@@ -74,10 +77,30 @@ internal sealed class NFPowerSolarSystem : EntitySystem
 
     private void OnPanelMapInit(EntityUid uid, NFSolarPanelComponent component, MapInitEvent args)
     {
+        PanelInit(uid, component);
+    }
+
+    private void OnPanelDeserialized(EntityUid uid, NFSolarPanelComponent component, AfterShuttleDeserializedEvent args)
+    {
+        PanelInit(uid, component);
+    }
+
+    private void PanelInit(EntityUid uid, NFSolarPanelComponent component)
+    {
         UpdateSupply(uid, component);
     }
 
     private void OnSolarPoweredGridMapInit(EntityUid uid, SolarPoweredGridComponent component, MapInitEvent args)
+    {
+        SolarPoweredGridInit(component);
+    }
+
+    private void OnSolarPoweredGridDeserialized(EntityUid uid, SolarPoweredGridComponent component, AfterShuttleDeserializedEvent args)
+    {
+        SolarPoweredGridInit(component);
+    }
+
+    private void SolarPoweredGridInit(SolarPoweredGridComponent component)
     {
         if (component.TrackOnInit)
         {

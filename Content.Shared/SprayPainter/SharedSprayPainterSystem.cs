@@ -70,6 +70,7 @@ public abstract class SharedSprayPainterSystem : EntitySystem
             return;
 
         airlock.Department = args.Department;
+        airlock.LastSetSprite = args.Sprite;
         Dirty(target, airlock);
 
         Audio.PlayPredicted(ent.Comp.SpraySound, ent, args.Args.User);

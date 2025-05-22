@@ -38,7 +38,7 @@ public sealed partial class SolutionRegenerationComponent : Component
     /// <summary>
     /// The time when the next regeneration will occur.
     /// </summary>
-    [DataField("nextChargeTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextRegenTime = TimeSpan.FromSeconds(0);
 }

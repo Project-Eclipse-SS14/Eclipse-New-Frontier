@@ -37,7 +37,7 @@ public sealed partial class ResearchServerComponent : Component
     [ViewVariables(VVAccess.ReadOnly)]
     public List<EntityUid> Clients = new();
 
-    [DataField("nextUpdateTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextUpdateTime = TimeSpan.Zero;
 
     [DataField("researchConsoleUpdateTime"), ViewVariables(VVAccess.ReadWrite)]

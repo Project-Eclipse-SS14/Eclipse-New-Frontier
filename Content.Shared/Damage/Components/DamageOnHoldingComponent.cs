@@ -27,7 +27,7 @@ public sealed partial class DamageOnHoldingComponent : Component
     [AutoNetworkedField]
     public float Interval = 1f;
 
-    [DataField("nextDamage", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoNetworkedField]
     [AutoPausedField]
     public TimeSpan NextDamage = TimeSpan.Zero;

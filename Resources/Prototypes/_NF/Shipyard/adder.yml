@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Гадюка
   description: Небольшой маневренный шаттл, предназначенный для шахтерства. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 17500 # ~16400$ on mapinit + ~5% (820$) markup
+  price: 18000 # ~16800$ on mapinit + ~7% (1200$) markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/adder.yml

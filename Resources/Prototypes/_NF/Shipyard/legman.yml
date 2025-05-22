@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Интервьюер
   description: Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте событий. Произведено компанией Лангстад-Войгт Хэви Индастриз.
-  price: 12500 # ~11835$ on mapinit + ~5% (600$) markup
+  price: 12600 # ~11952$ on mapinit + ~5% (600$) markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml

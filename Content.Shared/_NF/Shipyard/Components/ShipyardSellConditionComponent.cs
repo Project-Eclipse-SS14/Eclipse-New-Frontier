@@ -12,6 +12,9 @@ public sealed partial class ShipyardSellConditionComponent : Component
     [DataField]
     public bool PreserveOnSale = false;
 
+    [DataField]
+    public bool DeleteOnSale = false;
+
     /// <summary>
     ///     Whether this item prevents shipyard sale.
     /// </summary>

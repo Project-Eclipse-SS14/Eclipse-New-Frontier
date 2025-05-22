@@ -14,7 +14,7 @@ public sealed partial class ChaoticJumpComponent : Component
     /// <summary>
     /// The next moment in time when the entity is pushed toward its goal
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextJumpTime;
 
     /// <summary>

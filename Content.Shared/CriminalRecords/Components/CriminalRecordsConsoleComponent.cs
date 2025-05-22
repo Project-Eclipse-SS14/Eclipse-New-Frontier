@@ -31,13 +31,13 @@ public sealed partial class CriminalRecordsConsoleComponent : Component
     /// <summary>
     /// Currently applied filter.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public StationRecordsFilter? Filter;
 
     /// <summary>
     /// Current seleced security status for the filter by criminal status dropdown.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public SecurityStatus FilterStatus;
 
     /// <summary>

@@ -63,7 +63,7 @@ public sealed partial class SingularityGeneratorComponent : Component
     /// <summary>
     /// How long until the generator can issue a failsafe warning again
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextFailsafe = TimeSpan.Zero;
 }
