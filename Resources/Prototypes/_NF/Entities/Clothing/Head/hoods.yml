@@ -1,6 +1,7 @@
 - type: entity
   parent:
   - ClothingHeadHatHoodWinterBase
+  - BaseC3ContrabandNoValue # Eclipse
   - ContrabandClothing
   id: ClothingHeadHatHoodArcadia
   categories: [ HideSpawnMenu ]

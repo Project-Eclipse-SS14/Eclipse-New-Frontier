@@ -1551,7 +1551,7 @@
 
 - type: entity
   parent: NFDepartmentalEVASuit
-  id: ClothingOuterEVASuitArcadia
+  id: [ ClothingOuterEVASuitArcadia, BaseC3ContrabandNoValue, ContrabandClothing ] # Eclipse : add BaseC3ContrabandNoValue, ContrabandClothing
   name: arcadia EVA suit
   description: An EVA suit with a built-in helmet commonly issued to Arcadia Industries personnel.
   components:

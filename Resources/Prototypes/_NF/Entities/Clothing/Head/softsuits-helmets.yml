@@ -840,7 +840,7 @@
         color: "#283846"
 
 - type: entity
-  parent: ClothingHeadEVAHelmetWithLightBase
+  parent: [ ClothingHeadEVAHelmetWithLightBase, BaseC3ContrabandNoValue, ContrabandClothing ] # Eclipse : add BaseC3ContrabandNoValue, ContrabandClothing
   id: ClothingHeadEVAHelmetArcadia
   name: arcadia EVA helmet
   categories: [ HideSpawnMenu ]
