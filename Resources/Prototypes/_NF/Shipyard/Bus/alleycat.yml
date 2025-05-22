@@ -15,7 +15,7 @@
 
 - type: gameMap
   id: Alleycat
-  mapName: 'Alleycat'
+  mapName: 'Велосипед'
   mapPath: /Maps/_NF/Shuttles/Bus/alleycat.yml
   minPlayers: 0
   stations:
@@ -23,7 +23,7 @@
       stationProto: StandardFrontierBusVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Bus {1}' # Will be overwritten
+          mapNameTemplate: 'Такси {1}' # Will be overwritten
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
