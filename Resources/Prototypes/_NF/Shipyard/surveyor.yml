@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Геодезист
   description: Бюджетный шаттл для шахтерства и разбора обломков для корпораций, не желающих работать за пределами ограниченного бюджета. Предоставлен корпорацией Фар Стар Биотеч!
-  price: 18000
+  price: 19000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/surveyor.yml
