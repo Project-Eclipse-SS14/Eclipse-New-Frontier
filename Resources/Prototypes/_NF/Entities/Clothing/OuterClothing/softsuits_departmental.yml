@@ -1550,8 +1550,8 @@
     clothingPrototype: ClothingHeadEVAHelmetLvhi
 
 - type: entity
-  parent: NFDepartmentalEVASuit
-  id: [ ClothingOuterEVASuitArcadia, BaseC3ContrabandNoValue, ContrabandClothing ] # Eclipse : add BaseC3ContrabandNoValue, ContrabandClothing
+  parent: [ NFDepartmentalEVASuit, BaseC3ContrabandNoValue, ContrabandClothing ] # Eclipse : add BaseC3ContrabandNoValue, ContrabandClothing
+  id: ClothingOuterEVASuitArcadia
   name: arcadia EVA suit
   description: An EVA suit with a built-in helmet commonly issued to Arcadia Industries personnel.
   components:
