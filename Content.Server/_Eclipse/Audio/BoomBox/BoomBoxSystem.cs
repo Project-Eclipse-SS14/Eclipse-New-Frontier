@@ -10,6 +10,7 @@ using Robust.Shared.Timing;
 using NVorbis;
 using System.IO;
 using System.Diagnostics.CodeAnalysis;
+using Robust.Shared.Network;
 
 namespace Content.Server._Eclipse.Audio.BoomBox;
 
@@ -18,10 +19,14 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly MetaDataSystem _metadata = default!;
     [Dependency] private readonly SharedTransformSystem _xform = default!;
+    [Dependency] private readonly INetManager _networkManager = default!;
+
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<BoomBoxComponent, BoomBoxSelectedMessage>(OnJukeboxSelected);
+
+        _networkManager.RegisterNetMessage<MsgBoomBoxSong>(OnJukeboxSelected);
+
         SubscribeLocalEvent<BoomBoxComponent, BoomBoxPlayingMessage>(OnJukeboxPlay);
         SubscribeLocalEvent<BoomBoxComponent, BoomBoxPauseMessage>(OnJukeboxPause);
         SubscribeLocalEvent<BoomBoxComponent, BoomBoxStopMessage>(OnJukeboxStop);
@@ -29,11 +34,17 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
         SubscribeLocalEvent<BoomBoxComponent, ComponentShutdown>(OnComponentShutdown);
     }
 
-    private void OnJukeboxSelected(EntityUid uid, BoomBoxComponent component, BoomBoxSelectedMessage args)
+    private void OnJukeboxSelected(MsgBoomBoxSong msg)
     {
+        var uid = msg.EntityUid;
+        if (!TryComp<BoomBoxComponent>(uid, out var component))
+        {
+            return;
+        }
+
         if (!Audio.IsPlaying(component.AudioStream))
         {
-            component.SongBytes = args.SongBytes;
+            component.SongBytes = msg.SongBytes;
             component.AudioStream = Audio.Stop(component.AudioStream);
         }
 
@@ -79,6 +90,11 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
         else
         {
             component.AudioStream = Audio.Stop(component.AudioStream);
+
+            if (component.SongBytes is null)
+            {
+                return;
+            }
 
             if (TrySetupAudio(component.SongBytes, AudioParams.Default.WithMaxDistance(10f), out var entity))
             {

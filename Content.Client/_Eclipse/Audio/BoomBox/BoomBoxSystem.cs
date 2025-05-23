@@ -7,6 +7,7 @@ using Robust.Shared.Audio.Components;
 using Robust.Shared.Audio.Sources;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
+using Robust.Shared.Network;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 
@@ -18,12 +19,15 @@ public sealed partial class BoomBoxSystem : SharedBoomBoxSystem
     [Dependency] private readonly IAudioManager _audioManager = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
+    [Dependency] private readonly IClientNetManager _networkManager = default!;
 
     private float _audioEndBuffer;
 
     public override void Initialize()
     {
         base.Initialize();
+
+        _networkManager.RegisterNetMessage<MsgBoomBoxSong>();
 
         SubscribeLocalEvent<BoomBoxAudioComponent, ComponentStartup>(OnAudioStartup);
         SubscribeLocalEvent<BoomBoxAudioComponent, ComponentShutdown>(OnAudioShutdown);
@@ -194,5 +198,16 @@ public sealed partial class BoomBoxSystem : SharedBoomBoxSystem
     {
         var data = _audioManager.LoadAudioOggVorbis(new MemoryStream(fileBytes));
         return new BoomBoxAudioMetadata(data.Length, data.ChannelCount, data.Title, data.Artist);
+    }
+
+    public void SendSongData(EntityUid uid, byte[] songBytes)
+    {
+        var msg = new MsgBoomBoxSong()
+        {
+            EntityUid = uid,
+            SongBytes = songBytes
+        };
+
+        _networkManager.ClientSendMessage(msg);
     }
 }

@@ -68,7 +68,8 @@ public sealed class BoomBoxBoundUserInterface : BoundUserInterface
 
     public void SelectSong(byte[] bytes)
     {
-        SendMessage(new BoomBoxSelectedMessage(bytes));
+        if (_menu is not null)
+            EntMan.System<BoomBoxSystem>().SendSongData(_menu.Entity, bytes);
     }
 
     public void SetTime(float time)

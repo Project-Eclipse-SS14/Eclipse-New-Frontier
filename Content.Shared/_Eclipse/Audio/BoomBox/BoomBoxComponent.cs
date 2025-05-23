@@ -36,11 +36,6 @@ public sealed class BoomBoxPauseMessage : BoundUserInterfaceMessage;
 [Serializable, NetSerializable]
 public sealed class BoomBoxStopMessage : BoundUserInterfaceMessage;
 
-[Serializable, NetSerializable]
-public sealed class BoomBoxSelectedMessage(byte[] bytes) : BoundUserInterfaceMessage
-{
-    public byte[] SongBytes { get; } = bytes;
-}
 
 [Serializable, NetSerializable]
 public sealed class BoomBoxSetTimeMessage(float songTime) : BoundUserInterfaceMessage
