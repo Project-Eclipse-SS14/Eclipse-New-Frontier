@@ -1,3 +1,4 @@
+using Content.Shared._Eclipse.Audio.BoomBox;
 using Content.Shared.Physics;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Components;
@@ -8,6 +9,7 @@ namespace Content.Shared.Audio;
 public abstract class SharedContentAudioSystem : EntitySystem
 {
     [Dependency] protected readonly SharedAudioSystem Audio = default!;
+    [Dependency] protected readonly SharedBoomBoxSystem BoomBox = default!;
 
     /// <summary>
     /// Standard variation to use for sounds.
@@ -27,6 +29,13 @@ public abstract class SharedContentAudioSystem : EntitySystem
         while (query.MoveNext(out var uid, out var comp))
         {
             Audio.SetGain(uid, 0f, comp);
+        }
+
+        var queryBoombox = AllEntityQuery<BoomBoxAudioComponent>();
+
+        while (queryBoombox.MoveNext(out var uid, out var comp))
+        {
+            BoomBox.SetGain(uid, 0f, comp);
         }
     }
 }
