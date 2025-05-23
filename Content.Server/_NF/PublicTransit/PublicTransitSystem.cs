@@ -208,7 +208,7 @@ public sealed class PublicTransitSystem : EntitySystem
         {
             var nextStopArrival = arrivalTime - routeData.Prototype.WaitTime - routeData.Prototype.TravelTime;
             message.PushNewline();
-            message.AddMarkupPermissive(Loc.GetString("bus-schedule-arrival", ("station", Name(grid.Comp.CurrentGrid)), ("time", nextStopArrival.ToString(@"hh\:mm\:ss"))));
+            message.AddMarkupPermissive(Loc.GetString("bus-schedule-arrival", ("station", Name(grid.Comp.CurrentGrid)), ("time", nextStopArrival.ToString(@"dd\:hh\:mm\:ss")))); // Eclipse : output number of days
             maxIndex -= 1; // Don't double count the furthest index.
         }
 
@@ -217,7 +217,7 @@ public sealed class PublicTransitSystem : EntitySystem
             var stopUid = routeData.GridStops.GetValueAtIndex((destInfo.stopIndex + i) % routeData.GridStops.Count);
 
             message.PushNewline();
-            message.AddMarkupPermissive(Loc.GetString("bus-schedule-arrival", ("station", Name(stopUid)), ("time", arrivalTime.ToString(@"hh\:mm\:ss"))));
+            message.AddMarkupPermissive(Loc.GetString("bus-schedule-arrival", ("station", Name(stopUid)), ("time", arrivalTime.ToString(@"dd\:hh\:mm\:ss")))); // Eclipse : output number of days
             arrivalTime += routeData.Prototype.TravelTime + routeData.Prototype.WaitTime;
         }
         args.PushMessage(message);
