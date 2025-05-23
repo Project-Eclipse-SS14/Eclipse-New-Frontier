@@ -5,6 +5,7 @@
   components:
     - type: Item
       size: Ginormous
+      sprite: _NF/Objects/Storage/Briefcases/briefcase_brown.rsi # Frontier: _NF prefix
     - type: MeleeWeapon
       damage:
         types:
@@ -12,8 +13,6 @@
     - type: Sprite
       sprite: _NF/Objects/Storage/Briefcases/briefcase_brown.rsi # Frontier: _NF prefix
       state: icon
-    - type: Item
-      sprite: _NF/Objects/Storage/Briefcases/briefcase_brown.rsi # Frontier: _NF prefix
     - type: BoomBox
     - type: ActivatableUI
       key: enum.BoomBoxUiKey.Key

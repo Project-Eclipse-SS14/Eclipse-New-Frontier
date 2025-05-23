@@ -1,13 +1,10 @@
 using Content.Shared._Eclipse.Audio.BoomBox;
 using Robust.Client.UserInterface;
-using Robust.Shared.Prototypes;
 
 namespace Content.Client._Eclipse.Audio.BoomBox;
 
 public sealed class BoomBoxBoundUserInterface : BoundUserInterface
 {
-    [Dependency] private readonly IPrototypeManager _protoManager = default!;
-
     [ViewVariables]
     private BoomBoxMenu? _menu;
 
@@ -65,6 +62,8 @@ public sealed class BoomBoxBoundUserInterface : BoundUserInterface
         {
             _menu.SetSelectedSong(string.Empty, 0f);
         }
+
+        _menu.Entity = Owner;
     }
 
     public void SelectSong(byte[] bytes)

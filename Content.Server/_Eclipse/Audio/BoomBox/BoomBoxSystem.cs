@@ -9,6 +9,7 @@ using Robust.Shared.Spawners;
 using Robust.Shared.Timing;
 using NVorbis;
 using System.IO;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Content.Server._Eclipse.Audio.BoomBox;
 
@@ -79,15 +80,17 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
         {
             component.AudioStream = Audio.Stop(component.AudioStream);
 
-            var entity = SetupAudio(component.SongBytes, AudioParams.Default.WithMaxDistance(10f));
-            _xform.SetCoordinates(entity, new EntityCoordinates(uid, Vector2.Zero));
-            component.AudioStream = entity;
+            if (TrySetupAudio(component.SongBytes, AudioParams.Default.WithMaxDistance(10f), out var entity))
+            {
+                _xform.SetCoordinates(entity.Value, new EntityCoordinates(uid, Vector2.Zero));
+                component.AudioStream = entity;
+            }
 
             Dirty(uid, component);
         }
     }
 
-    private Entity<BoomBoxAudioComponent> SetupAudio(byte[] fileBytes, AudioParams? audioParams, bool initialize = true, TimeSpan? length = null)
+    private bool TrySetupAudio(byte[] fileBytes, AudioParams? audioParams, [NotNullWhen(true)] out Entity<BoomBoxAudioComponent>? ent, bool initialize = true, TimeSpan? length = null)
     {
         var uid = EntityManager.CreateEntityUninitialized("Audio", MapCoordinates.Nullspace);
 
@@ -105,7 +108,15 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
                 BoomBoxAudioMetadata loadedMetadata;
                 using (var reader = new VorbisReader(new MemoryStream(fileBytes), false))
                 {
-                    reader.Initialize();
+                    try
+                    {
+                        reader.Initialize();
+                    }
+                    catch (InvalidDataException)
+                    {
+                        ent = null;
+                        return false;
+                    }
                     loadedMetadata = new BoomBoxAudioMetadata(reader.TotalTime, reader.Channels, reader.Tags.Title, reader.Tags.Artist);
                 }
                 length = loadedMetadata.Length;
@@ -121,6 +132,7 @@ public sealed class BoomBoxSystem : SharedBoomBoxSystem
             EntityManager.InitializeAndStartEntity(uid);
         }
 
-        return new Entity<BoomBoxAudioComponent>(uid, comp);
+        ent = new Entity<BoomBoxAudioComponent>(uid, comp);
+        return true;
     }
 }
