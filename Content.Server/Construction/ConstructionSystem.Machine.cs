@@ -1,6 +1,7 @@
 using System.Linq; // Frontier
 using Content.Server._NF.BindToStation; // Frontier
 using Content.Server.Construction.Components;
+using Content.Server.SelfShipyard.Events;
 using Content.Shared._NF.BindToStation; // Frontier
 using Content.Shared.Construction.Components;
 using Content.Shared.Construction.Prototypes;
@@ -19,6 +20,7 @@ public sealed partial class ConstructionSystem
     {
         SubscribeLocalEvent<MachineComponent, ComponentInit>(OnMachineInit);
         SubscribeLocalEvent<MachineComponent, MapInitEvent>(OnMachineMapInit);
+        SubscribeLocalEvent<MachineComponent, AfterShuttleDeserializedEvent>(OnMachineAfterDeserialized);
     }
 
     private void OnMachineInit(EntityUid uid, MachineComponent component, ComponentInit args)
@@ -38,6 +40,11 @@ public sealed partial class ConstructionSystem
     private void OnMachineMapInit(EntityUid uid, MachineComponent component, MapInitEvent args)
     {
         CreateBoardAndStockParts(uid, component);
+        RefreshParts(uid, component); // Frontier: get initial upgrade values
+    }
+
+    private void OnMachineAfterDeserialized(EntityUid uid, MachineComponent component, AfterShuttleDeserializedEvent args)
+    {
         RefreshParts(uid, component); // Frontier: get initial upgrade values
     }
 
@@ -76,7 +83,7 @@ public sealed partial class ConstructionSystem
         {
             for (var i = 0; i < info.Amount; i++)
             {
-                if(!TrySpawnInContainer(info.DefaultPrototype, uid, MachineFrameComponent.PartContainerName, out _))
+                if (!TrySpawnInContainer(info.DefaultPrototype, uid, MachineFrameComponent.PartContainerName, out _))
                     throw new Exception($"Couldn't insert machine component part with default prototype '{compName}' to machine with prototype {Prototype(uid)?.ID ?? "N/A"}");
             }
         }
@@ -85,7 +92,7 @@ public sealed partial class ConstructionSystem
         {
             for (var i = 0; i < info.Amount; i++)
             {
-                if(!TrySpawnInContainer(info.DefaultPrototype, uid, MachineFrameComponent.PartContainerName, out _))
+                if (!TrySpawnInContainer(info.DefaultPrototype, uid, MachineFrameComponent.PartContainerName, out _))
                     throw new Exception($"Couldn't insert machine component part with default prototype '{tagName}' to machine with prototype {Prototype(uid)?.ID ?? "N/A"}");
             }
         }
