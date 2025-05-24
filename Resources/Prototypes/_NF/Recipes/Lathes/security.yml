@@ -593,14 +593,16 @@
     Plastic: 100
     Glass: 20
 
-- type: latheRecipe
-  id: NFGrenadeBlast # Frontier: add NF prefix
-  result: NFGrenadeBlast # Frontier: add NF prefix
-  completetime: 3
-  materials:
-    Steel: 450
-    Plastic: 300
-    Gold: 150
+# Eclipse-Start : Remove blast grenade
+#- type: latheRecipe
+#  id: NFGrenadeBlast # Frontier: add NF prefix
+#  result: NFGrenadeBlast # Frontier: add NF prefix
+#  completetime: 3
+#  materials:
+#    Steel: 450
+#    Plastic: 300
+#    Gold: 150
+# Eclipse-End
 
 - type: latheRecipe
   id: NFGrenadeFlash

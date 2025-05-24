@@ -586,8 +586,10 @@
     contents:
     - id: NFWeaponLauncherChinaLakeExpedition
       amount: 1
-    - id: NFGrenadeFrag
-      amount: 2
+    # Eclipse-Start : Remove blast grenade
+    #- id: NFGrenadeFrag
+    #  amount: 2
+    # Eclipse-End
 
 #region LMG
 - type: entity
