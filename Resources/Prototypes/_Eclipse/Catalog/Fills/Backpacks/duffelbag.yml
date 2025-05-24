@@ -18,12 +18,14 @@
       - id: NFMagazineGrenadeFlash
         amount: 4
 
-- type: entity
-  parent: ClothingBackpackDuffelNfsdBrown
-  id: ClothingBackpackDuffelNfsdMagazineGrenadeBlastBundle
-  name: NFSD Blast magazine bundle
-  components:
-  - type: StorageFill
-    contents:
-      - id: NFMagazineGrenadeBlast
-        amount: 4
+# Eclipse-Start : Remove blast grenade
+#- type: entity
+#  parent: ClothingBackpackDuffelNfsdBrown
+#  id: ClothingBackpackDuffelNfsdMagazineGrenadeBlastBundle
+#  name: NFSD Blast magazine bundle
+#  components:
+#  - type: StorageFill
+#    contents:
+#      - id: NFMagazineGrenadeBlast
+#        amount: 4
+# Eclipse-End

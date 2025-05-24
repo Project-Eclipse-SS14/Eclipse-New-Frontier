@@ -16,7 +16,7 @@
     - Back
     - suitStorage
   - type: BallisticAmmoProvider
-    proto: NFGrenadeFrag
+    proto: NFGrenadeBaton # Eclipse
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-gorlex-steel-works
 

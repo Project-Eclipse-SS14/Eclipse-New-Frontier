@@ -89,10 +89,12 @@
   - type: StorageFill
     contents:
       - id: NFWeaponLauncherChinaLake # Frontier: WeaponLauncherChinaLake<NFWeaponLauncherChinaLake
-      - id: NFGrenadeBlast # Frontier: GrenadeBlast<NFGrenadeBlast
-        amount: 4
-      - id: NFGrenadeFrag # Frontier: GrenadeFrag<NFGrenadeFrag
-        amount: 4
+      # Eclipse-Start : Remove blast grenade
+      #- id: NFGrenadeBlast # Frontier: GrenadeBlast<NFGrenadeBlast
+      #  amount: 4
+      #- id: NFGrenadeFrag # Frontier: GrenadeFrag<NFGrenadeFrag
+      #  amount: 4
+      # Eclipse-End
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -105,11 +107,13 @@
       - id: NFWeaponRifleAssaultM90GrenadeLauncher # Frontier: WeaponRifleM90GrenadeLauncher<NFWeaponRifleAssaultM90GrenadeLauncher
       - id: NFMagazineRifle20 # Frontier: MagazineRifle<NFMagazineRifle20
         amount: 2
-      - id: NFGrenadeBlast # Frontier: GrenadeBlast<NFGrenadeBlast
-        amount: 2
+      # Eclipse-Start : Remove blast grenade
+      #- id: NFGrenadeBlast # Frontier: GrenadeBlast<NFGrenadeBlast
+      #  amount: 2
+      #- id: NFGrenadeFrag # Frontier: GrenadeFrag<NFGrenadeFrag
+      #  amount: 2
+      # Eclipse-End
       - id: NFGrenadeFlash # Frontier: GrenadeFlash<NFGrenadeFlash
-        amount: 2
-      - id: NFGrenadeFrag # Frontier: GrenadeFrag<NFGrenadeFrag
         amount: 2
 
 - type: entity
