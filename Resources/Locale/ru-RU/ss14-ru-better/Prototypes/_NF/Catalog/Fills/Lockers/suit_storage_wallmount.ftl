@@ -206,3 +206,7 @@ ent-SuitStorageWallmountNfsdCombat = { ent-SuitStorageNfsdCombat }
 # HASH: 9a1ea41b0cba745f4eac749750218c26abedb4bdce6888001e7375509106be1a
 ent-SuitStorageWallmountNfsdCommand = { ent-SuitStorageNfsdCommand }
     .desc = { ent-SuitStorageNfsdCommand.desc }
+# HASH: 3a2aa957ae6072b58df885e4ccf3fe1838004cac46c5869013f18232d9afa437
+ent-SuitStorageWallmountEVAStc = { ent-SuitStorageWallmount }
+    .desc = { ent-BaseWallCloset.desc }
+    .suffix = ЕВА, Диспетчер

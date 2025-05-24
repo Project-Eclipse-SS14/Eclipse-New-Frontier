@@ -1,20 +1,19 @@
-# HASH: 5ce23c25f88fe30ba9c2532395445319ffa72c7e2b170e8b80f245086c9d3120
+# HASH: 2411440e6d349b56fe71a762d9b47b704fd9d2446ace657accb90df5ccac9262
 ent-NFMobBearSpace = { ent-MobBearSpace }
     .desc = { ent-MobBearSpace.desc }
-    .suffix = Фронтир
-# HASH: dbb8e0a36467d5dd94e998eb4a3f6efe818c46ce0218e286ef1969ebe2209050
+# HASH: 5e627634fa37588184627f7a8cfd54b3c8b774cd9b97c6e7d080cc2ce31454aa
 ent-NFMobKangarooSpace = { ent-MobKangarooSpace }
     .desc = { ent-MobKangarooSpace.desc }
-    .suffix = Фронтир
-# HASH: 3ce092fdee8159e1d67e8f107533cfe5fe499b5c3e113d853e999d0c9e5612e9
+# HASH: c21892350bd601a564ec4acbceb0998011dbbb99cb838cc473c4a9f570d9dc94
 ent-NFMobSpiderSpace = { ent-MobSpiderSpace }
     .desc = { ent-MobSpiderSpace.desc }
-    .suffix = Фронтир
-# HASH: 0829155833d9451e19351baeeeb50e87d6ecab806e7ced73f61f5003e04973f4
+# HASH: 5f4b6bf983c600eaba88afd329d2d47522294c9ec1dcdb01fc4812599d85aad2
 ent-NFMobCobraSpace = { ent-MobCobraSpace }
     .desc = { ent-MobCobraSpace.desc }
-    .suffix = Фронтир
-# HASH: cdb3722519579f94e469c7900451150adc9a2a85e99b2fd93c6c191b608a7427
+# HASH: 51a18e14c7f418cd761fa25aafac30d88834c6c8c717fbf430ecd03305742e5c
 ent-NFMobTick = { ent-MobTick }
     .desc = { ent-MobTick.desc }
+# HASH: 85db431492aa2e8672e93f4ea7acf10c88b97b867b0d373107af63dc4880f041
+ent-NFMobSpaceBase = { "" }
+    .desc = { "" }
     .suffix = Фронтир

@@ -10,3 +10,7 @@ ent-SpawnMobWeaponTurretSyndicate = спавнер баллистической 
 ent-SpawnMobWeaponTurretLaserNanoTrasenDeployed = спавнер САЛТ
     .desc = { ent-MarkerBase.desc }
     .suffix = Фронтир, NT
+# HASH: 0023d5692a0005e8a5e431e1db136ec99d81931fbad501d0a52404a903f91ace
+ent-NFSpawnMobWeaponTurretLaserSyndicate = спавнер лазерной турели синдиката
+    .desc = { ent-MarkerBase.desc }
+    .suffix = Враждебная, Фронтир

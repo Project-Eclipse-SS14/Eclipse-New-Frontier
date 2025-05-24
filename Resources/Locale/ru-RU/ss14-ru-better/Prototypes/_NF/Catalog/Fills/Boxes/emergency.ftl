@@ -14,3 +14,11 @@ ent-NFBoxSurvivalExtended = { ent-BoxSurvivalEngineering }
 ent-NFBoxSurvivalExtendedNitrogen = { ent-BoxSurvivalEngineering }
     .desc = { ent-BoxSurvivalEngineering.desc }
     .suffix = Азот
+# HASH: d99b18ba2d1ca022e1b4bcd3fb903593455b1acaa7e3b7833084fffe03e1e064
+ent-NFBoxSurvivalSheleg = { ent-BoxSurvival }
+    .desc = { ent-BoxSurvival.desc }
+    .suffix = Кислород
+# HASH: 1fdae31ef8438960c06c0c502700c6cfdf31b4ef1a560123f093cb2112d12f0c
+ent-NFBoxSurvivalExtendedSheleg = { ent-BoxSurvivalEngineering }
+    .desc = { ent-BoxSurvivalEngineering.desc }
+    .suffix = Кислород

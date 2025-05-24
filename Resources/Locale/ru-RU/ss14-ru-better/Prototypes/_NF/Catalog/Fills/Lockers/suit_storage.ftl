@@ -158,3 +158,7 @@ ent-SuitStorageNfsdCombat = { ent-SuitStorageBase }
 ent-SuitStorageNfsdCommand = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
     .suffix = Командный ДСБФ
+# HASH: 282c8076fbfac296dd62743f8c4b49c4219668e5083df4c330bd3b52c7f9dfff
+ent-SuitStorageEVAStc = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА, Диспетчер

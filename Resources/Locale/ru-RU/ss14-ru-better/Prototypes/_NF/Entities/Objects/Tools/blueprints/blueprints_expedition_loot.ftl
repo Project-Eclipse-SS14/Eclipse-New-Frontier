@@ -7,3 +7,6 @@ ent-NFBlueprintWeaponXrayCannon = чертёж рентгеновской пуш
 # HASH: 83e73cd5a33bdb030421a2197f5c2705a55bfb555329bbefcc3e3a89d02c3102
 ent-NFBlueprintEnergyPickaxe = чертёж энергетической кирки
     .desc = Чертёж со схемой энергетической кирки. Его можно вставить в автолат или любой техфаб.
+# HASH: 8883f2f3af82cec067a02db99b9f637205f7550716f0043d45080cbe36651f8a
+ent-NFBlueprintWeaponTemperatureGun = чертёж температурной пушки
+    .desc = Чертёж со схемой температурной пушки. Его можно вставить в автолат или техфаб.

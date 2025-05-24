@@ -11,8 +11,8 @@ ent-NFPouchContractor = мешочек авантюриста
 # HASH: 926c3c8b86c9e26146a2fe9c3c04fd9e684ae03dfcf4fd0d90a0b0ce78413956
 ent-NFPouchSr = мешочек представителя станции
     .desc = { ent-NFPouchUtility.desc }
-# HASH: 18dc4b0a987b9a981f1b19c49090b827fb08042ce42d8c2bea6311813a9ecc15
 ent-NFPouchCaptain = мешочек капитана
+# HASH: 0b12c42bf847b6c71ac3b15973884d9d2232fe96d4381f71403633e9bb171dd7
     .desc = { ent-NFPouchUtility.desc }
 # HASH: 5d0159e34a59f83dfc919889cddb19d0ecbf1c1ccb043343608c0187b6b8989f
 ent-NFPouchEngineering = мешочек инженера
@@ -73,4 +73,7 @@ ent-NFTobaccoPouch = мешочек для табака
     .desc = Мешочек из синтетической кожи для безопасного хранения трубочного табака.
 # HASH: 6e7c6f6d4ae7a2beb77d6fbc0dc473ed7409d921532f9fa8cadcf0acfbf68d14
 ent-NFPouchPunk = мешочек панка
+    .desc = { ent-NFPouchBase.desc }
+# HASH: 75c129ca75492bb7693e586f5d8543c77c38eb668cef5c140dd78526002b4b68
+ent-NFGoblinMadeTrashPouch = мусорный мешочек
     .desc = { ent-NFPouchBase.desc }

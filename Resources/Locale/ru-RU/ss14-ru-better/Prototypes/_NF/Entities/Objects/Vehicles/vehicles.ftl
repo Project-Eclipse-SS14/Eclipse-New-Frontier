@@ -56,3 +56,6 @@ ent-VehicleHoverbikeSyndicate = ховербайк синдиката
 ent-VehicleHoverbikeSyndicateKey = { ent-VehicleHoverbikeSyndicate }
     .desc = { ent-VehicleHoverbikeSyndicate.desc }
     .suffix = Ключ
+# HASH: e9b10c5fe289b5fb677efeff3292187b1736389952ea7f038dbbb26a0059f4bf
+ent-NFGoblinMadeVehicleDumpster = мусорный контейнер на колесе
+    .desc = У него только одно колесо!

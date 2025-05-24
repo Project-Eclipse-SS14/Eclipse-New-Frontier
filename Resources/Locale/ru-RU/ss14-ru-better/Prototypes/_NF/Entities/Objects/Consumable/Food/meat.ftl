@@ -25,3 +25,6 @@ ent-FoodMeatGlazedHam = ветчина, глазированная медом
 # HASH: a7c59d8b93c8cd410d993edb6440c2cb86c6a513858479102a6378726180f6b3
 ent-FoodMeatGlazedHamSlice = ломтик ветчины, глазированный медом
     .desc = Ломтик замечательной ветчины, политый восхитительным медом.
+# HASH: c4f5fe70385f2049365dd9d64b8b8afbbbb8a09271c21cac2f32648f3f9a3253
+ent-FoodMeatSheleg = сырое мясо шелега
+    .desc = Кусок холодного... мяса?

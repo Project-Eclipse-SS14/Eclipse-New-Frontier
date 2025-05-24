@@ -82,3 +82,6 @@ ent-StorageFillEVASuitLvhi = { "" }
 # HASH: 2fd3f9aa35c43ba4794c2752e1f37292a9203ee352c0032ce22c8cd7b73e02af
 ent-StorageFillEVASuitFsb = { "" }
     .desc = Содержит стандартный костюм Фар Стар Биотеч (FSB) EVA.
+# HASH: d7c056e7782c3240f8369393b544de4f8847ef7cf467ba9d2f094b76516e7072
+ent-StorageFillEVASuitStc = { "" }
+    .desc = Содержит стандартный набор EVA диспетчера станции.

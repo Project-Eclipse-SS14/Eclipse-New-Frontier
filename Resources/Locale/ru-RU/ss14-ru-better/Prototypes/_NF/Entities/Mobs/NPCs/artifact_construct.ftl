@@ -5,7 +5,7 @@ ent-SimpleArtifactMobBase = { "" }
 # HASH: 7395bc5190cf3473d58f63c6be69e4e4dcd507f891a5bd2cad1853d37a776c16
 ent-BaseMobArtifactConstruct = артефактный голем
     .desc = { ent-SimpleArtifactMobBase.desc }
-# HASH: 4e118006624a01d1b7f2b8d6c4a46641af4d474d58fe5460a8be02414af1f2e9
-ent-MobGrimForged = артефактный голем
-    .desc = Огромный голем, созданный из искореженного металла и камней.
+# HASH: 8bf8a7b89872600d0892053e20d1543ed2f94c31f04fd8a721153edf7bcf68e6
+ent-MobGrimForged = мрачная конструкция
+    .desc = Возвышающийся голем, созданный из витого металла и древних камней.
     .suffix = ИИ

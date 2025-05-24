@@ -1,27 +1,21 @@
-# HASH: 2d5317c8d4a21600498d040ef9cae2450f3a4533d5b2ddca849f965bc972b6ed
-ent-MedicalTrackingImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: 9e83edb0ecb8f5c787e780e150132f963d026e2061c0eca624ea12a2197d59b9
+ent-MedicalTrackingImplanter = имплантер медицинский трекер
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Медицинский трекер
-# HASH: ce2173d3871d534ddcc1cc816a46308d43842e9e8a0d439ed6670796bb1c0ee2
-ent-FreelanceTrackingImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 4b2599031c5616e5f2bd56e9ad98eda09df9cbca1329767818a101883bb28a5f
+ent-FreelanceTrackingImplanter = имплантер синдиката фриланс
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Фриланс
-# HASH: 73c8d289ae9f01c63dc2b6972f1c68f4b93a9e26de2c655b02f0641e185b2bd0
-ent-DeathAcidifierImplanterNF = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: ace0e0118b3f0a51ee4d14f19d8fd3fd3998a7cddb638b32e48015ca1a5cdd99
+ent-DeathAcidifierImplanterNF = имплантер синдиката посмертный растворитель
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Посмертный растворитель
-# HASH: 6ffb971c69aa9188b2bff59bc1ea580773cd4fd4dca658b19c9bb74f5a04fda7
-ent-GibAcidifierImplanterNF = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 83015b41fe7259071c73983d3e20675e0d11346dc6ef7325eed1fa4f77cb89fd
+ent-GibAcidifierImplanterNF = имплантер синдиката посмертный растворитель
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Посмертный растворитель
-# HASH: 9cb0a926eb8abdf62f8a1f99f5af37d1293b345c23a28e0afa56dcd0636d1530
-ent-BibleUserImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: d777da9dc36aee0dc1f761c4ff2c4005bea5dc858bd268c65f2196adfe240ca1
+ent-BibleUserImplanter = имплантер вера
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Вера
-# HASH: 36446ac1fce453044d5bf3e0b4d5e0268b4c78481b661cb84a785e22774602a5
-ent-MimePowersImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: 08c55b81d29bcaf30192cb6b3b673943b2a8404f8534338792bd82a0c588323e
+ent-MimePowersImplanter = имплантер обет мима
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Обет мима
 # HASH: 8ba4d8bde1d8f3b050521876a9154a6d4d3e563870ddd6d5318478f47ea06125
 ent-MedicalTrackingImplanterLabeled = { ent-MedicalTrackingImplanter }
     .desc = { ent-MedicalTrackingImplanter.desc }
@@ -38,7 +32,6 @@ ent-LightImplanterLabeled = { ent-LightImplanter }
 ent-BikeHornImplanterLabeled = { ent-BikeHornImplanter }
     .desc = { ent-BikeHornImplanter.desc }
     .suffix = Хонк
-# HASH: 0ef8793feaf41d43407c518b3d2e7158175e17c0c8318d99553b7eb9750243fd
-ent-RadioImplanterFreelance = { ent-BaseImplantOnlyImplanter }
+# HASH: 8a49e3456787ed70ba8226b65471b0a81b38e811e07ec9b1ca356afa859c1d89
+ent-RadioImplanterFreelance = имплантер радио фриланс
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Радио Фриланс
