@@ -10,7 +10,10 @@ lobby-state-player-status-ready = Ready
 lobby-state-player-status-observer = Observer
 lobby-state-player-status-round-not-started = The round hasn't started yet
 lobby-state-player-status-round-time =
-    The round time is: {$hours} {$hours ->
+    The round time is: {$days} {$days ->
+    [1]day
+    *[other]days
+    }, {$hours} {$hours ->
     [1]hour
     *[other]hours
     } and {$minutes} {$minutes ->

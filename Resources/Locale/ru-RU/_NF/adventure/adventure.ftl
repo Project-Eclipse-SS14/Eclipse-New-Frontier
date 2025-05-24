@@ -13,7 +13,7 @@ adventure-webhook-ledger-start = Бухгалтерский учёт
 adventure-webhook-footer =
     Сервер: { $serverName }
     Раунд: #{ $roundId }
-nf-adventure-title = Авантюрист
+nf-adventure-title = Исследование Фронтира
 nf-adventure-description = Исследуйте неизведанные уголки космоса, проводите научные исследования, занимайтесь спасательными операциями или транспортировкой грузов и прокладывайте свой путь к богатству!
 nf-pirate-title = Пираты
 nf-test-title = Тестовый пресет
