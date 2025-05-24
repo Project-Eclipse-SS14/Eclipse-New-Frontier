@@ -75,3 +75,6 @@ rich_main_icon_id = "https://shorturl.at/nHmHm"
 
 [chat]
 max_message_length = 3000
+
+[salvage]
+expedition_duration = 2400 # 40 minutes
