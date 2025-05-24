@@ -13,7 +13,7 @@ ent-CigPackRed = пачка сигарет DromedaryCo
 # HASH: 4062fc1fa3ba27985ece0efb93e9fea9d6dc142ff18bb7afdfe0a8c0d4a5301f
 ent-CigPackBlue = пачка сигарет AcmeCo
     .desc = Для тех, кто зачем-то хочет побить рекорд по наибольшему количеству раковых опухолей.
-# HASH: d027e97fec81490581094ff86192c3efe97b625ec002c116c51e334846c1d32c
+# HASH: b306fd3fc523270ec704b3f0b22984c8a993bc65dd86a9d2f2427893b76013c1
 ent-CigPackBlack = пачка сигарет Nomads
     .desc = "Nomads's extra strong" для тех случаев, когда ваша жизнь становится слишком тяжёлой.
 # HASH: d2465acaa0c28a988d4f5d77827b16b20fe041bd8fdfdc1729b7079b9040a59f

@@ -1,4 +1,4 @@
-# HASH: 4c487f6d0afdc1302cf8b4a4680e02c38f4cfdf632c1614997e6efe384f65f5d
+# HASH: f8a9eb8a4975c1bd04054efedb8921c66b5ddb3d928e88e6ebcd29e015a9388e
 ent-LightReplacer = лампозаменитель
     .desc = Устройство, использующее магниты для лёгкой замены сломанных лампочек. Чтобы пополнить, поместите лампочки в лампозаменитель.
 # HASH: e82425af94b8be3fde376acf2cc5df741b2037acfff7a409165d6c028503e1a7

@@ -1,6 +1,6 @@
-# HASH: 2304e71e91e6b930de46a3af62712543082384bc3f0c059b34fb885f2c06b843
-ent-BaseOilJar = { ent-DrinkBottleBaseEmpty }
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
+# HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
+ent-BaseOilJar = { ent-BaseItem }
+    .desc = { "" }
 # HASH: 0fc0cbd9da9109215002b7d7849651b2de932e7f38135a97345b59db46b35130
 ent-OilJarGhee = банка гхи
     .desc = Большая банка из тонированного стекла с простой этикеткой, на которой изображено сливочное масло.

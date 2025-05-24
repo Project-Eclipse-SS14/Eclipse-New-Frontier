@@ -4,19 +4,19 @@ ent-PortableGeneratorBase = { "" }
 # HASH: d34ef7d2d9bd470120ff86fcbe361ceb4d0c239296b603e0d7077b6b027ed0ee
 ent-PortableGeneratorSwitchableBase = { ent-PortableGeneratorBase }
     .desc = { ent-PortableGeneratorBase.desc }
-# HASH: e74171381f5fda6c26f50af60100035f4b03d7204eb68e545f0761c8f70bc3b9
+# HASH: e50bea59244ee2436b300a407102082ff8b886ae570c10de85553f1fb7db5933
 ent-PortableGeneratorPacman = портативный генератор П.А.К.М.А.Н.
     .desc =
         Гибкий резервный генератор для обеспечения питанием различного оборудования.
-        Работает на листах твёрдой плазмы и может выдавать мощность до 15 кВт.
+        Работает на листах твёрдой плазмы и может выдавать мощность до 25 кВт.
     .suffix = Плазма, 15 кВт
-# HASH: 428e6bcb61e6eb7ad976d2586b4e2e5c263a9723b1a6c1d2bd69d7a8d5ccbb75
+# HASH: 02cbe696720d3c5767e6771d48fdf69c2d8b848904dd20de60637913369f721c
 ent-PortableGeneratorSuperPacman = портативный генератор С.У.П.Е.Р.П.А.К.М.А.Н.
     .desc =
         Продвинутый генератор для обеспечения питанием целых отделов.
-        Работает на листах урана и может выдавать мощность до 30 кВт.
+        Работает на листах урана и может выдавать мощность до 50 кВт.
     .suffix = Уран, 30 кВт
-# HASH: b230331c841e16959b9c1c4ff7792536ab025e3ed67585743b9d4ef1e11eca51
+# HASH: c3b60ab92258bc6da6cd4e4fa51fefeac5c134dfe7ad45ab1e6f8774068961bd
 ent-PortableGeneratorJrPacman = портативный генератор М.И.Н.И.П.А.К.М.А.Н.
     .desc =
         Небольшой генератор, способный обеспечивать электропитанием отдельные помещения при возникновении аварийных ситуаций.

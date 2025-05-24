@@ -28,22 +28,22 @@ ent-GunSafeDisabler = оружейный сейф станнеров
 # HASH: 9e306e95bf49bf7af460fb8aec37cdfc7bc6e3c9a706a87ea33c3758ec8e677c
 ent-GunSafePistolMk58 = оружейный сейф MK58
     .desc = { ent-GunSafeBaseSecure.desc }
-# HASH: 06938e541dbac5f09be7c97f82de4cc09b3e46010380c7b95564b4d8bf04b082
+# HASH: 308957c6d30e5d1b2c44ece0448302a7f16f66b6b1ccb4a63bcbb5950ff7180d
 ent-GunSafeRifleLecter = оружейный сейф Лектеров
-    .desc = { ent-GunSafeBaseSecure.desc }
-# HASH: cce34c7ba32b4ea8d9f4b31626148a0fd945f6db1ebfdcb520a34b7e1490b56a
+    .desc = { ent-ClosetBase.desc }
+# HASH: bddad4cafa3e77814b2d67cc06d6d9f66b4dbb682b5f8f835fdcd783bf089949
 ent-GunSafeSubMachineGunDrozd = оружейный сейф Дроздов
-    .desc = { ent-GunSafeBaseSecure.desc }
-# HASH: 0b95732c2d4bde4acbfdf21ae9e93be708fe5039ab88cd1d0704edcc1f1ae3b7
+    .desc = { ent-ClosetBase.desc }
+# HASH: 40eb05476197330d0ebf364a3fa9e14283573a304539c030bcf4043411b93f00
 ent-GunSafeShotgunEnforcer = оружейный сейф Силовиков
-    .desc = { ent-GunSafeBaseSecure.desc }
-# HASH: 10997c099723de8dd6dcad9fcbaa8ce69f877ecfcf8dfae801731f4abbca1c8a
+    .desc = { ent-ClosetBase.desc }
+# HASH: d73866b3d55f9ce413c0d7e36f98facbd1ac48246e22faa308a49e7480905984
 ent-GunSafeShotgunKammerer = оружейный сейф Каммереров
-    .desc = { ent-GunSafeBaseSecure.desc }
-# HASH: d8227cc5203cc890114c8cd9a566273527bc5b69d74be7ae588a7e41312cf48e
+    .desc = { ent-ClosetBase.desc }
+# HASH: e4e6b1b55cdf26ad5da4d08014cd3a52e1a3d1105c53396c5d98c508f1224955
 ent-GunSafeSubMachineGunWt550 = оружейный сейф WT550
-    .desc = { ent-GunSafeBaseSecure.desc }
-    .suffix = WT550
+    .desc = { ent-ClosetBase.desc }
+    .suffix = Wt550
 # HASH: e0131caef591d5a85e33f5fcded8bf09372ef0b716a6c12168f0b73efeb41028
 ent-GunSafeLaserCarbine = оружейный сейф лазерных карабинов
     .desc = { ent-GunSafeBaseSecure.desc }

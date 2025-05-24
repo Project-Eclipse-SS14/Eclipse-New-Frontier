@@ -139,7 +139,7 @@ ent-SubstationMachineCircuitboard = подстанция (машинная пл�
 # HASH: b3fa2a2ffec6f484862887134569c3f419a8d83fc7b534a95ffec681347e6978
 ent-DawInstrumentMachineCircuitboard = цифровая звуковая рабочая станция (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-# HASH: 69250053bdf11a42f689e52ecdf8e17cc5564991d83fd1cb79afd354e24c6799
+# HASH: a3222a73dc3c2543f35e23888bc20ab8cdca56d73095b070d55553d81b9dee00
 ent-PortableGeneratorPacmanMachineCircuitboard = портативный генератор П.А.К.М.А.Н. (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
 # HASH: b0f74db60d6abd8d2cddbfb790485c1d445a61f0713cfdf0000dda9d4e92250a
@@ -148,10 +148,10 @@ ent-ThrusterMachineCircuitboard = ракетный двигатель (маши�
 # HASH: cc167e33dd1c8d2ff569a428b156305ce70fe22e11f4e10a6d7e1c976dafd846
 ent-GyroscopeMachineCircuitboard = гироскоп (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-# HASH: eb5568cec521294d73de5d17231ca1e05a9286504ae63f421c69259686d0c168
+# HASH: 3dd738635084c04dfb71cd96a0d5cb22b413ffaaf2e6a49eeecad4d2d34a3534
 ent-PortableGeneratorSuperPacmanMachineCircuitboard = портативный генератор С.У.П.Е.Р.П.А.К.М.А.Н. (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-# HASH: 858062fc3a9364e203c8494c97224bcf659491eb7ac65769c0e4c75687366d53
+# HASH: 86bfccdd8327667bdbb2b5aed3709219716dab8ce1015f1ace4d1b23e643661b
 ent-PortableGeneratorJrPacmanMachineCircuitboard = портативный генератор М.И.Н.И.П.А.К.М.А.Н. (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
 # HASH: 9d56b8af282093f21da2183780525e8653cf83117edcde063b76d389a7a7fae2
@@ -184,9 +184,9 @@ ent-SheetifierMachineCircuitboard = лист-мастер 2000 (машинная
 # HASH: 58e57d7fadcf8b71a2324cd85911a54d416ee6b1b44ebbe65e332f2848f4be6d
 ent-MicrowaveMachineCircuitboard = микроволновка (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
-# HASH: 0b287aea202e5fc9091f24ca924a56f768ce25f1f3db54456d0e7b382f3475da
+# HASH: 9c7a5c26a733e3e2f41fee7917cfa1d1b836e2410d4a276b45cacc863947efb8
 ent-SyndicateMicrowaveMachineCircuitboard = микроволновка Donk co. (машинная плата)
-    .desc = { ent-BaseMachineCircuitboard.desc }
+    .desc = { "" }
 # HASH: 697c368c28ed62de42ce84980281475f63ff4060e11a4958564049cc41d093ea
 ent-FatExtractorMachineCircuitboard = экстрактор жира (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }

@@ -5,17 +5,17 @@ ent-AsteroidRock = астероидный камень
 ent-AsteroidRockCoal = { ent-NFAsteroidRockOre }
     .desc = Рудная жила, богатая углём.
     .suffix = Уголь
-# HASH: 3b5691171cccd512be812b4bc2dd4c51c21a749a7b19f18f5144a5e34ab1bc62
-ent-AsteroidRockCoalCrab = { ent-AsteroidRock }
-    .desc = Рудная жила, богатая углём.
+# HASH: 73a46bf9446bc7236d9b3160b5f4cbb2c3ab2b8e8eb36ddaa6ca2e94ecb0d99a
+ent-AsteroidRockCoalCrab = { ent-AsteroidRockCoal }
+    .desc = { ent-AsteroidRockCoal.desc }
     .suffix = Угольный Краб
 # HASH: 228430a601c50358ed8fe46ce07fd610c81108f65bd72befd66ec23cb3c99471
 ent-AsteroidRockGold = { ent-NFAsteroidRockOre }
     .desc = Рудная жила, богатая золотом.
     .suffix = Золото
-# HASH: 97062e9eabf57d8571071a5e118bd6e41b97c23a96df330e105283ab05491738
-ent-AsteroidRockGoldCrab = { ent-AsteroidRock }
-    .desc = Рудная жила, богатая золота.
+# HASH: bc97fe8f8aadc3c89c210ac24f33b4d25ebe8c10a2ce276ab9fe72aafe1e65de
+ent-AsteroidRockGoldCrab = { ent-AsteroidRockGold }
+    .desc = { ent-AsteroidRockGold.desc }
     .suffix = Золотой Краб
 # HASH: e9c51fa4d56639408f249f94a9d100c2017f1afea978f91d64824c7f0de0d54b
 ent-AsteroidRockDiamond = { ent-NFAsteroidRockOre }
@@ -29,10 +29,10 @@ ent-AsteroidRockPlasma = { ent-NFAsteroidRockOre }
 ent-AsteroidRockQuartz = { ent-NFAsteroidRockOre }
     .desc = Рудная жила, богатая кварцем.
     .suffix = Кварц
-# HASH: 6d3925c3c733a67645257767262edf1253722b24169abfded359910de0e6efe0
+# HASH: 105820fa6dbba6de5f457d977079fa7d66ac332e2567cebee00aa3d033ad9918
 ent-AsteroidRockQuartzCrab = { ent-NFAsteroidRockOre }
-    .desc = Рудная жила, богатая кварцем.
-    .suffix = Кварц, Рудокраб
+    .desc = { ent-NFAsteroidRockOre.desc }
+    .suffix = Кварцевый Краб
 # HASH: e4daa24cc0afb2c716d698c7994ac5b7420eb0d0ec7f1bc551d97922caa701a7
 ent-AsteroidRockSilver = { ent-NFAsteroidRockOre }
     .desc = Рудная жила, богатая серебром.

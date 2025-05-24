@@ -1,6 +1,6 @@
-    .desc = Вмещает до 25 болтов и плотно сидит на поясе.
 # HASH: ebcc1dd1d3d106118869d0b820f8541f3459a0651b1a1b159e576641a5770aeb
 ent-ClothingBeltQuiverCrossbow = колчан (болты, любые)
+    .desc = Вмещает до 25 болтов и плотно сидит на поясе.
 # HASH: 4d27b0b014a4a8b8de14948616869e0497b582cea713660fa52a9ef1ad1de6ac
 ent-ClothingBeltQuiverCrossbowFilledBolt = колчан (болты)
     .desc = { ent-ClothingBeltQuiverCrossbow.desc }

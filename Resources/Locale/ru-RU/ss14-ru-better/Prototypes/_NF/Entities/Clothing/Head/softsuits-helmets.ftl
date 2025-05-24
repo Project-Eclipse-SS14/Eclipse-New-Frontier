@@ -85,9 +85,9 @@ ent-ClothingHeadEVAHelmetPrisoner = шлем скафандра EVA заключ
 # HASH: 888e98c875da1810a2bef870c6b604b402e18d6107c016de5de9e3ce1ba58bc8
 ent-ClothingHeadEVAHelmetLvhi = шлем LHVI EVA
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
-# HASH: 944023c7d7efe2f4f6c2bfe3b8c46c0edcbccfca947963ad08f709ce383f79c6
+# HASH: d62d0a0d173e83d69317c022209f42b004da5a3035efde47af22a5ddadbffd78
 ent-ClothingHeadEVAHelmetArcadia = шлем аркадиа EVA
-    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+    .desc = { "" }
 # HASH: 8f0273e8736f565291b5cc1f4ba49843bdd3a7b981ea983deec39b50098fb1d8
 ent-ClothingHeadHelmetHardsuitFSB = пустотный шлем FSB
     .desc = Легкий костюмный шлем, который не стесняет движений головы. Встроенный источник света!
