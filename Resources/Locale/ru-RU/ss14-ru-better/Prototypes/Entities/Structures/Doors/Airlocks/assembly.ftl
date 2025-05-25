@@ -146,3 +146,11 @@ ent-AirlockAssemblyShuttleSyndicateGlass = { ent-AirlockAssembly }
 ent-AirlockAssemblyHighSec = { ent-AirlockAssembly }
     .desc = { ent-AirlockAssembly.desc }
     .suffix = Бронированная дверь
+# HASH: b1a489c40a02e230b81173b677396517539b22e911f483c0bd8ffa79979a0934
+ent-AirlockAssemblySalvage = { ent-AirlockAssembly }
+    .desc = { ent-AirlockAssembly.desc }
+    .suffix = Утилизатор
+# HASH: 288fa9a7997ea2b5b11a76c1f4a3fb2e679545f4668d99e0922848b387148d28
+ent-AirlockAssemblySalvageGlass = { ent-AirlockAssembly }
+    .desc = { ent-AirlockAssembly.desc }
+    .suffix = Утилизатор, Стекло

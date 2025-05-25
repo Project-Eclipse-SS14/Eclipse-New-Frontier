@@ -4,13 +4,13 @@ ent-BaseSubfloorAnchorStorage = { "" }
 # HASH: b4cb30e557521d61ff6fd8d8de1a0bd09ffcff5d3dcd6116b5c66dbd228afb60
 ent-BaseSubfloorAnchorStorageAnchored = { ent-BaseSubfloorAnchorStorage }
     .desc = { ent-BaseSubfloorAnchorStorage.desc }
-# HASH: 428ea78bf6b147f787b8dc62ece2e154a45bcd44ddf6925182d0c59837a297ce
+# HASH: dd0e083e01bf7c8eb8200d0c07652b62be9fe7ad4aa20d0ceabdf532683136c9
 ent-ClothingBackpackSatchelSmuggler = сумка контрабандиста
-    .desc = Грязный, подозрительного вида ранец.
+    .desc = Удобный, подозрительного вида ранец. Достаточно плоский, чтобы поместиться под напольной плиткой.
     .suffix = Пустой
-# HASH: a4480250a37617f886d55d75e31f993e869655510bb3cf25544e55acb0ad7d8f
+# HASH: 021c17feadc8e4ab8145280c501b1f0170fc22c4290243e75978e819c2f2ec39
 ent-ClothingBackpackSatchelSmugglerUnanchored = сумка контрабандиста
-    .desc = Грязный, подозрительного вида ранец.
+    .desc = Удобный, подозрительного вида ранец. Достаточно плоский, чтобы поместиться под напольной плиткой.
     .suffix = Пустой, Незакрепленный
 # HASH: 34d8f099e74cb503ff6f7169ad587077ab0efdf294a709a7bf17931707cbf3f2
 ent-BriefcaseSmugglerCash = чемодан контрабандиста

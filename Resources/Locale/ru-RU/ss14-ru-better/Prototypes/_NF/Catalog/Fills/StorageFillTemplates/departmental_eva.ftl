@@ -85,3 +85,6 @@ ent-StorageFillEVASuitFsb = { "" }
 # HASH: d7c056e7782c3240f8369393b544de4f8847ef7cf467ba9d2f094b76516e7072
 ent-StorageFillEVASuitStc = { "" }
     .desc = Содержит стандартный набор EVA диспетчера станции.
+# HASH: 9d809a7364055cfba56f97d77693ff02a4276165080028af02242a8705db76ca
+ent-StorageFillEVASuitParamedicAlt = { "" }
+    .desc = Содержит стандартный набор EVA парамедика.

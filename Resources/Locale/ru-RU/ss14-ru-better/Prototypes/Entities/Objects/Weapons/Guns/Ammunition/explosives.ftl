@@ -37,3 +37,6 @@ ent-CannonBallGrapeshot = картечь
 ent-CannonBallGlassshot = стеклянная картечь
     .desc = { ent-BaseCannonBall.desc }
     .suffix = Пираты
+# HASH: eff762679322fa32fdd25704164621ec5027627e0d7108935b056640769e325c
+ent-GrenadeCleanade = гранатомётный чистящий патрон
+    .desc = { ent-BaseGrenade.desc }

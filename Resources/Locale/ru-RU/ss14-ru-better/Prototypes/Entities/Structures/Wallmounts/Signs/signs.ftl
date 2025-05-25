@@ -464,3 +464,6 @@ ent-SignSurvival = знак "Выживание"
 # HASH: e5d911e6ab5f98a20c40756ad7cc86c39dbb70454c1f4a1fbfbfbee75174e25c
 ent-SignNTMine = знак "Шахта"
     .desc = Знак. На нём написано "Шахта".
+# HASH: c8a1bd3518ced62d9fe811bb5b43822c7dafc971afdc5966c36a2fa22ec9170e
+ent-SignGenpop = знак генпопа
+    .desc = Табличка с указанием тюрьмы для генпопов.

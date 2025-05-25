@@ -1,66 +1,72 @@
-# HASH: 4e2c40b048073090161fd42580fafa465c592ba953f7fe4da28ae94f84db72f4
+# HASH: 2d0a75f38bbd0ed3fa64517f6b8249f960ccd946e0b2072e1652347d9ba76450
 ent-LockerWallEVAColorCaptain = настенный шкаф EVA капитана
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 8465ef4522978eb0c9049c6ce813819b3d1b67b5993a95ba939265b492052526
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 664b5167ce66e128c65fb9f670bcf2d0eefccdd6f539722d63e4fe4cc40d5e59
 ent-LockerWallEVAColorSr = настенный шкаф EVA представителя
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: f936cf75d26d8c855303699ca7e794830d6def77a2250475511a610ba16a382a
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 168f7b8dd894596d2407b8b6aa34b6e1b89e58edc5ae67713dae9654a9b33f1c
 ent-LockerWallEVAColorEngineer = настенный шкаф EVA инженера
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: a412e8dfadf9e72fc4194da39c2c4b457a995cfad6d727d5972173ddae988e19
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: aaa1dff68cd6d0969970161b346422089dc8a42d818c75e63260d7caf0d2c0b2
 ent-LockerWallEVAColorAtmosTech = настенный шкаф EVA атмосферного техника
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 4d9f67abca35603fd7fab30e81b4f37779adb5c2ea28305f6a54e61918c2724d
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 3218c5b30bb00997b58012dd80ea5770b1c9ebb32cdfd270373835e28618a202
 ent-LockerWallEVAColorCargo = настенный шкаф EVA грузчика
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 4945909e7d8575886f19803b3350df9f4a8ffe873aa8422077c32bf667b34f00
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: c93ab83f519ab8d9a492047250cceac3d8d223553749020440818703def1d913
 ent-LockerWallEVAColorSalvage = настенный шкаф EVA утилизатора
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 6185370caa902b6a1e021a9cbea1a051455bc2b3b52107ebcaf2c4326f5fcd2f
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 3364e24ebf0a351a48e876385beacb0c6a23e7f31611089afb37f0db760fff8f
 ent-LockerWallEVAColorMedical = настенный шкаф EVA врача
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 9f4b1ae8a3def0de087e1e9fbef38459c300cfc071499ea9f864a7709cb92104
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 69cec03489d91696c2d510357d079ad2a72ff3ad78b00cfd462d98a3004a9f99
 ent-LockerWallEVAColorScientist = настенный шкаф EVA учёного
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 472d3980cb780fe6685bbff88cfd159ad99fe68e5dd9e652b46e44fe25cb770d
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 79475ad8ac1a1901e944a61b5fdd4861dc546584b89959beddb76a04de371fcd
 ent-LockerWallEVAColorJanitor = настенный шкаф EVA уборщика
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: d18495384d3783d2095ff565f80fcb01fbc7d9325010aee6f5c925022ebd408f
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: b60dcdbc517f3219e65b427b9178790f4311e794f822d52bbad75fe0630b29ca
 ent-LockerWallEVAColorMail = настенный шкаф EVA почтальона
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 3c1d985eb1c15577468a69f1b6a2bfd9ddc892aab9ba31a1a7c917b69f61b60f
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 01af98e5efc0482bc57a4a3825bda707af327f117983985b9352ad18c0998375
 ent-LockerWallEVAColorHydroponics = настенный шкаф EVA ботаника
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: ca0efd545610bf1275692f26743f4016f4876dee6ba7bd8cb778a5efa27050ab
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 122e053e4dbb68a80f4ce7e5421761c4f3daedd2706357119f8a119fb82862cb
 ent-LockerWallEVAColorServiceWorker = настенный шкаф EVA сервиса
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 378f2c4840f7ca1fb0a6665d8d39f2857d7398ce84ec9673fe2d14642b1d76c3
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: b5273319943b043a9ab8e0cc96e62e1f9c78f318ac77975015377e01a27645c4
 ent-LockerWallEVAColorChaplain = настенный шкаф EVA священника
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 9f9f87cdda1eee0a848206ad22756f41fab148c6094a58ac3d0f9d1f9ff48bc9
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: a098118159dbe87fdbeaf783cbda3433a58b5e0883ed9facf8947104bc2da676
 ent-LockerWallEVAColorNfsd = настенный шкаф EVA ДСБФ
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 92a5743334a75475f86aae26a89d964952bf10efdecbdb5c8e29246a75a1fa62
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: abb4eb282c6e2bd3fc309b6c33ac4be2279e0896ad867e02c568546e5060f1fa
 ent-LockerWallEVAColorContractor = настенный шкаф EVA авантюриста
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: d101be2ffe348282a86d6efd75eec4c281551a2314fe97fbfd2324e7b2c089b6
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 99b73339811ebcbbc6381608324477e537302d88f5b148cb6d9aaffcb80b7fab
 ent-LockerWallEVAColorPilot = настенный шкаф EVA пилота
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 5719da56c774187519921abaa4cbeeefe06c66e6c0c2efc247a08e7a22343ea9
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 282493c6990217e85ac52557cc60dffcf6173bba130846ff2c3da5ab5cb64fb6
 ent-LockerWallEVAColorMercenary = настенный шкаф EVA наёмника
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: d82ef8f5f9545e2d86960974543f42b85c553b4e02f9b90687f28e549c73d7f4
-ent-LockerWallEVAColorPrivateSec = настенный шкаф EVA телохранителя
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: f84cb96584f7580cdb093d2fd8cb1ef61ec0b8c32971350f759f5ac1d3ca33da
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: d37ec804f3e23574e39d91b18215f17b14e84978435778217bffa8355ec7e502
+ent-LockerWallEVAColorPrivateSec = настенный шкаф EVA частной охраны
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: f8aa2ca1b8614ee25f6428109b724b24e389f7fbcfcb35d0645b88d0c4887550
 ent-LockerWallEVAColorGeneric = настенный шкаф EVA
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 8898aa8ffbb1fd69cb84447908181beb258a2a39391256cff0664d99c6686b57
+ent-LockerWallEVAColorEmergency = аварийный настенный шкаф EVA
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 770a51ec6cf0c3e7fdc89647fd80fa6e8669b79cec89478f63520f83c904523a
+ent-LockerWallEVAColorLvhi = настенный шкаф EVA LHVI
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 2dea2cb99a77526968bcacc700d5df3aebcb59519ae1e5447d0f6ce013cabfd0
+ent-LockerWallEVAColorFsb = настенный шкаф EVA FSB
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 57192e0123c9ff65f14dcdfd0007756f44d048aa084d83a7a6f6218b5af1d06a
+ent-LockerWallEVAColorStc = настенный шкаф EVA диспетчера
     .desc = { ent-LockerWallColorBase.desc }
-# HASH: 06a478c8fde15bfc1e8d3330b40f3d319b60cc78f91377acc928af47495fb2eb
-ent-LockerWallEVAColorEmergency = аварийный настенный шкафчик EVA
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 585be563e69eda473e03705c9546c52b9b548b91783f484f580be2d7aaa1ed5c
-ent-LockerWallEVAColorLvhi = Настенный шкафчик EVA LHVI
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 8d106a9cc494982ee3d75171fca59d8593a242701c8e89e9a074a6ce383c0151
-ent-LockerWallEVAColorFsb = Настенный шкафчик EVA FSB
-    .desc = { ent-LockerWallColorBase.desc }
+# HASH: 71e69b4be887b9ca4995552175d928706830b13ca0f8d43f3f68ce6b514dd27e
+ent-LockerWallEVAColorParamedic = настенный шкаф EVA парамедика
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }

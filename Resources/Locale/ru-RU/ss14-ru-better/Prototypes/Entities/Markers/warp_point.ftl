@@ -8,3 +8,6 @@ ent-WarpPointBeacon = точка спавна (маяк)
 ent-WarpPointBombing = точка спавна
     .desc = { ent-WarpPoint.desc }
     .suffix = Цель взрыва бомбы ниндзя
+# HASH: a99029dcc50f712a9416f455add6c0f481f75352ce7b62ca8d4f1bfca94fe8c5
+ent-GhostWarpPoint = точка спавна (Только призрак)
+    .desc = { ent-MarkerBase.desc }

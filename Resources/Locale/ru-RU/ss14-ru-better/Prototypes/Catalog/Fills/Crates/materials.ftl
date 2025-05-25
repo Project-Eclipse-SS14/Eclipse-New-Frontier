@@ -16,9 +16,9 @@ ent-CrateMaterialWood = ящик дерева
 # HASH: 5635248a1d2c481bf413dc2e65a75b802e9528d9a5a6036d06bf6895791da938
 ent-CrateMaterialBrass = ящик латуни
     .desc = 90 единиц латуни.
-# HASH: 68ddeb61271fb055784a5771ffb1321674824cb49ed48981220a80452f078526
+# HASH: 0aebe7971199d9749b418293139e42944c2f5f8d47a7145679201d05388820f2
 ent-CrateMaterialPlasteel = ящик пластали
-    .desc = 90 единиц пластали.
+    .desc = 30 единиц пластали.
 # HASH: 7ac20cb37a93588b77244a66e47d10acff48f9cd57fbc6736bfd76c4240ffe43
 ent-CrateMaterialPlasma = ящик твёрдой плазмы
     .desc = 90 единиц плазмы.
@@ -34,3 +34,9 @@ ent-CrateMaterialUranium = ящик урана
 # HASH: 160dd9570c71ba4cfa35b0cdf122e8b7e500f23e82fc9946206742a8d2ff485e
 ent-CrateMaterialRandom = излишки материалов
     .desc = Откуда-то взятые излишки материалов.
+# HASH: 11dd843b5aea811d9664195ab5095835b2eb4d7fc282ab6587c0e7acd74a5011
+ent-CrateMaterialSilo = ящик хранилища материалов
+    .desc = Пакет, включающий все материалы для создания хранилища для материалов.
+# HASH: befca3dec3c4380fea16b306594927c80855c7df00007052afc2baa48088502c
+ent-CrateMaterialBasicResource = ящик с базовыми листами
+    .desc = 30 листов стали, стекла и пластика.

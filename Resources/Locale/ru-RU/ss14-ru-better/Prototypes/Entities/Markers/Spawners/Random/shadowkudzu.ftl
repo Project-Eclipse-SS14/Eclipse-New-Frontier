@@ -1,3 +1,3 @@
-# HASH: 13a2e12c0d87a5f59a0a288261f46d3595fc389629206470de588c154a8ee578
-ent-ShadowKudzuLootSpawner = { ent-MarkerBase }
+# HASH: eae2dadf4b3fb7c3262a2a4475c363c7d24989f7d7b04dbbf5a1fd36efb2d065
+ent-ShadowKudzuLootSpawner = спавнер случайного кудзу
     .desc = { ent-MarkerBase.desc }

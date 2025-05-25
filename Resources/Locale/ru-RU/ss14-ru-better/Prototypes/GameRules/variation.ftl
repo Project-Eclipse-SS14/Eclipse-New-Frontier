@@ -22,3 +22,9 @@ ent-BloodbathPuddleMessVariationPass = { ent-BaseVariationPass }
 # HASH: c5b22944a6ed913ad5dc9b5d9df000bf7783ad0b66d2cda82ed76a28a98f9424
 ent-CutWireVariationPass = { ent-BaseVariationPass }
     .desc = { ent-BaseVariationPass.desc }
+# HASH: c5b22944a6ed913ad5dc9b5d9df000bf7783ad0b66d2cda82ed76a28a98f9424
+ent-SolarPanelDamageVariationPass = { ent-BaseVariationPass }
+    .desc = { ent-BaseVariationPass.desc }
+# HASH: c5b22944a6ed913ad5dc9b5d9df000bf7783ad0b66d2cda82ed76a28a98f9424
+ent-SolarPanelEmptyVariationPass = { ent-BaseVariationPass }
+    .desc = { ent-BaseVariationPass.desc }

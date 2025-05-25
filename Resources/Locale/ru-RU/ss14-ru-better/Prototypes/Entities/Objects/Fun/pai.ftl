@@ -13,3 +13,9 @@ ent-ActionPAIPlayMidi = Запустить MIDI
 # HASH: b7b368f7581ae5343b96598b51ae8b89f9b600f23fe3aa7eda3246167f43e75f
 ent-ActionPAIOpenMap = Открыть карту
     .desc = Откройте интерфейс карты и укажите путь своему владельцу.
+# HASH: 74c4c5214044ce82163507cadc1c2363a52db02da8d3bf1f94eee45686228ea3
+ent-ActionPAIOpenShop = Каталог программ
+    .desc = Установите новое программное обеспечение, чтобы помочь своему владельцу.
+# HASH: cc0a73628e67c1e34e2855e5ee5908025e82c256ca44a8fd0df072213b1ab47c
+ent-ActionPAIMassScanner = Сканер масс
+    .desc = Просмотр интерфейса массового сканера.

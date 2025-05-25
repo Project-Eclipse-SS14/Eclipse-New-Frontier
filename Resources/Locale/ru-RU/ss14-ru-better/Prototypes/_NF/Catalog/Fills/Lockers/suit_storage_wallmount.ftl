@@ -38,10 +38,10 @@ ent-SuitStorageWallmountEVASalvage = { ent-SuitStorageWallmount }
 ent-SuitStorageWallmountEVAMedical = { ent-SuitStorageWallmount }
     .desc = { ent-SuitStorageWallmount.desc }
     .suffix = ЕВА, Врач
-# HASH: 294878817daa4557c2ec8efbe92e3afcaad3430f652ad997b5062c13c824c326
+# HASH: 7c663314755704443b8c0f5a78f4ca1194a97c5efa4282a3881655c4af544073
 ent-SuitStorageWallmountParamedic = { ent-SuitStorageWallmount }
-    .desc = { ent-SuitStorageWallmount.desc }
-    .suffix = ЕВА, Парамедик
+    .desc = { ent-BaseWallCloset.desc }
+    .suffix = Пустотный, Парамедик
 # HASH: d9e6a2896cdeca3ef6f6653f59667feecf4b49ead63a4d6c15467b56bcc6bd51
 ent-SuitStorageWallmountEVAScientist = { ent-SuitStorageWallmount }
     .desc = { ent-SuitStorageWallmount.desc }
@@ -210,3 +210,7 @@ ent-SuitStorageWallmountNfsdCommand = { ent-SuitStorageNfsdCommand }
 ent-SuitStorageWallmountEVAStc = { ent-SuitStorageWallmount }
     .desc = { ent-BaseWallCloset.desc }
     .suffix = ЕВА, Диспетчер
+# HASH: 294878817daa4557c2ec8efbe92e3afcaad3430f652ad997b5062c13c824c326
+ent-SuitStorageWallmountParamedicAlt = { ent-SuitStorageWallmount }
+    .desc = { ent-BaseWallCloset.desc }
+    .suffix = ЕВА, Парамедик

@@ -244,3 +244,6 @@ ent-JukeboxCircuitBoard = музыкальный автомат (машинна�
 # HASH: c3739143a44cc3b4ab01515ae5e77efaf72ccbe0e4af2b212db312d7b337a96b
 ent-CutterMachineCircuitboard = резательный станок (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
+# HASH: 92795e573912b0635a84aa04df1b052a105d65f4a68175e1c2778bdf79563ba5
+ent-MaterialSiloMachineCircuitboard = хранилище материалов (машинная плата)
+    .desc = { ent-BaseMachineCircuitboard.desc }

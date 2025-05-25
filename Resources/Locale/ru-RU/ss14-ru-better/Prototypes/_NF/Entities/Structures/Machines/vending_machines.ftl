@@ -128,3 +128,22 @@ ent-VendingMachineBoozePOI = { ent-VendingMachineBooze }
 ent-VendingMachineTankDispenserEVAPOI = { ent-VendingMachineTankDispenserEVA }
     .desc = { ent-VendingMachineTankDispenserEVA.desc }
     .suffix = POI, ЕВА [O2, N2]
+# HASH: 597cea2bf40755562712d1dd9d55d085490c8dc1c5be1bbc822c2790b61e2a99
+ent-VendingMachinePickNPack = Пик-н-Пак
+    .desc =  Оружие в ваших руках с 2549 года.
+# HASH: 9d7849f7f91a9604599bbd793dfb9da468c5eb30063f3c0b98782d80dd822cc4
+ent-VendingMachinePickNPackPOI = { ent-VendingMachinePickNPack }
+    .desc = { ent-VendingMachinePickNPack.desc }
+    .suffix = POI
+# HASH: 8b20697c1e3f9482d2d31c4d7f9165f91a79d4f9609531be79aeeb40d5077590
+ent-DEBUGVendingMachineRangedWeapons = Все оружие
+    .desc = { ent-VendingMachineBountyVendPunk.desc }
+    .suffix = ДЕБАГ, Оружие
+# HASH: f87056b11da361f617441dc6cef082eaf20f6d01ea5396a99216f79ea5b58420
+ent-DEBUGVendingMachineMagazines = Все магазины для оружия
+    .desc = { ent-VendingMachineClothingPunk.desc }
+    .suffix = ДЕБАГ, Магазины
+# HASH: 48ba4111c9a2cd2448e1a5a975df4f55481ca5dea070dd34331cd71eb436e1b4
+ent-DEBUGVendingMachineAmmoBoxes = Все патроны для оружия
+    .desc = { ent-VendingMachineClothingPunk.desc }
+    .suffix = ДЕБАГ, Патроны

@@ -18,10 +18,10 @@ ent-ClothingHeadHatHoodBioScientist = капюшон биозащитного к
 ent-ClothingHeadHatHoodBioSecurity = капюшон биозащитного костюма
     .desc = Капюшон, защищающий голову и лицо от биологического заражения.
     .suffix = Охранный
-# HASH: 2de19f79540e99c20089f5ae87ce3a219e741cfe33777f2ff85eb363043dc3ba
+# HASH: 7f544657b5afad1be074679aa3ba2cc4731296ddb3dffc939779c5a68dda75e0
 ent-ClothingHeadHatHoodBioVirology = капюшон биозащитного костюма
-    .desc = Капюшон, защищающий голову и лицо от биологического заражения.
-    .suffix = Вирусологический
+    .desc = Капюшон, надежно защищающий голову и лицо от биологических загрязнений.
+    .suffix = Вирусология
 # HASH: eebf524fd7173dce8b7144219dd9f28303ca0aa86eda81eceada41bece9efbef
 ent-ClothingHeadHatHoodChaplainHood = капюшон священника
     .desc = Максимальное благочестие в этой звёздной системе.

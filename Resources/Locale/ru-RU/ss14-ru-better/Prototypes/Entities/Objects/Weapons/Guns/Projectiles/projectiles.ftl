@@ -160,3 +160,12 @@ ent-BulletCannonBallEmp = эми пушечное ядро
 # HASH: c841c428ed096fb7289f46a133a351374c355323f5680238edc1e21e3c5ced19
 ent-BulletEnergyGunLaser = энергетический снаряд
     .desc = { ent-BaseBullet.desc }
+# HASH: af1a7261414d0610aca3912a3cd739f31b2c10ff4d907cbdf737ee877fffc953
+ent-BoltTempgunCold = замораживющий болт
+    .desc = { ent-WatcherBolt.desc }
+# HASH: 76939b5d4a7b021b85b01c5a78645b05465fd7a433befb561ce439a92fd6f071
+ent-BoltTempgunHot = зажигательный болт
+    .desc = { ent-WatcherBoltMagmawing.desc }
+# HASH: 240fe2751f0785d9155019f5c519e4b4c8a9c6925429a777756691bf68b78cb3
+ent-BulletGrenadeCleanade = гранатомётный чистящий патрон
+    .desc = { ent-BaseBulletTrigger.desc }

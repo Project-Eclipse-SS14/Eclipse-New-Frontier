@@ -19,8 +19,8 @@ ent-ShuttleMapBrigand = NT Разбойник
 # HASH: cb152a09e48a01dd5bae5f846f68c68d716c37035ebf456131111f8a9675fc83
 ent-ShuttleMapBulker = KL Балкер
     .desc = Подробная карта шаттла "Балкер".
-# HASH: 4ef952c58186cf0cd4ecd09f410eb999b75bdabad6cc9dc8f2fda29afcff74f1
-ent-ShuttleMapCeres = SBB Церера
+# HASH: fb10b952d9060ff50f3dbd57967f77901565548f122836fe3f47acc68bf6f63f
+ent-ShuttleMapCeres = BB Церера
     .desc = Подробная карта шаттла "Церера".
 # HASH: 28b3b67fecc9b818f899f8a39e282dc3660023c55f47476247adbe50ce468cbe
 ent-ShuttleMapCharon = EIS Харон
@@ -103,11 +103,11 @@ ent-ShuttleMapSparrow = NR Воробей
 # HASH: db6019dedcebb0d9080766c9d002098dc23c2a14c6d7cdfd82c6b0a71c1059ba
 ent-ShuttleMapSkipper = NC Шкипер
     .desc = Подробная карта шаттла "Шкипер".
-# HASH: fc115189c41a6abbd9a79cde6381cef60ebe0e93f45edc3bfd07f2b4bc03c6e4
-ent-ShuttleMapSpirit = NM Душа
+# HASH: d125ea085e2d492bdf445d7f9387b39542d27bb0b317a965d527e02e12797b1b
+ent-ShuttleMapSpirit = FSB Душа
     .desc = Подробная карта шаттла "Душа".
-# HASH: a30b63fc969dc18ccbfcc12a964e5d2798a4b933378853c4cd9016edc8fb3be7
-ent-ShuttleMapStasis = NM Стазис
+# HASH: 120cec766aa6007bf479e1f61abe1c3f86c84aa7eb178620bb6a7a98ff658896
+ent-ShuttleMapStasis = FSB Стазис
     .desc = Подробная карта шаттла "Стазис".
 # HASH: 78904e1e2b94ddb0dace485d03de54e96a8589fafc460f770a1e6f1991cf6730
 ent-ShuttleMapTide = SV Волна
@@ -116,5 +116,20 @@ ent-ShuttleMapTide = SV Волна
 ent-ShuttleMapVagabond = NT Бродяга
     .desc = Подробная карта шаттла "Бродяга"
 # HASH: 3ea6475d7d287bc787ca683025c65f91317d260e7c667ca9323e6833067d5eae
-ent-ShuttleMapNook = WSE Nook
-    .desc = Подробная карта шаттла "Nook".
+ent-ShuttleMapNook = WSE Уголок
+    .desc = Подробная карта шаттла "Уголок".
+# HASH: a597da386a71d2de0e37568466b5d20693c7f11b959178a6a607a765cedc1a71
+ent-ShuttleMapAdder = LVHI Гадюка
+    .desc = Подробная карта шаттла "Гадюка".
+# HASH: f2c22645d402a07c0c53d35d9b76a55c39e46e9510eaaf3a46c4aee5a20af14e
+ent-ShuttleMapCaladrius = FSB Каладриус
+    .desc = Подробная карта шаттла "Каладриус".
+# HASH: a23ab59d8ef03df7580e737a0164e432f80db3b7b0a7c6f3f0f6eb4466d6fbd4
+ent-ShuttleMapCopperhead = LVHI Медноголовый
+    .desc = Подробная карта шаттла "Медноголовый".
+# HASH: b5cfacf659482bfe45a1fd2b7d5b8f0a5728e4e90e9c3474fded8f8ee4a771bd
+ent-ShuttleMapIzakaya = SSS Идзакая
+    .desc = Подробная карта шаттла "Идзакая".
+# HASH: 7ec4897555be06b94ce98696d60d3f6b6392e7ae8a7d56522caad1227d60559e
+ent-ShuttleMapSurveyor = FSB Геодезист
+    .desc = Подробная карта шаттла "Геодезист".

@@ -91,3 +91,6 @@ ent-ClothingHeadEVAHelmetArcadia = шлем аркадиа EVA
 # HASH: 8f0273e8736f565291b5cc1f4ba49843bdd3a7b981ea983deec39b50098fb1d8
 ent-ClothingHeadHelmetHardsuitFSB = пустотный шлем FSB
     .desc = Легкий костюмный шлем, который не стесняет движений головы. Встроенный источник света!
+# HASH: 01335f9eac4bdd02479cffa28a66fe439b16653a874431eb5adec5bf6d189bd9
+ent-ClothingHeadEVAHelmetParamedic = шлем скафандра EVA парамедика
+    .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }

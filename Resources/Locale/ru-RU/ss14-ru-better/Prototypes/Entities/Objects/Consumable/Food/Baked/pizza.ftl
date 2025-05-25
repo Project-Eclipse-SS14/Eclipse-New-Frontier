@@ -73,3 +73,9 @@ ent-FoodPizzaCotton = хлопковая пицца
 # HASH: b170c2f6b76db8209d4013d477d838700b3fe7aa7ad49931e95ba80ce238a9ff
 ent-FoodPizzaCottonSlice = кусок хлопковой пиццы
     .desc = Кусочек хлопковой пиццы. Хлопок присутствует.
+# HASH: 2e412b5c0e0ad843860cdea2cae340d14a5db8d109135b1539f0dbfce3b7ab2b
+ent-FoodPizzaWorldpeas = мировая пицца
+    .desc = Современная дипломатия в форме диска.
+# HASH: 7527397ffc2b228ea06e471a9e28d09e641529a5aeb8c64c1f4811509a288687
+ent-FoodPizzaWorldpeasSlice = кусок мировой пиццы
+    .desc = Разделение мира на части - небольшая цена за гармонию.

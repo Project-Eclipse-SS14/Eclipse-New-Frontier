@@ -222,3 +222,7 @@ ent-LockerWallColorHydroponicsFilled = { ent-LockerWallColorHydroponics }
 ent-LockerWallColorHydroponicsEmpty = настенный шкафчик ботаника
     .desc = { ent-ShelfBaseReinforced.desc }
     .suffix = Пустой, Фронтир
+# HASH: daf8a421086f84362578e5a8e329917f21e75c7b3bf284b8a5be7e1c6e218067
+ent-LockerWallEVAColorParamedicAltFilled = настенный шкафчик EVA парамедика
+    .desc = { ent-ShelfBaseReinforced.desc }
+    .suffix = Filled

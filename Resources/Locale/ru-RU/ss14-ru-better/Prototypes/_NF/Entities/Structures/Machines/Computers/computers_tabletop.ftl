@@ -155,3 +155,6 @@ ent-ComputerTabletopShuttleTradeOutpostLocal = { ent-ComputerShuttleTradeOutpost
 ent-ComputerTabletopShuttleTradeOutpostRemote = { ent-ComputerShuttleTradeOutpostRemote }
     .desc = { ent-ComputerShuttleTradeOutpostRemote.desc }
     .suffix = Remote, Настольный
+# HASH: d65603c581f3210e286c12493a98a1e6889db97fcbd90a97cc09075e214d4b3b
+ent-MobileComputerTabletopComms = { ent-ComputerComms }
+    .desc = { ent-ComputerComms.desc }

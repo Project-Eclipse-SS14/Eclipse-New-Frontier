@@ -305,3 +305,6 @@ ent-StationAdministrationConsoleFlatpack = упакованная консоль
 # HASH: 41f852f5ba9d6b68bf83c8c66b174ececca0e6e97d78fde522d7c3a8a2984849
 ent-MobileComputerTabletopCommsFlatpack = упакованная консоль связи
     .desc = Упаковка, при помощи которой можно создать консоль связи.
+# HASH: 1645426b5ef23556633a82cc5e77d35ea26093ea5f7ea65c9a0f995cac3dde99
+ent-GravityGeneratorMiniFlatpack = упакованный мини-генератор гравитации
+    .desc = Упаковка, при помощи которой можно создать мини-генератор гравитации.

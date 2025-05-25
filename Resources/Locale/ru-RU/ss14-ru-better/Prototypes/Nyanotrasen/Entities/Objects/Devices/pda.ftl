@@ -7,3 +7,6 @@ ent-ValetPDA = КПК камердинера
 # HASH: 505d3155fe828f23a649266af6c296accb76d2c305e68e7230cd0c14309af3f6
 ent-PrisonGuardPDA = КПК тюремщика
     .desc = Красный чтобы не видеть следов крови.
+# HASH: 07e39b8c416e193852e90e9437c2afced360c4ddb1e65532076754e6d3bcacf1
+ent-NFPrisonerPDA = КПК заключенного
+    .desc = Чистый, чтобы вы могли убедиться, что внутри ничего не проносят.

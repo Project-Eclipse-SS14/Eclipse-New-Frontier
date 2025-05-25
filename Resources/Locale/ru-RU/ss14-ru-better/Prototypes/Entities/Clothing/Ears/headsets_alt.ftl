@@ -28,3 +28,6 @@ ent-ClothingHeadsetAltSyndicate = полноразмерная кроваво-к
 # HASH: 530c3c5ca04cd7c8de2080562af3feb65b20849903205b920586dc411f24edd8
 ent-ClothingHeadsetAltFreelancer = полноразмерная гарнитура фрилансера
     .desc = { ent-ClothingHeadsetAlt.desc }
+# HASH: 11d42f41a67502815166d104718b84bfc70af79812fef655795f81cff07f87ce
+ent-ClothingHeadsetAltWizard = полноразмерная гарнитура волшебника
+    .desc = { ent-ClothingHeadsetAlt.desc }

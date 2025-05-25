@@ -8,23 +8,23 @@ ent-ClothingBackpackDuffelSyndicateFilledMedical = хирургический в
 ent-ClothingBackpackDuffelSyndicateFilledShotgun = набор "Бульдог"
     .desc = Простой и надежный: Содержит популярный дробовик Бульдог, барабан пуль и 3 барабана дроби.
 # HASH: bd06b76cfb460069c2dce0e9ba46ed999d55bb8d851775ddf69e5b5320028d9d
-ent-ClothingBackpackDuffelSyndicateFilledSMG = набор "C-20r"
+ent-ClothingBackpackDuffelSyndicateFilledSMG = набор "C-20R"
     .desc = Старый добрый: Классический пистолет-пулемет C-20r в комплекте с тремя магазинами.
-# HASH: 81fbbd923f0ad4b4e5bdd68383d844f109b6f49ad61a08592940d6cf64dc9fa6
-ent-ClothingBackpackDuffelSyndicateFilledRevolver = набор "Питон"
-    .desc = Выступите громко и гордо с заряженным Магнум Питон и двумя спидлоадерами.
-# HASH: 8922aa6bd7ffe18ba374c8d68ca646ce4305eff4ba4caab5a47227caf71a7302
-ent-ClothingBackpackDuffelSyndicateFilledLMG = набор "L6 Saw"
-    .desc = Еще больше дакки: культовый лёгкий пулемет L6 в комплекте с 2 коробами патронов.
+# HASH: 798491c1b0d620540126801fe1d88b4001dc84af0ee95f3f735704a0060989bc
+ent-ClothingBackpackDuffelSyndicateFilledRevolver = набор "Ритлэнд-45"
+    .desc = Выступайте громко и гордо с полностью заряженным Магнум Питон в комплекте с двумя скоростными заряжателями.
+# HASH: ce150affcc221c1ff4470c3311af0c670aa9b97d38194bc2719503d5367d6420
+ent-ClothingBackpackDuffelSyndicateFilledLMG = набор "GSW LMG-6"
+    .desc = Еще больше дакки: культовый пистолет-пулемет L6 в комплекте с 2 коробчатыми магазинами.
 # HASH: df8b1822b5bc18ba32e6af2629a57a3c4bc247555e48ee0976293df4095c4039
-ent-ClothingBackpackDuffelSyndicateFilledGrenadeLauncher = набор "China-Lake"
+ent-ClothingBackpackDuffelSyndicateFilledGrenadeLauncher = набор "Чайна-Лэйк"
     .desc = Старый гранатомет China-Lake, снабженный 11 гранатами различной поражающей способности.
 # HASH: b114a615359e9e2ba9009627f37dd3465d47e4e21e703fc939dfb844db5f8391
-ent-ClothingBackpackDuffelSyndicateFilledCarbine = набор "М-90gl"
+ent-ClothingBackpackDuffelSyndicateFilledCarbine = набор "М-90GL"
     .desc = Универсальная боевая винтовка с подствольным гранатометом, в комплекте с 3 магазинами и 6 гранатами различной мощности.
 # HASH: ba97a2d677579c1e1e8d64c1f72db15210534530b251f6dd08ab27bf82a71fd6
 ent-ClothingBackpackDuffelSyndicateAmmoFilled = набор боеприпасов
-    .desc = Перезаряжаю! Содержит 4 магазина для C-20r, 4 барабана для Бульдога и 2 короба патронов для L6 SAW.
+    .desc = Перезаряжаю! Содержит 4 магазина для C-20R, 4 барабана для Бульдога и 2 короба патронов для L6 SAW.
 # HASH: 7ae8054edb195c290ac2af0b172e61067b31691c68800bc19e33005676614d8b
 ent-ClothingBackpackDuffelSyndicateCostumeClown = { ent-ClothingBackpackDuffelClown }
     .desc = { ent-ClothingBackpackDuffelClown.desc }

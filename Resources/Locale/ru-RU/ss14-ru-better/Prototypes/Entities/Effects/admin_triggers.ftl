@@ -29,3 +29,7 @@ ent-AdminInstantEffectTearGas = { ent-AdminInstantEffectBase }
 ent-AdminInstantEffectGravityWell = { ent-AdminInstantEffectBase }
     .desc = { ent-AdminInstantEffectBase.desc }
     .suffix = Гравитационный колодец
+# HASH: 5a2b7fe7c87d53c798842ab2afafb922a0a68375ce8b21c8732d4ed764a824bb
+ent-AdminInstantEffectBluespace = { ent-AdminInstantEffectBase }
+    .desc = { ent-AdminInstantEffectBase.desc }
+    .suffix = БлюспейсВспышка

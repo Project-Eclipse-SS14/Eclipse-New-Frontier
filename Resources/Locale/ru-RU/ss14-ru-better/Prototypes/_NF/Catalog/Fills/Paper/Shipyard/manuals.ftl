@@ -46,3 +46,6 @@ ent-ShipyardNightlightInfo = Руководство по использован�
 # HASH: f98981aaa5f741fe8ae2f47181ce495b67ee6497b8004919e8b08c300cea2748
 ent-ShipyardCharonInfo = Руководство по использованию шаттла "Харон"
     .desc = { ent-ShipyardInfoBase.desc }
+# HASH: 586eb0468d50803ded969e6789037ffb1d72f060a2db0cff1cb938fa178fbd75
+ent-ShipyardCaladriusInfo = Руководство по использованию шаттла "Каладриус"
+    .desc = { ent-ShipyardInfoBase.desc }

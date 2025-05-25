@@ -113,3 +113,7 @@ ent-ClothingBackpackDuffelEVABundleNfsd = набор ЕВА ДСБФ
 ent-ClothingBackpackDuffelEVABundleStc = набор ЕВА STC
     .desc = { ent-ClothingBackpackDuffel.desc }
     .suffix = Заполненный
+# HASH: 5851bea31be77ca4d6e8f419c901ab53f1df2075ad12c4770e1f567bc8437eb6
+ent-ClothingBackpackDuffelEVABundleParamedicAlt = набор ЕВА парамедика
+    .desc = { ent-ClothingBackpackDuffelTrauma.desc }
+    .suffix = Filled

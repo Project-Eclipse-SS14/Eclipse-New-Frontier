@@ -558,3 +558,15 @@ ent-HighSecArmoryLocked = { ent-HighSecDoor }
 ent-AirlockHatchSyndicate = { ent-AirlockHatch }
     .desc = { ent-AirlockHatch.desc }
     .suffix = Синдикат, Закрыт
+# HASH: f730d0bba159ed761d038dd903813fb635501a3cf01d472f33a40b72d0920afe
+ent-AirlockServiceTheatreLocked = { ent-AirlockServiceLocked }
+    .desc = { ent-AirlockServiceLocked.desc }
+    .suffix = Сервис, Театр, Закрыт
+# HASH: 5ca3cc9a2d3efe97c927485eb3d8ddc66effa7760411e25e468006781c51e8bf
+ent-AirlockServiceTheatreGlassLocked = { ent-AirlockServiceGlassLocked }
+    .desc = { ent-AirlockServiceGlassLocked.desc }
+    .suffix = Сервис, Театр, Закрыт
+# HASH: a521888b87a007d3bf1bc01f2e19cfa9a177ed63ac19d3c1af9e8263b267ae09
+ent-AirlockMaintServiceTheatreLocked = { ent-AirlockMaintServiceLocked }
+    .desc = { ent-AirlockMaintServiceLocked.desc }
+    .suffix = Сервис, Театр, Закрыт

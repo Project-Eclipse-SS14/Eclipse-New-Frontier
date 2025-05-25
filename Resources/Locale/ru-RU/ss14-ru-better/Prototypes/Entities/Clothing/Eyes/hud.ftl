@@ -43,9 +43,9 @@ ent-ClothingEyesHudOmni = омни-визор
 # HASH: 7c8ebee72dd76d0472636a69ca1d9c6dd11e2b74cdba42adc5144ffa3c567b11
 ent-ClothingEyesHudSyndicate = синди-визор
     .desc = Профессиональный визор Синдиката с индикатором на стекле, предназначенный для более точного обнаружения гуманоидов с их последующим уничтожением.
-# HASH: b97f00b477cc598f2471eb9bd1843967a4e914042b6c851bd774f023add0167a
-ent-ClothingEyesHudSyndicateAgent = синди-визор агента
-    .desc = Профессиональный визор Синдиката с индикатором на стекле, предназначенный для более точного обнаружения гуманоидов с их последующим уничтожением
+# HASH: 8a50fe84a9a1a2928af9112da71c70c83ea77f2422407ac26016ce3cb7580d9b
+ent-ClothingEyesHudSyndicateAgent = медицинский синди-визор
+    .desc = Профессиональный головной дисплей санитара Синдиката, предназначенный для быстрой диагностики состояния команды.
 # HASH: 25b6cb23b07207bc0004c5eda71957ac89b89caf2bb266f7c52cc6ec332045f0
 ent-ClothingEyesGlassesHiddenSecurity = { ent-ClothingEyesGlassesSunglasses }
     .desc = { ent-ClothingEyesGlassesSunglasses.desc }

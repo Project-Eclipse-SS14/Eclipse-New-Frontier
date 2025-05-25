@@ -104,3 +104,35 @@ ent-LockerMime = шкаф мима
 # HASH: 0c8955104476c0d13bc030f7c8a0718abe32d0797d276224d314bc1f8f07f187
 ent-LockerRepresentative = шкаф представителя Nanotrasen
     .desc = { ent-LockerBaseSecure.desc }
+# HASH: 12825ffe3b4c5e24c5e2d1b0b88f7370ce9637c969561b8b5190a80191e1448d
+ent-LockerPrisoner = шкаф заключенного
+    .desc = Это надежный шкафчик для хранения личных вещей заключенных во время их пребывания в тюрьме.
+    .suffix = 1
+# HASH: c8f9a619ab690410d5806ac2f6f6ff9ff2c9b9f41eec964ce5e8343740840301
+ent-LockerPrisoner2 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 2
+# HASH: 34d46397040fae65791f390971c8bccfffb58d051cfa0a347a57bdef230d45c3
+ent-LockerPrisoner3 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 3
+# HASH: 3127adaef6015d318da7c719c2ca0d28723e4915fa32ff1e140519bd650036c9
+ent-LockerPrisoner4 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 4
+# HASH: 6e1a601d823e6555e0fd3ac3887be29c8f97d75cac46b442a730d7558c9ad274
+ent-LockerPrisoner5 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 5
+# HASH: c1ee91b12c95207c8e2fa2a683bd5caecb5bafb601b8a29e762961e2eb207a17
+ent-LockerPrisoner6 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 6
+# HASH: 0433c6a127804c9be1c971ff3df005e360d2ad53f7e0f91b991af40914ff71b5
+ent-LockerPrisoner7 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 7
+# HASH: 6e81b6987fc1040872ec88d66bc7317772f54235331cb06f3915f994d529d4f1
+ent-LockerPrisoner8 = { ent-LockerPrisoner }
+    .desc = { ent-LockerPrisoner.desc }
+    .suffix = 8

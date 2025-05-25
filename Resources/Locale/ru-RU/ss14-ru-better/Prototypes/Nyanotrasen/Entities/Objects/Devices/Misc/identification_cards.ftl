@@ -10,3 +10,6 @@ ent-ValetIDCard = ID карта камердинера
 # HASH: d39002501d35b1f6c55d734bc95fa54f29af9a0c2b963c3b7038504a449e1033
 ent-PrisonGuardIDCard = ID карта охранника тюрьмы
     .desc = { ent-IDCardStandard.desc }
+# HASH: 63c990b285e8855e19c1acc230b28ec1324a3768d0e1a3f6a582c681e59698b5
+ent-NFPrisonerIDCard = ID карта заключенного
+    .desc = { ent-IDCardStandard.desc }

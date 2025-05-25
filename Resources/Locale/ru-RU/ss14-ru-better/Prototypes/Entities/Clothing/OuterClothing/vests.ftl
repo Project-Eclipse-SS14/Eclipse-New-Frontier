@@ -16,3 +16,6 @@ ent-ClothingOuterVest = жилет
 # HASH: 89c29e302fc7a2c2139f30b0e6ea5ad84e1235388a79237707158ff6ea2d9d01
 ent-ClothingOuterVestTank = обвязка для баллона
     .desc = Простая обвязка, которая может удерживать газовый баллон.
+# HASH: 2489342bebcfbcc02d0a5892056a3169837cb83b0c0079407b569e9682cdf15e
+ent-ClothingOuterVestWebElite = элитный жилет
+    .desc = Синтетический бронежилет. В него добавлена тесьма и термостойкие волокна.

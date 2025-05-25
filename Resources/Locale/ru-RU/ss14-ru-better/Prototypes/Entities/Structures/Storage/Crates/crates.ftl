@@ -108,3 +108,21 @@ ent-CrateTrashCartJani = мусорная тележка уборщика
 ent-InvisibleCrate = { ent-CrateBaseWeldable }
     .desc = { ent-CrateBaseWeldable.desc }
     .suffix = Стелс
+# HASH: 42101e7ae370819c4faea832c8298c5c392eba466a14dcc82aec27de9199950b
+ent-CrateBaseLockBox = закрытый ящик
+    .desc = Надежный ящик с замком. Средства от его продажи будут переданы обратно в отдел. Только помните: Груз всегда берет долю.
+# HASH: 11ba5a1a452c5683d4b56eb330ed22c005463b05da106783b03b7de9cdcc8e86
+ent-CrateLockBoxEngineering = инженерный закрытый ящик
+    .desc = { ent-CrateBaseLockBox.desc }
+# HASH: 8794fde93395892d8b630739c851b1b8d273ee5e3f781ca5cbbbe689e712f8b1
+ent-CrateLockBoxMedical = медицинский закрытый ящик
+    .desc = { ent-CrateBaseLockBox.desc }
+# HASH: fccef15a8ce087ba7d42a1c221ba2a9b001717b0dec7828efe2f6dedc12e29e6
+ent-CrateLockBoxScience = научный закрытый ящик
+    .desc = { ent-CrateBaseLockBox.desc }
+# HASH: b1c1341dbf5691d5310cdfe5ff884194fc741898f9638f5cb4be17e984f79960
+ent-CrateLockBoxSecurity = охранный закрытый ящик
+    .desc = { ent-CrateBaseLockBox.desc }
+# HASH: ac49b9a097b40b17a15cba116d3896d228bb8559e0c4d798bff9a104736b4a83
+ent-CrateLockBoxService = сервисный закрытый ящик
+    .desc = { ent-CrateBaseLockBox.desc }

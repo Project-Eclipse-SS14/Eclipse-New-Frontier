@@ -6,3 +6,15 @@ ent-SpawnShuttleGearSuitStorageUnitsMercenary = случайное хранил�
 ent-SpawnShuttleVendomatsClothes = случайный торговый аппарат
     .desc = { ent-MarkerBase.desc }
     .suffix = Шаттл
+# HASH: 9f152a01a9ddc05f493eb3634aa5e730dce4b1b0c86d0659d2425f14fdc33419
+ent-SpawnRandomDrinkMug = случайная кружка
+    .desc = { ent-MarkerBasePlaceFree.desc }
+    .suffix = Шаттл
+# HASH: 99aa4b6be7a830785509131292d16a6857a30cec4caa37d1cb84858872050fac
+ent-SpawnRandomTowel = случайное полотенце
+    .desc = { ent-MarkerBasePlaceFree.desc }
+    .suffix = Шаттл
+# HASH: 1617a3b69161215a3c481faaf2ab1faf93df109c6f04abca26451bccef735540
+ent-SpawnRandomSignRedDigits = знак случайного числа
+    .desc = { ent-MarkerBasePlaceFree.desc }
+    .suffix = Шаттл

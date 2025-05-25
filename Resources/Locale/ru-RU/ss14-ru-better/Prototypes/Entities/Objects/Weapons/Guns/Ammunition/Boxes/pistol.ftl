@@ -1,15 +1,15 @@
 # HASH: 62d80f74b860cca32a63e6027e1a5b918ec08563c3a7a0a012b575990d3d0d43
 ent-BaseMagazineBoxPistol = коробка патронов (.35 авто)
     .desc = { "" }
-# HASH: 3bbb88ea3928680cf135486dae0a2e0f863a80b9290b8c9079ac871573ac99d9
+# HASH: c64abc07962447d55c2c817ca0a4ac5a43768106d3ab41c2604049d180be151f
 ent-MagazineBoxPistol = коробка патронов (.35 авто)
-    .desc = { ent-BaseMagazineBoxPistol.desc }
-# HASH: 3d410780fde1f9c40ac3a855a040a1b541f7bd1879aa9ee2c970118ab748010a
-ent-MagazineBoxPistolPractice = коробка патронов (.35 авто учебные)
-    .desc = { ent-BaseMagazineBoxPistol.desc }
-# HASH: 3f3c8a9fbb67876d22b9e5db7b0ab4995eaccac288aaeec5798849938ccb7ed5
+    .desc = Картонная коробка с патронами калибра 35. Предназначена для хранения кинетических боеприпасов общего назначения.
+# HASH: a3f09f463ada34c3bef15be3229e153ba807ceb1ca254faf175748b03a350dd0
+ent-MagazineBoxPistolPractice = коробка патронов (.35 авто тренировочные)
+    .desc = Картонная коробка с патронами калибра 35. Предназначена для хранения патронов, не опасных для здоровья.
+# HASH: ee689c368419ffe637cf15ce7ec67846ba59fbd3994563f7d040f85d1eb7bdbb
 ent-MagazineBoxPistolIncendiary = коробка патронов (.35 авто зажигательные)
-    .desc = { ent-BaseMagazineBoxPistol.desc }
-# HASH: 34c13a0a8b08e8db55773cd34b958dd83e7151499675bbb40fba517894bc7f91
+    .desc = Картонная коробка с патронами калибра 35. Предназначена для хранения самовоспламеняющихся зажигательных боеприпасов.
+# HASH: eb5b823d461a1a1d64b95292d66089575d5ee69b9b9dbba6e05cad23eb231cb1
 ent-MagazineBoxPistolUranium = коробка патронов (.35 авто урановые)
-    .desc = { ent-BaseMagazineBoxPistol.desc }
+    .desc = Картонная коробка с патронами калибра 35. Предназначена для хранения экзотических боеприпасов с урановым сердечником.

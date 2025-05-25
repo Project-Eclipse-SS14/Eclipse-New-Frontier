@@ -49,3 +49,6 @@ ent-LockerNfsdSheriff = шкафчик шерифа ДСБФ
 # HASH: 8561676eea2a58bc64f8a12f766970084fdec7e931db0948ceb4d600b3f25652
 ent-LockerStationRepresentative = шкафчик представителя фронтира
     .desc = { ent-LockerHeadOfPersonnel.desc }
+# HASH: 625d6bd3da87cb839979e412af6193db1f8b55fff7cf28ee48c4a0216d79b01c
+ent-ClosetFsbEva = шкафчик FSB EVA
+    .desc = Это хранилище, в котором может находиться скафандр Фар Стар Биотеч EVA. В нем также могут находиться другие вещи.

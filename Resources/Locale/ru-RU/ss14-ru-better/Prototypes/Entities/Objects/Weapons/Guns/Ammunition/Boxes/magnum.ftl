@@ -1,18 +1,18 @@
 # HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
 ent-BaseMagazineBoxMagnum = { ent-BaseItem }
     .desc = { "" }
-# HASH: 5648ac263fef1a353bf1a3ff51e07a8bf99f7a9ab308830b423bffd394fbb6d2
+# HASH: ab4b72cc96094a9443cdfe59f96167b4c285f498495ba302a37a2b0704ad3624
 ent-MagazineBoxMagnum = коробка патронов (.45 магнум)
-    .desc = { ent-BaseMagazineBoxMagnum.desc }
-# HASH: ac10e18c21b11f3373f5d80e782c7b9bad1a7452a084c5f990d0335858a69a28
-ent-MagazineBoxMagnumPractice = коробка патронов (.45 магнум учебные)
-    .desc = { ent-BaseMagazineBoxMagnum.desc }
-# HASH: 702c36d4609163053bce2a622afe955afa8af376b940201f76dc167c3ba1b311
+    .desc = Картонная коробка с патронами калибра .45 магнум. Предназначена для хранения кинетических боеприпасов общего назначения.
+# HASH: f1498f2daae1c05686769207733a4b1a527ef517a1eb3ba01155a78a46b399cf
+ent-MagazineBoxMagnumPractice = коробка патронов (.45 магнум тренировочные)
+    .desc = Картонная коробка с патронами калибра .45 магнум. Предназначена для хранения боеприпасов, не опасных для здоровья.
+# HASH: cca174d19f5c995ad7ee70c2a1fe4272f65c6b2e889116295c437d520bef8279
 ent-MagazineBoxMagnumIncendiary = коробка патронов (.45 магнум зажигательные)
-    .desc = { ent-BaseMagazineBoxMagnum.desc }
-# HASH: 85a32344ef493aa2a9c050c5aa9f98722076a65a210b7510c15feed052ea7165
+    .desc = Картонная коробка с патронами калибра .45 магнум. Предназначена для хранения самовоспламеняющихся зажигательных боеприпасов.
+# HASH: c4d3123880c0467f5ec2e5a9b19ef720b7635dde73076499d90d17250419c1d6
 ent-MagazineBoxMagnumUranium = коробка патронов (.45 магнум урановые)
-    .desc = { ent-BaseMagazineBoxMagnum.desc }
-# HASH: 0cabb469439973e89aba8a02ef351faa9d60ff256c5a648ff16d713c566b546d
+    .desc = Картонная коробка с патронами калибра .45 магнум. Предназначена для хранения экзотических боеприпасов с урановым сердечником.
+# HASH: bacd7049ea23b7ba1f94af9028fbd3daf66577e174fa8fac2438c74ffcbdea6c
 ent-MagazineBoxMagnumAP = коробка патронов (.45 магнум бронебойные)
-    .desc = { ent-BaseMagazineBoxMagnum.desc }
+    .desc = Картонная коробка с патронами калибра .45 магнум. Предназначена для хранения редких бронебойных боеприпасов.

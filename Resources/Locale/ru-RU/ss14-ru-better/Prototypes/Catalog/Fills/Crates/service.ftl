@@ -53,3 +53,6 @@ ent-CrateTrashCartFilled = { ent-CrateTrashCart }
 # HASH: dd632c04926239c2122ede3afac92532243d80179e2e8b0961bfacf933498387
 ent-CrateCandles = ящик свечей
     .desc = Содержит 4 коробки свечей, 2 больших и 2 маленьких. Для создания атмосферы или ещё чего-нибудь.
+# HASH: 287c19b3daa7b927525bba9a9957a597bb92b8d1cd79d4393f6d0d0602bbb8c1
+ent-CrateServiceColorfulLights = ящик разноцветных лампочек
+    .desc = Вечеринка - это не вечеринка, если на нее трудно смотреть, она немного дезориентирует и у вас болят уши.

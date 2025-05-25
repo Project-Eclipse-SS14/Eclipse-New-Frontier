@@ -88,9 +88,9 @@ ent-ClothingHeadHatPlaguedoctor = шляпа чумного доктора
 # HASH: 5d247b2c55212131ad30f97d1420151e905d5fffc1fbd29adcb794e9283603bb
 ent-ClothingHeadHatRedwizard = красная волшебная шляпа
     .desc = Странного вида красная шляпа, которая, несомненно, принадлежала настоящему магу.
-# HASH: e42c1faa92e4ba464633285587117657d7ab6693b4ee631d4df45f9a4f035127
+# HASH: 58e8f65fd5bd7cbc4ffbd49417cc9ae3ae6136a45067a1a542d54e979adc760c
 ent-ClothingHeadHatSantahat = колпак Санты
-    .desc = Праздничный колпак, который носит Санта-Клаус.
+    .desc = Праздничная шапка, которую носит Санта-Клаус. Теперь со складной бородой.
 # HASH: 72301c09a7be4e1726d6c85ea760b013a9fb04f69984774b615d97047c7fb5e1
 ent-ClothingHeadHatSombrero = сомбреро
     .desc = Идеально подходит для космической Мексики, si?
@@ -247,3 +247,15 @@ ent-ClothingHeadHatStrawHat = соломенная шляпа
 # HASH: 31721af73f104b1ac696a964be702d7da730d507be28c31670f22bda5b07362b
 ent-ClothingHeadHatBeretMedic = берет врача
     .desc = Белый берет, призывающий вас к чистоте.
+# HASH: 12967f3758761230baaa5f737f9c98d829cdb2255dd65b50616d55f42d889f13
+ent-ClothingHeadHatBeretCommand = берет командования
+    .desc = Берет с эмблемой командования. От него исходит аура власти.
+# HASH: daf9a25d484aa1082c60003d5da2ce82af62c1aefadf03b4f0423984365d438e
+ent-ClothingHeadHatCanadaBeanie = шапка-бини
+    .desc = Красный, белый и уютный. Он излучает домашний уют, если в вашем доме прохладно и много кофеен.
+# HASH: ffb9d5f19d2d7c7c208c62032bcf7dd836c40c5d1c27ff630909571f9c808c66
+ent-ClothingHeadWehcellentCap = сетчатая кепка
+    .desc = Это была сетчатая шляпа! Тайдеры носят их постоянно! У нее есть отверстия для воздуха сзади, чтобы поддерживать поперечный ветер и все такое!
+# HASH: 5a993980ce34b689f0b92294a2066cf36e1b1ae28326c13547d8f9584b70260f
+ent-ClothingHeadHatSolidHeadband = повязка-невидимка
+    .desc = Надев его, вы почувствуете себя невидимкой! (ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ: НА САМОМ ДЕЛЕ НЕ ДЕЛАЕТ ВЛАДЕЛЬЦА НЕВИДИМЫМ)

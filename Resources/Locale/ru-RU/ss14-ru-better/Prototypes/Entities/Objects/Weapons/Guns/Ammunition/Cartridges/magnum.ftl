@@ -1,18 +1,19 @@
 # HASH: b6464580162c2552367cb8059a296b92a4ee096b59ff642df7da02c53fe7861f
 ent-BaseCartridgeMagnum = патрон (.45 магнум)
     .desc = { "" }
-# HASH: 66c3d7e085caa1bcf6e161288252159ad324320370fef23963dbc74b81601ffb
-ent-CartridgeMagnum = патрон (.45 магнум)
-    .desc = { ent-BaseCartridgeMagnum.desc }
-# HASH: 29b9c5593791584dfc4b1e75531271f7b29ca44509557b419e5b030819e21c69
-ent-CartridgeMagnumPractice = патрон (.45 магнум учебный)
-    .desc = { ent-BaseCartridgeMagnum.desc }
-# HASH: 815912520863178122fc07ed3f16c3ef3f7760829fe90bdb6de7df29b0037cc0
-ent-CartridgeMagnumIncendiary = патрон (.45 магнум зажигательный)
-    .desc = { ent-BaseCartridgeMagnum.desc }
-# HASH: a8bc7567ab439008d2c34b30d001f546d9cfc89ff1b8b6d006c0ba0177576bbf
-ent-CartridgeMagnumAP = патрон (.45 магнум бронебойный)
-    .desc = { ent-BaseCartridgeMagnum.desc }
-# HASH: 2391330fe4e7b493d0e8ded24c58d3970cf2dd972c31a8fcad8031eb28961440
-ent-CartridgeMagnumUranium = патрон (.45 магнум урановый)
-    .desc = { ent-BaseCartridgeMagnum.desc }
+# HASH: 0397bf9f8ffff8bc65a0b39fc6dc9bd2d9af32c6370dbcd477fc3b0869154b39
+ent-CartridgeMagnum = картридж (.45 магнум)
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
+# HASH: 0dba8cdc94cfec7a64029f2c98fb85adbb814a7dd991f45e11dc594b73cd4900
+ent-CartridgeMagnumPractice = картридж (.45 магнум тренировочный)
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. Меловые патроны, как правило, не причиняют вреда, используются для тренировок.
+# HASH: 958690d3750c338cbd68718d0cb122ddd4c540d4618ef78d7f8c0d77c520c3e0
+ent-CartridgeMagnumIncendiary = картридж (.45 магнум зажигательный)
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. Зажигательные боеприпасы содержат самовоспламеняющийся состав, который поджигает цель.
+# HASH: 0ea2fb4f8f83875c8ee79bb6068b577f92059b320d76cea777b13d697c170dbb
+ent-CartridgeMagnumAP = картридж (.45 mагнум бронебойный)
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. Бронебойные боеприпасы славятся своей способностью пробивать бронежилеты насквозь.
+# HASH: 95f9f6644605d04f33cbc195a67b766a4be2e25b6aa9104e0984972f613a79b6
+ent-CartridgeMagnumUranium = картридж (.45 магнум урановый)
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. В урановых боеприпасах свинцовый сердечник пули заменяется расщепляющимся материалом, облучающим цель изнутри.
+    .desc = Тяжелый магнум картридж в основном используется в револьверах. В урановых боеприпасах свинцовый сердечник пули заменяется расщепляющимся материалом, облучающим цель изнутри.

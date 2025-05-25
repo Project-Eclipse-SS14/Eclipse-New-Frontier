@@ -38,10 +38,10 @@ ent-SuitStorageEVASalvage = { ent-SuitStorageBase }
 ent-SuitStorageEVAMedical = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
     .suffix = ЕВА, Врач
-# HASH: f6b19f52c6b7a0dc62b6265d9c92190284c80d8c899407fcefde69ef9fe25929
+# HASH: 4b152b614e1bd2aa7576e86d3a960d6180d4a330089f5368c2d7bd03519906d9
 ent-SuitStorageParamedic = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
-    .suffix = ЕВА, Парамедик
+    .suffix = Пустотный, Парамедик
 # HASH: ffcd7c1b9f0d8f4e5a3918c02cf969fc4430990eb6bcfe60acf219c8f75cff40
 ent-SuitStorageEVAScientist = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
@@ -162,3 +162,7 @@ ent-SuitStorageNfsdCommand = { ent-SuitStorageBase }
 ent-SuitStorageEVAStc = { ent-SuitStorageBase }
     .desc = { ent-SuitStorageBase.desc }
     .suffix = ЕВА, Диспетчер
+# HASH: f6b19f52c6b7a0dc62b6265d9c92190284c80d8c899407fcefde69ef9fe25929
+ent-SuitStorageParamedicAlt = { ent-SuitStorageBase }
+    .desc = { ent-SuitStorageBase.desc }
+    .suffix = ЕВА, Парамедик

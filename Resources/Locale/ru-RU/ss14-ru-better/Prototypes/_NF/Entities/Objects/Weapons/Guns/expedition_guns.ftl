@@ -169,3 +169,150 @@ ent-WeaponLauncherChinaLakeExpedition = { ent-WeaponLauncherChinaLake }
 # HASH: da6ec47a0bdb26b14a91af1a0a8c675f84d30fe68d7b96c6ca4658a6ad958b1d
 ent-WeaponLightMachineGunL6Expedition = { ent-WeaponLightMachineGunL6 }
     .desc = { ent-WeaponLightMachineGunL6.desc }
+# HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ent-BaseExpeditionWeaponTier3Pirate = { "" }
+    .desc = { "" }
+# HASH: badd6cb269b9e8bca3f1aaccb1627b133f5da68bd49e61b31e039af050050e06
+ent-NFWeaponPistolMk58Expedition = { ent-NFWeaponPistolMk58 }
+    .desc = { ent-NFWeaponPistolMk58.desc }
+# HASH: a4a48b19abc5d62d7cbfe5275f06916a3607fa7a386056232560a0c3c27e77bf
+ent-NFWeaponPistolPollockExpedition = { ent-NFWeaponPistolPollock }
+    .desc = { ent-NFWeaponPistolPollock.desc }
+# HASH: 467e78ed253ddda41f628e43734b69e1880381ff8300d099e86d330c148ab243
+ent-NFWeaponPistolUniversalExpedition = { ent-NFWeaponPistolUniversal }
+    .desc = { ent-NFWeaponPistolUniversal.desc }
+# HASH: b3bae466eb90174f97114a3ef57b5f4bf299f4621573c1ecb249efb7927f3fc9
+ent-NFWeaponRevolverArgentiExpedition = { ent-NFWeaponRevolverArgenti }
+    .desc = { ent-NFWeaponRevolverArgenti.desc }
+# HASH: 498f195503a4e54251bd2847332c446e4be31c2ca921aa4d380bb3d0818e8825
+ent-NFWeaponRevolverFaithExpedition = { ent-NFWeaponRevolverFaith }
+    .desc = { ent-NFWeaponRevolverFaith.desc }
+# HASH: 184f62d3761b1f0647938f9b02fc202b6d034a2b07dd2eb09fc87816443efe71
+ent-NFWeaponRevolverDeckardExpedition = { ent-NFWeaponRevolverDeckard }
+    .desc = { ent-NFWeaponRevolverDeckard.desc }
+# HASH: 178962555f69e53bf958b3fc7888f6644f5ea0c6524b5faac0d055cc700563f9
+ent-NFWeaponRevolverRitland45Expedition = { ent-NFWeaponRevolverRitland45 }
+    .desc = { ent-NFWeaponRevolverRitland45.desc }
+# HASH: f00fec59e187969c257680c7c00f26ec8a50107bea2295ff6d398be6b3eb73ee
+ent-NFWeaponRifleBarlowsBoltExpedition = { ent-NFWeaponRifleBarlowsBolt }
+    .desc = { ent-NFWeaponRifleBarlowsBolt.desc }
+# HASH: 3d8f128120da4fd2599fc98411cfb73f839cf8df1128064ff0f78150ba57dfe2
+ent-NFWeaponRifleCeremonialExpedition = { ent-NFWeaponRifleCeremonial }
+    .desc = { ent-NFWeaponRifleCeremonial.desc }
+# HASH: 3973ab42fc3887c53dca65e95e4d0e70bc68abb9d611f243676fdbbb55012935
+ent-NFWeaponRifleRepeaterExpedition = { ent-NFWeaponRifleRepeater }
+    .desc = { ent-NFWeaponRifleRepeater.desc }
+# HASH: ac8b496b454667498ebafb092539ab967dc3e8819f9557834c143aa192d016b8
+ent-NFWeaponPistolCobraExpedition = { ent-NFWeaponPistolCobra }
+    .desc = { ent-NFWeaponPistolCobra.desc }
+# HASH: 67112aa424f038baddbacd16a2e2dce22057f78f5b1f341d7341f64cab8c37e2
+ent-NFWeaponPistolN1984Expedition = { ent-NFWeaponPistolN1984 }
+    .desc = { ent-NFWeaponPistolN1984.desc }
+# HASH: 57338402be45839143e8b0d6afb458e85807a7803cec28fbcdeebc2689bc979d
+ent-NFWeaponPistolViperExpedition = { ent-NFWeaponPistolViper }
+    .desc = { ent-NFWeaponPistolViper.desc }
+# HASH: 88d63c0d6ab26369139b67aaa1728e32640895f8b1e289edac518a3aed9a2bd9
+ent-NFWeaponRevolverFitzExpedition = { ent-NFWeaponRevolverFitz }
+    .desc = { ent-NFWeaponRevolverFitz.desc }
+# HASH: ea9c8790e452c4b64399e0d40a0de2486e236bd342def9246a3975f9603539a7
+ent-NFWeaponRevolverLuckyExpedition = { ent-NFWeaponRevolverLucky }
+    .desc = { ent-NFWeaponRevolverLucky.desc }
+# HASH: 9520be34d9e83bd1955f359aa61c68c33b6386752169d8a1b858461845b5dd75
+ent-NFWeaponRevolverPirateExpedition = { ent-NFWeaponRevolverPirate }
+    .desc = { ent-NFWeaponRevolverPirate.desc }
+# HASH: ac4fbf25470ceb7872a9a6c44a70d0a134631594680e766dc1f0248d50b9d8bb
+ent-NFWeaponRevolverWard45Expedition = { ent-NFWeaponRevolverWard45 }
+    .desc = { ent-NFWeaponRevolverWard45.desc }
+# HASH: 8de3b651c85f1611870f463bf0a1c6643fdab280ae15f4a9ac5917ab25a4c7ee
+ent-NFWeaponShotgunKammererExpedition = { ent-NFWeaponShotgunKammerer }
+    .desc = { ent-NFWeaponShotgunKammerer.desc }
+# HASH: 665d981e9de7c8960714d0e668cd59cfa10acf1aef0faf9cd0faa4e639c940a6
+ent-NFWeaponSubMachineGunC20rExpedition = { ent-NFWeaponSubMachineGunC20r }
+    .desc = { ent-NFWeaponSubMachineGunC20r.desc }
+# HASH: b74ae406c2d134eb426c49fbc809286070c0f1b0485122b910d1029dcb244ca9
+ent-NFWeaponRifleAssaultNovaliteC1Expedition = { ent-NFWeaponRifleAssaultNovaliteC1 }
+    .desc = { ent-NFWeaponRifleAssaultNovaliteC1.desc }
+# HASH: b6b48e8a4168ad4f15e5b23b61d9d83fc9f51ec13d49f0a287a72cbbf0cdd530
+ent-NFWeaponRifleAssaultJackdawExpedition = { ent-NFWeaponRifleAssaultJackdaw }
+    .desc = { ent-NFWeaponRifleAssaultJackdaw.desc }
+# HASH: e09f8f182c90ac4e7bee0dda4fd448ac4cef6b3772a3d51b0a7a285a3fcc81a0
+ent-NFWeaponRifleAssaultGestioExpedition = { ent-NFWeaponRifleAssaultGestio }
+    .desc = { ent-NFWeaponRifleAssaultGestio.desc }
+# HASH: 3a6799fe4e3d2db11f1306613e40c6ed78cf8289a4a8766576155f60b125812d
+ent-NFWeaponRifleSVSExpedition = { ent-NFWeaponRifleSVS }
+    .desc = { ent-NFWeaponRifleSVS.desc }
+# HASH: 2cddf69bcc6a61d709310e33c3a79b0522efa873cb91ba6b95ecf8030a5e2b2c
+ent-NFWeaponEnergyPistolLaserExpedition = { ent-NFWeaponEnergyPistolLaser }
+    .desc = { ent-NFWeaponEnergyPistolLaser.desc }
+# HASH: b46b75c3e22acb8334d6caf82d29987f2f08013f48a4500ead32de716a82381f
+ent-NFWeaponRifleAssaultLecterExpedition = { ent-NFWeaponRifleAssaultLecter }
+    .desc = { ent-NFWeaponRifleAssaultLecter.desc }
+# HASH: e6ed922911853c093d0f2373f7ffcd727f640128c42bce65591b5dcc362a3946
+ent-NFWeaponRifleAssaultM90GrenadeLauncherExpedition = { ent-NFWeaponRifleAssaultM90GrenadeLauncher }
+    .desc = { ent-NFWeaponRifleAssaultM90GrenadeLauncher.desc }
+# HASH: 8427f7173926ff3211420c6a729a5c06c042e0c10e2b1392f915d1df2ab4b166
+ent-NFWeaponRifleSniperHristovExpedition = { ent-NFWeaponRifleSniperHristov }
+    .desc = { ent-NFWeaponRifleSniperHristov.desc }
+# HASH: f9232246a68c123fc88bf806fc93402fdb1e5c970d629efa84c6a4e8a2b061cc
+ent-NFWeaponRifleMusketExpedition = { ent-NFWeaponRifleMusket }
+    .desc = { ent-NFWeaponRifleMusket.desc }
+# HASH: 968014ccd9168e5fdc63755dc3b2f3b5b3b2fdb1546253fd7278529ba2ab757f
+ent-NFWeaponSubMachineGunWt550Expedition = { ent-NFWeaponSubMachineGunWt550 }
+    .desc = { ent-NFWeaponSubMachineGunWt550.desc }
+# HASH: 05c9270f883d5b5e96972715d1aa81a3a79f9388c050a3a5e7f4059927b9f757
+ent-NFWeaponSubMachineGunDrozdExpedition = { ent-NFWeaponSubMachineGunDrozd }
+    .desc = { ent-NFWeaponSubMachineGunDrozd.desc }
+# HASH: 75c66ad54e2aa5e4c3212c42468cae63bef76e043338e060a77bab80608f88de
+ent-NFWeaponSubMachineGunAtreidesExpedition = { ent-NFWeaponSubMachineGunAtreides }
+    .desc = { ent-NFWeaponSubMachineGunAtreides.desc }
+# HASH: e55b5b2dfa5bcc03eecb1cc6947edc63503d86993fcb6dc237e597f8c3094531
+ent-NFWeaponSubMachineGunTypewriterExpedition = { ent-NFWeaponSubMachineGunTypewriter }
+    .desc = { ent-NFWeaponSubMachineGunTypewriter.desc }
+# HASH: 94c48de94d11e523245ad5c5441df437dfa361496ec1247b107848b713037e99
+ent-NFWeaponEnergyPistolLaserSvalinnExpedition = { ent-NFWeaponEnergyPistolLaserSvalinn }
+    .desc = { ent-NFWeaponEnergyPistolLaserSvalinn.desc }
+# HASH: 01821107959d843e9cc08daff04516177d00144873e419631e5668c012ff854d
+ent-NFWeaponShotgunEnforcerExpedition = { ent-NFWeaponShotgunEnforcer }
+    .desc = { ent-NFWeaponShotgunEnforcer.desc }
+# HASH: df3a7707945a69a7e465cdfc42a666d5be74d9872903896fc6ba42f61eb0224a
+ent-NFWeaponShotgunBulldogExpedition = { ent-NFWeaponShotgunBulldog }
+    .desc = { ent-NFWeaponShotgunBulldog.desc }
+# HASH: 58bea49afe541ac7307db613455bd36dd2adfa76bab7f701dc4c677a6ae9b31d
+ent-NFWeaponRifleAssaultSmExpedition = { ent-NFWeaponRifleAssaultSm }
+    .desc = { ent-NFWeaponRifleAssaultSm.desc }
+# HASH: 4b8d87bd7640a3a5624b1ba947346f039767eb4075408c5764f7c21dc22b57bc
+ent-NFWeaponRifleAssaultVulcanExpedition = { ent-NFWeaponRifleAssaultVulcan }
+    .desc = { ent-NFWeaponRifleAssaultVulcan.desc }
+# HASH: c2f19c7d5537753edde460b78b5b09b8260ce8daebba782b72b65d2dea5862f6
+ent-NFWeaponEnergyRifleCarbineExpedition = { ent-NFWeaponEnergyRifleCarbine }
+    .desc = { ent-NFWeaponEnergyRifleCarbine.desc }
+# HASH: ce1b04db64caa0755baca1ef8759ebc39a3796af4eb4477c546de77ae0f740b9
+ent-NFWeaponEnergyPistolLaserAdvancedExpedition = { ent-NFWeaponEnergyPistolLaserAdvanced }
+    .desc = { ent-NFWeaponEnergyPistolLaserAdvanced.desc }
+# HASH: db8a0dd28a6938fd29ea52a20e5dc0209e0477a846921787573d464e2b99949b
+ent-NFWeaponEnergyPistolLaserAntiqueExpedition = { ent-NFWeaponEnergyPistolLaserAntique }
+    .desc = { ent-NFWeaponEnergyPistolLaserAntique.desc }
+# HASH: da486c8a1e53fd62c757147a6fbc928de6cec6ae1b0d405c138788e6f8687543
+ent-WeaponTurretAsmgtHostileUniversallyPackedExpedition = { ent-WeaponTurretAsmgtNtPacked }
+    .desc = { ent-WeaponTurretAsmgtHostileUniversallyPacked.desc }
+# HASH: 13345085aeea74f6ff3f8ba99abc01994340e01354a58d299fe4bb9de86d16a4
+ent-NFWeaponLauncherRocketExpedition = { ent-NFWeaponLauncherRocket }
+    .desc = { ent-NFWeaponLauncherRocket.desc }
+# HASH: 5c87812e27f274d8365019b5051adf029000190222c116386de2c31c8444eb81
+ent-NFWeaponLauncherChinaLakeExpedition = { ent-NFWeaponLauncherChinaLake }
+    .desc = { ent-NFWeaponLauncherChinaLake.desc }
+# HASH: f5deffb6c3f0c4a240b21336df35a288b611a5cc478105e882f9fac23592e71a
+ent-NFWeaponLightMachineGunL6Expedition = { ent-NFWeaponLightMachineGunL6 }
+    .desc = { ent-NFWeaponLightMachineGunL6.desc }
+# HASH: d55e465a00e861ef375b62d93d48813ac4ce828a73fa7ececb61306afc3ff745
+ent-NFWeaponEnergySubMachineGunDeltaVExpedition = { ent-NFWeaponEnergySubMachineGunDeltaV }
+    .desc = { ent-NFWeaponEnergySubMachineGunDeltaV.desc }
+# HASH: e448ef70b8cf9ccb63012c7d86db81dff935c2fb31592deff740d291bdd14e53
+ent-NFWeaponEnergyRifleSniperXrayCannonExpedition = { ent-NFWeaponEnergyRifleSniperXrayCannon }
+    .desc = { ent-NFWeaponEnergyRifleSniperXrayCannon.desc }
+# HASH: 4280a5d65f56097559fa9603a68ff1c130972a288367a45e772698547be3feb4
+ent-NFWeaponEnergyRifleSniperCannonExpedition = { ent-NFWeaponEnergyRifleSniperCannon }
+    .desc = { ent-NFWeaponEnergyRifleSniperCannon.desc }
+# HASH: 5a0b0c2c19ffbc253f798c20d989a5ce9b70ee1b6cf1d6ccabe59f46bc273803
+ent-NFWeaponEnergyRifleTemperatureExpedition = { ent-NFWeaponEnergyRifleTemperature }
+    .desc = { ent-NFWeaponEnergyRifleTemperature.desc }
