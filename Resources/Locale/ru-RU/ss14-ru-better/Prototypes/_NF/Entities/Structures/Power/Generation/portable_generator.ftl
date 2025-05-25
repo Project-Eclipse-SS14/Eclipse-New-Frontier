@@ -13,7 +13,7 @@ ent-PortableGeneratorSuperPacmanShuttle = { ent-PortableGeneratorSuperPacman }
 ent-PortableGeneratorJrPacmanShuttle = { ent-PortableGeneratorJrPacman }
     .desc = { ent-PortableGeneratorJrPacman.desc }
     .suffix = Сварочное топливо, 6 кВт, Шаттл
-# HASH: d9441bdc547f855b9bedf4a42637297af8cb207b7abee135f3958540503a7f19
+# HASH: f782e51bf9391fccf784825fa89ce1d8cfd863cb73acb0fc19d5bd0ab340f664
 ent-PortableGeneratorDK = портативный генератор типа Д-К
     .desc =
         Прототип реактора деления Данна-Кикко. Используйте с осторожностью.
@@ -24,7 +24,7 @@ ent-PortableGeneratorDK = портативный генератор типа Д-
 ent-PortableGeneratorDKShuttle = { ent-PortableGeneratorDK }
     .desc = { ent-PortableGeneratorDK.desc }
     .suffix = Бананиум, Рад+, 60 кВт, Шаттл
-# HASH: ec5cfd980eafbca4e56a07866604e75262ebbb8a23da02661a31afce69fa8192
+# HASH: a27268074c83928f7c6ba073b5a7613c166da4a0ddec43c655697fd346e6c062
 ent-PortableGeneratorDKJr = портативный генератор типа Д-К Мл.
     .desc =
         Миниатюрный реактор деления Данна-Кикко. Используйте с осторожностью.
