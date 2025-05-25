@@ -6,3 +6,6 @@ ent-BaseMobJaunt = Блуждающий дух
 ent-EtherealJaunt = Блуждающий дух
     .desc = { ent-BaseMobJaunt.desc }
     .suffix = Волшебный
+# HASH: a67bd3815a9e3d3d64e964cf8be653fb6eda67200f33243d45dc43dabf0d1e36
+ent-DesynchronizedPocket = десинхронизированный карман
+    .desc = Карман в пространстве-времени, удерживающий пользователя на долю секунды в будущем.

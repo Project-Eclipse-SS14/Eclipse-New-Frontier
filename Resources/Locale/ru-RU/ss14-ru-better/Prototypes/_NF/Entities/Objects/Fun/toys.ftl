@@ -127,9 +127,9 @@ ent-PlushieCatTuxedo = плюшевая кошка
 # HASH: c39525bc078f75b6cf0cc5c46958e571816b504feb2557cdc4e530a6655dcad8
 ent-PlushieCatWhite = плюшевая кошка
     .desc = { ent-BasePlushieCat.desc }
-# HASH: 2bffd687d3eb66a01d6f3540c4159444bdbd20490772cebbca7ae5571642f655
-ent-WeaponLauncherRocketToy = РПГ эмоциональной поддержки
-    .desc = Деактивированный РПГ, модифицированный для использования только с поролоновыми боеголовками. "Когда времена тяжелы и стресс зашкаливает, НЕ волнуйтесь, ведь у S.E.S.W.C есть то, что вам нужно!"
+# HASH: 453c31fcb28f84e2634c69faa5c2b3b2353e50751590b4957805bbd6f2d904d6
+ent-WeaponLauncherRocketToy = игрушечная ракетница
+    .desc = Плюшевая игрушка запускает поролоновые «гранаты». На боку есть стежки с надписью «Дядя Сэм».
     .suffix = Игрушка
 # HASH: ad0faadea5c08fd9173ce785b512e88534bd8e669c381b592fc48efa54d69d84
 ent-BulletFoamRPG = игрушечная РПГ ракета
@@ -137,4 +137,16 @@ ent-BulletFoamRPG = игрушечная РПГ ракета
 # HASH: 2154c4bd83b46af468dac2b919c90d3904df55809ceb6664a074f6f7ade64810
 ent-RevolverCapGunFakeGrown = { ent-RevolverCapGunFake }
     .desc = { ent-RevolverCapGunFake.desc }
-    .suffix = Ненастоящий, Grown
+    .suffix = Ненастоящий, Выращенный
+# HASH: bfc4af53a113b749fa8c1bcf87c90467a51bd4cd8237d44bbd3a10e5766571b9
+ent-NFRevolverCapGun = игрушечный пистолет
+    .desc = Выглядит почти как настоящий! Возраст от 8 лет и старше.
+    .suffix = Фронтир
+# HASH: 8a1ea3652bf5d2fe1c2c8c4f8420a796971d645eb5a2dfdbe1f95089cec1de09
+ent-NFRevolverCapGunFake = игрушечный пистолет
+    .desc = Выглядит почти как настоящий! Возраст от 8 лет и старше.
+    .suffix = Ненастоящий, Фронтир
+# HASH: 14064264849b1f860a120cc9afa2f01dac4add5df05f641dde27531e16778c90
+ent-NFRevolverCapGunFakeGrown = { ent-NFRevolverCapGunFake }
+    .desc = { ent-NFRevolverCapGunFake.desc }
+    .suffix = Ненастоящий, Выращенный

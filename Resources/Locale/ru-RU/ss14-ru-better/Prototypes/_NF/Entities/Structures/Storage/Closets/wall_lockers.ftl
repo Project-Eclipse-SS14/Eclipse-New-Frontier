@@ -2,36 +2,36 @@
 ent-LockerWallColorBase = { ent-BaseWallCloset }
     .desc = { ent-BaseWallCloset.desc }
     .suffix = Фронтир
-# HASH: 4feb9bfec018d414bbf15985d30b9656be6c4ce87e6d55e80bb081d8e871cc6b
-ent-LockerWallColorFuelPlasma = шкаф плазменного топлива
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: ab5f5c425844b0390b945d0f2e4f6eb191a6b7e973383d1f28d41e6b5bcdb80f
-ent-LockerWallColorUranium = шкаф уранового топлива
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: a4b046a70206c0004aafc6da37c23244b5887af00d8b48bbd1c6c29452114c5a
-ent-LockerWallColorWelding = шкаф сварочного топлива
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 1f2595f5dfe50b4d30049f7a998758668127b98f5d41fe0d286fbb575c7b6eee
-ent-LockerWallColorAme = шкаф топлива для ДАМ
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: b76c265e0ebb2493006c36bde85bad22b66b183395f3d8a2203e8ff5d04b74cd
-ent-LockerWallColorBananium = шкаф бананиумного топлива
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: ca7564283ccd09a2c7332f2f98ba11dfb6029da6880487f62a21701c0825a4bd
-ent-LockerWallColorMaterials = шкаф базовых материалов
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 05148c1da43aeab00ba5f71b00de0fc2c3ecef04d6549ee65c9ca7766803c72c
+# HASH: e729520b4ab32adf0eff82853a0b5d04ce2423c7b8e8d0edf4b68e346220af0b
+ent-LockerWallColorFuelPlasma = настенный шкаф плазменного топлива
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 85e055531e4b6675e88374693dbdf6e752875a4a6ef70774e623481e5ca0d3c7
+ent-LockerWallColorUranium = настенный шкаф уранового топлива
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 6e288a5ce9167eb2fe9dd384e61ad17392972dde6533666319acfdd64ab33c73
+ent-LockerWallColorWelding = настенный шкаф сварочного топлива
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 23ff8f06822223bd4b0a157bfe8a0659458edbc48a316795bb3c4bc13b9eaedd
+ent-LockerWallColorAme = настенный шкаф топлива ДАМ
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 460783b80072b848b68fc1dcf1473572fbdbedbc18ca98a99fcf45559373ac67
+ent-LockerWallColorBananium = настенный шкаф бананиумного топлива
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 00b1415cc82a5d9fdc7058b4b3091b2d1d947be25917dce234298f97f1f7e8ff
+ent-LockerWallColorMaterials = настенный шкаф базовых материалов
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 362206749b763a3516252a933dc57b5bdcfe72ce91a3aa8f640a4d4bba2d3b0c
 ent-LockerWallColorL1Fire = настенный шкаф для пожарного костюма L1
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 6bd55a7f948c9affd253943bb28743a24bb5de96593d72c4657661ab559ce3ed
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 61e888ed383904081b04943fc081131c50c91c16c40b7ae6dffb0152d5833d0a
 ent-LockerWallColorL2Radiation = настенный шкаф для радиационного костюма L2
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 9913dbca3b3d8490a194432c3c3f8d17ce7796536d2b195efd637eccda2f0c5b
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: 448a5c20df205f019546dc243dbaabfeb9bcb8c902b06bc5f7ce442f3b25ba98
 ent-LockerWallColorL3Biohazard = настенный шкаф для костюма биологической защиты L3
-    .desc = { ent-LockerWallColorBase.desc }
-# HASH: 543d20f4474159e25acb1db55ef489ae1c95c2d6306067b088c6d6dbb510d7b3
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
+# HASH: d0d082031449de13f00332ffd95662ead397ed3712cc3fcdcdc10267e28d05f8
 ent-LockerWallColorL4Bomb = настенный шкаф для сапёрного костюма L4
-    .desc = { ent-LockerWallColorBase.desc }
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
 # HASH: 49c8abb1fbff109153a16c853be66e8de30cd70e8e6e6258ee72b9dd7982d0b8
 ent-LockerWallChemistry = настенный шкаф химика
     .desc = { ent-LockerWallMedical.desc }
@@ -44,3 +44,7 @@ ent-ClosetWallO2N2 = настенный шкаф для аварийного о�
 # HASH: 4b4ff16d3fdc1c7aec25956f64f253b685ecdc8eb643e50ee44eb96770009076
 ent-NFPrisonerClosetWallOrange = настенный шкаф для заключенных
     .desc = Это хранилище для одежды заключенных, отвечающей требованиям Космического Закона.
+# HASH: 85a466aff316fd9e9c7301ccf337babbbfc91c8bcd8a59c69aa9bcf3d412827a
+ent-NFBaseLockerGridInvWallColor = { ent-ShelfBaseReinforced }
+    .desc = { ent-ShelfBaseReinforced.desc }
+    .suffix = Фронтир

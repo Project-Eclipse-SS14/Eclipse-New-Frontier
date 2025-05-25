@@ -52,14 +52,14 @@ ent-ClothingBackpackDuffelSyndicate = вещмешок синдиката
 # HASH: f3af7f38fd8ae0ad41f59059887f071ae0f854ff2702b666e3e81e09e8c4e622
 ent-ClothingBackpackDuffelSyndicateBundle = { ent-NFClothingDuffel }
     .desc = { ent-NFClothingDuffel.desc }
-# HASH: 70af23ae9d1ac4c0e0e931e48bf87ebe73540923602e35af28723faa612d5a29
-ent-ClothingBackpackDuffelSyndicateAmmo = вещмешок аммуниции синдиката
+# HASH: f3af7f38fd8ae0ad41f59059887f071ae0f854ff2702b666e3e81e09e8c4e622
+ent-ClothingBackpackDuffelSyndicateAmmo = { ent-NFClothingDuffel }
     .desc = { ent-NFClothingDuffel.desc }
 # HASH: f3af7f38fd8ae0ad41f59059887f071ae0f854ff2702b666e3e81e09e8c4e622
 ent-ClothingBackpackDuffelSyndicateAmmoBundle = { ent-NFClothingDuffel }
     .desc = { ent-NFClothingDuffel.desc }
-# HASH: 70af23ae9d1ac4c0e0e931e48bf87ebe73540923602e35af28723faa612d5a29
-ent-ClothingBackpackDuffelSyndicateMedical = медицинский вещмешок синдиката
+# HASH: f3af7f38fd8ae0ad41f59059887f071ae0f854ff2702b666e3e81e09e8c4e622
+ent-ClothingBackpackDuffelSyndicateMedical = { ent-NFClothingDuffel }
     .desc = { ent-NFClothingDuffel.desc }
 # HASH: f3af7f38fd8ae0ad41f59059887f071ae0f854ff2702b666e3e81e09e8c4e622
 ent-ClothingBackpackDuffelSyndicateMedicalBundle = { ent-NFClothingDuffel }

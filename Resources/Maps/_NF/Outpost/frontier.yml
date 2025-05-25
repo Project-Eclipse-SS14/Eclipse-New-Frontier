@@ -33206,7 +33206,7 @@ entities:
         - Left: Forward
         - Right: Forward
         - Middle: Off
-- proto: UniformPrinter
+- proto: UniformPrinterStaff
   entities:
   - uid: 2042
     components:

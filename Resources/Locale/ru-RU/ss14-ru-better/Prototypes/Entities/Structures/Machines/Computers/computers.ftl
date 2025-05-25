@@ -74,9 +74,9 @@ ent-ComputerRadar = консоль сканера массы
 # HASH: 0dd552aca9730b136cce419d3ba419bc065c2d0d38f5f68f8631e86b73522ac8
 ent-ComputerCargoShuttle = консоль вызова грузового шаттла
     .desc = Используется для вызова и отправки грузового шаттла.
-# HASH: 76eafdee14156a6a2fcc855236e372a2bc627120c4a293c8b06a21af6ac8a548
+# HASH: b1417ec114e3f718061a13b376814d47e25dcae9ff9c04e4698e7e41a2296888
 ent-ComputerCargoOrders = консоль заказа грузов
-    .desc = Используется для оформления запросов и одобрения заказов.
+    .desc = Используется для покупки припасов у Центрального Коммандования.
 # HASH: 0342422a77f053b75a2c2e8f4d792d89a61952d1f61f14cf410d56d79ccf26d5
 ent-ComputerCargoBounty = консоль запросов
     .desc = Используется для управления текущими активными запросами.
@@ -108,3 +108,21 @@ ent-ComputerRoboticsControl = консоль управления роботот
 # HASH: 64d24156257bdc1972d99778f6a8de02094031ce3a62ed6123b50a9f421e42d1
 ent-StationAiUploadComputer = консоль загрузки ИИ
     .desc = Используется для обновления законов станционного ИИ.
+# HASH: ec230235bbe76056cbcd05a11054b2000e8bb038335082d8ac7536961e3d31e3
+ent-ComputerCargoOrdersEngineering = инженерная консоль заказов
+    .desc = Используется инженерным отделом для заказа расходных материалов.
+# HASH: 058ba5d287ec93e0ea1c57706439fd48624f8574257c1d2785142504c8ee37aa
+ent-ComputerCargoOrdersMedical = медицинская консоль заказов
+    .desc = Используется медицинским отделом для заказа расходных материалов.
+# HASH: 23c191c5366c44ded130e49cd0d3b490fe5f8c7e3575d845a07a6294af1f4271
+ent-ComputerCargoOrdersScience = научная консоль заказов
+    .desc = Используется научным отделом для заказа расходных материалов.Используется научным отделом для заказа расходных материалов.
+# HASH: 42fbcfc8b30717bf8d11d6bd19f3b092f9d76d8841a6ed0c0b2fce22e9038b36
+ent-ComputerCargoOrdersSecurity = охранная консоль заказов
+    .desc = Используется отделом безопасности для заказа расходных материалов.
+# HASH: 946ea8be30f22e1c001ba75ca4e1e0a793f3e74e3e3ff39f8cdfafd66730611d
+ent-ComputerCargoOrdersService = сервисная консоль заказов
+    .desc = Используется сервисным отделом для заказа расходных материалов.
+# HASH: 4a47d3eed2dbff635f4c7d3ef5de50024b508cb369f3f78ccb7a20b7384b8d72
+ent-ComputerFundingAllocation = консоль распределения финансирования
+    .desc = Терминал для контроля распределения средств и оплаты труда между отделами.

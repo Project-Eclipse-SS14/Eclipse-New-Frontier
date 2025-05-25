@@ -1,9 +1,9 @@
 # HASH: a3eefa2b680a4477d28531588a5fe9652beba886a7dcf6c26de9b12def3ced99
 ent-BaseCartridgeCaselessRifle = патрон (.25 винтовочный)
     .desc = { "" }
-# HASH: d3557576317b792313a19800ce042635b4a35856802b5b9f3f886a865af141ad
-ent-CartridgeCaselessRifle = патрон (.25 безгильзовый)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
-# HASH: 450607aece29a80a181412e679a134d1c42ea4a9d2decc97b1ff39f74fb33fc7
-ent-CartridgeCaselessRiflePractice = патрон (.25 безгильзовый учебный)
-    .desc = { ent-BaseCartridgeCaselessRifle.desc }
+# HASH: 220b97ab02a48e9812d2f7032d5b3fb1cc1ae392566729f5df5a43a60d71b2d6
+ent-CartridgeCaselessRifle = картридж (.25 безгильзовый)
+    .desc = Небольшой калибр, использующий безгильзовую технологию, в которой обычная латунная гильза не используется, а используется закаленное топливо. Стандартные кинетические боеприпасы распространены и полезны в большинстве ситуаций.
+# HASH: 85c0b37a93dcab624763b6b7e29b3093cd4d84e7e8ef7a31df0109ff6690690a
+ent-CartridgeCaselessRiflePractice = картридж (.25 безгильзовый тренировочный)
+    .desc = Небольшой калибр, использующий безгильзовую технологию, в которой обычная латунная гильза не используется, а используется закаленное топливо. Меловые боеприпасы, как правило, не причиняют вреда здоровью и используются для тренировок.

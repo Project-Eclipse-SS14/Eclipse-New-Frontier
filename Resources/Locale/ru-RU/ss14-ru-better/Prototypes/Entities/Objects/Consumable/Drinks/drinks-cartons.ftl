@@ -35,3 +35,6 @@ ent-DrinkOatMilkCarton = овсяное молоко
 # HASH: e65a3b17c3f01801743f7a61892b4e55d3e369f71c4eaacedd950bb9394d8ba0
 ent-DrinkJuiceLemonCarton = лимонный сок
     .desc = На первый глоток он кислит, а затем всё равно кислит.
+# HASH: 406a981396c4c74be203a07b736897deae1adc4999d5da08ab1d5c6342e0738a
+ent-DrinkJuicePineappleCarton = ананасовый сок
+    .desc = Вкус напоминает тропический отпуск вдали от космоса.

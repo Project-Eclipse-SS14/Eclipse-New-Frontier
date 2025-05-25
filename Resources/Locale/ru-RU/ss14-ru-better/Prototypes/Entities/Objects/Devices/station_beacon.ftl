@@ -305,3 +305,23 @@ ent-DefaultStationBeaconEscapePod = { ent-DefaultStationBeacon }
 ent-DefaultStationBeaconVox = { ent-DefaultStationBeacon }
     .desc = { ent-DefaultStationBeacon.desc }
     .suffix = Вокс
+# HASH: 9bbef922c983d33bebc17accba450d70c813c95a94ea3121d6688e3d2c8a64ba
+ent-DefaultStationBeaconGhost = { ent-DefaultStationBeacon }
+    .desc = { ent-DefaultStationBeacon.desc }
+    .suffix = Буу
+# HASH: c8ff9b3f2d96065a364c43d4afbc4a96aa603b656d2077e6764eeecef767196a
+ent-DefaultStationBeaconCentComm = { ent-DefaultStationBeaconGhost }
+    .desc = { ent-DefaultStationBeaconGhost.desc }
+    .suffix = ЦентКомм
+# HASH: f592512f9a237ba3b7cde2740916d34c2a93b655c256d0a3827ce8cc0f286500
+ent-DefaultStationBeaconCentCommAfterhours = { ent-DefaultStationBeaconGhost }
+    .desc = { ent-DefaultStationBeaconGhost.desc }
+    .suffix = ЦентКомм После обеда
+# HASH: 794d1ef2b9e5b37b57864fcaba4f1a8e2cdf25227e128ee2be9727c8117cd293
+ent-DefaultStationBeaconCentCommThunderdome = { ent-DefaultStationBeaconGhost }
+    .desc = { ent-DefaultStationBeaconGhost.desc }
+    .suffix = ЦентКомм Купол Грома
+# HASH: 0488c61b4362065a3a12987f16136bae02de64a31b0a82d03fd9b9ef5d0c5cba
+ent-DefaultStationBeaconCentCommERT = { ent-DefaultStationBeaconGhost }
+    .desc = { ent-DefaultStationBeaconGhost.desc }
+    .suffix = ЦентКомм ОБР

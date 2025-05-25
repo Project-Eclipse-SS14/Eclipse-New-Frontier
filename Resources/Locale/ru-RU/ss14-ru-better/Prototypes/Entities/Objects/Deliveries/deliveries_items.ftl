@@ -34,3 +34,6 @@ ent-MailEvilLizardSpam = DO NOT OPEN THIS MAIL
 # HASH: 5dd6a98041f7106a7a78b93e18e60b5ef487bc1e1f57cda32f4cd00d276160f3
 ent-MailParentsNeedMoneySpam = Help mom and dad!
     .desc = Parents in need of financial support.
+# HASH: 968f52f9ef57fdc692b7af9f3cc459999b9f0153b8f015e8731dc03ff0ce53e4
+ent-MailSpamLetter = писмо со спамом
+    .desc = Даже космос не убережёт вас от спама.

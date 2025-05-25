@@ -37,3 +37,7 @@ ent-WeaponTurretAsmgtHostileUniversallyDeployed = { ent-WeaponTurretAsmgtNtDeplo
 ent-WeaponTurretAsmgtHostileUniversallyPacked = { ent-WeaponTurretAsmgtNtPacked }
     .desc = Разобранная и упакованная Автономная Сторожевая Пулеметная Турель (АСПТ). ВНИМАНИЕ! Разобранная турель будет враждебной к любому, кто не находился рядом (в пределах 3 м) после распаковки!
     .suffix = Враждебная, Упакованная
+# HASH: 5becd0f6858ced0211261e14b47131d37f7c171fe93318a29f54b322d820df1c
+ent-NFWeaponTurretLaserSyndicate = лазерная турель
+    .desc = { "" }
+    .suffix = Фронтир, Синдикат

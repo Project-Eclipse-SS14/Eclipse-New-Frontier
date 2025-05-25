@@ -95,3 +95,9 @@ ent-ClothingHeadHatParamedicsoft = кепка парамедика
 # HASH: 853b95a733f14b3f83a1e8bdd27550c8ec575c40a3f9c69c2af69351db712b0a
 ent-ClothingHeadHatParamedicsoftFlipped = кепка парамедика
     .desc = { ent-ClothingHeadHatParamedicsoft.desc }
+# HASH: 799539194cf3bc570dc71418758376bec6225904788480e51175a9fd8e46a650
+ent-ClothingHeadHatCommandSoft = кепка командования
+    .desc = Это бейсболка, раскрашенная в цвета командования.
+# HASH: 9a524fc355b4299c1d971286fdccc012460665a73fb9a8cdc7fbeba0d875e1a9
+ent-ClothingHeadHatCommandSoftFlipped = кепка командования
+    .desc = { ent-ClothingHeadHatCommandSoft.desc }

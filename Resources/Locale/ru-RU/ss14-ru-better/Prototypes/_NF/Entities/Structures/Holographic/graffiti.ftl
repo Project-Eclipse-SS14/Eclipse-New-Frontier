@@ -137,3 +137,21 @@ ent-HoloGraffitiHighlighted20 = { ent-HoloGraffiti }
 # HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
 ent-HoloGraffitiHighlighted21 = { ent-HoloGraffiti }
     .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted22 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted23 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted24 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted25 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted26 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }
+# HASH: ebe3b3b09de396c0919fffeaf804fb32dcd58c5fba24a079de8b14c3026d42a2
+ent-HoloGraffitiHighlighted27 = { ent-HoloGraffiti }
+    .desc = { ent-HoloGraffiti.desc }

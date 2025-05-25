@@ -25,7 +25,7 @@ ent-FoodSnackEnergy = энергетический батончик
 # HASH: aada2dbd5a31b4ab82476a8f2ffd353e9e448093e746ed3447a2fc359b0baf5d
 ent-FoodSnackEnergyBar = энергетический батончик
     .desc = Энергетический батончик с большим запасом энергии.
-# HASH: 7e25c085d0289c938a0dce6925e2f086e4e553accb2f5960e2554c1d93b4f6f3
+# HASH: 391664913d2dc416aeac66f07c017143287c57a31d7f3c0577ae72c033e571d8
 ent-FoodSnackPistachios = фисташки "Сладкоежка"
     .desc = Фисташки торговой марки "Сладкоежка". Вероятно, не вызовут у вас заболеваний. Вероятно.
 # HASH: 0e35598f6daa2f1c3adce2124e6c23f77062801fe564ca8b1c795dd66157ac65

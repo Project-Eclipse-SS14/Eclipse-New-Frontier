@@ -1,8 +1,8 @@
-# HASH: f49aa25b533098746726b5578dae5b475b42d86ff52d7b27c27ba114139e395c
+# HASH: 50fc4bd32adb2401ab75e9b294f99f00b4b2b98473b17c6de2e2189cd237b3e3
 ent-MagazineAsmgtUniversalEmpty = ящик патронов АСПТ
     .desc = Универсальный ящик для патронов, совместимый с АСПТ и способный принимать патроны калибра .20, .25, .30 и .35.
     .suffix = пустой
-# HASH: 4d47498c67a0cfdc695863c8b0a58112613096c15e5ba64e544006e0fec0575f
+# HASH: 38cbe023de673b7fb8c156971d26e11df353b9aa1bf4db3549c6161ea0dfd461
 ent-MagazineAsmgtUniversalPistol = ящик патронов АСПТ
     .desc = { ent-MagazineAsmgtUniversalEmpty.desc }
     .suffix = .35 пистолетные

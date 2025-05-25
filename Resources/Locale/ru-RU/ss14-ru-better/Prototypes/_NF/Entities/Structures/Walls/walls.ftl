@@ -871,3 +871,7 @@ ent-NFWallAndesiteCobblebrickSilverGolem = { ent-NFWallAndesiteCobblebrickSilver
 ent-NFWallAndesiteCobblebrickUraniumGolem = { ent-NFWallAndesiteCobblebrickUranium }
     .desc = { ent-NFWallAndesiteCobblebrickUranium.desc }
     .suffix = Урановый голем
+# HASH: ebd0f07cdba59b0602f0e2af217634692a0fb873fbab73eedc4ba99586d905ee
+ent-WallShuttleInterior = стена шаттла
+    .desc = { ent-BaseWall.desc }
+    .suffix = Интерьер

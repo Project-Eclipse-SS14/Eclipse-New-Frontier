@@ -25,6 +25,9 @@ ent-BoxFlashBangGrenades = коробка светошумовых гранат
 # HASH: d27cec50e7109c332bd057f3392eaebb3a5f3043e7f2f02a03c1c1e94108360c
 ent-BoxStingerGrenadesNfsd = коробка травматических гранат
     .desc = Коробка, полная травматических гранат.
-# HASH: 51ee3fe069d60a0c36b5514bfdd10469cd69c6adb35fa2264cdf92a7ea53dd6a
+# HASH: f6f06dd2e329d2296f44e623b2ac9ef8f4c964f08209a59028689eb04c16dcbf
 ent-BoxBreachingCharges = коробка подрывных зарядов
     .desc = Коробка, полная подрывных зарядов.
+# HASH: 4c9d1777d8c2308eb74a65e35095d5ffbaef942b1d9301c200e2084e91afa640
+ent-BoxEmpGrenadesAmmo = коробка ЭМИ снарядов
+    .desc = Коробка, полная ЭМИ снарядов.

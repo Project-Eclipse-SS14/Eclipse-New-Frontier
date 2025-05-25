@@ -427,9 +427,9 @@ ent-NFWallRockSnowPlasmaGolem = { ent-WallRockSnow }
 ent-NFWallRockChromitePlasmaGolem = { ent-WallRockChromite }
     .desc = { ent-WallRockChromitePlasma.desc }
     .suffix = плазменный голем
-# HASH: c95db4b2ba048184a51b7b5f0da19a904220155dec8134d4e9a8342b21adb3a0
+# HASH: 75c15d9bcab9d0def8090886abc9218c1237f073d249446636796e8f427b1293
 ent-NFAsteroidRockQuartzCrab = { ent-AsteroidRock }
-    .desc = { ent-AsteroidRockQuartzCrab.desc }
+    .desc = { ent-AsteroidRock.desc }
 # HASH: fe772e1524270e410bb74dd8891393e9877369821cf605c1d35203c60fa71c50
 ent-NFWallRockAndesiteQuartzCrab = { ent-WallRockAndesite }
     .desc = { ent-WallRockAndesiteQuartz.desc }

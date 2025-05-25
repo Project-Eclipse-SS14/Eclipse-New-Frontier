@@ -104,3 +104,6 @@ ent-FoodBakedCroissantCotton = хлопковый круассан
 # HASH: 96b210588c42e44bdb6773cc675cf56ff013c18b35f86fe3cab1d930572e92ec
 ent-FoodBakedGrilledCheeseSandwich = сэндвич с жареным сыром
     .desc = Хлеб и сыр, поджаренные с маслом, идеально подходят для прохладного дня в космосе.
+# HASH: 451da27529ef12fa50b5a6af0e41b203d56eba7deee948961ebf69d788083f8e
+ent-FoodBakedGrilledCheeseSandwichCotton = хлопковый сэндвич с жареным сыром
+    .desc = Хлопковый хлеб, слегка подгоревший в масле, с расплавленным сыром. Мотылькам трудно устоять перед таким сочетанием.

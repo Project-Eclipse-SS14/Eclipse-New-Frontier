@@ -4,24 +4,30 @@ ent-MobElementalBase = { "" }
 # HASH: e450131a5868546aaf7538d4608fa586006376a69158ab4f400363b566e54399
 ent-MobOreCrab = рудокраб
     .desc = { "" }
-# HASH: f14c52e559ac0b07f97b0851ae6e2e232d695ec92e506aec6727af3782d84c4f
+# HASH: 519c2b071dba2730e903bb4d2541234d7bcb19005dbd876b0b0e4d2ab37a81e3
 ent-MobQuartzCrab = { ent-MobOreCrab }
     .desc = Рудный краб, состоящий из кварца.
-# HASH: 973329f528a43d9dc5387acf8a2253a752d8c747109820d04f4f0555ee770935
+    .suffix = Кварц
+# HASH: 26143c26a688326ee7f000e2314f2aa480d7042db862d5ad477afc0be68a2ccc
 ent-MobIronCrab = { ent-MobOreCrab }
     .desc = Рудный краб, состоящий из железа.
-# HASH: de0ff5bd876bf2024aec8c34f607a43cf8c38aaa1314e620f17256b71fb860d8
+    .suffix = Железо
+# HASH: 4687c360bb38ae3b1966186d8844754a7bb53b095a9c14b7337f8f41e115b11e
 ent-MobCoalCrab = { ent-MobOreCrab }
-    .desc = Рудокраб, состоящий из угля.
-# HASH: d9ab6846128d9221ad081328a16d366561b4a1e72b24cb2babbef4078ef44243
+    .desc = Рудный краб, состоящий из угля.
+    .suffix = Уголь
+# HASH: 0aa66d9d37add7cf97bea1a7055fd3ab6c5fe19de415571e8d03e28641c8918a
 ent-MobUraniumCrab = { ent-MobOreCrab }
     .desc = Рудный краб, состоящий из урана.
-# HASH: 30d0d1d96766ac2f8849eec8684d8d73a93aa075980d6ee71b2dbc69195e2c4c
-ent-MobSilverCrab = серебряный рудокраб
+    .suffix = Уран
+# HASH: 99a78dc27b7e36ddda9391f165eb0782ae58c354a1adc8d4e12712a51a22b1fd
+ent-MobSilverCrab = { ent-MobOreCrab }
     .desc = Рудный краб, состоящий из серебра.
-# HASH: b78f0ace95f595e17279b20c40fe2f39eab84820b9d7e56e1d52fa7b0cf5982d
-ent-MobGoldCrab = золотой рудокраб
-    .desc = Рудокраб, состоящий из золота.
+    .suffix = Серебро
+# HASH: e13e35f976dc1568366aff039ea87f87ab7b1718f3318b95d9ab761a462685b2
+ent-MobGoldCrab = { ent-MobOreCrab }
+    .desc = Рудный краб, состоящий из золота.
+    .suffix = Золото
 # HASH: f18732ff8acc6a19a3462876144feeda95ed1285468f8f0da4dcd5203a08452a
 ent-ReagentSlime = химический слайм
     .desc = Состоит из жидкости, и хочет растворить вас в себе.

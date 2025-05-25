@@ -1,21 +1,21 @@
-# HASH: ae909958c3c2e7d0f1cffce12c696bc34ee5223fd7ab556cd53ee514e1980ada
+# HASH: 9b8eb51390f4534487fde9da176608b76e3ae4e01a08d661538ddf14f6e6ef9d
 ent-MonkeyCube = обезьяний кубик
-    .desc = Просто добавь воды!
-# HASH: 53e124625dd5f4ddef0f6cb77a491739fbfbe7e4ab748b4c5c9a619ccbaf2e4b
+    .desc = { ent-RehydratableAnimalCube.desc }
+# HASH: fffe69bcaa3b2c9d232943b819414e9d193583a1657ed456adc4127eb41dbf4b
 ent-KoboldCube = кобольдовый кубик
-    .desc = Просто добавь воды!
-# HASH: 16fc83077e7b9e65ceabccb75f07cce78c962b06d23e7e3fd8f69aaa1e2048c1
+    .desc = { ent-RehydratableAnimalCube.desc }
+# HASH: dd4ed1b1cd7d80d584640976329fc82cb401876e0901c4ab4742c34f0995f756
 ent-CowCube = коровий кубик
-    .desc = { ent-MonkeyCube.desc }
-# HASH: aa2aa5f8ebfad5cf5bf041ebd75e647e9adf95c61b241bec1a7862099e4b5df8
+    .desc = { ent-RehydratableAnimalCube.desc }
+# HASH: d35d428ec31caff6483e891eb6739df307d74de5515812dde3b380ed0d5fae76
 ent-GoatCube = козий кубик
-    .desc = { ent-MonkeyCube.desc }
-# HASH: 9aeca9bd0e452b0a0b05d080110e4447c6cc2486aaa69cf02909191459947db4
+    .desc = { ent-RehydratableAnimalCube.desc }
+# HASH: 3af23c18666189420c2b5b256dfe774fd40004f5aa13fa54101a0d57c57c12bc
 ent-MothroachCube = таракамолий кубик
-    .desc = { ent-MonkeyCube.desc }
-# HASH: 77216a8a993a4fe929a44fdaa1b21bb2d21ef8ca533093bf9a9998bc62c252be
+    .desc = { ent-RehydratableAnimalCube.desc }
+# HASH: 4514a90fe1199dc01bda1b3885b21b1de9905ec84d160fa7ac1b1183e8241f21
 ent-MouseCube = мышиный кубик
-    .desc = { ent-MonkeyCube.desc }
+    .desc = { ent-RehydratableAnimalCube.desc }
 # HASH: aad462f08859ce7b0ec1a11174dacb232ab601b1e013c630b90910b1a8ef02d5
 ent-CockroachCube = тараканий кубик
     .desc = Просто добавь во- О БОЖЕ!
@@ -31,7 +31,16 @@ ent-AbominationCube = мерзостный кубик
 # HASH: 04d8875ec58be0a872267f502b46a9c44ebaf95e3b2d681c0fe9ad2e4961bc9c
 ent-DehydratedSpaceCarp = обезвоженный космический карп
     .desc = Выглядит как плюшевый игрушечный карп, но стоит только добавить воды, и он превращается в настоящего космического карпа!
-# HASH: 72b3e446da2814f19175e50c7d46b87fa82d7dee1306466aaadccc4ad21b0806
-ent-SyndicateSponge = обезьяний кубик
-    .desc = Просто добавь воды!
+# HASH: e3ca5619b784162a736e54427364d0429b7cf01bed0463a478bf3613074df5f9
+ent-SyndicateSponge = { ent-MonkeyCube }
+    .desc = { ent-MonkeyCube.desc }
     .suffix = Синдикат
+# HASH: 54daf87eb4f8d9d3df68b8969a426f82380fc57f0aaf068712a3f0f95bf00a93
+ent-RehydratableItem = { ent-BaseItem }
+    .desc = { "" }
+# HASH: d0093161c0ef1f9a4fa74320328993436e0da3768de597a18eab8af6bfd74b22
+ent-RehydratableAnimalCube = { ent-RehydratableItem }
+    .desc = Просто добавь воды!
+# HASH: c3f13ad473e34ecdf89d98d7ed32e7ea84bda5367f0cdba5d4e542b3450f521d
+ent-MopBucketCube = кубик ведра для швабры
+    .desc = Просто добавь воды! И потом ещё немного!

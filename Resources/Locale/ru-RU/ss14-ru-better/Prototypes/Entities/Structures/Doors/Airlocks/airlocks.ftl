@@ -119,3 +119,11 @@ ent-AirlockMiningGlass = { ent-AirlockCargoGlass }
 ent-AirlockCentralCommandGlass = { ent-AirlockCommandGlass }
     .desc = { ent-AirlockCommandGlass.desc }
     .suffix = Центральное командование
+# HASH: 2586b9be14496f36f393d2e5af9a0107ee2c77997632694b6281857bac5a10e0
+ent-AirlockSalvage = { ent-Airlock }
+    .desc = { ent-Airlock.desc }
+    .suffix = Утилизатор
+# HASH: a3434367e0c6bf2e9b312bdb870fd6b1e858b3a1dd1debfa10786b8d9b2546f3
+ent-AirlockSalvageGlass = { ent-AirlockGlass }
+    .desc = { ent-AirlockGlass.desc }
+    .suffix = Утилизатор

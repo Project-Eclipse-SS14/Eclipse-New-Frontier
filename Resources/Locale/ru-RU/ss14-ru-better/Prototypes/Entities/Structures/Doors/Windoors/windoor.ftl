@@ -239,3 +239,7 @@ ent-UraniumWindoorNukeopLocked = { ent-WindoorUranium }
 ent-UraniumWindoorSecureNukeopLocked = { ent-WindoorSecureUranium }
     .desc = { ent-WindoorSecureUranium.desc }
     .suffix = Ядерные оперативники, Закрыт, Уран
+# HASH: b7d6fba273a377f342581c668e989bb6a6c51cb85405d63358c75b7797e76434
+ent-WindoorSecureResearchDirectorLocked = { ent-WindoorSecureCommandLocked }
+    .desc = { ent-WindoorSecureCommandLocked.desc }
+    .suffix = НаучныйРуководитель, Закрыт

@@ -115,8 +115,10 @@
     maxAmount: 5
 
   - id: NFGrenadeFlash # Frontier: use NF prefix
-  - id: NFGrenadeBlast # Frontier: use NF prefix
-  - id: NFGrenadeFrag # Frontier: use NF prefix
+  # Eclipse-Start : Remove blast grenade
+  #- id: NFGrenadeBlast # Frontier: use NF prefix
+  #- id: NFGrenadeFrag # Frontier: use NF prefix
+  # Eclipse-End
   - id: NFGrenadeBaton # Frontier: use NF prefix
   - id: SoapSyndie
     amount: 0
@@ -142,7 +144,9 @@
     maxAmount: 15
   - id: NFMagazineSubMachineGun35 # Frontier: MagazinePistolSubMachineGun<NFMagazineSubMachineGun35
     maxAmount: 15
-  - id: NFCartridgeRocket # Frontier: use NF prefix
-    maxAmount: 15
-  - id: NFGrenadeFrag # Frontier: use NF prefix
-    maxAmount: 15
+  # Eclipse-Start : Remove blast grenade
+  #- id: NFCartridgeRocket # Frontier: use NF prefix
+  #  maxAmount: 15
+  #- id: NFGrenadeFrag # Frontier: use NF prefix
+  #  maxAmount: 15
+  # Eclipse-End

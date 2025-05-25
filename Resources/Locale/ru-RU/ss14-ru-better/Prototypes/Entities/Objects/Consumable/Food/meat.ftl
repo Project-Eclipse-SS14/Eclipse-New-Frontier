@@ -193,3 +193,18 @@ ent-FoodMeatSpiderCutletCooked = паучья котлета
 # HASH: 95c7d318d11c52a7e2f12390c7d1b26523ea175e192dd486923c6714521ee137
 ent-FoodMeatXenoCutletCooked = ксено котлета
     .desc = Котлета из ксеноса, сочащаяся... вкусом?
+# HASH: b9cd926c8369a60bdf515613413af2298c04be8e80a4847d285f1158333be9b3
+ent-FoodMeatPatty = мясная котлета
+    .desc = Плоский кусок измельченного мяса. Готовый к жарке на гриле.
+# HASH: 7843c19a0f4b111bc9d2217149ed714ce98308c99b6cd4ca1ee192b3ea5a18e7
+ent-FoodMeatPattyCooked = приготовленная мясная котлета
+    .desc = Готовая мясная котлета.
+# HASH: ebbe9e16a07f2d8735534e3fe34f116a0993b775f905b94f2f0e1303986963c0
+ent-FoodMeatDragonCooked = драконий стейк
+    .desc = На большинстве станций наливание кетчупа считается смертным преступлением.
+# HASH: 1cd5c56f5e0eacad2773cd7af5fc63e03693b52a83447dda3285c6d74a91b6aa
+ent-FoodMeatDragonCutlet = сырая драконья котлета
+    .desc = Сырая котлета из драконьего мяса.
+# HASH: a9fff7c66a571031b0b91a7f5f85c0e49693935db5238a9ad8b45d52108768e8
+ent-FoodMeatDragonCutletCooked = драконья котлета
+    .desc = Это блюдо для королей!

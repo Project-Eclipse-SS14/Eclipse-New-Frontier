@@ -38,3 +38,6 @@ ent-WeaponLauncherAdmemeMeteorLarge = пускатель метеоритов
 ent-WeaponLauncherAdmemeImmovableRodSlow = пускатель неподвижного жезла
     .desc = Стреляет неподвижными жезлами.
     .suffix = Адмемы
+# HASH: 5da515c6f0bcf009b31ae6068ec683f6fdb6c99327f156cd28a5996f9c7dd012
+ent-WeaponLauncherHydra = Гидра
+    .desc = ПЛОП... ФССССССС

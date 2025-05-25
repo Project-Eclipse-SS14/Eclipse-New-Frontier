@@ -22,3 +22,7 @@ ent-CratePirateChestGrapeShot = сундук картечи
 ent-CratePirateChestGlassShot = сундук стеклянной картечи
     .desc = { ent-CratePirateGrey.desc }
     .suffix = Заполненный
+# HASH: 121b22f3d2700489b9199b58d8ca352270e1ef40ab5385d9dadd732977f4fee4
+ent-CratePirateChestNFCannonBallEmp = сундук ЭМИ-ядер
+    .desc = { ent-CratePirateGrey.desc }
+    .suffix = Заполненный

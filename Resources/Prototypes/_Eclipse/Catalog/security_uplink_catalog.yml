@@ -30,18 +30,20 @@
         tags:
           - SecurityUplink
 
-- type: listing
-  id: UplinkSecurityMagazineGrenadeBlast
-  name:  uplink-security-blast-grenade-magazine-name
-  description: uplink-security-blast-grenade-magazine-desc
-  productEntity: ClothingBackpackDuffelNfsdMagazineGrenadeBlastBundle
-  icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 4
-  categories:
-    - UplinkSecurityAmmo
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
+# Eclipse-Start : Remove blast grenade
+#- type: listing
+#  id: UplinkSecurityMagazineGrenadeBlast
+#  name:  uplink-security-blast-grenade-magazine-name
+#  description: uplink-security-blast-grenade-magazine-desc
+#  productEntity: ClothingBackpackDuffelNfsdMagazineGrenadeBlastBundle
+#  icon: { sprite: _NF/Clothing/Back/Duffels/nfsd_brown.rsi, state: icon }
+#  cost:
+#    FrontierUplinkCoin: 4
+#  categories:
+#    - UplinkSecurityAmmo
+#  conditions:
+#    - !type:StoreWhitelistCondition
+#      whitelist:
+#        tags:
+#          - SecurityUplink
+# Eclipse-Start : Remove blast grenade

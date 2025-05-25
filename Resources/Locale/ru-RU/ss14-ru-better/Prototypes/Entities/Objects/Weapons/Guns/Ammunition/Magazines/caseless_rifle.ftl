@@ -10,12 +10,12 @@ ent-BaseMagazinePistolCaselessRifle = пистолетный магазин (.25
 # HASH: 251b6d8558242dbc32ee6c1942cbde06a680f5df80d0d5bf6ef3c6ffe434d557
 ent-MagazineCaselessRifle10x24 = коробчатый магазин (.25 безгильзовые)
     .desc = { ent-BaseMagazineCaselessRifle.desc }
-# HASH: 54094e4dc0f9b0b1150426f6e1d2c1a2d89d48acff378b5731ec182d9a90d8da
-ent-MagazinePistolCaselessRifle = пистолетный магазин (.25 безгильзовые)
-    .desc = { ent-BaseMagazinePistolCaselessRifle.desc }
-# HASH: e2044cb7e8c80da7dec5ac81ca4f2824bbfeea758e303d86887cbb9330268611
-ent-MagazinePistolCaselessRiflePractice = пистолетный магазин (.25 безгильзовые учебные)
-    .desc = { ent-BaseMagazinePistolCaselessRifle.desc }
+# HASH: fa137f9cc45e254a2012ed74736021731c17fde404d97bd4bd4e1165a27ae8da
+ent-MagazinePistolCaselessRifle = пистолетный магазинн (.25 безгильзовый)
+    .desc = Магазин на 10 патронов для пистолета Кобра. Предназначен для хранения кинетических боеприпасов общего назначения.
+# HASH: bb5e0d0b9fd885a46993ac97bd40963b764d36be468e9df3d7dd2242a76f213a
+ent-MagazinePistolCaselessRiflePractice = пистолетный магазинн (.25 безгильзовый тренировочный)
+    .desc = Магазин на 10 патронов для пистолета Кобра. Предназначен для хранения патронов, не содержащих мела.
 # HASH: 1a674b431a8284c0a00e9a28c9f239188f22bebcf89c86dfb7722d5852b820d4
 ent-MagazineCaselessRifle = магазин (.25 безгильзовые)
     .desc = { ent-BaseMagazineCaselessRifle.desc }

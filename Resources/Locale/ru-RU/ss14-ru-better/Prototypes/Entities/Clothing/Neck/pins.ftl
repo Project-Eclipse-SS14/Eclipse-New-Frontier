@@ -49,3 +49,9 @@ ent-ClothingNeckAutismPin = значок аутизма
 # HASH: dfb30920e36a9123022658eae268a71a9a9a036fb69300b703f26d2a2d6a2bf6
 ent-ClothingNeckGoldAutismPin = значок золотого аутизма
     .desc = Быть золотым аутистом и совершать военные преступления.
+# HASH: 99a58830a70b3cd2362c8813a3ff88912f60c534fabcc5c24c6f6ade06b98e80
+ent-ClothingNeckPluralPin = значек множественных
+    .desc = Быть множественным и совершать преступления.
+# HASH: f19bbb653b2c7b1185369a5e68d43fe6f0be7eaa570d780eb259f5c122cd66f2
+ent-ClothingNeckGenderfluidPin = значек гендерфлюизма
+    .desc = Быть гендерфлюидным  и совершать преступления.

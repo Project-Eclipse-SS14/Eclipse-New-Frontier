@@ -30,3 +30,18 @@ ent-BasePirateUplinkRadioPirateCaptain = { ent-BasePirateUplink }
 ent-BasePirateUplinkPirateCrew = { ent-BasePirateUplink }
     .desc = { ent-BasePirateUplink.desc }
     .suffix = Пир. матрос 15
+# HASH: 5e291c584511b2f2b58875ced263a6b8304f9ee366a6cfdf36db600687761df3
+ent-IonizedBluespaceDustBag = мешочек с ионизированной блюспейс пылью
+    .desc = Некоторые утверждают, что он очищает магнитные навигационные поля. Другие утверждают, что это мешочек с голубой пылью.
+# HASH: 2c720753faffcf2bf13d95485dd0e70ab9cdef633d91c179fdbd8ee64f399b25
+ent-PinpointerScannerUnpowered = сканер меток пинпоинтера
+    .desc = Сканер, который ищет сигнатуры пинпоинтеров.
+    .suffix = Без питания
+# HASH: c2ab5fef440bafcd2115985509b68e9f4aa9a629b5a9642a5a2c4c8e8b4c9325
+ent-PinpointerScanner = { ent-PinpointerScannerUnpowered }
+    .desc = { ent-PinpointerScannerUnpowered.desc }
+    .suffix = С питанием
+# HASH: d6adc98d2eaa2d2527378630b9c163a278ea6cae292cb3629c90aaebc78a266d
+ent-PinpointerScannerEmpty = { ent-PinpointerScanner }
+    .desc = { ent-PinpointerScanner.desc }
+    .suffix = Пустой

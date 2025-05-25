@@ -8,3 +8,6 @@ ent-MopBucketFull = ведро для швабры
 # HASH: 3942839186b3da617ee978585ccc6b266902201ff9636e780232dff338582e1d
 ent-JanitorialTrolley = тележка уборщика
     .desc = Это альфа и омега санитарии.
+# HASH: 3effb35cc697884b35bb9807750ec8903e781d507948559070b1e90625294027
+ent-MopBucketCubeWrapped = кубик для ведра швабры
+    .desc = Разверните его, чтобы получить кубик для ведра швабры.

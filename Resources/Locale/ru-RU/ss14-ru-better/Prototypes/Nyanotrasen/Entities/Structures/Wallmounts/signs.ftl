@@ -1,4 +1,4 @@
-# HASH: fa54fa5fd881a80f61b24216880e2939c92089f024fb50b8bb77a3398eb59756
+# HASH: 3d5267fff71fa6ebcb35a4bff4f0168400b53f48bf8d410150c6fa41892ec6c3
 ent-SignLastIdiot = Ноль Дней С Последнего Идиота
     .desc = Возможно инженерная шутка.
 # HASH: 9afdb303792fdf601bc0a5f69cd92a22ad65e86502d1358871008f71ab52e2c2

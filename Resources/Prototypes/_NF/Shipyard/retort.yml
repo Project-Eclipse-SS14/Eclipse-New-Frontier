@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Колба
   description: Среднее инженерное судно, разработанное и развернутое корпорацией Фар Стар Биотеч для обеспечения инфраструктурной поддержки операций в дальнем космосе.
-  price: 63000 # TODO: Get eggs at store - Dusty Lens
+  price: 61000 # TODO: Get eggs at store - Dusty Lens
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/retort.yml

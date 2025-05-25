@@ -7,3 +7,6 @@ ent-ServiceTechFabCircuitboard = сервисный техфаб (машинна
 # HASH: 96c3412162e3c6996dd5736f40aa6a02731b67e90bce38ca472e3aace158de20
 ent-DeepFryerMachineCircuitboard = фритюрница (машинная плата)
     .desc = { ent-BaseMachineCircuitboard.desc }
+# HASH: bbeeb393df89c8c3bf9f4ffb3ca7279bb69802e3beeab5b760371b95c1aba337
+ent-McServiceTechFabCircuitboard = максервис техфаб (машинная плата)
+    .desc = Плата для создания максервис техфаба.

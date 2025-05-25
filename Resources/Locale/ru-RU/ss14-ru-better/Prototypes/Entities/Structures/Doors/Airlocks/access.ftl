@@ -90,9 +90,9 @@ ent-AirlockAtmosphericsLocked = { ent-AirlockAtmospherics }
 ent-AirlockCargoLocked = { ent-AirlockCargo }
     .desc = { ent-AirlockCargo.desc }
     .suffix = Снабжение, Закрыт
-# HASH: bd91a22785792ca89a983777b2c14aa217fc7762979d19ee37a5626f99b3645b
-ent-AirlockSalvageLocked = { ent-AirlockCargo }
-    .desc = { ent-AirlockCargo.desc }
+# HASH: 3c77beabe77053cc501dc32abc57e5972b9d112596a0acf9792af1894a1f3c5c
+ent-AirlockSalvageLocked = { ent-AirlockSalvage }
+    .desc = { ent-AirlockSalvage.desc }
     .suffix = Утилизаторский, Закрыт
 # HASH: 2fb4f419b65d4a2535168228abe5fe2336133e9c7adf46164adcfa254a6d088f
 ent-AirlockMiningLocked = { ent-AirlockMining }
@@ -258,9 +258,9 @@ ent-AirlockAtmosphericsGlassLocked = { ent-AirlockAtmosphericsGlass }
 ent-AirlockCargoGlassLocked = { ent-AirlockCargoGlass }
     .desc = { ent-AirlockCargoGlass.desc }
     .suffix = Снабжение, Закрыт
-# HASH: 301bccc21127ca9c81f739b4ce308df2766b413e11f5aafee23d26eee55bce30
-ent-AirlockSalvageGlassLocked = { ent-AirlockCargoGlass }
-    .desc = { ent-AirlockCargoGlass.desc }
+# HASH: 26c6bc51dcd5401e99d425733331cb3de2d31e339388262adeee1d81b7f5faa4
+ent-AirlockSalvageGlassLocked = { ent-AirlockSalvageGlass }
+    .desc = { ent-AirlockSalvageGlass.desc }
     .suffix = Утилизаторский, Закрыт
 # HASH: b8a6e73836b47f3104bcc886641747002d0a51deb0f9582f83ea84cd0f9056d5
 ent-AirlockMiningGlassLocked = { ent-AirlockMiningGlass }
@@ -558,3 +558,15 @@ ent-HighSecArmoryLocked = { ent-HighSecDoor }
 ent-AirlockHatchSyndicate = { ent-AirlockHatch }
     .desc = { ent-AirlockHatch.desc }
     .suffix = Синдикат, Закрыт
+# HASH: f730d0bba159ed761d038dd903813fb635501a3cf01d472f33a40b72d0920afe
+ent-AirlockServiceTheatreLocked = { ent-AirlockServiceLocked }
+    .desc = { ent-AirlockServiceLocked.desc }
+    .suffix = Сервис, Театр, Закрыт
+# HASH: 5ca3cc9a2d3efe97c927485eb3d8ddc66effa7760411e25e468006781c51e8bf
+ent-AirlockServiceTheatreGlassLocked = { ent-AirlockServiceGlassLocked }
+    .desc = { ent-AirlockServiceGlassLocked.desc }
+    .suffix = Сервис, Театр, Закрыт
+# HASH: a521888b87a007d3bf1bc01f2e19cfa9a177ed63ac19d3c1af9e8263b267ae09
+ent-AirlockMaintServiceTheatreLocked = { ent-AirlockMaintServiceLocked }
+    .desc = { ent-AirlockMaintServiceLocked.desc }
+    .suffix = Сервис, Театр, Закрыт

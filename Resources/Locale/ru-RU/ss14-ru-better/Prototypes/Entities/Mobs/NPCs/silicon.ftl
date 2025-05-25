@@ -1,6 +1,6 @@
-# HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-ent-MobSiliconBase = { "" }
-    .desc = { "" }
+# HASH: 6de68e56c27dfc0f6ffe19a9445bb3779c28ce49c968d98593222e4946451b82
+ent-MobSiliconBase = { ent-BaseMob }
+    .desc = { ent-BaseMob.desc }
 # HASH: 12a99e029e149bac646f4f68ea0f10d698ad5b990e8d5500e3fc531e0a4d1778
 ent-MobFireBot = пожарбот
     .desc = Маленький бот для тушения пожаров. Он выглядит довольно встревоженным.

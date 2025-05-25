@@ -126,7 +126,7 @@ ent-WeaponCaseLongVulcanExpedition = { ent-WeaponCaseLong }
 ent-WeaponCaseLongJackdaw = { ent-WeaponCaseLong }
     .desc = { ent-WeaponCaseLong.desc }
     .suffix = Экспедиция, Галка
-# HASH: 5661744b4414fe72a2d25e8af2cde016b5d5bce7f83e40b63669093abf77718e
+# HASH: e6ef4a20ea9582bfa6b9bbf133bafdc7e73379980196633d7381b3d536e35214
 ent-WeaponCaseShortLaserGunExpedition = { ent-WeaponCaseShort }
     .desc = { ent-WeaponCaseShort.desc }
     .suffix = Экспедиция, Антикварный лазерный пистолет
@@ -174,7 +174,7 @@ ent-WeaponCaseLongMusketExpedition = { ent-WeaponCaseLong }
 ent-WeaponCaseLongSniperCeremonialExpedition = { ent-WeaponCaseLong }
     .desc = { ent-WeaponCaseLong.desc }
     .suffix = Экспедиция, Церемониальная Винтовка
-# HASH: 968d76c27f38bd1f6232149291845e452e7fbd51711be79fae86462369c1f231
+# HASH: fe5362c37ce512663c4e974053efd5782703fee719c753e2d22f74680af48e76
 ent-WeaponCaseLongLauncherRocketExpedition = { ent-WeaponCaseLong }
     .desc = { ent-WeaponCaseLong.desc }
     .suffix = Экспедиция, РПГ
@@ -338,3 +338,27 @@ ent-WeaponCaseShortAmmoBoxIncendiary45 = { ent-WeaponCaseShortAmmo }
 # HASH: 39a8f9c619cc4ac0fdc48e838ace53eb3e374d706ecec064d7eb759d81846811
 ent-WeaponCaseShortAmmoBoxUranium45 = { ent-WeaponCaseShortAmmo }
     .desc = { ent-WeaponCaseShortAmmo.desc }
+# HASH: 24182c37628c8469b559c03e7d7fb719594fe6469140daa9a45e4500452fd872
+ent-WeaponCaseShortRitland45Expedition = { ent-WeaponCaseShort }
+    .desc = { ent-WeaponCaseShort.desc }
+    .suffix = Экспедиция, Ритлэнд-45
+# HASH: 6571dd6fd1cee13e073eb604603c5624060a4df9fa2ef718c154b9801cae9b18
+ent-WeaponCaseShortWard45Expedition = { ent-WeaponCaseShort }
+    .desc = { ent-WeaponCaseShort.desc }
+    .suffix = Экспедиция, Вард-45
+# HASH: cc59745014948b57484aa238662187e799dcb2a5661514a4be6bfd43ed66d617
+ent-WeaponCaseLongSm = { ent-WeaponCaseLong }
+    .desc = { ent-WeaponCaseLong.desc }
+    .suffix = Экспедиция, Соланд-Мосс АВ
+# HASH: 3c8c0579e70669391dcee3b448bda9d3c8e62d56314482fefaa1a090f42bd949
+ent-WeaponCaseLongTemperatureGunExpedition = { ent-WeaponCaseLong }
+    .desc = { ent-WeaponCaseLong.desc }
+    .suffix = Экспедиция, Температурная винтовка
+# HASH: 9e418e28837ff5dbbaba302cb122316fa7c3ce1bd29ebf53403c663eb4ec21e2
+ent-WeaponCaseLongBarlowsBoltExpedition = { ent-WeaponCaseLong }
+    .desc = { ent-WeaponCaseLong.desc }
+    .suffix = Экспедиция, Мосинка
+# HASH: 1eda035e3797bd0c27dbf77637534a85a707a124c413a675bc77023cec20c502
+ent-WeaponCaseHeavyLightMachineGunL6 = { ent-WeaponCaseHeavy }
+    .desc = { ent-WeaponCaseHeavy.desc }
+    .suffix = Экспедиция, L6

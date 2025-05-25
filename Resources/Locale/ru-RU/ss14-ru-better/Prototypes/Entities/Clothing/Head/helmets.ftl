@@ -30,9 +30,9 @@ ent-ClothingHeadHelmetCult = шлем культа
 # HASH: 7c9ce7da8d285344567b794c9a16540b87537d0178e7253cb3d71d337237f82c
 ent-ClothingHeadHelmetSpaceNinja = шлем космического ниндзя
     .desc = То, что может показаться простой чёрной одеждой, на самом деле является сложнейшим шлемом с нано-плетением. Стандартное снаряжение ниндзя.
-# HASH: e1b8b507d3859f390f9c4e1a4639b3818f9f953ae3c255e85203310c0414d79b
-ent-ClothingHeadHelmetTemplar = шлем тамплиера
-    .desc = DEUS VULT
+# HASH: d224a2dc57165ef29088d33cf71b5335c3267139b133421f7c66a8447edde276
+ent-ClothingHeadHelmetTemplar = шлем рыцаря
+    .desc = Декоративный шлем, напоминающий рыцарей древности.
 # HASH: 6e42aff3d3fbd0e86281d5ab129caa6af690bdb891c5463d7e5eabf8922a41d6
 ent-ClothingHeadHelmetThunderdome = шлем громовержца
     .desc = Да начнётся битва!
@@ -82,3 +82,6 @@ ent-ClothingHeadHelmetJusticeEmpty = { ent-ClothingHeadHelmetJustice }
 # HASH: 967649e8202aec7b5c1376795ac0a7cc77acf3f8758d3003b9c4b358d529b663
 ent-ActionToggleJusticeHelm = Переключить шлем правосудия
     .desc = Включает или выключает шлем правосудия.
+# HASH: a5b2cc08f17c95347dea2fa7dfd93bd8f3b8a144c1322ec17534d52de8bff928
+ent-ClothingHeadHelmetArmoredBase = { ent-ClothingHeadHelmetBase }
+    .desc = { ent-ClothingHeadHelmetBase.desc }

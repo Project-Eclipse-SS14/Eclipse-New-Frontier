@@ -1,4 +1,5 @@
-using Content.Shared._Eclipse.SelfShipyard;
+using Content.Shared._Eclipse.SelfShipyard; // Eclipse
+using Content.Shared._NF.Lathe; // Frontier
 using Content.Shared.Lathe;
 using Content.Shared.Research.Prototypes;
 using Content.Shared.Research.Systems;
@@ -8,7 +9,7 @@ using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototy
 
 namespace Content.Shared.Research.Components;
 
-[RegisterComponent, NetworkedComponent, Access(typeof(SharedResearchSystem), typeof(SharedLatheSystem), typeof(SharedSelfShipyardSystem)), AutoGenerateComponentState]
+[RegisterComponent, NetworkedComponent, Access(typeof(SharedResearchSystem), typeof(SharedLatheSystem), typeof(SharedBlueprintLatheSystem), typeof(SharedSelfShipyardSystem)), AutoGenerateComponentState] // Frontier: add SharedBlueprintLatheSystem access // Eclipse : add SharedSelfShipyardSystem
 public sealed partial class TechnologyDatabaseComponent : Component
 {
     /// <summary>

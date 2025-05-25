@@ -75,3 +75,9 @@ ent-FoodMealHappyHonkClown = { ent-HappyHonk }
 # HASH: 949889a2d40457f54eaaec63ccff677306287b86b05137fe6bbf7c0d5e5685a9
 ent-FoodBoxCloth = коробка с тканью марки FlutterSoft
     .desc = Клетчатка - самая важная еда для мотылька в день! Не пропускайте ее и не используйте хлам из нижних ящиков, а покупайте высококачественную ткань марки FlutterSoft.
+# HASH: c8de1fccb8baedcdb398baad64f8bec30773ff0887c2364ace1bca3032c7d7c5
+ent-FoodBoxDonkpocketMoth = коробка мотылек-покетов
+    .desc = { ent-FoodBoxDonkpocket.desc }
+# HASH: f3bfc034504d2219620b3635be6afdd4e1c2cb74bf543d4b9f8729b6ab143e17
+ent-FoodMealHappyHonkBigBite = обед Хэппи Хонк Биг Бэйт мясной
+    .desc = Кто-то заплатил хорошие деньги за доставку этого фастфуда сюда. Пахнет свежестью.

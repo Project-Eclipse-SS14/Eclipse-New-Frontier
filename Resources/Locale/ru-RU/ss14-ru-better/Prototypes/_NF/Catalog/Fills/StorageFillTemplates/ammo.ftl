@@ -2,38 +2,38 @@
 ent-StorageFillAmmoBoxLethal20 = { "" }
     .desc = { "" }
     .suffix = .20 винтовочный, Летальные, x4 коробки
-# HASH: fc3b58a565eca36bae8312444dc72d00f248ff0deb97e044eb5ef6fc82df5893
+# HASH: 613d5aadd6dd9ddf7080a6db3833ceccb541abe765c38306572debf882afe2e6
 ent-StorageFillAmmoBoxBigLethal20 = { "" }
     .desc = { "" }
-    .suffix = .20 винтовочный, Летальные, x4 больших коробки
+    .suffix = .20 винтовочный, Летальные, x2 больших коробки
 # HASH: b16ac5e97ce77167b8fefcf17230b23e48bed47c2409e5f7b15b37dd2648842b
 ent-StorageFillAmmoBoxRubber20 = { "" }
     .desc = { "" }
     .suffix = .20 винтовочный, Резиновые, x4 коробки
-# HASH: 83491fc2e49c5c5a223b8300fa89db79928d52d671d6b96e18a1c5295c72fd10
+# HASH: f7e5003e152cf311470067b5fb223f9ee271d2503813686690eeb829bd89f3c1
 ent-StorageFillAmmoBoxBigRubber20 = { "" }
     .desc = { "" }
-    .suffix = .20 винтовочный, Резиновые, x4 больших коробки
+    .suffix = .20 винтовочный, Резиновые, x2 больших коробки
 # HASH: 92936eb614445c471372518ae714747c4cf48e0a307a73eb33f44aeca85bc0bc
 ent-StorageFillAmmoBoxPractice20 = { "" }
     .desc = { "" }
     .suffix = .20 винтовочный, Тренировочные, x4 коробки
-# HASH: 192ed21e8541b5e615e33ea1728b8a9e590feefe634dc3da0f00f13e33525d91
+# HASH: f7e4ad77616176aaf2466f2954a452176782bfd83fa0cf17fb24ab0fbcf936b7
 ent-StorageFillAmmoBoxIncendiary20 = { "" }
     .desc = { "" }
-    .suffix = .20 винтовочный, Зажигательные, x4 коробки
-# HASH: de3ea407e25f294e1255ecd05fa817f62063dc09c0253ed4412b3a1024306325
+    .suffix = .20 винтовочный, Зажигательные, x2 коробки
+# HASH: fb2b36ee92e9b01aa8e9db719c573a6daee89e3daeebc025a57b0f8464678171
 ent-StorageFillAmmoBoxUranium20 = { "" }
     .desc = { "" }
-    .suffix = .20 винтовочный, Урановые, x4 коробки
+    .suffix = .20 винтовочный, Урановые, x2 коробки
 # HASH: 18fa1c75dd0971f0aabcccac7699c064fc70589f714272b5627cc4a0fb57e7ad
 ent-StorageFillAmmoBoxLethal30 = { "" }
     .desc = { "" }
     .suffix = .30 винтовочный, Летальные, x4 коробки
-# HASH: 0507f0bc283e975305149ddaf7b4035ec7f231e79b6a73c3038eb8e35b84acb2
+# HASH: 041e1036920a57a45e306d0930fcf9cf4b7d3372d030937460cdcfd359ed9fec
 ent-StorageFillAmmoBoxBigLethal30 = { "" }
     .desc = { "" }
-    .suffix = .30 винтовочный, Летальные, x4 больших коробки
+    .suffix = .30 винтовочный, Летальные, x2 больших коробки
 # HASH: 07bb281cd15dbadbf0e7cb7d2d8c50562cb04bb838de9aff171f42ae86c057d2
 ent-StorageFillAmmoBoxRubber30 = { "" }
     .desc = { "" }
@@ -78,18 +78,18 @@ ent-StorageFillAmmoBoxEmp35 = { "" }
 ent-StorageFillAmmoBoxLethal25 = { "" }
     .desc = { "" }
     .suffix = .25 безгильзовый, Летальные, x4 коробки
-# HASH: d91d7915531e039365aaff2d25a0a88b3caca11de35708993cd3f056f9cc7641
+# HASH: ba31739933279b856b353f5b31ce25c51b33c265db92aaa0680881935ad8d8d7
 ent-StorageFillAmmoBoxBigLethal25 = { "" }
     .desc = { "" }
-    .suffix = .25 безгильзовый, Летальные, x4 больших коробки
+    .suffix = .25 безгильзовый, Летальные, x2 больших коробки
 # HASH: 97aadf025ba61d45699469490a21bf0d76caba30bc6165a7bc4af4b06e5201d5
 ent-StorageFillAmmoBoxRubber25 = { "" }
     .desc = { "" }
     .suffix = .25 безгильзовый, Резиновые, x4 коробки
-# HASH: bc51aa3447ece48b0e207942c54cca9e6fdb6e6a5137726fbdd4ae459039fe22
+# HASH: fe15803e46bc4d5f950366430e760c12db0ec886f4f2850fee4c0fdcad40878e
 ent-StorageFillAmmoBoxBigRubber25 = { "" }
     .desc = { "" }
-    .suffix = .25 безгильзовый, Резиновые, x4 больших коробки
+    .suffix = .25 безгильзовый, Резиновые, x2 больших коробки
 # HASH: 46f74f404926026502e541f4222fec633df0d6c7f98c6e1e9aea8e0a08a052d5
 ent-StorageFillAmmoBoxPractice25 = { "" }
     .desc = { "" }

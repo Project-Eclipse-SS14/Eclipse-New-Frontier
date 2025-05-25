@@ -1,6 +1,6 @@
-# HASH: d073b1fa9c50262a4c53cd3d2d97456d1785ac4023678b343de28d2d00172918
-ent-FoodBowlBase = { ent-FoodBase }
-    .desc = { ent-FoodBase.desc }
+# HASH: f037f22b12295054b51cb6c2ba141529ff0fc2aadb085b9b10bb7994d6643518
+ent-FoodBowlBase = { ent-FoodInjectableBase }
+    .desc = { ent-FoodInjectableBase.desc }
 # HASH: ef5a7581698037f5422ab9aedb166e2874968a0f642ac391b84d57c213bf5bd6
 ent-FoodSoupPea = гороховый суп
     .desc = Простой гороховый суп.

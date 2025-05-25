@@ -11,3 +11,7 @@ ent-LootSpawnerRandomCrateEngineering = спавнер случайный инж
 # HASH: ffbc771fbf334a8ea67dd0a0e51c44cd55eab36f24d919a0ead4635550c47f7f
 ent-LootSpawnerRandomCrateSecurity = спавнер случайный ящик службы безопасности
     .desc = { ent-MarkerBase.desc }
+# HASH: 339f59a70ae632f29baba310e9378a06d9e2208710b343a80dfe24f324ce3b32
+ent-LootSpawnerRandomLockbox = спавнер закрытого ящика
+    .desc = { ent-MarkerBase.desc }
+    .suffix = 90%

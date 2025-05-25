@@ -121,3 +121,21 @@ ent-RoboticsConsoleCircuitboard = консоль управления робот
 # HASH: 29c7ad50e658b5af7e95ff49fa157e183f578771810bcb66349cddb68345e992
 ent-StationAiUploadCircuitboard = консоль загрузки ИИ (консольная плата)
     .desc = Консольная плата для консоли загрузки ИИ.
+# HASH: f26cd227b5cc529fe9b216d6c7a8036e63d9c787f5397bb5401407c68ef85249
+ent-CargoRequestEngineeringComputerCircuitboard = инженерная консоль заказов (консольная плата)
+    .desc = Консольная плата для инженерной консоли заказов.
+# HASH: fed7269792f2c4fa030e97f5198b2801e4b3ce25dbaa44e541f2dda42a2c70e2
+ent-CargoRequestMedicalComputerCircuitboard = медицинская консоль заказов (консольная плата)
+    .desc = Консольная плата для медицинской консоли заказов.
+# HASH: 59da8d1d2a4557b8c50fdc77bd6f83b00bfd6128c0b8424e6ded30d2259fcf73
+ent-CargoRequestScienceComputerCircuitboard = научная консоль заказов (консольная плата)
+    .desc = AКонсольная плата для научной консоли заказов.
+# HASH: 77402c9be70880a5c882d2f12e6fd8249dbbb38646e6226db5e941efd0297be7
+ent-CargoRequestSecurityComputerCircuitboard = охранная консоль заказов (консольная плата)
+    .desc = Консольная плата для охранной консоли заказов.
+# HASH: 75552d8a4dbbc2c0e4cf7de7f744cbd7aabf0242201f08a892d7dd4026857891
+ent-CargoRequestServiceComputerCircuitboard = сервисная консоль заказов (консольная плата)
+    .desc = Консольная плата для сервисной консоли заказов.
+# HASH: 6a72699855ddd89596686bf877ed18d2c711769d9f6e7007bd5d1a74b2cb2d99
+ent-FundingAllocationComputerCircuitboard = консоль распределения финансирования (консольная плата)
+    .desc = Консольная плата для консоли распределения финанансирования.

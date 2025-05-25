@@ -4,22 +4,22 @@ ent-BaseMagazineMagnum = пистолетный магазин (.45 магнум
 # HASH: 188e5803d93f1736f032dda8f81dad7ab2485898bc35c6b3d8abf823d0c1170c
 ent-BaseMagazineMagnumSubMachineGun = магазин Вектора (.45 магнум)
     .desc = { "" }
-# HASH: 1ca755f18fdf26b62a02aba7c3c6108bd4c422472c7468f707b01a1447d8ab54
-ent-MagazineMagnumEmpty = пистолетный магазин (.45 магнум любые)
-    .desc = { ent-BaseMagazineMagnum.desc }
-    .suffix = Пустой
-# HASH: bdfd468ca5a2da9a123222284f4c8ebb5749086188cd2055ecbb08b0a1f411d1
+# HASH: 106625b0f50c8611dd83487989a0cf49bff66f345d80e805c1d78806c2edf4a1
+ent-MagazineMagnumEmpty = пистолетный магазин (.45 магнум любой)
+    .desc = Однозарядный пистолетный магазин на 7 патронов.
+    .suffix = пустой
+# HASH: fd9d4c7af2334867ccfa44cc698962ccbc6be1965fcd752aa2b3ea87e4305883
 ent-MagazineMagnum = пистолетный магазин (.45 магнум)
-    .desc = { ent-BaseMagazineMagnum.desc }
-# HASH: 28c93ab4af4e4d988009a46b68f6573cb852a2e6dbd498adf2da7ce47b67d808
-ent-MagazineMagnumPractice = пистолетный магазин (.45 магнум учебные)
-    .desc = { ent-BaseMagazineMagnum.desc }
-# HASH: b2107eba9176778ca28b83d36e154c54b48a75d300d29859245646c7955e37cb
-ent-MagazineMagnumUranium = пистолетный магазин (.45 магнум урановые)
-    .desc = { ent-BaseMagazineMagnum.desc }
-# HASH: 34ebb21c7ca55d934a9164f66c43f5593556314399a22aa1988f8c8ee68a3fd0
-ent-MagazineMagnumAP = пистолетный магазин (.45 магнум бронебойные)
-    .desc = { ent-BaseMagazineMagnum.desc }
+    .desc = Однозарядный пистолетный магазин на 7 патронов. Предназначен для хранения кинетических боеприпасов общего назначения.
+# HASH: 59517a134c48f0dff8956162f1519fd793863f26d7ad945399cb49ef2961ee4b
+ent-MagazineMagnumPractice = пистолетный магазин (.45 магнум тренировочный)
+    .desc = Однозарядный пистолетный магазин на 7 патронов. Предназначен для хранения боеприпасов, не содержащих мела.
+# HASH: 0ddb3e036052f737179ebc5a0a881b0f81806b1b23755f01783c9baf3ac0c54b
+ent-MagazineMagnumUranium = пистолетный магазин (.45 магнум урановый)
+    .desc = Однозарядный пистолетный магазин на 7 патронов. Предназначен для хранения экзотических боеприпасов с урановым сердечником.
+# HASH: 8881017c5f8a82cec60d6095ea5b19ab3fd407c47888c28b4def66afc6ca28f7
+ent-MagazineMagnumAP = пистолетный магазин (.45 магнум бронебойный)
+    .desc = Однозарядный пистолетный магазин на 7 патронов. Предназначен для хранения редких бронебойных боеприпасов.
 # HASH: 3319069762c52dde463e92f07f5060e3a067eda699e243d39d894af48fedd65a
 ent-MagazineMagnumSubMachineGunEmpty = магазин Вектора (.45 магнум любые)
     .desc = { ent-BaseMagazineMagnumSubMachineGun.desc }

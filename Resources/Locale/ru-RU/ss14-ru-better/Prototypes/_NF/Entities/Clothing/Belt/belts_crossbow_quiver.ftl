@@ -1,15 +1,15 @@
-# HASH: c00d05e7602a0c6cf6911f87dfaf6cf1612ed4f56e2709bb629daabd9f006636
-ent-ClothingBeltQuiverCrossbow = колчан (болты)
+# HASH: ebcc1dd1d3d106118869d0b820f8541f3459a0651b1a1b159e576641a5770aeb
+ent-ClothingBeltQuiverCrossbow = колчан (болты, любые)
     .desc = Вмещает до 25 болтов и плотно сидит на поясе.
-# HASH: e046a3dad1740b06250f2aacc986fb3f443b48735d16a6557fcae9bd7c9bee34
-ent-ClothingBeltQuiverCrossbowFilledBolt = { ent-ClothingBeltQuiverCrossbow }
+# HASH: 4d27b0b014a4a8b8de14948616869e0497b582cea713660fa52a9ef1ad1de6ac
+ent-ClothingBeltQuiverCrossbowFilledBolt = колчан (болты)
     .desc = { ent-ClothingBeltQuiverCrossbow.desc }
     .suffix = Заполненный, Болты
-# HASH: 3629c6f3e8713de8fe3973d0f2ce57518b9b62ca7e6d92823dd7056d4cdcc3cf
-ent-ClothingBeltQuiverCrossbowFilledUranium = { ent-ClothingBeltQuiverCrossbow }
+# HASH: 41b8f951b774636643557ad5e09ca40025cd52b270f4788d6ebab9cd15dfc8fc
+ent-ClothingBeltQuiverCrossbowFilledUranium = колчан (болты, урановые)
     .desc = { ent-ClothingBeltQuiverCrossbow.desc }
     .suffix = Заполненный, Урановый наконечник
-# HASH: 913c39f80d6030d4e21d34a5fad5f5eebbcade0a33f36edc441a3ffad18162b2
-ent-ClothingBeltQuiverCrossbowFilledPlasma = { ent-ClothingBeltQuiverCrossbow }
+# HASH: 1c3c32d4dec16ef946ef42d1474802858216a315301976192e55e2c568576e09
+ent-ClothingBeltQuiverCrossbowFilledPlasma = колчан (болты, плазменные)
     .desc = { ent-ClothingBeltQuiverCrossbow.desc }
     .suffix = Заполненный, Плазменный наконечник

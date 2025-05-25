@@ -1,0 +1,3 @@
+# HASH: c21569acbb7a60c7e09f2bf420539bcafb18fb0f5b7ae5230fff2f0f31cfff05
+ent-DonationUplinkRadio = персональный аплинк
+    .desc = Старое радио в стиле ретро... Только для самых щедрых...

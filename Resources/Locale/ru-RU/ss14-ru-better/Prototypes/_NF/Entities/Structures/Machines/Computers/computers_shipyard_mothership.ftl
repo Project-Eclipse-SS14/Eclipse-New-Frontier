@@ -20,3 +20,6 @@ ent-GasbenderMothershipComputer = консоль верфи газового г�
 # HASH: 3dca3917c4c80dd8c7bd73b41315b35b6bbb5c4434769bb885e7a10dea9fa6da
 ent-CrescentMothershipComputer = консоль верфи полумесяца
     .desc = { ent-BaseMothershipComputer.desc }
+# HASH: ce21a07a782aeb98491e2973b2919c0d0f319881490100c0b798724803003e4f
+ent-CaladriusMothershipComputer = консоль верфи каладриуса
+    .desc = { ent-BaseMothershipComputer.desc }

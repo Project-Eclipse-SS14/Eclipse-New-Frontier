@@ -16,3 +16,6 @@ ent-ClothingBackpackNfsdBrown = рюкзак ДСБФ
 # HASH: e6625892d6d8f33b24f914e3e186020cf4b38e87f678c6650ae7e6aec466a384
 ent-ClothingBackpackNfsdCream = { ent-ClothingBackpackNfsdBrown }
     .desc = { ent-ClothingBackpackNfsdBrown.desc }
+# HASH: c31c224159e84557a4b9847b2b7bb1d76a85cd74bd8f0d06f13beb962bd6a23f
+ent-NFGoblinMadeClothingBackpackTrashBlue = мусорный рюкзак
+    .desc = В него поместится столько мусора!

@@ -14,3 +14,7 @@ ent-NFPillCanisterMannitol = { ent-PillCanister }
 ent-NFPillMannitol = таблетка
     .desc = { ent-Pill.desc }
     .suffix = Маннитол 10ед.
+# HASH: 99baf5cf78e49debed73883f55a3a62ba2d0bc52af53c80ba07975c13b175362
+ent-NFPillSheleg = таблетка
+    .desc = Безопасный способ стабилизации состояния пациентов Шелег в критическом состоянии для персонала без глубоких медицинских знаний.
+    .suffix = таблетка для экстренной помощи Шелегу

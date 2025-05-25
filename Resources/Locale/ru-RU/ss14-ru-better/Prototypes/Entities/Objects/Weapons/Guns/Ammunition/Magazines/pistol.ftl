@@ -7,28 +7,28 @@ ent-BaseMagazinePistolHighCapacity = автопистолетный магази
 # HASH: ae5af84cc6f9907480f803bba63c22e305229111af923ab986bfaab473b63632
 ent-BaseMagazinePistolSubMachineGun = магазин ПП (.35 авто)
     .desc = { "" }
-# HASH: d3895200052bfa6430438403877cf53837d68791b7a6f2770c0997d86ea2585b
-ent-MagazinePistolSubMachineGunTopMounted = магазин WT550 (.35 авто, надствольный)
-    .desc = { "" }
-# HASH: a0ce3227c131d629d3d1d7e259ba7a003e1909222a61a73034589a5b7db9b8f1
-ent-MagazinePistolSubMachineGunTopMountedEmpty = магазин WT550 (.35 авто, любые, надствольный)
-    .desc = { ent-MagazinePistolSubMachineGunTopMounted.desc }
-# HASH: dfdf74053aa4ab9c5ab186334cc11927f9626eac2ea384013a2390488a14359e
+# HASH: f2d7adecdfcd531b417a6efa675c7dbe8db38e8e9b32288e5de4c15c46b75284
+ent-MagazinePistolSubMachineGunTopMounted = магазин WT550 (.35 авто верхняя загрузка)
+    .desc = Нетрадиционный магазин на 30 патронов с верхней подачей для WT550. Предназначен для хранения кинетических боеприпасов общего назначения.
+# HASH: 064a51d2e4cb39798651807dbb0cc01c96a5739b88fc184c11815fcf14aa9adb
+ent-MagazinePistolSubMachineGunTopMountedEmpty = магазин WT550 (.35 авто верхняя загрузка любой)
+    .desc = Нетрадиционный магазин на 30 патронов с верхней подачей для WT550.
+# HASH: 74d16b51fb246dba7c54f40cff96d2fcb1979539dd4af6948143821d7a1e0eb2
 ent-MagazinePistol = пистолетный магазин (.35 авто)
-    .desc = { ent-BaseMagazinePistol.desc }
-# HASH: dad18f3d97af5b0157e38b512477f4d07a80b0fe09e1b57fafcd234c33db5148
-ent-MagazinePistolEmpty = пистолетный магазин (.35 авто любые)
-    .desc = { ent-MagazinePistol.desc }
-    .suffix = Пустой
-# HASH: de6e8e06a8d68edc54d58fb9fdc6a88c24b5d5ea3f6b11ba316615127f6d5106
-ent-MagazinePistolIncendiary = пистолетный магазин (.35 авто зажигательные)
-    .desc = { ent-MagazinePistol.desc }
-# HASH: 5603b883186be11cd68f9cd3c3d7fd18f65983dda283f0272094389cc82f7b0b
-ent-MagazinePistolPractice = пистолетный магазин (.35 авто учебные)
-    .desc = { ent-BaseMagazinePistol.desc }
-# HASH: 5d269eb6ebda0ca0351e39e10c357333ff7990ac27765d20922dabdaa6fd259b
-ent-MagazinePistolUranium = пистолетный магазин (.35 авто урановые)
-    .desc = { ent-BaseMagazinePistol.desc }
+    .desc = Однорядный магазин на 10 патронов для пистолетов. Предназначен для хранения кинетических боеприпасов общего назначения.
+# HASH: 078840ceb48b0fb10332fbc841f3e443865e3278a135357822a7fe8c389bb0da
+ent-MagazinePistolEmpty = пистолетный магазин (.35 авто любой)
+    .desc = Однорядный магазин на 10 патронов для пистолетов.
+    .suffix = пустой
+# HASH: 9498b7bd79148d26903ed9f030e1281bf2f38e3756b9720457c6d40248b65068
+ent-MagazinePistolIncendiary = пистолетный магазин (.35 авто зажигательный)
+    .desc = Однорядный магазин на 10 патронов для пистолетов. Предназначен для хранения самовоспламеняющихся зажигательных боеприпасов.
+# HASH: fffc343eec2fcd288fbfab3e4cd1f06258796bfaf0cdc40b50b1d33e3233f92c
+ent-MagazinePistolPractice = пистолетный магазин (.35 авто тренировочный)
+    .desc = Однорядный магазин на 10 патронов для пистолетов. Предназначен для хранения патронов, не содержащих мела.
+# HASH: 097d5e8c60408d9e0a261b14dc4e78d4df2183c1fb15a62ec2d3ec7c7b0bba2c
+ent-MagazinePistolUranium = пистолетный магазин (.35 авто урановый)
+    .desc = Однорядный магазин на 10 патронов для пистолетов. Предназначен для экзотических боеприпасов с урановым сердечником.
 # HASH: ead47dfef87347dec809b9d43e55c90e148d110c586a73688933717cb2b15fb4
 ent-MagazinePistolHighCapacityEmpty = автопистолетный магазин (.35 авто любые)
     .desc = { ent-BaseMagazinePistolHighCapacity.desc }
@@ -39,19 +39,19 @@ ent-MagazinePistolHighCapacity = автопистолетный магазин (
 # HASH: 66d08be5adfe5bc52867b9f491e5cc44b027196eacbb95ce943c04994f85e769
 ent-MagazinePistolHighCapacityPractice = автопистолетный магазин (.35 авто учебные)
     .desc = { ent-BaseMagazinePistolHighCapacity.desc }
-# HASH: 62717bb50e659368e28faf406857339c0f8dcdb0cac3939e4c3ed48c872d0a12
+# HASH: 53d8ba0f1e0f023b52e3e3cf7dba8b3af27367d66af0dc6cccc56c5b3c8ef1f5
 ent-MagazinePistolSubMachineGun = магазин ПП (.35 авто)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-# HASH: e157dcfd28fb0d426bba216e7bd61dc2b195579744408dc27d447ab425e5448e
-ent-MagazinePistolSubMachineGunEmpty = магазин ПП (.35 авто любые)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-    .suffix = Пустой
-# HASH: ba87a5c73ab630b9338f269555622fb91b58a93ca620d7ac39a40776f7551c38
-ent-MagazinePistolSubMachineGunPractice = магазин ПП (.35 авто учебные)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-# HASH: edc9c4e0ea1063c17f37f02925262c731c9787c90a7eca32dd63955e37a7dfc7
-ent-MagazinePistolSubMachineGunUranium = магазин ПП (.35 авто урановые)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
-# HASH: 309f6c316b17c845162584136869e052cfa9e294844b9839f0e4830a24b3d8f8
-ent-MagazinePistolSubMachineGunIncendiary = магазин ПП (.35 авто зажигательные)
-    .desc = { ent-BaseMagazinePistolSubMachineGun.desc }
+    .desc = Двухрамный магазин на 30 патронов для пистолетов-пулеметов. Предназначен для хранения кинетических боеприпасов общего назначения.
+# HASH: 3060c3b1ea2e2142a3acbf1655543a47debe0ce1d6a56cf322fc373269f302e1
+ent-MagazinePistolSubMachineGunEmpty = магазин ПП (.35 авто любой)
+    .desc = Двухрамный магазин на 30 патронов для пистолетов-пулеметов.
+    .suffix = пустой
+# HASH: a3411f34bb608708e928ee63961de693315a0a555b2d3cf4f0249a713f2f220f
+ent-MagazinePistolSubMachineGunPractice = магазин ПП (.35 авто тренировочный)
+    .desc = Двухрамный магазин на 30 патронов для пистолетов-пулеметов. Предназначен для хранения патронов, не содержащих мела.
+# HASH: 6017edc0b6dd1d3f8cd788abcc4237c61b2a8aa8bc5225d880fee21627ffab48
+ent-MagazinePistolSubMachineGunUranium = магазин ПП (.35 авто урановый)
+    .desc = Двухрамный магазин на 30 патронов для пистолетов-пулеметов. Предназначен для экзотических боеприпасов с урановым сердечником.
+# HASH: 4c4412a494453f08d3ed7f81e0fd496362e8a56b3620b2ed20d1f45a681d4096
+ent-MagazinePistolSubMachineGunIncendiary = магазин ПП (.35 авто incendiary)
+    .desc = Двухрамный магазин на 30 патронов для пистолетов-пулеметов. Предназначен для хранения самовоспламеняющихся зажигательных боеприпасов.

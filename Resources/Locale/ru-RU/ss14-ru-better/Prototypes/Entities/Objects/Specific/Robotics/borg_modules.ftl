@@ -115,9 +115,9 @@ ent-BorgModuleOperative = оперативный модуль киборга
 # HASH: 30e58a57ce0aef9ac0b27781d190de6e39f8e97093eac42d5c755a25ea6c95a1
 ent-BorgModuleEsword = модуль киборга c двухклинковым энергомечом
     .desc = Модуль, в который входит двухклинковый энергетический меч.
-# HASH: 592306c9eb963907ada38a8fe4cd25b8af91f9aaa4c06830586d1ec1f2cba827
-ent-BorgModuleL6C = модуль киборга с L6C ROW
-    .desc = Модуль, в который входит пулемёт L6C.
+# HASH: 72d5f493c3caaf0b385dede5ba673085c482b2c8b05d37e07132ae22ce4451ab
+ent-BorgModuleL6C = модуль киборга GSW LMG-6
+    .desc = Модуль, поставляемый с GSW LMG-6.
 # HASH: b1ef51b28fe8b4e296b8b9301202bf8566d49e6ec378f77c51d68a70ed2d6f3f
 ent-BorgModuleMartyr = модуль киборга Мученик
     .desc = Модуль, поставляемый со взрывчаткой, с которой вы, скорее всего, не захотите связываться сами.

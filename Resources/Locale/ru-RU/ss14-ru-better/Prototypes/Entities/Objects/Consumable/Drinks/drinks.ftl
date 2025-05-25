@@ -254,7 +254,7 @@ ent-DrinkIceCreamGlass = { ent-DrinkGlass }
 ent-IrishBoolGlass = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Ирландский булеан
-# HASH: 27d04d74fb10226194008127adb9a68ef8eef428a7b7c40d3625280a26fe12f8
+# HASH: 18ae0cae24ff003bfc42f836cb00b1176b06309dd37c8513f2d7b6127b9ac013
 ent-DrinkIrishSlammer = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
     .suffix = Ирландская тюрьма
@@ -615,3 +615,55 @@ ent-DrinkBloodGlass = { ent-DrinkGlass }
 ent-DrinkBacchusBlessing = { ent-DrinkGlass }
     .desc = Вы даже не могли подумать что напитак может быть настолько отвратительным. Вы точно уверены...?
     .suffix = Благословение Бахуса
+# HASH: 84c6dd842bc7c405bc423ff5cbe31a37cf291192de1fda0bb5ff1faa63234e3b
+ent-DrinkAlienBrainHemorrhage = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Инопланетное кровоизлияние в мозг
+# HASH: e2d0075a6241c1a8b11680fd67a380db832cac0e6e0cb70e6129b6369c7bd621
+ent-DrinkBronxGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Бронкс
+# HASH: c9ded4fef62b89c810e7fd92cead60fe342204bc73eac439ff0d451a5f8aaf1b
+ent-DrinkCrushDepthGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Критическая глубина
+# HASH: 015f896badf0aa294ececc08fc6e4566e0f73c53846456930eef4b45edb0f4b5
+ent-DrinkDarkandStormyGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Тёмный и штормовой
+# HASH: 0a8e40c2b0fd3ff236a666f35b8534fc127d96c51a2acd443629038149aa1dad
+ent-DrinkEggnog = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Яичный ликер
+# HASH: 106e4e86d33e22295dbbd0d000234c67a2998d98975d84361f746e3610e4d677
+ent-DrinkElectricSharkGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Электрическая акула
+# HASH: 380b28ebe632248dc9d90a03f108e2b3be1ae7ff48c57f8515def0044f6e69a4
+ent-DrinkJackRoseGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Джек Роуз
+# HASH: 1196bea6b93a3ac86d3318fff2f452ead3332d5af9bb8b6eed3c6b12f4e556c1
+ent-DrinkJungleBirdGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Птица джунглей
+# HASH: cccf89912555e582ec6063259026c02d5a83b8152f52f97df9032118dd8012a0
+ent-DrinkKalimotxoGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Калимочо
+# HASH: e59e65c6cf6a965b1c369dac78dbb183b965a439fa6dced0ec0a36a8be0b0c7c
+ent-DrinkMonkeyBusinessGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Обезьянья работа
+# HASH: f880ce66b1664041f6482cfe525d7f6910688b6c2800122536b3292ad40e4b30
+ent-DrinkRadlerGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Радлер
+# HASH: 3bee304552d1aeade9426a828885680b89f52d51fee5e77690feea75afeba013
+ent-DrinkTortugaGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Тортуга
+# HASH: 3b795439f41091288ce884ae23b2b3979a86fa75767896aebff76eb1e6d7f598
+ent-DrinkVampiroGlass = { ent-DrinkGlass }
+    .desc = { ent-DrinkGlass.desc }
+    .suffix = Вампиро

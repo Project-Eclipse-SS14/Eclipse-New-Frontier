@@ -1,6 +1,6 @@
-# HASH: d4ab0e81df7e5e47fc15dba73ad204ac48671673aa67a40af7fda20963bc1e1c
+# HASH: a55782450fda728068a324491dc263d838bf902b27fd8b884f8ebdeeed316ff8
 ent-BaseImplanter = имплантер
-    .desc = Шприц, специально предназначенный для введения и извлечения подкожных имплантов.
+    .desc = { ent-BaseItem.desc }
 # HASH: 8318dc0def08b21bc515d1688751a860d35c6cb3ed232d567a77a37988ffa2a1
 ent-Implanter = { ent-BaseImplanter }
     .desc = Одноразовый шприц, специально предназначенный для введения и извлечения подкожных имплантов.
@@ -11,78 +11,64 @@ ent-ImplanterAdmeme = { ent-Implanter }
 # HASH: 328df7f03e77b4b32a19b94eb21996c6b693587a4c1b019d499a15f6816869d2
 ent-BaseImplantOnlyImplanter = { ent-Implanter }
     .desc = Одноразовый шприц, специально предназначенный для введения подкожных имплантов.
-# HASH: 16322b2c117f4233fd6887d5d16f01dbea478591d1ee6cde263b3a33850b876e
+# HASH: abbe802e0b7d0d0b8bdf56f04833441a623461b7f33f655d70166d8d315d8e25
 ent-BaseImplantOnlyImplanterSyndi = имплантер синдиката
-    .desc = Компактный одноразовый шприц, специально предназначенный для введения подкожных имплантов.
-# HASH: 2ce09a80c9583cb68c7ab46d5b4c685beb6fbc62094f85bcf684690cc1476e47
-ent-SadTromboneImplanter = { ent-BaseImplantOnlyImplanter }
+    .desc = Компактный одноразовый шприц, специально предназначенный для введения подкожных имплантов. После использования не забудьте очистить его мылом чтобы удалить ваше ДНК с него!
+# HASH: 25db890103cfd407bf3750659157a994a0c7d1ce50c0ea746a1b1cd581266d53
+ent-SadTromboneImplanter = имплантер грустного тромбона
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Грустный тромбон
-# HASH: f844d2aa748df75c18e1866a12837b21e7f6fde303948e0713a4efc5358fd3e5
-ent-LightImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: d3e008f4af87afdd78691811a07ef8e837a5c8858af70b1ad41745d5df36e70c
+ent-LightImplanter = имплантер света
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Свет
-# HASH: eb26030f03226c5eeddd54aa7ea9c0f4c782815d22bbc3f32bceb0d9be8afc7e
-ent-BikeHornImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: 4e68309960427275ed4c4a44d08bfdacf466485e6e18c23101e02d9ab792fbfc
+ent-BikeHornImplanter = имплантер хонк-импланта
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Хонк-имплант
-# HASH: d53ef0e80f262f3261d79cbd868d7e76b53ad40da426a5101d04d78329988654
-ent-TrackingImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: 295e2bd3dcede64f2fc5f12a4c2c96fd03a0c2c29ac10b3427c52e8ffba6790c
+ent-TrackingImplanter = имплантер трекера
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Трекер
-# HASH: 2dc9a1ce97d96a2ee024937325ad48d4023d8938d95e329b13d39aa83af884c8
-ent-StorageImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: f56883ad3f692a3eab5bbf85d697ab004f7f86d813b601d2d2fe98b6302d3770
+ent-StorageImplanter = имплантер хранилища
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Хранилище
-# HASH: cafb3149ea02113a2d7d0b4ecc1be3508dd8a2a195f839f7ce7314e150c6a375
-ent-FreedomImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 040de322dd08a73d73b19cdadaa9d110dd46e933a3d22bfb81d32b14df44669c
+ent-FreedomImplanter = имплантер свободы
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Свобода
-# HASH: 943134b48e6f2e1b5fde1d04b49ef927fa6f28eb8e84000ebf751883ac4e5ddf
-ent-RadioImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 63d84b2dd4a1a0ebb55d53fcf6bbbab9593eff2fc1a2aee17f6fa0b7af50f4bc
+ent-RadioImplanter = имплантер радио синдиката
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Радио Синдиката
-# HASH: 46ee7db10503c902aa53a742e76e82886954accfdd813e4ced70e7a0f8ffc8da
-ent-UplinkImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 372fb17b6762499d2bed91c492c48bbf588b22a1abc078bd55eb6b99f5ab0b7f
+ent-UplinkImplanter = имплантер аплинка
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Аплинк
-# HASH: 2460ab8b228aa56f0e14b7d5dd6376fd8532b8517c3d6220b471f09aeae41735
-ent-EmpImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 46b9f5de6787471d4e2ff133fccafbd94cfd862f57a77ae7a224dd734f2b205c
+ent-EmpImplanter = имплантер ЭМИ
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = ЭМИ
-# HASH: e3c1ef37c7102b8d47a53344f9fae084c0aa25d492249ce33a3284c01381fb6e
-ent-ScramImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: b04b1c9562c24bdf6f51b796561e7b7b7ecb92ff6d2d7bdac68a74c03d466740
+ent-ScramImplanter = имплантер побега
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Побег
-# HASH: 4d63b562ea4bda7ae6382486e78306e682872aa87eaaa22d09c0f7802ea6b732
-ent-DnaScramblerImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: c0110f05e3e9c0f45f6f1adcd60f3e2b273864c842d57d65bcc2c1cdc3301951
+ent-DnaScramblerImplanter = имплантер миксера ДНК
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Миксер ДНК
-# HASH: b5c5ed0c678644a655e477e3b4867ea59f1ffe8b4aa9d6b17076af590505e512
-ent-MicroBombImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 54cacfe956d7bc0ccd0bf980a57dad947591a6b446313f2574ea0ed32ace4200
+ent-MicroBombImplanter = имплантер микробомбы
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Микробомба
-# HASH: ac4060e878777980b29db7bc9357e90885fbd5c25ec8c118ba8a087d83aaf6a9
-ent-MacroBombImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: d6fb5ec41c47f54a59d132c41c43c95f3d343b5edb8420c7f0b50d9e5237549a
+ent-MacroBombImplanter = имплантер макробомбы
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Макробомба
-# HASH: 9f9e2ffa8c74d9602325f64c00ac5ef5dfc6cc9772b8006095f8d9b973f2fa5a
-ent-DeathRattleImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: 8308e5c5d4a9c7815d72bb671a84bdce773ddfa26217b01fa2fda6f8387c6c11
+ent-DeathRattleImplanter = иплантер предсмертного хрипа
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Предсмертный хрип
-# HASH: 73c8d289ae9f01c63dc2b6972f1c68f4b93a9e26de2c655b02f0641e185b2bd0
-ent-DeathAcidifierImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: ace0e0118b3f0a51ee4d14f19d8fd3fd3998a7cddb638b32e48015ca1a5cdd99
+ent-DeathAcidifierImplanter = имплантер посмертного растворителя
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Посмертный растворитель
-# HASH: 73e20fb5fe2d9a3d9bba8ddee6a3461cfbb6400566bb379ce350d629c7877fc6
-ent-FakeMindShieldImplanter = { ent-BaseImplantOnlyImplanterSyndi }
+# HASH: a04ea03409923c741d39b7220c288eefd9a60eea6c5cf2e2079484eed201c789
+ent-FakeMindShieldImplanter = имплантер поддельного щита разума
     .desc = { ent-BaseImplantOnlyImplanterSyndi.desc }
-    .suffix = Поддельный
-# HASH: 666d2ecdcd97b84ae9db9e60489f2734f8d967821a42c823d8bec953c2ebbf20
-ent-MindShieldImplanter = { ent-BaseImplantOnlyImplanter }
+# HASH: a86f3e9bdea43c0994fb238f29cb99ee094692fbcd0b209f300f03649fa4a5e0
+ent-MindShieldImplanter = имплантер щита разума
     .desc = { ent-BaseImplantOnlyImplanter.desc }
     .suffix = Щит разума
-# HASH: 35f6bb8537bfeca5b3fb436b38fa07ea245baac8f9b7b35ef7be3740847e1208
-ent-RadioImplanterCentcomm = { ent-BaseImplantOnlyImplanter }
+# HASH: ec15366e6ce1d65f0b92bac3333cb78f16f693a2cdbc2dba25ad6e2dfdc7b319
+ent-RadioImplanterCentcomm = имплантер радио ЦентКом
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-    .suffix = Радио ЦентКом
+# HASH: f9c10bfc653c9d1e1d46f4b8480d502e4d11ca727a4959413bc1a5576a022518
+ent-DeathRattleImplanterCentcomm = имплантер предсмертного хрипа ЦентКом
+    .desc = { ent-BaseImplantOnlyImplanter.desc }

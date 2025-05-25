@@ -150,3 +150,7 @@ ent-DoorElectronicsMaintenance = { ent-DoorElectronics }
 ent-DoorElectronicsVault = { ent-DoorElectronics }
     .desc = { ent-DoorElectronics.desc }
     .suffix = Хранилище, Закрыт
+# HASH: 8a3b9c8d6bb26493381e14ac279ab1ac7f9d64c4fcaf992a4efad304e9ea3e30
+ent-DoorElectronicsServiceTheatre = { ent-DoorElectronics }
+    .desc = { ent-DoorElectronics.desc }
+    .suffix = Сервис, Театр, Закрыт

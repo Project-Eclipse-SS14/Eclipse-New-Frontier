@@ -93,3 +93,9 @@ ent-ClothingOuterEVASuitLvhi = скафандр EVA LVHI
 # HASH: 62eb051e20d80d53aa2c739c262e90177b6144ebdf3bbd052cb5ed16fe252679
 ent-ClothingOuterEVASuitArcadia = скафандр EVA Аркадиа
     .desc = Аварийный скафандр EVA со встроенным шлемом. Он ужасно медленный и не имеет температурной защиты, но его достаточно, чтобы выиграть время в жестком вакууме космоса.
+# HASH: 9a92ff809635390400ee549a09519ce4ab1d135fb0ccfa6f52695d9f999ab240
+ent-NFDepartmentalEVASuitShoulderLight = { ent-NFDepartmentalEVASuit }
+    .desc = { ent-NFDepartmentalEVASuit.desc }
+# HASH: 3685199affbe1c3351c86536c525ac3b8345ffe11a0e761fbdf12adaa03afc17
+ent-ClothingOuterEVASuitParamedic = скафандр EVA парамедика
+    .desc = An EVA suit with a built-in helmet commonly issued to paramedics.

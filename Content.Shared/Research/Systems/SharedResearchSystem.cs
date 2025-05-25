@@ -1,5 +1,6 @@
 using System.Linq;
-using Content.Server.SelfShipyard.Events;
+using Content.Server.SelfShipyard.Events; // Eclipse
+using Content.Shared.Examine;
 using Content.Shared.Lathe;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
@@ -24,6 +25,7 @@ public abstract class SharedResearchSystem : EntitySystem
 
         SubscribeLocalEvent<TechnologyDatabaseComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<TechnologyDatabaseComponent, AfterShuttleDeserializedEvent>(OnAfterDeserialized); // Eclipse
+        SubscribeLocalEvent<ResearchServerComponent, ExaminedEvent>(OnServerExamined); // Frontier
     }
 
     private void OnMapInit(EntityUid uid, TechnologyDatabaseComponent component, MapInitEvent args)
@@ -35,6 +37,14 @@ public abstract class SharedResearchSystem : EntitySystem
     {
         UpdateTechnologyCards(uid, component);
     }
+
+    // Frontier: print server ID on examine
+    private void OnServerExamined(Entity<ResearchServerComponent> ent, ref ExaminedEvent args)
+    {
+        if (args.IsInDetailsRange)
+            args.PushMarkup(Loc.GetString("research-server-examine-id", ("id", ent.Comp.Id)));
+    }
+    // End Frontier: print server ID on examine
 
     public void UpdateTechnologyCards(EntityUid uid, TechnologyDatabaseComponent? component = null)
     {

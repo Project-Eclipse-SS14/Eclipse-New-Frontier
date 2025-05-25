@@ -1,9 +1,9 @@
 # HASH: 64f9a1d0c2ec10619d851c7a88ed138cf92e199186b8264f59ac710ea97121ec
 ent-BaseMagazineBoxCaselessRifle = коробка патронов (.25 безгильзовые)
     .desc = { "" }
-# HASH: fabf88ae96833dc6c410e66d4d5bdb568f04e96eefc339c0fe45b6ce16f03c5b
+# HASH: a25970d8097a8586751ae70c5136d964d382d3021b76124d20549f2f4dee11ca
 ent-MagazineBoxCaselessRifle = коробка патронов (.25 безгильзовые)
-    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
-# HASH: 21a949e069f10e1e5f0c2d3e857572db3e1293ba0f929ec3abd73495f9476295
-ent-MagazineBoxCaselessRiflePractice = коробка патронов (.25 безгильзовые учебные)
-    .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
+    .desc = Картонная коробка с безоболочечными патронами калибра .25. Предназначена для хранения кинетических боеприпасов общего назначения.
+# HASH: 76071d7c0da6ead4c38f13e095472aec4fa57ac13ca9f38205713e1a3459222d
+ent-MagazineBoxCaselessRiflePractice = коробка патронов (.25 безгильзовые тренировочные)
+    .desc = Картонная коробка с безоболочечными патронами калибра .25. Предназначена для хранения не опасных меловых боеприпасов.

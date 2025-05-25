@@ -79,3 +79,9 @@ ent-NFPosterContrabandRatvarLives = Ратвар Жив
 # HASH: b2e75f6a488035d91641ea831760cf6869597e2948dd5bcae9e06ab0247066aa
 ent-NFPosterContrabandFsbNightlight = Фар Стар Биотеч Ночник
     .desc = FSB Ночник, прогоняющий ночь.
+# HASH: 6fdecae4d818e02f082e4073f5e27ec9083eb9a40a45949548555d3a3c2b683d
+ent-NFPosterContrabandFsbRetort = Фар Стар Биотеч Колба
+    .desc = FSB Колба! Раскройте свой потенциал!
+# HASH: 33be7b3158fd87408272f6461cd7990705887a858dae36dfc8b34bb3998e9752
+ent-NFPosterContrabandFsbCaladrius = Фар Стар Биотеч Каладриус
+    .desc = FSB Каладриус, когда больше не к кому обратиться, ты будешь рад видеть нас!
