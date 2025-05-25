@@ -142,17 +142,8 @@ ent-BulletLaserSpreadNarrow = узкий лазерный залп
 # HASH: 424f94ad711c0cb4fa404a74075f20201e6fa6fb22e31df5a2d32e0fb372d052
 ent-BulletDisablerSmgSpread = оглушающий лазерный залп
     .desc = { ent-BulletDisablerSmg.desc }
-# HASH: 9874ef7540cc5fe72359adb04b9f09c11278942976939941a59115caa1661f46
-ent-BaseBulletRubber = базовая пуля резиновая
-    .desc = { ent-BaseBullet.desc }
-# HASH: ba209938e406adbf1f73629eee88cde91c3c0c2201690084da10a00a3f068ec8
-ent-BaseBulletEmp = базовая пуля эми
-    .desc = { ent-BaseBulletTrigger.desc }
 # HASH: 3fd1372d5842f79c8be0dc48aa61a1a5de77641de13cc5c0ba685d4a18248a6d
 ent-BulletRocketEmp = ракета
-    .desc = { ent-BaseBulletTrigger.desc }
-# HASH: cdbe4bead11dcb4ee94e95a82b9804cbdb206bc7cc7ae11cfa8c221ba9345847
-ent-ProjectileEmp = эми снаряд
     .desc = { ent-BaseBulletTrigger.desc }
 # HASH: 2c3ae3869b181a72cdfb09fc7c5fb6fe1ec1c5918275b59974881fe65cfe3c9a
 ent-BulletCannonBallEmp = эми пушечное ядро

@@ -61,10 +61,6 @@ ent-WallSilver = серебряная стена
 # HASH: fe0545d11ce41e32690b73f40b06806a9cb36ff3c8f225e2df7b7e8e6d272e50
 ent-WallShuttle = стена шаттла
     .desc = { ent-BaseWall.desc }
-# HASH: ebd0f07cdba59b0602f0e2af217634692a0fb873fbab73eedc4ba99586d905ee
-ent-WallShuttleInterior = стена шаттла
-    .desc = { ent-BaseWall.desc }
-    .suffix = Внутренний
 # HASH: 176a76bb81cac8718005ddd28e7d41a3c8106239c5919c0ca31c9a3c5ea445ea
 ent-WallSolid = обычная стена
     .desc = { ent-BaseWall.desc }

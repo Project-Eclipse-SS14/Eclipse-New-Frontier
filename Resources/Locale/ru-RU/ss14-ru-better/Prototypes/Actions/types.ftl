@@ -49,9 +49,6 @@ ent-ActionChangeVoiceMask = Изменить имя
 # HASH: 7577e70a07151a22871e28444194515c54595e4a58071fc88594219ac92aa71d
 ent-ActionVendingThrow = Выдать предмет
     .desc = Выдаёт случайный предмет из вашего инвентаря.
-# HASH: ab0679f54d99dea2391f7172946dfc0154ef3f5c68dc63c4d3f550d9a4b7f710
-ent-ActionArtifactActivate = Активировать артефакт
-    .desc = Немедленно активирует текущий узел артефакта.
 # HASH: 06cc94023479f4a8546d3e5a475d9f48be240a1bce1ae5e3d858c7c7f07e8dfa
 ent-ActionToggleBlock = Блокирование
     .desc = Поднимите или опустите свой щит.
