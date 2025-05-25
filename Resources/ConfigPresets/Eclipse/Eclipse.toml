@@ -45,13 +45,12 @@ id = "frontier_main"
 rules_file = "FrontierRuleset"
 
 [infolinks]
-bug_report = "https://github.com/Apxumekm0p/Eclipse-New-Frontier/issues/new/choose"
+bug_report = "https://github.com/Project-Eclipse-SS14/Eclipse-New-Frontier/issues/new/choose"
 discord = "https://discord.gg/5J9Q8WuJFd"
 #forum = ""
-github = "https://github.com/Apxumekm0p/Eclipse-New-Frontier"
-patreon = "https://www.patreon.com/c/Apxumekm0p"
-#boosty = "https://boosty.to/project_eclipse"
-#website = ""
+github = "https://github.com/Project-Eclipse-SS14/Eclipse-New-Frontier"
+patreon = ""
+#website = "https://boosty.to/project_eclipse"
 #wiki = ""
 #appeal = ""
 
