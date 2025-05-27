@@ -89,7 +89,7 @@
       paper_label: !type:ContainerSlot
   - type: ItemSlots
   - type: StaticPrice
-    price: 50 # Frontier: 75<50 - TODO: material value rework
+    price: 10 #Eclipse
   - type: Construction
     graph: CrateGenericSteel
     node: crategenericsteel
