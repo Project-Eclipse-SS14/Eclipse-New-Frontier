@@ -13,7 +13,7 @@
   parent: BaseVesselAntag
   name: Сэндвич
   description: Крошечное пластитановое судно, рассчитанное на команду из 2-3 пиратов. Имеет две широкоствольные пушки и заднюю пусковую установку. Работает на плазме.
-  price: 35000 #Cheap
+  price: 61250 #Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/bocakillo.yml

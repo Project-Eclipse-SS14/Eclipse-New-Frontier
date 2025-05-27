@@ -14,7 +14,7 @@
     sprite:  /Textures/Structures/Storage/orebox.rsi
     state: orebox
   product: NFMagnetBoxOre # Frontier: OreBox<NFMagnetBoxOre
-  cost: 1000 # Frontier - original price 500
+  cost: 3000 #Eclipse
   category: cargoproduct-category-name-cargo
   group: market
 

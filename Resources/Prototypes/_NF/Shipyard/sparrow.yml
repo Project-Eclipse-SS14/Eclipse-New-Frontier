@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NR Воробей
   description: Небольшое исследовательское и инженерное судно.
-  price: 41000 # TODO: review ship values - Whatstone
+  price: 71750 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/sparrow.yml

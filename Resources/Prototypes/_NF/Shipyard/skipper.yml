@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Шкипер
   description: Небольшой корабль с кухней и гидропонным садом.
-  price: 35000
+  price: 61250 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/skipper.yml

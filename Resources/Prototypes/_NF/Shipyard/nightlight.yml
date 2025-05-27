@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Ночник
   description: Главный шаттл компании Фар Стар Биотеч по организации питания и обслуживания! Юридически НЕ является испытательным стендом для секвенирования питательных веществ и исследования биогенеративных схем физиологии гуманоидов!
-  price: 45000 # Botany bay
+  price: 78750 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/nightlight.yml

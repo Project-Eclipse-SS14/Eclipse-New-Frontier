@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SSS Кемпер
   description: Персональный шаттл для тех, кто предпочитает жить в пустоте пространства.
-  price: 14000
+  price: 24500 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/camper.yml

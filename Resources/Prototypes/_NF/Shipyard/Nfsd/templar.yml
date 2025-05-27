@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Тамплиер
   description: Малый десантный корабль, предназначенный для проведения боевых операций по перехвату.
-  price: 24220
+  price: 42385 #Eclipse
   category: Small
   group: Security
   access: Security

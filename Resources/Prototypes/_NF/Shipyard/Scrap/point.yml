@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: SV Пунктир
   description: Два сваренных вместе обломка, которые каким-то образом способны к исследованиям.
-  price: 16100
+  price: 28175 #Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/point.yml

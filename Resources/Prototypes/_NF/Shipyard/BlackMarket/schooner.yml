@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: Шхуна
   description: Небольшой деревянный корабль с 2 центральными грузовыми отсеками.
-  price: 60000
+  price: 105000 #Eclipse
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/schooner.yml

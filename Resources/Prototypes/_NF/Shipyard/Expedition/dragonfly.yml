@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: DYS Стрекоза
   description: Высокомодульное утилизаторское судно, сваренное из небольших переработанных корпусов.
-  price: 81000 # ~62075$ on mapinit + ~18650$ from 30% markup
+  price: 141750 #Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml

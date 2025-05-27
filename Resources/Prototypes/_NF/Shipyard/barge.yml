@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Баржа
   description: Среднее судно, переоборудованное в грузовой утилизаторский шаттл.
-  price: 49000 # Appraises for 42901, margin of ~10% - TODO: fix these values, getting tests to pass - Whatstone
+  price: 85750 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/barge.yml

@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: SBI Мензурка
   description: Полностью функциональная химическая лаборатория. Идеально подходит для начинающего химика или школьного учителя химии. Да здравствует наука!
-  price: 65000
+  price: 113750 #Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/beaker.yml

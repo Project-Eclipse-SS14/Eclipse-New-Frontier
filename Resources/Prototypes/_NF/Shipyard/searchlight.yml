@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Прожектор
   description: Небольшое судно, оборудованное для поиска и восстановления раненного персонала НТ. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 33500 # ~$29100 on mapinit + ~$4500 from 15% markup
+  price: 58625 #Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/searchlight.yml

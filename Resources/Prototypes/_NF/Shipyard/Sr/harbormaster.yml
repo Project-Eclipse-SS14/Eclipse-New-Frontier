@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Квадрон
   description: Небольшой буксир. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 28500 # ~26700$ on mapinit + 1400 from ~5% markup
+  price: 49875 #Eclipse
   category: Small
   group: Sr
   access: StationTrafficController

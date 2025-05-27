@@ -12,8 +12,8 @@
     state: jar
   - type: AmeFuelContainer
   - type: StaticPrice
-    price: 400
-    vendPrice: 4000 # Frontier: FuelVend price
+    price: 500
+    vendPrice: 8000 #Eclipse
   - type: GuideHelp
     guides: [ AME, Power ]
   - type: Tag # Frontier

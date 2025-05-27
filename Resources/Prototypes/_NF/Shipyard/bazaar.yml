@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SLI Барахолка
   description: Барахолка - это судно для личного обслуживания, предназначенное для продажи товаров торговцами. На нем есть два закрывающихся грузовых дока, просторный грузовой отсек и пост наёмников для охраны магазина.
-  price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
+  price: 140000 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bazaar.yml

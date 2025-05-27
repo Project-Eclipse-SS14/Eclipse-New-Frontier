@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: NM Орлан
   description: Современное инженерное и медицинское судно среднего размера. Сосредоточенный на оказании помощи терпящим бедствие шаттлам, Орлан оснащен всем необходимым для восстановления здоровья большинства экипажей и шаттлов.
-  price: 60000
+  price: 105000 #Eclipse
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/eagle.yml

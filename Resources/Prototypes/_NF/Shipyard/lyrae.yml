@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Лира
   description: Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии.
-  price: 57500 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
+  price: 100625 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/lyrae.yml

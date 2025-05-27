@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Старатель
   description: Небольшое добывающее судно, предназначенное для оказания помощи в утилизаторских операциях.
-  price: 22000
+  price: 38500 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/prospector.yml

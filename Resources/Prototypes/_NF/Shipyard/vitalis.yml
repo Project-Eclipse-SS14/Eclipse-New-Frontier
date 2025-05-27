@@ -3,7 +3,7 @@
   id: Vitalis
   name: CTC Виталис
   description: Среднее судно медицинской поддержки для медицинского персонала, предназначенное для криогенного развертывания.
-  price: 75000 #Appraisal is 53480
+  price: 131250 #Eclipse
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/vitalis.yml

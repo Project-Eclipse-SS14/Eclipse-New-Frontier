@@ -57,7 +57,7 @@
   - type: StaticPrice
     price: 0
   - type: StackPrice
-    price: 5 # Frontier: 7.5<5 - TODO: material value rework
+    price: 2.5 #Eclipse
   - type: Extractable
     grindableSolutionName: rod
   - type: SolutionContainerManager

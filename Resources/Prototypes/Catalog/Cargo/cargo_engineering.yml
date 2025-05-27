@@ -5,7 +5,7 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coillv-30
   product: CrateEngineeringCableLV
-  cost: 300
+  cost: 1000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -16,7 +16,7 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coilmv-30
   product: CrateEngineeringCableMV
-  cost: 300
+  cost: 1000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -27,7 +27,7 @@
     sprite: Objects/Tools/cable-coils.rsi
     state: coilhv-30
   product: CrateEngineeringCableHV
-  cost: 300
+  cost: 1000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -82,7 +82,7 @@
     sprite: Objects/Tanks/Jetpacks/blue.rsi
     state: icon
   product: CrateEngineeringJetpack
-  cost: 1000
+  cost: 3000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -93,7 +93,7 @@
     sprite: Objects/Tanks/Jetpacks/mini.rsi
     state: icon
   product: CrateEngineeringMiniJetpack
-  cost: 750
+  cost: 1500 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -126,7 +126,7 @@
     sprite: _NF/Objects/Tools/rcd.rsi # Frontier
     state: ammo
   product: CrateRCDAmmo
-  cost: 2500
+  cost: 5000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -137,7 +137,7 @@
     sprite: _NF/Objects/Tools/rcd.rsi # Frontier
     state: icon
   product: CrateRCD
-  cost: 800
+  cost: 3000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -158,6 +158,6 @@
     sprite: Structures/Piping/Atmospherics/Portable/portable_sheater.rsi
     state: sheaterOff
   product: SpaceHeaterAnchored # Frontier: CrateEngineeringSpaceHeater<SpaceHeaterAnchored
-  cost: 600 # Frontier: 350<600
+  cost: 1500 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market

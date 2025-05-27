@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: HS Розарий
   description: Небольшое ботаническое судно, предназначенное для проведения экспериментов в области различных культур.
-  price: 32000
+  price: 56000 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/garden.yml

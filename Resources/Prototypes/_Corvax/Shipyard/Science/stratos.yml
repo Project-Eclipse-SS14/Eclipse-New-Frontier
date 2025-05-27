@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NR Стратег
   description: Среднегабаритный исследовательский шаттл. Рекомендованный состав команды 2-6 человек.
-  price: 92000
+  price: 161000 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Science/stratos.yml

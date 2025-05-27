@@ -4,7 +4,7 @@
     sprite: Structures/Storage/Crates/artifact.rsi
     state: artifact_container_icon
   product: CrateArtifactContainer
-  cost: 500
+  cost: 7500 #Eclipse
   category: cargoproduct-category-name-science
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Storage/artifact_container.rsi
     state: icon
   product: HandheldArtifactContainer
-  cost: 500
+  cost: 5000 #Eclipse
   category: cargoproduct-category-name-science
   group: market
 
@@ -36,7 +36,7 @@
     sprite: Clothing/Head/Hoods/Bio/scientist.rsi
     state: icon
   product: CrateScienceBiosuit
-  cost: 800
+  cost: 3000 #Eclipse
   category: cargoproduct-category-name-science
   group: market
 
@@ -47,6 +47,6 @@
     sprite: Structures/Machines/server.rsi
     state: server
   product: CrateCrewMonitoring
-  cost: 2000
+  cost: 7500 #Eclipse
   category: cargoproduct-category-name-science
   group: market

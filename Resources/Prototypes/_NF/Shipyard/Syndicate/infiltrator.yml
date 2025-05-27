@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: Лазутчик
   description: Корабль для проникновения ядерных оперативников Синдиката.
-  price: 85000
+  price: 148750 #Eclipse
   category: Medium
   group: Syndicate
   shuttlePath: /Maps/_NF/Shuttles/Syndicate/infiltrator.yml

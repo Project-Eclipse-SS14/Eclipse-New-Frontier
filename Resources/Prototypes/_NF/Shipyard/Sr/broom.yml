@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Метла
   description: Тесный, но надежный шаттл для оказания услуг по уборке помещений.
-  price: 13500 # ~12180$ on mapinit + 5% markup + some extra
+  price: 23625 #Eclipse
   category: Micro
   group: Sr
   access: Janitor

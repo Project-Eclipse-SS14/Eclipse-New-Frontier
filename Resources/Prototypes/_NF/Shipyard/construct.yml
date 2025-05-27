@@ -2,8 +2,8 @@
   id: Construct
   parent: BaseVessel
   name: NT Каркас
-  description: Чисто технически это тоже шаттл. Не рекомендуется никому.
-  price: 10500
+  description: Строительная платформа для личного шаттла, имеет доступ к личной верфи, НТ одобряет данный продукт.
+  price: 125000 #Eclipse
   category: Micro
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/construct.yml

@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Такелажник
   description: Компактный грузовой корабль, предназначенный для перевозки грузов.
-  price: 22000
+  price: 38500 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/loader.yml

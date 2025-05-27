@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Бомбила
   description: Небольшой транспортный шаттл, вмещающий 4 пассажира. Поставляется с новейшими аудиоразвлекательными технологиями.
-  price: 17500 # $16634 after appraisal + ~5% markup
+  price: 30625 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/pts.yml

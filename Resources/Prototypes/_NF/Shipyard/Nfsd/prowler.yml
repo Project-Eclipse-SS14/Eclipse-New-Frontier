@@ -2,8 +2,8 @@
   id: Prowler
   parent: BaseVessel
   name: NSF Бродяга
-  description: Патрульный корабль среднего размера класса Бродяга- это специализированное судно для преследования в глубоком космосе, оснащенное передовым комплексом датчиков.
-  price: 42000 #Appraises on purchase at ~35000. 20% markup applied due to the presence of the radar.
+  description: Патрульный корабль среднего размера класса Бродяга - это специализированное судно для преследования в глубоком космосе, оснащенное передовым комплексом датчиков.
+  price: 73500 #Eclipse
   category: Medium
   group: Security
   access: Sergeant

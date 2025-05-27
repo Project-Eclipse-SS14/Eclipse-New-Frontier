@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NR Спектр
   description: Большое, привлекательное, но устаревшее судно, ориентированное исключительно на исследования и разработки. Оно способно генерировать аномалии.
-  price: 185000 # Anomaly spawner
+  price: 323750 #Eclipse
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/spectre.yml

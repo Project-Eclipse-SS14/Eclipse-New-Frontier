@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Якорь
   description: Большой роскошный крейсер, способный совершать дальние путешествия по всему сектору, способный к экспедициям.
-  price: 140000 # $108432 after appraisal +30ish% (~32000)
+  price: 245000 #Eclipse
   category: Large
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/anchor.yml

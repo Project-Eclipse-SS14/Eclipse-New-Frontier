@@ -14,7 +14,7 @@
   parent: BaseVessel
   name: NC Шофер
   description: Небольшой транспортный шаттл, вмещающий 4 пассажира. Поставляется с новейшими аудиоразвлекательными технологиями.
-  price: 17500 # $14325 after appraisal + ~$1200 (~5% markup) - TODO: fix this value, getting tests to pass - Whatstone
+  price: 30625 #Eclipse
   category: Small
   group: Sr
   access: Service

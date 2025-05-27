@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NMS Консерва
   description: Малогабаритный медицинский шаттл. Рекомендованный состав команды 1-2 человек.
-  price: 23500 #меньше не поставлю, ибо нефиг
+  price: 41125 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Medical/konserv.yml

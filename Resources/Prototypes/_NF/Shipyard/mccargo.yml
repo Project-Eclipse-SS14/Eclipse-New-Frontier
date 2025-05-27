@@ -10,7 +10,7 @@
   parent: BaseVessel
   name: DC Каргония
   description: Ваша собственная франшиза Каргонии! Поставляется полностью укомплектованным и готовым к производству закусок.
-  price: 65000
+  price: 113750 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/mccargo.yml

@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Паладин
   description: Небольшой штурмовик, предназначенный для ведения космического боя, оснащенный гранатометом EXP-2100G.
-  price: 34220
+  price: 59885 #Eclipse
   category: Small
   group: Security
   access: Security

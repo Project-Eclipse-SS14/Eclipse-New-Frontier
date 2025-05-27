@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Императрица
   description: Крупный патрульный корабль, способный нести до 4 небольших более быстрых атакующих кораблей. Флагманский корабль ДСБФ.
-  price: 170000 #Appraisal value is 150000
+  price: 297500 #Eclipse
   category: Large
   group: Security
   access: Bailiff

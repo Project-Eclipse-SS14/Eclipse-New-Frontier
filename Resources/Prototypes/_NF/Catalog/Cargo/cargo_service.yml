@@ -4,7 +4,7 @@
     sprite: _NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelSpaceCleaner
-  cost: 3500
+  cost: 5000 #Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -15,7 +15,7 @@
     sprite: Objects/Vehicles/janicart.rsi
     state: icon
   product: CrateVehicleJanicart
-  cost: 1500
+  cost: 4000 #Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -25,6 +25,6 @@
     sprite: Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceReplacementColoredLights
-  cost: 600
+  cost: 1500 #Eclipse
   category: Service
   group: market

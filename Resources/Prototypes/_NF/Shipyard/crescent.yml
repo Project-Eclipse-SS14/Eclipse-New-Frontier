@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Полумесяц
   description: Полумесяц, названный так за свою внешнюю форму - это судно, ориентированное на предоставление услуг, медицинской помощи и научных открытий для небольших судов.
-  price: 350020 # It do be like this.
+  price: 612535 #Eclipse
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crescent.yml

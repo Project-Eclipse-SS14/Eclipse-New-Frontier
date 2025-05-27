@@ -8,7 +8,7 @@
   parent: BaseVesselAntag
   name: Моряк
   description: Малогабаритный пиратский шаттл. Легенда о моряке.
-  price: 20000 # TODO: review ship values - Whatstone
+  price: 35000 #Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/barnacle.yml

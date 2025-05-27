@@ -13,7 +13,7 @@
   parent: BaseVesselAntag
   name: Предъява
   description: Почта больше не является выбором - вы либо получаете ее, либо умираете.
-  price: 21000
+  price: 36750 #Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/menace.yml

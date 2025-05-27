@@ -14,7 +14,7 @@
   parent: BaseVessel
   name: FSB Каладриус
   description: Медицинский носитель производства корпорации Фар Стар Биотеч. Предназначен для поддержки крупномасштабной колонизации, оказания гуманитарной помощи и проведения операций по расследованию и восстановлению после катастроф.
-  price: 200000 # 140000 + 40% markup for low economic T3
+  price: 350000 #Eclipse
   category: Large
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/caladrius.yml

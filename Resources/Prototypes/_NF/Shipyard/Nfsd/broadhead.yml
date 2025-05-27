@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NSF Авангард
   description: Детективный корабль среднего размера с возможностями для проведения вскрытий, допросов и подробных расследований.
-  price: 60000 # TODO: fix these values, getting tests to pass - Whatstone
+  price: 105000 #Eclipse
   category: Medium
   group: Security
   access: Detective

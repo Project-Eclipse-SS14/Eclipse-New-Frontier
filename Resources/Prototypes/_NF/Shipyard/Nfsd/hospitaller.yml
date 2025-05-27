@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Лазарет
   description: Небольшое медицинское судно, предназначенное для ликвидации последствий чрезвычайных ситуаций и проведения поисково-спасательных операций.
-  price: 28220
+  price: 49385 #Eclipse
   category: Small
   group: Security
   access: Security

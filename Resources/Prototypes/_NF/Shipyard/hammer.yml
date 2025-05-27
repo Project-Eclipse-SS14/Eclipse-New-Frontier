@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Наковальня
   description: Мобильная инженерная платформа для ремонта, модернизации и переоборудования в глубоком космосе.
-  price: 44000 # Appraises at 38257, ~15% markup
+  price: 77000 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hammer.yml

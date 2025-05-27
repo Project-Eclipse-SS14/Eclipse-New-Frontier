@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NSF Перебежчик
   description: Малогабаритный патрульный шаттл ДСБФ. Рекомендуемый состав команды 1-3 человек.
-  price: 20500
+  price: 35875 #Eclipse
   category: Small
   group: Security
   access: Security

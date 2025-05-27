@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Ликвидатор
   description: Малогабаритный шаттл для утилизации кораблей/обломков, содержащий всё что нужно небольшой команде для длительной работы в глубоком космосе. Произведён Лангстад-Войгт Хэви Индастриз.
-  price: 27500 # ~25000$ on mapinit + 10% markup
+  price: 48125 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/liquidator.yml

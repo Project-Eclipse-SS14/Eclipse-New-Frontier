@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: ICR Зубило
   description: Стандартное маломерное судно, изначально предназначенное для утилизации обломков, теперь модифицированное для использования в качестве многоцелевого спасательного/добывающего/грузового судна.
-  price: 35000 # ~31550$ on mapinit + 3155$ from 10% markup 
+  price: 61250 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/chisel.yml

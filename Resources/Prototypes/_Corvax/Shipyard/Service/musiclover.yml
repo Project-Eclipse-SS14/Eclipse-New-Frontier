@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NC Меломан
   description: "Шаттл-бар от NT для элитарных обществ. Внутреннее роскошное убранство бара вам что-то напоминает, но вы никак не можете вспомнить, что именно. Рекомендуемый экипаж: 3-5 человек."
-  price: 53750 # 43 000 + 25%
+  price: 94100 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Service/musiclover.yml

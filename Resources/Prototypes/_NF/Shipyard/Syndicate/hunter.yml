@@ -3,7 +3,7 @@
   parent: BaseVesselAntag
   name: Охотник
   description: Небольшой бронированный штурмовой шаттл Синдиката, идеально подходящий для коварных операций!
-  price: 50000
+  price: 87500 #Eclipse
   category: Small
   group: Syndicate
   shuttlePath: /Maps/_NF/Shuttles/Syndicate/hunter.yml

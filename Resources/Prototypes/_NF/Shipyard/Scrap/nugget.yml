@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SV Наггетс
   description: Летающий кусок дерева и металла, замаскированный под кухонный шаттл.
-  price: 15950 # +1450 from 10% Markup
+  price: 27900 #Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/nugget.yml

@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NSF Пастырь
   description: Малогабаритное судно поддержки, используемое для спасения в чрезвычайных ситуациях и оказания первой помощи.
-  price: 11800 #Appraisal is 10500
+  price: 20650 #Eclipse
   category: Micro
   group: Custom
   access: Security

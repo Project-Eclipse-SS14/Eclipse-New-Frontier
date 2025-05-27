@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: PHI Перекресток
   description: Просторное и привлекательное служебное судно. Перекресток призван помочь справиться с теснотой в доках, соединить сообщества и служить якорем для собраний.
-  price: 75000 #appraises at ~69k with the appraisegrid command, marking up at ~10% for T1 Service/RP ship
+  price: 131250 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crossroads.yml

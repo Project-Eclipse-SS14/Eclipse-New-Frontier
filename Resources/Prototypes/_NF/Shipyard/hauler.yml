@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NC Тягач
   description: Среднеразмерное судно, специализирующееся на дальних утилизаторских, добывающих и грузовых операциях.
-  price: 77000
+  price: 134750 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hauler.yml

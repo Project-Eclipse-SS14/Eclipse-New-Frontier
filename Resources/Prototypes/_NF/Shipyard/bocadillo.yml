@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Фудтрак
   description: Крошечный фургончик, идеально подходит для шеф-повара одиночки.
-  price: 25500 # ~$23200 on mapinit + ~$2320 from 10% markup
+  price: 44625 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bocadillo.yml

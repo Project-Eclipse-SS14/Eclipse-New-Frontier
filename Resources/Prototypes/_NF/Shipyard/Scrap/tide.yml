@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: SV Волна
   description: Дешевый серийный шаттл, сделанный из утилизаторских обломков. Для опытного помощника.
-  price: 9700
+  price: 16975 #Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/tide.yml

@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Пустельга
   description: Когда-то это был грузовой корабль для местных перевозок, но теперь эта модель была переоборудована для использования в операциях по добыче и утилизации обломков.
-  price: 52200 # ~45370$ on mapinit + ~6805$ from 15% markup
+  price: 91350 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/kestrel.yml
@@ -41,4 +41,4 @@
           availableJobs:
             ContractorInterview: [ 0, 0 ]
             PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]  
+            MercenaryInterview: [ 0, 0 ]

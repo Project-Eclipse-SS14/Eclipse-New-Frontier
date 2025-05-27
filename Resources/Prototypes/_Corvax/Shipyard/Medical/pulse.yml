@@ -10,7 +10,7 @@
   parent: BaseVessel
   name: NM Пульс
   description: Малогабаритный медицинский шаттл. Рекомендованный состав команды 1-2 человека.
-  price: 20500
+  price: 35875 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Medical/pulse.yml

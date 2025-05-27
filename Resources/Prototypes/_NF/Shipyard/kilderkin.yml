@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Бочка
   description: Космический бар/микропивоварня со всем необходимым, чтобы способствовать плохому выбору жизни - много выпивки, курения и недостатка еды. Произведено компанией Лангстад-Войгт Хэви Индастриз.
-  price: 49000 # ~44620$ on mapinit + 4462 from 10% markup
+  price: 85750 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/kilderkin.yml

@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: BB Баронесса
   description: Небольшой роскошный круизер для одного или двух человек, с гостиной, отдельной спальней и чертовски красивым видом из кокпита.
-  price: 27000 # ~23,500 on purchase, ~15% markup
+  price: 47250 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/baroness.yml

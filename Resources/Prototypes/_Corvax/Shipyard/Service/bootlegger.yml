@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Бутлегер
   description: "Этот экземпляр прошел через множество ремонтов и проблем, но все же-он здесь! Этот торговый шаттл, воскрешенный SV, ныне доступен вам для продажи. Рекомендуемый экипаж: 2-3 человек"
-  price: 23000 # 20 000 + 15%
+  price: 40250 #Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Service/bootlegger.yml

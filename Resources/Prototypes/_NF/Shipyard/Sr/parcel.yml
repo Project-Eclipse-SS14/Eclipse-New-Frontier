@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Парцелла
   description: Надежный шаттл для доставки почты и посылок.
-  price: 18000
+  price: 31500 #Eclipse
   category: Small
   group: Sr
   access: Mail

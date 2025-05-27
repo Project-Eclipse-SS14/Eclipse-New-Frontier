@@ -13,7 +13,7 @@
    parent: BaseVessel
    name: NT Дальнобойщик-Х
    description: Среднегабаритный экспедиционный шаттл. Рекомендованный размер команды 3-6 человек.
-   price: 78650
+   price: 137640 #Eclipse
    category: Medium
    group: Expedition
    shuttlePath: /Maps/_Corvax/Shuttles/Expedition/courserx.yml

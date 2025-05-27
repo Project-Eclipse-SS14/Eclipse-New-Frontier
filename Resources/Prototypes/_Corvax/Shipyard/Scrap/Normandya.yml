@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NT Нормандия
   description: Шаттл построенный по типу Обломка, Это всё же лучше чем ничего.
-  price: 37500
+  price: 65625 #Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_Corvax/Shuttles/Scrap/Normandya.yml

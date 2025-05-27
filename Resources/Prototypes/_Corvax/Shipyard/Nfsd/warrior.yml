@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NSF Вариор
   description: Шаттл перехватчик Вариор. Произведено частной военно-производственной компаний Vitezstvi по спец. заказу НТ. Рекомендуемый состав команды 1-2 человека.
-  price: 32500
+  price: 56875 #Eclipse
   group: Security
   category: Small
   access: Security

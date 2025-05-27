@@ -4,7 +4,7 @@
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
   product: CrateEngineeringAMEShielding
-  cost: 15000 # Frontier - Up the price
+  cost: 25000 #Eclipse
   category: Engineering
   group: market
 
@@ -15,7 +15,7 @@
     sprite: Objects/Power/AME/ame_jar.rsi
     state: jar
   product: CrateEngineeringAMEJar
-  cost: 10000 # Frontier - Up the price
+  cost: 15000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -25,7 +25,7 @@
     sprite: Structures/Power/Generation/ame.rsi
     state: control
   product: CrateEngineeringAMEControl
-  cost: 6000 # Frontier - Up the price
+  cost: 10000 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -58,7 +58,7 @@
     sprite: Structures/Power/Generation/Singularity/emitter.rsi
     state: emitter2
   product: CrateEngineeringSingularityEmitter
-  cost: 1500
+  cost: 4500 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -90,7 +90,7 @@
     sprite: Objects/Devices/flatpack.rsi
     state: solar-assembly-part
   product: CrateEngineeringSolar
-  cost: 1500 # Frontier: 525<1500
+  cost: 3500 #Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 

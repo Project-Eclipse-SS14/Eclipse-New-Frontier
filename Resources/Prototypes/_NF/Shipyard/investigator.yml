@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NR Исследователь
   description: Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований.
-  price: 42100 # ~36540$ on mapinit + ~5480$ from 15% markup
+  price: 73765 #Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/investigator.yml

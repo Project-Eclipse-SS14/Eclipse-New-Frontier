@@ -38,7 +38,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
-    price: 50
+    price: 10 #Eclipse
   - type: Extractable # Frontier
     grindableSolutionName: food # Frontier
   - type: SolutionContainerManager # Frontier

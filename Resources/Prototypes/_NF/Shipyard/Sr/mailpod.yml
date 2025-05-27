@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Ямщик
   description: Тесный, но надежный шаттл для доставки посылок.
-  price: 15000
+  price: 26250 #Eclipse
   category: Micro
   group: Sr
   access: Mail
