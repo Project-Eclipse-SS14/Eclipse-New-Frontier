@@ -11,6 +11,8 @@ const SKIPPED_FOLDER_NAMES: &[&str] = &["ss14-ru", "ss14-ru-better"];
 const SOURCE_LOCALE: &str = "en-US";
 const TARGET_LOCALE: &str = "ru-RU";
 
+const CREATE_HASH_IF_EMPTY: bool = true;
+
 fn main() {
     SimpleLogger::new()
         .with_level(log::LevelFilter::Info)
@@ -32,8 +34,34 @@ fn main() {
         let Some(source_message) = source_storage.find(id) else {
             continue; // TODO: was removed
         };
+
         let source_hash = source_message.calculate_hash();
-        if source_hash != message.get_hash().unwrap().unwrap() {
+        let target_hash = if CREATE_HASH_IF_EMPTY {
+            match message.get_hash() {
+                Ok(Some(v)) => v,
+                Ok(None) => {
+                    message.inner_mut().comment = Some(fluent_syntax::ast::Comment {
+                        content: vec![format!("HASH: {}", hex::encode(source_hash))],
+                    });
+                    source_hash
+                }
+                Err(ftl::GetHashError::HashCommentNoPrefix) => {
+                    message
+                        .inner_mut()
+                        .comment
+                        .as_mut()
+                        .unwrap()
+                        .content
+                        .insert(0, format!("HASH: {}", hex::encode(source_hash)));
+                    source_hash
+                }
+                Err(_) => panic!(),
+            }
+        } else {
+            message.get_hash().unwrap().unwrap()
+        };
+
+        if source_hash != target_hash {
             let source_inner = source_message.inner();
             let mut target_inner = message.inner_mut();
             target_inner.attributes = source_inner.attributes.clone();
@@ -52,7 +80,7 @@ fn main() {
             target_storage.add_file(source_path.to_path_buf());
             target_storage.get_file_mut(&source_path).unwrap()
         };
-        
+
         if !file.contains_id(message.id()) {
             let mut message_inner = message.inner().clone();
             message_inner.comment = Some(fluent_syntax::ast::Comment {
