@@ -49,7 +49,7 @@
         <GridContainer Columns="3" HorizontalExpand="True" Margin="0 8 0 2">
             <Button Name="TargetIdButton" Access="Public"/>
             <Button Name="SellShipButton"
-                Text="Продать"
+                Text="{Loc 'shipyard-console-sell-label'}"
                 Disabled="True" />
             <BoxContainer Orientation="Vertical">
                 <Label Text="{Loc 'shipyard-console-deed-label'}" />
