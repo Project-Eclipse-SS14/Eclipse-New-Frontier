@@ -42,6 +42,8 @@
       collection: MaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
 
 - type: emoteSounds
   id: FemaleHuman
@@ -86,6 +88,8 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
 
 - type: emoteSounds
   id: MaleReptilian
@@ -116,6 +120,8 @@
       collection: DeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -146,6 +152,8 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
 
 - type: emoteSounds
   id: MaleSlime
@@ -194,6 +202,8 @@
       collection: MaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
   params:
     variation: 0.125
 
@@ -244,6 +254,8 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
   params:
     variation: 0.125
 
@@ -363,6 +375,8 @@
       collection: MaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
   params:
     variation: 0.125
     pitch: 0.75
@@ -408,6 +422,8 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
   params:
     variation: 0.125
     pitch: 0.75
