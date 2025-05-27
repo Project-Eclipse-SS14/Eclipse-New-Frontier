@@ -187,8 +187,8 @@ namespace Content.Server._Eclipse.Chemistry.EntitySystems
             if (!_solutionContainerSystem.TryGetSolution(owner, SharedChemMaster.BufferSolutionName, out _, out var bufferSolution))
                 return;
             var inputContainer = _itemSlotsSystem.GetItemOrNull(owner, SharedChemMaster.InputSlotName);
-            _appearanceSystem.SetData(owner, ChemMasterVisualState.BeakerInserted, inputContainer.HasValue); // Frontier
             var outputContainer = _itemSlotsSystem.GetItemOrNull(owner, SharedChemMaster.OutputSlotName);
+
             var inputGrinderContainer = _containerSystem.EnsureContainer<Container>(owner, SharedReagentGrinder.InputContainerId);
 
             var bufferReagents = bufferSolution.Contents;
