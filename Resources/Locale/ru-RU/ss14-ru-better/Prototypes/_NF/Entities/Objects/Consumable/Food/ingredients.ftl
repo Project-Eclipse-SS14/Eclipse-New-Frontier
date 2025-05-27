@@ -31,3 +31,6 @@ ent-FoodDoughFlatButtered = плоское тесто с маслом
 # HASH: 4868dd04ed627f85d3de3e634570913f95f5a05451ae2aa7c5f8fa4fd8066b6c
 ent-FoodDoughFlatPastry = кондитерское тесто
     .desc = Раскатанное тесто, смазанное маслом.
+# HASH: 25d2f4bda27e08b051a2f340f940ae9922ed82b067f17fab2058f5e3354e176b
+ent-FoodBakedWaffleCone = вафельный рожок
+    .desc = Сладкий вафельный рожок. Сверху на мороженое!

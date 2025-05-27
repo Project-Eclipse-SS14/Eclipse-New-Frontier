@@ -38,3 +38,6 @@ ent-FoodContainerEggEmpty = { ent-FoodContainerEgg }
 # HASH: 68009dfb6e1bc3b96178a2ef29e6fdfd6293bedb2be1212d01f0abc380bce4c2
 ent-FoodBoxDonutEmpty = { ent-FoodBoxDonut }
     .desc = { ent-FoodBoxDonut.desc }
+# HASH: 9e8e1044a9d2f12c01c55dcd7dfdc7c981599eac9f78ea64e33ca1ed97367b7d
+ent-FoodBoxWaffleCone = коробка вафельных рожков
+    .desc = Коробка вафельных рожков марки Waffle Co. На коробке изображен улыбающийся ребенок.

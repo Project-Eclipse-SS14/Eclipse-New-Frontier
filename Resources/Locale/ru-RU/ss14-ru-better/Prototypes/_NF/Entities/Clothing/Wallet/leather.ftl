@@ -10,3 +10,6 @@ ent-ClothingWalletLeatherMail = { ent-ClothingWalletLeatherBrown }
 # HASH: 75c2504ad027fb6cf3c428be1951a7f7f69c8b552712018a827fd0b598cd933a
 ent-ClothingWalletLeatherPirate = { ent-ClothingWalletLeatherBrown }
     .desc = Там есть старая фотография кота с бородой внутри.
+# HASH: 03903b1b7569377e2757bc339bb2a7e60b6df938075a19b0f78107a0f73497b2
+ent-ClothingWalletLeatherPrisoner = бумажник заключенного
+    .desc = Не то, что вы ожидали.
