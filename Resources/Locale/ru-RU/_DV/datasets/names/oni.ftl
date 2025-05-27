@@ -1,17 +1,17 @@
 ## Male, First
 
-#陽
+# 陽
 names-oni-last-male-dataset-1 = Киоши
-#明
+# 明
 names-oni-last-male-dataset-2 = Сатоши
-#光
+# 光
 names-oni-last-male-dataset-3 = Теру
 names-oni-last-male-dataset-4 = Хироси
-#天
+# 天
 names-oni-last-male-dataset-5 = Такаши
-#永一
+# 永一
 names-oni-last-male-dataset-6 = Еичи
-#永一朗
+# 永一朗
 names-oni-last-male-dataset-7 = Эичиру
 names-oni-last-male-dataset-8 = Кюсабуро
 names-oni-last-male-dataset-9 = Цутоми
@@ -21,36 +21,36 @@ names-oni-last-male-dataset-12 = Кендзи
 names-oni-last-male-dataset-13 = Кеничи
 names-oni-last-male-dataset-14 = Сусуми
 names-oni-last-male-dataset-15 = Кёносуке
-#Mars
+# Mars
 names-oni-last-male-dataset-16 = Суисей
-#Reference
+# Reference
 names-oni-last-male-dataset-17 = Сютен
 
 ## Female, First
 
-#星
+# 星
 names-oni-last-female-dataset-1 = Акари
 names-oni-last-female-dataset-2 = Кира
 names-oni-last-female-dataset-3 = Кирамеки
-#陽
+# 陽
 names-oni-last-female-dataset-4 = Аки
 names-oni-last-female-dataset-5 = Акийо
 names-oni-last-female-dataset-6 = Акими
-#明
+# 明
 names-oni-last-female-dataset-7 = Акаши
 names-oni-last-female-dataset-8 = Сая
-#月
+# 月
 names-oni-last-female-dataset-9 = Апуро
 names-oni-last-female-dataset-10 = Арута
 names-oni-last-female-dataset-11 = Мегури
-#天
+# 天
 names-oni-last-female-dataset-12 = Тиара
 names-oni-last-female-dataset-13 = Суисеа
-#水
+# 水
 names-oni-last-female-dataset-14 = Ио
 names-oni-last-female-dataset-15 = Айа
 names-oni-last-female-dataset-16 = Мизу
-#epic references
+# epic references
 names-oni-last-female-dataset-17 = Тсютен
 names-oni-last-female-dataset-18 = Суика
 # Location
