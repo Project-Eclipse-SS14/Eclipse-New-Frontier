@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NMS Каструля
   description: Среднегабаритный шахтерский шаттл. Рекомендованный состав команды 1-6 человек.
-  price: 105000 #Eclipse
+  price: 105000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Salvage/Pot.yml
@@ -37,6 +37,6 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

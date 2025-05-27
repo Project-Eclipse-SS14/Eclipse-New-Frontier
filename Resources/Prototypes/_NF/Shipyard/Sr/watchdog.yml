@@ -14,21 +14,21 @@
   parent: BaseVessel
   name: SBI Сторожевой пёс
   description: Обновленная и перекрашенная старая модель NSF Тамплиера, предназначенная для использования наемниками и перепрофилированная для станционной охраны.
-  price: 35000 #Eclipse
+  price: 35000 # Eclipse
   category: Small
   group: Sr
   access: Brig # Oddball, matches guard ID, specific enough to exclude cadets
-  mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
+  mapchecker_group_override: Security # Treat this as a security vessel for mapchecker purposes
   shuttlePath: /Maps/_NF/Shuttles/Sr/watchdog.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Watchdog
-  mapName: 'SBI Сторожевой пёс'
+  mapName: "SBI Сторожевой пёс"
   mapPath: /Maps/_NF/Shuttles/Sr/watchdog.yml
   minPlayers: 0
   stations:
@@ -36,7 +36,6 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Сторожевой пёс{1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Сторожевой пёс{1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"

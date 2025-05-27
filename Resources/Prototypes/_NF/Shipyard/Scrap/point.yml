@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: SV Пунктир
   description: Два сваренных вместе обломка, которые каким-то образом способны к исследованиям.
-  price: 28175 #Eclipse
+  price: 28175 # Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/point.yml
   guidebookPage: Null
   class:
-  - Scrapyard
-  - Science
+    - Scrapyard
+    - Science
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Point
-  mapName: 'SV Пунктир'
+  mapName: "SV Пунктир"
   mapPath: /Maps/_NF/Shuttles/Scrap/point.yml
   minPlayers: 0
   stations:
@@ -24,12 +24,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Пунктир {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Пунктир {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

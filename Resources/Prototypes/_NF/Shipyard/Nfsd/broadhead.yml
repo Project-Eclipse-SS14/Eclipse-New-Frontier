@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NSF Авангард
   description: Детективный корабль среднего размера с возможностями для проведения вскрытий, допросов и подробных расследований.
-  price: 105000 #Eclipse
+  price: 105000 # Eclipse
   category: Medium
   group: Security
   access: Detective
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/broadhead.yml
   guidebookPage: Null
   class:
-  - Detective
+    - Detective
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Broadhead
-  mapName: 'NSF Авангард'
+  mapName: "NSF Авангард"
   mapPath: /Maps/_NF/Shuttles/Nfsd/broadhead.yml
   minPlayers: 0
   stations:
@@ -34,9 +34,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Авангард {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Авангард {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: WSE Уголок
   description: Корабль, спроектированный как мобильный дом, с пространством для модификаций. Быстрый и удобный.
-  price: 39375 #Eclipse
+  price: 39375 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/nook.yml
   guidebookPage: ShipyardNook
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Nook
-  mapName: 'WSE Уголок'
+  mapName: "WSE Уголок"
   mapPath: /Maps/_NF/Shuttles/nook.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Уголок {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Уголок {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

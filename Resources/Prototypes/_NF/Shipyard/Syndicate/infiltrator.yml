@@ -3,19 +3,19 @@
   parent: BaseVesselAntag
   name: Лазутчик
   description: Корабль для проникновения ядерных оперативников Синдиката.
-  price: 148750 #Eclipse
+  price: 148750 # Eclipse
   category: Medium
   group: Syndicate
   shuttlePath: /Maps/_NF/Shuttles/Syndicate/infiltrator.yml
   guidebookPage: Null
   class:
-  - Syndicate
+    - Syndicate
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Infiltrator
-  mapName: 'Лазутчик'
+  mapName: "Лазутчик"
   mapPath: /Maps/_NF/Shuttles/Syndicate/infiltrator.yml
   minPlayers: 0
   stations:
@@ -23,9 +23,8 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Лазутчик {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Лазутчик {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

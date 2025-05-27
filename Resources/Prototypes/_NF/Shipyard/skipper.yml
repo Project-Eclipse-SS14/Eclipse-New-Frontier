@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NC Шкипер
   description: Небольшой корабль с кухней и гидропонным садом.
-  price: 61250 #Eclipse
+  price: 61250 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/skipper.yml
   guidebookPage: ShipyardSkipper
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Skipper
-  mapName: 'NC Шкипер'
+  mapName: "NC Шкипер"
   mapPath: /Maps/_NF/Shuttles/skipper.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Шкипер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Шкипер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

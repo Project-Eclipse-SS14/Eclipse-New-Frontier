@@ -14,7 +14,7 @@
   name: EIS Харон
   description: Изначально он был построен как транспорт для перевозки тяжелого оборудования для терраформирования. С тех пор как он устарел и появился на вторичном рынке, «Чарон» стал любимцем апфиттеров за широкие возможности, предоставляемые его открытым отсеком для оборудования. Продукт компании Промышленные верфи Эндуранс.
   # Sell value @ exped shipyard 70408, 15% markup and a little rounding gives us...
-  price: 141750 #Eclipse
+  price: 141750 # Eclipse
   # 24x33 tiles
   # 627 total tiles
   # In light of the mid-range tile count and relatively narrow width I feel like Medium is more appropriate than Large even though it is technically one tile too long for the class.
@@ -23,13 +23,13 @@
   shuttlePath: /Maps/_NF/Shuttles/Expedition/charon.yml
   guidebookPage: ShipyardCharon
   class:
-  - Expedition
+    - Expedition
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Charon
-  mapName: 'Харон'
+  mapName: "Харон"
   mapPath: /Maps/_NF/Shuttles/Expedition/charon.yml
   minPlayers: 0
   stations:
@@ -37,12 +37,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Харон {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Харон {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

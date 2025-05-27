@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: FSB Геодезист
   description: Бюджетный шаттл для шахтерства и разбора обломков для корпораций, не желающих работать за пределами ограниченного бюджета. Предоставлен корпорацией Фар Стар Биотеч!
-  price: 31500 #Eclipse
+  price: 31500 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/surveyor.yml
   guidebookPage: ShipyardSurveyor
   class:
-  - Salvage
+    - Salvage
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Surveyor
-  mapName: 'FSB Геодезист'
+  mapName: "FSB Геодезист"
   mapPath: /Maps/_NF/Shuttles/surveyor.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Геодезист {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Геодезист {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

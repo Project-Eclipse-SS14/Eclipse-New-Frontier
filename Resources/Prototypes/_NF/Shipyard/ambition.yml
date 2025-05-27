@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: UAC Амбициозный
   description: Рассекреченная платформа для производства и распределения газа, захваченная в ходе враждебного поглощения Атмосианского конгломерата. Для самого настоящего повстанца.
-  price: 280000 #Eclipse
+  price: 280000 # Eclipse
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/ambition.yml
   guidebookPage: ShipyardAmbition
   class:
-  - Atmospherics
+    - Atmospherics
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Ambition
-  mapName: 'UAC Амбициозный'
+  mapName: "UAC Амбициозный"
   mapPath: /Maps/_NF/Shuttles/ambition.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Амбициозный {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Амбициозный {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

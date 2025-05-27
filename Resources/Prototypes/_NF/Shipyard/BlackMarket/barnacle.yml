@@ -8,19 +8,19 @@
   parent: BaseVesselAntag
   name: Моряк
   description: Малогабаритный пиратский шаттл. Легенда о моряке.
-  price: 35000 #Eclipse
+  price: 35000 # Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/barnacle.yml
   guidebookPage: Null
   class:
-  - Pirate
+    - Pirate
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Barnacle
-  mapName: 'Моряк'
+  mapName: "Моряк"
   mapPath: /Maps/_NF/Shuttles/BlackMarket/barnacle.yml
   minPlayers: 0
   stations:
@@ -28,10 +28,9 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Старатель {1}' # Fake name eh?
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Старатель {1}" # Fake name eh?
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

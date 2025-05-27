@@ -1,20 +1,20 @@
 # - type: cargoProduct # Frontier - Cannot be moved off floors
-  # id: CargoPallet
-  # icon:
-    # sprite: Structures/catwalk.rsi
-    # state: catwalk_preview
-  # product: CargoPallet
-  # cost: 250
-  # category: Cargo
-  # group: market
+# id: CargoPallet
+# icon:
+# sprite: Structures/catwalk.rsi
+# state: catwalk_preview
+# product: CargoPallet
+# cost: 250
+# category: Cargo
+# group: market
 
 - type: cargoProduct
   id: CargoOreBox
   icon:
-    sprite:  /Textures/Structures/Storage/orebox.rsi
+    sprite: /Textures/Structures/Storage/orebox.rsi
     state: orebox
   product: NFMagnetBoxOre # Frontier: OreBox<NFMagnetBoxOre
-  cost: 3000 #Eclipse
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-cargo
   group: market
 

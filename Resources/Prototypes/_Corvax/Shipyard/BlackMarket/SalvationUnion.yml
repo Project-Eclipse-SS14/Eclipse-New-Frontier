@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: Союз Спасения
   description: Малый пиратский шаттл. Рекомендованный состав команды 1-2 человека.
-  price: 68250 #Eclipse
+  price: 68250 # Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_Corvax/Shuttles/BlackMarket/SalvationUnion.yml
@@ -33,4 +33,4 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

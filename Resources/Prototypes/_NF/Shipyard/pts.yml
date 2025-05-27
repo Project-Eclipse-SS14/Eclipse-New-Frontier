@@ -13,31 +13,31 @@
   parent: BaseVessel
   name: NC Бомбила
   description: Небольшой транспортный шаттл, вмещающий 4 пассажира. Поставляется с новейшими аудиоразвлекательными технологиями.
-  price: 30625 #Eclipse
+  price: 30625 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/pts.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: PTS
-  mapName: 'NC Бомбила'
+  mapName: "NC Бомбила"
   mapPath: /Maps/_NF/Shuttles/pts.yml
   minPlayers: 0
   stations:
     PTS:
       stationProto: StandardFrontierVessel
       components:
-      - type: StationNameSetup
-        mapNameTemplate: 'Бомбила {1}'
-        nameGenerator: !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          ContractorInterview: [ 0, 0 ]
-          PilotInterview: [ 0, 0 ]
-          MercenaryInterview: [ 0, 0 ]
+        - type: StationNameSetup
+          mapNameTemplate: "Бомбила {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

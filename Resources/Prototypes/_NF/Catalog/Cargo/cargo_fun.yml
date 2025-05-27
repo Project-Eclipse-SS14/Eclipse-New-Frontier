@@ -4,7 +4,7 @@
     sprite: Objects/Tiles/tile.rsi
     state: arcadeblue
   product: CrateFloorsFun
-  cost: 2500 #Eclipse
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-fun
   group: market
 
@@ -14,6 +14,6 @@
     sprite: Clothing/Head/Hats/party_red.rsi
     state: icon
   product: CrateFunPartyNF
-  cost: 5000 #Eclipse
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-fun
   group: market

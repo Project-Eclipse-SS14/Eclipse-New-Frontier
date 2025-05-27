@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NC Фудтрак
   description: Крошечный фургончик, идеально подходит для шеф-повара одиночки.
-  price: 44625 #Eclipse
+  price: 44625 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bocadillo.yml
   guidebookPage: ShipyardBocadillo
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Bocadillo
-  mapName: 'NC Фудтрак'
+  mapName: "NC Фудтрак"
   mapPath: /Maps/_NF/Shuttles/bocadillo.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Фудтрак {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Фудтрак {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

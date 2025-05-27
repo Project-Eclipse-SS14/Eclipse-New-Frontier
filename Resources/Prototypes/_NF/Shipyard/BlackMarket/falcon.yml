@@ -8,19 +8,19 @@
   parent: BaseVesselAntag
   name: Сокол
   description: Перестроенное шахтерское судно, превращенное в пиратский корабль с ангаром для хранения транспортных средств, вмещает 3-4 члена экипажа.
-  price: 122500 #Eclipse
+  price: 122500 # Eclipse
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/falcon.yml
   guidebookPage: Null
   class:
-  - Pirate
+    - Pirate
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Falcon
-  mapName: 'Сокол'
+  mapName: "Сокол"
   mapPath: /Maps/_NF/Shuttles/BlackMarket/falcon.yml
   minPlayers: 0
   stations:
@@ -28,10 +28,9 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Пустельга {1}' # Very fake name
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Пустельга {1}" # Very fake name
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

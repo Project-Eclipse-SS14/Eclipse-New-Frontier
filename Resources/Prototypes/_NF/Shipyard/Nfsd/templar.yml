@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: NSF Тамплиер
   description: Малый десантный корабль, предназначенный для проведения боевых операций по перехвату.
-  price: 42385 #Eclipse
+  price: 42385 # Eclipse
   category: Small
   group: Security
   access: Security
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/templar.yml
   guidebookPage: Null
   class:
-  - Pursuit
+    - Pursuit
   engine:
-  - APU
+    - APU
 
 - type: gameMap
   id: Templar
-  mapName: 'NSF Тамплиер'
+  mapName: "NSF Тамплиер"
   mapPath: /Maps/_NF/Shuttles/Nfsd/templar.yml
   minPlayers: 0
   stations:
@@ -24,9 +24,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Тамплиер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Тамплиер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

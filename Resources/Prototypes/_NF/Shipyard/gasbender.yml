@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: LVHI Газовый Гигант
   description: Газовый Гигант - инженерное судно среднего размера, предназначенное для строительства в глубоком космосе. Имеет атмосферную установку со смесительной/воспламенительной камерой. Предназначен для работы в паре с меньшим утилизаторским судном. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 150150 #Eclipse
+  price: 150150 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/gasbender.yml
   guidebookPage: ShipyardGasbender
   class:
-  - Atmospherics
+    - Atmospherics
   engine:
-  - Bananium
+    - Bananium
 
 - type: gameMap
   id: Gasbender
-  mapName: 'LVHI Газовый Гигант'
+  mapName: "LVHI Газовый Гигант"
   mapPath: /Maps/_NF/Shuttles/gasbender.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Газовый Гигант {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Газовый Гигант {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

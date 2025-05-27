@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NMS Мусорщик
   description: Среднегабаритный шахтерский шаттл. Рекомендованный состав команды 1-5 человек.
-  price: 63800 #Eclipse
+  price: 63800 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Salvage/theScavenger.yml
@@ -37,6 +37,6 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

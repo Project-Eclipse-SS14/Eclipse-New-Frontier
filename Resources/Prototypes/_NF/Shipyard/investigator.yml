@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NR Исследователь
   description: Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований.
-  price: 73765 #Eclipse
+  price: 73765 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/investigator.yml
   guidebookPage: ShipyardInvestigator
   class:
-  - Science
+    - Science
   engine:
-  - Solar
-  - Plasma
+    - Solar
+    - Plasma
 
 - type: gameMap
   id: Investigator
-  mapName: 'NR Исследователь'
+  mapName: "NR Исследователь"
   mapPath: /Maps/_NF/Shuttles/investigator.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Исследователь {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Исследователь {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

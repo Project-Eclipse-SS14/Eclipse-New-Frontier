@@ -3,31 +3,31 @@
   parent: BaseVessel
   name: NT Каркас
   description: Строительная платформа для личного шаттла, имеет доступ к личной верфи, НТ одобряет данный продукт.
-  price: 125000 #Eclipse
+  price: 125000 # Eclipse
   category: Micro
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/construct.yml
   guidebookPage: ShipyardConstruct
   class:
-  - Engineering
+    - Engineering
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Construct
-  mapName: 'NT Каркас'
+  mapName: "NT Каркас"
   mapPath: /Maps/_NF/Shuttles/construct.yml
   minPlayers: 0
   stations:
     Construct:
       stationProto: StandardFrontierVessel
       components:
-      - type: StationNameSetup
-        mapNameTemplate: 'Каркас {1}'
-        nameGenerator: !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          ContractorInterview: [ 0, 0 ]
-          PilotInterview: [ 0, 0 ]
-          MercenaryInterview: [ 0, 0 ]
+        - type: StationNameSetup
+          mapNameTemplate: "Каркас {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

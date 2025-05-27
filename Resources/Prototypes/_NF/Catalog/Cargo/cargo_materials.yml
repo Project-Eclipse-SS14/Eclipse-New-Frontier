@@ -38,26 +38,26 @@
     sprite: Structures/Storage/tanks.rsi
     state: highwatertank-2
   product: WaterTankHighCapacity
-  cost: 5500 #Eclipse
+  cost: 5500 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
 - type: cargoProduct
   id: CargoConstructionBox
   icon:
-    sprite:  /Textures/_NF/Structures/Storage/magnetbox.rsi
+    sprite: /Textures/_NF/Structures/Storage/magnetbox.rsi
     state: constructionbox
   product: NFMagnetBoxConstruction
-  cost: 3000 #Eclipse
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
 - type: cargoProduct
   id: CargoRubbishBox
   icon:
-    sprite:  /Textures/_NF/Structures/Storage/magnetbox.rsi
+    sprite: /Textures/_NF/Structures/Storage/magnetbox.rsi
     state: rubbishbox
   product: NFMagnetBoxRubbish
-  cost: 3000 #Eclipse
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market

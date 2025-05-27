@@ -5,7 +5,7 @@
     sprite: Mobs/Pets/cat.rsi
     state: spacecat
   product: CrateNPCEmotionalSupport
-  cost: 50000 #Eclipse
+  cost: 50000 # Eclipse
   category: cargoproduct-category-name-livestock
   group: market
 
@@ -16,6 +16,6 @@
     sprite: _NF/Objects/Misc/monkeycube.rsi
     state: box_poultry
   product: CrateNPCPoultryCube
-  cost: 15000 #Eclipse
+  cost: 15000 # Eclipse
   category: cargoproduct-category-name-livestock
   group: market

@@ -1,66 +1,66 @@
 #T0
 - type: loadout
   id: ContractorMedicalTrackingImplanter
-  name: имплантер медицинского трекера #Eclipse
+  name: имплантер медицинского трекера # Eclipse
   storage:
     back:
-    - MedicalTrackingImplanter
+      - MedicalTrackingImplanter
 
 #T1
 - type: loadout
   id: ContractorLightImplanter
   name: имплантер фонарика #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 1000
   storage:
     back:
-    - LightImplanter
+      - LightImplanter
 
 - type: loadout
   id: ContractorBikeHornImplanter
   name: имплантер хонк-гудка #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 1000
   storage:
     back:
-    - BikeHornImplanter
+      - BikeHornImplanter
 
 - type: loadout
   id: ContractorSadTromboneImplanter
   name: имплант "Грустный тромбон" #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 1000
   storage:
     back:
-    - SadTromboneImplanter
+      - SadTromboneImplanter
 
 #T2
 - type: loadout
   id: ContractorMimePowersImplanter
-  name: имплантер обета мима #Eclipse
+  name: имплантер обета мима # Eclipse
   description: Для начинающих мимов. Примите обет сегодня.
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 5000
   storage:
     back:
-    - MimePowersImplanter
+      - MimePowersImplanter
 
 - type: loadout
   id: ContractorBibleUserImplanter
-  name: имплантер веры #Eclipse
+  name: имплантер веры # Eclipse
   description: Для начинающих священников. Совершайте чудеса, просвещайте и расширяйте свою паству.
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 5000
   storage:
     back:
-    - BibleUserImplanter
+      - BibleUserImplanter

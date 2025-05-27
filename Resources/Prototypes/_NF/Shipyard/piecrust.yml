@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NC Пирожок
   description: Ранчо для животных и пекарня для выпечки пирогов.
-  price: 61250 #Eclipse
+  price: 61250 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/piecrust.yml
   guidebookPage: Null
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Piecrust
-  mapName: 'NC Пирожок'
+  mapName: "NC Пирожок"
   mapPath: /Maps/_NF/Shuttles/piecrust.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Пирожок {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Пирожок {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

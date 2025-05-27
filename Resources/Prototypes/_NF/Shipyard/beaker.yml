@@ -3,19 +3,19 @@
   parent: BaseVessel
   name: SBI Мензурка
   description: Полностью функциональная химическая лаборатория. Идеально подходит для начинающего химика или школьного учителя химии. Да здравствует наука!
-  price: 113750 #Eclipse
+  price: 113750 # Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/beaker.yml
   guidebookPage: Null
   class:
-  - Chemistry
+    - Chemistry
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Beaker
-  mapName: 'SBI Мензурка'
+  mapName: "SBI Мензурка"
   mapPath: /Maps/_NF/Shuttles/beaker.yml
   minPlayers: 0
   stations:
@@ -23,12 +23,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Мензурка {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Мензурка {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

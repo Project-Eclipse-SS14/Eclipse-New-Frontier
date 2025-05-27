@@ -3,21 +3,21 @@
   parent: BaseVessel
   name: NSF Пастырь
   description: Малогабаритное судно поддержки, используемое для спасения в чрезвычайных ситуациях и оказания первой помощи.
-  price: 20650 #Eclipse
+  price: 20650 # Eclipse
   category: Micro
   group: Custom
   access: Security
-  mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
+  mapchecker_group_override: Security # Treat this as a security vessel for mapchecker purposes
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/cleric.yml
   guidebookPage: Null
   class:
-  - Medical
+    - Medical
   engine:
-  - APU
+    - APU
 
 - type: gameMap
   id: Cleric
-  mapName: 'NSF Пастырь'
+  mapName: "NSF Пастырь"
   mapPath: /Maps/_NF/Shuttles/Nfsd/cleric.yml
   minPlayers: 0
   stations:
@@ -25,9 +25,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Пастырь {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Пастырь {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

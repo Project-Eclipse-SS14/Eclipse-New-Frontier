@@ -13,7 +13,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAstroVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: Engineering
   group: market
 
@@ -24,7 +24,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAmmoFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: Security
   group: market
 
@@ -35,7 +35,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockCuddlyCritterVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-fun
   group: market
 
@@ -46,7 +46,7 @@
     sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockLessLethalVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-security
   group: market
 
@@ -57,7 +57,7 @@
     sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockNonLethalVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-security
   group: market
 
@@ -68,7 +68,7 @@
     sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockAutoTuneVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-fun
   group: market
 
@@ -79,7 +79,7 @@
     sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockPottedPlantVendFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-fun
   group: market
 
@@ -90,6 +90,6 @@
     sprite: _NF/Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockCiviMedFilled
-  cost: 1500 #Eclipse
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-medical
   group: market

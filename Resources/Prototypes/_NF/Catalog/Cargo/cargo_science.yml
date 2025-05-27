@@ -5,6 +5,6 @@
     sprite: Objects/Misc/module.rsi
     state: cpu_science
   product: CrateScienceLabBundle
-  cost: 75000 #Eclipse
+  cost: 75000 # Eclipse
   category: cargoproduct-category-name-science
   group: market

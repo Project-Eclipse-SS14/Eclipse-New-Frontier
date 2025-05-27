@@ -4,7 +4,7 @@
     sprite: Structures/Storage/Crates/surgery.rsi
     state: icon
   product: CrateMedicalSurgery
-  cost: 5000 #Eclipse
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -15,7 +15,7 @@
     sprite: _NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: MetalBarrelWhite
-  cost: 5000 #Eclipse
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -27,7 +27,7 @@
     sprite: _NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelCarbon
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -39,19 +39,19 @@
     sprite: _NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelIodine
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelFluorine
   name: Бочка хим. элементов (фтор)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelFluorine
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -63,31 +63,31 @@
     sprite: _NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelChlorine
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelAluminium
   name: Бочка хим. элементов (алюминий)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelAluminium
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelPhosphorus
   name: Бочка хим. элементов (фосфор)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelPhosphorus
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -99,7 +99,7 @@
     sprite: _NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelSulfur
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -111,7 +111,7 @@
     sprite: _NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelSilicon
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -123,19 +123,19 @@
     sprite: _NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelHydrogen
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelLithium
   name: Бочка хим. элементов (литий)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelLithium
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -147,7 +147,7 @@
     sprite: _NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelSodium
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -159,19 +159,19 @@
     sprite: _NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelPotassium
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelRadium
   name: Бочка хим. элементов (радий)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelRadium
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -183,19 +183,19 @@
     sprite: _NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelIron
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelCopper
   name: Бочка хим. элементов (медь)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelCopper
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -207,19 +207,19 @@
     sprite: _NF/Objects/Storage/Barrels/yellow.rsi
     state: icon
   product: ChemicalBarrelGold
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelMercury
   name: Бочка хим. элементов (ртуть)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/grey.rsi
     state: icon
   product: ChemicalBarrelMercury
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -231,19 +231,19 @@
     sprite: _NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelSilver
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelEthanol
   name: Бочка хим. элементов (этанол)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelEthanol
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -255,19 +255,19 @@
     sprite: _NF/Objects/Storage/Barrels/white.rsi
     state: icon
   product: ChemicalBarrelSugar
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
 - type: cargoProduct
   id: CargoBarrelNitrogen
   name: Бочка хим. элементов (азот)
-#  abstract: true
+  #  abstract: true
   icon:
     sprite: _NF/Objects/Storage/Barrels/red.rsi
     state: icon
   product: ChemicalBarrelNitrogen
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -279,7 +279,7 @@
     sprite: _NF/Objects/Storage/Barrels/blue.rsi
     state: icon
   product: ChemicalBarrelOxygen
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -291,7 +291,7 @@
     sprite: _NF/Objects/Storage/Barrels/black.rsi
     state: icon
   product: ChemicalBarrelOil
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -303,6 +303,6 @@
     sprite: _NF/Objects/Storage/Barrels/green.rsi
     state: icon
   product: ChemicalBarrelDiethylamine
-  cost: 10000 #Eclipse #Eclipse
+  cost: 10000 # Eclipse # Eclipse
   category: cargoproduct-category-name-medical
   group: market

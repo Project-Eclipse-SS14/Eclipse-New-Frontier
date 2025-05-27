@@ -3,21 +3,21 @@
   parent: BaseVessel
   name: NSF Паладин
   description: Небольшой штурмовик, предназначенный для ведения космического боя, оснащенный гранатометом EXP-2100G.
-  price: 59885 #Eclipse
+  price: 59885 # Eclipse
   category: Small
   group: Security
   access: Security
-  mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
+  mapchecker_group_override: Security # Treat this as a security vessel for mapchecker purposes
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/paladin.yml
   guidebookPage: Null
   class:
-  - Fighter
+    - Fighter
   engine:
-  - APU
+    - APU
 
 - type: gameMap
   id: Paladin
-  mapName: 'NSF Паладин'
+  mapName: "NSF Паладин"
   mapPath: /Maps/_NF/Shuttles/Nfsd/paladin.yml
   minPlayers: 0
   stations:
@@ -25,9 +25,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Паладин {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Паладин {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

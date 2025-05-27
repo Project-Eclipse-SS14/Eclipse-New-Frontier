@@ -14,19 +14,19 @@
   parent: BaseVessel
   name: FSB Каладриус
   description: Медицинский носитель производства корпорации Фар Стар Биотеч. Предназначен для поддержки крупномасштабной колонизации, оказания гуманитарной помощи и проведения операций по расследованию и восстановлению после катастроф.
-  price: 350000 #Eclipse
+  price: 350000 # Eclipse
   category: Large
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/caladrius.yml
   guidebookPage: ShipyardCaladrius
   class:
-  - Medical
+    - Medical
   engine:
-  - Bananium
+    - Bananium
 
 - type: gameMap
   id: Caladrius
-  mapName: 'FSB Каладриус'
+  mapName: "FSB Каладриус"
   mapPath: /Maps/_NF/Shuttles/caladrius.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Каладриус {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Каладриус {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

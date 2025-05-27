@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: SV Наггетс
   description: Летающий кусок дерева и металла, замаскированный под кухонный шаттл.
-  price: 27900 #Eclipse
+  price: 27900 # Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/nugget.yml
   guidebookPage: Null
   class:
-  - Scrapyard
-  - Kitchen
+    - Scrapyard
+    - Kitchen
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Nugget
-  mapName: 'SV Наггетс'
+  mapName: "SV Наггетс"
   mapPath: /Maps/_NF/Shuttles/Scrap/nugget.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Наггетс {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Наггетс {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

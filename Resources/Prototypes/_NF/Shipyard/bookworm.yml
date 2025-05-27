@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: BB Буквоед
   description: Уютная библиотека среднего размера для путешественников, желающих отдохнуть с книгой или, возможно, настольной игрой.
-  price: 55125 #Eclipse
+  price: 55125 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bookworm.yml
   guidebookPage: ShipyardBookworm
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Bookworm
-  mapName: 'BB Буквоед'
+  mapName: "BB Буквоед"
   mapPath: /Maps/_NF/Shuttles/bookworm.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Буквоед {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Буквоед {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

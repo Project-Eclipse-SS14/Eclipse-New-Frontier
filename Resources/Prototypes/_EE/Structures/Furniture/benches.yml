@@ -29,7 +29,7 @@
     graph: BenchesGraph # Frontier
     node: BenchParkMiddleNode # Frontier
   - type: StaticPrice # Frontier
-    price: 30 # Frontier: 30
+    price: 62 # Eclipse 30 -> 62
 
 - type: entity
   id: BenchParkLeft
@@ -65,7 +65,7 @@
     graph: BenchesGraph # Frontier
     node: BenchParkBambooMiddleNode # Frontier
   - type: StaticPrice # Frontier
-    price: 30 # Frontier: 30
+    price: 90 # Eclipse 30 -> 90
 
 - type: entity
   id: BenchParkBambooLeft
@@ -101,7 +101,7 @@
     graph: BenchesGraph # Frontier
     node: BenchPewMiddleNode # Frontier
   - type: StaticPrice # Frontier
-    price: 30 # Frontier: 30
+    price: 90 # Eclipse 30 -> 90
 
 - type: entity
   id: BenchPewLeft

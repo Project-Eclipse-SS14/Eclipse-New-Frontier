@@ -13,21 +13,21 @@
   parent: BaseVessel
   name: SLI Цукини
   description: Цукини - это научное/экспедиционное судно со специальной взрывной камерой.
-  price: 262500 #Eclipse
+  price: 262500 # Eclipse
   category: Large
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/gourd.yml
   guidebookPage: ShipyardGourd
   class:
-  - Expedition
-  - Science
-  - Civilian
+    - Expedition
+    - Science
+    - Civilian
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Gourd
-  mapName: 'SLI Цукини'
+  mapName: "SLI Цукини"
   mapPath: /Maps/_NF/Shuttles/Expedition/gourd.yml
   minPlayers: 0
   stations:
@@ -35,12 +35,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Цукини {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Цукини {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

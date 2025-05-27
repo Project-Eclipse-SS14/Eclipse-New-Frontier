@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NC Старатель
   description: Небольшое добывающее судно, предназначенное для оказания помощи в утилизаторских операциях.
-  price: 38500 #Eclipse
+  price: 38500 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/prospector.yml
   guidebookPage: ShipyardProspector
   class:
-  - Salvage
+    - Salvage
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Prospector
-  mapName: 'NC Старатель'
+  mapName: "NC Старатель"
   mapPath: /Maps/_NF/Shuttles/prospector.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Старатель {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Старатель {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

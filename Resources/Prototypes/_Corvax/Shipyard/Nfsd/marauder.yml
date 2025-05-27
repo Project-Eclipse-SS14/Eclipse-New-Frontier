@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NSF Мародёр
   description: Тяжёлый крупногабаритный патрульный шаттл. Рекомендованный состав команды 4-8 человек.
-  price: 140000 #Eclipse
+  price: 140000 # Eclipse
   category: Large
   group: Security
   access: Bailiff

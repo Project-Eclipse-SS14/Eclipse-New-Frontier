@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: NSF Бродяга
   description: Патрульный корабль среднего размера класса Бродяга - это специализированное судно для преследования в глубоком космосе, оснащенное передовым комплексом датчиков.
-  price: 73500 #Eclipse
+  price: 73500 # Eclipse
   category: Medium
   group: Security
   access: Sergeant
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/prowler.yml
   guidebookPage: Null
   class:
-  - Patrol
+    - Patrol
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Prowler
-  mapName: 'NSF Бродяга'
+  mapName: "NSF Бродяга"
   mapPath: /Maps/_NF/Shuttles/Nfsd/prowler.yml
   minPlayers: 0
   stations:
@@ -24,9 +24,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Бродяга {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Бродяга {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

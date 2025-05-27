@@ -4,7 +4,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: air # Frontier grey<air
   product: AirCanister
-  cost: 3500 #Eclipse
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -14,7 +14,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen # Frontier blue<oxygen
   product: OxygenCanister
-  cost: 3500 #Eclipse
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -25,7 +25,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: oxygen_liquid # Frontier blue<oxygen_liquid
   product: LiquidOxygenCanister
-  cost: 3000 #Eclipse
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -35,7 +35,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen # Frontier red<nitrogen
   product: NitrogenCanister
-  cost: 3500 #Eclipse
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -46,7 +46,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: nitrogen_liquid # Frontier red<nitrogen_liquid
   product: LiquidNitrogenCanister
-  cost: 3000 #Eclipse
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -57,7 +57,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon # Frontier black<carbon
   product: CarbonDioxideCanister
-  cost: 4500 #Eclipse
+  cost: 4500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -68,7 +68,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: carbon_liquid # Frontier black<carbon_liquid
   product: LiquidCarbonDioxideCanister
-  cost: 4000 #Eclipse
+  cost: 4000 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -78,7 +78,7 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: storage # Frontier yellow<storage
   product: StorageCanister
-  cost: 2500 #Eclipse
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
 
@@ -99,10 +99,9 @@
     sprite: _NF/Structures/Storage/canister.rsi # Frontier: _NF
     state: plasma # Frontier orange<plasma
   product: PlasmaCanister
-  cost: 5500 #Eclipse
+  cost: 5500 # Eclipse
   category: cargoproduct-category-name-atmospherics
   group: market
-
 #- type: cargoProduct
 #  id: AtmosphericsTritium
 #  icon:

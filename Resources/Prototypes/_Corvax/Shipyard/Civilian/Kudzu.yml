@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: SLI Кудза
   description: Среднегабаритный грузовой шаттл. Рекомендованный состав команды 1-4 человек.
-  price: 154000 #Eclipse
+  price: 154000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Civilian/Kudzu.yml
@@ -38,6 +38,6 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,19 +13,19 @@
   parent: BaseVesselAntag
   name: Сэндвич
   description: Крошечное пластитановое судно, рассчитанное на команду из 2-3 пиратов. Имеет две широкоствольные пушки и заднюю пусковую установку. Работает на плазме.
-  price: 61250 #Eclipse
+  price: 61250 # Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/bocakillo.yml
   guidebookPage: Null
   class:
-  - Pirate
+    - Pirate
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Bocakillo
-  mapName: 'Сэндвич'
+  mapName: "Сэндвич"
   mapPath: /Maps/_NF/Shuttles/BlackMarket/bocakillo.yml
   minPlayers: 0
   stations:
@@ -33,10 +33,9 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Фудтрак {1}' #Sneaky spoofed name
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Фудтрак {1}" #Sneaky spoofed name
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

@@ -7,20 +7,20 @@
   parent: BaseVessel
   name: UAC Канистра
   description: Что бы вы ни взяли с собой, оно не поместится. Места для двоих. Гравитация в комплекте.
-  price: 14000 #Eclipse
+  price: 14000 # Eclipse
   category: Micro
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/canister.yml
   guidebookPage: Null
   class:
-  - Scrapyard
-  - Civilian
+    - Scrapyard
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Canister
-  mapName: 'UAC Канистра'
+  mapName: "UAC Канистра"
   mapPath: /Maps/_NF/Shuttles/Scrap/canister.yml
   minPlayers: 0
   stations:
@@ -28,12 +28,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Канистра {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Канистра {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

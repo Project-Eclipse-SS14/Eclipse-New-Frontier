@@ -3,19 +3,19 @@
   parent: BaseVesselAntag
   name: Шхуна
   description: Небольшой деревянный корабль с 2 центральными грузовыми отсеками.
-  price: 105000 #Eclipse
+  price: 105000 # Eclipse
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/schooner.yml
   guidebookPage: Null
   class:
-  - Pirate
+    - Pirate
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Schooner
-  mapName: 'Шхуна'
+  mapName: "Шхуна"
   mapPath: /Maps/_NF/Shuttles/BlackMarket/schooner.yml
   minPlayers: 0
   stations:
@@ -23,10 +23,9 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Шхуна {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Шхуна {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

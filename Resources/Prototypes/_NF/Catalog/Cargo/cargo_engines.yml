@@ -4,7 +4,7 @@
     sprite: Structures/Power/Generation/portable_generator.rsi
     state: portgen3
   product: PortableGeneratorJrPacmanFlatpack
-  cost: 5000 #Eclipse
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Structures/Power/Generation/portable_generator.rsi
     state: portgen2
   product: PortableGeneratorPacmanFlatpack
-  cost: 7500 #Eclipse
+  cost: 7500 # Eclipse
   category: cargoproduct-category-name-engineering
   group: market
 
@@ -24,6 +24,6 @@
     sprite: Structures/Power/Generation/portable_generator.rsi
     state: portgen1
   product: PortableGeneratorSuperPacmanFlatpack
-  cost: 10000 #Eclipse
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-engineering
   group: market

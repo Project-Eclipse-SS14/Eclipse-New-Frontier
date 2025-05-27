@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: LVHI Метла
   description: Тесный, но надежный шаттл для оказания услуг по уборке помещений.
-  price: 23625 #Eclipse
+  price: 23625 # Eclipse
   category: Micro
   group: Sr
   access: Janitor
   shuttlePath: /Maps/_NF/Shuttles/Sr/broom.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Broom
-  mapName: 'Метла'
+  mapName: "Метла"
   mapPath: /Maps/_NF/Shuttles/Sr/broom.yml
   minPlayers: 0
   stations:
@@ -34,9 +34,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Метла {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Метла {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

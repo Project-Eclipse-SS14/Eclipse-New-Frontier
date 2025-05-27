@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: LVHI Разбойник
   description: Гражданская переделка старого военного легкого фрегата времен ранней экспансии человечества к звездам, еще до появления блюспейс технологий. Произведен компанией Лангстад-Войгт Хэви Индастриз.
-  price: 98350 #Eclipse
+  price: 98350 # Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/brigand.yml
   guidebookPage: ShipyardBrigand
   class:
-  - Expedition
+    - Expedition
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Brigand
-  mapName: 'LVHI Разбойник'
+  mapName: "LVHI Разбойник"
   mapPath: /Maps/_NF/Shuttles/Expedition/brigand.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Разбойник {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Разбойник {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

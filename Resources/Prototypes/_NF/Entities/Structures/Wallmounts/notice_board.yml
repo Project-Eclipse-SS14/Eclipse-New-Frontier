@@ -73,7 +73,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: StaticPrice
-    price: 20
+    price: 60
   - type: Construction
     graph: NoticeBoardNFGraph
     node: NoticeBoardNFNode

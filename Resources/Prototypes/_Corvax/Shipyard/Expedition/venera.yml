@@ -13,17 +13,17 @@
   parent: BaseVessel
   name: NC Венера
   description: Среднегабаритная экспедиционная баржа. Рекомендованный размер команды 6-8 человек.
-  price: 185500 #Eclipse
+  price: 185500 # Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_Corvax/Shuttles/Expedition/venera.yml
   class:
-  - Expedition
-  - Civilian
+    - Expedition
+    - Civilian
 
 - type: gameMap
   id: Venera
-  mapName: 'NC Венера'
+  mapName: "NC Венера"
   mapPath: /Maps/_Corvax/Shuttles/Expedition/venera.yml
   minPlayers: 0
   stations:
@@ -31,12 +31,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Венера {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Венера {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

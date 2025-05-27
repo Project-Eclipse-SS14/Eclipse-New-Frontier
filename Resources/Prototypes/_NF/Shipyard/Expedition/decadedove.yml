@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: DYS Голубь
   description: Универсальный многоцелевой легкий грузовой корабль, пригодный для экспедиций.
-  price: 137375 #Eclipse
+  price: 137375 # Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/decadedove.yml
   guidebookPage: Null
   class:
-  - Expedition
+    - Expedition
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: DecadeDove
-  mapName: 'DYS Голубь'
+  mapName: "DYS Голубь"
   mapPath: /Maps/_NF/Shuttles/Expedition/decadedove.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Голубь {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Голубь {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

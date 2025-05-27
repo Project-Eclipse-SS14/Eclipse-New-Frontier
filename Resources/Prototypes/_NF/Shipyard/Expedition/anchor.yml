@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: KC Якорь
   description: Большой роскошный крейсер, способный совершать дальние путешествия по всему сектору, способный к экспедициям.
-  price: 245000 #Eclipse
+  price: 245000 # Eclipse
   category: Large
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/anchor.yml
   guidebookPage: Null
   class:
-  - Expedition
-  - Civilian
+    - Expedition
+    - Civilian
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Anchor
-  mapName: 'KC Якорь'
+  mapName: "KC Якорь"
   mapPath: /Maps/_NF/Shuttles/Expedition/anchor.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Якорь {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Якорь {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

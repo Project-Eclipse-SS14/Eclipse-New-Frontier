@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: FSB Стазис
   description: Среднее медицинское судно, предоставляющее криогенные и вспомогательные медицинские услуги при травмах, полученных в ходе операций в дальнем космосе. Спроектировано, разработано и развернуто компанией Фар Стар Биотеч для оказания помощи везде, где она необходима.
-  price: 98000 #Eclipse
+  price: 98000 # Eclipse
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/stasis.yml
   guidebookPage: ShipyardStasis
   class:
-  - Medical
+    - Medical
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Stasis
-  mapName: 'FSB Стазис'
+  mapName: "FSB Стазис"
   mapPath: /Maps/_NF/Shuttles/stasis.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Стазис {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Стазис {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: FSB Апотекарий
   description: Небольшое судно медицинской и химической поддержки. Размещено компанией Фар Стар Биотеч для оказания помощи и медицинских услуг на Фронтире.
-  price: 63000 #Eclipse
+  price: 63000 # Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/apothecary.yml
   guidebookPage: ShipyardApothecary
   class:
-  - Medical
-  - Chemistry
+    - Medical
+    - Chemistry
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Apothecary
-  mapName: 'FSB Апотекарий'
+  mapName: "FSB Апотекарий"
   mapPath: /Maps/_NF/Shuttles/apothecary.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Апотекарий {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Апотекарий {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,21 +13,21 @@
   parent: BaseVessel
   name: NC Баржа
   description: Среднее судно, переоборудованное в грузовой утилизаторский шаттл.
-  price: 85750 #Eclipse
+  price: 85750 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/barge.yml
   guidebookPage: ShipyardBarge
   class:
-  - Cargo
-  - Salvage
+    - Cargo
+    - Salvage
   engine:
-  - Solar
-  - Plasma
+    - Solar
+    - Plasma
 
 - type: gameMap
   id: Barge
-  mapName: 'NC Баржа'
+  mapName: "NC Баржа"
   mapPath: /Maps/_NF/Shuttles/barge.yml
   minPlayers: 0
   stations:
@@ -35,12 +35,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Баржа {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Баржа {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

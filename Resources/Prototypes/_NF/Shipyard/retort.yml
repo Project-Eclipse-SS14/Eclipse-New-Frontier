@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: FSB Колба
   description: Среднее инженерное судно, разработанное и развернутое корпорацией Фар Стар Биотеч для обеспечения инфраструктурной поддержки операций в дальнем космосе.
-  price: 106750 #Eclipse
+  price: 106750 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/retort.yml
   guidebookPage: ShipyardRetort
   class:
-  - Atmospherics
+    - Atmospherics
   engine:
-  - Bananium
+    - Bananium
 
 - type: gameMap
   id: Retort
-  mapName: 'FSB Колба'
+  mapName: "FSB Колба"
   mapPath: /Maps/_NF/Shuttles/retort.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Колба {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Колба {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

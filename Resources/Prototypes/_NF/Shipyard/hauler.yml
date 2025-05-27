@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: NC Тягач
   description: Среднеразмерное судно, специализирующееся на дальних утилизаторских, добывающих и грузовых операциях.
-  price: 134750 #Eclipse
+  price: 134750 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hauler.yml
   guidebookPage: ShipyardHauler
   class:
-  - Cargo
-  - Salvage
+    - Cargo
+    - Salvage
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Hauler
-  mapName: 'NC Тягач'
+  mapName: "NC Тягач"
   mapPath: /Maps/_NF/Shuttles/hauler.yml
   minPlayers: 0
   stations:
@@ -24,12 +24,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Тягач {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Тягач {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

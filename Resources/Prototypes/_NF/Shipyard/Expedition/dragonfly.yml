@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: DYS Стрекоза
   description: Высокомодульное утилизаторское судно, сваренное из небольших переработанных корпусов.
-  price: 141750 #Eclipse
+  price: 141750 # Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
   guidebookPage: Null
   class:
-  - Expedition
+    - Expedition
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Dragonfly
-  mapName: 'DYS Стрекоза'
+  mapName: "DYS Стрекоза"
   mapPath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Стрекоза {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Стрекоза {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

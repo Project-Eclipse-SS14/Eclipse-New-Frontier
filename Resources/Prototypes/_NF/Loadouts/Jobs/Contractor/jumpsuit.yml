@@ -224,8 +224,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorDarkBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkBlue
@@ -233,8 +233,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorDarkBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkBlue
@@ -242,8 +242,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorDarkGreen
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkGreen
@@ -251,8 +251,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorDarkGreen
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkGreen
@@ -260,8 +260,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorTeal
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorTeal
@@ -269,8 +269,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorTeal
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorTeal
@@ -278,8 +278,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitHawaiBlack
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiBlack
@@ -287,8 +287,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitHawaiBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiBlue
@@ -296,8 +296,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitHawaiRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiRed
@@ -305,8 +305,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitHawaiYellow
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiYellow
@@ -314,8 +314,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitFlannel
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitFlannel
@@ -323,8 +323,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCasualBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualBlue
@@ -332,8 +332,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCasualBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualBlue
@@ -341,8 +341,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCasualPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualPurple
@@ -350,8 +350,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCasualPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualPurple
@@ -359,8 +359,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCasualRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualRed
@@ -368,8 +368,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCasualRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualRed
@@ -377,8 +377,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitBartenderPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartenderPurple
@@ -386,8 +386,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitEngineeringHazard
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
@@ -395,8 +395,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitAtmosCasual
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmosCasual
@@ -404,8 +404,8 @@
 - type: loadout
   id: ContractorClothingUniformOveralls
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformOveralls
@@ -413,8 +413,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChaplain
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplain
@@ -422,8 +422,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtChaplain
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtChaplain
@@ -431,8 +431,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCurator
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitCurator
@@ -440,8 +440,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCurator
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCurator
@@ -449,8 +449,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLibrarian
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLibrarian
@@ -458,8 +458,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLibrarian
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLibrarian
@@ -467,8 +467,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitReporter
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitReporter
@@ -476,8 +476,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitBH
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitBH
@@ -485,8 +485,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtBH
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtBH
@@ -494,8 +494,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitBHGrey
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitBHGrey
@@ -503,8 +503,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtBHGrey
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtBHGrey
@@ -512,8 +512,8 @@
 - type: loadout
   id: ContractorUniformScrubsColorGreen
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: UniformScrubsColorGreen
@@ -521,8 +521,8 @@
 - type: loadout
   id: ContractorUniformScrubsColorBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: UniformScrubsColorBlue
@@ -530,8 +530,8 @@
 - type: loadout
   id: ContractorUniformScrubsColorPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: UniformScrubsColorPurple
@@ -539,8 +539,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitParamedic
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
@@ -548,8 +548,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtParamedic
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtParamedic
@@ -557,8 +557,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitVirology
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitVirology
@@ -566,8 +566,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtVirology
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtVirology
@@ -575,8 +575,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChemistry
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitChemistry
@@ -584,8 +584,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtChemistry
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtChemistry
@@ -593,8 +593,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitGenetics
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitGenetics
@@ -602,8 +602,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtGenetics
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtGenetics
@@ -611,8 +611,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitPsychologist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitPsychologist
@@ -620,8 +620,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtPsychologist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtPsychologist
@@ -629,8 +629,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitScientistFormal
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitScientistFormal
@@ -638,8 +638,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitRoboticist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitRoboticist
@@ -647,8 +647,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtRoboticist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtRoboticist
@@ -656,8 +656,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLawyerBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlue
@@ -665,8 +665,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLawyerBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlue
@@ -674,8 +674,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLawyerPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerPurple
@@ -683,8 +683,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLawyerPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerPurple
@@ -692,8 +692,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLawyerRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerRed
@@ -701,8 +701,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLawyerRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerRed
@@ -710,8 +710,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLawyerBlack
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack
@@ -719,8 +719,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLawyerBlack
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlack
@@ -728,8 +728,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitLawyerGood
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerGood
@@ -737,168 +737,168 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtLawyerGood
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerGood
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlackElegantDress
-  name: чёрное элегантное платье #Eclipse
+  name: чёрное элегантное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlackElegantDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedElegantDress
-  name: красное элегантное платье #Eclipse
+  name: красное элегантное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedElegantDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenElegantDress
-  name: зелёное элегантное платье #Eclipse
+  name: зелёное элегантное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenElegantDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlueElegantDress
-  name: синее элегантное платье #Eclipse
+  name: синее элегантное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueElegantDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPurpleElegantDress
-  name: фиолетовое элегантное платье #Eclipse
+  name: фиолетовое элегантное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtPurpleElegantDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtCyanStripedDress
-  name: голубое платье в полоску #Eclipse
+  name: голубое платье в полоску # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCyanStripedDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedStripedDress
-  name: красное платье в полоску #Eclipse
+  name: красное платье в полоску # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedStripedDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenStripedDress
-  name: зелёное платье в полоску #Eclipse
+  name: зелёное платье в полоску # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenStripedDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPinkStripedDress
-  name: розовое платье в полоску #Eclipse
+  name: розовое платье в полоску # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtPinkStripedDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtOrangeStripedDress
-  name: оранжевое платье в полоску #Eclipse
+  name: оранжевое платье в полоску # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtOrangeStripedDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPurpleTurtleneckDress
-  name: фиолетовое платье с водолазкой #Eclipse
+  name: фиолетовое платье с водолазкой # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtPurpleTurtleneckDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedTurtleneckDress
-  name: красное платье с водолазкой #Eclipse
+  name: красное платье с водолазкой # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedTurtleneckDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenTurtleneckDress
-  name: зелёное платье с водолазкой #Eclipse
+  name: зелёное платье с водолазкой # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenTurtleneckDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlueTurtleneckDress
-  name: синее платье с водолазкой #Eclipse
+  name: синее платье с водолазкой # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueTurtleneckDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtYellowTurtleneckDress
-  name: жёлтое платье с водолазкой #Eclipse
+  name: жёлтое платье с водолазкой # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtYellowTurtleneckDress
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtYellowOldDress
-  name: желтое старинное платье #Eclipse
+  name: желтое старинное платье # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformJumpskirtYellowOldDress
@@ -908,8 +908,8 @@
   id: ContractorClothingUniformRandomPunkCroptop
   name: панк-комбинезон с коротким топом (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkCroptop
@@ -918,8 +918,8 @@
   id: ContractorClothingUniformRandomPunkTanktop
   name: панковский комбинезон (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkTanktop
@@ -928,18 +928,18 @@
   id: ContractorClothingUniformRandomArmlessNoSkirt
   name: панковская безрукавка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomArmlessNoSkirt
 
 - type: loadout
   id: ContractorClothingUniformRandomPunkCroptopShorts
-  name: панковский укороченный топ с шортами (случайно) #Eclipse
+  name: панковский укороченный топ с шортами (случайно) # Eclipse
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkCroptopShorts
@@ -948,8 +948,8 @@
   id: ContractorClothingUniformRandomPunkTanktopShorts
   name: панковская майка с шортами (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkTanktopShorts
@@ -958,8 +958,8 @@
   id: ContractorClothingUniformRandomPunkPantsOnly
   name: punk pants (random)
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkPantsOnly
@@ -968,8 +968,8 @@
   id: ContractorClothingUniformRandomPunkShortsOnly
   name: punk shorts (random)
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomPunkShortsOnly
@@ -978,8 +978,8 @@
   id: ContractorClothingUniformRandomArmless
   name: цветная безрукавка с брюками (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomArmless
@@ -988,8 +988,8 @@
   id: ContractorClothingUniformRandomStandard
   name: яркий костюм (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomStandard
@@ -998,8 +998,8 @@
   id: ContractorClothingUniformRandomShorts
   name: яркие штаны (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomShorts
@@ -1008,8 +1008,8 @@
   id: ContractorClothingUniformRandomShirt
   name: цветной узорчатый топ и брюки (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomShirt
@@ -1018,8 +1018,8 @@
   id: ContractorClothingSkirtUniformRandomArmless
   name: цветной топ без рукавов и юбка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomArmless
@@ -1028,8 +1028,8 @@
   id: ContractorClothingSkirtUniformRandomStandard
   name: цветной топ и юбка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomStandard
@@ -1038,8 +1038,8 @@
   id: ContractorClothingSkirtUniformRandomBra
   name: цветной бюстгальтер и юбка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomBra
@@ -1048,8 +1048,8 @@
   id: ContractorClothingSkirtUniformRandomShorts
   name: цветная юбка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomShorts
@@ -1058,8 +1058,8 @@
   id: ContractorClothingSkirtUniformRandomShirt
   name: цветной узорчатый топ и юбка (случайно) #Corvax-Frontier
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT1
+    - !type:GroupLoadoutEffect
+      proto: ContractorT1
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomShirt
@@ -1068,8 +1068,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMonasticRobeDark
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitMonasticRobeDark
@@ -1077,8 +1077,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMonasticRobeLight
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitMonasticRobeLight
@@ -1086,8 +1086,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChaplainPilgrimVest
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplainPilgrimVest
@@ -1095,8 +1095,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitQMTurtleneck
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitQMTurtleneck
@@ -1104,8 +1104,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtQMTurtleneck
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtQMTurtleneck
@@ -1113,8 +1113,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitSeniorPhysician
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorPhysician
@@ -1122,8 +1122,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtSeniorPhysician
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorPhysician
@@ -1131,8 +1131,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCMO
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMO
@@ -1140,8 +1140,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCMO
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMO
@@ -1149,8 +1149,8 @@
 - type: loadout
   id: ContractorClothingUniformTurtleneckCMO
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMOTurtle
@@ -1158,8 +1158,8 @@
 - type: loadout
   id: ContractorClothingUniformTurtleskirtCMO
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMOTurtle
@@ -1167,8 +1167,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitSeniorResearcher
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher
@@ -1176,8 +1176,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtSeniorResearcher
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
@@ -1185,8 +1185,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitResearchDirector
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitResearchDirector
@@ -1194,8 +1194,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtResearchDirector
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtResearchDirector
@@ -1203,8 +1203,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitSeniorEngineer
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
@@ -1212,8 +1212,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtSeniorEngineer
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorEngineer
@@ -1221,8 +1221,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChiefEngineerNT
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerNT
@@ -1230,8 +1230,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChiefEngineer
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
@@ -1239,8 +1239,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtChiefEngineer
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineer
@@ -1248,8 +1248,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitChiefEngineerTurtle
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
@@ -1257,8 +1257,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtChiefEngineerTurtle
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
@@ -1266,8 +1266,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitJester
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitJester
@@ -1275,8 +1275,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitJesterAlt
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitJesterAlt
@@ -1284,8 +1284,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitKilt
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitKilt
@@ -1293,8 +1293,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitDameDane
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitDameDane
@@ -1302,8 +1302,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitKimono
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitKimono
@@ -1311,8 +1311,8 @@
 - type: loadout
   id: ContractorClothingKimonoPink
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingKimonoPink
@@ -1320,8 +1320,8 @@
 - type: loadout
   id: ContractorClothingKimonoBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingKimonoBlue
@@ -1329,8 +1329,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitGladiator
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitGladiator
@@ -1338,8 +1338,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtPerformer
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtPerformer
@@ -1347,8 +1347,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtJanimaid
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanimaid
@@ -1356,8 +1356,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitSafari
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitSafari
@@ -1365,8 +1365,8 @@
 - type: loadout
   id: ContractorUniformShortsRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: UniformShortsRed
@@ -1374,8 +1374,8 @@
 - type: loadout
   id: ContractorUniformShortsRedWithTop
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: UniformShortsRedWithTop
@@ -1383,8 +1383,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitClown
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitClown
@@ -1392,8 +1392,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMime
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitMime
@@ -1401,8 +1401,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtMime
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtMime
@@ -1410,8 +1410,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitTshirtJeans
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeans
@@ -1419,8 +1419,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitTshirtJeansGray
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeansGray
@@ -1428,8 +1428,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitTshirtJeansPeach
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeansPeach
@@ -1437,8 +1437,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCaptain
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitCaptain
@@ -1446,8 +1446,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCaptain
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
+    - !type:GroupLoadoutEffect
+      proto: ContractorT2
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpskirtCaptain
@@ -1456,8 +1456,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitCapFormal
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1500
   equipment:
     jumpsuit: ClothingUniformJumpsuitCapFormal
@@ -1465,8 +1465,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpskirtCapFormalDress
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1500
   equipment:
     jumpsuit: ClothingUniformJumpskirtCapFormalDress
@@ -1475,8 +1475,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryContractor
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 675
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractor
@@ -1484,8 +1484,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryContractorTac
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 675
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractorTac
@@ -1493,8 +1493,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryCaptain
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCaptain
@@ -1502,8 +1502,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryAtmospherics
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryAtmospherics
@@ -1511,8 +1511,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryEngineering
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineering
@@ -1520,8 +1520,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryEngineeringChief
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineeringChief
@@ -1529,8 +1529,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitarySalvageSpecialist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist
@@ -1538,8 +1538,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryCargo
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCargo
@@ -1547,8 +1547,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryQM
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryQM
@@ -1556,8 +1556,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryParamedic
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryParamedic
@@ -1565,8 +1565,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryMedicalDoctor
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
@@ -1574,8 +1574,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryChemistry
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryChemistry
@@ -1583,8 +1583,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryVirology
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryVirology
@@ -1592,8 +1592,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryGenetics
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryGenetics
@@ -1601,8 +1601,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryCMO
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCMO
@@ -1610,8 +1610,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryScientist
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryScientist
@@ -1619,8 +1619,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryResearchDirector
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryResearchDirector
@@ -1628,8 +1628,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryService
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryService
@@ -1637,8 +1637,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryHydroponics
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryHydroponics
@@ -1646,8 +1646,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorGrey
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGrey
@@ -1655,8 +1655,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorBlack
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlack
@@ -1664,8 +1664,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlue
@@ -1673,8 +1673,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorDarkBlue
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkBlue
@@ -1682,8 +1682,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorTeal
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorTeal
@@ -1691,8 +1691,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorGreen
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGreen
@@ -1700,8 +1700,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorDarkGreen
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkGreen
@@ -1709,8 +1709,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorOrange
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorOrange
@@ -1718,8 +1718,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorPink
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPink
@@ -1727,8 +1727,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorRed
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorRed
@@ -1736,8 +1736,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorYellow
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow
@@ -1745,8 +1745,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorPurple
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPurple
@@ -1754,8 +1754,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorLightBrown
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorLightBrown
@@ -1763,8 +1763,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorBrown
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBrown
@@ -1772,8 +1772,8 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitMilitaryColorMaroon
   effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
+    - !type:GroupLoadoutEffect
+      proto: ContractorT3
   price: 1250
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorMaroon

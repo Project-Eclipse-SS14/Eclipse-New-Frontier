@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: KL Балкер
   description: Среднее шахтерское судно, предназначенное для полетов в дальний космос.
-  price: 83125 #Eclipse
+  price: 83125 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bulker.yml
   guidebookPage: ShipyardBulker
   class:
-  - Salvage
+    - Salvage
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Bulker
-  mapName: 'KL Балкер'
+  mapName: "KL Балкер"
   mapPath: /Maps/_NF/Shuttles/bulker.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Балкер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Балкер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

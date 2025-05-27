@@ -372,7 +372,7 @@
     containers:
     - entity_storage
   - type: StaticPrice
-    price: 125
+    price: 150
 
 - type: entity
   parent: CrateGeneric
@@ -703,6 +703,8 @@
     node: cratecoffin
     containers:
     - entity_storage
+  - type: StaticPrice
+    price: 150 # Eclipse
 
 - type: entity
   parent: CrateGeneric
@@ -751,6 +753,8 @@
       path: /Audio/Items/shovel_dig.ogg
     openSound:
       path: /Audio/Items/shovel_dig.ogg
+  - type: StaticPrice # Eclipse
+    price: 120
 
 - type: entity
   parent: CrateWoodenGrave
@@ -772,6 +776,8 @@
   - type: Icon
     sprite: Structures/Storage/Crates/stone_grave.rsi
     state: base
+  - type: StaticPrice
+    price: 120 # Eclipse
 
 - type: entity
   parent: [ BaseC3SyndicateContraband, CrateGenericSteel ] # Frontier: Added BaseC3SyndicateContraband

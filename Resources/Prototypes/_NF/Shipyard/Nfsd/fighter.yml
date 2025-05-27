@@ -3,21 +3,21 @@
   parent: BaseVessel
   name: NSF Истребитель
   description: Малогабаритное судно, используемое для высадки и транспортировки заключенных.
-  price: 15750 #Eclipse
+  price: 15750 # Eclipse
   category: Micro
   group: Custom
   access: Security
-  mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
+  mapchecker_group_override: Security # Treat this as a security vessel for mapchecker purposes
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/fighter.yml
   guidebookPage: Null
   class:
-  - Fighter
+    - Fighter
   engine:
-  - APU
+    - APU
 
 - type: gameMap
   id: Fighter
-  mapName: 'NSF Истребитель'
+  mapName: "NSF Истребитель"
   mapPath: /Maps/_NF/Shuttles/Nfsd/fighter.yml
   minPlayers: 0
   stations:
@@ -25,9 +25,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Истребитель {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Истребитель {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

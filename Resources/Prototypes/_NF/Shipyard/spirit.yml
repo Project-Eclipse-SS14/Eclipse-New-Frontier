@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: FSB Дух
   description: FSB Дух - поисково-спасательный шаттл для опытных медиков и парамедиков.
-  price: 26250 #Eclipse
+  price: 26250 # Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/spirit.yml
   guidebookPage: ShipyardSpirit
   class:
-  - Medical
+    - Medical
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Spirit
-  mapName: 'FSB Дух'
+  mapName: "FSB Дух"
   mapPath: /Maps/_NF/Shuttles/spirit.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Дух {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Дух {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]
