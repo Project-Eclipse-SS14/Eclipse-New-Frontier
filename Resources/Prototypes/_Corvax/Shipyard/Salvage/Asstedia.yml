@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NMS Асцедия
   description: Малогабаритный шахтерский шаттл. Рекомендованный состав команды 1-3 человек.
-  price: 30000
+  price: 52500 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Salvage/Asstedia.yml
@@ -37,6 +37,6 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

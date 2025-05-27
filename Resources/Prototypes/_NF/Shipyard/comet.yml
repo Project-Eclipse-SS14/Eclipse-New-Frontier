@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NT Комета
   description: Шахтерское и строительное судно, предназначенное для быстрого строительства или ремонта.
-  price: 55000
+  price: 96250 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/comet.yml
   guidebookPage: ShipyardComet
   class:
-  - Salvage
-  - Engineering
+    - Salvage
+    - Engineering
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Comet
-  mapName: 'NT Комета'
+  mapName: "NT Комета"
   mapPath: /Maps/_NF/Shuttles/comet.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Комета {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Комета {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

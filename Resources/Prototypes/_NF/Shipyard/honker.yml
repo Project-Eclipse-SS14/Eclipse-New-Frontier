@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NT Хонкер
   description: Хонкоматерь гордится вами! Хонк-Хонк!
-  price: 22500
+  price: 39375 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/honker.yml
   guidebookPage: ShipyardHonker
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Honker
-  mapName: 'NT Хонкер'
+  mapName: "NT Хонкер"
   mapPath: /Maps/_NF/Shuttles/honker.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Хонкер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Хонкер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

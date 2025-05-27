@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: SLI Барахолка
   description: Барахолка - это судно для личного обслуживания, предназначенное для продажи товаров торговцами. На нем есть два закрывающихся грузовых дока, просторный грузовой отсек и пост наёмников для охраны магазина.
-  price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
+  price: 140000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bazaar.yml
   guidebookPage: ShipyardBazaar
   class:
-  - Cargo
-  - Civilian
+    - Cargo
+    - Civilian
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Bazaar
-  mapName: 'SLI Барахолка'
+  mapName: "SLI Барахолка"
   mapPath: /Maps/_NF/Shuttles/bazaar.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Барахолка {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Барахолка {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

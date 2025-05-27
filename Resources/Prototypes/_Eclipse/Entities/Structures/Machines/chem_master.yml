@@ -4,20 +4,26 @@
   name: ChemMaster 5000
   description: An industrial grade chemical manipulator with pill and bottle production included. Now with blender built-in!
   components:
-  - type: ChemMasterBotany
-    pillDosageLimit: 20
   - type: Sprite
     sprite: _Eclipse/Structures/Machines/mixer_botany.rsi
     snapCardinals: true
     layers:
     - state: mixer_empty
-      map: ["BeakerInserted"] # Frontier
     - state: mixer_screens
       shader: unshaded
       map: ["enum.PowerDeviceVisualLayers.Powered"]
   - type: Icon
     sprite: _Eclipse/Structures/Machines/mixer_botany.rsi
-    state: mixer_loaded
+    state: mixer_empty
+  - type: ItemMapper
+    containerWhitelist: [beakerSlot]
+    mapLayers:
+      mixer_loaded:
+        whitelist:
+          components:
+          - FitsInDispenser
+  - type: ChemMasterBotany
+    pillDosageLimit: 20
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -60,10 +66,7 @@
         enum.PowerDeviceVisualLayers.Powered:
           True: { visible: true }
           False: { visible: false }
-      enum.ChemMasterVisualState.BeakerInserted: # Frontier
-        BeakerInserted: # Frontier
-          True: {state: "mixer_loaded"} # Frontier
-          False: {state: "mixer_empty"} # Frontier
+  # Machine / Construction stuff
   - type: WiresPanel
   - type: Machine
     board: ChemMasterBotanyMachineCircuitboard

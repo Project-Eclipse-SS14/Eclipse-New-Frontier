@@ -10,19 +10,19 @@
   parent: BaseVessel
   name: DC Каргония
   description: Ваша собственная франшиза Каргонии! Поставляется полностью укомплектованным и готовым к производству закусок.
-  price: 65000
+  price: 113750 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/mccargo.yml
   guidebookPage: ShipyardMcCargo
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: McCargo
-  mapName: 'DC Каргония'
+  mapName: "DC Каргония"
   mapPath: /Maps/_NF/Shuttles/mccargo.yml
   minPlayers: 0
   stations:
@@ -30,12 +30,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Каргония {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Каргония {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -489,7 +489,7 @@
       Steel: 100
       Wood: 50
   - type: StaticPrice
-    price: 12.5 # Frontier 25<12.5
+    price: 16.5 # Eclipse 12.5 -> 16.5
   # Delta V: Adds tool quality for digging
   - type: Tool
     qualities:

@@ -16,7 +16,7 @@
     sprite: Objects/Materials/Sheets/metal.rsi
     state: steel_3
   product: CrateMaterialSteel
-  cost: 3000 # Frontier: 1500<3000
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -33,7 +33,7 @@
 
 - type: cargoProduct
   id: Material
-#  abstract: true # Frontier
+  #  abstract: true # Frontier
   icon:
     sprite: Objects/Materials/Sheets/metal.rsi
     state: brass_3
@@ -49,7 +49,7 @@
     sprite: Objects/Materials/Sheets/metal.rsi
     state: plasteel_3
   product: CrateMaterialPlasteel
-  cost: 1600
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -60,7 +60,7 @@
     sprite: Objects/Materials/materials.rsi
     state: cloth_3
   product: CrateMaterialTextiles
-  cost: 2000 # Frontier: 1500<2000
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -71,7 +71,7 @@
     sprite: Objects/Materials/Sheets/other.rsi
     state: plasma_3
   product: CrateMaterialPlasma
-  cost: 1500
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -82,7 +82,7 @@
     sprite: Objects/Materials/materials.rsi
     state: cardboard_3
   product: CrateMaterialCardboard
-  cost: 750
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -92,7 +92,7 @@
     sprite: Objects/Materials/Sheets/other.rsi
     state: paper_3
   product: CrateMaterialPaper
-  cost: 1000
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -103,7 +103,7 @@
     sprite: Objects/Materials/Sheets/other.rsi
     state: generic_materials
   product: CrateMaterialBasicResource
-  cost: 1660
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -114,7 +114,7 @@
     sprite: Structures/Machines/silo.rsi
     state: silo
   product: CrateMaterialSilo
-  cost: 5000
+  cost: 10000 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -125,7 +125,7 @@
     sprite: Structures/Storage/tanks.rsi
     state: fueltank
   product: WeldingFuelTankFull
-  cost: 1500
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-materials
   group: market
 
@@ -136,6 +136,6 @@
     sprite: Structures/Storage/tanks.rsi
     state: watertank
   product: WaterTankFull
-  cost: 1000
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-materials
   group: market

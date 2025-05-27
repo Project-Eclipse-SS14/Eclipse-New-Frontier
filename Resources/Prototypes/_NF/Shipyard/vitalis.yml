@@ -3,19 +3,19 @@
   id: Vitalis
   name: CTC Виталис
   description: Среднее судно медицинской поддержки для медицинского персонала, предназначенное для криогенного развертывания.
-  price: 75000 #Appraisal is 53480
+  price: 131250 # Eclipse
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/vitalis.yml
   guidebookPage: ShipyardVitalis
   class:
-  - Medical
+    - Medical
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Vitalis
-  mapName: 'CTC Виталис'
+  mapName: "CTC Виталис"
   mapPath: /Maps/_NF/Shuttles/vitalis.yml
   minPlayers: 0
   stations:
@@ -23,13 +23,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Виталис {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Виталис {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
-
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

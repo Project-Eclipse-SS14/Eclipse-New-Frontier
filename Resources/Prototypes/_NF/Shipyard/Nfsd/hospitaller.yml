@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: NSF Лазарет
   description: Небольшое медицинское судно, предназначенное для ликвидации последствий чрезвычайных ситуаций и проведения поисково-спасательных операций.
-  price: 28220
+  price: 49385 # Eclipse
   category: Small
   group: Security
   access: Security
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/hospitaller.yml
   guidebookPage: Null
   class:
-  - Medical
+    - Medical
   engine:
-  - APU
+    - APU
 
 - type: gameMap
   id: Hospitaller
-  mapName: 'NSF Лазарет'
+  mapName: "NSF Лазарет"
   mapPath: /Maps/_NF/Shuttles/Nfsd/hospitaller.yml
   minPlayers: 0
   stations:
@@ -24,9 +24,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Лазарет {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Лазарет {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

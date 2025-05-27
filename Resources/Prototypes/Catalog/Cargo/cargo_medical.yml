@@ -15,7 +15,7 @@
     sprite: Objects/Specific/Chemistry/beaker.rsi
     state: beaker
   product: CrateChemistrySupplies
-  cost: 750
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -25,7 +25,7 @@
     sprite: Objects/Specific/Chemistry/vial.rsi
     state: vial
   product: CrateChemistryVials
-  cost: 1000
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -36,7 +36,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: burnkit
   product: CrateEmergencyBurnKit
-  cost: 700
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -47,7 +47,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: toxinkit
   product: CrateEmergencyToxinKit
-  cost: 600
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -58,7 +58,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: o2kit
   product: CrateEmergencyO2Kit
-  cost: 600
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -69,7 +69,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: brutekit
   product: CrateEmergencyBruteKit
-  cost: 600
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -80,7 +80,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: advkit
   product: CrateEmergencyAdvancedKit
-  cost: 1200
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -91,7 +91,7 @@
     sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi # Frontier: _NF prefix
     state: radkit
   product: CrateEmergencyRadiationKit
-  cost: 600
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -135,7 +135,7 @@
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon
   product: CrateChemistryP
-  cost: 850
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -146,7 +146,7 @@
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon
   product: CrateChemistryS
-  cost: 750
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market
 
@@ -157,6 +157,6 @@
     sprite: Structures/Storage/Crates/chemcrate_secure.rsi
     state: icon
   product: CrateChemistryD
-  cost: 750
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-medical
   group: market

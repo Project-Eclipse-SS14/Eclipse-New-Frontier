@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: SV Волна
   description: Дешевый серийный шаттл, сделанный из утилизаторских обломков. Для опытного помощника.
-  price: 9700
+  price: 16975 # Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/tide.yml
   guidebookPage: ShipyardTide
   class:
-  - Scrapyard
-  - Civilian
+    - Scrapyard
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Tide
-  mapName: 'SV Волна'
+  mapName: "SV Волна"
   mapPath: /Maps/_NF/Shuttles/Scrap/tide.yml
   minPlayers: 0
   stations:
@@ -24,12 +24,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Волна {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Волна {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

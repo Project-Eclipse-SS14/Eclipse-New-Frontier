@@ -12,21 +12,21 @@
   id: Chisel
   parent: BaseVessel
   name: ICR Зубило
-  description: Стандартное маломерное многоцелевое судно, первоначально предназначенное для утилизации обломков.
-  price: 34615 # on init 30100$, 15% markup 4515$
+  description: Стандартное маломерное судно, изначально предназначенное для утилизации обломков, теперь модифицированное для использования в качестве многоцелевого спасательного/добывающего/грузового судна.
+  price: 61250 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/chisel.yml
   guidebookPage: ShipyardChisel
   class:
-  - Salvage
-  - Cargo #???
+    - Salvage
+    - Cargo #??? Smug
   engine:
-  - Plasma
+    - Uranium
 
 - type: gameMap
   id: Chisel
-  mapName: 'ICR Зубило'
+  mapName: "ICR Зубило"
   mapPath: /Maps/_NF/Shuttles/chisel.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Зубило {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Зубило {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

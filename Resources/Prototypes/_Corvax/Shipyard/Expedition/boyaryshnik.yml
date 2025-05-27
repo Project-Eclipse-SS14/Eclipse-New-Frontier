@@ -15,14 +15,14 @@
   parent: BaseVessel
   name: NLE Боярышник
   description: Среднегабаритный экспедиционный шаттл. Рекомендуемый состав команды 2-5 человек.
-  price: 61000 # 50% tax
+  price: 99750 # Eclipse
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_Corvax/Shuttles/Expedition/boyaryshnik.yml
 
 - type: gameMap
   id: boyaryshnik
-  mapName: 'NLE Боярышник'
+  mapName: "NLE Боярышник"
   mapPath: /Maps/_Corvax/Shuttles/Expedition/boyaryshnik.yml
   minPlayers: 0
   stations:
@@ -30,12 +30,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Боярышник {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Боярышник {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

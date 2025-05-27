@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Буксир
   description: Среднегабаритный грузовой шаттл. Рекомендованный размер команды 2-4 человека.
-  price: 51000
+  price: 89250 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Service/Buksir.yml
@@ -35,6 +35,6 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

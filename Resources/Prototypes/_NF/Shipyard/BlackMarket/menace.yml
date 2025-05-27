@@ -13,19 +13,19 @@
   parent: BaseVesselAntag
   name: Предъява
   description: Почта больше не является выбором - вы либо получаете ее, либо умираете.
-  price: 21000
+  price: 36750 # Eclipse
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NF/Shuttles/BlackMarket/menace.yml
   guidebookPage: Null
   class:
-  - Pirate
+    - Pirate
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Menace
-  mapName: 'Предъява'
+  mapName: "Предъява"
   mapPath: /Maps/_NF/Shuttles/BlackMarket/menace.yml
   minPlayers: 0
   stations:
@@ -33,10 +33,9 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Парцелла {1}' # Fake name eh?
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Парцелла {1}" # Fake name eh?
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

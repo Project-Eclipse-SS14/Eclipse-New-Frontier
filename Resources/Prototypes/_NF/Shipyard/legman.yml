@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: LVHI Интервьюер
   description: Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте событий. Произведено компанией Лангстад-Войгт Хэви Индастриз.
-  price: 12600 # ~11952$ on mapinit + ~5% (600$) markup
+  price: 21875 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/legman.yml
   guidebookPage: ShipyardLegman
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Legman
-  mapName: 'LVHI Интервьюер'
+  mapName: "LVHI Интервьюер"
   mapPath: /Maps/_NF/Shuttles/legman.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Интервьюер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Интервьюер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

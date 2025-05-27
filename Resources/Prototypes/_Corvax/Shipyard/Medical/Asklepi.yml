@@ -15,16 +15,16 @@
   parent: BaseVessel
   name: NMS Асклеп
   description: Среднегабаритный медицинский шаттл. Рекомендованный состав команды 2-5 человек.
-  price: 52000
+  price: 91000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Corvax/Shuttles/Medical/Asklepi.yml
   class:
-  - Medical
+    - Medical
 
 - type: gameMap
   id: Asklepi
-  mapName: 'NMS Асклеп'
+  mapName: "NMS Асклеп"
   mapPath: /Maps/_Corvax/Shuttles/Medical/Asklepi.yml
   minPlayers: 0
   stations:
@@ -32,12 +32,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Асклеп {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Асклеп {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

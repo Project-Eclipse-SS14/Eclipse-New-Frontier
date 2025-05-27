@@ -4,7 +4,7 @@
     sprite: _NF/Structures/Storage/Crates/tradedark.rsi
     state: icon
   product: CrateTradeSecureNormal
-  cost: 1000
+  cost: 1750 # Eclipse
   category: cargoproduct-category-name-cargo
   group: market
 
@@ -14,7 +14,7 @@
     sprite: _NF/Structures/Storage/Crates/tradelight.rsi
     state: icon
   product: CrateTradeSecureHigh
-  cost: 2000
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-cargo
   group: market
 
@@ -24,15 +24,15 @@
   name: Emu PLU
   categories: [HideSpawnMenu]
   components:
-  - type: Sprite
-    sprite: _NF/Objects/Specific/Mech/mecha.rsi
-    state: emu
-  - type: EntityTableSpawner
-    offset: 0
-    table: !type:AllSelector
-      children:
-      - id: MechEmuCargo
-      - id: PowerForkCertification
+    - type: Sprite
+      sprite: _NF/Objects/Specific/Mech/mecha.rsi
+      state: emu
+    - type: EntityTableSpawner
+      offset: 0
+      table: !type:AllSelector
+        children:
+          - id: MechEmuCargo
+          - id: PowerForkCertification
 
 - type: cargoProduct
   id: MechEmu
@@ -40,7 +40,7 @@
     sprite: _NF/Objects/Specific/Mech/mecha.rsi
     state: emu
   product: MechEmuCargoListing
-  cost: 10000
+  cost: 35000 # Eclipse
   category: cargoproduct-category-name-cargo
   description: An old mech with an integral forklift, useful for moving trade crates.
   group: market

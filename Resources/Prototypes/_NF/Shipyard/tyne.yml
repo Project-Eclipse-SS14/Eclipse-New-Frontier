@@ -13,18 +13,18 @@
   parent: BaseVessel
   name: BB Тайна
   description: Небольшая маневренная спасательная шлюпка с наружной палубой и каютой для выживших, предназначенная для поисково-спасательных операций.
-  price: 23000 #~5% markup as it's a med ship. Appraises at ~22474.
+  price: 40250 # Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/tyne.yml
   class:
-  - Medical
+    - Medical
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Tyne
-  mapName: 'BB Тайна'
+  mapName: "BB Тайна"
   mapPath: /Maps/_NF/Shuttles/tyne.yml
   minPlayers: 0
   stations:
@@ -32,12 +32,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Тайна {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Тайна {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

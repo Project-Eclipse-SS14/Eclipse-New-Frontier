@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NC Такелажник
   description: Компактный грузовой корабль, предназначенный для перевозки грузов.
-  price: 22000
+  price: 38500 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/loader.yml
   guidebookPage: ShipyardLoader
   class:
-  - Cargo
+    - Cargo
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Loader
-  mapName: 'NC Такелажник'
+  mapName: "NC Такелажник"
   mapPath: /Maps/_NF/Shuttles/loader.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Такелажник {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Такелажник {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

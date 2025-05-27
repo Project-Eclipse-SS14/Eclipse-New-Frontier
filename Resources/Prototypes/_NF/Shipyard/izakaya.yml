@@ -9,19 +9,19 @@
   parent: BaseVessel
   name: SSS Идзакая
   description: Среднего размера ресторан/паб в японском стиле с большой обеденной зоной и такой же большой кухней.
-  price: 82000 # ~68000 appraisal price, ~20% markup
+  price: 126000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/izakaya.yml
   guidebookPage: ShipyardIzakaya
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Izakaya
-  mapName: 'SSS Идзакая'
+  mapName: "SSS Идзакая"
   mapPath: /Maps/_NF/Shuttles/izakaya.yml
   minPlayers: 0
   stations:
@@ -29,12 +29,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Идзакая {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Идзакая {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: BB Наковальня
   description: Мобильная инженерная платформа для ремонта, модернизации и переоборудования в глубоком космосе.
-  price: 44000 # Appraises at 38257, ~15% markup
+  price: 77000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/hammer.yml
   guidebookPage: ShipyardHammer
   class:
-  - Engineering
+    - Engineering
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Hammer
-  mapName: 'BB Наковальня'
+  mapName: "BB Наковальня"
   mapPath: /Maps/_NF/Shuttles/hammer.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Наковальня {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Наковальня {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

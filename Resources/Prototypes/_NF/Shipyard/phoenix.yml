@@ -7,38 +7,38 @@
 # Discord: ???
 
 # Shuttle Notes:
-#
+#2025 facelift done by Possumongus on GITHUB
 - type: vessel
   id: Phoenix
   parent: BaseVessel
   name: NR Феникс
   description: Научно-утилизаторское судно, предназначенное для исследования дальнего космоса.
-  price: 64000 # TODO - fix this value, getting tests to pass - Whatstone
+  price: 133000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/phoenix.yml
   guidebookPage: ShipyardPhoenix
   class:
-  - Science
-  - Engineering
+    - Science
+    - Engineering
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Phoenix
-  mapName: 'NR Феникс'
+  mapName: "NR Феникс"
   mapPath: /Maps/_NF/Shuttles/phoenix.yml
   minPlayers: 0
   stations:
     Phoenix:
       stationProto: StandardFrontierVessel
       components:
-      - type: StationNameSetup
-        mapNameTemplate: 'Феникс {1}'
-        nameGenerator: !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          ContractorInterview: [ 0, 0 ]
-          PilotInterview: [ 0, 0 ]
-          MercenaryInterview: [ 0, 0 ]
+        - type: StationNameSetup
+          mapNameTemplate: "Феникс {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

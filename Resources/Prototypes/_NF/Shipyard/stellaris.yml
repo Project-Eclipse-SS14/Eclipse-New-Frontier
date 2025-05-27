@@ -3,19 +3,19 @@
   parent: BaseVessel
   name: NT Межзвёздный
   description: Передвижной театр идеально подходит для организации любого шоу.
-  price: 48000 # Appraises for 45469, margin of 7% - TODO: fix this value, getting tests to pass - Whatstone
+  price: 84000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/stellaris.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Stellaris
-  mapName: 'NT Межзвёздный'
+  mapName: "NT Межзвёздный"
   mapPath: /Maps/_NF/Shuttles/stellaris.yml
   minPlayers: 0
   stations:
@@ -23,12 +23,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Межзвёздный {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Межзвёздный {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

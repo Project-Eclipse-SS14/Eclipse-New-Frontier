@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NT Герцогиня
   description: Мобильный офис и личный транспорт для представителя станции, созданный на базе BB Стилет.
-  price: 26000 #Appraises at ~24390. Markup of ~8%.
+  price: 43750 # Eclipse
   category: Small
   group: Sr
   access: HeadOfPersonnel
   shuttlePath: /Maps/_NF/Shuttles/Sr/duchess.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Duchess
-  mapName: 'NT Герцогиня'
+  mapName: "NT Герцогиня"
   mapPath: /Maps/_NF/Shuttles/Sr/duchess.yml
   minPlayers: 0
   stations:
@@ -34,7 +34,6 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Герцогиня {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Герцогиня {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"

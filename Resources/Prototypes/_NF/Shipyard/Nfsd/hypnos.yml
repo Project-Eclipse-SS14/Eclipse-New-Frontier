@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: NSF Гипноз
   description: Легкий средний корабль с рекомендуемым экипажем из 2-3 офицеров, Гипноз - это специализированное судно для перехвата, оснащенное мощным ЭМИ-устройством для борьбы с убегающими судами.
-  price: 34500
+  price: 60375 # Eclipse
   category: Medium
   group: Security
   access: Sergeant
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/hypnos.yml
   class:
-  - Pursuit
+    - Pursuit
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Hypnos
-  mapName: 'NSF Гипноз'
+  mapName: "NSF Гипноз"
   mapPath: /Maps/_NF/Shuttles/Nfsd/hypnos.yml
   minPlayers: 0
   stations:
@@ -33,9 +33,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Гипноз {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Гипноз {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

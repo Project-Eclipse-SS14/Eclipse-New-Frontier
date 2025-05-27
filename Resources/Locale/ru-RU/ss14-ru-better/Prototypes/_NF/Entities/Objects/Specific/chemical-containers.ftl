@@ -79,3 +79,11 @@ ent-ReinforcedJugPotassium = { ent-ReinforcedJug }
 ent-ReinforcedJugSilicon = { ent-ReinforcedJug }
     .desc = { ent-ReinforcedJug.desc }
     .suffix = кремний
+# HASH: 9496b72e712f026d787de8443f56481c432382680c0f078be84a3120ca9fc49c
+ent-FuelSkrungle = скверна
+    .desc = Нечестивое топливо, питающее большинство генераторов. Оно резонирует с темными энергиями.
+    .suffix = 20
+# HASH: d3daa039f99d8badc79d24e080c8ec65d152ce1f28d64e38547ae2bfc8987f13
+ent-FuelSkrungle1 = { ent-FuelSkrungle }
+    .desc = { ent-FuelSkrungle.desc }
+    .suffix = Одиночный

@@ -3,21 +3,21 @@
   parent: BaseVessel
   name: SV Обломок
   description: Грузовой утилизаторский шаттл, собранный из обломков, имеет некоторые повреждения.
-  price: 18000 #Appraisal is 15800, +5% margin - TODO: fix this value, getting tests to pass - Whatstone
+  price: 31500 # Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/orange.yml
   guidebookPage: Null
   class:
-  - Scrapyard
-  - Cargo
-  - Salvage
+    - Scrapyard
+    - Cargo
+    - Salvage
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Orange
-  mapName: 'SV Обломок'
+  mapName: "SV Обломок"
   mapPath: /Maps/_NF/Shuttles/Scrap/orange.yml
   minPlayers: 0
   stations:
@@ -25,12 +25,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Обломок {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Обломок {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

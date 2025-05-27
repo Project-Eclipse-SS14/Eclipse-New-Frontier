@@ -7678,7 +7678,7 @@ entities:
     - type: Transform
       pos: -4.5,15.5
       parent: 1
-- proto: M_Emp
+- proto: MobileEmpGenerator
   entities:
   - uid: 1252
     components:

@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: BB Церера
   description: Среднеразмерное судно-ресторан высокого класса с большим количеством посадочных мест, интегрированной ботаникой и обеденным залом для VIP-гостей.
-  price: 78500 # ~10% markup, big luxury restaurant
+  price: 121625 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/ceres.yml
   guidebookPage: ShipyardCeres
   class:
-  - Kitchen
+    - Kitchen
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Ceres
-  mapName: 'BB Церера'
+  mapName: "BB Церера"
   mapPath: /Maps/_NF/Shuttles/ceres.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Церера {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Церера {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]
