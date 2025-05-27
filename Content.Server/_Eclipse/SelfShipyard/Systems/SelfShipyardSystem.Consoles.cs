@@ -250,7 +250,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         var saveCost = 0;
         // Get the price of the ship
         if (TryComp<ShuttleDeedComponent>(targetId, out var deed))
-            saveCost = (int)_pricing.AppraiseGrid((EntityUid)(deed?.ShuttleUid!), LacksPreserveOnSaleComp);
+            saveCost = (int)_pricing.AppraiseGrid((EntityUid)(deed?.ShuttleUid!), PriceCountedCondition);
 
         saveCost = (int)(saveCost * _percentSaveRate) + _constantSaveRate;
 
@@ -423,7 +423,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         int saveCost = 0;
         if (deed?.ShuttleUid != null)
         {
-            saveCost = (int)_pricing.AppraiseGrid((EntityUid)(deed?.ShuttleUid!), LacksPreserveOnSaleComp);
+            saveCost = (int)_pricing.AppraiseGrid((EntityUid)(deed?.ShuttleUid!), PriceCountedCondition);
             saveCost = (int)(saveCost * _percentSaveRate) + _constantSaveRate;
         }
 
@@ -522,7 +522,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             int saveCost = 0;
             if (deed?.ShuttleUid != null)
             {
-                saveCost = (int)_pricing.AppraiseGrid(deed.ShuttleUid.Value, LacksPreserveOnSaleComp);
+                saveCost = (int)_pricing.AppraiseGrid(deed.ShuttleUid.Value, PriceCountedCondition);
                 saveCost = (int)(saveCost * _percentSaveRate) + _constantSaveRate;
             }
 

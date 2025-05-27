@@ -26,6 +26,8 @@ using Robust.Shared.ContentPack;
 using Content.Server.SelfShipyard.Events;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Systems;
+using Content.Shared.Chemistry.EntitySystems;
+using Content.Shared.Chemistry.Components;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -41,6 +43,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     [Dependency] private readonly MapSystem _map = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedResearchSystem _researchSystem = default!;
+    [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
 
     [Dependency] private readonly IResourceManager _resMan = default!;
 
@@ -290,7 +293,7 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
             CleanGrid(shuttleUid, consoleUid);
         }
 
-        var shuttle_cost = (int)_pricing.AppraiseGrid(shuttleUid, LacksPreserveOnSaleComp);
+        var shuttle_cost = (int)_pricing.AppraiseGrid(shuttleUid, PriceCountedCondition);
 
         var bill = (int)(shuttle_cost * _percentSaveRate) + _constantSaveRate;
 
@@ -367,6 +370,11 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
                 toDelete.Add(entity);
                 return;
             }
+            else if (comp.ClearSolutionsOnSale)
+            {
+                if (TryComp<SolutionComponent>(entity, out var soln))
+                    _solution.RemoveAllSolution((entity, soln));
+            }
         }
 
         //Reset all researched technologies
@@ -394,9 +402,9 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
     }
 
     // returns false if it has ShipyardPreserveOnSaleComponent, true otherwise
-    private bool LacksPreserveOnSaleComp(EntityUid uid)
+    private bool PriceCountedCondition(EntityUid uid)
     {
-        return !TryComp<ShipyardSellConditionComponent>(uid, out var comp) || comp.PreserveOnSale == false;
+        return !TryComp<ShipyardSellConditionComponent>(uid, out var comp) || !(comp.PreserveOnSale == true || comp.DeleteOnSale == true);
     }
     private void CleanupShipyard()
     {

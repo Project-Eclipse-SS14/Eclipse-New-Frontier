@@ -39,12 +39,22 @@ public sealed partial class ConstructionSystem
 
     private void OnMachineMapInit(EntityUid uid, MachineComponent component, MapInitEvent args)
     {
-        CreateBoardAndStockParts(uid, component);
-        RefreshParts(uid, component); // Frontier: get initial upgrade values
+        Init(uid, component);
     }
 
     private void OnMachineAfterDeserialized(EntityUid uid, MachineComponent component, AfterShuttleDeserializedEvent args)
     {
+        var boardContainer = _container.EnsureContainer<Container>(uid, MachineFrameComponent.BoardContainerName);
+        _container.CleanContainer(boardContainer);
+        var partContainer = _container.EnsureContainer<Container>(uid, MachineFrameComponent.PartContainerName);
+        _container.CleanContainer(partContainer);
+
+        Init(uid, component);
+    }
+
+    private void Init(EntityUid uid, MachineComponent component)
+    {
+        CreateBoardAndStockParts(uid, component);
         RefreshParts(uid, component); // Frontier: get initial upgrade values
     }
 

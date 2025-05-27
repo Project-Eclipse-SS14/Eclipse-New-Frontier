@@ -13,7 +13,10 @@ public sealed partial class ShipyardSellConditionComponent : Component
     public bool PreserveOnSale = false;
 
     [DataField]
-    public bool DeleteOnSale = false;
+    public bool DeleteOnSale = false; // Eclipse
+
+    [DataField]
+    public bool ClearSolutionsOnSale = false; // Eclipse
 
     /// <summary>
     ///     Whether this item prevents shipyard sale.

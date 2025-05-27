@@ -13,6 +13,8 @@
     - Science
   - type: StaticPrice # Frontier
     price: 200 # Frontier
+  - type: ShipyardSellCondition # Eclipse
+    deleteOnSale: true
 
 - type: entity
   parent: ResearchDisk
