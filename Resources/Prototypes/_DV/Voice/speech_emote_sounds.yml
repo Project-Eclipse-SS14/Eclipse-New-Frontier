@@ -132,6 +132,8 @@
       collection: Belch # Frontier
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -182,6 +184,8 @@
       collection: Belch # Frontier
     MonkeyScreeches: # Frontier
       collection: MonkeyScreeches # Frontier
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
 
 - type: emoteSounds
   id: MobDog

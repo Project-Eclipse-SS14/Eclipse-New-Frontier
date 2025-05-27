@@ -42,6 +42,8 @@
       collection: GoblinMutterCollection
     GoblinThroatSinging:
       collection: GoblinThroatSingingCollection
+    #Moan: # Eclipse
+      #collection: MaleMoan # Eclipse
 
 - type: emoteSounds
   id: FemaleGoblin
@@ -86,6 +88,8 @@
       collection: GoblinMutterCollection
     GoblinThroatSinging:
       collection: GoblinThroatSingingCollection
+    Moan: # Eclipse
+      collection: FemaleMoan # Eclipse
 
 - type: emoteSounds
   id: UnisexSheleg
