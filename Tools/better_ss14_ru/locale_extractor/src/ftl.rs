@@ -174,9 +174,6 @@ impl MessageWrapper {
         if hash_comment.content.is_empty() {
             return Ok(None);
         }
-        if hash_comment.content.len() != 1 {
-            return Err(GetHashError::HashCommentContainsVariables);
-        }
         let hash_string = &hash_comment.content[0];
         let Some(hash_string) = hash_string.strip_prefix("HASH: ") else {
             return Err(GetHashError::HashCommentNoPrefix);
@@ -210,7 +207,6 @@ impl MessageWrapper {
 
 #[derive(Debug)]
 pub enum GetHashError {
-    HashCommentContainsVariables,
     HashCommentNoPrefix,
     HashCommentHexDecodeError(hex::FromHexError),
 }
