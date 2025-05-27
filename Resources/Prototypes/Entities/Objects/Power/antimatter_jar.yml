@@ -4,19 +4,19 @@
   name: AME fuel jar
   description: A hermetically sealed jar containing antimatter for use in an antimatter reactor.
   components:
-  - type: Item
-    size: Normal
-    sprite: Objects/Power/AME/ame_jar.rsi
-  - type: Sprite
-    sprite: Objects/Power/AME/ame_jar.rsi
-    state: jar
-  - type: AmeFuelContainer
-  - type: StaticPrice
-    price: 400
-    vendPrice: 4000 # Frontier: FuelVend price
-  - type: GuideHelp
-    guides: [ AME, Power ]
-  - type: Tag # Frontier
-    tags: # Frontier
-    - Recyclable # Frontier
-  - type: NFFuel # Frontier
+    - type: Item
+      size: Normal
+      sprite: Objects/Power/AME/ame_jar.rsi
+    - type: Sprite
+      sprite: Objects/Power/AME/ame_jar.rsi
+      state: jar
+    - type: AmeFuelContainer
+    - type: StaticPrice
+      price: 500
+      vendPrice: 8000 # Eclipse
+    - type: GuideHelp
+      guides: [AME, Power]
+    - type: Tag # Frontier
+      tags: # Frontier
+        - Recyclable # Frontier
+    - type: NFFuel # Frontier

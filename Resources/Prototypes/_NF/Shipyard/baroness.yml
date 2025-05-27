@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: BB Баронесса
   description: Небольшой роскошный круизер для одного или двух человек, с гостиной, отдельной спальней и чертовски красивым видом из кокпита.
-  price: 27000 # ~23,500 on purchase, ~15% markup
+  price: 47250 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/baroness.yml
   guidebookPage: ShipyardBaroness
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Baroness
-  mapName: 'BB Баронесса'
+  mapName: "BB Баронесса"
   mapPath: /Maps/_NF/Shuttles/baroness.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Баронесса {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Баронесса {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

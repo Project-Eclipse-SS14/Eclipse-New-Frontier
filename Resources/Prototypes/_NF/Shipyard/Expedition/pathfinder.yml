@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: KC Следопыт
   description: Когда-то это был корабль-разведчик, служивший в составе экспедиционных сил морской пехоты NT, а теперь это списанное экспедиционное судно может стать вашим!
-  price: 52920
+  price: 92610 # Eclipse
   category: Small
   group: Expedition
   shuttlePath: /Maps/_NF/Shuttles/Expedition/pathfinder.yml
   guidebookPage: ShipyardPathfinder
   class:
-  - Expedition
+    - Expedition
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Pathfinder
-  mapName: 'KC Следопыт'
+  mapName: "KC Следопыт"
   mapPath: /Maps/_NF/Shuttles/Expedition/pathfinder.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierExpeditionVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Следопыт {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Следопыт {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

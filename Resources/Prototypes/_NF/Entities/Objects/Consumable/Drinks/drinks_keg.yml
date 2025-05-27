@@ -26,7 +26,7 @@
     slots:
     - Back
   - type: StaticPrice
-    price: 30
+    price: 45 # Eclipse 30 -> 45
   - type: SolutionContainerManager
     solutions:
       drink:

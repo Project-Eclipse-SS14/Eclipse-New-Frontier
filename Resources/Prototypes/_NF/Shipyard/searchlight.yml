@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: LVHI Прожектор
   description: Небольшое судно, оборудованное для поиска и восстановления раненного персонала НТ. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 33500 # ~$29100 on mapinit + ~$4500 from 15% markup
+  price: 58625 # Eclipse
   category: Small
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/searchlight.yml
   guidebookPage: ShipyardSearchlight
   class:
-  - Medical
+    - Medical
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Searchlight
-  mapName: 'LVHI Прожектор'
+  mapName: "LVHI Прожектор"
   mapPath: /Maps/_NF/Shuttles/searchlight.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Прожектор {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Прожектор {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,19 +13,19 @@
   parent: BaseVessel
   name: LVHI Гадюка
   description: Небольшой маневренный шаттл, предназначенный для шахтерства. Производится компанией Лангстад-Войгт Хэви Индастриз.
-  price: 17500 # ~16400$ on mapinit + ~5% (820$) markup
+  price: 30625 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/adder.yml
   guidebookPage: ShipyardAdder
   class:
-  - Salvage
+    - Salvage
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Adder
-  mapName: 'LVHI Гадюка'
+  mapName: "LVHI Гадюка"
   mapPath: /Maps/_NF/Shuttles/adder.yml
   minPlayers: 0
   stations:
@@ -33,12 +33,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Гадюка {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Гадюка {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

@@ -13,21 +13,21 @@
   parent: BaseVessel
   name: KC Полумесяц
   description: Полумесяц, названный так за свою внешнюю форму - это судно, ориентированное на предоставление услуг, медицинской помощи и научных открытий для небольших судов.
-  price: 350020 # It do be like this.
+  price: 612535 # Eclipse
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/crescent.yml
   guidebookPage: Null
   class:
-  - Science
-  - Chemistry
-  - Civilian
+    - Science
+    - Chemistry
+    - Civilian
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Crescent
-  mapName: 'KC Полумесяц'
+  mapName: "KC Полумесяц"
   mapPath: /Maps/_NF/Shuttles/crescent.yml
   minPlayers: 0
   stations:
@@ -35,13 +35,12 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Полумесяц {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Полумесяц {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]
 #            StationAi: [ 0, 1 ]

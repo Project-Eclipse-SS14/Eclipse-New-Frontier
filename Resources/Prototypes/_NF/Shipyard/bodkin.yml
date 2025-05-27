@@ -13,31 +13,31 @@
   parent: BaseVessel
   name: BB Стилет
   description: Младший брат Авангарда. BB Стилет предназначен для шахтерства и утилизации обломков.
-  price: 42000 #Grid appraises at 38000. Slapped on a ~10% markup.
+  price: 73500 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/bodkin.yml
   guidebookPage: ShipyardBodkin
   class:
-  - Salvage
+    - Salvage
   engine:
-  - Uranium
+    - Uranium
 
 - type: gameMap
   id: Bodkin
-  mapName: 'BB Стилет'
+  mapName: "BB Стилет"
   mapPath: /Maps/_NF/Shuttles/bodkin.yml
   minPlayers: 0
   stations:
     Bodkin:
       stationProto: StandardFrontierVessel
       components:
-      - type: StationNameSetup
-        mapNameTemplate: 'Стилет {1}'
-        nameGenerator: !type:NanotrasenNameGenerator
-          prefixCreator: '14'
-      - type: StationJobs
-        availableJobs:
-          ContractorInterview: [ 0, 0 ]
-          PilotInterview: [ 0, 0 ]
-          MercenaryInterview: [ 0, 0 ]
+        - type: StationNameSetup
+          mapNameTemplate: "Стилет {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

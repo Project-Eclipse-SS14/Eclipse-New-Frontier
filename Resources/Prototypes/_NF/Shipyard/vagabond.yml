@@ -14,19 +14,19 @@
   parent: BaseVessel
   name: NT Бродяга
   description: Промышленный грузовой шаттл, который пилоты приспособили для самых разных целей.
-  price: 60000
+  price: 105000 # Eclipse
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/vagabond.yml
   guidebookPage: ShipyardVagabond
   class:
-  - Cargo
+    - Cargo
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Vagabond
-  mapName: 'NT Бродяга'
+  mapName: "NT Бродяга"
   mapPath: /Maps/_NF/Shuttles/vagabond.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Бродяга {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Бродяга {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

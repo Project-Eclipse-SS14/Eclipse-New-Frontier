@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: Полюс
   description: Среднегабаритный пиратский шаттл. Рекомендованный состав команды 2-8 человека.
-  price: 100000
+  price: 175000 # Eclipse
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_Corvax/Shuttles/BlackMarket/Poli.yml
@@ -23,4 +23,4 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]

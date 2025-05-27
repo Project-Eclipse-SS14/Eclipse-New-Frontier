@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NC Ямщик
   description: Тесный, но надежный шаттл для доставки посылок.
-  price: 15000
+  price: 26250 # Eclipse
   category: Micro
   group: Sr
   access: Mail
   shuttlePath: /Maps/_NF/Shuttles/Sr/mailpod.yml
   guidebookPage: Null
   class:
-  - Cargo
+    - Cargo
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: MailPod
-  mapName: 'NC Ямщик'
+  mapName: "NC Ямщик"
   mapPath: /Maps/_NF/Shuttles/Sr/mailpod.yml
   minPlayers: 0
   stations:
@@ -34,9 +34,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Ямщик {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Ямщик {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

@@ -15,7 +15,7 @@
   parent: BaseVessel
   name: NSF Молот
   description: Малогабаритный штурмовой шаттл ДСБФ без системы опознавания.
-  price: 45499
+  price: 79625 # Eclipse
   group: Security
   category: Small
   access: Security

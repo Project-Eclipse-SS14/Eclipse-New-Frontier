@@ -4,6 +4,6 @@
     sprite:  /Textures/_NF/Structures/Storage/magnetbox.rsi
     state: plantbox
   product: NFMagnetBoxPlant
-  cost: 1000
+  cost: 3000
   category: cargoproduct-category-name-hydroponics
   group: market

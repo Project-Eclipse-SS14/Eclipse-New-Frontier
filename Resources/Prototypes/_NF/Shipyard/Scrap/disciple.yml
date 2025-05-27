@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NSV Диакон
   description: Дешевая смесь религиозных кораблей. Для опытного религиозного помощника.
-  price: 15000 # Appraises at 12179, ~25% margin - TODO: fix this value, getting tests to pass - Whatstone
+  price: 26250 # Eclipse
   category: Small
   group: Scrap
   shuttlePath: /Maps/_NF/Shuttles/Scrap/disciple.yml
   guidebookPage: Null
   class:
-  - Scrapyard
-  - Civilian
+    - Scrapyard
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Disciple
-  mapName: 'NSV Диакон'
+  mapName: "NSV Диакон"
   mapPath: /Maps/_NF/Shuttles/Scrap/disciple.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Диакон {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Диакон {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

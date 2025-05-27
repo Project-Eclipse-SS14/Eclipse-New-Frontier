@@ -3,20 +3,20 @@
   parent: BaseVessel
   name: NSF Императрица
   description: Крупный патрульный корабль, способный нести до 4 небольших более быстрых атакующих кораблей. Флагманский корабль ДСБФ.
-  price: 170000 #Appraisal value is 150000
+  price: 297500 # Eclipse
   category: Large
   group: Security
   access: Bailiff
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/empress.yml
   guidebookPage: Null
   class:
-  - Capital
+    - Capital
   engine:
-  - AME
+    - AME
 
 - type: gameMap
   id: Empress
-  mapName: 'NSF Императрица'
+  mapName: "NSF Императрица"
   mapPath: /Maps/_NF/Shuttles/Nfsd/empress.yml
   minPlayers: 0
   stations:
@@ -24,9 +24,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Императрица {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Императрица {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {} # Removed the chef since we dont have a real loadout for it

@@ -10,19 +10,19 @@
   parent: BaseVessel
   name: DC Курьер
   description: Быстрая еда, быстрый корабль, доставьте еду Каргонии людям.
-  price: 10000
+  price: 17500 # Eclipse
   category: Micro
   group: Custom
   shuttlePath: /Maps/_NF/Shuttles/mcdelivery.yml
   guidebookPage: ShipyardMcDelivery
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Welding
+    - Welding
 
 - type: gameMap
   id: McDelivery
-  mapName: 'DC Курьер'
+  mapName: "DC Курьер"
   mapPath: /Maps/_NF/Shuttles/mcdelivery.yml
   minPlayers: 0
   stations:
@@ -30,9 +30,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Курьер {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Курьер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

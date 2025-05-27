@@ -13,20 +13,20 @@
   name: NSF Хеймдалль
   parent: BaseVessel
   description: Небольшой детективный шаттл для сбора разведданных и криминалистической работы.
-  price: 27000 # Approx 20% markup applied to the appraisal price of 22500 due to the presence of advanced radar.
+  price: 47250 # Eclipse
   category: Small
   group: Security
   access: Detective
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/heimdall.yml
   guidebookPage: Null
   class:
-  - Detective
+    - Detective
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Heimdall
-  mapName: 'NSF Хеймдалль'
+  mapName: "NSF Хеймдалль"
   mapPath: /Maps/_NF/Shuttles/Nfsd/heimdall.yml
   minPlayers: 0
   stations:
@@ -34,9 +34,8 @@
       stationProto: StandardFrontierSecurityVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Хеймдалль {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Хеймдалль {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

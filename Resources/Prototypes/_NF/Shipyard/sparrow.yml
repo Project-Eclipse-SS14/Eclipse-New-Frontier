@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NR Воробей
   description: Небольшое исследовательское и инженерное судно.
-  price: 41000 # TODO: review ship values - Whatstone
+  price: 71750 # Eclipse
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NF/Shuttles/sparrow.yml
   guidebookPage: ShipyardSparrow
   class:
-  - Science
-  - Engineering
+    - Science
+    - Engineering
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Sparrow
-  mapName: 'NR Воробей'
+  mapName: "NR Воробей"
   mapPath: /Maps/_NF/Shuttles/sparrow.yml
   minPlayers: 0
   stations:
@@ -34,12 +34,11 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Воробей {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Воробей {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            ContractorInterview: [ 0, 0 ]
-            PilotInterview: [ 0, 0 ]
-            MercenaryInterview: [ 0, 0 ]
+            ContractorInterview: [0, 0]
+            PilotInterview: [0, 0]
+            MercenaryInterview: [0, 0]

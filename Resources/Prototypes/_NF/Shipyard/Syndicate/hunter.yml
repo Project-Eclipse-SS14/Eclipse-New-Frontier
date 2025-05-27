@@ -3,19 +3,19 @@
   parent: BaseVesselAntag
   name: Охотник
   description: Небольшой бронированный штурмовой шаттл Синдиката, идеально подходящий для коварных операций!
-  price: 50000
+  price: 87500 # Eclipse
   category: Small
   group: Syndicate
   shuttlePath: /Maps/_NF/Shuttles/Syndicate/hunter.yml
   guidebookPage: Null
   class:
-  - Syndicate
+    - Syndicate
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Hunter
-  mapName: 'Охотник'
+  mapName: "Охотник"
   mapPath: /Maps/_NF/Shuttles/Syndicate/hunter.yml
   minPlayers: 0
   stations:
@@ -23,9 +23,8 @@
       stationProto: StandardFrontierAntagVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Охотник {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Охотник {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

@@ -14,27 +14,27 @@
   parent: BaseVessel
   name: NC Шофер
   description: Небольшой транспортный шаттл, вмещающий 4 пассажира. Поставляется с новейшими аудиоразвлекательными технологиями.
-  price: 17500 # $14325 after appraisal + ~$1200 (~5% markup) - TODO: fix this value, getting tests to pass - Whatstone
+  price: 30625 # Eclipse
   category: Small
   group: Sr
   access: Service
   shuttlePath: /Maps/_NF/Shuttles/pts.yml
   guidebookPage: Null
   class:
-  - Civilian
+    - Civilian
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Chauffeur
-  mapName: 'NC Шофер'
+  mapName: "NC Шофер"
   mapPath: /Maps/_NF/Shuttles/Sr/chauffeur.yml
   minPlayers: 0
   stations:
     Chauffeur:
       stationProto: StandardFrontierVessel
       components:
-      - type: StationNameSetup
-        mapNameTemplate: 'Шофер {1}'
-        nameGenerator: !type:NanotrasenNameGenerator
-          prefixCreator: '14'
+        - type: StationNameSetup
+          mapNameTemplate: "Шофер {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"

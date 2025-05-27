@@ -13,20 +13,20 @@
   parent: BaseVessel
   name: NC Парцелла
   description: Надежный шаттл для доставки почты и посылок.
-  price: 18000
+  price: 31500 # Eclipse
   category: Small
   group: Sr
   access: Mail
   shuttlePath: /Maps/_NF/Shuttles/Sr/parcel.yml
   guidebookPage: Null
   class:
-  - Cargo
+    - Cargo
   engine:
-  - Plasma
+    - Plasma
 
 - type: gameMap
   id: Parcel
-  mapName: 'NC Парцелла'
+  mapName: "NC Парцелла"
   mapPath: /Maps/_NF/Shuttles/Sr/parcel.yml
   minPlayers: 0
   stations:
@@ -34,9 +34,8 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Парцелла {1}'
-          nameGenerator:
-            !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+          mapNameTemplate: "Парцелла {1}"
+          nameGenerator: !type:NanotrasenNameGenerator
+            prefixCreator: "14"
         - type: StationJobs
           availableJobs: {}

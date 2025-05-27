@@ -4,7 +4,7 @@
     sprite: Objects/Specific/Janitorial/janitorial.rsi
     state: cleaner
   product: CrateServiceJanitorialSupplies
-  cost: 2500 # Frontier: 560<2500
+  cost: 4500 # Frontier: 560<2500
   category: cargoproduct-category-name-service
   group: market
 
@@ -14,7 +14,7 @@
     sprite: Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceReplacementLights
-  cost: 600
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -25,7 +25,7 @@
     sprite: Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceHolidayLights
-  cost: 800
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -36,7 +36,7 @@
     sprite: Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceColorfulLights
-  cost: 800
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -46,7 +46,7 @@
     sprite: Objects/Devices/mousetrap.rsi
     state: mousetrap
   product: CrateMousetrapBoxes
-  cost: 500
+  cost: 1000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -57,7 +57,7 @@
     sprite: Clothing/Mask/mime.rsi
     state: icon
   product: CrateServiceTheatre
-  cost: 1800
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -68,7 +68,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: icon
   product: CrateServiceSmokeables
-  cost: 1500
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -78,7 +78,7 @@
     sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: icon
   product: CrateServiceCustomSmokable
-  cost: 1000
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -88,7 +88,7 @@
     sprite: Objects/Misc/pens.rsi
     state: pen
   product: CrateServiceBureaucracy
-  cost: 1000
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -98,7 +98,7 @@
     sprite: Structures/Machines/fax_machine.rsi
     state: icon
   product: CrateServiceFaxMachine
-  cost: 2000
+  cost: 5000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -109,7 +109,7 @@
     sprite: Objects/Misc/id_cards.rsi
     state: default
   product: CrateServicePersonnel
-  cost: 1000
+  cost: 5500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -119,7 +119,7 @@
     sprite: Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceBooks
-  cost: 1000
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -129,7 +129,7 @@
     sprite: Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceGuidebooks
-  cost: 1300
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -140,7 +140,7 @@
     sprite: Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceSodaDispenser
-  cost: 850
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -151,7 +151,7 @@
     sprite: Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceBoozeDispenser
-  cost: 750
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -161,7 +161,7 @@
     sprite: Objects/Storage/boxes.rsi
     state: box
   product: CrateServiceBox
-  cost: 400
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -172,7 +172,7 @@
     sprite: Clothing/Head/Hoods/Bio/janitor.rsi
     state: icon
   product: CrateJanitorBiosuit
-  cost: 800
+  cost: 3000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -182,7 +182,7 @@
     sprite: Objects/Specific/Kitchen/food_carts.rsi
     state: icon-hot
   product: FoodCartHot
-  cost: 2000
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -192,7 +192,7 @@
     sprite: Objects/Specific/Kitchen/food_carts.rsi
     state: icon-cold
   product: FoodCartCold
-  cost: 2000
+  cost: 3500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -202,7 +202,7 @@
     sprite: Objects/Storage/petcarrier.rsi
     state: icon
   product: PetCarrier
-  cost: 500
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -213,7 +213,7 @@
     sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
     state: icon
   product: ClosetJanitorBombFilled
-  cost: 1000
+  cost: 2000 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -223,7 +223,7 @@
     sprite: Objects/Specific/Janitorial/janitorial_cart.rsi
     state: icon-cart
   product: JanitorialTrolley
-  cost: 1000
+  cost: 2500 # Eclipse
   category: cargoproduct-category-name-service
   group: market
 
@@ -233,6 +233,6 @@
     sprite: Objects/Misc/candles.rsi
     state: candle-big
   product: CrateCandles
-  cost: 500
+  cost: 1500 # Eclipse
   category: cargoproduct-category-name-service
   group: market

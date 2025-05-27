@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: Боров
   description: Среднегабаритный пиратский шаттл. Рекомендованный состав команды 2-4 человека.
-  price: 80000
+  price: 140000 # Eclipse
   category: Medium
   group: BlackMarket
   shuttlePath: /Maps/_Corvax/Shuttles/BlackMarket/hog.yml
@@ -33,4 +33,4 @@
             prefixCreator: "14"
         - type: StationJobs
           availableJobs:
-            NFPirate: [ 0, 0 ]
+            NFPirate: [0, 0]
