@@ -8,7 +8,7 @@ pub struct ChangeGuard<'a, T: PartialEq> {
 }
 
 impl<'a, T: PartialEq + Clone> ChangeGuard<'a, T> {
-    pub(crate) fn new(value: &'a mut T, changed: &'a mut bool) -> Self {
+    pub fn new(value: &'a mut T, changed: &'a mut bool) -> Self {
         Self {
             value_copy: Some(value.clone()),
             value_ref: value,

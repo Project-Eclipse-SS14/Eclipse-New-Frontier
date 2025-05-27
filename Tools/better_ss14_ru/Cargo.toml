@@ -1,3 +1,3 @@
 [workspace]
 resolver = "3"
-members = [ "common", "detect_not_translated", "prototypes_extractor" , "ss14_ru_transfer"]
+members = [ "common", "detect_not_translated", "locale_extractor", "prototypes_extractor" , "ss14_ru_transfer"]

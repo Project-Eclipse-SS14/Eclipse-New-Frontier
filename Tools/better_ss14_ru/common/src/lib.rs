@@ -22,6 +22,10 @@ impl SS14Project {
         &self.0
     }
 
+    pub fn get_locale_path(&self, locale: &str) -> PathBuf {
+        self.0.join(format!("Resources/Locale/{locale}"))
+    }
+
     pub fn get_resources_path(&self) -> PathBuf {
         self.0.join("Resources")
     }
