@@ -1,0 +1,15 @@
+- type: soundCollection
+  id: FemaleMoan
+  files:
+  - /Audio/_DV/Voice/Vulpkanin/moan_f1.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f2.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f3.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f4.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f5.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f6.ogg
+  - /Audio/_DV/Voice/Vulpkanin/moan_f7.ogg
+
+- #type: soundCollection
+  #id: MaleMoan
+  #files:
+  #- /Audio/_DV/Voice/Vulpkanin/dog_snarl1.ogg

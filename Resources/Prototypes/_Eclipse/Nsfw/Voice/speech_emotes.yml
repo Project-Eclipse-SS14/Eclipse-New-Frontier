@@ -1,0 +1,14 @@
+- type: emote
+  id: Moan
+  name: chat-emote-name-moan
+  category: Vocal
+  icon: Interface/Emotes/sigh.png
+  whitelist:
+    components:
+    - Vocal
+  blacklist:
+    tags:
+    - SiliconEmotes
+  chatMessages: ["chat-emote-msg-moan"]
+  chatTriggers:
+    - moan
