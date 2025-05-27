@@ -292,7 +292,7 @@ public sealed partial class ShipyardConsoleMenu : FancyWindow
         }
         else
         {
-            DeedTitle.Text = $"None";
+            DeedTitle.Text = $"Отсутствует";
         }
         _freeListings = state.FreeListings;
         _validId = state.IsTargetIdPresent;
