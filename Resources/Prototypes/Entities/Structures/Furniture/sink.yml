@@ -6,6 +6,8 @@
   placement:
     mode: SnapgridCenter
   components:
+  - type: Physics # Eclipse
+    bodyType: Static # Eclipse
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
