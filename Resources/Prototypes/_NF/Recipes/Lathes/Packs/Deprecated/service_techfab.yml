@@ -62,12 +62,16 @@
     - Bucket
     - MopItem
     - SprayBottle
+    - PlantBGoneSprayEmpty
+    - WeedSprayEmpty
+    - PestSprayEmpty
     - HydroponicsToolMiniHoe
     - HydroponicsToolScythe
     - HydroponicsToolHatchet
     - HydroponicsToolSpade
     - HydroponicsToolClippers
     - ServiceSelectiveDropper
+    - Syringe
     - DiseaseSwab
     - PlantBag
     - Beaker
@@ -120,9 +124,7 @@
     - ClothingOuterEVASuitBoxerBlue
     - ClothingOuterEVASuitBoxerYellow
   ## Materials
-    - SheetPaper
-    - NFMaterialCardboard1Processed
-    - PaperFromSheetPaper
+    - PaperFromSheetPaper # writable paper, see NFPaperAndPaperAccessories for SheetPaper1
   ## Misc
     - ClothingHeadHatCone
     - FireExtinguisher
