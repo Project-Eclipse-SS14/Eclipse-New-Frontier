@@ -3,7 +3,7 @@
   name: research-technology-botanical-chemical-dispensary
   icon:
     sprite: _Eclipse/Structures/Machines/mixer_botany.rsi
-    state: mixer_loaded
+    state: mixer_empty
   discipline: CivilianServices
   tier: 2
   cost: 10000
