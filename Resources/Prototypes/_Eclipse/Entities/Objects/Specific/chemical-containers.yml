@@ -1,0 +1,112 @@
+- type: entity
+  parent: [BaseItem, BaseC2ContrabandNoDepUnredeemable]
+  id: FuelPlutonium
+  name: fuel-grade plutonium
+  description: A rod made of plutonium, suitable for fuel.
+  suffix: 20
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FuelGradePlutonium: 100
+  - type: Sprite
+    sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi
+    layers:
+    - state: plutonium
+      map: ["base"]
+  - type: Appearance
+  - type: StaticPrice
+    price: 0
+    vendPrice: 2500
+  - type: Stack
+    stackType: FuelPlutonium
+    count: 20
+  - type: NFFuel # Frontier
+  - type: DamageOnLand
+    damage:
+      types:
+        Blunt: 5
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 4
+  - type: Damageable
+    damageContainer: Inorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 5
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+      - !type:SpawnEntitiesBehavior
+        spawnStacked: FuelPlutoniumTrash
+        transferForensics: true
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: RadiationSource
+    intensity: 0.25
+    slope: 0.7
+  - type: PointLight
+    color: "#03fcad"
+    energy: 3
+    radius: 2
+
+- type: entity
+  parent: FuelPlutonium
+  id: FuelPlutonium1
+  suffix: Single
+  components:
+  - type: Stack
+    count: 1
+  - type: StaticPrice
+    vendPrice: 0
+
+- type: entity
+  parent: [BaseItem, BaseC2ContrabandNoDepUnredeemable]
+  id: FuelPlutoniumTrash
+  name: broken fuel-grade plutonium
+  description: A rod made of plutonium, suitable for fuel. This one had a bit of a rough time.
+  suffix: Trash, 20
+  components:
+  - type: Material
+  - type: PhysicalComposition
+    materialComposition:
+      FuelPlutoniumTrash: 100
+  - type: Sprite
+    sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi
+    layers:
+    - state: plutonium_broken
+      map: ["base"]
+  - type: Appearance
+  - type: StaticPrice
+    price: 0
+    vendPrice: 2500
+  - type: RadiationSource
+    intensity: 0.5
+    slope: 0.8
+  - type: Stack
+    stackType: FuelPlutoniumTrash
+    count: 20
+  - type: PointLight
+    color: "#03fcad"
+    energy: 3
+    radius: 3
+  - type: DamageOtherOnHit
+    damage:
+      types:
+        Blunt: 4
+  - type: NFFuel # Frontier
+
+- type: entity
+  parent: FuelPlutoniumTrash
+  id: FuelPlutoniumTrash1
+  name: broken fuel-grade plutonium
+  description: A rod made of plutonium, suitable for fuel. This one had a bit of a rough time.
+  suffix: Trash
+  components:
+  - type: Stack
+    stackType: FuelPlutoniumTrash
+    count: 1

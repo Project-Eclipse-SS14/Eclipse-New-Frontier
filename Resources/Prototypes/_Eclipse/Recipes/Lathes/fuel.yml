@@ -1,0 +1,6 @@
+- type: latheRecipe
+  id: FuelPlutonium
+  result: FuelPlutonium
+  completetime: 1
+  materials:
+    Uranium: 1500
