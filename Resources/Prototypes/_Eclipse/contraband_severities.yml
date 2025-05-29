@@ -1,0 +1,3 @@
+- type: contrabandSeverity
+  id: Class2NoDep
+  examineText: contraband-examine-text-Class2

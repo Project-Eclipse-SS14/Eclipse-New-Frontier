@@ -29,6 +29,11 @@ namespace Content.Server.Destructible.Thresholds.Behaviors
         [DataField]
         public bool SpawnInContainer;
 
+        // Eclipse-Start
+        [DataField]
+        public EntProtoId? SpawnStacked = default!;
+        // Eclipse-End
+
         public void Execute(EntityUid owner, DestructibleSystem system, EntityUid? cause = null)
         {
             var tSys = system.EntityManager.System<TransformSystem>();
@@ -40,6 +45,21 @@ namespace Content.Server.Destructible.Thresholds.Behaviors
             if (system.EntityManager.TryGetComponent<StackComponent>(owner, out var stack))
             {
                 executions = stack.Count;
+
+                // Eclipse-Start
+                if (SpawnStacked.HasValue)
+                {
+                    if (EntityPrototypeHelpers.HasComponent<StackComponent>(SpawnStacked.Value, system.PrototypeManager, system.ComponentFactory))
+                    {
+                        var spawned = SpawnInContainer
+                            ? system.EntityManager.SpawnNextToOrDrop(SpawnStacked.Value, owner)
+                            : system.EntityManager.SpawnEntity(SpawnStacked.Value, position.Offset(getRandomVector()));
+                        system.StackSystem.SetCount(spawned, stack.Count);
+
+                        TransferForensics(spawned, system, owner);
+                    }
+                }
+                // Eclipse-End
             }
 
             foreach (var (entityId, minMax) in Spawn)

@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "copyright": "Made by GhostPrince, modified for plutonium by FoLZer",
+    "license": "CC-BY-SA-3.0",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "plutonium"
+        },
+        {
+            "name": "plutonium_broken"
+        }
+    ]
+}

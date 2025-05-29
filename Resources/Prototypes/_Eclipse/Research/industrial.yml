@@ -9,3 +9,15 @@
   cost: 25000
   recipeUnlocks:
   - AtmosDeviceFanDirectionalAssembly
+
+- type: technology
+  id: NuclearTechnology
+  name: research-technology-nuclear-technology
+  icon:
+    sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi
+    state: plutonium
+  discipline: Industrial
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - FuelPlutonium

@@ -242,10 +242,33 @@
   id: GeneratorRTG
   name: RTG
   description: A Radioisotope Thermoelectric Generator for long term power.
-  suffix: 10kW
+  suffix: 8kW # Eclipse 10kW -> 8kW
   components:
   - type: PowerSupplier
-    supplyRate: 10000 # supposed to be low power at no fuel cost to power derelicts
+    supplyRate: 8000 # Eclipse 10000 -> 8000
+  # Eclipse-Start
+  - type: FuelGenerator
+    minTargetPower: 1000
+    maxTargetPower: 8000
+    targetPower: 8000
+    optimalPower: 8000
+    optimalBurnRate: 0.00138888 # 6 hours of active production at full fill
+    fuelEfficiencyConstant: 0.8
+  - type: SolidFuelGeneratorAdapter
+    fuelMaterial: FuelGradePlutonium
+    multiplier: 0.01
+  - type: UserInterface
+    interfaces:
+      enum.GeneratorComponentUiKey.Key:
+        type: PortableGeneratorBoundUserInterface
+  - type: ActivatableUI
+    key: enum.GeneratorComponentUiKey.Key
+  - type: MaterialStorage
+    storageLimit: 3000
+    materialWhiteList: [FuelGradePlutonium, FuelPlutoniumTrash]
+  - type: PortableGenerator
+    startChance: 0.8
+  # Eclipse-End
   - type: Sprite
     sprite: Structures/Power/Generation/rtg.rsi
     state: rtg
@@ -292,10 +315,8 @@
   id: GeneratorRTGDamaged
   name: damaged RTG
   description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
-  suffix: 10kW
+  suffix: 8kW # Eclipse 10kW -> 8kW
   components:
-  - type: PowerSupplier
-    supplyRate: 10000
   - type: Sprite
     sprite: Structures/Power/Generation/rtg.rsi
     layers:
@@ -324,9 +345,6 @@
       - !type:SpawnEntitiesBehavior
         spawn:
           SheetSteel1:
-            min: 1
-            max: 5
-          SheetUranium1:
             min: 1
             max: 5
       - !type:DoActsBehavior

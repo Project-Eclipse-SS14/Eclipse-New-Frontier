@@ -1,0 +1,13 @@
+- type: material
+  id: FuelGradePlutonium
+  stackEntity: FuelPlutonium1
+  name: fuel-grade plutonium
+  icon: { sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi, state: plutonium }
+  price: 0.1
+
+- type: material
+  id: FuelPlutoniumTrash
+  stackEntity: FuelPlutoniumTrash1
+  name: broken fuel-grade plutonium
+  icon: { sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi, state: plutonium_broken }
+  price: 0.1
