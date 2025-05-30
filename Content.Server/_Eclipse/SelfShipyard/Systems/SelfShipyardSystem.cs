@@ -28,6 +28,7 @@ using Content.Shared.Research.Components;
 using Content.Shared.Research.Systems;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Chemistry.Components;
+using Robust.Shared.Map.Components;
 
 namespace Content.Server._Eclipse.SelfShipyard.Systems;
 
@@ -197,9 +198,18 @@ public sealed partial class SelfShipyardSystem : SharedSelfShipyardSystem
         if (ShipyardMap == null)
             return false;
 
-        if (!_mapLoader.TryLoadGrid(ShipyardMap.Value, shuttlePath, out var grid, offset: new Vector2(500f + _shuttleIndex, 1f)))
+        Entity<MapGridComponent>? grid;
+        try
         {
-            _sawmill.Error($"Unable to spawn shuttle {shuttlePath}");
+            if (!_mapLoader.TryLoadGrid(ShipyardMap.Value, shuttlePath, out grid, offset: new Vector2(500f + _shuttleIndex, 1f)))
+            {
+                _sawmill.Error($"Unable to spawn shuttle {shuttlePath}");
+                return false;
+            }
+        }
+        catch (Exception e)
+        {
+            _sawmill.Error($"Unable to spawn shuttle {shuttlePath}. Error: {e}");
             return false;
         }
 
