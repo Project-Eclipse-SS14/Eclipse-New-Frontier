@@ -8,6 +8,7 @@
   components:
   - type: Physics # Eclipse
     bodyType: Static # Eclipse
+    canCollide: false # Eclipse
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
