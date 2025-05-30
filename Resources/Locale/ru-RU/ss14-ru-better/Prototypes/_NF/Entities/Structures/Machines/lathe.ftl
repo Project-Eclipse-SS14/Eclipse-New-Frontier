@@ -28,10 +28,10 @@ ent-BlueprintLithograph = литографическая машина
 # HASH: 293a470ce9e518660d47ec27d697aa949e943c8a82c9a4c505ad5b250180a539
 ent-ScrapProcessor = переработчик лома
     .desc = Производит необходимые материалы из старого лома.
-# HASH: d6c8cc2516044c68c43147dd8eb1734d544304cc04b9f8c7f6aa8ec36172cf4f
+# HASH: 849b1007ff7481ce48dd1a7604707c41aed5e1dc7bb0c0dbb0fda97b917e23fd
 ent-BiogeneratorFill = биогенератор
     .desc = { ent-Biogenerator.desc }
-    .suffix = Биомасса, 50
+    .suffix = Биомасса, 200
 # HASH: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 ent-NFBlueprintReceiverBase = { "" }
     .desc = { "" }
@@ -39,5 +39,8 @@ ent-NFBlueprintReceiverBase = { "" }
 ent-McServiceTechFab = максервис техфаб
     .desc = Печатает оборудование для персонала максервис.
 # HASH: 7b85ebab35c743daa5ef88e32bf4f74cbbca12afbff1d78fe5445cd53b68dbe0
-ent-UniformPrinterStaff = принтер для печати униформы персонала
+ent-UniformPrinterStaff = принтер униформы персонала
     .desc = Печать новой или сменной униформы для сотрудников.
+# HASH: 3290c2000df504a4cba6bc602c25b1c6e7d250a4a323dad8f6bac6137a2da068
+ent-PirateStitcher = принтер пиратской униформы
+    .desc = Этот совершенно новый универсальный принтер был «найден» и перепрофилирован для печати только высокой моды.
