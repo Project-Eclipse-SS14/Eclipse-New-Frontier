@@ -27,10 +27,10 @@ namespace Content.Server.Power.Components
         public float CurrentCharge;
 
         /// <summary>
-        /// The price per one joule. Default is 1 credit for 10kJ.
+        /// The price per one joule. Default is 1 credit for 20kJ.
         /// </summary>
         [DataField]
-        public float PricePerJoule = 0.000001f;
+        public float PricePerJoule = 0.00005f; // Eclipse 0.0001 -> 0.00005
     }
 
     /// <summary>
