@@ -361,7 +361,7 @@
 
 - type: entity
   id: SyndicateElectricRangeMachineCircuitboard
-  parent: BaseMachineCircuitboard
+  parent: [BaseMachineCircuitboard, BaseC3SyndicateContraband]
   name: syndicate electric range machine board
   description: A machine printed circuit board for an syndicate electric range.
   components:
