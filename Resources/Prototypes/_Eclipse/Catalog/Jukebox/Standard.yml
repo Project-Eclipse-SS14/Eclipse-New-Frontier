@@ -1,0 +1,5 @@
+- type: jukebox
+  id: NautilusChained
+  name: Nautilus Pompilius - Скованные одной цепью
+  path:
+    path: /Audio/_Eclipse/Jukebox/NautilusChained-MONO.ogg
