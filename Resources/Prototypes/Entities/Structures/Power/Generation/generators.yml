@@ -246,6 +246,7 @@
   components:
   - type: PowerSupplier
     supplyRate: 8000 # Eclipse 10000 -> 8000
+    enabled: false # Eclipse
   # Eclipse-Start
   - type: FuelGenerator
     minTargetPower: 1000
@@ -268,6 +269,22 @@
     materialWhiteList: [FuelGradePlutonium, FuelPlutoniumTrash]
   - type: PortableGenerator
     startChance: 0.8
+  - type: FuelGradeAdapter
+    conversions:
+    - input: FuelPlutoniumTrash
+      output: FuelGradePlutonium
+      rate: 1
+  - type: DeviceLinkSink
+    ports:
+    - On
+    - Off
+    - Toggle
+  - type: GeneratorSignalControl
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
   # Eclipse-End
   - type: Sprite
     sprite: Structures/Power/Generation/rtg.rsi
