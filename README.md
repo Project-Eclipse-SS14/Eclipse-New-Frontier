@@ -76,7 +76,7 @@ Content under these subdirectories originate from their respective forks and may
 | `_NC14` | Nuclear 14 | https://github.com/Vault-Overseers/nuclear-14 | AGPL 3.0 |
 | `Nyanotrasen` | Nyanotrasen | https://github.com/Nyanotrasen/Nyanotrasen | MIT |
 | `_DeadSpace` | Fobos | https://github.com/dead-space-server/space-station-14-fobos | MIT |
-| `_Eclipse` | Eclipse New Frontier | https://github.com/Apxumekm0p/Eclipse-New-Frontier | AGPL 3.0 |
+| `_Eclipse` | Eclipse New Frontier | https://github.com/Project-Eclipse-SS14/Eclipse-New-Frontier | AGPL 3.0 |
 
 Additional repos that we have ported features from without subdirectories are listed below.
 
