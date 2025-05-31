@@ -31,7 +31,7 @@ public sealed partial class ShockOnTriggerComponent : Component
     /// <summary>
     /// When can the trigger run again?
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextTrigger = TimeSpan.Zero;
 }

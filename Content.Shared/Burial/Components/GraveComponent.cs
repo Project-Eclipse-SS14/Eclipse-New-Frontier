@@ -49,6 +49,6 @@ public sealed partial class GraveComponent : Component
     /// <summary>
     /// Tracks someone digging themself out of the grave
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
+    [ViewVariables(VVAccess.ReadOnly)]
     public DoAfterId? HandDiggingDoAfter;
 }

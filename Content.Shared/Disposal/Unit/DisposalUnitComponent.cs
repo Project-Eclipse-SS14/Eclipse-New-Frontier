@@ -55,7 +55,7 @@ public sealed partial class DisposalUnitComponent : Component
     /// <summary>
     /// Next time the disposal unit will be pressurized.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
     public TimeSpan NextPressurized = TimeSpan.Zero;
 
     /// <summary>

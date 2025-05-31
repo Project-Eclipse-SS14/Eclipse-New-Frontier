@@ -21,7 +21,7 @@ public sealed partial class EnvelopeComponent : Component
     /// Stores the current sealing/tearing doafter of the envelope
     /// to prevent doafter spam/prediction issues
     /// </summary>
-    [DataField, ViewVariables]
+    [ViewVariables(VVAccess.ReadWrite)]
     public DoAfterId? EnvelopeDoAfter;
 
     /// <summary>

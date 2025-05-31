@@ -13,7 +13,7 @@ public sealed partial class CanEscapeInventoryComponent : Component
 
     public bool IsEscaping => DoAfter != null;
 
-    [DataField("doAfter")]
+    [ViewVariables(VVAccess.ReadWrite)]
     public DoAfterId? DoAfter;
 
     // Frontier

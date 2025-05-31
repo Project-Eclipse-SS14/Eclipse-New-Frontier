@@ -14,7 +14,7 @@ public sealed partial class BountyContractsCartridgeComponent : Component
     [ViewVariables(VVAccess.ReadWrite), DataField]
     public bool CreateEnabled;
 
-    [ViewVariables(VVAccess.ReadWrite), DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextCreate;
 
     [ViewVariables(VVAccess.ReadWrite), DataField]

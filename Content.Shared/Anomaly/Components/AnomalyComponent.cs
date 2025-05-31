@@ -88,7 +88,7 @@ public sealed partial class AnomalyComponent : Component
     /// <summary>
     /// The time at which the next artifact pulse will occur.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoNetworkedField, AutoPausedField]
+    [AutoNetworkedField, AutoPausedField]
     [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextPulseTime = TimeSpan.Zero;
 

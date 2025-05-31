@@ -16,7 +16,7 @@ public sealed partial class GeneralStationRecordConsoleComponent : Component
     /// <summary>
     /// Qualities to filter a search by.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public StationRecordsFilter? Filter;
 
     /// <summary>

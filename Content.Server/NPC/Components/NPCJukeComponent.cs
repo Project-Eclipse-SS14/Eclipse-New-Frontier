@@ -12,7 +12,7 @@ public sealed partial class NPCJukeComponent : Component
     [DataField("jukeDuration")]
     public float JukeDuration = 0.5f;
 
-    [DataField("nextJuke", customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextJuke;
 

@@ -21,6 +21,8 @@
   - type: Tag
     tags:
     - BlueprintAutolathe
+  - type: ShipyardSellCondition # Eclipse
+    deleteOnSale: true
 
 - type: entity
   parent: BaseBlueprint

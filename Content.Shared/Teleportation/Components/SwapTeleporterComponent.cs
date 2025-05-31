@@ -36,7 +36,7 @@ public sealed partial class SwapTeleporterComponent : Component
     /// <summary>
     /// The time at which <see cref="Cooldown"/> ends and teleportation can occur again.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
     [AutoPausedField]
     public TimeSpan NextTeleportUse;
 

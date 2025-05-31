@@ -27,13 +27,13 @@ public sealed partial class PendingZombieComponent : Component
     [DataField("critDamageMultiplier")]
     public float CritDamageMultiplier = 10f;
 
-    [DataField("nextTick", customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextTick;
 
     /// <summary>
     /// The amount of time left before the infected begins to take damage.
     /// </summary>
-    [DataField("gracePeriod"), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan GracePeriod = TimeSpan.Zero;
 
     /// <summary>

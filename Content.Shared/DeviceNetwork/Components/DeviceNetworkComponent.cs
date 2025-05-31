@@ -109,6 +109,12 @@ namespace Content.Shared.DeviceNetwork.Components
         public bool SavableAddress = true;
 
         /// <summary>
+        ///     Whether the device is connected to the network, set only right before serialization
+        /// </summary>
+        [DataField]
+        public bool IsConnected;
+
+        /// <summary>
         ///     A list of device-lists that this device is on.
         /// </summary>
         [DataField]

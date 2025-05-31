@@ -40,7 +40,7 @@ public sealed partial class AnomalySynchronizerComponent : Component
     [DataField]
     public TimeSpan CheckFrequency = TimeSpan.FromSeconds(1f);
 
-    [DataField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextCheckTime = TimeSpan.Zero;
 
     [DataField]

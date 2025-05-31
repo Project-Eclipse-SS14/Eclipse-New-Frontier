@@ -60,13 +60,13 @@ public sealed partial class AmeControllerComponent : SharedAmeControllerComponen
     /// <summary>
     /// The last time this could have injected fuel into the AME.
     /// </summary>
-    [DataField("lastUpdate")]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan LastUpdate = default!;
 
     /// <summary>
     /// The next time this will try to inject fuel into the AME.
     /// </summary>
-    [DataField("nextUpdate")]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextUpdate = default!;
 
     /// <summary>

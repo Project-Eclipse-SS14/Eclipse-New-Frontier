@@ -40,7 +40,7 @@ public sealed partial class EmoteOnDamageComponent : Component
     /// <summary>
     /// The simulation time of the last emote preformed due to taking damage.
     /// </summary>
-    [DataField("lastEmoteTime", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan LastEmoteTime = TimeSpan.Zero;
 

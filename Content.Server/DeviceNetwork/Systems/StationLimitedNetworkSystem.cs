@@ -1,4 +1,5 @@
 using Content.Server.DeviceNetwork.Components;
+using Content.Server.SelfShipyard.Events;
 using Content.Server.Station.Systems;
 using Content.Shared.DeviceNetwork.Events;
 using JetBrains.Annotations;
@@ -17,6 +18,7 @@ namespace Content.Server.DeviceNetwork.Systems
         {
             base.Initialize();
             SubscribeLocalEvent<StationLimitedNetworkComponent, MapInitEvent>(OnMapInit);
+            SubscribeLocalEvent<StationLimitedNetworkComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
             SubscribeLocalEvent<StationLimitedNetworkComponent, BeforePacketSentEvent>(OnBeforePacketSent);
         }
 
@@ -47,6 +49,16 @@ namespace Content.Server.DeviceNetwork.Systems
         /// Set the station id to the one the entity is on when the station limited component is added
         /// </summary>
         private void OnMapInit(EntityUid uid, StationLimitedNetworkComponent networkComponent, MapInitEvent args)
+        {
+            Init(uid, networkComponent);
+        }
+
+        private void OnDeserialized(EntityUid uid, StationLimitedNetworkComponent networkComponent, AfterShuttleDeserializedEvent args)
+        {
+            Init(uid, networkComponent);
+        }
+
+        private void Init(EntityUid uid, StationLimitedNetworkComponent networkComponent)
         {
             networkComponent.StationId = _stationSystem.GetOwningStation(uid);
         }

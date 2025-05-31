@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server.SelfShipyard.Events; // Eclipse
 using Content.Shared.Examine;
 using Content.Shared.Lathe;
 using Content.Shared.Research.Components;
@@ -23,10 +24,16 @@ public abstract class SharedResearchSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<TechnologyDatabaseComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<TechnologyDatabaseComponent, AfterShuttleDeserializedEvent>(OnAfterDeserialized); // Eclipse
         SubscribeLocalEvent<ResearchServerComponent, ExaminedEvent>(OnServerExamined); // Frontier
     }
 
     private void OnMapInit(EntityUid uid, TechnologyDatabaseComponent component, MapInitEvent args)
+    {
+        UpdateTechnologyCards(uid, component);
+    }
+
+    private void OnAfterDeserialized(EntityUid uid, TechnologyDatabaseComponent component, AfterShuttleDeserializedEvent args)
     {
         UpdateTechnologyCards(uid, component);
     }
@@ -144,7 +151,7 @@ public abstract class SharedResearchSystem : EntitySystem
             if (allTierTech.Count == 0)
                 break;
 
-            var percent = (float) unlockedTierTech.Count / allTierTech.Count;
+            var percent = (float)unlockedTierTech.Count / allTierTech.Count;
             if (percent < techDiscipline.TierPrerequisites[tier])
                 break;
 

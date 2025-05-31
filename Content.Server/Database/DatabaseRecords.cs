@@ -1,6 +1,7 @@
 using System.Net;
 using Content.Shared.Database;
 using Robust.Shared.Network;
+using Robust.Shared.Utility;
 
 namespace Content.Server.Database;
 
@@ -125,3 +126,14 @@ public sealed record PlayerRecord(
 public sealed record RoundRecord(int Id, DateTimeOffset? StartDate, ServerRecord Server);
 
 public sealed record ServerRecord(int Id, string Name);
+
+// Start-Eclipse
+public sealed record OwnedVesselRecord(
+    int Id,
+    string PrototypeId,
+    string Name,
+    string? Description,
+    int Price,
+    ResPath ShuttlePath
+);
+// End-Eclipse

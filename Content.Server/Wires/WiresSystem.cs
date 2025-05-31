@@ -4,6 +4,7 @@ using System.Threading;
 using Content.Server.Construction;
 using Content.Server.Construction.Components;
 using Content.Server.Power.Components;
+using Content.Server.SelfShipyard.Events; // Eclipse
 using Content.Shared.DoAfter;
 using Content.Shared.GameTicking;
 using Content.Shared.Hands.Components;
@@ -49,6 +50,7 @@ public sealed class WiresSystem : SharedWiresSystem
         SubscribeLocalEvent<WiresComponent, TimedWireEvent>(OnTimedWire);
         SubscribeLocalEvent<WiresComponent, PowerChangedEvent>(OnWiresPowered);
         SubscribeLocalEvent<WiresComponent, WireDoAfterEvent>(OnDoAfter);
+        SubscribeLocalEvent<WiresComponent, AfterShuttleDeserializedEvent>(OnAfterShuttleDeserialized); // Eclipse
         SubscribeLocalEvent<WiresPanelSecurityComponent, WiresPanelSecurityEvent>(SetWiresPanelSecurity);
     }
 
@@ -464,6 +466,19 @@ public sealed class WiresSystem : SharedWiresSystem
 
     private void OnMapInit(EntityUid uid, WiresComponent component, MapInitEvent args)
     {
+        Init(uid, component); // Eclipse
+    }
+
+    private void OnAfterShuttleDeserialized(EntityUid uid, WiresComponent component, AfterShuttleDeserializedEvent args)
+    {
+        Init(uid, component); // Eclipse
+    }
+    #endregion
+
+    #region Entity API
+    // Eclipse-Start
+    private void Init(EntityUid uid, WiresComponent component)
+    {
         if (!string.IsNullOrEmpty(component.LayoutId))
             SetOrCreateWireLayout(uid, component);
 
@@ -483,9 +498,8 @@ public sealed class WiresSystem : SharedWiresSystem
 
         UpdateUserInterface(uid);
     }
-    #endregion
+    // Eclipse-End
 
-    #region Entity API
     private void GenerateSerialNumber(EntityUid uid, WiresComponent? wires = null)
     {
         if (!Resolve(uid, ref wires))
@@ -499,7 +513,7 @@ public sealed class WiresSystem : SharedWiresSystem
             for (var i = 0; i < 4; i++)
             {
                 // Cyrillic Letters
-                data[i] = (char) _random.Next(0x0410, 0x0430);
+                data[i] = (char)_random.Next(0x0410, 0x0430);
             }
         }
         else
@@ -507,14 +521,14 @@ public sealed class WiresSystem : SharedWiresSystem
             for (var i = 0; i < 4; i++)
             {
                 // Letters
-                data[i] = (char) _random.Next(0x41, 0x5B);
+                data[i] = (char)_random.Next(0x41, 0x5B);
             }
         }
 
         for (var i = 5; i < 9; i++)
         {
             // Digits
-            data[i] = (char) _random.Next(0x30, 0x3A);
+            data[i] = (char)_random.Next(0x30, 0x3A);
         }
 
         wires.SerialNumber = new string(data);

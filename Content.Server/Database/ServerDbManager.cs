@@ -22,6 +22,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using LogLevel = Robust.Shared.Log.LogLevel;
 using MSLogLevel = Microsoft.Extensions.Logging.LogLevel;
+using Robust.Shared.Utility;
 
 namespace Content.Server.Database
 {
@@ -343,6 +344,16 @@ namespace Content.Server.Database
         Task<bool> CleanIPIntelCache(TimeSpan range);
 
         #endregion
+
+        Task<int> AddOwnedShuttle(Guid player, string prototypeId, string name, string? description, int price, ResPath shuttlePath);
+
+        Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath);
+
+        Task RemoveOwnedShuttle(int shuttleId, Guid player);
+
+        Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId);
+
+        Task<List<OwnedVesselRecord>> GetOwnedShuttlesForPlayer(Guid player);
 
         #region DB Notifications
 
@@ -1029,7 +1040,7 @@ namespace Content.Server.Database
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.RemoveJobWhitelist(player, job));
         }
-        
+
         // Frontier: ghost role DB ops
         public Task AddGhostRoleWhitelist(Guid player, ProtoId<GhostRolePrototype> ghostRole)
         {
@@ -1064,6 +1075,45 @@ namespace Content.Server.Database
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.CleanIPIntelCache(range));
+        }
+
+        public Task<int> AddOwnedShuttle(Guid player, string prototypeId, string name, string? description, int price, ResPath shuttlePath)
+        {
+            DbWriteOpsMetric.Inc();
+
+            var record = new OwnedShuttles
+            {
+                PlayerUserId = player,
+                ShuttlePrototypeId = prototypeId,
+                ShuttleName = name,
+                ShuttleDescription = description,
+                ShuttleSavePrice = price,
+                ShuttlePath = shuttlePath.ToString()
+            };
+
+            return RunDbCommand(() => _db.AddOwnedShuttle(record));
+        }
+
+        public Task UpdateOwnedShuttlePath(int shuttleId, Guid player, string shuttlePath)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.UpdateOwnedShuttlePath(shuttleId, player, shuttlePath));
+        }
+
+        public Task RemoveOwnedShuttle(int shuttleId, Guid player)
+        {
+            DbWriteOpsMetric.Inc();
+            return RunDbCommand(() => _db.RemoveOwnedShuttle(shuttleId, player));
+        }
+
+        public Task<OwnedVesselRecord?> GetOwnedShuttle(Guid player, int vesselId)
+        {
+            return RunDbCommand(() => _db.GetOwnedShuttle(player, vesselId));
+        }
+
+        public Task<List<OwnedVesselRecord>> GetOwnedShuttlesForPlayer(Guid player)
+        {
+            return RunDbCommand(() => _db.GetOwnedShuttlesForPlayer(player));
         }
 
         public void SubscribeToNotifications(Action<DatabaseNotification> handler)

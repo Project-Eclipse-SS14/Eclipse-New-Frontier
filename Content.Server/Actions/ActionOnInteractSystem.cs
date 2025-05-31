@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.Actions;
 using Content.Shared.Charges.Components;
 using Content.Shared.Charges.Systems;
@@ -25,10 +26,21 @@ public sealed class ActionOnInteractSystem : EntitySystem
 
         SubscribeLocalEvent<ActionOnInteractComponent, ActivateInWorldEvent>(OnActivate);
         SubscribeLocalEvent<ActionOnInteractComponent, AfterInteractEvent>(OnAfterInteract);
+        SubscribeLocalEvent<ActionOnInteractComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
         SubscribeLocalEvent<ActionOnInteractComponent, MapInitEvent>(OnMapInit);
     }
 
     private void OnMapInit(EntityUid uid, ActionOnInteractComponent component, MapInitEvent args)
+    {
+        Init(uid, component);
+    }
+
+    private void OnDeserialized(EntityUid uid, ActionOnInteractComponent component, AfterShuttleDeserializedEvent args)
+    {
+        Init(uid, component);
+    }
+
+    private void Init(EntityUid uid, ActionOnInteractComponent component)
     {
         if (component.Actions == null)
             return;
@@ -45,9 +57,9 @@ public sealed class ActionOnInteractSystem : EntitySystem
         if (args.Handled || !args.Complex)
             return;
 
-        if (component.ActionEntities is not {} actionEnts)
+        if (component.ActionEntities is not { } actionEnts)
         {
-            if (!TryComp<ActionsContainerComponent>(uid,  out var actionsContainerComponent))
+            if (!TryComp<ActionsContainerComponent>(uid, out var actionsContainerComponent))
                 return;
 
             actionEnts = actionsContainerComponent.Container.ContainedEntities.ToList();
@@ -70,9 +82,9 @@ public sealed class ActionOnInteractSystem : EntitySystem
         if (args.Handled)
             return;
 
-        if (component.ActionEntities is not {} actionEnts)
+        if (component.ActionEntities is not { } actionEnts)
         {
-            if (!TryComp<ActionsContainerComponent>(uid,  out var actionsContainerComponent))
+            if (!TryComp<ActionsContainerComponent>(uid, out var actionsContainerComponent))
                 return;
 
             actionEnts = actionsContainerComponent.Container.ContainedEntities.ToList();

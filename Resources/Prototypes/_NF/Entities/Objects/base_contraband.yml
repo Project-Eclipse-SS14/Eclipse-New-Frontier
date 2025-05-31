@@ -1,8 +1,18 @@
 # Frontier-specific contraband targets.
 # If you need multiple currency types, specify them in the actual object instead of inheriting multiple parents here.
 
+# Eclipse-Start
+- type: entity
+  id: BaseContraband
+  abstract: true
+  components:
+  - type: ShipyardSellCondition
+    deleteOnSale: true
+# Eclipse-End
+
 # region Class 1
 - type: entity
+  parent: BaseContraband # Eclipse
   id: BaseC1Contraband
   abstract: true
   components:
@@ -25,6 +35,7 @@
 
 # Specific parent for sensitive items (e.g. command headset, secway, secway keys) that should not be redeemed for FUCs
 - type: entity
+  parent: BaseContraband # Eclipse
   id: BaseC2ContrabandUnredeemable
   abstract: true
   components:
@@ -55,6 +66,7 @@
 
 # region Class 3 Objects
 - type: entity
+  parent: BaseContraband # Eclipse
   id: BaseC3ContrabandUnredeemable
   abstract: true
   components:

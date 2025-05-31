@@ -14,7 +14,7 @@ public sealed partial class EvaporationComponent : Component
     /// <summary>
     /// The next time we remove the EvaporationSystem reagent amount from this entity.
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField("nextTick", customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextTick = TimeSpan.Zero;
 
     /// <summary>

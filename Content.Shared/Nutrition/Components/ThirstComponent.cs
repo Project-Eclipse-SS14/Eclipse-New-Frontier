@@ -34,7 +34,7 @@ public sealed partial class ThirstComponent : Component
     /// <summary>
     /// The time when the hunger will update next.
     /// </summary>
-    [DataField("nextUpdateTime", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoNetworkedField]
     [AutoPausedField]
     public TimeSpan NextUpdateTime;

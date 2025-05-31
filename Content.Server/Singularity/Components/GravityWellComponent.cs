@@ -52,7 +52,7 @@ public sealed partial class GravityWellComponent : Component
     /// <summary>
     /// The next time at which this gravity well should pulse.
     /// </summary>
-    [DataField, Access(typeof(GravityWellSystem)), AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), Access(typeof(GravityWellSystem)), AutoPausedField]
     public TimeSpan NextPulseTime { get; internal set; } = default!;
 
     /// <summary>

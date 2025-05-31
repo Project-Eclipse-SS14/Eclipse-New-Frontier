@@ -44,7 +44,7 @@ public sealed partial class LightningArcShooterComponent : Component
     /// <summary>
     /// The time, upon reaching which the next batch of lightning bolts will be fired.
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextShootTime;
 

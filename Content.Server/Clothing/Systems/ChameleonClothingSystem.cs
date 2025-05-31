@@ -1,4 +1,5 @@
 using Content.Server.IdentityManagement;
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.Clothing.Components;
 using Content.Shared.Clothing.EntitySystems;
 using Content.Shared.IdentityManagement.Components;
@@ -18,9 +19,15 @@ public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
         base.Initialize();
         SubscribeLocalEvent<ChameleonClothingComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<ChameleonClothingComponent, ChameleonPrototypeSelectedMessage>(OnSelected);
+        SubscribeLocalEvent<ChameleonClothingComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
     }
 
     private void OnMapInit(EntityUid uid, ChameleonClothingComponent component, MapInitEvent args)
+    {
+        SetSelectedPrototype(uid, component.Default, true, component);
+    }
+
+    private void OnDeserialized(EntityUid uid, ChameleonClothingComponent component, AfterShuttleDeserializedEvent args)
     {
         SetSelectedPrototype(uid, component.Default, true, component);
     }

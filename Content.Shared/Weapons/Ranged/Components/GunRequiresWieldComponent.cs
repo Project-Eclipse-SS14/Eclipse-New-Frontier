@@ -10,7 +10,7 @@ namespace Content.Shared.Weapons.Ranged.Components;
 [Access(typeof(SharedWieldableSystem))]
 public sealed partial class GunRequiresWieldComponent : Component
 {
-    [DataField, AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
     public TimeSpan LastPopup;
 
     [DataField, AutoNetworkedField]

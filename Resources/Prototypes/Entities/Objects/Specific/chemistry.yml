@@ -95,6 +95,8 @@
   - type: DnaSubstanceTrace
   - type: TrashOnSolutionEmpty # Frontier
     solution: beaker # Frontier
+  - type: ShipyardSellCondition # Eclipse
+    clearSolutionsOnSale: true
 
 - type: entity
   parent: BaseItem

@@ -41,7 +41,7 @@ public sealed partial class SolutionPurgeComponent : Component
     /// <summary>
     /// The time when the next purge will occur.
     /// </summary>
-    [DataField("nextPurgeTime", customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextPurgeTime = TimeSpan.FromSeconds(0);
 }

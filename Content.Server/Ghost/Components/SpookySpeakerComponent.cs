@@ -32,6 +32,6 @@ public sealed partial class SpookySpeakerComponent : Component
     /// <summary>
     /// Time when the cooldown will have elapsed and the entity can speak again.
     /// </summary>
-    [DataField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextSpeakTime;
 }

@@ -1,3 +1,4 @@
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.Gravity;
 using JetBrains.Annotations;
 using Robust.Shared.Map.Components;
@@ -11,6 +12,7 @@ namespace Content.Server.Gravity
         {
             base.Initialize();
             SubscribeLocalEvent<GravityComponent, ComponentInit>(OnGravityInit);
+            SubscribeLocalEvent<GravityComponent, AfterShuttleDeserializedEvent>(OnGravityDeserialized);
         }
 
         /// <summary>
@@ -50,6 +52,16 @@ namespace Content.Server.Gravity
         }
 
         private void OnGravityInit(EntityUid uid, GravityComponent component, ComponentInit args)
+        {
+            GravityInit(uid);
+        }
+
+        private void OnGravityDeserialized(EntityUid uid, GravityComponent component, AfterShuttleDeserializedEvent args)
+        {
+            GravityInit(uid);
+        }
+
+        private void GravityInit(EntityUid uid)
         {
             RefreshGravity(uid);
         }

@@ -58,7 +58,7 @@ public sealed partial class PowerSensorComponent : Component
     /// <summary>
     /// Time at which power will be checked.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextCheck = TimeSpan.Zero;
 
     /// <summary>

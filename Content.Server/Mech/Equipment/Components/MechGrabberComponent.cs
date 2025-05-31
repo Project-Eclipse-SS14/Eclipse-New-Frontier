@@ -50,7 +50,7 @@ public sealed partial class MechGrabberComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     public Container ItemContainer = default!;
 
-    [DataField, ViewVariables(VVAccess.ReadOnly)]
+    [ViewVariables(VVAccess.ReadOnly)]
     public DoAfterId? DoAfter;
 
     /// <summary>

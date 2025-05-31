@@ -8,7 +8,7 @@ namespace Content.Shared.Materials;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 [Access(typeof(SharedMaterialStorageSystem))]
-public sealed partial class MaterialStorageComponent : Component
+public sealed partial class MaterialStorageComponent : Component, ISerializationHooks
 {
     [DataField, AutoNetworkedField]
     public Dictionary<ProtoId<MaterialPrototype>, int> Storage { get; set; } = new();
@@ -67,6 +67,29 @@ public sealed partial class MaterialStorageComponent : Component
     /// </summary>
     [DataField]
     public bool CanEjectStoredMaterials = true;
+
+    void ISerializationHooks.AfterDeserialization()
+    {
+        var entityManager = IoCManager.Resolve<EntityManager>();
+        if (!entityManager.Initialized)
+        {
+            return;
+        }
+        try
+        {
+            // No way to check if EntitySysManager is initialized directly, so we're checking it this way
+            var _ = entityManager.EntitySysManager.DependencyCollection;
+        }
+        catch (InvalidOperationException)
+        {
+            return;
+        }
+        var appearance = entityManager.SystemOrNull<SharedAppearanceSystem>();
+        if (appearance != null)
+        {
+            appearance.SetData(Owner, MaterialStorageVisuals.Inserting, false);
+        }
+    }
 }
 
 [Serializable, NetSerializable]

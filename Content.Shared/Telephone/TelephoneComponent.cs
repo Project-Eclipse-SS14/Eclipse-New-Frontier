@@ -43,7 +43,7 @@ public sealed partial class TelephoneComponent : Component
     /// <summary>
     /// The time at which the next tone will be played
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextRingToneTime;
 
     /// <summary>

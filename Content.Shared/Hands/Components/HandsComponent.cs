@@ -68,7 +68,7 @@ public sealed partial class HandsComponent : Component
     /// <summary>
     ///     The time at which throws will be allowed again.
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextThrowTime;
 

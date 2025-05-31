@@ -100,3 +100,5 @@
     guides:
     - Chemicals
     - Chemist
+  - type: ShipyardSellCondition # Eclipse
+    clearSolutionsOnSale: true

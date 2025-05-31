@@ -60,7 +60,7 @@ public sealed partial class GunComponent : Component
     /// Last time the gun fired.
     /// Used for recoil purposes.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan LastFire = TimeSpan.Zero;
 
     /// <summary>
@@ -225,7 +225,7 @@ public sealed partial class GunComponent : Component
     /// When the gun is next available to be shot.
     /// Can be set multiple times in a single tick due to guns firing faster than a single tick time.
     /// </summary>
-    [DataField(customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoNetworkedField]
     [AutoPausedField]
     public TimeSpan NextFire = TimeSpan.Zero;

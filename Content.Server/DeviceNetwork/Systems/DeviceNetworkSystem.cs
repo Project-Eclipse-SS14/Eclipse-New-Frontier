@@ -8,6 +8,8 @@ using Content.Shared.DeviceNetwork.Components;
 using Content.Shared.DeviceNetwork.Events;
 using Content.Shared.DeviceNetwork.Systems;
 using Content.Shared.Examine;
+using Content.Server.SelfShipyard.Events;
+using Robust.Shared.Map.Events;
 
 namespace Content.Server.DeviceNetwork.Systems
 {
@@ -42,6 +44,8 @@ namespace Content.Server.DeviceNetwork.Systems
         public override void Initialize()
         {
             SubscribeLocalEvent<DeviceNetworkComponent, MapInitEvent>(OnMapInit);
+            SubscribeLocalEvent<DeviceNetworkComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
+            SubscribeLocalEvent<DeviceNetworkComponent, BeforeSerializationEvent>(OnBeforeSerialization);
             SubscribeLocalEvent<DeviceNetworkComponent, ComponentShutdown>(OnNetworkShutdown);
             SubscribeLocalEvent<DeviceNetworkComponent, ExaminedEvent>(OnExamine);
 
@@ -105,6 +109,16 @@ namespace Content.Server.DeviceNetwork.Systems
         /// </summary>
         private void OnMapInit(EntityUid uid, DeviceNetworkComponent device, MapInitEvent args)
         {
+            Init(uid, device);
+        }
+
+        private void OnDeserialized(EntityUid uid, DeviceNetworkComponent device, AfterShuttleDeserializedEvent args)
+        {
+            Init(uid, device);
+        }
+
+        private void Init(EntityUid uid, DeviceNetworkComponent device)
+        {
             if (device.ReceiveFrequency == null
                 && device.ReceiveFrequencyId != null
                 && _protoMan.TryIndex<DeviceFrequencyPrototype>(device.ReceiveFrequencyId, out var receive))
@@ -119,7 +133,7 @@ namespace Content.Server.DeviceNetwork.Systems
                 device.TransmitFrequency = xmit.Frequency;
             }
 
-            if (device.AutoConnect)
+            if (device.AutoConnect || device.IsConnected)
                 ConnectDevice(uid, device);
         }
 
@@ -130,6 +144,11 @@ namespace Content.Server.DeviceNetwork.Systems
             var newDeviceNet = new DeviceNet(netId, _random);
             _networks[netId] = newDeviceNet;
             return newDeviceNet;
+        }
+
+        private void OnBeforeSerialization(EntityUid uid, DeviceNetworkComponent component, BeforeSerializationEvent ev)
+        {
+            component.IsConnected = IsDeviceConnected(uid, component);
         }
 
         /// <summary>

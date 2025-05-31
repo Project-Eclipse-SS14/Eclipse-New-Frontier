@@ -13,7 +13,7 @@ namespace Content.Shared._DV.Abilities;
 [AutoGenerateComponentPause]
 public sealed partial class CoughingUpItemComponent : Component
 {
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextCough;
 }

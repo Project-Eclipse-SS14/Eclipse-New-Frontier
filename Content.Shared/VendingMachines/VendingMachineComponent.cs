@@ -164,7 +164,7 @@ namespace Content.Shared.VendingMachines
         /// <summary>
         ///     While disabled by EMP it randomly ejects items
         /// </summary>
-        [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+        [ViewVariables(VVAccess.ReadWrite)]
         public TimeSpan NextEmpEject = TimeSpan.Zero;
 
         #region Client Visuals
@@ -250,14 +250,14 @@ namespace Content.Shared.VendingMachines
         // End Frontier: taxes, cash slot
     }
 
-    [Serializable, NetSerializable]
-    public sealed class VendingMachineInventoryEntry
+    [ImplicitDataDefinitionForInheritors, Serializable, NetSerializable]
+    public sealed partial class VendingMachineInventoryEntry
     {
-        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField]
         public InventoryType Type;
-        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField]
         public string ID;
-        [ViewVariables(VVAccess.ReadWrite)]
+        [DataField]
         public uint Amount;
         public VendingMachineInventoryEntry(InventoryType type, string id, uint amount)
         {

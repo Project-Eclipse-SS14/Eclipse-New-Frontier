@@ -10,13 +10,13 @@ namespace Content.Shared.MagicMirror;
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class MagicMirrorComponent : Component
 {
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public DoAfterId? DoAfter;
 
     /// <summary>
     /// Magic mirror target, used for validating UI messages.
     /// </summary>
-    [DataField, AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
     public EntityUid? Target;
 
     /// <summary>

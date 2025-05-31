@@ -127,6 +127,8 @@
     containers:
       cash_slot: !type:ContainerSlot
   # End Frontier
+  - type: ShipyardSellCondition # Eclipse
+    deleteOnSale: true
 
 - type: entity
   parent: VendingMachine
