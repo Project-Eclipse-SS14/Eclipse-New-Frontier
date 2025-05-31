@@ -515,7 +515,7 @@ public sealed partial class GunSystem : SharedGunSystem
             if (!ammoProto.TryGetComponent(fixturesCompName, out FixturesComponent? fixtures))
                 return Fallback();
 
-            foreach (var (_, fixture) in fixtures.Fixtures)
+            if (fixtures.Fixtures.TryGetValue(SharedProjectileSystem.ProjectileFixture, out var fixture))
             {
                 collisionGroup |= (CollisionGroup)fixture.CollisionMask;
             }
@@ -528,7 +528,7 @@ public sealed partial class GunSystem : SharedGunSystem
             if (!ammoProto.TryGetComponent(fixturesCompName, out FixturesComponent? fixtures))
                 return Fallback();
 
-            foreach (var (_, fixture) in fixtures.Fixtures)
+            if (fixtures.Fixtures.TryGetValue(SharedProjectileSystem.ProjectileFixture, out var fixture))
             {
                 collisionGroup |= (CollisionGroup)fixture.CollisionMask;
             }
