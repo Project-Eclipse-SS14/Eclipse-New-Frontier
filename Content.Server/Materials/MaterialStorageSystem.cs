@@ -34,6 +34,7 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
         base.Initialize();
         SubscribeLocalEvent<MaterialStorageComponent, MachineDeconstructedEvent>(OnDeconstructed);
         SubscribeLocalEvent<MaterialStorageComponent, PriceCalculationEvent>(OnPriceCalculation); // Frontier
+        SubscribeLocalEvent<MaterialStorageComponent, DropMaterialStorageEvent>(OnDropMaterials); // Eclipse
 
         SubscribeAllEvent<EjectMaterialMessage>(OnEjectMessage);
     }
@@ -48,6 +49,16 @@ public sealed class MaterialStorageSystem : SharedMaterialStorageSystem
             SpawnMultipleFromMaterial(amount, material, Transform(uid).Coordinates);
         }
     }
+
+    // Eclipse-Start
+    private void OnDropMaterials(EntityUid uid, MaterialStorageComponent component, DropMaterialStorageEvent args)
+    {
+        foreach (var (material, amount) in component.Storage)
+        {
+            SpawnMultipleFromMaterial(amount, material, Transform(uid).Coordinates);
+        }
+    }
+    // Eclipse-End
 
     // Start Frontier: add value of contents to appraisal price
     private void OnPriceCalculation(EntityUid uid, MaterialStorageComponent component, ref PriceCalculationEvent ev)
