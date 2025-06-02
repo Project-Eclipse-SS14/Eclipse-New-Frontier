@@ -246,6 +246,7 @@
   components:
   - type: PowerSupplier
     supplyRate: 8000 # Eclipse 10000 -> 8000
+    enabled: false # Eclipse
   # Eclipse-Start
   - type: FuelGenerator
     minTargetPower: 1000
@@ -268,6 +269,28 @@
     materialWhiteList: [FuelGradePlutonium, FuelPlutoniumTrash]
   - type: PortableGenerator
     startChance: 0.8
+  - type: FuelGradeAdapter
+    conversions:
+    - input: FuelPlutoniumTrash
+      output: FuelGradePlutonium
+      rate: 0.8
+  - type: DeviceLinkSink
+    ports:
+    - On
+    - Off
+    - Toggle
+  - type: GeneratorSignalControl
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: Construction
+    graph: GeneratorRTG
+    node: generator_rtg
+    deconstructionTarget: null
+  - type: MaterialStorageMagnetPickup
+    range: 0.30
   # Eclipse-End
   - type: Sprite
     sprite: Structures/Power/Generation/rtg.rsi
@@ -298,11 +321,14 @@
           - !type:PlaySoundBehavior
             sound:
               collection: MetalBreak
-          - !type:SpawnEntitiesBehavior
-            spawn:
-              GeneratorRTGDamaged:
-                min: 1
-                max: 1
+          # Eclipse-Start : repairable rtgs
+          - !type:EmptyAndDamageMaterialStorageBehavior
+            damage:
+              types:
+                Blunt: 5 # Just enough to break plutonium cells
+          - !type:ChangeConstructionNodeBehavior
+            node: generator_rtg_broken
+          # Eclipse-End
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
   - type: PirateBountyItem # Frontier
@@ -349,3 +375,9 @@
             max: 5
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  # Eclipse-Start : repairable rtgs
+  - type: Construction
+    graph: GeneratorRTG
+    node: generator_rtg_broken
+    deconstructionTarget: null
+  # Eclipse-End

@@ -1,0 +1,26 @@
+- type: constructionGraph
+  id: GeneratorRTG
+  start: generator_rtg
+  graph:
+    - node: generator_rtg
+      entity: GeneratorRTG
+
+    - node: generator_rtg_broken
+      entity: GeneratorRTGDamaged
+      edges:
+        - to: generator_rtg
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+            - !type:RaiseEvent
+              event: !type:DropMaterialStorageEvent
+              broadcast: false
+          conditions:
+            - !type:EntityAnchored
+              anchored: true
+          steps:
+            - material: Plasteel
+              amount: 2
+              doAfter: 2
+            - tool: Welding
+              doAfter: 4

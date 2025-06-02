@@ -33,7 +33,7 @@
         mask:
           - MobMask
         layer:
-          - MobLayer
+          - None # Eclipse MobLayer -> None
         hard: true
   - type: Pullable
   - type: Damageable
