@@ -8,7 +8,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.SprayPainter.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-public sealed partial class PaintableAirlockComponent : Component, ISerializationHooks
+public sealed partial class PaintableAirlockComponent : Component
 {
     /// <summary>
     /// Group of styles this airlock can be painted with, e.g. glass, standard or external.
@@ -29,29 +29,4 @@ public sealed partial class PaintableAirlockComponent : Component, ISerializatio
     /// </summary>
     [DataField]
     public string LastSetSprite = string.Empty;
-
-    void ISerializationHooks.AfterDeserialization()
-    {
-        if (string.IsNullOrEmpty(LastSetSprite))
-            return;
-
-        var entityManager = IoCManager.Resolve<EntityManager>();
-        if (!entityManager.Initialized)
-            return;
-
-        try
-        {
-            // No way to check if EntitySysManager is initialized directly, so we're checking it this way
-            var _ = entityManager.EntitySysManager.DependencyCollection;
-        }
-        catch (InvalidOperationException)
-        {
-            return;
-        }
-        var appearance = entityManager.SystemOrNull<SharedAppearanceSystem>();
-        if (appearance != null)
-        {
-            appearance.SetData(Owner, DoorVisuals.BaseRSI, LastSetSprite);
-        }
-    }
 }

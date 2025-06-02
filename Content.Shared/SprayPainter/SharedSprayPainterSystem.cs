@@ -1,3 +1,4 @@
+using Content.Server.SelfShipyard.Events;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
 using Content.Shared.DoAfter;
@@ -46,6 +47,7 @@ public abstract class SharedSprayPainterSystem : EntitySystem
         });
 
         SubscribeLocalEvent<PaintableAirlockComponent, InteractUsingEvent>(OnAirlockInteract);
+        SubscribeLocalEvent<PaintableAirlockComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
 
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypesReloaded);
     }
@@ -144,6 +146,17 @@ public abstract class SharedSprayPainterSystem : EntitySystem
     }
 
     #region Style caching
+
+    private void OnDeserialized(EntityUid uid, PaintableAirlockComponent comp, AfterShuttleDeserializedEvent args)
+    {
+        if (string.IsNullOrEmpty(comp.LastSetSprite))
+            return;
+
+        if (Appearance != null)
+        {
+            Appearance.SetData(uid, DoorVisuals.BaseRSI, comp.LastSetSprite);
+        }
+    }
 
     private void OnPrototypesReloaded(PrototypesReloadedEventArgs args)
     {
