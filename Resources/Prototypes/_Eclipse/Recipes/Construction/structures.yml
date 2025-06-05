@@ -7,7 +7,7 @@
   category: construction-category-structures
   description: Keeps the air in and the greytide out.
   icon:
-    sprite: Structures/Walls/solid_diagonal.rsi
+    sprite: _NF/Structures/Walls/solid_diagonal.rsi # Frontier: use _NF variant
     state: state0
   objectType: Structure
   placementMode: SnapgridCenter
