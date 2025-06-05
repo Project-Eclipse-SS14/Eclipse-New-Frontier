@@ -169,7 +169,6 @@
       map: [ "overlayUnshaded" ]
       shader: unshaded
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -235,7 +234,6 @@
         layer:
           - FlyingMobLayer
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -707,7 +705,6 @@
     - sprite: _NF/Mobs/RogueSilicons/robots.rsi
       state: r_leg_servo
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -751,7 +748,6 @@
     - sprite: Objects/Weapons/Melee/stunprod.rsi
       state: on-inhand-right
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -865,7 +861,6 @@
     - sprite: _NF/Mobs/RogueSilicons/robots.rsi
       state: overlay_r_arm_claws
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -924,7 +919,6 @@
     - sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
       state: inhand-right
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -1060,7 +1054,6 @@
       state: onestar_boss_screen
       shader: unshaded
   - type: DamageStateVisuals
-    rotate: true
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
