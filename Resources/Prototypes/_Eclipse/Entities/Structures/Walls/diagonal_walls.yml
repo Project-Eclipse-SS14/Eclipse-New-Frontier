@@ -118,13 +118,13 @@
   components:
     - type: Sprite
       drawdepth: Walls
-      sprite: Structures/Walls/solid_diagonal.rsi
+      sprite: _NF/Structures/Walls/solid_diagonal.rsi # Frontier: use _NF variant
       state: state0
     - type: Construction
       graph: Girder
       node: diagonalWall
     - type: Icon
-      sprite: Structures/Walls/solid_diagonal.rsi
+      sprite: _NF/Structures/Walls/solid_diagonal.rsi # Frontier: use _NF variant
       state: state0
     - type: IconSmooth
       mode: Diagonal
