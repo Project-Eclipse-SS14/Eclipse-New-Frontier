@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Druid
   description: A medium service vessel providing botanical and chemical services to support the needs of the Frontier. Designed, developed and deployed by the Far Star Biotech company to render aid wherever it is needed.
-  price: 45000 # 15% t2.
+  price: 125000 # 15% t2. # Eclipse 45000 -> 125000
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/druid.yml
