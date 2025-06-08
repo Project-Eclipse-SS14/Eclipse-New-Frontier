@@ -45,7 +45,7 @@ public sealed partial class AnomalyGeneratorComponent : Component
     /// The amount of material needed to generate a single anomaly
     /// </summary>
     [DataField("materialPerAnomaly"), ViewVariables(VVAccess.ReadWrite)]
-    public int MaterialPerAnomaly = 1500; // Frontier - 1500<300 // Eclipse: 300 to 1500
+    public int MaterialPerAnomaly = 600; // Frontier - 1500<300 // Eclipse: 300 to 600
 
     /// <summary>
     /// The random anomaly spawner entity
