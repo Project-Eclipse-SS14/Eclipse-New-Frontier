@@ -13,7 +13,7 @@
       tags:
       - FirelockElectronics
     - type: StaticPrice
-      price: 14
+      price: 8 # Eclipse
     - type: PhysicalComposition
       materialComposition:
         Glass: 0

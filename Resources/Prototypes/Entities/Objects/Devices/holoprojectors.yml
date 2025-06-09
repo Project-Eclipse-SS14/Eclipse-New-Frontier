@@ -68,7 +68,7 @@
     tags:
       - HolofanProjector
   - type: StaticPrice
-    price: 80
+    price: 20 # Eclipse
   - type: GuideHelp
     guides:
     - AtmosTools
@@ -115,7 +115,7 @@
       tags:
         - HolofanProjector
     - type: StaticPrice
-      price: 130
+      price: 50 # Eclipse
 
 - type: entity
   parent: HoloprojectorField
@@ -144,7 +144,7 @@
         - HolofanProjector
         - SecBeltEquip
     - type: StaticPrice
-      price: 50
+      price: 15 # Eclipse
 
 - type: entity
   parent: HoloprojectorSecurity

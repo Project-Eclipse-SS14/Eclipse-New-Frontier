@@ -14,7 +14,7 @@
     containers:
     - entity_storage
   - type: StaticPrice
-    price: 15 # 12 spesos at 0.75x, proportional to the plastic crate if deconstructable for 1 sheet
+    price: 7 # Eclipse
 
 - type: entity
   parent: CrateBaseSecure

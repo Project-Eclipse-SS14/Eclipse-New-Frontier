@@ -9,4 +9,4 @@
     state: icon
   - type: AirFreshener
   - type: StaticPrice
-    price: 10
+    price: 5 # Eclipse

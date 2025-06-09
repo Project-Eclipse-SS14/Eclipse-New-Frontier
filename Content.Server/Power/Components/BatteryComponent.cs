@@ -30,7 +30,7 @@ namespace Content.Server.Power.Components
         /// The price per one joule. Default is 1 credit for 20kJ.
         /// </summary>
         [DataField]
-        public float PricePerJoule = 0.00005f; // Eclipse 0.0001 -> 0.00005
+        public float PricePerJoule = 0.000025f; // Eclipse 0.0001 -> 0.000025
     }
 
     /// <summary>

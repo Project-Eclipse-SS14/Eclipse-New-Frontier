@@ -61,7 +61,7 @@
     containers:
       DisposalTube: !type:Container
   - type: StaticPrice
-    price: 22 # Frontier: 30<22 - TODO: material value rework
+    price: 15 # Eclipse
   - type: DisposalPipeRestrictOverlap # Eclipse
 
 - type: entity
@@ -90,7 +90,7 @@
     graph: DisposalPipe
     node: broken
   - type: StaticPrice
-    price: 6 # Frontier 1<6
+    price: 1 # Eclipse
 
 - type: entity
   id: DisposalPipe

@@ -23,7 +23,7 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
   - type: StaticPrice
-    price: 400
+    price: 200 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-shotgun
 

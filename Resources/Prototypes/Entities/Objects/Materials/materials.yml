@@ -672,7 +672,7 @@
     - tooth_2
     - tooth_3
   - type: StackPrice
-    price: 50
+    price: 15 # Eclipse
   - type: Tag
     tags:
     - ToothSpaceCarp
@@ -714,7 +714,7 @@
     - tooth_2
     - tooth_3
   - type: StackPrice
-    price: 150
+    price: 40 # Eclipse
   - type: Tag
     tags:
     - Knife
@@ -806,7 +806,7 @@
   - type: StaticPrice
     price: 0
   - type: StackPrice
-    price: 1500
+    price: 450 # Eclipse
   - type: Appearance
   - type: Stack
     stackType: GoliathHide

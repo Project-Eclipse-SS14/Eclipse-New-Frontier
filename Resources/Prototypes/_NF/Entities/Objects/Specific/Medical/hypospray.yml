@@ -27,7 +27,7 @@
   - type: UseDelay
     delay: 2.5
   - type: StaticPrice
-    price: 550
+    price: 50 # Eclipse
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 2

@@ -283,7 +283,7 @@
       path: /Audio/Ambience/Objects/vending_machine_hum.ogg
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 5000 # Eclipse
   - type: Advertise
     pack: CuddlyCritterAds
   - type: PointLight
@@ -382,7 +382,7 @@
     anchored: true
   - type: Pullable
   - type: StaticPrice
-    price: 800
+    price: 50 # Eclipse
   - type: ResearchClient
   - type: TechnologyDatabase
   - type: MaterialStorageMagnetPickup

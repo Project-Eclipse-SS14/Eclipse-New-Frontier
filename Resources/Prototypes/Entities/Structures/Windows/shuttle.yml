@@ -52,7 +52,7 @@
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
   - type: StaticPrice
-    price: 70 # Frontier: 150<70
+    price: 40 # Eclipse
 
 - type: entity
   parent: ShuttleWindow

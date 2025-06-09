@@ -176,7 +176,7 @@
     stackRequirements:
       Steel: 5
   - type: StaticPrice
-    price: 18 # 12.5<18
+    price: 8 # Eclipse
   - type: Tag # Frontier
     tags: # Frontier
     - SmallThrusterMachineCircuitboard # Frontier
@@ -212,7 +212,7 @@
     stackRequirements:
       Glass: 2
   - type: StaticPrice
-    price: 20
+    price: 10 # Eclipse
 
 - type: entity
   id: GyroscopeNfsdMachineCircuitboard
@@ -246,7 +246,7 @@
     stackRequirements:
       Glass: 2
   - type: StaticPrice
-    price: 18 # 12.5<18
+    price: 8 # Eclipse
 
 - type: entity
   id: SmallGyroscopeMachineCircuitboard
@@ -263,7 +263,7 @@
     stackRequirements:
       Glass: 2
   - type: StaticPrice
-    price: 17.5
+    price: 6 # Eclipse
 
 - type: entity
   parent: BaseMachineCircuitboard
@@ -302,7 +302,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 40
+      price: 15 # Eclipse
 
 - type: entity
   id: PortableGeneratorDKJrMachineCircuitboard
@@ -324,7 +324,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 40
+      price: 15 # Eclipse
 
 - type: entity
   id: BlueprintLithographMachineCircuitboard

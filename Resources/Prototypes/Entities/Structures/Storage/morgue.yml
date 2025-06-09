@@ -72,7 +72,7 @@
     anchored: true
   - type: AntiRottingContainer
   - type: StaticPrice
-    price: 200
+    price: 50 # Eclipse
 
 - type: entity
   id: Crematorium

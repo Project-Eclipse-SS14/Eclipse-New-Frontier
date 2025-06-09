@@ -39,7 +39,7 @@
       - PrizeTicket
   - type: Dumpable
   - type: StaticPrice
-    price: 55.5
+    price: 15 # Eclipse
   - type: ItemToggle
     soundActivate: &soundActivate
       collection: sparks

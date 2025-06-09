@@ -27,7 +27,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 22
+    price: 11 # Eclipse
   - type: Prying
   - type: Sprite
     sprite: _NF/Objects/Tools/crowbar.rsi # Frontier: _NF prefix

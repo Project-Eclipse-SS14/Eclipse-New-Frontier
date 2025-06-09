@@ -177,7 +177,7 @@
     materialComposition:
       Glass: 100
   - type: StaticPrice
-    price: 16
+    price: 8 # Eclipse
 
 - type: entity
   id: DrinkBottleVisualsOpenable
@@ -779,7 +779,7 @@
   # Frontier: haiku description
   description: |
     Spirit, clear or foggy
-    Taken hot or chilled on ice. 
+    Taken hot or chilled on ice.
     Fill a cup, drink up!
   # End Frontier
   components:

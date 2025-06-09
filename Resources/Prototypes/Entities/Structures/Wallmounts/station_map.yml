@@ -58,7 +58,7 @@
       containers:
         board: !type:Container
     - type: ApcPowerReceiver
-      powerLoad: 200
+      powerLoad: 2000 # Eclipse
     - type: WallMount
       arc: 360
     - type: ExtensionCableReceiver

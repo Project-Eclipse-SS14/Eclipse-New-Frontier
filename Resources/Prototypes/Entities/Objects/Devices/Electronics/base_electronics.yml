@@ -11,7 +11,7 @@
     sprite: Objects/Misc/module.rsi
     state: generic
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: PhysicalComposition
     materialComposition:
       Glass: 200

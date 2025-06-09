@@ -72,7 +72,7 @@
     - type: ReplacementAccent
       accent: genericAggressive
     - type: StaticPrice
-      price: 100
+      price: 45 # Eclipse
     - type: Butcherable
       spawned:
         - id: ArtifactFragment1

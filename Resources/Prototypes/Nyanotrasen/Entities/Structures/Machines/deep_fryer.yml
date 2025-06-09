@@ -158,7 +158,7 @@
       - !type:ChangeConstructionNodeBehavior # Delta-V
         node: machineFrame # Delta-V
   - type: ApcPowerReceiver
-    powerLoad: 300
+    powerLoad: 5000 # Eclipse
   - type: Machine
     board: DeepFryerMachineCircuitboard
   - type: EmptyOnMachineDeconstruct

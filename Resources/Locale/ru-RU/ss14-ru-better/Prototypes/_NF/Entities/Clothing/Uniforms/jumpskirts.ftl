@@ -14,7 +14,7 @@ ent-ClothingUniformJumpskirtBHGrey = нуарная юбка
 ent-ClothingUniformJumpskirtMercenary = юбка наёмника
     .desc = Одежда для настоящих наемников, прошедших огонь, воду и джунгли планет, наводненных опасными монстрами.
 # HASH: 9a81c4eaeec0f27851901e9fe9df93cd7fa8cb822ec24daa2de70a7a0eeee29a
-ent-ClothingUniformJumpskirtSecGuard = юбка службы безопасности
+ent-ClothingUniformJumpskirtSecGuard = юбка-комбинезон охранника
     .desc = Специальная униформа для охранника. Строгая и официальная, чтобы праздношатающиеся в доках знали, что вы настроены серьезно.
 # HASH: 7b740665f04c75dce76840fe4352cf1c5cb911073a6dcd74591cea750b82e41c
 ent-ClothingUniformJumpskirtNfsd = юбка ДСБФ
@@ -29,5 +29,5 @@ ent-ClothingUniformJumpskirtPublicAffairsLiaison = Юбка Представит
 ent-ClothingUniformJumpskirtPrivateSec = юбка-комбинезон частного охранника
     .desc = Специализированная униформа для частного охранника. Для взыскательных частных подрядчиков, нуждающихся в профессиональном внешнем виде.
 # HASH: e2050842a085057fb13e51fbcdc267bfa340523b88cfff1c1c462a1dfc432949
-ent-ClothingUniformJumpskirtSr = униформа представителя станции
+ent-ClothingUniformJumpskirtSr = юбка-комбинезон представителя фронтира
     .desc = Первоклассный наряд для представителя аванпоста Фронтира. На пошив не было потрачено ни копейки, каждый шов - шедевр. Тот факт, что этот костюм был выдан, говорит о доверии Центрального командования к своему представителю на этом аванпосте.

@@ -21,7 +21,7 @@
   - type: Sprite
     sprite: Objects/Fun/Instruments/h_synthesizer.rsi
   - type: StaticPrice
-    price: 90
+    price: 50 # Eclipse
 
 - type: entity
   parent: BaseKeyedInstrument

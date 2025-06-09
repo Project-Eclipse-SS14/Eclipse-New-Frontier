@@ -15,7 +15,7 @@
       bodypart: !type:Container
         ents: []
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Tag
     tags:
       - Trash

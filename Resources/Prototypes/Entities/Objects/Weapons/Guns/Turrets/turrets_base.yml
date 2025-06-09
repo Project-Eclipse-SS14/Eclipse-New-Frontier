@@ -97,7 +97,7 @@
   - type: BallisticAmmoProvider
     proto: NFCartridgeRifle25 # Frontier: CartridgeCaselessRifle<NFCartridgeRifle25 (caseless)
     capacity: 500
-      
+
 - type: entity
   parent: BaseWeaponTurret
   id: BaseWeaponEnergyTurret
@@ -131,7 +131,7 @@
     batteryRechargeRate: 200
     batteryRechargeEfficiency: 1.225
   - type: ApcPowerReceiver
-    powerLoad: 5
+    powerLoad: 50 # Eclipse
   - type: ExtensionCableReceiver
   - type: HTN
     rootTask:

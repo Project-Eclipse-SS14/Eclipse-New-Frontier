@@ -8,7 +8,7 @@
     sprite: Objects/Misc/cd.rsi
     state: icon
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Tag
     tags:
     - CoordinatesDisk

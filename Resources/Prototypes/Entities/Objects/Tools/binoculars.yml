@@ -26,4 +26,4 @@
       Steel: 100
       Glass: 50
   - type: StaticPrice
-    price: 100
+    price: 50 # Eclipse

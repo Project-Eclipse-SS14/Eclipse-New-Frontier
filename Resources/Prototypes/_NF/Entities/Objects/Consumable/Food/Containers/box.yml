@@ -23,7 +23,7 @@
       prob: 0.05
   - type: StaticPrice
     price: 1
-    vendPrice: 200 # Need this to not bug out the cardbox worth...
+    vendPrice: 2500 # Eclipse
 
 - type: entity
   id: HappyHonkMcCargoFood

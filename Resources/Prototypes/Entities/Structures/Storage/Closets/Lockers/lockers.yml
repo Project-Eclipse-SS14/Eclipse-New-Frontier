@@ -371,7 +371,7 @@
     containers:
     - entity_storage
   - type: StaticPrice
-    price: 660
+    price: 120 # Eclipse
 
 - type: entity
   id: GunSafeBaseSecure

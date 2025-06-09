@@ -49,7 +49,7 @@
   id: BaseMachinePowered
   components:
   - type: ApcPowerReceiver
-    powerLoad: 1000
+    powerLoad: 10000 # Eclipse
   - type: ExtensionCableReceiver
   - type: LightningTarget
     priority: 1

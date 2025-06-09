@@ -13,7 +13,7 @@
   - type: AmmoCounter
   - type: Appearance
   - type: StaticPrice
-    price: 500
+    price: 120 # Eclipse
 
 - type: entity
   id: NFBaseItemWeaponGunMagazineFed

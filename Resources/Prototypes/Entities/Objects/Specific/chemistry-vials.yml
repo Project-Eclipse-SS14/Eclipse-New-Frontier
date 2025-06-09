@@ -68,7 +68,7 @@
   - type: TrashOnSolutionEmpty
     solution: beaker
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: DamageOnLand
     damage:
       types:

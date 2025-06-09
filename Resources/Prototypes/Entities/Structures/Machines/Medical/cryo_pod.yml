@@ -71,7 +71,7 @@
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
   - type: ApcPowerReceiver
-    powerLoad: 3000
+    powerLoad: 30000 # Eclipse
   - type: ExtensionCableReceiver
   - type: NodeContainer
     nodes:

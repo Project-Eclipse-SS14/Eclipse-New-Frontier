@@ -48,7 +48,7 @@
         - state: extraction_point
           map: [ "foldedLayer" ]
     - type: StaticPrice
-      price: 100
+      price: 50 # Eclipse
 
 - type: entity
   id: Fulton

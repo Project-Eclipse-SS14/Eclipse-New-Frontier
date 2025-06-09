@@ -3,40 +3,40 @@
   price: 0
   equipment:
     id: ClearNFPDA
-    
+
 - type: loadout
   id: ContractorSalvagePDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorSalvagePDA
-    
+
 - type: loadout
   id: ContractorResearchAssistantPDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorResearchAssistantPDA
-    
+
 - type: loadout
   id: ContractorCargoPDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorCargoPDA
-    
+
 - type: loadout
   id: ContractorMedicalInternPDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorMedicalInternPDA
-        
+
 - type: loadout
   id: ContractorTechnicalAssistantPDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorTechnicalAssistantPDA
 
 - type: loadout
   id: ContractorServiceWorkerPDA
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     id: ContractorServiceWorkerPDA
 
@@ -46,7 +46,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorBartenderPDA
 
@@ -55,7 +55,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorChefPDA
 
@@ -64,7 +64,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorBotanistPDA
 
@@ -73,7 +73,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorChaplainPDA
 
@@ -82,7 +82,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorLibrarianPDA
 
@@ -91,7 +91,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorMedicalPDA
 
@@ -100,7 +100,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorParamedicPDA
 
@@ -109,7 +109,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorPsychologistPDA
 
@@ -118,7 +118,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorChemistryPDA
 
@@ -127,7 +127,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorSciencePDA
 
@@ -136,7 +136,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorReporterPDA
 
@@ -145,7 +145,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorZookeeperPDA
 
@@ -154,7 +154,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorEngineerPDA
 
@@ -163,7 +163,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     id: ContractorAtmosPDA
 
@@ -173,7 +173,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorCaptainPDA
 
@@ -182,7 +182,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorQuartermasterPDA
 
@@ -191,7 +191,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorSeniorResearcherPDA
 
@@ -200,7 +200,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorRnDPDA
 
@@ -209,7 +209,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorSeniorPhysicianPDA
 
@@ -218,7 +218,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorCMOPDA
 
@@ -227,7 +227,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorSeniorEngineerPDA
 
@@ -236,7 +236,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorCEPDA
 
@@ -245,7 +245,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorBoxerPDA
 
@@ -254,7 +254,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     id: ContractorMimePDA
 
@@ -264,7 +264,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 1500
+  price: 15000 # Eclipse
   equipment:
     id: ContractorClownPDA
 
@@ -273,6 +273,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 1500
+  price: 15000 # Eclipse
   equipment:
     id: ContractorMusicianPDA

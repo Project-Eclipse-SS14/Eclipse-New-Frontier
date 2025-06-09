@@ -103,7 +103,7 @@
           components:
             - GasTank
     - type: StaticPrice
-      price: 125 # Frontier: 200<125
+      price: 55 # Eclipse
     - type: AccessReader
 #      access: [["Atmospherics"], ["Engineering"], ["Research"], ["Captain"]] # Frontier
     - type: Construction # Frontier
@@ -784,7 +784,7 @@
       materialComposition:
         Steel: 500
     - type: StaticPrice
-      price: 60 # Frontier: 125<60 - TODO: material value rework
+      price: 20 # Eclipse
 
 - type: entity
   parent: GasCanisterBrokenBase

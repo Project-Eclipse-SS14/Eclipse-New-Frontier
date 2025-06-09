@@ -14,7 +14,7 @@ ent-ClothingUniformJumpsuitBHGrey = нуарный костюм
 ent-ClothingUniformJumpsuitChaplainPilgrimVest = костюм пилигрима
     .desc = Тук-Тук! Не жалаете ли поговорить о нашем спасителе Нар.... Космическом Иисусе?
 # HASH: 9a81c4eaeec0f27851901e9fe9df93cd7fa8cb822ec24daa2de70a7a0eeee29a
-ent-ClothingUniformJumpsuitSecGuard = костюм службы безопасности
+ent-ClothingUniformJumpsuitSecGuard = комбинезон охранника
     .desc = Специальная униформа для охранника. Строгая и официальная, чтобы праздношатающиеся в доках знали, что вы настроены серьезно.
 # HASH: aabb3b18c5467acc83f3846b5cdc8e0f7db37be757ca9c0c22ee6c6679a0ded1
 ent-ClothingUniformJumpsuitPilot = костюм пилота
@@ -62,7 +62,7 @@ ent-ClothingUniformJumpsuitSyndieFormalNF = { ent-ClothingUniformJumpsuitSyndieF
 ent-ClothingUniformJumpsuitPrivateSec = комбинезон частного телохранителя
     .desc = Специализированная униформа для частного телохранителя. Для взыскательных частных подрядчиков, нуждающихся в профессиональном внешнем виде.
 # HASH: e2050842a085057fb13e51fbcdc267bfa340523b88cfff1c1c462a1dfc432949
-ent-ClothingUniformJumpsuitSr = униформа представителя станции
+ent-ClothingUniformJumpsuitSr = комбинезон представителя фронтира
     .desc = Первоклассный наряд для представителя Фронтира На пошив не было потрачено ни копейки, каждый шов - шедевр. Тот факт, что этот костюм был выдан, говорит о доверии Центрального командования к своему представителю на этом форпосте.
 # HASH: 7bfee6ad3372e3da9e12e6996d8ac7ea7b892c6d251ca19fea782c371960eb65
 ent-ClothingUniformJumpsuitGalaxyRed = красный галактикий костюм

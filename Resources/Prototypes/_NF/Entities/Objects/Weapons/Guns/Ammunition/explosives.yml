@@ -17,7 +17,7 @@
     sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     state: rpg
   - type: StaticPrice
-    price: 20
+    price: 10 # Eclipse
 
 - type: entity
   parent: NFBaseCartridgeRocket

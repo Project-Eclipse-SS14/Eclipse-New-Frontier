@@ -93,7 +93,7 @@
     canCreateVacuum: false
     deleteAfterExplosion: false
   - type: ApcPowerReceiver
-    powerLoad: 400
+    powerLoad: 4000 # Eclipse
   - type: Machine
     board: MicrowaveMachineCircuitboard
   - type: ContainerContainer

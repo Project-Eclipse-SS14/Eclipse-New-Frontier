@@ -108,9 +108,9 @@
   - type: ExaminableSolution
     solution: output
   - type: StaticPrice
-    price: 500
+    price: 30 # Eclipse
   - type: ApcPowerReceiver
-    powerLoad: 500 # Allows us to not use the 1000 baseline
+    powerLoad: 5000 # Eclipse
   - type: MaterialReclaimerMagnetPickup
     range: 0.50 # 0.3<0.50
     magnetEnabled: true

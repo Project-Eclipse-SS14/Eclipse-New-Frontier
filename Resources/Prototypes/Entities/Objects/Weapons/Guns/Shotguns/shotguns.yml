@@ -41,7 +41,7 @@
       ballistic-ammo: !type:Container
         ents: []
   - type: StaticPrice
-    price: 500
+    price: 175 # Eclipse
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -100,7 +100,7 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 500
+    price: 175 # Eclipse
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -126,7 +126,7 @@
     node: start
     deconstructionTarget: null
   - type: StaticPrice
-    price: 350
+    price: 80 # Eclipse
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier
@@ -299,7 +299,7 @@
   #   graph: ImprovisedShotgunGraph # Frontier
   #   node: shotgun # Frontier
   - type: StaticPrice
-    price: 20
+    price: 10 # Eclipse
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier

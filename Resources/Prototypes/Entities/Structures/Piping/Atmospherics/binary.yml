@@ -35,7 +35,7 @@
   - type: LightningTarget
     priority: 1
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 2000 # Eclipse
   - type: Rotatable
   - type: Transform
     noRot: false
@@ -94,7 +94,7 @@
     - type: LightningTarget
       priority: 1
     - type: ApcPowerReceiver
-      powerLoad: 200
+      powerLoad: 2000 # Eclipse
     - type: Rotatable
     - type: Transform
       noRot: false

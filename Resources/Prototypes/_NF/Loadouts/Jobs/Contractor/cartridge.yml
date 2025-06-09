@@ -4,7 +4,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - AppraisalCartridge
@@ -14,7 +14,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - MedTekCartridge
@@ -24,7 +24,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - NetProbeCartridge
@@ -34,7 +34,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - LogProbeCartridge

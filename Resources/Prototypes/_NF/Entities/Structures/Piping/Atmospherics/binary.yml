@@ -89,7 +89,7 @@
   - type: Wires
     layoutId: Docking # TODO: rework these
   - type: ApcPowerReceiver
-    powerLoad: 500
+    powerLoad: 5000 # Eclipse
   - type: ExtensionCableReceiver
   - type: GasPressurePump
     enabled: false
@@ -179,7 +179,7 @@
           True: { state: pumpPressureOnIn }
           False: { state: pumpPressureOnOut }
   - type: StaticPrice
-    price: 350
+    price: 40 # Eclipse
   - type: BlockWeather
   - type: PlacementReplacement
     key: walls # For construction if this eventually supports it.
@@ -231,7 +231,7 @@
           True: { state: pumpPressureOnIn }
           False: { state: pumpPressureOnOut }
   - type: StaticPrice
-    price: 100
+    price: 15 # Eclipse
   - type: Docking
     receiveOnly: true
   - type: DeviceNetwork

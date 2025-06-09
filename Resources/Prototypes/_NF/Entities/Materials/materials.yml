@@ -26,7 +26,7 @@
   unit: materials-unit-crystal
   icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: anomalite }
   color: "#D39CFF"
-  price: 2 # ~base 200/crystal, 1200 with buyback
+  price: 1.5 # Eclipse
 
 - type: entity
   parent: MaterialBase

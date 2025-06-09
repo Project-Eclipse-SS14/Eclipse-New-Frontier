@@ -22,7 +22,7 @@
     - SemiAuto
     - FullAuto
   - type: StaticPrice
-    price: 350
+    price: 160 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-submachine-gun
 

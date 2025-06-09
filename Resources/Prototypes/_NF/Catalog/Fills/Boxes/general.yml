@@ -42,7 +42,7 @@
       - state: box
 #      - state: paper
   - type: StaticPrice
-    price: 10
+    price: 5 # Eclipse
 
 - type: entity
   name: Office paper box
@@ -87,7 +87,7 @@
     layers:
       - state: box
   - type: StaticPrice
-    vendPrice: 1200
+    vendPrice: 3600 # Eclipse
 
 - type: entity
   name: Thruster upgrade kit

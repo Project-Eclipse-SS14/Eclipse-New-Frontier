@@ -58,7 +58,7 @@
       enum.ChemMasterBotanyUiKey.Key:
         type: ChemMasterBotanyBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 350 # Blender requires more power
+    powerLoad: 5000 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:

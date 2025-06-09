@@ -101,7 +101,7 @@
         entity_storage: !type:Container
         paper_label: !type:ContainerSlot
     - type: StaticPrice
-      price: 250
+      price: 100 # Eclipse
 
 - type: entity
   parent: BaseStorageItem
@@ -126,7 +126,7 @@
       components:
       - XenoArtifact # Frontier Artifact<XenoArtifact
   - type: Item
-    sprite: Objects/Storage/artifact_container.rsi  
+    sprite: Objects/Storage/artifact_container.rsi
     size: Huge
   - type: MeleeWeapon
     damage:
@@ -191,4 +191,4 @@
   - type: UseDelay
     delay: 0.3
   - type: StaticPrice
-    price: 250
+    price: 100 # Eclipse

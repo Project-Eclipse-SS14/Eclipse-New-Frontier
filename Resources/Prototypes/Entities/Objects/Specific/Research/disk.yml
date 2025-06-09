@@ -12,7 +12,7 @@
     guides:
     - Science
   - type: StaticPrice # Frontier
-    price: 200 # Frontier
+    price: 100 # Eclipse
 
 - type: entity
   parent: ResearchDisk
@@ -23,7 +23,7 @@
   - type: ResearchDisk
     points: 25000
   - type: StaticPrice # Frontier
-    price: 1000 # Frontier
+    price: 500 # Eclipse
 
 - type: entity
   parent: ResearchDisk
@@ -34,7 +34,7 @@
   - type: ResearchDisk
     points: 50000
   - type: StaticPrice # Frontier
-    price: 2000 # Frontier
+    price: 1000 # Eclipse
 
 - type: entity
   parent: ResearchDisk

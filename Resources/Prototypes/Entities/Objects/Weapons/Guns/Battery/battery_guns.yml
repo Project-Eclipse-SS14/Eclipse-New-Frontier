@@ -25,7 +25,7 @@
     maxCharge: 1000
     startingCharge: 1000
   - type: StaticPrice
-    price: 500
+    price: 175 # Eclipse
 
 - type: entity
   id: BaseWeaponPowerCell
@@ -61,7 +61,7 @@
     cellSlotId: cell_slot
   - type: Appearance
   - type: StaticPrice
-    price: 500
+    price: 175 # Eclipse
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot
@@ -148,7 +148,7 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 190
+    price: 80 # Eclipse
 
 - type: entity
   name: makeshift laser pistol
@@ -236,8 +236,7 @@
     proto: NFRedLaserPractice # Frontier: use NF variant
     fireCost: 62.5
   - type: StaticPrice
-    price: 300
-
+    price: 115 # Eclipse
 - type: entity
   name: laser rifle
   parent: [WeaponLaserCarbinePractice, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseSecurityContraband<BaseC1Contraband
@@ -245,7 +244,7 @@
   description: A simple civilian grade laser carbine, the workhorse of many private security organizations. # Frontier: description
   components:
   - type: StaticPrice
-    price: 420
+    price: 130 # Eclipse
   - type: HitscanBatteryAmmoProvider
     proto: NFRedMediumLaser # Frontier: RedLaser<NFRedMediumLaser
     fireCost: 62.5
@@ -476,7 +475,7 @@
     steps: 5
     zeroVisible: true
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Gun
     fireRate: 2
     projectileSpeed: 35 # any higher and this causes issues in lag
@@ -554,7 +553,7 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 260
+    price: 110 # Eclipse
 
 - type: entity
   name: taser
@@ -629,7 +628,7 @@
     - Sidearm
     - WeaponAntiqueLaser
   - type: StaticPrice
-    price: 750
+    price: 200 # Eclipse
   - type: StealTarget
     stealGroup: WeaponAntiqueLaser
   - type: SentienceTarget # I hope this is only the captain's gun
@@ -671,7 +670,7 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 63
+    price: 10 # Eclipse
 
 - type: entity
   name: C.H.I.M.P. handcannon
@@ -719,7 +718,7 @@
     graph: UpgradeWeaponPistolCHIMP
     node: start
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   name: experimental C.H.I.M.P. handcannon
@@ -764,7 +763,7 @@
     autoRecharge: true
     autoRechargeRate: 40
   - type: StaticPrice
-    price: 750
+    price: 200 # Eclipse
 
 - type: entity
   name: energy shotgun
@@ -867,7 +866,7 @@
     maxCharge: 1000
     startingCharge: 1000
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   name: xenoborg laser gun

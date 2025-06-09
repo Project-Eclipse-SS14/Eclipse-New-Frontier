@@ -2,28 +2,28 @@
 #T0
 - type: loadout
   id: ContractorCigPackBlue
-  price: 150
+  price: 2500 # Eclipse
   storage:
     back:
     - CigPackBlue
 
 - type: loadout
   id: ContractorCigPackRed
-  price: 150
+  price: 2500 # Eclipse
   storage:
     back:
     - CigPackRed
 
 - type: loadout
   id: ContractorCigPackBlack
-  price: 150
+  price: 2500 # Eclipse
   storage:
     back:
     - CigPackBlack
 
 - type: loadout
   id: ContractorCigPackGreen
-  price: 150
+  price: 2500 # Eclipse
   storage:
     back:
     - CigPackGreen
@@ -34,7 +34,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5000 # Eclipse
   storage:
     back:
     - CigarCase
@@ -44,7 +44,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 200
+  price: 3000 # Eclipse
   storage:
     back:
     - NFAshtray
@@ -54,7 +54,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - TapeRecorder
@@ -65,7 +65,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - SmokingPipeFilledTobacco
@@ -75,7 +75,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - TobaccoPouchBrownFilled
@@ -85,7 +85,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - TobaccoPouchBlueFilled
@@ -95,7 +95,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 800
+  price: 8500 # Eclipse
   storage:
     back:
     - TobaccoPouchRedFilled
@@ -105,7 +105,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - TobaccoPouchPurpleFilled
@@ -115,7 +115,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - Vape
@@ -126,7 +126,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2000
+  price: 12500 # Eclipse
   storage:
     back:
     - CigarGoldCase
@@ -135,7 +135,7 @@
 #T0
 - type: loadout
   id: ContractorMatchbox
-  price: 100
+  price: 1750 # Eclipse
   storage:
     back:
     - Matchbox
@@ -146,7 +146,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 200
+  price: 3500 # Eclipse
   storage:
     back:
     - Lighter
@@ -157,7 +157,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 500
+  price: 8500 # Eclipse
   storage:
     back:
     - FlippoLighter
@@ -168,7 +168,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 5000
+  price: 20000 # Eclipse
   storage:
     back:
     - FlippoEngravedLighter
@@ -177,7 +177,7 @@
 #T0
 - type: loadout
   id: ContractorDrinkFlaskOld
-  price: 250
+  price: 4000 # Eclipse
   storage:
     back:
     - DrinkFlaskOld
@@ -188,7 +188,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5000 # Eclipse
   storage:
     back:
     - DrinkShinyFlask
@@ -199,7 +199,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 6500 # Eclipse
   storage:
     back:
     - DrinkFlask
@@ -210,7 +210,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2000
+  price: 9000 # Eclipse
   storage:
     back:
     - DrinkVacuumFlask
@@ -219,14 +219,14 @@
 #T0
 - type: loadout
   id: ContractorFlashlightLantern
-  price: 100
+  price: 1750 # Eclipse
   storage:
     back:
     - FlashlightLantern
 
 - type: loadout
   id: ContractorWristwatch
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - Wristwatch
@@ -237,7 +237,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 300
+  price: 3500 # Eclipse
   storage:
     back:
     - Basketball
@@ -247,7 +247,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 300
+  price: 3500 # Eclipse
   storage:
     back:
     - Football
@@ -257,7 +257,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 300
+  price: 3500 # Eclipse
   storage:
     back:
     - BeachBall
@@ -268,7 +268,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 600
+  price: 7000 # Eclipse
   storage:
     back:
     - CrayonBox
@@ -278,7 +278,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 800
+  price: 9000 # Eclipse
   storage:
     back:
     - SoapNT
@@ -288,7 +288,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 2000
+  price: 12500 # Eclipse
   storage:
     back:
     - CardBoxBlack
@@ -299,7 +299,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2500
+  price: 15000 # Eclipse
   storage:
     back:
     - WristwatchGold
@@ -309,7 +309,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2750
+  price: 17500 # Eclipse
   storage:
     back:
     - SilverRing
@@ -319,7 +319,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 3000
+  price: 18500 # Eclipse
   storage:
     back:
     - GoldRing
@@ -330,7 +330,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - MonkeyCubeWrapped
@@ -340,7 +340,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - KoboldCubeWrapped
@@ -352,7 +352,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - PlushieSharkGrey
@@ -362,7 +362,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - PlushieSharkBlue
@@ -372,7 +372,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - PlushieSharkPink
@@ -382,7 +382,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - HarmonicaInstrument
@@ -392,7 +392,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - SaxophoneInstrument
@@ -402,7 +402,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - AcousticGuitarInstrument
@@ -413,7 +413,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 5000
+  price: 20000 # Eclipse
   storage:
     back:
     - PonderingOrb
@@ -424,7 +424,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 10000
+  price: 40000 # Eclipse
   storage:
     back:
     - PlushieRGBee
@@ -434,7 +434,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2400
+  price: 15000 # Eclipse
   storage:
     back:
     - MysterySpaceBladeBox
@@ -444,7 +444,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 10000
+  price: 40000 # Eclipse
   storage:
     back:
     - HoloGraffitiProjector
@@ -454,7 +454,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 30000
+  price: 120000 # Eclipse
   storage:
     back:
     - CrayonMagic
@@ -463,28 +463,28 @@
 #T0
 - type: loadout
   id: ContractorBoxFolderMedicalDoctor
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - BoxFolderMedicalDoctor
 
 - type: loadout
   id: ContractorBrbSign
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - BrbSign
 
 - type: loadout
   id: ContractorHandLabeler
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - HandLabeler
 
 - type: loadout
   id: ContractorStampsApprovedDenied
-  price: 1000
+  price: 13000 # Eclipse
   name: набор печатей "Одобрено" и "Отказано" #Corvax-Frontier
   description: Пара печатей, используемых для проверки документов.
   previewEntity: RubberStampApproved
@@ -495,63 +495,63 @@
 
 - type: loadout
   id: ContractorRubberStampClown
-  price: 1500
+  price: 6500 # Eclipse
   storage:
     back:
     - RubberStampClown
 
 - type: loadout
   id: ContractorRubberStampMime
-  price: 1500
+  price: 6500 # Eclipse
   storage:
     back:
     - RubberStampMime
 
 - type: loadout
   id: ContractorRubberStampTrader
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampTrader
 
 - type: loadout
   id: ContractorRubberStampChaplain
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampChaplain
 
 - type: loadout
   id: ContractorRubberStampCaptain
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampCaptain
 
 - type: loadout
   id: ContractorRubberStampLawyer
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampLawyer
 
 - type: loadout
   id: ContractorRubberStampPsychologist
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampPsychologist
 
 - type: loadout
   id: ContractorRubberStampDoctor
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampDoctor
 
 - type: loadout
   id: ContractorRubberStampEngineer
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - RubberStampEngineer

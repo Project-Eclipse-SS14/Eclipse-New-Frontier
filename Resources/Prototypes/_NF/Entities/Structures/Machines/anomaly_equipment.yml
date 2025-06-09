@@ -30,9 +30,9 @@
       shader: unshaded
       map: ["enum.AnomalyGeneratorVisualLayers.Base"]
   - type: ApcPowerReceiver
-    powerLoad: 500
+    powerLoad: 20000 # Eclipse
   - type: StaticPrice
-    price: 1500
+    price: 250 # Eclipse
   - type: Transform
     noRot: true
   - type: Fixtures

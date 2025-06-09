@@ -34,7 +34,7 @@
       cpu_science: "#D381C9"
       cpu_supply: "#A46106"
   - type: StaticPrice
-    price: 250
+    price: 30 # Eclipse
   - type: Rotatable # Frontier
 
 - type: entity
@@ -49,7 +49,7 @@
     layers:
     - state: solar-assembly-part
   - type: StaticPrice
-    price: 25 # Frontier: 75<25
+    price: 15 # Eclipse
 
 - type: entity
   parent: BaseFlatpack
@@ -63,7 +63,7 @@
   - type: Flatpack
     entity: AmeShielding
   - type: StaticPrice
-    price: 500
+    price: 60 # Eclipse
   - type: GuideHelp
     guides:
     - AME

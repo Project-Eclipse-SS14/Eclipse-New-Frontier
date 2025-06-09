@@ -80,7 +80,7 @@
     - Snout
   - type: IngestionBlocker
   - type: StaticPrice
-    price: 5000
+    price: 2500 # Eclipse
   # Frontier: pick random sprite on spawn
   - type: RandomSprite
     available:

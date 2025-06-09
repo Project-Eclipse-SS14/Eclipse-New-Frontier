@@ -15,6 +15,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 650
+  price: 8500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryMailCarrier

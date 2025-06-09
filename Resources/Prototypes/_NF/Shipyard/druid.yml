@@ -11,9 +11,9 @@
 - type: vessel
   id: Druid
   parent: BaseVessel
-  name: FSB Druid
-  description: A medium service vessel providing botanical and chemical services to support the needs of the Frontier. Designed, developed and deployed by the Far Star Biotech company to render aid wherever it is needed.
-  price: 125000 # 15% t2. # Eclipse 45000 -> 125000
+  name: FSB Друид
+  description: Среднее сервисное судно, предоставляющее ботанические и химические услуги для поддержки потребностей Фронтира. Разработано, создано и запущено в эксплуатацию компанией Фар Стар Биотеч для оказания помощи там, где это необходимо.
+  price: 78750 # 15% t2. # Eclipse 45000 -> 78750
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NF/Shuttles/druid.yml
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Druid
-  mapName: 'FSB Druid'
+  mapName: 'FSB Друид'
   mapPath: /Maps/_NF/Shuttles/druid.yml
   minPlayers: 0
   stations:
@@ -33,7 +33,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Druid {1}'
+          mapNameTemplate: 'Друид {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'

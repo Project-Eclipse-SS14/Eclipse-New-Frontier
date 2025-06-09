@@ -53,7 +53,7 @@
         sound:
           collection: MetalBreak
   - type: StaticPrice
-    price: 15 # Frontier: 30<15
+    price: 10 # Eclipse
   - type: Climbable # Frontier - Stop AI Abuse
   - type: RCDDeconstructable # Frontier
     cost: 4 # Frontier
@@ -101,7 +101,7 @@
               sound:
                 collection: MetalBreak
     - type: StaticPrice
-      price: 70 # Frontier: 130<70
+      price: 40 # Eclipse
 
 - type: entity
   id: ClockworkGirder
@@ -116,7 +116,7 @@
       graph: ClockworkGirder
       node: clockGirder
     - type: StaticPrice
-      price: 75
+       75
     - type: Destructible
       thresholds:
         - trigger:

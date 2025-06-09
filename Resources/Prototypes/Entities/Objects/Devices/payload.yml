@@ -83,7 +83,7 @@
       BeakerSlotA: !type:ContainerSlot
       BeakerSlotB: !type:ContainerSlot
   - type: StaticPrice
-    price: 60
+    price: 20 # Eclipse
 
 - type: entity
   name: flash payload

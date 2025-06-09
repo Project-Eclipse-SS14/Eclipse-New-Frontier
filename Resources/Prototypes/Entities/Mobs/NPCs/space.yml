@@ -495,7 +495,7 @@
     bloodReagent: Cryoxadone
   - type: CanEscapeInventory
   - type: MobPrice
-    price: 50
+    price: 15 # Eclipse
   - type: BadFood
   - type: NonSpreaderZombie
   - type: FireVisuals

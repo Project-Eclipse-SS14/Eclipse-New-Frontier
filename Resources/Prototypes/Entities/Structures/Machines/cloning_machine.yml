@@ -55,7 +55,7 @@
     - Biomass
   - type: WiresPanel
   - type: ApcPowerReceiver
-    powerLoad: 200 #Receives most of its power from the console
+    powerLoad: 10000 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -67,7 +67,7 @@
           Idle: { state: pod_0 }
   - type: Climbable
   - type: StaticPrice
-    price: 1000
+    price: 150
   - type: ContainerContainer
     containers:
       machine_board: !type:Container

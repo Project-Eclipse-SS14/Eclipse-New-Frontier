@@ -48,7 +48,7 @@
         sound:
           collection: MetalBreak
   - type: StaticPrice
-    price: 15 # Frontier: 50<15
+    price: 10 # Eclipse
 
 #Starts unanchored, cannot be rotated while anchored
 - type: entity
@@ -236,7 +236,7 @@
     tags:
     - Wooden
   - type: StaticPrice
-    price: 90
+    price: 15 # Eclipse
 
 - type: entity
   name: ritual chair
@@ -411,6 +411,6 @@
             min: 2
             max: 4
   - type: StaticPrice
-    price: 120 # Eclipse 45 -> 120
+    price: 40 # Eclipse
   - type: PotentialDeadDrop # Frontier
     hintText: dead-drop-hint-bench # Frontier

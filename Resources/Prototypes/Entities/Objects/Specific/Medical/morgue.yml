@@ -94,7 +94,7 @@
       entity_storage: !type:Container
       paper_label: !type:ContainerSlot
   - type: StaticPrice
-    price: 35
+    price: 15 # Eclipse
 
 - type: entity
   id: BodyBagFolded

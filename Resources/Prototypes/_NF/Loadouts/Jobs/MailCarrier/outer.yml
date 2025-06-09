@@ -12,7 +12,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCoatMail
 
@@ -21,6 +21,6 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterEVASuitMailman

@@ -49,7 +49,7 @@
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: plasma }
   color: "#7e009e"
-  price: 0.085 # Eclipse
+  price: 0.086 # Eclipse
 
 - type: material
   id: RawUranium
@@ -58,7 +58,7 @@
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: uranium }
   color: "#32a852"
-  price: 0.085 # Eclipse
+  price: 0.087 # Eclipse
 
 - type: material
   id: RawBananium
@@ -67,7 +67,7 @@
   unit: materials-unit-chunk
   icon: { sprite: Objects/Materials/ore.rsi, state: bananium }
   color: "#32a852"
-  price: 0.085 # Eclipse
+  price: 0.088 # Eclipse
 
 - type: material
   id: RawSalt

@@ -4040,7 +4040,7 @@ entities:
       pos: 2.4745088,-4.8270464
       parent: 1
     - type: StaticPrice
-      price: 1200
+      price: 120
 - proto: HeatExchanger
   entities:
   - uid: 322

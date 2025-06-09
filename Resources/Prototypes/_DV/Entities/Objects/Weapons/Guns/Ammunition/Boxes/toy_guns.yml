@@ -14,4 +14,4 @@
     layers:
       - state: bbbox
   - type: StaticPrice
-    price: 250
+    price: 110

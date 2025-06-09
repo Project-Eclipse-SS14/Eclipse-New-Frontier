@@ -341,7 +341,7 @@
     fiberMaterial: fibers-insulative
     fiberColor: fibers-yellow
   - type: StaticPrice # Frontier
-    price: 35 # Frontier
+    price: 15 # Eclipse
 
 # Budget Insulated Gloves
 - type: entity

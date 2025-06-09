@@ -39,7 +39,7 @@
     autoRecharge: true
     autoRechargeRate: 3 # Default recharge rate: 1 shot per 20 seconds with 60 fireCost
   - type: StaticPrice
-    price: 350
+    price: 150 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-submachine-gun
 

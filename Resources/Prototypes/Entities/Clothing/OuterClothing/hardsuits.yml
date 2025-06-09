@@ -28,8 +28,8 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitBasic
   - type: StaticPrice # Frontier
-    price: 20 # Frontier
-    vendPrice: 2000 # Frontier
+    price: 10 # Eclipse
+    vendPrice: 5000 # Eclipse
 
 #Atmospherics Hardsuit
 - type: entity
@@ -455,7 +455,7 @@
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
-    price: 750
+    price: 50 # Eclipse
   - type: StealTarget
     stealGroup: ClothingOuterHardsuitRd
   - type: PirateBountyItem # Frontier

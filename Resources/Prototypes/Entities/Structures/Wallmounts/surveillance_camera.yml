@@ -74,7 +74,7 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: StaticPrice
-    price: 200
+    price: 60 # Eclipse
   - type: Destructible
     thresholds:
       - trigger:

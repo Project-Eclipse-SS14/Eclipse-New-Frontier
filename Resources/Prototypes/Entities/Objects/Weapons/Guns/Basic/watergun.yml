@@ -45,7 +45,7 @@
   - type: ExaminableSolution
     solution: chamber
   - type: StaticPrice
-    price: 30 # Frontier 100<30
+    price: 20 # Eclipse
   - type: PhysicalComposition
     materialComposition:
       Plastic: 150

@@ -8,7 +8,7 @@
   suffix: Empty
   components:
   - type: StaticPrice
-    price: 750
+    price: 150 # Eclipse
   - type: Sprite
     sprite: Structures/Storage/tanks.rsi
     layers:
@@ -54,7 +54,7 @@
   suffix: Full
   components:
   - type: StaticPrice
-    price: 2500
+    price: 500 # Eclipse
   - type: Sprite
     sprite: Structures/Storage/tanks.rsi
     layers:
@@ -86,7 +86,7 @@
   suffix: Empty
   components:
   - type: StaticPrice
-    price: 500
+    price: 100 # Eclipse
   - type: Sprite
     sprite: Structures/Storage/tanks.rsi
     layers:
@@ -160,7 +160,7 @@
   - type: ExaminableSolution
     solution: tank
   - type: StaticPrice
-    price: 500
+    price: 100 # Eclipse
 
 - type: entity
   parent: [StorageTankBig, WaterTank]
@@ -170,7 +170,7 @@
   suffix: Full
   components:
   - type: StaticPrice
-    price: 2500
+    price: 500 # Eclipse
   - type: Sprite
     sprite: Structures/Storage/tanks.rsi
     layers:
@@ -202,7 +202,7 @@
   suffix: Empty
   components:
     - type: StaticPrice
-      price: 500
+      price: 100 # Eclipse
     - type: Sprite
       sprite: Structures/Storage/tanks.rsi
       layers:

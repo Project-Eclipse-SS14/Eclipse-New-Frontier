@@ -20,7 +20,7 @@
     tags:
     - GPS
   - type: StaticPrice
-    price: 35 # Frontier: 25<35
+    price: 20 # Eclipse
 
 - type: entity #why does this exist? Well, "global positioning system" is too long to fit in the cyborg's hand slot.
   name: integrated GPS # Frontier: Integrated<integrated

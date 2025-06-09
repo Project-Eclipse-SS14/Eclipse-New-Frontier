@@ -95,13 +95,13 @@
     radius: 1.5
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 3500 # Eclipse
   - type: Actions
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-mechanical
     weight: 0.025 # fuck you in particular (it now needs 40 vending machines to be as likely as 1 interesting animal)
   - type: StaticPrice
-    price: 1000 # Frontier: 100<1000
+    price: 100 # Eclipse
   - type: Appearance
   - type: WiresVisuals
   # Frontier: vending machine modifications

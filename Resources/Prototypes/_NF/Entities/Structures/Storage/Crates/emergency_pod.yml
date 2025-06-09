@@ -93,7 +93,7 @@
     containers:
       entity_storage: !type:Container
   - type: StaticPrice
-    price: 50 # Frontier: 75<50 - TODO: material value rework
+    price: 20 # Eclipse
   - type: RequireProjectileTarget
   - type: AntiRottingContainer
   - type: Construction

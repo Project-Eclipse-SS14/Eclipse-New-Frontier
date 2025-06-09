@@ -47,7 +47,7 @@
   - type: Occluder
   - type: Airtight
   - type: StaticPrice
-    price: 25 # Frontier 75<25
+    price: 20 # Eclipse
   - type: RadiationBlocker
     resistance: 2
   - type: BlockWeather
@@ -119,7 +119,7 @@
     delay: 8 # Frontier
     fx: EffectRCDDeconstruct8 # Frontier
   - type: StaticPrice # Frontier 75
-    price: 75 # Frontier 75
+    price: 40 # Eclipse
 
 - type: entity
   parent: BaseWall
@@ -550,7 +550,7 @@
           5: { state: reinf_construct-5, visible: true}
   - type: ReinforcedWallReplacementMarker
   - type: StaticPrice
-    price: 115 # Frontier 250<115
+    price: 55 # Eclipse
   - type: RadiationBlocker
     resistance: 5
   - type: RCDDeconstructable #Frontier
@@ -634,7 +634,7 @@
     key: walls
     base: riveted
   - type: StaticPrice
-    price: 115 # Frontier: 150<115
+    price: 55 # Eclipse
   - type: RCDDeconstructable #Frontier
     cost: 6 #Frontier
     delay: 8 #Frontier
@@ -750,7 +750,7 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: StaticPrice
-    price: 150 # Frontier: 250<150 - makes some shuttles way more expensive otherwise
+    price: 75 # Eclipse
   - type: RadiationBlocker
     resistance: 5
   - type: Sprite
@@ -955,7 +955,7 @@
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
   - type: StaticPrice # Frontier
-    price: 90 # Frontier
+    price: 30 # Eclipse
 
 - type: entity
   parent: BaseWall

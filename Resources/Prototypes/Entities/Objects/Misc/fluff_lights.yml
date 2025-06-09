@@ -149,7 +149,7 @@
   - type: Item
     sprite: Objects/Misc/Lights/lampint.rsi
   - type: StaticPrice
-    price: 2500
+    price: 50 # Eclipse
   - type: PointLight
     netsync: false
     enabled: false

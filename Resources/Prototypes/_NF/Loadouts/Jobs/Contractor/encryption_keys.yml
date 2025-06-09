@@ -10,28 +10,28 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: NFNotDoc
-  price: 20
+  price: 500 # Eclipse
   storage:
     back:
     - EncryptionKeyMedical
 
 - type: loadout
   id: ContractorEncryptionKeyCargo
-  price: 20
+  price: 500 # Eclipse
   storage:
     back:
     - EncryptionKeyCargo
 
 - type: loadout
   id: ContractorEncryptionKeyEngineering
-  price: 20
+  price: 500 # Eclipse
   storage:
     back:
     - EncryptionKeyEngineering
 
 - type: loadout
   id: ContractorEncryptionKeyScience
-  price: 20
+  price: 500 # Eclipse
   storage:
     back:
     - EncryptionKeyScience

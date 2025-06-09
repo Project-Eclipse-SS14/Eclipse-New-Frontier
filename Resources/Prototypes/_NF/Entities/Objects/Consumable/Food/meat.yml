@@ -50,7 +50,7 @@
         - ReagentId: Bicaridine
           Quantity: 20
   - type: StaticPrice
-    price: 750
+    price: 450 # Eclipse
 #  - type: StealTarget
 #    stealGroup: FoodMeatCat
 

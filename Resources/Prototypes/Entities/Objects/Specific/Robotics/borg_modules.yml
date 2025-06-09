@@ -30,7 +30,7 @@
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: no-action }
   - type: StaticPrice
-    price: 100
+    price: 50 # Eclipse
   - type: Tag
     tags:
     - BorgModuleGeneric

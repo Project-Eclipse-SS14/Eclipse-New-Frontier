@@ -15,7 +15,7 @@
       Steel: 200
       Glass: 100
   - type: StaticPrice
-    price: 50
+    price: 15 # Eclipse
   - type: Tag
     tags:
     - WhitelistChameleon

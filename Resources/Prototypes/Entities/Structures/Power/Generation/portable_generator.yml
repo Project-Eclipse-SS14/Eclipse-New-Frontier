@@ -14,7 +14,7 @@
     - type: Physics
       bodyType: Dynamic
     - type: StaticPrice
-      price: 500
+      price: 75 # Eclipse
     - type: AmbientSound
       range: 5
       volume: -5

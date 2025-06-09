@@ -32,4 +32,4 @@
     materialComposition:
       Brass: 100
   - type: StaticPrice
-    price: 30 # Ensures these can be sold and have a reasonable vending value
+    price: 10 # Eclipse

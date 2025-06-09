@@ -1,102 +1,102 @@
 - type: loadout
   id: ContractorClothingUniformJumpsuitAtmos
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmos
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtAtmos
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtAtmos
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitBartender
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartender
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBartender
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBartender
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitCargo
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCargo
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtCargo
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCargo
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitSalvageSpecialist
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitSalvageSpecialist
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitChef
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChef
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtChef
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtChef
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitEngineering
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineering
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtEngineering
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtEngineering
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitHydroponics
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitHydroponics
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtHydroponics
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtHydroponics
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitMedicalDoctor
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMedicalDoctor
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtMedicalDoctor
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtMedicalDoctor
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitScientist
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitScientist
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtScientist
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtScientist
 
@@ -114,133 +114,133 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorWhite
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorWhite
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorWhite
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorWhite
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorBlack
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBlack
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorBlack
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorBlack
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorBlue
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBlue
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorBlue
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorBlue
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorYellow
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorYellow
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorYellow
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorYellow
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorGreen
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorGreen
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorGreen
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorGreen
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorOrange
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorOrange
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorOrange
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorOrange
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorRed
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorRed
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorRed
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorRed
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorPurple
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorPurple
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorPurple
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorPurple
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorLightBrown
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorLightBrown
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorLightBrown
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorLightBrown
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorBrown
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorBrown
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorBrown
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorBrown
 
 - type: loadout
   id: ContractorClothingUniformJumpsuitColorPink
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorPink
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtColorPink
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorPink
 
@@ -250,7 +250,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkBlue
 
@@ -259,7 +259,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkBlue
 
@@ -268,7 +268,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorDarkGreen
 
@@ -277,7 +277,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorDarkGreen
 
@@ -286,7 +286,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitColorTeal
 
@@ -295,7 +295,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtColorTeal
 
@@ -304,7 +304,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiBlack
 
@@ -313,7 +313,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiBlue
 
@@ -322,7 +322,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiRed
 
@@ -331,7 +331,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitHawaiYellow
 
@@ -340,7 +340,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitFlannel
 
@@ -349,7 +349,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualBlue
 
@@ -358,7 +358,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualBlue
 
@@ -367,7 +367,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualPurple
 
@@ -376,7 +376,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualPurple
 
@@ -385,7 +385,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCasualRed
 
@@ -394,7 +394,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCasualRed
 
@@ -403,7 +403,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitBartenderPurple
 
@@ -412,7 +412,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitEngineeringHazard
 
@@ -421,7 +421,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmosCasual
 
@@ -430,7 +430,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformOveralls
 
@@ -439,7 +439,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplain
 
@@ -448,7 +448,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtChaplain
 
@@ -457,7 +457,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCurator
 
@@ -466,7 +466,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCurator
 
@@ -475,7 +475,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLibrarian
 
@@ -484,7 +484,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLibrarian
 
@@ -493,7 +493,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitReporter
 
@@ -502,7 +502,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitBH
 
@@ -511,7 +511,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBH
 
@@ -520,7 +520,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitBHGrey
 
@@ -529,7 +529,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBHGrey
 
@@ -538,7 +538,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: UniformScrubsColorGreen
 
@@ -547,7 +547,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: UniformScrubsColorBlue
 
@@ -556,7 +556,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: UniformScrubsColorPurple
 
@@ -565,7 +565,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitParamedic
 
@@ -574,7 +574,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtParamedic
 
@@ -583,7 +583,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitVirology
 
@@ -592,7 +592,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtVirology
 
@@ -601,7 +601,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChemistry
 
@@ -610,7 +610,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtChemistry
 
@@ -619,7 +619,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitGenetics
 
@@ -628,7 +628,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtGenetics
 
@@ -637,7 +637,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitPsychologist
 
@@ -646,7 +646,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtPsychologist
 
@@ -655,7 +655,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitScientistFormal
 
@@ -664,7 +664,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitRoboticist
 
@@ -673,7 +673,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtRoboticist
 
@@ -682,7 +682,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlue
 
@@ -691,7 +691,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlue
 
@@ -700,7 +700,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerPurple
 
@@ -709,7 +709,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerPurple
 
@@ -718,7 +718,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerRed
 
@@ -727,7 +727,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerRed
 
@@ -736,7 +736,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack
 
@@ -745,7 +745,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlack
 
@@ -754,7 +754,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerGood
 
@@ -763,7 +763,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerGood
 
@@ -773,7 +773,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlackElegantDress
 
@@ -783,7 +783,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedElegantDress
 
@@ -793,7 +793,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenElegantDress
 
@@ -803,7 +803,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueElegantDress
 
@@ -813,7 +813,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtPurpleElegantDress
 
@@ -823,7 +823,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCyanStripedDress
 
@@ -833,7 +833,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedStripedDress
 
@@ -843,7 +843,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenStripedDress
 
@@ -853,7 +853,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtPinkStripedDress
 
@@ -863,7 +863,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtOrangeStripedDress
 
@@ -873,7 +873,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtPurpleTurtleneckDress
 
@@ -883,7 +883,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtRedTurtleneckDress
 
@@ -893,7 +893,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtGreenTurtleneckDress
 
@@ -903,7 +903,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtBlueTurtleneckDress
 
@@ -913,7 +913,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtYellowTurtleneckDress
 
@@ -923,7 +923,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtYellowOldDress
 
@@ -934,7 +934,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkCroptop
 
@@ -944,7 +944,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkTanktop
 
@@ -954,7 +954,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomArmlessNoSkirt
 
@@ -964,7 +964,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkCroptopShorts
 
@@ -974,7 +974,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkTanktopShorts
 
@@ -984,7 +984,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkPantsOnly
 
@@ -994,7 +994,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomPunkShortsOnly
 
@@ -1004,7 +1004,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomArmless
 
@@ -1014,7 +1014,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomStandard
 
@@ -1024,7 +1024,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomShorts
 
@@ -1034,7 +1034,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformRandomShirt
 
@@ -1044,7 +1044,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingSkirtUniformRandomArmless
 
@@ -1054,7 +1054,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingSkirtUniformRandomStandard
 
@@ -1064,7 +1064,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingSkirtUniformRandomBra
 
@@ -1074,7 +1074,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingSkirtUniformRandomShorts
 
@@ -1084,7 +1084,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     jumpsuit: ClothingSkirtUniformRandomShirt
 
@@ -1094,7 +1094,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMonasticRobeDark
 
@@ -1103,7 +1103,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMonasticRobeLight
 
@@ -1112,7 +1112,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChaplainPilgrimVest
 
@@ -1121,7 +1121,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitQMTurtleneck
 
@@ -1130,7 +1130,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtQMTurtleneck
 
@@ -1139,7 +1139,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorPhysician
 
@@ -1148,7 +1148,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorPhysician
 
@@ -1157,7 +1157,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMO
 
@@ -1166,7 +1166,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMO
 
@@ -1175,7 +1175,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCMOTurtle
 
@@ -1184,7 +1184,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCMOTurtle
 
@@ -1193,7 +1193,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorResearcher
 
@@ -1202,7 +1202,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorResearcher
 
@@ -1211,7 +1211,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitResearchDirector
 
@@ -1220,7 +1220,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtResearchDirector
 
@@ -1229,7 +1229,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
 
@@ -1238,7 +1238,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorEngineer
 
@@ -1247,7 +1247,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerNT
 
@@ -1256,7 +1256,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineer
 
@@ -1265,7 +1265,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineer
 
@@ -1274,7 +1274,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitChiefEngineerTurtle
 
@@ -1283,7 +1283,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtChiefEngineerTurtle
 
@@ -1292,7 +1292,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitJester
 
@@ -1301,7 +1301,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitJesterAlt
 
@@ -1310,7 +1310,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitKilt
 
@@ -1319,7 +1319,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitDameDane
 
@@ -1328,7 +1328,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitKimono
 
@@ -1337,7 +1337,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingKimonoPink
 
@@ -1346,7 +1346,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingKimonoBlue
 
@@ -1355,7 +1355,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitGladiator
 
@@ -1364,7 +1364,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtPerformer
 
@@ -1373,7 +1373,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanimaid
 
@@ -1382,7 +1382,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitSafari
 
@@ -1391,7 +1391,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: UniformShortsRed
 
@@ -1400,7 +1400,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: UniformShortsRedWithTop
 
@@ -1409,7 +1409,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitClown
 
@@ -1418,7 +1418,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMime
 
@@ -1427,7 +1427,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtMime
 
@@ -1436,7 +1436,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeans
 
@@ -1445,7 +1445,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeansGray
 
@@ -1454,7 +1454,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitTshirtJeansPeach
 
@@ -1463,7 +1463,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCaptain
 
@@ -1472,7 +1472,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCaptain
 
@@ -1482,7 +1482,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1500
+  price: 15000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitCapFormal
 
@@ -1491,7 +1491,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1500
+  price: 15000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpskirtCapFormalDress
 
@@ -1501,7 +1501,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 675
+  price: 7250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractor
 
@@ -1510,7 +1510,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 675
+  price: 7250 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractorTac
 
@@ -1519,7 +1519,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCaptain
 
@@ -1528,7 +1528,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryAtmospherics
 
@@ -1537,7 +1537,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineering
 
@@ -1546,7 +1546,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryEngineeringChief
 
@@ -1555,7 +1555,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitarySalvageSpecialist
 
@@ -1564,7 +1564,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCargo
 
@@ -1573,7 +1573,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryQM
 
@@ -1582,7 +1582,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryParamedic
 
@@ -1591,7 +1591,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryMedicalDoctor
 
@@ -1600,7 +1600,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryChemistry
 
@@ -1609,7 +1609,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryVirology
 
@@ -1618,7 +1618,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryGenetics
 
@@ -1627,7 +1627,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryCMO
 
@@ -1636,7 +1636,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryScientist
 
@@ -1645,7 +1645,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryResearchDirector
 
@@ -1654,7 +1654,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryService
 
@@ -1663,7 +1663,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryHydroponics
 
@@ -1672,7 +1672,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGrey
 
@@ -1681,7 +1681,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlack
 
@@ -1690,7 +1690,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBlue
 
@@ -1699,7 +1699,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkBlue
 
@@ -1708,7 +1708,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorTeal
 
@@ -1717,7 +1717,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorGreen
 
@@ -1726,7 +1726,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorDarkGreen
 
@@ -1735,7 +1735,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorOrange
 
@@ -1744,7 +1744,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPink
 
@@ -1753,7 +1753,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorRed
 
@@ -1762,7 +1762,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorYellow
 
@@ -1771,7 +1771,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorPurple
 
@@ -1780,7 +1780,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorLightBrown
 
@@ -1789,7 +1789,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorBrown
 
@@ -1798,6 +1798,6 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryColorMaroon

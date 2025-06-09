@@ -405,7 +405,7 @@
       stampedColor: '#1F66A0FF'
       stampedName: stamp-component-stamped-name-confidential
   - type: StaticPrice
-    price: 1000
+    price: 250 # Eclipse
 
 - type: entity
   parent: NFBaseBlueprintExpedition

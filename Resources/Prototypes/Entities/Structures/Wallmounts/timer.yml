@@ -36,7 +36,7 @@
       enum.SignalTimerUiKey.Key:
         type: SignalTimerBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 100
+    powerLoad: 1000 # Eclipse
   - type: Electrified
     enabled: false
     usesApcPower: true

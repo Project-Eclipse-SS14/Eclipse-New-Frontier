@@ -272,7 +272,7 @@
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice
-    price: 280
+    price: 120 # Eclipse
   - type: Construction
     graph: ModernCrossbowHand
     node: start
@@ -299,7 +299,7 @@
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Crossbow/cult.rsi
   - type: StaticPrice
-    price: 400
+    price: 200 # Eclipse
   - type: Construction
     graph: CultCrossbowHand
     node: start
@@ -340,7 +340,7 @@
   - type: Sprite
     sprite: _NF/Objects/Weapons/Guns/Crossbow/culthand.rsi
   - type: StaticPrice
-    price: 300
+    price: 160 # Eclipse
   - type: Construction
     graph: CultCrossbowHand
     node: CrossbowBloodCultHand

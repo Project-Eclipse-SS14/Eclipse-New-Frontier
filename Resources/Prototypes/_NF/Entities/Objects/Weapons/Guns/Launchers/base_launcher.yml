@@ -25,7 +25,7 @@
     # maxOffset: 10
     # pvsIncrease: 1
   - type: StaticPrice
-    price: 1500
+    price: 400 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-launcher
 

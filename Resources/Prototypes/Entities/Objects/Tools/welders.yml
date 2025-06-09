@@ -102,7 +102,7 @@
     materialComposition:
       Steel: 200
   - type: StaticPrice
-    price: 20 # Frontier 40<20
+    price: 10 # Eclipse
   - type: IgnitionSource
     temperature: 700
 

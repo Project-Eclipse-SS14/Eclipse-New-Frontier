@@ -1,84 +1,84 @@
 - type: loadout
   id: ContractorClothingBeltPlant
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltPlant
 
 - type: loadout
   id: ContractorClothingBeltPlantFilled
   name: пояс ботаника (заполненный) #Corvax-Frontier
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltPlantFilled
 
 - type: loadout
   id: ContractorClothingBeltChef
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltChef
 
 - type: loadout
   id: ContractorClothingBeltChefFilled
   name: пояс повара (заполненный) #Corvax-Frontier
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltChefFilled
 
 - type: loadout
   id: ContractorClothingBeltStorageWaistbag
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltStorageWaistbag
 
 - type: loadout
   id: ContractorClothingBeltMedical
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltMedical
 
 - type: loadout
   id: ContractorClothingBeltMedicalFilled
   name: пояс медика (заполненный) #Corvax-Frontier
-  price: 2000
+  price: 20000 # Eclipse
   equipment:
     belt: ClothingBeltMedicalFilled
 
 - type: loadout
   id: ContractorClothingBeltMedicalEMT
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltMedicalEMT
 
 - type: loadout
   id: ContractorClothingBeltMedicalEMTFilled
   name: пояс парамедика (заполненный) #Corvax-Frontier
-  price: 2000
+  price: 20000 # Eclipse
   equipment:
     belt: ClothingBeltMedicalEMTFilled
 
 - type: loadout
   id: ContractorClothingBeltUtility
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltUtility
 
 - type: loadout
   id: ContractorClothingBeltUtilityFilled
   name: пояс для инструментов (заполненный) #Corvax-Frontier
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltUtilityEngineering
 
 - type: loadout
   id: ContractorClothingBeltSalvageWebbing
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: ClothingBeltSalvageWebbing
 
 - type: loadout
   id: ContractorClothingBeltSalvageWebbingFilledNF
   name: РПС утилизатора (заполненный) #Corvax-Frontier
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltSalvageWebbingFilledNF
 
@@ -88,7 +88,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     belt: BoxFolderClipboard
 
@@ -97,7 +97,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ClothingBeltPilot
 
@@ -107,7 +107,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltPilotFilled
 
@@ -116,7 +116,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ClothingBeltBandolier
 
@@ -125,7 +125,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ClothingBeltHolster
 
@@ -134,7 +134,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ClothingBeltChaplainSash
 
@@ -144,7 +144,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltChaplainSashFilled
 
@@ -153,7 +153,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: BooksBag
 
@@ -162,7 +162,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ChemBag
 
@@ -171,7 +171,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: OreBag
 
@@ -180,7 +180,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: PlantBag
 
@@ -189,7 +189,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     belt: ConstructionBag
 
@@ -199,7 +199,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     belt: ClothingBeltMartialBlack
 
@@ -209,7 +209,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   equipment:
     belt: ClothingBeltPunkRandomized
 
@@ -219,7 +219,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1500
+  price: 15500 # Eclipse
   equipment:
     belt: ClothingBeltPunkRandomizedFilled
 
@@ -229,7 +229,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 5000
+  price: 5500 # Eclipse0
   equipment:
     belt: ClothingBeltChampion
 
@@ -239,6 +239,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 2500
+  price: 25500 # Eclipse
   equipment:
     belt: ClothingBeltSheathFilledHilt

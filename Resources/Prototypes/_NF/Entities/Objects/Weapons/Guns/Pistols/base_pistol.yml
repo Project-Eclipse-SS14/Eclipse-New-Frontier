@@ -16,7 +16,7 @@
     availableModes:
     - SemiAuto
   - type: StaticPrice
-    price: 250
+    price: 100 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-pistol
 

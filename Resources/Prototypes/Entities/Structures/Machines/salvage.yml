@@ -40,7 +40,7 @@
     - Supply
   - type: SalvageMagnet
   - type: ApcPowerReceiver
-    powerLoad: 2500 # TODO change this to a HV power draw that really hits the grid hard WHEN active
+    powerLoad: 25000 # Eclipse
   - type: Machine
     board: SalvageMagnetMachineCircuitboard
 
@@ -53,7 +53,7 @@
   components:
   - type: SalvageMagnet
   - type: ApcPowerReceiver
-    powerLoad: 1000
+    powerLoad: 10000 # Eclipse
 
 - type: weightedRandomEntity
   id: RandomAsteroidPool

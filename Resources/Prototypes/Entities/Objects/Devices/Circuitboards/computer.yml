@@ -14,7 +14,7 @@
       tags:
         - DroneUsable
     - type: StaticPrice
-      price: 100
+      price: 20 # Eclipse
     - type: PhysicalComposition
       materialComposition:
         Glass: 230
@@ -111,7 +111,7 @@
     - type: ComputerBoard
       prototype: ComputerCargoOrders
 #    - type: StaticPrice # Frontier
-#      price: 750
+#      price: 90 # Eclipse
     - type: Tag
       tags:
       - DroneUsable
@@ -129,7 +129,7 @@
   - type: ComputerBoard
     prototype: ComputerCargoOrdersEngineering
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -142,7 +142,7 @@
   - type: ComputerBoard
     prototype: ComputerCargoOrdersMedical
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -155,7 +155,7 @@
   - type: ComputerBoard
     prototype: ComputerCargoOrdersScience
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -168,7 +168,7 @@
   - type: ComputerBoard
     prototype: ComputerCargoOrdersSecurity
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -181,7 +181,7 @@
   - type: ComputerBoard
     prototype: ComputerCargoOrdersService
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -194,7 +194,7 @@
   - type: ComputerBoard
     prototype: ComputerFundingAllocation
   - type: StaticPrice
-    price: 750
+    price: 90 # Eclipse
 
 - type: entity
   parent: BaseComputerCircuitboard
@@ -364,7 +364,7 @@
     - type: ComputerBoard
       prototype: ComputerId
 #    - type: StaticPrice # Frontier
-#      price: 750
+#      price: 90 # Eclipse
     - type: Tag
       tags:
       - DroneUsable

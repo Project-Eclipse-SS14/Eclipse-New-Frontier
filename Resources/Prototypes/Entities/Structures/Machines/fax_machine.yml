@@ -36,7 +36,7 @@
         type: FaxBoundUi
   - type: StationAiWhitelist
   - type: ApcPowerReceiver
-    powerLoad: 250
+    powerLoad: 2500 # Eclipse
   - type: Faxecute
     damage:
       types:

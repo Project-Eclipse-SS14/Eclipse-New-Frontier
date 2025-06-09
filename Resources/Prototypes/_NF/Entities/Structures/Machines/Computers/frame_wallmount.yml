@@ -36,7 +36,7 @@
             - !type:DoActsBehavior
               acts: ["Destruction"]
     - type: StaticPrice
-      price: 100
+      price: 15 # Eclipse
 
 - type: entity
   parent: BaseStructureComputerWallmount

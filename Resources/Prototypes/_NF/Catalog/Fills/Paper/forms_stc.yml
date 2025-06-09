@@ -33,8 +33,8 @@
     - id: Paper
       prob: 0.5
   - type: StaticPrice
-    price: 100
-    vendPrice: 500
+    price: 35 # Eclipse
+    vendPrice: 1500 # Eclipse
 
 # forms
 - type: entity # Based on form made by DmitriTheDemon (Dustin)

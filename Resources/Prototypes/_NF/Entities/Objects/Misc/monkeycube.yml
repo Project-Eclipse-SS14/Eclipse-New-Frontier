@@ -15,7 +15,7 @@
     state: box_poultry
   - type: StaticPrice
     price: 20
-    vendPrice: 800 # Meat only worth 180 at a depot, but can produce eggs and more poultry for free
+    vendPrice: 4000 # Eclipse
 
 - type: entity
   parent: VariantCubeBox
@@ -36,8 +36,7 @@
     state: box_ruminant
   - type: StaticPrice
     price: 20
-    vendPrice: 2000 # Meat only worth 607 at a depot, but can produce more stuff from extra goats + milk
-
+    vendPrice: 12000 # Eclipse
 - type: entity
   parent: BoxCardboard
   name: farm cube box
@@ -64,7 +63,7 @@
     - 0,0,3,2
   - type: StaticPrice
     price: 20
-    vendPrice: 3000 # The whole family is here.
+    vendPrice: 9000 # Eclipse
 
 - type: entity
   parent: MonkeyCubeWrapped

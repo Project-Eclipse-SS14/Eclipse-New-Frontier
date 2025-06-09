@@ -41,7 +41,7 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: StaticPrice
-    price: 100
+    price: 25 # Eclipse
 
 - type: entity
   id: ComputerFrame
@@ -103,4 +103,4 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
-    price: 30 # Frontier 25<30
+    price: 20 # Eclipse

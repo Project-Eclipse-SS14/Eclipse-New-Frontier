@@ -2,14 +2,14 @@
 - type: loadout
   id: ContractorClothingMaskBreath
   storage:
-    back: 
+    back:
     - ClothingMaskBreath
 
 - type: loadout
   id: ContractorClothingMaskBreathMedical
-  price: 200
+  price: 2000 # Eclipse
   storage:
-    back: 
+    back:
     - ClothingMaskBreathMedical
 
 #T1
@@ -18,9 +18,9 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 200
+  price: 2000 # Eclipse
   storage:
-    back: 
+    back:
     - ClothingMaskSterile
 
 - type: loadout
@@ -28,7 +28,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 300
+  price: 3000 # Eclipse
   storage:
     back:
     - ClothingMaskGas
@@ -39,7 +39,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   storage:
     back:
     - ClothingMaskPunkHalf
@@ -50,7 +50,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - ClothingMaskGasExplorer
@@ -60,7 +60,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - ClothingMaskGasCaptain
@@ -70,7 +70,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - ClothingMaskGasAtmos
@@ -80,7 +80,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1500
+  price: 15000 # Eclipse
   storage:
     back:
     - ClothingMaskPlague
@@ -90,9 +90,9 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1500
+  price: 15000 # Eclipse
   storage:
-    back: 
+    back:
     - ClothingMaskMime
 
 - type: loadout
@@ -100,7 +100,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1500
+  price: 15000 # Eclipse
   storage:
     back:
     - ClothingMaskScaredMime
@@ -110,7 +110,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1500
+  price: 15000 # Eclipse
   storage:
     back:
     - ClothingMaskSadMime
@@ -120,7 +120,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 2500
+  price: 25000 # Eclipse
   storage:
     back:
     - ClothingMaskClown
@@ -130,7 +130,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 2500
+  price: 25000 # Eclipse
   storage:
     back:
     - ClothingMaskClownBald

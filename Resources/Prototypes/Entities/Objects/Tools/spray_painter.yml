@@ -32,7 +32,7 @@
       mix: '#947507'
       external: '#9955cc' # Frontier
   - type: StaticPrice
-    price: 20 # Frontier 40<20
+    price: 10 # Eclipse
   - type: PhysicalComposition
     materialComposition:
       Steel: 100

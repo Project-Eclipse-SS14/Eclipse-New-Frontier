@@ -49,7 +49,7 @@
         sound:
           path: /Audio/Effects/plant_rustle.ogg
   - type: StaticPrice
-    price: 50
+    price: 20 # Eclipse
 
 - type: entity
   id: PottedPlant0

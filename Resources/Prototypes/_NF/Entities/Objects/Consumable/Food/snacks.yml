@@ -3,11 +3,11 @@
   abstract: true
   components:
   - type: StaticPrice
-    vendPrice: 200
+    vendPrice: 2000 # Eclipse
 
 - type: entity
   id: VendPriceFoodBase100
   abstract: true
   components:
   - type: StaticPrice
-    vendPrice: 100
+    vendPrice: 1000 # Eclipse

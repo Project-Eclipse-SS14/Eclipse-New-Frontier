@@ -79,7 +79,7 @@
   - type: SolutionContainerManager
     solutions:
       tank:
-        maxVol: 1000 # Frontier 500<1000
+        maxVol: 3500 # Eclipse
   - type: ExaminableSolution
     solution: tank
   - type: UserInterface
@@ -138,7 +138,7 @@
       tank:
         reagents:
         - ReagentId: RootBeer
-          Quantity: 1000 # Frontier 500<1000
+          Quantity: 3500 # Eclipse
 
 - type: entity
   parent: WoodenKeg
@@ -153,7 +153,7 @@
       tank:
         reagents:
         - ReagentId: Beer
-          Quantity: 1000 # Frontier 500<1000
+          Quantity: 3500 # Eclipse
 
 - type: entity
   parent: WoodenKeg
@@ -168,4 +168,4 @@
       tank:
         reagents:
         - ReagentId: Wine
-          Quantity: 1000 # Frontier 500<1000
+          Quantity: 3500 # Eclipse

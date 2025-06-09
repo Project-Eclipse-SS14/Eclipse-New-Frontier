@@ -271,4 +271,4 @@
         orGroup: Prize
   - type: StaticPrice
     price: 20
-    vendPrice: 500
+    vendPrice: 5000 # Eclipse
