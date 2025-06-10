@@ -1,14 +1,9 @@
 - type: construction
-  name: diagonal wall
   id: DiagonalWall
   graph: Girder
   startNode: start
   targetNode: diagonalWall
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
-  icon:
-    sprite: _NF/Structures/Walls/solid_diagonal.rsi # Frontier: use _NF variant
-    state: state0
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true
@@ -17,16 +12,11 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: diagonal reinforced wall
   id: DiagonalReinforcedWall
   graph: Girder
   startNode: start
   targetNode: diagonalReinforcedWall
   category: construction-category-structures
-  description: Keeps the air in and the greytide out.
-  icon:
-    sprite: _NF/Structures/Walls/reinforced_diagonal.rsi
-    state: state0
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true

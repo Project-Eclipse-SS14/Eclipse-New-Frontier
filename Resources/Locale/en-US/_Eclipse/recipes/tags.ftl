@@ -1,0 +1,1 @@
+construction-graph-tag-directional-fan-assembly = directional fan assembly
