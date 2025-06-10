@@ -116,7 +116,7 @@
       graph: ClockworkGirder
       node: clockGirder
     - type: StaticPrice
-       75
+      price: 75
     - type: Destructible
       thresholds:
         - trigger:
