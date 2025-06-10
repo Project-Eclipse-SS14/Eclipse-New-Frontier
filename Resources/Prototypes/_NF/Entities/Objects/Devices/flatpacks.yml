@@ -63,7 +63,7 @@
   - type: Flatpack
     entity: PowerCellRecharger
   - type: StaticPrice
-    price: 5 # Eclipse
+    price: 6 # Eclipse
   - type: Sprite
     layers:
     - state: power_charger
