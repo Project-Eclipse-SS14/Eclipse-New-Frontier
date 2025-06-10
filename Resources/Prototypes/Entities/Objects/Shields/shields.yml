@@ -67,7 +67,7 @@
   description: A large tower shield. Good for controlling crowds.
   components:
     - type: StaticPrice
-      price: 90
+      price: 30 # Eclipse
     - type: Blocking
       passiveBlockModifier:
         coefficients:

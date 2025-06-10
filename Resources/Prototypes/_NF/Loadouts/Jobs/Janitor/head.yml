@@ -38,6 +38,6 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 5000
+  price: 50000 # Eclipse
   equipment:
     head: GoldenPlunger

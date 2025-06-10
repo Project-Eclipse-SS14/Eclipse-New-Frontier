@@ -98,7 +98,7 @@
       tags:
       - MailCapsule
   - type: StaticPrice
-    price: 50
+    price: 30 # Eclipse
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions
 
@@ -116,6 +116,6 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Launchers/nfsd_lake.rsi
   - type: StaticPrice
-    price: 50
+    price: 30 # Eclipse
   - type: NFWeaponDetails
     manufacturer: weapon-details-manufacturer-nanotrasen-munitions

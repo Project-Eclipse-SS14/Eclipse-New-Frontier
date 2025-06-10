@@ -59,7 +59,7 @@
     graph: AirlockShuttle
     node: airlock
   - type: StaticPrice
-    price: 350
+    price: 115 # Eclipse
 
 - type: entity
   id: AirlockGlassShuttle

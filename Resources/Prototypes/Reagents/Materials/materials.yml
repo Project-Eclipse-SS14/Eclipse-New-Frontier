@@ -32,7 +32,7 @@
   unit: materials-unit-sheet
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: durathread }
   color: "#8291a1"
-  price: 0.04 # Eclipse
+  price: 0.045 # Eclipse
 
 - type: material
   id: Paper
@@ -56,7 +56,7 @@
   name: materials-plastic
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: plastic }
   color: "#d9d9d9"
-  price: 0.04 # Eclipse
+  price: 0.035 # Eclipse
 
 - type: material
   id: Wood
@@ -65,7 +65,7 @@
   unit: materials-unit-plank
   icon: { sprite: Objects/Materials/materials.rsi, state: wood }
   color: "#966F33"
-  price: 0.3 # Eclipse
+  price: 0.03 # Eclipse
 
 - type: material
   id: Uranium
@@ -73,7 +73,7 @@
   name: materials-uranium
   icon: { sprite: Objects/Materials/Sheets/other.rsi, state: uranium }
   color: "#32a852"
-  price: 0.07 # Eclipse
+  price: 0.06 # Eclipse
 
 - type: material
   id: Bananium

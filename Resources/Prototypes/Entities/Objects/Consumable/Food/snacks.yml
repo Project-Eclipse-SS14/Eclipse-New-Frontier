@@ -436,7 +436,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
-    price: 50
+    price: 27 # Eclipse
 
 - type: entity
   id: FoodSnackNutribrickOpen

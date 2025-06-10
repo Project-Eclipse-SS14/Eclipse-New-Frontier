@@ -217,6 +217,7 @@
   components:
   - type: Sprite
     state: bird
+    color: "#BBBBFF" # Frontier
   - type: SolutionContainerManager
     solutions:
       food:
@@ -267,6 +268,7 @@
   components:
   - type: Sprite
     state: bird
+    color: "#FFBBBB" # Frontier
   - type: SolutionContainerManager
     solutions:
       food:
@@ -304,7 +306,7 @@
         - ReagentId: Bicaridine
           Quantity: 20
   - type: StaticPrice
-    price: 750
+    price: 140 # Eclipse
   - type: StealTarget
     stealGroup: FoodMeatCorgi
 
@@ -611,7 +613,7 @@
     count: 3
     slice: FoodMeatTomatoCutlet
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   name: salami
@@ -795,7 +797,7 @@
         - ReagentId: Iron
           Quantity: 10
   - type: StaticPrice
-    price: 3000 #It has so much Omnizin in it
+    price: 950 # Eclipse
   - type: Tag
     tags:
     - Meat
@@ -1573,7 +1575,7 @@
     state: salami-slice
     color: red
   - type: StaticPrice
-    price: 30
+    price: 10 # Eclipse
 
 - type: entity
   name: salami slice

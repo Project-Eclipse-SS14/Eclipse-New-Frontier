@@ -65,4 +65,4 @@
     netsync: false
   - type: Appearance
   - type: StaticPrice
-    price: 15.5
+    price: 7.5 # Eclipse

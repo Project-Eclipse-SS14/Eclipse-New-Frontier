@@ -73,15 +73,15 @@
     - type: PowerCharge
       windowTitle: station-anchor-window-title
       idlePower: 50
-      activePower: 2500
-      activeChargingPower: 2500 # Frontier
+      activePower: 30000 # Eclipse
+      activeChargingPower: 30000 # Eclipse
       chargeRate: 0.5
     - type: ActivatableUI
       key: enum.PowerChargeUiKey.Key
     - type: ActivatableUIRequiresPower
     - type: Anchorable
     - type: ApcPowerReceiver
-      powerLoad: 2500
+      powerLoad: 30000 # Eclipse
     - type: ExtensionCableReceiver
     - type: Damageable
       damageContainer: Inorganic
@@ -107,7 +107,7 @@
           sound:
             collection: MetalBreak
     - type: StaticPrice
-      price: 300 # Frontier 10000<300
+      price: 150 # Eclipse
     - type: Machine
       board: StationAnchorCircuitboard
     - type: ContainerContainer

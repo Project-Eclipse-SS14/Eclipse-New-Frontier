@@ -217,7 +217,7 @@
     stackType: MedicatedSuture
     count: 10
   - type: StackPrice
-    price: 20
+    price: 10 # Eclipse
 
 - type: entity
   id: BrutepackAdvanced1

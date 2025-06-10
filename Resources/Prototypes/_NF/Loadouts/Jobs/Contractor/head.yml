@@ -3,7 +3,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandBlack
 
@@ -12,7 +12,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandBlue
 
@@ -21,7 +21,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandGreen
 
@@ -30,7 +30,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandRed
 
@@ -39,7 +39,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandSkull
 
@@ -48,7 +48,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatGreysoft
 
@@ -57,7 +57,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatBluesoft
 
@@ -66,7 +66,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatYellowsoft
 
@@ -75,7 +75,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatGreensoft
 
@@ -84,7 +84,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatOrangesoft
 
@@ -93,7 +93,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatRedsoft
 
@@ -102,7 +102,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatBlacksoft
 
@@ -111,7 +111,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatPurplesoft
 
@@ -120,7 +120,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatCorpsoft
 
@@ -129,7 +129,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandGrey
 
@@ -138,7 +138,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatUshanka
 
@@ -147,7 +147,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatHardhatYellow
 
@@ -156,7 +156,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatChef
 
@@ -165,7 +165,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadHatCargosoft
 
@@ -174,7 +174,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 250
+  price: 2750 # Eclipse
   equipment:
     head: ClothingHeadBandBotany
 
@@ -187,7 +187,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatHoodBioScientist
 
@@ -199,7 +199,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadRastaHat
 
@@ -211,7 +211,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatSombrero
 
@@ -223,7 +223,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadFishCap
 
@@ -235,7 +235,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatTrucker
 
@@ -247,7 +247,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatCasa
 
@@ -259,7 +259,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatBowlerHat
 
@@ -271,7 +271,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatGreyFlatcap
 
@@ -283,7 +283,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatBrownFlatcap
 
@@ -295,7 +295,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatParamedicsoft
 
@@ -307,7 +307,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadNurseHat
 
@@ -319,7 +319,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretMedic
 
@@ -331,7 +331,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatSurgcapGreen
 
@@ -343,7 +343,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatSurgcapBlue
 
@@ -355,7 +355,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatSurgcapPurple
 
@@ -367,7 +367,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatFedoraGrey
 
@@ -379,7 +379,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 650
+  price: 7500 # Eclipse
   equipment:
     head: ClothingHeadHatFedoraBrown
 
@@ -393,7 +393,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCaptain
 
@@ -405,7 +405,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCapcap
 
@@ -417,7 +417,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadTinfoil
 
@@ -429,7 +429,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretRND
 
@@ -441,7 +441,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretEngineering
 
@@ -453,7 +453,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretSeniorPhysician
 
@@ -465,7 +465,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretCmo
 
@@ -477,7 +477,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretQM
 
@@ -489,7 +489,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatQMsoft
 
@@ -501,7 +501,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCardinal
 
@@ -513,7 +513,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatHoodNunHood
 
@@ -525,7 +525,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadSafari
 
@@ -537,7 +537,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatJester
 
@@ -549,7 +549,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatJesterAlt
 
@@ -561,7 +561,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeret
 
@@ -573,7 +573,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBeretFrench
 
@@ -585,7 +585,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatMimesoft
 
@@ -597,7 +597,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatPilgrim
 
@@ -609,7 +609,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatStrawHat
 
@@ -621,7 +621,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyBlack
 
@@ -633,7 +633,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyBrown
 
@@ -645,7 +645,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyGrey
 
@@ -657,7 +657,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyBountyHunter
 
@@ -669,7 +669,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBH
 
@@ -681,7 +681,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyRed
 
@@ -693,7 +693,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCowboyWhite
 
@@ -705,7 +705,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatWideBrimmed
 
@@ -717,7 +717,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatWitchhunter
 
@@ -729,7 +729,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatBishopMitre
 
@@ -741,7 +741,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatKippah
 
@@ -753,7 +753,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatPlaguedoctor
 
@@ -766,7 +766,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: Plunger
 
@@ -778,7 +778,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     head: ClothingHeadHatCone
 
@@ -790,7 +790,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 2500
+  price: 25000 # Eclipse
   equipment:
     head: ClothingHeadBandGold
 
@@ -802,6 +802,6 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFHeadwearCapable
-  price: 5000
+  price: 50000 # Eclipse
   equipment:
     head: ClothingHeadHatTophat

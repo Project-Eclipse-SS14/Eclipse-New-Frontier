@@ -19,7 +19,7 @@
   - type: Item
     size: Small
   - type: StaticPrice
-    price: 40
+    price: 30 # Eclipse
   - type: PayloadTrigger
     components:
     - type: OnUseTimerTrigger
@@ -41,7 +41,7 @@
     sprite: Objects/Devices/signaltrigger.rsi
     state: signaltrigger
   - type: StaticPrice
-    price: 40
+    price: 30 # Eclipse
   - type: Tag
     tags:
     - SignalTrigger
@@ -65,7 +65,7 @@
     sprite: Objects/Devices/voice.rsi
     state: voice
   - type: StaticPrice
-    price: 40
+    price: 30 # Eclipse
   - type: Tag
     tags:
     - VoiceTrigger

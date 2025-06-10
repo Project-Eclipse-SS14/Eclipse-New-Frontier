@@ -76,7 +76,7 @@
         - !type:DoActsBehavior
           acts: ["Breakage"]
   - type: StaticPrice
-    price: 25
+    price: 10 # Eclipse
 
 - type: entity
   parent: DefaultStationBeacon

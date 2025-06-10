@@ -152,7 +152,7 @@
   - type: Clothing
     sprite: _NF/Objects/Weapons/Guns/Revolvers/argenti.rsi
   - type: StaticPrice
-    price: 200
+    price: 100 # Eclipse
 
 # Frontier: Rubber
 - type: entity

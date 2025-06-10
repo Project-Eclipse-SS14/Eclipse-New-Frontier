@@ -34,6 +34,6 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: ApcPowerReceiver
-    powerLoad: 15000
+    powerLoad: 150000 # Eclipse
   - type: StaticPrice
-    price: 1500
+    price: 300 # Eclipse

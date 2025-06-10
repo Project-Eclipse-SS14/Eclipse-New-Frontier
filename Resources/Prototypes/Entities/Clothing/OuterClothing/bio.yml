@@ -20,7 +20,7 @@
     walkModifier: 1
     sprintModifier: 0.95
   - type: StaticPrice # Frontier
-    vendPrice: 400 # Frontier
+    vendPrice: 3500 # Eclipse
 
 - type: entity
   parent: ClothingOuterBioGeneral

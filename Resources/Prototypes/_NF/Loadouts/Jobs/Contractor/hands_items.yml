@@ -5,7 +5,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   inhand:
     - BriefcaseBrownFilled
 
@@ -15,7 +15,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   inhand:
     - ToolboxEmergency
 
@@ -25,7 +25,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   inhand:
     - ToolboxMechanical
 
@@ -35,7 +35,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 30000 # Eclipse # Eclipse
   inhand:
     - Cane
 
@@ -44,7 +44,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 1000
+  price: 30000 # Eclipse # Eclipse
   inhand:
     - LGBTQHandyFlag
 
@@ -53,7 +53,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 45000 # Eclipse # Eclipse
   inhand:
     - NTHandyFlag
 
@@ -62,7 +62,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 45000 # Eclipse # Eclipse
   inhand:
     - BalloonNT
 
@@ -72,7 +72,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 10000
+  price: 30000 # Eclipse
   inhand:
     - FlashlightUmbrella
 
@@ -81,7 +81,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 20000
+  price: 45000 # Eclipse
   inhand:
     - DawInstrumentFlatpack
 
@@ -90,7 +90,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 35000
+  price: 150000 # Eclipse
   inhand:
     - HoverbikeFlatpack
 
@@ -100,7 +100,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT3
-  price: 10000
+  price: 70000 # Eclipse
   inhand:
     - PetCarrierNPCEmotionalSupportSafe
 
@@ -111,7 +111,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - AppraisalTool
 
@@ -120,7 +120,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - Pickaxe
 
@@ -129,7 +129,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - HandheldGPSBasic
 
@@ -138,7 +138,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 550
+  price: 6000 # Eclipse
   inhand:
     - RadioHandheldNF
 
@@ -147,7 +147,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - NetworkConfigurator
 
@@ -156,7 +156,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - HandheldHealthAnalyzerUnpowered
 
@@ -165,7 +165,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - AnomalyScanner
 
@@ -174,7 +174,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - Bucket
 
@@ -183,7 +183,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 350
+  price: 4500 # Eclipse
   inhand:
     - GeigerCounter
 
@@ -193,7 +193,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 3000
+  price: 30000 # Eclipse
   inhand:
     - NFWeaponPka
 
@@ -202,7 +202,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 2000
+  price: 20000 # Eclipse
   inhand:
     - PinpointerUniversal
 
@@ -211,7 +211,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 45000 # Eclipse # Eclipse
   inhand:
     - ShipyardRCD
 
@@ -220,7 +220,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 2000
+  price: 20000 # Eclipse
   inhand:
     - HandheldCrewMonitor
 
@@ -229,7 +229,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 45000 # Eclipse # Eclipse
   inhand:
     - HypoMini
 
@@ -238,6 +238,6 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 500
+  price: 5500 # Eclipse
   inhand:
     - Bible

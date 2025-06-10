@@ -47,7 +47,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/flaregun.ogg
   - type: StaticPrice # Frontier
-    price: 150 # Frontier
+    price: 45 # Eclipse
 
 
 - type: entity

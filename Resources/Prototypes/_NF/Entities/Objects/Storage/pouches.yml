@@ -24,7 +24,7 @@
     blacklist:
       components: [ Storage ] # No bagception
   - type: StaticPrice
-    price: 50
+    price: 30 # Eclipse
   - type: ItemCounter
     count:
       components: [ Item ]
@@ -932,7 +932,7 @@
         color: "#4960ed"
 
 ## WILDCARDS
-#region mercanary
+#region Mercenary
 - type: entity
   id: NFPouchMercenary
   parent: NFPouchUtility

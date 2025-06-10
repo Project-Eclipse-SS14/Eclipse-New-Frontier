@@ -30,8 +30,7 @@
     containers:
     - entity_storage
   - type: StaticPrice
-    price: 80 # Frontier: 100<80 - TODO: material value rework
-
+    price: 40 # Eclipse
 - type: entity
   parent: CratePlastic
   id: CrateFreezer
@@ -372,7 +371,7 @@
     containers:
     - entity_storage
   - type: StaticPrice
-    price: 150
+    price: 75 # Eclipse
 
 - type: entity
   parent: CrateGeneric
@@ -424,7 +423,7 @@
         layer:
         - LargeMobLayer
   - type: StaticPrice
-    price: 60 # Frontier: 75<60 - TODO: material value rework
+    price: 30 # Eclipse
 
 - type: entity
   id: CrateBaseLockBox
@@ -759,7 +758,7 @@
     openSound:
       path: /Audio/Items/shovel_dig.ogg
   - type: StaticPrice # Eclipse
-    price: 120
+    price: 60 # Eclipse
 
 - type: entity
   parent: CrateWoodenGrave

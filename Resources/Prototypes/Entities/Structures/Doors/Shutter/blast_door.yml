@@ -44,7 +44,7 @@
     containers:
     - board
   - type: StaticPrice
-    price: 280 # Frontier: 500<280 - TODO: material value rework
+    price: 110 # Eclipse
   - type: InteractionPopup
     interactSuccessString: comp-window-knock
     messagePerceivedByOthers: comp-window-knock

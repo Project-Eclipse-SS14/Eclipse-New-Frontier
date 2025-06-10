@@ -63,7 +63,7 @@
   unit: materials-unit-chunk
   icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
   color: "#FFD700"
-  price: 0.02
+  price: 0.01 # Eclipse
 
 # Spawner for lathe: yield random mats if processed in ore processor
 - type: entity

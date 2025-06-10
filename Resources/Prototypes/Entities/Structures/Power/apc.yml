@@ -137,7 +137,7 @@
   - type: LightningTarget
     priority: 1
   - type: StaticPrice
-    price: 500
+    price: 75 # Eclipse
   - type: GuideHelp
     guides:
     - VoltageNetworks

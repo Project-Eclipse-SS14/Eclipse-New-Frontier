@@ -39,7 +39,7 @@
     - map: [ "grinder" ]
       state: "grinder_empty"
   - type: ApcPowerReceiver
-    powerLoad: 300
+    powerLoad: 3000 # Eclipse
   - type: ItemSlots
     slots:
       beakerSlot:

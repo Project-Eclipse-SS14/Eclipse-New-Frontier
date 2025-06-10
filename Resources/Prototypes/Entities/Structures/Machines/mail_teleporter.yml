@@ -31,7 +31,7 @@
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
   - type: ApcPowerReceiver
-    powerLoad: 1000
+    powerLoad: 10000 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:

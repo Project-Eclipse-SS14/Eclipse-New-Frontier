@@ -22,7 +22,7 @@
     - Science
     - Engineering
   engine:
-    - Plasma
+  - Uranium
 
 - type: gameMap
   id: Sparrow

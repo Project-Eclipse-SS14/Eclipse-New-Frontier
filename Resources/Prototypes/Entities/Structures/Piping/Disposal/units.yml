@@ -75,10 +75,10 @@
     containers:
       disposals: !type:Container
   - type: StaticPrice
-    price: 62 # Frontier: 70<62 - TODO: material value rework
+    price: 35 # Eclipse
   - type: PowerSwitch
   - type: ApcPowerReceiver # Frontier
-    powerLoad: 250 # Allows us to not use the 1000 baseline
+    powerLoad: 4000 # Eclipse
 
 - type: entity
   id: DisposalUnit

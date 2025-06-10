@@ -104,7 +104,7 @@
   - type: Advertise
     pack: FatExtractorFacts
   - type: StaticPrice
-    price: 1000
+    price: 150 # Eclipse
   - type: ResistLocker
   - type: EntityStorage
     capacity: 1

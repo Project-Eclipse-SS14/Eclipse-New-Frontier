@@ -181,7 +181,7 @@
     baseFireBurstDelayMin: 2
     baseFireBurstDelayMax: 6
   - type: ApcPowerReceiver
-    powerLoad: 100
+    powerLoad: 1000 # Eclipse
   - type: GuideHelp
     guides:
     - APE
@@ -254,7 +254,7 @@
   - type: Transform
     anchored: true
   - type: ApcPowerReceiver
-    powerLoad: 1500
+    powerLoad: 150000 # Eclipse
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5
@@ -275,8 +275,11 @@
         - RawMaterial # Frontier
     materialWhiteList:
 #    - Plasma # Frontier
-    - Bananium # Frontier
-  - type: OreSiloClient
+    - Anomalite # Frontier
+    storage: # Frontier
+      Anomalite: 300 # Frontier: one free charge
+    storageLimit: 300 # Frontier: one charge
+  # - type: OreSiloClient # Frontier
   - type: Fixtures
     fixtures:
       fix1:
@@ -329,10 +332,23 @@
           False: { visible: false }
   - type: WiresVisuals
   - type: StaticPrice
-    price: 5000
+    price: 500 # Eclipse
 #  - type: AccessReader # Frontier
 #    access: [["Research"]] # Frontier
   - type: GuideHelp
     guides:
     - AnomalousResearch
-  - type: BindToStation # Frontier
+  # Frontier: extra anomaly generator fields
+  - type: BindToStation
+  - type: TypingIndicator
+    proto: robot
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Borg
+  - type: SpookySpeaker
+    messageSet: SpookySpeakerMessagesAnomalyGenerator
+    speakChance: 0.25
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-mechanical
+    weight: 0.2 # 5 anomaly generators = 1 animal
+  # End Frontier: extra anomaly generator fields

@@ -114,7 +114,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
-    price: 10 # Frontier: 22.5<10
+    price: 5 # Eclipse
 
 - type: entity
   parent: ReinforcedWindow

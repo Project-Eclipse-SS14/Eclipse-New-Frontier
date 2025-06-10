@@ -15,7 +15,7 @@
       shader: unshaded
       visible: false
   - type: ApcPowerReceiver
-    powerLoad: 0 # off by default
+    powerLoad: 5000 # Eclipse
   - type: EntityHeater
     settingSound:
       path: /Audio/Weapons/click.ogg

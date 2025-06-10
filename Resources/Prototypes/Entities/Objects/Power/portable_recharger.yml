@@ -21,9 +21,9 @@
     - type: PowerChargerVisuals
     - type: ApcPowerReceiver
       needsPower: false
-      powerLoad: 1 # Frontier: 0<1 (claims to work without power if 0)
+      powerLoad: 10 # Eclipse
     - type: StaticPrice
-      price: 250 # Eclipse
+      price: 50 # Eclipse
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: ContainerContainer

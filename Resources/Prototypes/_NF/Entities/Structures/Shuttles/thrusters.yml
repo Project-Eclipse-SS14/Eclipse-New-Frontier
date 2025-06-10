@@ -14,7 +14,7 @@
     firingDesiredPowerDraw: 500
     firingPowerDrawRampDuration: 3
   - type: ApcPowerReceiver
-    powerLoad: 125
+    powerLoad: 3000 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/thruster.rsi
     layers:
@@ -41,7 +41,7 @@
         layer:
         - MachineLayer
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Machine
     board: SmallThrusterMachineCircuitboard
 
@@ -59,7 +59,7 @@
     firingPowerDrawRampDuration: 3
     thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
-    powerLoad: 50
+    powerLoad: 1500 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/gyroscope.rsi
     layers:
@@ -88,7 +88,7 @@
         layer:
         - MachineLayer
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Machine
     board: SmallGyroscopeMachineCircuitboard
 
@@ -195,7 +195,7 @@
     firingPowerDrawRampDuration: 3
     thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
-    powerLoad: 50
+    powerLoad: 1500 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/gyroscope.rsi
     layers:
@@ -213,7 +213,7 @@
       shader: unshaded
       visible: false
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
   - type: Machine
     board: SmallGyroscopeSecurityMachineCircuitboard
   - type: Fixtures # Small gyro, small fixture

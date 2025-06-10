@@ -71,7 +71,7 @@
             True: {visible: false}
             False: {visible: true}
     - type: StaticPrice
-      price: 120
+      price: 40 # Eclipse
 
 - type: entity
   parent: [RollerBed, RecyclableItemSteelMedium] # Frontier: added RecyclableItemSteelMedium

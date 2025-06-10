@@ -61,6 +61,6 @@
     tags:
     - Pickaxe
   - type: StaticPrice
-    price: 200
+    price: 100 # Eclipse
   - type: MiningGatheringSoft
   - type: MiningGatheringHard

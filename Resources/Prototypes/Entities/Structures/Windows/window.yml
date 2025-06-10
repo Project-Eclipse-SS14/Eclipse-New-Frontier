@@ -90,7 +90,7 @@
     damageOverlay:
       sprite: Structures/Windows/cracks.rsi
   - type: StaticPrice
-    price: 100
+    price: 50 # Eclipse
   - type: BlockWeather
 
 - type: entity
@@ -110,7 +110,7 @@
     node: tintedWindow
   - type: Occluder
   - type: StaticPrice
-    price: 35 # Frontier: 70<35 - TODO: material rebalance
+    price: 15 # Eclipse
 
 - type: entity
   id: WindowRCDResistant
@@ -212,7 +212,7 @@
     damageOverlay:
       sprite: Structures/Windows/cracks_directional.rsi
   - type: StaticPrice
-    price: 15
+    price: 10 # Eclipse
 
 - type: entity
   id: WindowDirectionalRCDResistant

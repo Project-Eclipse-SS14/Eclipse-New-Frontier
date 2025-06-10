@@ -15,8 +15,8 @@
     - MonkeyWearable
     - WhitelistChameleon
   - type: StaticPrice # Frontier
-    price: 30 # Frontier
-    vendPrice: 1500 # Frontier
+    price: 10 # Eclipse
+    vendPrice: 3750 # Eclipse
 
 #Syndicate EVA
 - type: entity

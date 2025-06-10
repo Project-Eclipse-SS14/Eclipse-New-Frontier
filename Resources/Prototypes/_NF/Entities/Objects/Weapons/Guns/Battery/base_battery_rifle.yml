@@ -47,7 +47,7 @@
     autoRecharge: true
     autoRechargeRate: 4 # Default recharge rate: 1 shot per 20 seconds with 80 fireCost
   - type: StaticPrice
-    price: 400
+    price: 200 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-rifle
 

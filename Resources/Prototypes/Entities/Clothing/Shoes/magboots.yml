@@ -34,7 +34,7 @@
           True: {state: icon-on}
           False: {state: icon}
   - type: StaticPrice
-    price: 100 # Frontier 200<100
+    price: 20 # Eclipse
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -62,7 +62,7 @@
     - WhitelistChameleon
     - HighRiskItem
   - type: StaticPrice
-    price: 200 # Frontier: 750<200
+    price: 50 # Eclipse
   - type: StealTarget
     stealGroup: ClothingShoesBootsMagAdv
 
@@ -85,7 +85,7 @@
     walkModifier: 1.10 #PVS isn't too much of an issue when you are blind...
     sprintModifier: 1.10
   - type: StaticPrice
-    price: 3000
+    price: 400 # Eclipse
 
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseJetpack, BaseC3SyndicateContraband, ContrabandClothing] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband, added ContrabandClothing as parent

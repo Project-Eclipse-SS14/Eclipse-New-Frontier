@@ -25,7 +25,7 @@
     # maxOffset: 5
     # pvsIncrease: 0.5
   - type: StaticPrice
-    price: 400
+    price: 200 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-rifle
 

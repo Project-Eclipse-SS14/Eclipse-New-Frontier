@@ -28,7 +28,7 @@
         !type:DamageTrigger
         damage: 0
   - type: ApcPowerReceiver
-    powerLoad: 1000 # TODO if we keep this make it spike power draw when teleporting
+    powerLoad: 10000 # Eclipse
     powerDisabled: false # Frontier - true<false Start on
   - type: ExtensionCableReceiver
   - type: Appearance

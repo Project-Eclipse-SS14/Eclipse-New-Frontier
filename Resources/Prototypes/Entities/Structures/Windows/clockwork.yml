@@ -107,7 +107,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
-    price: 22.5
+    price: 12 # Eclipse
 
 - type: entity
   parent: ClockworkWindow

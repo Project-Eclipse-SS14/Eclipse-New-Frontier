@@ -28,7 +28,7 @@
       smart_fridge_insertion: !type:ContainerSlot
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 3000 # Eclipse
   - type: SmartFridge
     whitelist:
       components:

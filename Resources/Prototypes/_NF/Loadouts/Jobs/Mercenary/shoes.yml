@@ -27,20 +27,20 @@
 
 - type: loadout
   id: MercenaryClothingShoesMagMercenary
-  name: mercenary magboots (empty)
+  name: магнитные сапоги наёмника (пусто) # Eclipse
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
-  price: 2500
+  price: 25000 # Eclipse
   equipment:
     shoes: ClothingShoesBootsMagMercenary
 
 - type: loadout
   id: MercenaryClothingShoesMagSecurity
-  name: security magboots (empty)
+  name: защитные магнитные сапоги (пусто) # Eclipse
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
-  price: 2500
+  price: 25000 # Eclipse
   equipment:
     shoes: ClothingShoesBootsMagSecurity

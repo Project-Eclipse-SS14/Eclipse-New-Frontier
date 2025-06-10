@@ -34,7 +34,7 @@
         sound:
           collection: MetalBreak
   - type: StaticPrice
-    price: 30 # Frontier: 75<30
+    price: 20 # Eclipse
 
 - type: entity
   abstract: true
@@ -144,7 +144,7 @@
   - type: Machine
     board: PowerCageRechargerCircuitboard
   - type: StaticPrice
-    price: 500
+    price: 75 # Eclipse
 
 - type: entity
   parent: BaseItemRecharger

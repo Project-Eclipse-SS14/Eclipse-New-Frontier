@@ -22,7 +22,7 @@
   - type: Damageable
     damageContainer: Inorganic
   - type: StaticPrice
-    price: 50
+    price: 15 # Eclipse
   - type: Destructible
     thresholds:
     - trigger:
@@ -59,7 +59,7 @@
   - type: Clothing
     sprite: Objects/Devices/goldwatch.rsi
   - type: StaticPrice
-    price: 500 #if you ever increase the price of kidneys, increase this too.
+    price: 125 # Eclipse
   - type: PhysicalComposition
     materialComposition:
       Gold: 500

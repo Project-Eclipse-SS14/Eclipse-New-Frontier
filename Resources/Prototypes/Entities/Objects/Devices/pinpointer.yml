@@ -91,7 +91,7 @@
       shader: unshaded
       visible: false
   - type: StaticPrice # Frontier
-    price: 150
+    price: 50 # Eclipse
 
 - type: entity
   parent: PinpointerBase

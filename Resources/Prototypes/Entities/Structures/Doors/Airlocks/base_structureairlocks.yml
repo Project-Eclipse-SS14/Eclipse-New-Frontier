@@ -91,7 +91,7 @@
   - type: WiresVisuals
   - type: ElectrocutionHUDVisuals
   - type: ApcPowerReceiver
-    powerLoad: 20
+    powerLoad: 200 # Eclipse
   - type: ExtensionCableReceiver
   - type: Electrified
     enabled: false
@@ -165,7 +165,7 @@
     group: Standard
     department: Civilian
   - type: StaticPrice
-    price: 150
+    price: 50 # Eclipse
   - type: LightningTarget
     priority: 1
   - type: Tag

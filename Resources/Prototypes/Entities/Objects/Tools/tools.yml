@@ -42,7 +42,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 15 # Frontier 30<15
+    price: 10 # Eclipse
 
 - type: entity
   name: screwdriver
@@ -86,7 +86,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 15 # Frontier 30<15
+    price: 10 # Eclipse
 
 - type: entity
   name: wrench
@@ -125,7 +125,7 @@
     materialComposition:
       Steel: 100
   - type: StaticPrice
-    price: 11 # Frontier 22<11
+    price: 7 # Eclipse
   - type: GuideHelp
     guides:
     - Construction
@@ -176,7 +176,7 @@
       Steel: 100
       Plastic: 100
   - type: StaticPrice
-    price: 28 # Frontier 56<28
+    price: 20 # Eclipse
   - type: GuideHelp
     guides:
     - Networking
@@ -230,7 +230,7 @@
         enum.NetworkConfiguratorUiKey.Link:
           type: NetworkConfiguratorBoundUserInterface
     - type: StaticPrice
-      price: 28 # Frontier 56<28
+      price: 20 # Eclipse
     - type: GuideHelp
       guides:
       - Networking
@@ -281,7 +281,7 @@
       Steel: 300
       Plastic: 100
   - type: StaticPrice
-    price: 50 # Frontier 100<50
+    price: 30 # Eclipse
   - type: MeleeWeapon
     wideAnimationRotation: -90
     attackRate: 1.5
@@ -335,8 +335,8 @@
       Steel: 500 # Frontier: 600<500
       Plastic: 100
   - type: StaticPrice
-    price: 55 # Frontier 110<55
-    vendPrice: 5000 # Frontier
+    price: 35 # Eclipse
+    vendPrice: 15000 # Eclipse
   - type: UserInterface
     interfaces:
       enum.RcdUiKey.Key:
@@ -393,8 +393,8 @@
       Steel: 100
       Plastic: 100
   - type: StaticPrice
-    price: 30 # Frontier 60<30
-    vendPrice: 1000 # Frontier
+    price: 20 # Eclipse
+    vendPrice: 5000 # Eclipse
 
 - type: entity
   name: omnitool
@@ -489,7 +489,7 @@
       Steel: 100
       Wood: 50
   - type: StaticPrice
-    price: 16.5 # Eclipse 12.5 -> 16.5
+    price: 10 # Eclipse
   # Delta V: Adds tool quality for digging
   - type: Tool
     qualities:

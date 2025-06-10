@@ -75,7 +75,7 @@
     solution: food
     weightedRandomId: RandomFillSpaceshroom
   - type: StaticPrice
-    price: 20
+    price: 10 # Eclipse
   - type: Fixtures
     fixtures:
       fix1:
@@ -147,7 +147,7 @@
     state: spaceshroom_cooked
   - type: Produce
   - type: StaticPrice
-    price: 40
+    price: 20 # Eclipse
   - type: Construction
     graph: CookedSpaceshroom
     node: cooked spaceshroom

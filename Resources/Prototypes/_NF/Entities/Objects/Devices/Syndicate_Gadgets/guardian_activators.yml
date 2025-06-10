@@ -37,7 +37,7 @@
       - state: box
       - state: holo
   - type: StaticPrice
-    price: 1500
+    price: 350 # Eclipse
 
 - type: entity
   parent: BoxHoloclown
@@ -57,4 +57,4 @@
     tags:
       - BoxHug
   - type: StaticPrice
-    price: 1500
+    price: 350 # Eclipse

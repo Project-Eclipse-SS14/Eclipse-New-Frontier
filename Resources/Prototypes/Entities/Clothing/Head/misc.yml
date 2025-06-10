@@ -154,7 +154,7 @@
     materialComposition:
       Plastic: 100
   - type: StaticPrice
-    price: 25
+    price: 10 # Eclipse
 
 - type: entity
   parent: ClothingHeadBase
@@ -167,7 +167,7 @@
   - type: Clothing
     sprite: Clothing/Head/Misc/fancycrown.rsi
   - type: StaticPrice
-    price: 3000
+    price: 1500 # Eclipse
   - type: AddAccentClothing
     accent: MobsterAccent
 

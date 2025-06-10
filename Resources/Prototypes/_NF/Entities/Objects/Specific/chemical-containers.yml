@@ -43,7 +43,7 @@
       closeSound:
         collection: bottleCloseSounds
     - type: StaticPrice
-      price: 30 # Consistent with BaseBeakerMetallic
+      price: 10 # Eclipse
     - type: Destructible # Hacky - takes damage, but shouldn't be destructible
       thresholds: []
     - type: GenericVisualizer
@@ -90,7 +90,7 @@
           map: [ "enum.SolutionContainerLayers.Fill" ]
           visible: false
     - type: StaticPrice
-      price: 30 # Consistent with BaseBeakerMetallic
+      price: 10 # Eclipse
     - type: Destructible # Hacky - takes damage, but shouldn't be destructible
       thresholds: []
 
@@ -194,7 +194,7 @@
         - ReagentId: WeldingFuel
           Quantity: 200
   - type: StaticPrice
-    vendPrice: 500
+    vendPrice: 2000 # Eclipse
   - type: NFFuel
 
 # Fuel-grade items
@@ -217,7 +217,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 1200
+    vendPrice: 5000 # Eclipse
   - type: Stack
     stackType: FuelPlasma
     count: 20
@@ -252,7 +252,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 2500
+    vendPrice: 7500 # Eclipse
   - type: Stack
     stackType: FuelUranium
     count: 20
@@ -287,7 +287,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 5000
+    vendPrice: 10000 # Eclipse
   - type: Stack
     stackType: FuelBananium
     count: 20
@@ -322,7 +322,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 0
-    vendPrice: 5000
+    vendPrice: 15000 # Eclipse
   - type: Stack
     stackType: FuelSkrungle
     count: 20

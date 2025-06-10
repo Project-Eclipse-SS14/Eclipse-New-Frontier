@@ -165,7 +165,7 @@
     containers:
     - board
   - type: StaticPrice
-    price: 100 # Frontier: 150<100 - TODO: material value rework
+    price: 50 # Eclipse
   - type: PryUnpowered
 
 - type: entity
@@ -232,7 +232,7 @@
     graph: Windoor
     node: windoorSecure
   - type: StaticPrice
-    price: 200 # Frontier: 350<200 - TODO: material value rework
+    price: 100 # Eclipse
   - type: Tag
     tags:
       - SecureWindoor
@@ -301,7 +301,7 @@
     graph: Windoor
     node: pwindoor
   - type: StaticPrice
-    price: 170 # Frontier: 500<170 - TODO: material value rework
+    price: 85 # Eclipse
   - type: RadiationBlocker
     resistance: 2
 
@@ -367,7 +367,7 @@
     graph: Windoor
     node: pwindoorSecure
   - type: StaticPrice
-    price: 312 # Frontier: 500<312 - material value rework
+    price: 115 # Eclipse
   - type: RadiationBlocker
     resistance: 4
   - type: Tag
@@ -438,7 +438,7 @@
     graph: Windoor
     node: uwindoor
   - type: StaticPrice
-    price: 180 # Frontier: 560<180 - TODO: material value rework
+    price: 70 # Eclipse
   - type: RadiationBlocker
     resistance: 3
 
@@ -504,7 +504,7 @@
     graph: Windoor
     node: uwindoorSecure
   - type: StaticPrice
-    price: 462 # Frontier: 750<462 - TODO: material value rework
+    price: 150 # Eclipse
   - type: RadiationBlocker
     resistance: 5
   - type: Tag

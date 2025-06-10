@@ -35,7 +35,7 @@
     - ClothMade
     - WhitelistChameleon
   - type: StaticPrice
-    price: 50
+    price: 15 # Eclipse
 
 - type: entity
   parent: ClothingOuterWinterCoat

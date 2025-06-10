@@ -6,12 +6,12 @@
     mode: AlignTileAny
   components:
   - type: PowerCharge
-    activePower: 500
-    activeChargingPower: 500
+    activePower: 20000 # Eclipse
+    activeChargingPower: 20000 # Eclipse
   - type: ApcPowerReceiver
-    powerLoad: 500
+    powerLoad: 20000 # Eclipse
   - type: StaticPrice
-    price: 300
+    price: 40 # Eclipse
   - type: Machine
     board: MiniStationAnchorCircuitboard
   - type: Fixtures

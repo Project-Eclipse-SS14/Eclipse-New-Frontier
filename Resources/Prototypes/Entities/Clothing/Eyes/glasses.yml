@@ -66,7 +66,7 @@
   - type: IdentityBlocker
     coverage: EYES
   - type: StaticPrice # Frontier
-    price: 135 # Frontier
+    price: 50 # Eclipse
 
 - type: entity
   parent: ClothingEyesBase

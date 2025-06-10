@@ -22,7 +22,7 @@
     - Experimental
     - CivilianServices
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 5000 # Eclipse
   - type: ExtensionCableReceiver
   - type: WiresPanel
   - type: WiresVisuals

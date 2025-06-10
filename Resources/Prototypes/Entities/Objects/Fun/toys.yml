@@ -1288,7 +1288,7 @@
     materialComposition:
       Plastic: 100
   - type: StaticPrice
-    price: 25
+    price: 15 # Eclipse
   - type: Tag
     tags:
     - Figurine

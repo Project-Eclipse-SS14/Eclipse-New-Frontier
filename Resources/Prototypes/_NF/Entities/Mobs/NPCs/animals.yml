@@ -39,7 +39,7 @@
       components:
         - ParrotSpeech
   - type: StaticPrice
-    vendPrice: 1000
+    vendPrice: 3000 # Eclipse
 
 - type: entity
   name: rosy mothroach
@@ -59,11 +59,11 @@
   - type: Butcherable
     spawned:
     - id: FoodMeatSlime
-      amount: 2    
+      amount: 2
     - id: MaterialHideRosyMothroach
       amount: 1
       prob: 0.3
-      
+
 - type: entity
   name: bee
   suffix: Angry, Timed

@@ -1,25 +1,25 @@
 #T0
 - type: loadout
   id: ContractorClothingEyesGlasses
-  price: 200
+  price: 2000 # Eclipse
   equipment:
     eyes: ClothingEyesGlasses
 
 - type: loadout
   id: ContractorClothingEyesGlassesCheapSunglasses
-  price: 200
+  price: 2000 # Eclipse
   equipment:
     eyes: ClothingEyesGlassesCheapSunglasses
 
 - type: loadout
   id: ContractorClothingEyesBlindfold
-  price: 200
+  price: 2000 # Eclipse
   equipment:
     eyes: ClothingEyesBlindfold
 
 - type: loadout
   id: ContractorClothingEyesEyepatch
-  price: 200
+  price: 2000 # Eclipse
   equipment:
     eyes: ClothingEyesEyepatch
 
@@ -29,7 +29,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 500
+  price: 5500 # Eclipse
   equipment:
     eyes: ClothingEyesGlassesJamjar
 
@@ -38,7 +38,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesGlassesChemical
 
@@ -47,7 +47,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesHudDiagnostic
 
@@ -56,7 +56,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesGlassesMeson
 
@@ -65,7 +65,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesHudMedical
 
@@ -75,7 +75,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesPunkGoggles
 
@@ -85,7 +85,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 750
+  price: 7500 # Eclipse
   equipment:
     eyes: ClothingEyesPunkInfoShades
 
@@ -96,7 +96,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     eyes: ClothingEyesEyepatchHudDiag
 
@@ -105,7 +105,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     eyes: ClothingEyesEyepatchHudMedical
 

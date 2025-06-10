@@ -17,7 +17,7 @@
       - board
   - type: Computer
   - type: ApcPowerReceiver
-    powerLoad: 200
+    powerLoad: 2000 # Eclipse
   - type: ExtensionCableReceiver
   - type: ActivatableUIRequiresPower
   - type: Sprite

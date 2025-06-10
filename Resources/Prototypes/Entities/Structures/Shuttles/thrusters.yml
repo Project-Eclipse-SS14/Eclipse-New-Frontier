@@ -28,7 +28,7 @@
     - type: Appearance
     - type: ThrusterVisuals
     - type: ApcPowerReceiver
-      powerLoad: 500
+      powerLoad: 5000 # Eclipse
     - type: ExtensionCableReceiver
     - type: Damageable
       damageContainer: StructuralInorganic
@@ -45,7 +45,7 @@
             sound:
               collection: MetalBreak
     - type: StaticPrice
-      price: 300
+      price: 50 # Eclipse
     - type: GuideHelp
       guides:
       - ShuttleCraft
@@ -211,7 +211,7 @@
     damageContainer: StructuralInorganic
     damageModifierSet: Electronic
   - type: StaticPrice
-    price: 300 # Frontier - 2000<300
+    price: 150 # Eclipse
   - type: PirateBountyItem # Frontier
     id: Gyroscope # Frontier
 

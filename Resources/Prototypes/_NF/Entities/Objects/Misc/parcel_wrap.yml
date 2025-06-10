@@ -7,4 +7,4 @@
     maxCharges: 1
   - type: StaticPrice
     price: 20
-    vendPrice: 750
+    vendPrice: 250 # Eclipse

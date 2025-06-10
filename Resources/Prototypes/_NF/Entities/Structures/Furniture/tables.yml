@@ -101,7 +101,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice
-    price: 40
+    price: 15 # Eclipse
   - type: Construction
     graph: TableFoldingGraph
     node: TableFolding

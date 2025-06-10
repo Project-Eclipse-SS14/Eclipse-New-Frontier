@@ -48,7 +48,7 @@
       types:
         Blunt: 1
   - type: StaticPrice
-    price: 15
+    price: 10 # Eclipse
 
 - type: entity
   parent: BaseItem

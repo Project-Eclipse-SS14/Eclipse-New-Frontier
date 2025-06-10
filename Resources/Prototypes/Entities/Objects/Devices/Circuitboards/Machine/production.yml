@@ -719,7 +719,7 @@
         Steel: 30
         Plastic: 30
     - type: StaticPrice
-      price: 15
+      price: 10 # Eclipse
 
 - type: entity
   id: PowerCageRechargerCircuitboard
@@ -742,7 +742,7 @@
         Steel: 30
         Plastic: 30
     - type: StaticPrice
-      price: 30
+      price: 20 # Eclipse
 
 - type: entity
   id: BorgChargerCircuitboard
@@ -764,7 +764,7 @@
         Steel: 30
         Plastic: 30
     - type: StaticPrice
-      price: 15
+      price: 10 # Eclipse
 
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
@@ -786,7 +786,7 @@
         Steel: 30
         Plastic: 30
     - type: StaticPrice
-      price: 15
+      price: 10 # Eclipse
 
 - type: entity
   id: TurboItemRechargerCircuitboard
@@ -828,7 +828,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 58
+      price: 35 # Eclipse
 
 - type: entity
   parent: BaseMachineCircuitboard
@@ -884,7 +884,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 40
+      price: 30 # Eclipse
 
 - type: entity
   id: ThrusterMachineCircuitboard
@@ -934,7 +934,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 40
+      price: 30 # Eclipse
 
 - type: entity
   id: PortableGeneratorJrPacmanMachineCircuitboard
@@ -955,7 +955,7 @@
       chemicalComposition:
         Silicon: 20
     - type: StaticPrice
-      price: 40
+      price: 30 # Eclipse
     - type: BindToStation # Frontier
       enabled: false # Frontier - should be draggable between stations
 

@@ -10,7 +10,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 675
+  price: 9000 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryPilot
 
@@ -19,7 +19,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractor
 
@@ -28,6 +28,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 1250
+  price: 12500 # Eclipse
   equipment:
     jumpsuit: ClothingUniformJumpsuitMilitaryContractorTac

@@ -48,7 +48,7 @@
   - type: Transform
     anchored: true
   - type: ApcPowerReceiver
-    powerLoad: 12000
+    powerLoad: 120000 # Eclipse
     needsPower: true # Frontier: false<true
   - type: ArtifactAnalyzer
   - type: ItemPlacer

@@ -9,7 +9,7 @@
   - type: Sprite
     state: icon
   - type: StaticPrice # Frontier: setting base price to make material arbitrage happier
-    price: 30 # Frontier
+    price: 10 # Eclipse
 
 - type: entity
   abstract: true
@@ -43,7 +43,7 @@
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
   - type: StaticPrice
-    price: 35 # Frontier 70<35
+    price: 10 # Eclipse
 
 - type: entity
   abstract: true
@@ -146,8 +146,8 @@
     slots: OUTERCLOTHING
   - type: HarpyHideWings # Frontier, needed for Harpies
   - type: StaticPrice # Frontier
-    price: 20 # Frontier
-    vendPrice: 1500 # Frontier
+    price: 10 # Eclipse
+    vendPrice: 5000 # Eclipse
 
 - type: entity
   abstract: true

@@ -22,7 +22,7 @@
   - type: UseDelay
     delay: 0.66
   - type: StaticPrice
-    price: 200
+    price: 100 # Eclipse
   - type: NFWeaponDetails
     class: weapon-details-class-revolver
 

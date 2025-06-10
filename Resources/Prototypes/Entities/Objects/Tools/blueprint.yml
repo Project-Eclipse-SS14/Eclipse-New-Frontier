@@ -17,7 +17,7 @@
       state: storage
   - type: Blueprint
   - type: StaticPrice
-    price: 1000
+    price: 150 # Eclipse
   - type: Tag
     tags:
     - BlueprintAutolathe

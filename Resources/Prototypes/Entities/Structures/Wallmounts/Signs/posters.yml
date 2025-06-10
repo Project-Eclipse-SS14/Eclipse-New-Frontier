@@ -27,7 +27,7 @@
             max: 1
         offset: 0
   - type: StaticPrice
-    price: 30
+    price: 10 # Eclipse
 
 - type: entity
   parent: BaseSign

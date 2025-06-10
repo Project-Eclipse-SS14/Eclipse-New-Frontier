@@ -37,7 +37,7 @@
   - type: TrashOnSolutionEmpty
     solution: drink
   - type: StaticPrice
-    price: 20 # Frontier: 12.5<20
+    price: 10 # Eclipse
 
 - type: entity
   parent: FlaskBase

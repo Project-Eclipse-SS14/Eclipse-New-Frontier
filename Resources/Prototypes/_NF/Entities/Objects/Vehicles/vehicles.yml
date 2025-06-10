@@ -408,7 +408,7 @@
       bucket_slot: !type:ContainerSlot {}
       trashbag_slot: !type:ContainerSlot {}
   - type: StaticPrice
-    price: 375 # Same as flatpack
+    price: 80 # Eclipse
   - type: Vehicle
     renderOver: East, South, West # Frontier
     southOffset: 0, -0.15

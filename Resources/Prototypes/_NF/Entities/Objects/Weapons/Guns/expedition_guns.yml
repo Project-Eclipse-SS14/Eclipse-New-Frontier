@@ -8,7 +8,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 1000
+    price: 500 # Eclipse
 
 - type: entity
   parent: BaseC2ExpeditionContraband
@@ -16,7 +16,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 2000
+    price: 1000 # Eclipse
 
 - type: entity
   parent: BaseC2ExpeditionContraband
@@ -24,7 +24,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 3000
+    price: 1500 # Eclipse
 
 - type: entity
   parent: BaseC2ExpeditionContraband
@@ -32,7 +32,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 5000
+    price: 2000 # Eclipse
 
 - type: entity
   parent: BaseC3ExpeditionContraband
@@ -40,7 +40,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 10000
+    price: 2500 # Eclipse
 
 # For syndicate/pirate labeled guns
 - type: entity

@@ -47,7 +47,7 @@
     tags:
     - HolofanProjector
   - type: StaticPrice
-    price: 80
+    price: 20 # Eclipse
 
 - type: entity
   parent: HoloGraffitiProjector

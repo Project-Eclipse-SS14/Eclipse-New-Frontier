@@ -12,8 +12,8 @@
     sprite: Objects/Misc/monkeycube.rsi
     state: box
   - type: StaticPrice
-    price: 20
-    vendPrice: 960 # Frontier - 120 per monkey (meat worth 540 at a depot)
+    price: 10 # Eclipse
+    vendPrice: 8000 # Eclipse
 
 - type: entity
   parent: BaseItem
@@ -44,7 +44,7 @@
     tags:
     - MonkeyCube
   - type: StaticPrice
-    price: 55 # The same price as dead (-20)
+    price: 10 # Eclipse
 
 - type: entity
   parent: MonkeyCubeBox
@@ -60,7 +60,7 @@
     sprite: Objects/Misc/monkeycube.rsi
     state: box_kobold
   - type: StaticPrice # Frontier
-    vendPrice: 640 # Frontier - 80 per kobold (meat worth 360 at a depot)
+    vendPrice: 8000 # Eclipse
 
 - type: entity
   parent: MonkeyCubeBox
@@ -78,8 +78,8 @@
     sprite: Objects/Misc/monkeycube.rsi
     state: box_variant
   - type: StaticPrice
-    price: 20
-    vendPrice: 800 # Frontier - 120 per monkey, 80 per kobold (meat worth 450 at a depot)
+    price: 10 # Eclipse
+    vendPrice: 8000 # Eclipse
 
 - type: entity
   parent: BaseWrappedCube

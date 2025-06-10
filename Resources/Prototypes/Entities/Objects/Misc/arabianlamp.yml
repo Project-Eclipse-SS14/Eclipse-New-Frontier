@@ -131,7 +131,7 @@
     color: orange
   - type: ItemTogglePointLight
   - type: StaticPrice
-    price: 1500
+    price: 350 # Eclipse
   - type: Prayable
     sentMessage: prayer-popup-notify-lamp-sent
     notificationPrefix: prayer-chat-notify-lamp

@@ -21,7 +21,7 @@
 
 - type: loadout
   id: ContractorNFBoxSurvivalSheleg
-  name: oxygen survival box
+  name: аварийный запас (шелег) # Eclipse
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFSheleg
@@ -39,7 +39,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFOxygenBreather
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - NFBoxSurvivalExtended
@@ -53,21 +53,21 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFNitrogenBreather
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - NFBoxSurvivalExtendedNitrogen
 
 - type: loadout
   id: ContractorNFBoxSurvivalExtendedSheleg
-  name: extended-oxygen survival box
+  name: расширенный аварийный запас (шелег) # Eclipse
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFSheleg
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
     - NFBoxSurvivalExtendedSheleg

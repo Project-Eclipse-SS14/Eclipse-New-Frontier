@@ -44,7 +44,7 @@
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: StaticPrice # Frontier
-    price: 400 # Frontier
+    price: 100 # Eclipse
 
 - type: entity
   parent: BaseVendingMachineRestock
@@ -344,7 +344,7 @@
     - SpaceUpInventory
     - SodaInventory
     - DrGibbInventory
-    - SmiteInventory 
+    - SmiteInventory
   - type: Sprite
     layers:
     - state: base

@@ -6,7 +6,7 @@
   parent: BaseStructureDynamic
   components:
   - type: StaticPrice
-    price: 500
+    price: 50 # Eclipse
   - type: Anchorable
   - type: InteractionOutline
   - type: Damageable

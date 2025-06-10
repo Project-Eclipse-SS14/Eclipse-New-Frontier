@@ -74,7 +74,7 @@
           params:
             volume: -3
   - type: StaticPrice
-    price: 750 # Frontier: 2500<750
+    price: 300 # Eclipse
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -242,7 +242,7 @@
     baseSprintSpeed: 3.5
     baseWalkSpeed: 2.5
   - type: StaticPrice
-    price: 75
+    price: 45 # Eclipse
   #- type: PhysicalComposition # Frontier
     #materialComposition: # Frontier
       #Steel: 125 # Frontier
@@ -285,7 +285,7 @@
     baseSprintSpeed: 3.5
     baseWalkSpeed: 2.5
   - type: StaticPrice
-    price: 175
+    price: 95 # Eclipse
   #- type: PhysicalComposition # Frontier
     #materialComposition: # Frontier
       #Steel: 125 # Frontier

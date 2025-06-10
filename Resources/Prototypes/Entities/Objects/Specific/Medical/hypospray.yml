@@ -27,7 +27,7 @@
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice
-    price: 750
+    price: 150 # Eclipse
   - type: Tag
     tags:
     - HighRiskItem
@@ -171,7 +171,7 @@
       Plastic: 50
   - type: SpaceGarbage
   - type: StaticPrice
-    price: 35 # These are limited supply items.
+    price: 20 # Eclipse
   - type: TrashOnSolutionEmpty
     solution: pen
 
@@ -574,7 +574,7 @@
     onlyAffectsMobs: false
     injectOnly: true
   - type: StaticPrice
-    price: 500
+    price: 115 # Eclipse
 
 - type: entity
   name: hyperzine microinjector
@@ -613,7 +613,7 @@
     changeColor: false
     emptySpriteName: microstimpen_empty
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   name: combat medipen
@@ -657,7 +657,7 @@
     onlyAffectsMobs: false
     injectOnly: true
   - type: StaticPrice
-    price: 500
+    price: 115 # Eclipse
 
 - type: entity
   name: pen
@@ -680,7 +680,7 @@
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice # A new shitcurity meta
-    price: 75
+    price: 15 # Eclipse
   - type: EmitSoundOnUse
     handle: false # don't want the sound to stop the self-inject from triggering
   - type: Contraband # Frontier

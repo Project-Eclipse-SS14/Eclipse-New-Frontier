@@ -69,7 +69,7 @@
   # Frontier: colored indestructible windows
   description: Skub knows this window is too hard to destroy.
   components:
-  - type: Sprite 
+  - type: Sprite
     color: "#cdf3cd"
   # End Frontier
 
@@ -116,7 +116,7 @@
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
   - type: StaticPrice # Frontier
-    price: 100 # Frontier
+    price: 50 # Eclipse
   - type: Construction # Frontier - Harder to break into
     graph: Plastitanium # Frontier - Harder to break into
     node: plastitaniumWindow # Frontier - Harder to break into
@@ -169,7 +169,7 @@
   # Frontier: colored indestructible windows
   description: Skub knows this window is too hard to destroy.
   components:
-  - type: Sprite 
+  - type: Sprite
     color: "#cdf3cd"
   # End Frontier
 

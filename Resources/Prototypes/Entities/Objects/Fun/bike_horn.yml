@@ -60,7 +60,7 @@
     useSound:
       collection: BikeHorn
   - type: StaticPrice
-    price: 15
+    price: 10 # Eclipse
 
 - type: entity
   parent: BaseItem
@@ -139,7 +139,7 @@
     slots: [Belt]
   - type: Prayable
   - type: StaticPrice
-    price: 1000
+    price: 450 # Eclipse
   - type: PointLight
     radius: 1.2
     energy: 1
@@ -201,7 +201,7 @@
     graph: BananiumHorn
     node: bananiumHorn
   - type: StaticPrice # Frontier
-    price: 20 # Frontier
+    price: 10 # Eclipse
 
 - type: entity
   parent: BaseItem

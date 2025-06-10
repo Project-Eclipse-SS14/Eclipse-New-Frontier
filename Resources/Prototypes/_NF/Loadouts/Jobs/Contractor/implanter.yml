@@ -13,7 +13,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
       - LightImplanter
@@ -24,7 +24,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
       - BikeHornImplanter
@@ -35,7 +35,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT1
-  price: 1000
+  price: 10000 # Eclipse
   storage:
     back:
       - SadTromboneImplanter
@@ -48,7 +48,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 50000 # Eclipse
   storage:
     back:
       - MimePowersImplanter
@@ -60,7 +60,7 @@
   effects:
     - !type:GroupLoadoutEffect
       proto: ContractorT2
-  price: 5000
+  price: 50000 # Eclipse
   storage:
     back:
       - BibleUserImplanter

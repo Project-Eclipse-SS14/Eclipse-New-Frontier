@@ -77,7 +77,7 @@
   - type: Drain
     autoDrain: false
   - type: StaticPrice
-    price: 30 # Frontier: 100<30
+    price: 10 # Eclipse
   - type: UserInterface
     interfaces:
       enum.DisposalUnitUiKey.Key:
@@ -151,7 +151,7 @@
   - type: Sprite
     sprite: Structures/Furniture/golden_toilet.rsi
   - type: StaticPrice
-    price: 1500
+    price: 150 # Eclipse
   - type: Destructible
     thresholds:
     - trigger:

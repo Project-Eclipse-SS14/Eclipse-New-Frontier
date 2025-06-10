@@ -72,4 +72,4 @@
     layers:
     - state: service_tray
   - type: StaticPrice
-    price: 40
+    price: 20 # Eclipse

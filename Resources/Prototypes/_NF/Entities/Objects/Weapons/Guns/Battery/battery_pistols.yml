@@ -284,4 +284,4 @@
           Red: { state: mode-red }
           Yellow: { state: mode-yellow }
   - type: StaticPrice
-    price: 250
+    price: 75 # Eclipse

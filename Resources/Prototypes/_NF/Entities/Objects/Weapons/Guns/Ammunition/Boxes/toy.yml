@@ -9,8 +9,7 @@
         - BulletBB
     proto: BulletRGBB
   - type: StaticPrice
-    price: 2500 # 25k in the vendor for a meme item
-
+    price: 100 # Eclipse
 # Ignored upstream redefinitions
 - type: entity
   parent: BoxDonkSoftBox

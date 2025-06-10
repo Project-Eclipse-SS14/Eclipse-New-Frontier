@@ -7,7 +7,7 @@
     - type: Transform
       noRot: true
     - type: AccessReader
-#      access: [["Research"], ["Cargo"]]
+      access: [ ] # Frontier: Removed ["Research"], ["Cargo"]
     - type: Lock
     - type: ResistLocker
     - type: Sprite
@@ -101,7 +101,7 @@
         entity_storage: !type:Container
         paper_label: !type:ContainerSlot
     - type: StaticPrice
-      price: 250
+      price: 100 # Eclipse
 
 - type: entity
   parent: BaseStorageItem
@@ -124,9 +124,9 @@
     - 0,0,1,1
     whitelist:
       components:
-      - Artifact
+      - XenoArtifact # Frontier Artifact<XenoArtifact
   - type: Item
-    sprite: Objects/Storage/artifact_container.rsi  
+    sprite: Objects/Storage/artifact_container.rsi
     size: Huge
   - type: MeleeWeapon
     damage:
@@ -136,7 +136,7 @@
       path: "/Audio/Weapons/smash.ogg"
   - type: Appearance
   - type: AccessReader
-    access: [["Research"], ["Cargo"]]
+    access: [ ] # Frontier: Removed ["Research"], ["Cargo"]
   - type: Lock
   - type: SuppressArtifactContainer
   - type: RadiationBlockingContainer
@@ -191,4 +191,4 @@
   - type: UseDelay
     delay: 0.3
   - type: StaticPrice
-    price: 250
+    price: 100 # Eclipse

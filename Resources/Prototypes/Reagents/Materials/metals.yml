@@ -12,7 +12,7 @@
   unit: materials-unit-bar
   icon: { sprite: Objects/Materials/ingots.rsi, state: gold }
   color: "#FFD700"
-  price: 0.075 # Eclipse
+  price: 0.085 # Eclipse
 
 - type: material
   id: Silver
@@ -37,4 +37,4 @@
   name: materials-plasteel
   icon: { sprite: Objects/Materials/Sheets/metal.rsi, state: plasteel }
   color: "#696969" #Okay, this is epic
-  price: 0.085 # Eclipse
+  price: 0.07 # Eclipse

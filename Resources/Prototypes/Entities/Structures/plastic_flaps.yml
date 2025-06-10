@@ -39,7 +39,7 @@
     key: walls
     mode: NoSprite
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   id: PlasticFlapsClear
@@ -93,7 +93,7 @@
         acts: ["Destruction"]
   - type: Airtight
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse
 
 - type: entity
   id: PlasticFlapsAirtightOpaque
@@ -112,4 +112,4 @@
         acts: ["Destruction"]
   - type: Airtight
   - type: StaticPrice
-    price: 100
+    price: 20 # Eclipse

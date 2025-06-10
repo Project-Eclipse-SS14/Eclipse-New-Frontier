@@ -54,7 +54,7 @@
       moleUsage: 0.00085
     - type: Appearance
     - type: StaticPrice
-      price: 100
+      price: 60 # Eclipse
 
 - type: entity
   id: ActionToggleJetpack
@@ -203,7 +203,7 @@
       air:
         volume: 1.5
     - type: StaticPrice
-      price: 95
+      price: 45 # Eclipse
 
 # Filled mini
 - type: entity

@@ -71,5 +71,5 @@
       machine_parts: !type:Container
       beakerSlot: !type:ContainerSlot
   - type: StaticPrice
-    price: 1000
+    price: 150 # Eclipse
   - type: WiresPanel

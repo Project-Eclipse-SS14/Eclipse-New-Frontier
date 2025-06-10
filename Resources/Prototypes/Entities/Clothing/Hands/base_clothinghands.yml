@@ -70,7 +70,7 @@
   id: GoldRingBase
   components:
   - type: StaticPrice
-    price: 300
+    price: 100 # Eclipse
   - type: Engraveable # Frontier - base rings may not be metallic
 
 - type: entity
@@ -80,5 +80,5 @@
   description: Looks slightly less valuable than a gold one.
   components:
   - type: StaticPrice
-    price: 275
+    price: 75 # Eclipse
   - type: Engraveable # Frontier - base rings may not be metallic

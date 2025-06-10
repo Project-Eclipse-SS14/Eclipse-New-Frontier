@@ -6,7 +6,7 @@
   parent: BaseComputer
   components:
   - type: ApcPowerReceiver
-    powerLoad: 350
+    powerLoad: 3500 # Eclipse
   - type: ExtensionCableReceiver
   - type: PointLight
     radius: 1.8
@@ -42,7 +42,7 @@
   - type: Anchorable
   - type: Pullable
   - type: StaticPrice
-    price: 300
+    price: 100 # Eclipse
   - type: SpamEmitSoundRequirePower
   - type: SpamEmitSound
     minInterval: 30

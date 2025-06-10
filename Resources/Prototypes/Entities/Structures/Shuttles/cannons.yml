@@ -32,7 +32,7 @@
   - type: AutoShootGun
   - type: GunSignalControl
   - type: StaticPrice
-    price: 1500
+    price: 150 # Eclipse
   - type: Repairable # Frontier
     doAfterDelay: 3 # Frontier
 
@@ -369,4 +369,4 @@
     board: ShuttleGunKineticCircuitboard
   - type: ExtensionCableReceiver # Frontier
   - type: ApcPowerReceiver # Frontier
-    powerLoad: 1500 # Frontier
+    powerLoad: 5000 # Eclipse

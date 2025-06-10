@@ -5,7 +5,7 @@
   abstract: true
   components:
   - type: StaticPrice
-    price: 625
+    price: 75 # Eclipse
   - type: InteractionOutline
   - type: Damageable
     damageContainer: StructuralInorganic

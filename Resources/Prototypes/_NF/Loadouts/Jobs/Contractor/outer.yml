@@ -15,7 +15,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1300
+  price: 13000 # Eclipse
   equipment:
     outerClothing: ClothingOuterHardsuitBasic
 
@@ -27,7 +27,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1300
+  price: 13000 # Eclipse
   equipment:
     outerClothing: ClothingOuterHardsuitVoidParamed
 
@@ -36,7 +36,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterHoodieGrey
 
@@ -45,7 +45,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterVestHazard
 
@@ -54,7 +54,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterApron
 
@@ -63,7 +63,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterApronBar
 
@@ -72,7 +72,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterApronBotanist
 
@@ -81,7 +81,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 200
+  price: 2250 # Eclipse
   equipment:
     outerClothing: ClothingOuterApronChef
 
@@ -94,7 +94,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterHoodieBlack
 
@@ -106,7 +106,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJensen
 
@@ -118,7 +118,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatGentle
 
@@ -130,7 +130,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterJacketChef
 
@@ -142,7 +142,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
 
@@ -154,7 +154,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterNunRobe
 
@@ -166,7 +166,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLab
 
@@ -178,7 +178,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabGene
 
@@ -190,7 +190,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabChem
 
@@ -202,7 +202,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatRobo
 
@@ -214,7 +214,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabViro
 
@@ -226,7 +226,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterBioScientist
 
@@ -238,7 +238,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCoat
 
@@ -250,7 +250,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCoatLong
 
@@ -262,7 +262,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterAtmos
 
@@ -274,7 +274,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterHydro
 
@@ -286,7 +286,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterBar
 
@@ -298,7 +298,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterChef
 
@@ -310,7 +310,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCap
 
@@ -322,7 +322,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterMusician
 
@@ -334,7 +334,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCargo
 
@@ -346,7 +346,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterMiner
 
@@ -358,7 +358,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterEngi
 
@@ -370,7 +370,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterMed
 
@@ -382,7 +382,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterChem
 
@@ -394,7 +394,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatParamedicWB
 
@@ -406,7 +406,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterPara
 
@@ -418,7 +418,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterGen
 
@@ -430,7 +430,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterSci
 
@@ -442,7 +442,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterRobo
 
@@ -454,7 +454,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 800
+  price: 8000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterViro
 
@@ -467,7 +467,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterClown
 
@@ -479,7 +479,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterMime
 
@@ -491,7 +491,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterQM
 
@@ -503,7 +503,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterRD
 
@@ -515,7 +515,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCMO
 
@@ -527,7 +527,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCE
 
@@ -539,7 +539,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabCmo
 
@@ -551,7 +551,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorPhysician
 
@@ -563,7 +563,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatRD
 
@@ -575,7 +575,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorResearcher
 
@@ -587,7 +587,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterFlannelRed
 
@@ -599,7 +599,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterFlannelBlue
 
@@ -611,7 +611,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterFlannelGreen
 
@@ -623,7 +623,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatHyenhSweater
 
@@ -635,7 +635,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadout
 
@@ -647,7 +647,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatTrench
 
@@ -659,7 +659,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterDameDane
 
@@ -671,7 +671,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterWinterCoatPlaid
 
@@ -683,7 +683,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBomber
 
@@ -695,7 +695,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterPlagueSuit
 
@@ -707,7 +707,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBishop
 
@@ -719,7 +719,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatWitchHunter
 
@@ -731,7 +731,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatCardinal
 
@@ -744,7 +744,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBomberPunkRed
 
@@ -756,7 +756,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketLeather
 
@@ -768,7 +768,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketBiker
 
@@ -780,7 +780,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketJamrock
 
@@ -792,7 +792,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBomberAerostatic
 
@@ -804,7 +804,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanBlue
 
@@ -816,7 +816,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanBrown
 
@@ -828,7 +828,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanRed
 
@@ -840,7 +840,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanMagenta
 
@@ -852,7 +852,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBomberPinkSleeves
 
@@ -865,7 +865,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatBomberRandomized
 
@@ -877,7 +877,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoat
 
@@ -889,7 +889,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatBlue
 
@@ -901,7 +901,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatGreen
 
@@ -913,7 +913,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatMagenta
 
@@ -925,7 +925,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatYellow
 
@@ -939,7 +939,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 1200
+  price: 12000 # Eclipse
   equipment:
     outerClothing: WetFloorSign
 
@@ -951,7 +951,7 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 6000
+  price: 60000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatExpensive
 
@@ -963,6 +963,6 @@
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NFCoatCapable
-  price: 8000
+  price: 80000 # Eclipse
   equipment:
     outerClothing: ClothingOuterCoatSpaceAsshole

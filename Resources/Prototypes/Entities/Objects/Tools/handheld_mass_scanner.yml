@@ -37,7 +37,7 @@
       enum.RadarConsoleUiKey.Key:
         type: RadarConsoleBoundUserInterface
   - type: StaticPrice
-    price: 150
+    price: 40 # Eclipse
 
 - type: entity
   id: HandHeldMassScannerEmpty
