@@ -90,7 +90,7 @@
     graph: DisposalPipe
     node: broken
   - type: StaticPrice
-    price: 1 # Eclipse
+    price: 2 # Eclipse
 
 - type: entity
   id: DisposalPipe

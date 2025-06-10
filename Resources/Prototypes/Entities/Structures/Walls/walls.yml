@@ -119,7 +119,7 @@
     delay: 8 # Frontier
     fx: EffectRCDDeconstruct8 # Frontier
   - type: StaticPrice # Frontier 75
-    price: 40 # Eclipse
+    price: 75 # Frontier 75
 
 - type: entity
   parent: BaseWall
