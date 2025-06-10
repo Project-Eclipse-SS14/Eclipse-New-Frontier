@@ -3745,3 +3745,26 @@ Entries:
   id: 6104
   time: '2025-06-07T15:23:49.0000000+00:00'
   url: https://github.com/new-frontiers-14/frontier-station-14/pull/3399
+- author: whatston3
+  changes:
+    - type: Remove
+      message: The anomalous lab has been retired.  So long, old friend.
+  id: 6105
+  time: '2025-06-08T19:45:16.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/3555
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: Anti-materiel rounds now have no FUC value.
+  id: 6106
+  time: '2025-06-08T22:47:19.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/3554
+- author: Alkheemist
+  changes:
+    - type: Tweak
+      message: >-
+        Artifacts can no longer be triggered or activated when on asteroids,
+        wrecks or protected grids such as Frontier Outpost
+  id: 6107
+  time: '2025-06-09T16:06:31.0000000+00:00'
+  url: https://github.com/new-frontiers-14/frontier-station-14/pull/3530
