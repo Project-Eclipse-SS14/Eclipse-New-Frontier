@@ -1,5 +1,5 @@
 - type: stack
   id: FloorTileAstroSand
-  name: astro-sand floor
+  name: stack-astro-sand
   spawn: FloorTileItemAstroSand
   maxCount: 30

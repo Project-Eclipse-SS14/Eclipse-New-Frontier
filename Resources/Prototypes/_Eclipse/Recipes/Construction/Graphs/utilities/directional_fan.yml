@@ -10,7 +10,7 @@
               icon:
                 sprite: Structures/Piping/Atmospherics/directionalfan.rsi
                 state: loose
-              name: directional fan assembly
+              name: construction-graph-tag-directional-fan-assembly
               doAfter: 2
     - node: item
       entity: AtmosDeviceFanDirectionalAssembly

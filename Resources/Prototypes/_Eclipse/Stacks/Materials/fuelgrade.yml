@@ -1,13 +1,13 @@
 - type: stack
   id: FuelPlutonium
-  name: fuel-grade plutonium
+  name: stack-fuel-grade-plutonium
   icon: { sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi, state: plutonium }
   spawn: FuelPlutonium1
   maxCount: 30
 
 - type: stack
   id: FuelPlutoniumTrash
-  name: broken fuel-grade plutonium
+  name: stack-fuel-grade-plutonium-broken
   icon: { sprite: _Eclipse/Objects/Specific/Fuel/fuelgrade_material.rsi, state: plutonium_broken }
   spawn: FuelPlutoniumTrash1
   maxCount: 30

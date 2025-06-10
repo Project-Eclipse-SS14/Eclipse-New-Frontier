@@ -1,6 +1,4 @@
 - type: construction
-  name: machine frame (wallmount)
-  description: A wallmount machine under construction. Needs more parts.
   id: WallmountMachineFrame
   graph: WallmountMachine
   startNode: start
@@ -8,8 +6,5 @@
   category: construction-category-machines
   placementMode: SnapgridCenter
   canBuildInImpassable: true
-  icon:
-    sprite: Structures/Machines/parts.rsi
-    state: "vbox_0"
   conditions:
   - !type:WallmountCondition {}

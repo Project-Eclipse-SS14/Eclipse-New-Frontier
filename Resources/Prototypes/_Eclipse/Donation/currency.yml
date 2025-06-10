@@ -1,6 +1,6 @@
 - type: stack
   id: PersonalUplinkCoin
-  name: personal uplink coin
+  name: stack-personal-uplink
   icon: _NF/Objects/Specific/Security/frontieruplinkcoin.rsi
   spawn: PersonalUplinkCoin1
 
