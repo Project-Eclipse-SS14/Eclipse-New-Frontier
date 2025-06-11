@@ -190,7 +190,7 @@
   suffix: Basic, 15kW, Anchored
   components:
     - type: PowerSupplier
-      supplyRate: 15000
+      supplyRate: 150000 # Eclipse
 
 - type: entity
   parent: BaseGeneratorWallmount
