@@ -73,15 +73,15 @@
     - type: PowerCharge
       windowTitle: station-anchor-window-title
       idlePower: 50
-      activePower: 30000 # Eclipse
-      activeChargingPower: 30000 # Eclipse
+      activePower: 12500 # Eclipse
+      activeChargingPower: 12500 # Eclipse
       chargeRate: 0.5
     - type: ActivatableUI
       key: enum.PowerChargeUiKey.Key
     - type: ActivatableUIRequiresPower
     - type: Anchorable
     - type: ApcPowerReceiver
-      powerLoad: 30000 # Eclipse
+      powerLoad: 12500 # Eclipse
     - type: ExtensionCableReceiver
     - type: Damageable
       damageContainer: Inorganic

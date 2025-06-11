@@ -131,7 +131,7 @@
     batteryRechargeRate: 200
     batteryRechargeEfficiency: 1.225
   - type: ApcPowerReceiver
-    powerLoad: 50 # Eclipse
+    powerLoad: 5
   - type: ExtensionCableReceiver
   - type: HTN
     rootTask:

@@ -123,4 +123,4 @@
     speechVerb: Robotic
     speechSounds: SyndieBorg
   - type: ApcPowerReceiver # Frontier
-    powerLoad: 5000 # Eclipse
+    powerLoad: 2500 # Eclipse

@@ -60,7 +60,7 @@
       enum.ChemMasterUiKey.Key:
         type: ChemMasterBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 1250 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:

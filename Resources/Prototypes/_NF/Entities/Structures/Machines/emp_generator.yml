@@ -16,7 +16,7 @@
   - type: Transform
     anchored: true
   - type: ApcPowerReceiver
-    powerLoad: 25000 # Eclipse
+    powerLoad: 12500 # Eclipse
   - type: ExtensionCableReceiver
   - type: Physics
     bodyType: Static
@@ -25,9 +25,9 @@
     doAfterDelay: 5
   - type: PowerCharge
     windowTitle: emp-generator-window-title
-    idlePower: 500 # Eclipse
-    activePower: 25000 # Eclipse
-    activeChargingPower: 150000 # Eclipse
+    idlePower: 250 # Eclipse
+    activePower: 12500 # Eclipse
+    activeChargingPower: 75000 # Eclipse
     actionUI: true
   - type: EmpGenerator
     lightRadiusMin: 0.75

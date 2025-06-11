@@ -28,7 +28,7 @@
     - type: Appearance
     - type: ThrusterVisuals
     - type: ApcPowerReceiver
-      powerLoad: 5000 # Eclipse
+      powerLoad: 2500 # Eclipse
     - type: ExtensionCableReceiver
     - type: Damageable
       damageContainer: StructuralInorganic

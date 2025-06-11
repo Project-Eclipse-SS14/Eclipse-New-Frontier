@@ -100,7 +100,7 @@
       - !type:DoActsBehavior
         acts: ["Breakage"]
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Machine
     board: ElectricRangeMachineCircuitboard
   - type: ContainerContainer
@@ -205,7 +205,7 @@
       map: ["scan"]
       visible: false
   - type: ApcPowerReceiver
-    powerLoad: 4000 # Eclipse
+    powerLoad: 2000 # Eclipse
   - type: Machine
     board: KitchenAssemblerMachineCircuitboard
   - type: ActivatableUI
@@ -253,7 +253,7 @@
       map: ["enum.MicrowaveVisualizerLayers.BaseUnlit"]
       visible: false
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 2500 # Eclipse
   - type: Machine
     board: MedicalAssemblerMachineCircuitboard
   - type: ActivatableUI

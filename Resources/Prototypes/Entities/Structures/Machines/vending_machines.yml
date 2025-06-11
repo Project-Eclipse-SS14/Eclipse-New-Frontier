@@ -95,7 +95,7 @@
     radius: 1.5
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 3500 # Eclipse
+    powerLoad: 1000 # Eclipse
   - type: Actions
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-mechanical

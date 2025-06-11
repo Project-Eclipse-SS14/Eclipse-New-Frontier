@@ -181,7 +181,7 @@
     baseFireBurstDelayMin: 2
     baseFireBurstDelayMax: 6
   - type: ApcPowerReceiver
-    powerLoad: 1000 # Eclipse
+    powerLoad: 500 # Eclipse
   - type: GuideHelp
     guides:
     - APE
@@ -254,7 +254,7 @@
   - type: Transform
     anchored: true
   - type: ApcPowerReceiver
-    powerLoad: 150000 # Eclipse
+    powerLoad: 7500 # Eclipse
   - type: ExtensionCableReceiver
   - type: AmbientSound
     range: 5

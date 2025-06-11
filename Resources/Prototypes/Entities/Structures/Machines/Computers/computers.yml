@@ -520,7 +520,7 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Computer
     board: ResearchComputerCircuitboard
   - type: AccessReader
@@ -571,7 +571,7 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Computer
     board: AnalysisComputerCircuitboard
   - type: PointLight
@@ -655,7 +655,7 @@
   description: A body scanner.
   components:
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 2500 # Eclipse
   - type: Computer
     board: BodyScannerComputerCircuitboard
   - type: PointLight
@@ -1208,7 +1208,7 @@
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open
   - type: ApcPowerReceiver
-    powerLoad: 31000 # Eclipse
+    powerLoad: 24000 # Eclipse
   - type: Computer
     board: CloningConsoleComputerCircuitboard
   - type: PointLight
@@ -1529,7 +1529,7 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: DeviceNetwork
     deviceNetId: Wireless
     receiveFrequencyId: RoboticsConsole
@@ -1560,7 +1560,7 @@
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 1000
   - type: Computer
     board: StationAiUploadCircuitboard
   - type: AccessReader

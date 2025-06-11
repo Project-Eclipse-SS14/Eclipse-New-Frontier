@@ -8,7 +8,7 @@
     sprite: Structures/Power/Generation/PA/control_box.rsi
   - type: ParticleAcceleratorControlBox
   - type: ApcPowerReceiver
-    powerLoad: 2500 # Eclipse
+    powerLoad: 1250 # Eclipse
   - type: ExtensionCableReceiver
   - type: Construction
     graph: ParticleAcceleratorControlBox

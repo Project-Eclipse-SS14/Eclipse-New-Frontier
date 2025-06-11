@@ -81,7 +81,7 @@
           Low: { state: drill-low-unlit, visible: true }
           On: { state: drill-on-unlit, visible: true }
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Machine
     board: GasMiningDrillMachineCircuitboard
   - type: GasDepositExtractor
@@ -135,7 +135,7 @@
       - state: pipe
         map: [ "enum.PipeVisualLayers.Pipe" ]
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Machine
     board: Null # FIXME
   - type: GasSalePoint

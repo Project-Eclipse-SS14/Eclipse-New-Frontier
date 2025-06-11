@@ -283,7 +283,7 @@
       path: /Audio/Ambience/Objects/vending_machine_hum.ogg
   - type: LitOnPowered
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 1000 # Eclipse
   - type: Advertise
     pack: CuddlyCritterAds
   - type: PointLight

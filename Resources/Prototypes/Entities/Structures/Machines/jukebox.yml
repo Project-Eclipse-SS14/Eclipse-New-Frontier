@@ -20,7 +20,7 @@
     board: JukeboxCircuitBoard
   - type: Appearance
   - type: ApcPowerReceiver
-    powerLoad: 2500 # Eclipse
+    powerLoad: 500 # Eclipse
   - type: ExtensionCableReceiver
   - type: ActivatableUI
     key: enum.JukeboxUiKey.Key

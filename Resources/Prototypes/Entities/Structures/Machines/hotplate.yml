@@ -23,7 +23,7 @@
         layer:
         - TabletopMachineLayer
   - type: ApcPowerReceiver
-    powerLoad: 3000 # Eclipse
+    powerLoad: 1500 # Eclipse
 
 - type: entity
   parent: BaseHeaterMachine

@@ -6,7 +6,7 @@
   parent: BaseComputer
   components:
   - type: ApcPowerReceiver
-    powerLoad: 3500 # Eclipse
+    powerLoad: 1750 # Eclipse
   - type: ExtensionCableReceiver
   - type: PointLight
     radius: 1.8

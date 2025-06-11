@@ -23,7 +23,7 @@
   - type: StasisBedVisuals
   - type: Appearance
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: ExtensionCableReceiver
   - type: Damageable
     damageContainer: Inorganic

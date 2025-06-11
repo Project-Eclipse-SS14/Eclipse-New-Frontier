@@ -425,7 +425,7 @@
   - type: AtmosDevice
   - type: PipeRestrictOverlap
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 15000 # Eclipse
   - type: Machine
     board: CondenserMachineCircuitBoard
   - type: WiresPanel

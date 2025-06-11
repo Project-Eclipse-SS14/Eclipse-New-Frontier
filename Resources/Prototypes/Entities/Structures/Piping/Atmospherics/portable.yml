@@ -46,7 +46,7 @@
         rotationsEnabled: false
         volume: 1
   - type: ApcPowerReceiver
-    powerLoad: 20000 # Eclipse
+    powerLoad: 10000 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:

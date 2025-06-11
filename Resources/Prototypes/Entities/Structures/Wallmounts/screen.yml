@@ -28,7 +28,7 @@
     graph: Timer
     node: screen
   - type: ApcPowerReceiver
-    powerLoad: 1000 # Eclipse
+    powerLoad: 500 # Eclipse
   - type: Electrified
     enabled: false
     usesApcPower: true

@@ -41,7 +41,7 @@
     ports:
       - OrderReceiver
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 1000
   - type: NFCargoTelepad # Frontier: use NF variant
   - type: Machine
     board: CargoTelepadMachineCircuitboard

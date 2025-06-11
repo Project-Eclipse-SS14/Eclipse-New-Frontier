@@ -72,7 +72,7 @@
   - type: Appearance
   - type: Climbable
   - type: ApcPowerReceiver
-    powerLoad: 2000 # Eclipse
+    powerLoad: 1000 # Eclipse
   - type: EmptyOnMachineDeconstruct
     containers:
     - scanner-bodyContainer

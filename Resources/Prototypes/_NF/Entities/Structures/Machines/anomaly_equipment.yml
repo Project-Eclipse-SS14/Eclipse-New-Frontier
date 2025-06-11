@@ -30,7 +30,7 @@
       shader: unshaded
       map: ["enum.AnomalyGeneratorVisualLayers.Base"]
   - type: ApcPowerReceiver
-    powerLoad: 20000 # Eclipse
+    powerLoad: 2500 # Eclipse
   - type: StaticPrice
     price: 250 # Eclipse
   - type: Transform
