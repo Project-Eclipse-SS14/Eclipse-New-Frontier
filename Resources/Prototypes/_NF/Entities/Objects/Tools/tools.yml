@@ -8,6 +8,7 @@
     isShipyardRCD: true
   - type: Sprite
     state: icon-shipyard
+  - type: GridAccess
 
 - type: entity
   id: ShipyardRCDEmpty

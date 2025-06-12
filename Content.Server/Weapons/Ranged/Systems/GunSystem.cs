@@ -33,15 +33,13 @@ namespace Content.Server.Weapons.Ranged.Systems;
 public sealed partial class GunSystem : SharedGunSystem
 {
     [Dependency] private readonly IComponentFactory _factory = default!;
-    [Dependency] private readonly BatterySystem _battery = default!;
     [Dependency] private readonly DamageExamineSystem _damageExamine = default!;
     [Dependency] private readonly PricingSystem _pricing = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
     [Dependency] private readonly SharedStaminaSystem _stamina = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!; // Eclipse
-    [Dependency] private readonly IComponentFactory _componentFactory = default!; // Eclipse
-    [Dependency] private readonly PowerCellSystem _powerCell = default!;
+    [Dependency] private readonly IComponentFactory _componentFactory = default!; // Eclipser
     [Dependency] private readonly SharedMapSystem _map = default!;
 
     private const float DamagePitchVariation = 0.05f;
