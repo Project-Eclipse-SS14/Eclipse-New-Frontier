@@ -33,7 +33,7 @@
 #      range: 500
 #    - type: StationLimitedNetwork
     - type: ApcPowerReceiver
-      powerLoad: 2000 # Eclipse
+      powerLoad: 1000 # Eclipse
     - type: ExtensionCableReceiver
     - type: Destructible
       thresholds:

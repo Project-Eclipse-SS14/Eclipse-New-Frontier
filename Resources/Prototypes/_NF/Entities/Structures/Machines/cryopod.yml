@@ -101,5 +101,5 @@
           True: { visible: true }
           False: { visible: false }
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
   - type: Climbable

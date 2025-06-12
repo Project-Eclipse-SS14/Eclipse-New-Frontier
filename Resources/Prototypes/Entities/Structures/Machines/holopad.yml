@@ -16,7 +16,7 @@
         mask:
         - Impassable
   - type: ApcPowerReceiver
-    powerLoad: 3000 # Eclipse
+    powerLoad: 1500 # Eclipse
   - type: StationAiVision
   - type: Sprite
     sprite: Structures/Machines/holopad.rsi

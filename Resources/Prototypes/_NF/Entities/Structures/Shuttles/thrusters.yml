@@ -14,7 +14,7 @@
     firingDesiredPowerDraw: 500
     firingPowerDrawRampDuration: 3
   - type: ApcPowerReceiver
-    powerLoad: 3000 # Eclipse
+    powerLoad: 625 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/thruster.rsi
     layers:
@@ -59,7 +59,7 @@
     firingPowerDrawRampDuration: 3
     thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
-    powerLoad: 1500 # Eclipse
+    powerLoad: 250 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/gyroscope.rsi
     layers:
@@ -195,7 +195,7 @@
     firingPowerDrawRampDuration: 3
     thrustPerPartLevel: [250, 312.5, 375, 437.5]
   - type: ApcPowerReceiver
-    powerLoad: 1500 # Eclipse
+    powerLoad: 250 # Eclipse
   - type: Sprite
     sprite: _NF/Structures/Shuttles/gyroscope.rsi
     layers:

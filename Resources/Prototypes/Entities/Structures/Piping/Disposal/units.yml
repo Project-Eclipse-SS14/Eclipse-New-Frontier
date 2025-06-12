@@ -78,7 +78,7 @@
     price: 35 # Eclipse
   - type: PowerSwitch
   - type: ApcPowerReceiver # Frontier
-    powerLoad: 4000 # Eclipse
+    powerLoad: 250 # Allows us to not use the 1000 baseline
 
 - type: entity
   id: DisposalUnit

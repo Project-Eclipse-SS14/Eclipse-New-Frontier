@@ -28,7 +28,7 @@
         !type:DamageTrigger
         damage: 0
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 5000 # Eclipse
     powerDisabled: false # Frontier - true<false Start on
   - type: ExtensionCableReceiver
   - type: Appearance

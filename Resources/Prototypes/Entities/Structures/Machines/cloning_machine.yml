@@ -55,7 +55,7 @@
     - Biomass
   - type: WiresPanel
   - type: ApcPowerReceiver
-    powerLoad: 10000 # Eclipse
+    powerLoad: 1000 # Eclipse
   - type: Appearance
   - type: GenericVisualizer
     visuals:

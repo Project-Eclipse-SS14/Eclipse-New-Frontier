@@ -48,7 +48,7 @@
     anchored: true
     noRot: false
   - type: ApcPowerReceiver
-    powerLoad: 25000 # Eclipse
+    powerLoad: 10000 # Eclipse
     needsPower: true
   - type: UpgradePowerDraw
     powerDrawMultiplier: 0.80

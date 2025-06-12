@@ -13,7 +13,7 @@
     - type: AmeFuelContainer
     - type: StaticPrice
       price: 250 # Eclipse
-      vendPrice: 20000 # Eclipse
+      vendPrice: 12500 # Eclipse
     - type: GuideHelp
       guides: [AME, Power]
     - type: Tag # Frontier

@@ -89,7 +89,7 @@
   - type: Wires
     layoutId: Docking # TODO: rework these
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 2500 # Eclipse
   - type: ExtensionCableReceiver
   - type: GasPressurePump
     enabled: false

@@ -54,8 +54,8 @@
   - type: PowerCharge
     windowTitle: gravity-generator-window-title
     idlePower: 50
-    activePower: 10000 # Eclipse
-    activeChargingPower: 10000 # Eclipse
+    activePower: 12500 # Eclipse
+    activeChargingPower: 12500 # Eclipse
   - type: GravityGenerator
     lightRadiusMin: 0.75
     lightRadiusMax: 2.5
@@ -133,11 +133,11 @@
   - type: Machine
     board: MiniGravityGeneratorCircuitboard
   - type: ApcPowerReceiver
-    powerLoad: 5000 # Eclipse
+    powerLoad: 2500 # Eclipse
   - type: PowerCharge
     idlePower: 15
-    activePower: 5000 # Eclipse
-    activeChargingPower: 5000 # Eclipse
+    activePower: 2500 # Eclipse
+    activeChargingPower: 2500 # Eclipse
   - type: GravityGenerator
     lightRadiusMin: 0.75
     lightRadiusMax: 2.5

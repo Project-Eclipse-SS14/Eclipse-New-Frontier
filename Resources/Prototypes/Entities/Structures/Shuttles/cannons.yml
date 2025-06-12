@@ -369,4 +369,4 @@
     board: ShuttleGunKineticCircuitboard
   - type: ExtensionCableReceiver # Frontier
   - type: ApcPowerReceiver # Frontier
-    powerLoad: 5000 # Eclipse
+    powerLoad: 3000 # Eclipse

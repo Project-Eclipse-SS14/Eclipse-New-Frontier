@@ -91,7 +91,7 @@
   - type: WiresVisuals
   - type: ElectrocutionHUDVisuals
   - type: ApcPowerReceiver
-    powerLoad: 200 # Eclipse
+    powerLoad: 50 # Eclipse
   - type: ExtensionCableReceiver
   - type: Electrified
     enabled: false

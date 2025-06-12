@@ -55,7 +55,7 @@
     - type: InteractionOutline
     - type: Appearance
     - type: ApcPowerReceiver
-      powerLoad: 10 # Eclipse
+      powerLoad: 0
     - type: Tag
       tags:
         - Structure
