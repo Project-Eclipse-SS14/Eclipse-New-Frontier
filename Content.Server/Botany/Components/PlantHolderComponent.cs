@@ -10,7 +10,7 @@ public sealed partial class PlantHolderComponent : Component
     /// <summary>
     /// Game time for the next plant reagent update.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextUpdate = TimeSpan.Zero;
 
     /// <summary>
@@ -34,7 +34,7 @@ public sealed partial class PlantHolderComponent : Component
     /// <summary>
     /// Game time when the plant last did a growth update.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan LastCycle = TimeSpan.Zero;
 
     /// <summary>

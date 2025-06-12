@@ -3,12 +3,12 @@ salvage-expedition-announcement-early-finish = Экспедиция была о�
 salvage-expedition-announcement-destruction =
     { $count ->
         [1] Уничтожить {$structure} до окончания экспедиции.
-       *[others] Уничтожить {$count} {MAKEPLURAL($structure)} до окончания экспедиции.
+       *[others] Уничтожить {$count} {$structure} до окончания экспедиции.
     }
 salvage-expedition-announcement-elimination =
     { $count ->
         [1] Устранить {$target} до окончания экспедиции.
-       *[others] Устранить {$count} {MAKEPLURAL($target)} до окончания экспедиции.
+       *[others] Устранить {$count} {$target} до окончания экспедиции.
     }
 salvage-expedition-announcement-destruction-entity-fallback = строений
 salvage-expedition-announcement-elimination-entity-fallback = целей

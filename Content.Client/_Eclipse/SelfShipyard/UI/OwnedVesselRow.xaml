@@ -1,0 +1,28 @@
+<PanelContainer xmlns="https://spacestation14.io"
+                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+                HorizontalExpand="True">
+    <BoxContainer Orientation="Horizontal"
+                  HorizontalExpand="True">
+        <Label Name="VesselName"
+            Access="Public"
+            HorizontalExpand="True" />
+        <Label Name="Price"
+            Access="Public"
+            MinWidth="80"
+            Align="Right"
+            Margin="0 0 5 0"
+            HorizontalAlignment="Right" /> <!-- Right margin to account for scroll bar -->
+        <Button Name="Purchase"
+            Access="Public"
+            ToolTip=""
+            Text="{Loc 'self-shipyard-console-purchase-available'}"
+            StyleClasses="LabelSubText"
+            MinWidth="130"
+            HorizontalAlignment="Right" /> <!-- 130 px: approximate width of "Purchase"-->
+        <PanelContainer>
+            <PanelContainer.PanelOverride>
+                <gfx:StyleBoxFlat BackgroundColor="#252825" />
+            </PanelContainer.PanelOverride>
+        </PanelContainer>
+    </BoxContainer>
+</PanelContainer>

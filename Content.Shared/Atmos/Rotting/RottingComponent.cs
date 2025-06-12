@@ -21,7 +21,7 @@ public sealed partial class RottingComponent : Component
     /// <summary>
     /// When the next check will happen for rot progression + effects like damage and ammonia
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextRotUpdate = TimeSpan.Zero;
 

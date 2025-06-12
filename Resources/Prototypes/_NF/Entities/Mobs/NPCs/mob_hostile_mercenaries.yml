@@ -57,7 +57,6 @@
     pack: mercenaryhumanoidchatter
     minimumWait: 30
     maximumWait: 120
-    nextAdvertisementTime: 10
   - type: AutoWakeUp
   - type: MovementSpeedModifier
     baseWalkSpeed : 4.5

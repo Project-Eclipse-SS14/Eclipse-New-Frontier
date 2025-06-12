@@ -51,6 +51,6 @@ public sealed partial class EggLayerComponent : Component
     /// <summary>
     ///     When to next try to produce.
     /// </summary>
-    [DataField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextGrowth = TimeSpan.Zero;
 }

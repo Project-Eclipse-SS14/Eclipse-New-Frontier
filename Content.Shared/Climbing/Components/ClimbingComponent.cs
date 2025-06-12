@@ -29,7 +29,7 @@ public sealed partial class ClimbingComponent : Component
     /// <summary>
     /// The Climbing DoAfter.
     /// </summary>
-    [DataField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public DoAfterId? DoAfter;
 
     /// <summary>

@@ -58,7 +58,6 @@ namespace Content.Server.Explosion.Components
         /// When can the trigger run again?
         /// </summary>
         [ViewVariables(VVAccess.ReadWrite)]
-        [DataField("nextTrigger", customTypeSerializer: typeof(TimeOffsetSerializer))]
         [AutoPausedField]
         public TimeSpan NextTrigger = TimeSpan.Zero;
 
@@ -66,7 +65,6 @@ namespace Content.Server.Explosion.Components
         /// When will the visual state be updated again after activation?
         /// </summary>
         [ViewVariables(VVAccess.ReadWrite)]
-        [DataField("nextVisualUpdate", customTypeSerializer: typeof(TimeOffsetSerializer))]
         [AutoPausedField]
         public TimeSpan NextVisualUpdate = TimeSpan.Zero;
 

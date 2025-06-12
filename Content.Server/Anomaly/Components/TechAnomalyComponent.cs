@@ -53,7 +53,7 @@ public sealed partial class TechAnomalyComponent : Component
     /// <summary>
     /// time until the next activation of the timer ports
     /// </summary>
-    [DataField, AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextTimer = TimeSpan.Zero;
 
     [DataField]

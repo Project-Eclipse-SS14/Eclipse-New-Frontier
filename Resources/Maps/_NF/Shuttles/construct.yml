@@ -107,6 +107,7 @@ entities:
     - type: RadiationGridResistance
     - type: BecomesStation
       id: Construct
+    - type: SaveableShuttle
 - proto: AirlockExternalGlass
   entities:
   - uid: 45

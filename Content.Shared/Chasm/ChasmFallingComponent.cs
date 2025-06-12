@@ -22,7 +22,7 @@ public sealed partial class ChasmFallingComponent : Component
     [DataField("deletionTime")]
     public TimeSpan DeletionTime = TimeSpan.FromSeconds(1.8f);
 
-    [DataField("nextDeletionTime", customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextDeletionTime = TimeSpan.Zero;
 

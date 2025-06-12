@@ -12,7 +12,7 @@ public sealed partial class SolutionInjectWhileEmbeddedComponent : BaseSolutionI
         ///<summary>
         ///The time at which the injection will happen.
         ///</summary>
-        [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
+        [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
         public TimeSpan NextUpdate;
         
         ///<summary>

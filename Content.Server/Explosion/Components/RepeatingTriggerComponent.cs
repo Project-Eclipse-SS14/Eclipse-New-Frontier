@@ -20,6 +20,6 @@ public sealed partial class RepeatingTriggerComponent : Component
     /// <summary>
     /// When the next trigger will be.
     /// </summary>
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer)), AutoPausedField]
+    [ViewVariables(VVAccess.ReadWrite), AutoPausedField]
     public TimeSpan NextTrigger;
 }

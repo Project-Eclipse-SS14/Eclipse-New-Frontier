@@ -128,7 +128,7 @@
     board: Null
 
 - type: entity
-  parent: ComputerShuttle
+  parent: [ ComputerShuttle, BaseC3SyndicateContraband ]
   id: ComputerShuttleAntag
   categories: [ HideSpawnMenu ]
   components:

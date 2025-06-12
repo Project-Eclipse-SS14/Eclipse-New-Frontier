@@ -1,7 +1,9 @@
+using Content.Shared.Doors.Components;
 using Content.Shared.Roles;
 using Content.Shared.SprayPainter.Prototypes;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.SprayPainter.Components;
 
@@ -21,4 +23,10 @@ public sealed partial class PaintableAirlockComponent : Component
     /// </summary>
     [DataField(required: true), AutoNetworkedField]
     public ProtoId<DepartmentPrototype>? Department;
+
+    /// <summary>
+    /// Stores last sprite that was set on an airlock, used to restore airlock's sprite when loading a map
+    /// </summary>
+    [DataField]
+    public string LastSetSprite = string.Empty;
 }

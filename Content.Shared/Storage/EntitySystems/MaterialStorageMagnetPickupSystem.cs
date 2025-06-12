@@ -7,6 +7,7 @@ using Content.Shared.Hands.Components;  // Frontier
 using Content.Shared.Verbs;     // Frontier
 using Robust.Shared.Utility;    // Frontier
 using Content.Shared.Popups;    // Eclipse
+using Content.Server.SelfShipyard.Events; // Eclipse
 
 namespace Content.Shared.Storage.EntitySystems;
 
@@ -32,6 +33,7 @@ public sealed class MaterialStorageMagnetPickupSystem : EntitySystem
         SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, EntityUnpausedEvent>(OnMagnetUnpaused);
         SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, ExaminedEvent>(OnExamined);  // Frontier
         SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, GetVerbsEvent<AlternativeVerb>>(AddToggleMagnetVerb);    // Frontier
+        SubscribeLocalEvent<MaterialStorageMagnetPickupComponent, AfterShuttleDeserializedEvent>(OnDeserialized); // Eclipse
     }
 
     private void OnMagnetUnpaused(EntityUid uid, MaterialStorageMagnetPickupComponent component, ref EntityUnpausedEvent args)
@@ -41,8 +43,20 @@ public sealed class MaterialStorageMagnetPickupSystem : EntitySystem
 
     private void OnMagnetMapInit(EntityUid uid, MaterialStorageMagnetPickupComponent component, MapInitEvent args)
     {
+        Init(component); // Eclipse
+    }
+
+    // Eclipse-Start
+    private void OnDeserialized(EntityUid uid, MaterialStorageMagnetPickupComponent component, AfterShuttleDeserializedEvent args)
+    {
+        Init(component);
+    }
+
+    private void Init(MaterialStorageMagnetPickupComponent component)
+    {
         component.NextScan = _timing.CurTime + TimeSpan.FromSeconds(1); // Need to add 1 sec to fix a weird time bug with it that make it never start the magnet
     }
+    // Eclipse-End
 
     // Frontier, used to add the magnet toggle to the context menu
     private void AddToggleMagnetVerb(EntityUid uid, MaterialStorageMagnetPickupComponent component, GetVerbsEvent<AlternativeVerb> args)

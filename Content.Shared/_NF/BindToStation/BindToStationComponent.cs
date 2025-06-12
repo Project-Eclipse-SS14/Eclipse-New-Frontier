@@ -5,6 +5,7 @@ namespace Content.Shared._NF.BindToStation;
 /// Can be disabled in child entities to exempt from binding.
 /// </summary>
 [RegisterComponent]
+[UnsavedComponent]
 public sealed partial class BindToStationComponent : Component
 {
     /// <summary>

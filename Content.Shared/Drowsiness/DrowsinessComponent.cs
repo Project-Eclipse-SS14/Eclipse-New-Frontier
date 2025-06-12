@@ -22,7 +22,7 @@ public sealed partial class DrowsinessComponent : Component
     [DataField(required: true)]
     public Vector2 DurationOfIncident = new Vector2(2, 5);
 
-    [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+    [ViewVariables(VVAccess.ReadWrite)]
     [AutoPausedField]
     public TimeSpan NextIncidentTime = TimeSpan.Zero;
 }

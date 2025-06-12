@@ -126,14 +126,12 @@ public sealed partial class ParticleAcceleratorControlBoxComponent : Component
     /// <summary>
     /// The time at which the PA last fired a wave of particles.
     /// </summary>
-    [DataField("lastFire")]
     [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan LastFire;
 
     /// <summary>
     /// The time at which the PA will next fire a wave of particles.
     /// </summary>
-    [DataField("nextFire")]
     [ViewVariables(VVAccess.ReadWrite)]
     public TimeSpan NextFire;
 

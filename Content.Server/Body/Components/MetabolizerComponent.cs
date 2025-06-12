@@ -15,7 +15,7 @@ namespace Content.Server.Body.Components
         /// <summary>
         ///     The next time that reagents will be metabolized.
         /// </summary>
-        [DataField(customTypeSerializer: typeof(TimeOffsetSerializer))]
+        [ViewVariables(VVAccess.ReadWrite)]
         public TimeSpan NextUpdate;
 
         /// <summary>

@@ -40,6 +40,7 @@ using Content.Shared._NF.Bank.BUI;
 using Content.Shared._NF.ShuttleRecords;
 using Content.Server.StationEvents.Components;
 using Content.Shared.Forensics.Components;
+using Content.Server._Eclipse.SelfShipyard.Components;
 using Robust.Server.Player;
 using Robust.Shared.Timing;
 
@@ -186,6 +187,14 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
             PlayDenySound(player, shipyardConsoleUid, component);
             return;
         }
+
+        // Start-Eclipse
+        if (TryComp<SaveableShuttleComponent>(shuttleUid, out var saveableShuttle))
+        {
+            saveableShuttle.PrototypeId = vessel.ID;
+        }
+        // End-Eclipse
+
         EntityUid? shuttleStation = null;
         // setting up any stations if we have a matching game map prototype to allow late joins directly onto the vessel
         if (_prototypeManager.TryIndex<GameMapPrototype>(vessel.ID, out var stationProto))

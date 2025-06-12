@@ -1,4 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
+using Content.Server.SelfShipyard.Events;
 using Robust.Shared.GameStates;
 using Robust.Shared.Timing;
 
@@ -16,6 +17,7 @@ public sealed class UseDelaySystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<UseDelayComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<UseDelayComponent, AfterShuttleDeserializedEvent>(OnDeserialized);
         SubscribeLocalEvent<UseDelayComponent, EntityUnpausedEvent>(OnUnpaused);
         SubscribeLocalEvent<UseDelayComponent, ComponentGetState>(OnDelayGetState);
         SubscribeLocalEvent<UseDelayComponent, ComponentHandleState>(OnDelayHandleState);
@@ -44,6 +46,16 @@ public sealed class UseDelaySystem : EntitySystem
     }
 
     private void OnMapInit(Entity<UseDelayComponent> ent, ref MapInitEvent args)
+    {
+        Init(ent);
+    }
+
+    private void OnDeserialized(Entity<UseDelayComponent> ent, ref AfterShuttleDeserializedEvent args)
+    {
+        Init(ent);
+    }
+
+    private void Init(Entity<UseDelayComponent> ent)
     {
         // Set default delay length from the prototype
         // This makes it easier for simple use cases that only need a single delay
